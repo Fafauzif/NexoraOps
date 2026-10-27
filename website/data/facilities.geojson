@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.873,
+          -6.243
+        ]
+      },
+      "properties": {
+        "hub_id": "H_CAW",
+        "node": "CAW",
+        "capacity_daily": 240000,
+        "status": "hypothetical_existing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.793,
+          -6.176
+        ]
+      },
+      "properties": {
+        "hub_id": "H_TOM",
+        "node": "TOM",
+        "capacity_daily": 210000,
+        "status": "hypothetical_existing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8,
+          -6.401
+        ]
+      },
+      "properties": {
+        "hub_id": "H_DEP",
+        "node": "DEP",
+        "capacity_daily": 160000,
+        "status": "hypothetical_existing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.991,
+          -6.252
+        ]
+      },
+      "properties": {
+        "hub_id": "H_BEK_CAND",
+        "node": "BEK",
+        "capacity_daily": 120000,
+        "status": "hypothetical_candidate"
+      }
+    }
+  ]
+}

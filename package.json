@@ -1,0 +1,16 @@
+{
+  "name": "nexoraops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "NexoraOps presentation website and reproducible decision model",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node tests/model.test.mjs && node tests/worker.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,818 @@
+{
+  "product": "NexoraOps",
+  "version": "1.0.0",
+  "context_version": "6.0",
+  "date": "2026-10-27",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 49,
+      "sha256": "d96505f21d6b47e26684439a4804af63cbf3aa6296532d11560b3560a8562383"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 32,
+      "sha256": "c4c91d5ced09678d071e6274bd8a29386a868ef2f5af0d4b1febc1feffbe2ce8"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 2974,
+      "sha256": "cad8d19f9cfb78eaca255b05183e5a51bee9522fb3e50a777a1d846e0e19c778"
+    },
+    {
+      "path": "Nexora_Master_Context_Pack.md",
+      "bytes": 1014493,
+      "sha256": "d62b16995dc1c61438304c6994e7a703856f7716001672044f56dd40e62ca81f"
+    },
+    {
+      "path": "PRODUCT.md",
+      "bytes": 3533,
+      "sha256": "4c1ccb132ef754d49798477bee4ab60c60e7c601c921212819cec9b9259e5f67"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4925,
+      "sha256": "1ad959bb7c332d8a56205d52ad9297cb18ecfd3b8eb88e45545b1b672c928d37"
+    },
+    {
+      "path": "analysis/Nexora_Master_Context_Pack.md",
+      "bytes": 87437,
+      "sha256": "62e44d48f485459cd24e4e11f2b2b0e939cf3f3c519e1538bc4a0407bb6de506"
+    },
+    {
+      "path": "analysis/Nexora_Methodology_and_Findings.md",
+      "bytes": 23488,
+      "sha256": "83917bc109a262c05fdc477426512ae31f6f3e834c54a820ad5521350899e43b"
+    },
+    {
+      "path": "analysis/Nexora_Prototype_Handoff.md",
+      "bytes": 9046,
+      "sha256": "e21e0d9e1dfb09158395325ef98c1d12248cf70b8f542c6a19637b6668382a2b"
+    },
+    {
+      "path": "analysis/README.md",
+      "bytes": 1555,
+      "sha256": "7c2a45ecd4d7596cc53e0d21f96415e589eb3eb4b647702a0b849413c63b9915"
+    },
+    {
+      "path": "analysis/code/build_workbook.mjs",
+      "bytes": 33120,
+      "sha256": "3f7ce333ede40a99c77f997901cd808bfb5678b7f69d60b7db04d19480f7777d"
+    },
+    {
+      "path": "analysis/code/geography.py",
+      "bytes": 14278,
+      "sha256": "322ae51f316aa09611030406eb1fdbd723e669c9a41099b3b6079780878ff688"
+    },
+    {
+      "path": "analysis/code/model.py",
+      "bytes": 22468,
+      "sha256": "eb2ae07023ff47d1a46e084ddde73cd005dd48de86cf16300578d17ad60c90c0"
+    },
+    {
+      "path": "analysis/code/package_outputs.py",
+      "bytes": 3055,
+      "sha256": "f45b688f97eae85bdf7516c74c198be32ef663b315ec5e5ada45cbe84d576684"
+    },
+    {
+      "path": "analysis/code/prepare_deliverables.py",
+      "bytes": 28528,
+      "sha256": "8471ee92f02d7368a44840edfc61c7cc73fdabe07f00f0ac68af3e023ae559f1"
+    },
+    {
+      "path": "analysis/code/render_docs.py",
+      "bytes": 48662,
+      "sha256": "f216229ebfadd9e1767d19b66fff9d9d55d86ce16c1fff129caff2eb2d99eb31"
+    },
+    {
+      "path": "analysis/code/retrieve_roads.py",
+      "bytes": 3127,
+      "sha256": "4f99d5cde478d6b27af6366fc27bad17fec15bde185ebe52702c2518f3d2614a"
+    },
+    {
+      "path": "analysis/code/verify_workbook.py",
+      "bytes": 6488,
+      "sha256": "5c084e7f9a4d7cd13433aac1fa8b1c92a4b9d0031f65c97270e1f957e0002f0a"
+    },
+    {
+      "path": "analysis/data/assumptions.json",
+      "bytes": 29788,
+      "sha256": "21c16f768217b7f9a627e8d5771e243c6d0e1de3a597e24aa8552a0f625943dd"
+    },
+    {
+      "path": "analysis/data/config.json",
+      "bytes": 2883,
+      "sha256": "29777f968222a490e4153d40d7c0de4f31e5463335d86048ebd036b98703b4e7"
+    },
+    {
+      "path": "analysis/data/cost_curves.json",
+      "bytes": 26376,
+      "sha256": "d1167109cec14d96d59c72a3849e25b7cc8fb69f0341f2ba0038aabf49f48ecd"
+    },
+    {
+      "path": "analysis/data/heatmap.json",
+      "bytes": 29755,
+      "sha256": "4800c17092f969ac640fa879d65e8574e91dae027398fe6bbe807d335fbe6087"
+    },
+    {
+      "path": "analysis/data/incidents.json",
+      "bytes": 6023,
+      "sha256": "c2a319a9cae4f8d2a9561c2c55d0e9d6763bbe35b1a2ab26c63405d14683f1eb"
+    },
+    {
+      "path": "analysis/data/policies.json",
+      "bytes": 120166,
+      "sha256": "0a03aa860e34dbb5b4fe09172f26e75d4259ae3acedd06b36b5724a2c877adba"
+    },
+    {
+      "path": "analysis/data/reference_fixtures.json",
+      "bytes": 2301,
+      "sha256": "5e7ea13a838bf580c0891cb3eb3cc68887d3abe3815d70fcd27d237f195706d4"
+    },
+    {
+      "path": "analysis/data/regional_outcomes.json",
+      "bytes": 29609,
+      "sha256": "f6af8b8dbafb5d54941755100008b14c7d97f42dcf751d6e271ddb8fa5245573"
+    },
+    {
+      "path": "analysis/data/routes.json",
+      "bytes": 14290,
+      "sha256": "be4d4e0a37e2c7be92e5acd4610f919159261019a62fdb97ddfe0fa3df3b05a4"
+    },
+    {
+      "path": "analysis/data/schema.json",
+      "bytes": 3189,
+      "sha256": "596d330c799035c09c1459598ee255a9c7f05a95680a6039af97e00167a0e4cc"
+    },
+    {
+      "path": "analysis/data/selected_outcomes.json",
+      "bytes": 112949,
+      "sha256": "778cd1a4ff0d92f966b832f37f0054615468b58b711cb4a4049488ffa1f121b7"
+    },
+    {
+      "path": "analysis/data/sources.json",
+      "bytes": 8665,
+      "sha256": "2c5926c5b1884babf63f69feb4a9cee71c5e307d331aae1c975096ab2e60e599"
+    },
+    {
+      "path": "analysis/data/worlds_reference.json",
+      "bytes": 253227,
+      "sha256": "a1e269bfefefefa8593c529660d963a11ae03ba14f260860d1da723d1fedabcd"
+    },
+    {
+      "path": "analysis/evidence/Incoming_Handoff.md",
+      "bytes": 39398,
+      "sha256": "5988b69b278a763c2088d70f0ffd73b105b4930465ae42bf613a2f07ef3c7727"
+    },
+    {
+      "path": "analysis/evidence/Source_and_Acquisition_Record.md",
+      "bytes": 6094,
+      "sha256": "f08420963809d0f1f392bd6825c7efd97904307d5186275e748fccb0f17f7a5e"
+    },
+    {
+      "path": "analysis/evidence/assumption_register.csv",
+      "bytes": 17984,
+      "sha256": "1c7e1fe09c192f210e6d2e05715419930569cb6f54afd53048bec1d5daf8806a"
+    },
+    {
+      "path": "analysis/evidence/source_register.csv",
+      "bytes": 6090,
+      "sha256": "6d97fe0795190466e471771041310ce3f192172e43c74398db30b17436723d08"
+    },
+    {
+      "path": "analysis/exhibits/geography_fallback.png",
+      "bytes": 126902,
+      "sha256": "8ebdd8d5cfdb5a682fb349736c622ccf75041989fa98f2ca570d7c40fea40a8a"
+    },
+    {
+      "path": "analysis/exhibits/policy_heatmap.png",
+      "bytes": 158972,
+      "sha256": "e8e9dbb8df761a49a50067ad9ae4b35f37448dcb9fda43fc5574d1ce7d26675f"
+    },
+    {
+      "path": "analysis/exhibits/policy_npv.png",
+      "bytes": 60958,
+      "sha256": "150c2163d6c68d5cbfc021f73dd1c0c091dc366ab1c1cb1103136f3c0c1f7518"
+    },
+    {
+      "path": "analysis/exhibits/sensitivity.png",
+      "bytes": 73261,
+      "sha256": "b2c989b2be1078803cf9a99cf7f707d67b42c1e2cd8e816aaee8904d8b20af78"
+    },
+    {
+      "path": "analysis/geo/corridors.geojson",
+      "bytes": 14322,
+      "sha256": "967cf3c192ebd6dbc344aca01f257472785dba98efce8f692843066348e6442a"
+    },
+    {
+      "path": "analysis/geo/decision_zones.geojson",
+      "bytes": 160592,
+      "sha256": "b751934db98e0497bf34c632d91df53458f5fbf25376b43d288c9397a1080505"
+    },
+    {
+      "path": "analysis/geo/facilities.geojson",
+      "bytes": 1333,
+      "sha256": "116a4b791fa1ee1dd753fba6979c2915685434c305da407959e67e9154bff0de"
+    },
+    {
+      "path": "analysis/geo/qa.json",
+      "bytes": 607,
+      "sha256": "f6fbec82fa8d909430cd393d637cb0921cf945651d3e89e3188fde67ab4328a6"
+    },
+    {
+      "path": "analysis/geo/routes_matrix.csv",
+      "bytes": 4614,
+      "sha256": "ee38a179d2fc8220b7a608627443537343f2015b9e020ff5e28f3b392d564d16"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/Nexora_Logistics_Analysis.xlsx",
+      "bytes": 172697,
+      "sha256": "129f4a909aca2896657b3cfd45e9dfae2d21e572fc8660402667693fbf83031b"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Assumptions.png",
+      "bytes": 233641,
+      "sha256": "8823226ee05f57bbed66f9ad3c9eda9843adbd31fd561039e81a7da123a7ef6c"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Audit.png",
+      "bytes": 257403,
+      "sha256": "8b0a7c0c07f6bd712a434bb492f15d9d0bab18f8c3b494d6beb4652420d4f68f"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Capacity.png",
+      "bytes": 169766,
+      "sha256": "a27ae8c873fd947c413e786de5daae5d05116008c7d421bda1520d1be7a99938"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Case_Facts.png",
+      "bytes": 235948,
+      "sha256": "43531f4e73e41fa3e7f3605c93cad435a283370684055e000035af022e462eb7"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Finance.png",
+      "bytes": 278664,
+      "sha256": "3eee54d9fa27f029970714af598b22f9dcbb899fe5fa86ed51988888c51ec548"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Finance_controls.png",
+      "bytes": 206881,
+      "sha256": "e46077ad2a50e2577aff75ed9b909cacb8f0ec5113adeadf4d48d3e22f8e3b69"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Geography.png",
+      "bytes": 197054,
+      "sha256": "b63752b13e5c7ca3ea090925358811391ba0fa87134d8e57a94426c9bb541c41"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Heatmap.png",
+      "bytes": 325523,
+      "sha256": "1f5d672bd1281166c064b3377931dc3452b0be717e617d238f64bb05fc5600d8"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Ops_Import.png",
+      "bytes": 264806,
+      "sha256": "177b84dba6c4e851eee2c81bd6b9d75c02d394a5a53e83d313ebc699a46d791d"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Policy_Lab.png",
+      "bytes": 268983,
+      "sha256": "a2487ce2cf78dff8c2a2c4e196f68672639bce3f0f3a06bd13981f4c05256ce1"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/ReadMe.png",
+      "bytes": 218062,
+      "sha256": "f3d6e509aa5bd4456aae705a2d65e90f8c0e3b970d14af911c57b661961e32eb"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Risk.png",
+      "bytes": 118001,
+      "sha256": "033a4ce35b315ba23a6ef9d2b180b2e55239254497613f19d43120cc786748d8"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Sources.png",
+      "bytes": 398373,
+      "sha256": "087da76b595c892abdcbe5274966006cf149eb210ccb5256fa0c4da090977f31"
+    },
+    {
+      "path": "analysis/outputs/nexora_v1/previews/Summary.png",
+      "bytes": 244346,
+      "sha256": "4907f76aaf7d518d34bc659ac14228bac76b1874e90bf8db2a66d200642a8c20"
+    },
+    {
+      "path": "analysis/results/analysis.json",
+      "bytes": 64564,
+      "sha256": "a7ed35c5ceaf7bb345de68c5c011547736681d6987ba19db2ceab9aa2a177a17"
+    },
+    {
+      "path": "analysis/results/dependencies.json",
+      "bytes": 221,
+      "sha256": "fe75dab431d70aabe9ff1ef6b13deb5b76a0d10fb9953e2b248d6b08b7dced3f"
+    },
+    {
+      "path": "analysis/results/finalist_npvs.npz",
+      "bytes": 992205,
+      "sha256": "d27df5d60a62b9aa37775038ef052a3da61fb88a9e7b4a572011c0c552c1c71f"
+    },
+    {
+      "path": "analysis/results/heatmap.csv",
+      "bytes": 10549,
+      "sha256": "a16728be34b211c507c3066b98c73ee76a52dd062dda00ca071a26e8a55c96ae"
+    },
+    {
+      "path": "analysis/results/library_receipts.json",
+      "bytes": 525,
+      "sha256": "78df90239d578ba671bd100b9ba9b01d0d5501ddcd5e6fa8545eba72ec23e5c6"
+    },
+    {
+      "path": "analysis/results/policy_comparison.csv",
+      "bytes": 4431,
+      "sha256": "262a0d6fb26c6bf30691c3dfe05d0707a0f88053ca0ca93fe94688a2b21e73fc"
+    },
+    {
+      "path": "analysis/results/run.log",
+      "bytes": 1815,
+      "sha256": "cc4d3762014c0c46b1303df97d012144ac017a89a764b5734fb7807409d2bf23"
+    },
+    {
+      "path": "analysis/results/validation.json",
+      "bytes": 2670,
+      "sha256": "77b2e54521ed9b34293dd7876b48f65e22666ca369f675e4ba20baff3a74e848"
+    },
+    {
+      "path": "analysis/results/workbook_artifact_checks.json",
+      "bytes": 1385,
+      "sha256": "920dc5a229c47f5370491b213e8b4228baf1cd6efc72adaedfcb3a12f3274c99"
+    },
+    {
+      "path": "analysis/results/workbook_build.log",
+      "bytes": 859,
+      "sha256": "9a676bb8440ebc898c5c730ffd6504712fdb01813bf226567ff99cf80672272e"
+    },
+    {
+      "path": "analysis/results/workbook_inputs.json",
+      "bytes": 648285,
+      "sha256": "c35fdee4188252edd910f7f0910e2d5f84bc349629c08d763a78eca1a6779555"
+    },
+    {
+      "path": "analysis/results/workbook_validation.json",
+      "bytes": 5901,
+      "sha256": "e38836be01468828a5d17d2572e158b3b11aaf9601c61c336fda45ab187574f2"
+    },
+    {
+      "path": "analysis/results/worlds_holdout_10000.npz",
+      "bytes": 2505978,
+      "sha256": "c0d66b4fa8984b61d15ccad609164a305d0fc58d2f222e23f65d4586d20240bc"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 64195,
+      "sha256": "2c9a0af6aad27a9066e1949c54dba7de3494ab6fb7658b1d8541c1565c59a378"
+    },
+    {
+      "path": "dist/data/assumptions.json",
+      "bytes": 29788,
+      "sha256": "21c16f768217b7f9a627e8d5771e243c6d0e1de3a597e24aa8552a0f625943dd"
+    },
+    {
+      "path": "dist/data/config.json",
+      "bytes": 2928,
+      "sha256": "0dcbf5b9ad1bd86f3771d15db842a0b6e81e29a365d04a764f0336f0162efc6a"
+    },
+    {
+      "path": "dist/data/corridors.geojson",
+      "bytes": 14322,
+      "sha256": "967cf3c192ebd6dbc344aca01f257472785dba98efce8f692843066348e6442a"
+    },
+    {
+      "path": "dist/data/cost_curves.json",
+      "bytes": 26376,
+      "sha256": "d1167109cec14d96d59c72a3849e25b7cc8fb69f0341f2ba0038aabf49f48ecd"
+    },
+    {
+      "path": "dist/data/decision_zones.geojson",
+      "bytes": 160592,
+      "sha256": "b751934db98e0497bf34c632d91df53458f5fbf25376b43d288c9397a1080505"
+    },
+    {
+      "path": "dist/data/facilities.geojson",
+      "bytes": 1333,
+      "sha256": "116a4b791fa1ee1dd753fba6979c2915685434c305da407959e67e9154bff0de"
+    },
+    {
+      "path": "dist/data/heatmap.json",
+      "bytes": 29755,
+      "sha256": "4800c17092f969ac640fa879d65e8574e91dae027398fe6bbe807d335fbe6087"
+    },
+    {
+      "path": "dist/data/incidents.json",
+      "bytes": 6023,
+      "sha256": "c2a319a9cae4f8d2a9561c2c55d0e9d6763bbe35b1a2ab26c63405d14683f1eb"
+    },
+    {
+      "path": "dist/data/policies.json",
+      "bytes": 120166,
+      "sha256": "0a03aa860e34dbb5b4fe09172f26e75d4259ae3acedd06b36b5724a2c877adba"
+    },
+    {
+      "path": "dist/data/reference_fixtures.json",
+      "bytes": 2301,
+      "sha256": "5e7ea13a838bf580c0891cb3eb3cc68887d3abe3815d70fcd27d237f195706d4"
+    },
+    {
+      "path": "dist/data/regional_outcomes.json",
+      "bytes": 29609,
+      "sha256": "f6af8b8dbafb5d54941755100008b14c7d97f42dcf751d6e271ddb8fa5245573"
+    },
+    {
+      "path": "dist/data/routes.json",
+      "bytes": 14290,
+      "sha256": "be4d4e0a37e2c7be92e5acd4610f919159261019a62fdb97ddfe0fa3df3b05a4"
+    },
+    {
+      "path": "dist/data/schema.json",
+      "bytes": 3189,
+      "sha256": "596d330c799035c09c1459598ee255a9c7f05a95680a6039af97e00167a0e4cc"
+    },
+    {
+      "path": "dist/data/selected_outcomes.json",
+      "bytes": 112949,
+      "sha256": "778cd1a4ff0d92f966b832f37f0054615468b58b711cb4a4049488ffa1f121b7"
+    },
+    {
+      "path": "dist/data/sources.json",
+      "bytes": 8651,
+      "sha256": "dc8c4b948def025dc632b5bf4068dfd51886914b8ac0ca1737a0040922bf672c"
+    },
+    {
+      "path": "dist/data/worlds.json",
+      "bytes": 7709446,
+      "sha256": "8e98c440b9f1a1e3c3940944dddad9e46891db6d80fee20a0f1e31206757e661"
+    },
+    {
+      "path": "dist/data/worlds_reference.json",
+      "bytes": 253227,
+      "sha256": "a1e269bfefefefa8593c529660d963a11ae03ba14f260860d1da723d1fedabcd"
+    },
+    {
+      "path": "dist/engine.js",
+      "bytes": 8106,
+      "sha256": "8819b15042f92fc2fb465e64943e8cb82d42581cc9094dd8df78bc51b757296f"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 183,
+      "sha256": "dfb1941f15f1770cece20a1eef6d288b2af1c6406842d62c5f85d4174b52b247"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 765,
+      "sha256": "dc81e6da659978573f1aae0eb4f219252499e3902bcd4b1e701d7813a082e120"
+    },
+    {
+      "path": "dist/scene.js",
+      "bytes": 16575,
+      "sha256": "ee69828d16b6e126a5e360a2be5b6722a162af79736bad71a1cdd6a142595cd0"
+    },
+    {
+      "path": "dist/styles.css",
+      "bytes": 20987,
+      "sha256": "e6aaadd5c5bc62b439eee502db2c7167b08009e696001753ecc891e05b723fdd"
+    },
+    {
+      "path": "dist/worker.js",
+      "bytes": 1341,
+      "sha256": "b210b908c4dc056142c61f0067e724184dbdea3c92d72c679c95bda5f1d9085e"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 3755,
+      "sha256": "15b7d219dc028c4522f22192853d963aa05426bc509cac95e38b02050547137f"
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "bytes": 3327,
+      "sha256": "2daeb9318220e86bc30f07259144f02576ba593b1d1a33d86eaf0b4d6be4c5d1"
+    },
+    {
+      "path": "docs/MODEL_AND_SIMULATION.md",
+      "bytes": 7157,
+      "sha256": "71735750165318985ee3f56286b004b50790fba3a7b7b788485237cde947f899"
+    },
+    {
+      "path": "docs/REFERENCE_GUIDE.md",
+      "bytes": 3140,
+      "sha256": "95fb58e0ae730e49ea074c82756ac3400d01e8c70a3c20e4a93ca6e5587dacc6"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 4161,
+      "sha256": "22f27001a95df42d536ee8421eb27ab59b8fc2eff0a3be7a6fb3f4b296237861"
+    },
+    {
+      "path": "docs/WORKFLOW.md",
+      "bytes": 5069,
+      "sha256": "1669cc283a79dcb1f5828ce8202a6b105333398185217562bc7d2a2b336045d9"
+    },
+    {
+      "path": "package.json",
+      "bytes": 414,
+      "sha256": "cb1eb1cf9acf2c15986e35d76294dab1f061c369eaca0000ebeab1e281a932c8"
+    },
+    {
+      "path": "references/Casebook Preliminary IBSC 2026.pdf",
+      "bytes": 34032733,
+      "sha256": "0fed0087e5c5f0c04fc8bae6b1c7dfcd0c798b06205b018eada4619f8e6547a0"
+    },
+    {
+      "path": "references/IBSC_2026_Nexora_Master_AI_Context_Pack_V5.md",
+      "bytes": 864527,
+      "sha256": "ad5658dde505c243f922c928ba9ae46f8e292878806e419b5a0680f3441e5ac3"
+    },
+    {
+      "path": "references/Nexora_Analysis_Standalone_Handoff.md",
+      "bytes": 39398,
+      "sha256": "5988b69b278a763c2088d70f0ffd73b105b4930465ae42bf613a2f07ef3c7727"
+    },
+    {
+      "path": "references/Pasted text(20261027-111348).txt",
+      "bytes": 20956,
+      "sha256": "e8ef52bacbdef8f1755df03346e39814f8abf49327f91b02b8e55952bd0791b4"
+    },
+    {
+      "path": "references/Recovered_User_Answers.txt",
+      "bytes": 769,
+      "sha256": "2da74501b63912381a0881da5576128c2b605bfa6378853061d44d7f9d7227a0"
+    },
+    {
+      "path": "references/images/01-cutaway-reference.png",
+      "bytes": 500479,
+      "sha256": "b304753dd39fda68cea8c54f193d56f80c76c97fb338b497c0eba06750f14c34"
+    },
+    {
+      "path": "references/images/01-stack-constraints.png",
+      "bytes": 293024,
+      "sha256": "784aee36a8bcb2727f00f0b4cb1019ec1d7e256e9a4989e8ec1da4b2988e9a51"
+    },
+    {
+      "path": "references/images/competition-essay-template.png",
+      "bytes": 183204,
+      "sha256": "aac0d12bfd276cd336c1c34487031e2ae6084fc954b8a49e25d5d35a0e516956"
+    },
+    {
+      "path": "references/images/jakcool-digital-twin.png",
+      "bytes": 754284,
+      "sha256": "09fec077e2aeb0aedc24acf9382505ad5624fce38e11f3da488c83702f75fb10"
+    },
+    {
+      "path": "references/images/jakcool-forecast.png",
+      "bytes": 516730,
+      "sha256": "3ff74155de3bb53af1cfedbcf739586d07f4b1fbc56ad9e25919e5ce25ca3183"
+    },
+    {
+      "path": "references/images/lintara-business.png",
+      "bytes": 309625,
+      "sha256": "8f7cd6c51687830076bcee58b6bf475eb639d435a6f10597c47cb9f3590b4219"
+    },
+    {
+      "path": "references/images/lintara-station-twin.png",
+      "bytes": 1310733,
+      "sha256": "3533c8b869a243e93a07d01e1b7000e951d581032a1cdaebf6f53b3f694aa2e8"
+    },
+    {
+      "path": "references/images/nexora-stitch-overview.png",
+      "bytes": 848194,
+      "sha256": "3f0936500e11057281e7beaf29c77fb4ea3b9ca1370ac00eaf110f98a3c1981e"
+    },
+    {
+      "path": "references/images/nexoraops-finished-facility.jpg",
+      "bytes": 108418,
+      "sha256": "81ba62ce3b052dd7a02a0bbce4616133f95203fba05a7bba03e770f023d4bb12"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/demand_capacity_forecast/code.html",
+      "bytes": 36603,
+      "sha256": "81d567dd295995a0d36f06183324d3c72c3fa58110344143a0402539d8fb2b86"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/demand_capacity_forecast/screen.png",
+      "bytes": 537229,
+      "sha256": "62222489480befc38374fcbc86541598d09706920026188b68b7bd7b8ba1a421"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/digital_twin/code.html",
+      "bytes": 38254,
+      "sha256": "ca4c6ada1ce4e5113974bd07b0fc3caec6d88ecda7fa2c80d9908838868708f2"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/digital_twin/screen.png",
+      "bytes": 558385,
+      "sha256": "cc3404266efe86a256db8ffe929f19d06b44072c63362e91f922adbbb101e6dc"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/financial_operational_impact/code.html",
+      "bytes": 32026,
+      "sha256": "6463a73420db9f8a0d720bd9f8125950094d7913131e5944c6ba9fe9a25ec29b"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/financial_operational_impact/screen.png",
+      "bytes": 678022,
+      "sha256": "afa8ecd94623f29b931d0fa7b9bac2c2e70c1d474e7f84b326d11e8c1c5fae5d"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/logistics_operations_dispatch_console/DESIGN.md",
+      "bytes": 9970,
+      "sha256": "b6e73fa2de67a4ca52dd82e858d028c23a656414c7a5f88deb7620dbfdd49301"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/policy_lab/code.html",
+      "bytes": 41309,
+      "sha256": "3de8c359e95b3ed29260c0d928c526c7b1cef3b079a47578c9e815cceee0f134"
+    },
+    {
+      "path": "references/stitch/stitch_multi_screen_app_design/policy_lab/screen.png",
+      "bytes": 491020,
+      "sha256": "349fe3587c5d7dc936f2311ef5aa063dea87f452be452d9aa6ed8b8276418e3b"
+    },
+    {
+      "path": "resources/PROJECT_REVIEW_GUIDANCE.md",
+      "bytes": 2819,
+      "sha256": "8bc0c017658aee34a89c06184f25b4c14a3cc583a8bfba99b3e091a7e0399628"
+    },
+    {
+      "path": "resources/README.md",
+      "bytes": 1859,
+      "sha256": "277a3621bc263188f53b819f785d11e69b8d903255c86186ddf64caf11e4a64b"
+    },
+    {
+      "path": "resources/acquire-upstream.sh",
+      "bytes": 743,
+      "sha256": "6450e1d8c1f30f6e38b12831319fa03f27094416987fa4e15d4e9db7ef46a03a"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 362,
+      "sha256": "647d7d012c558eb1e22a9e4337fe566cc25fcce207c938d656a247b5d246272e"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 963,
+      "sha256": "c589569b914c6068720dfd0a8d4c6d4891fc7d3646d82bd81555495a396ffc07"
+    },
+    {
+      "path": "tests/fixtures/annual-export.csv",
+      "bytes": 1227,
+      "sha256": "0cd6e1341e41c28a996c32c7723452df8e8fd49bff82e6cee4ba85375c56939d"
+    },
+    {
+      "path": "tests/fixtures/invalid-scenario.json",
+      "bytes": 35,
+      "sha256": "8e11a96b32378b07024c1b0ec9735202b708a7a03346d401ff1a2cb99ffad6c5"
+    },
+    {
+      "path": "tests/fixtures/scenario-export.json",
+      "bytes": 15048,
+      "sha256": "de084962ab980520024b98b16b71320d6b858065c098f04ffaf93b3b1c369473"
+    },
+    {
+      "path": "tests/model.test.mjs",
+      "bytes": 2439,
+      "sha256": "9185786e7c86cd933888eb8612e2a2dbc912aa1c2578be9fbd94ed16b0f166e4"
+    },
+    {
+      "path": "tests/viewport.html",
+      "bytes": 341,
+      "sha256": "ba850a3f5a74aed7cfc8edd169aba7ca9ea1e02247c0f6943ff5f32d0db65b3f"
+    },
+    {
+      "path": "tests/worker.test.mjs",
+      "bytes": 1322,
+      "sha256": "61b6c6c0ba7fdb01d45e7aa8fa4494fc277a5f9960ba60cd0cfe2366a6588042"
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 463,
+      "sha256": "7fb651ce333f24dcd2ed2870c540135feba94597f0494529c1311936ee44523c"
+    },
+    {
+      "path": "website/app.js",
+      "bytes": 64195,
+      "sha256": "2c9a0af6aad27a9066e1949c54dba7de3494ab6fb7658b1d8541c1565c59a378"
+    },
+    {
+      "path": "website/data/assumptions.json",
+      "bytes": 29788,
+      "sha256": "21c16f768217b7f9a627e8d5771e243c6d0e1de3a597e24aa8552a0f625943dd"
+    },
+    {
+      "path": "website/data/config.json",
+      "bytes": 2928,
+      "sha256": "0dcbf5b9ad1bd86f3771d15db842a0b6e81e29a365d04a764f0336f0162efc6a"
+    },
+    {
+      "path": "website/data/corridors.geojson",
+      "bytes": 14322,
+      "sha256": "967cf3c192ebd6dbc344aca01f257472785dba98efce8f692843066348e6442a"
+    },
+    {
+      "path": "website/data/cost_curves.json",
+      "bytes": 26376,
+      "sha256": "d1167109cec14d96d59c72a3849e25b7cc8fb69f0341f2ba0038aabf49f48ecd"
+    },
+    {
+      "path": "website/data/decision_zones.geojson",
+      "bytes": 160592,
+      "sha256": "b751934db98e0497bf34c632d91df53458f5fbf25376b43d288c9397a1080505"
+    },
+    {
+      "path": "website/data/facilities.geojson",
+      "bytes": 1333,
+      "sha256": "116a4b791fa1ee1dd753fba6979c2915685434c305da407959e67e9154bff0de"
+    },
+    {
+      "path": "website/data/heatmap.json",
+      "bytes": 29755,
+      "sha256": "4800c17092f969ac640fa879d65e8574e91dae027398fe6bbe807d335fbe6087"
+    },
+    {
+      "path": "website/data/incidents.json",
+      "bytes": 6023,
+      "sha256": "c2a319a9cae4f8d2a9561c2c55d0e9d6763bbe35b1a2ab26c63405d14683f1eb"
+    },
+    {
+      "path": "website/data/policies.json",
+      "bytes": 120166,
+      "sha256": "0a03aa860e34dbb5b4fe09172f26e75d4259ae3acedd06b36b5724a2c877adba"
+    },
+    {
+      "path": "website/data/reference_fixtures.json",
+      "bytes": 2301,
+      "sha256": "5e7ea13a838bf580c0891cb3eb3cc68887d3abe3815d70fcd27d237f195706d4"
+    },
+    {
+      "path": "website/data/regional_outcomes.json",
+      "bytes": 29609,
+      "sha256": "f6af8b8dbafb5d54941755100008b14c7d97f42dcf751d6e271ddb8fa5245573"
+    },
+    {
+      "path": "website/data/routes.json",
+      "bytes": 14290,
+      "sha256": "be4d4e0a37e2c7be92e5acd4610f919159261019a62fdb97ddfe0fa3df3b05a4"
+    },
+    {
+      "path": "website/data/schema.json",
+      "bytes": 3189,
+      "sha256": "596d330c799035c09c1459598ee255a9c7f05a95680a6039af97e00167a0e4cc"
+    },
+    {
+      "path": "website/data/selected_outcomes.json",
+      "bytes": 112949,
+      "sha256": "778cd1a4ff0d92f966b832f37f0054615468b58b711cb4a4049488ffa1f121b7"
+    },
+    {
+      "path": "website/data/sources.json",
+      "bytes": 8651,
+      "sha256": "dc8c4b948def025dc632b5bf4068dfd51886914b8ac0ca1737a0040922bf672c"
+    },
+    {
+      "path": "website/data/worlds.json",
+      "bytes": 7709446,
+      "sha256": "8e98c440b9f1a1e3c3940944dddad9e46891db6d80fee20a0f1e31206757e661"
+    },
+    {
+      "path": "website/data/worlds_reference.json",
+      "bytes": 253227,
+      "sha256": "a1e269bfefefefa8593c529660d963a11ae03ba14f260860d1da723d1fedabcd"
+    },
+    {
+      "path": "website/engine.js",
+      "bytes": 8106,
+      "sha256": "8819b15042f92fc2fb465e64943e8cb82d42581cc9094dd8df78bc51b757296f"
+    },
+    {
+      "path": "website/favicon.svg",
+      "bytes": 183,
+      "sha256": "dfb1941f15f1770cece20a1eef6d288b2af1c6406842d62c5f85d4174b52b247"
+    },
+    {
+      "path": "website/index.html",
+      "bytes": 765,
+      "sha256": "dc81e6da659978573f1aae0eb4f219252499e3902bcd4b1e701d7813a082e120"
+    },
+    {
+      "path": "website/scene.js",
+      "bytes": 16575,
+      "sha256": "ee69828d16b6e126a5e360a2be5b6722a162af79736bad71a1cdd6a142595cd0"
+    },
+    {
+      "path": "website/styles.css",
+      "bytes": 20987,
+      "sha256": "e6aaadd5c5bc62b439eee502db2c7167b08009e696001753ecc891e05b723fdd"
+    },
+    {
+      "path": "website/worker.js",
+      "bytes": 1341,
+      "sha256": "b210b908c4dc056142c61f0067e724184dbdea3c92d72c679c95bda5f1d9085e"
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+{
+  "schema_version": "1.0.0",
+  "curves": [
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.0,
+      "internal_bn": 0.0,
+      "average_cost_idr": null,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.05,
+      "internal_bn": 0.032,
+      "average_cost_idr": 35866.666666666664,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.1,
+      "internal_bn": 0.064,
+      "average_cost_idr": 20554.166666666664,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.15000000000000002,
+      "internal_bn": 0.09600000000000002,
+      "average_cost_idr": 15449.999999999998,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.2,
+      "internal_bn": 0.128,
+      "average_cost_idr": 12897.916666666666,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.25,
+      "internal_bn": 0.16,
+      "average_cost_idr": 11366.666666666668,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.30000000000000004,
+      "internal_bn": 0.19200000000000003,
+      "average_cost_idr": 10345.833333333334,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.35000000000000003,
+      "internal_bn": 0.22400000000000003,
+      "average_cost_idr": 9616.666666666668,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.4,
+      "internal_bn": 0.256,
+      "average_cost_idr": 9069.791666666668,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.45,
+      "internal_bn": 0.28800000000000003,
+      "average_cost_idr": 8644.444444444443,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.5,
+      "internal_bn": 0.32,
+      "average_cost_idr": 8304.166666666668,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.55,
+      "internal_bn": 0.35200000000000004,
+      "average_cost_idr": 8025.757575757575,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.6000000000000001,
+      "internal_bn": 0.38400000000000006,
+      "average_cost_idr": 7793.749999999999,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.65,
+      "internal_bn": 0.41600000000000004,
+      "average_cost_idr": 7597.435897435898,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.7000000000000001,
+      "internal_bn": 0.44800000000000006,
+      "average_cost_idr": 7429.166666666667,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.75,
+      "internal_bn": 0.48,
+      "average_cost_idr": 7283.333333333333,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.8,
+      "internal_bn": 0.512,
+      "average_cost_idr": 7155.729166666667,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.8500000000000001,
+      "internal_bn": 0.544,
+      "average_cost_idr": 7043.137254901961,
+      "marginal_cost_idr": 5241.666666666667,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.9,
+      "internal_bn": 0.5760000000000001,
+      "average_cost_idr": 6981.018518518518,
+      "marginal_cost_idr": 6808.333333333338,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 0.9500000000000001,
+      "internal_bn": 0.6080000000000001,
+      "average_cost_idr": 7023.684210526316,
+      "marginal_cost_idr": 8775.000000000005,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 1.0,
+      "internal_bn": 0.64,
+      "average_cost_idr": 7160.416666666667,
+      "marginal_cost_idr": 10741.666666666668,
+      "feasible": true,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 1.05,
+      "internal_bn": 0.672,
+      "average_cost_idr": 7377.777777777779,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 1.1,
+      "internal_bn": 0.7040000000000001,
+      "average_cost_idr": 7664.772727272729,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 1.1500000000000001,
+      "internal_bn": 0.7360000000000001,
+      "average_cost_idr": 8012.318840579711,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "dense_urban",
+      "capacity_fraction": 1.2000000000000002,
+      "internal_bn": 0.7680000000000001,
+      "average_cost_idr": 8412.847222222223,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 10000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.0,
+      "internal_bn": 0.0,
+      "average_cost_idr": null,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.05,
+      "internal_bn": 0.021500000000000002,
+      "average_cost_idr": 41956.395348837206,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.1,
+      "internal_bn": 0.043000000000000003,
+      "average_cost_idr": 24165.697674418607,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.15000000000000002,
+      "internal_bn": 0.0645,
+      "average_cost_idr": 18235.46511627907,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.2,
+      "internal_bn": 0.08600000000000001,
+      "average_cost_idr": 15270.348837209302,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.25,
+      "internal_bn": 0.1075,
+      "average_cost_idr": 13491.27906976744,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.30000000000000004,
+      "internal_bn": 0.129,
+      "average_cost_idr": 12305.232558139534,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.35000000000000003,
+      "internal_bn": 0.15050000000000002,
+      "average_cost_idr": 11458.056478405315,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.4,
+      "internal_bn": 0.17200000000000001,
+      "average_cost_idr": 10822.67441860465,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.45,
+      "internal_bn": 0.1935,
+      "average_cost_idr": 10328.488372093021,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.5,
+      "internal_bn": 0.215,
+      "average_cost_idr": 9933.139534883721,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.55,
+      "internal_bn": 0.23650000000000002,
+      "average_cost_idr": 9609.672304439746,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.6000000000000001,
+      "internal_bn": 0.258,
+      "average_cost_idr": 9340.116279069767,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.65,
+      "internal_bn": 0.2795,
+      "average_cost_idr": 9112.030411449015,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.7000000000000001,
+      "internal_bn": 0.30100000000000005,
+      "average_cost_idr": 8916.528239202657,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.75,
+      "internal_bn": 0.3225,
+      "average_cost_idr": 8747.093023255815,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.8,
+      "internal_bn": 0.34400000000000003,
+      "average_cost_idr": 8598.837209302326,
+      "marginal_cost_idr": 6375.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.8500000000000001,
+      "internal_bn": 0.36550000000000005,
+      "average_cost_idr": 8469.057797537622,
+      "marginal_cost_idr": 6512.5000000000055,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.9,
+      "internal_bn": 0.387,
+      "average_cost_idr": 8416.957364341086,
+      "marginal_cost_idr": 8550.000000000002,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 0.9500000000000001,
+      "internal_bn": 0.40850000000000003,
+      "average_cost_idr": 8477.578029375765,
+      "marginal_cost_idr": 10587.500000000005,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 1.0,
+      "internal_bn": 0.43,
+      "average_cost_idr": 8634.011627906977,
+      "marginal_cost_idr": 12625.0,
+      "feasible": true,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 1.05,
+      "internal_bn": 0.4515,
+      "average_cost_idr": 8872.570598006645,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 1.1,
+      "internal_bn": 0.47300000000000003,
+      "average_cost_idr": 9182.056025369979,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 1.1500000000000001,
+      "internal_bn": 0.49450000000000005,
+      "average_cost_idr": 9553.216632962589,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "suburban",
+      "capacity_fraction": 1.2000000000000002,
+      "internal_bn": 0.516,
+      "average_cost_idr": 9978.343023255813,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 11000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.0,
+      "internal_bn": 0.0,
+      "average_cost_idr": null,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.05,
+      "internal_bn": 0.006500000000000001,
+      "average_cost_idr": 48793.269230769234,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.1,
+      "internal_bn": 0.013000000000000001,
+      "average_cost_idr": 29177.884615384617,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.15000000000000002,
+      "internal_bn": 0.019500000000000003,
+      "average_cost_idr": 22639.423076923074,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.2,
+      "internal_bn": 0.026000000000000002,
+      "average_cost_idr": 19370.192307692305,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.25,
+      "internal_bn": 0.0325,
+      "average_cost_idr": 17408.653846153848,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.30000000000000004,
+      "internal_bn": 0.03900000000000001,
+      "average_cost_idr": 16100.961538461537,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.35000000000000003,
+      "internal_bn": 0.045500000000000006,
+      "average_cost_idr": 15166.895604395604,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.4,
+      "internal_bn": 0.052000000000000005,
+      "average_cost_idr": 14466.346153846154,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.45,
+      "internal_bn": 0.0585,
+      "average_cost_idr": 13921.474358974358,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.5,
+      "internal_bn": 0.065,
+      "average_cost_idr": 13485.576923076924,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.55,
+      "internal_bn": 0.07150000000000001,
+      "average_cost_idr": 13128.933566433567,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.6000000000000001,
+      "internal_bn": 0.07800000000000001,
+      "average_cost_idr": 12831.73076923077,
+      "marginal_cost_idr": 9562.5,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.65,
+      "internal_bn": 0.0845,
+      "average_cost_idr": 12583.104395604394,
+      "marginal_cost_idr": 9669.642857142857,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.7000000000000001,
+      "internal_bn": 0.09100000000000001,
+      "average_cost_idr": 12380.527210884353,
+      "marginal_cost_idr": 9824.404761904761,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.75,
+      "internal_bn": 0.0975,
+      "average_cost_idr": 12215.27777777778,
+      "marginal_cost_idr": 9979.166666666666,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.8,
+      "internal_bn": 0.10400000000000001,
+      "average_cost_idr": 12080.357142857145,
+      "marginal_cost_idr": 10133.928571428572,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.8500000000000001,
+      "internal_bn": 0.11050000000000001,
+      "average_cost_idr": 11970.413165266107,
+      "marginal_cost_idr": 10288.690476190483,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.9,
+      "internal_bn": 0.117,
+      "average_cost_idr": 11941.468253968253,
+      "marginal_cost_idr": 12610.11904761905,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 0.9500000000000001,
+      "internal_bn": 0.12350000000000001,
+      "average_cost_idr": 12037.750626566418,
+      "marginal_cost_idr": 14931.547619047622,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 1.0,
+      "internal_bn": 0.13,
+      "average_cost_idr": 12240.47619047619,
+      "marginal_cost_idr": 17252.97619047619,
+      "feasible": true,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 1.05,
+      "internal_bn": 0.1365,
+      "average_cost_idr": 12534.438775510203,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 1.1,
+      "internal_bn": 0.14300000000000002,
+      "average_cost_idr": 12907.19696969697,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 1.1500000000000001,
+      "internal_bn": 0.14950000000000002,
+      "average_cost_idr": 13348.47308488613,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "regional",
+      "capacity_fraction": 1.2000000000000002,
+      "internal_bn": 0.15600000000000003,
+      "average_cost_idr": 13849.702380952382,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 12000.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.0,
+      "internal_bn": 0.0,
+      "average_cost_idr": null,
+      "marginal_cost_idr": 13500.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.05,
+      "internal_bn": 0.001,
+      "average_cost_idr": 13535.0,
+      "marginal_cost_idr": 13570.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.1,
+      "internal_bn": 0.002,
+      "average_cost_idr": 13570.0,
+      "marginal_cost_idr": 13640.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.15000000000000002,
+      "internal_bn": 0.0030000000000000005,
+      "average_cost_idr": 13605.000000000002,
+      "marginal_cost_idr": 13710.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.2,
+      "internal_bn": 0.004,
+      "average_cost_idr": 13639.999999999998,
+      "marginal_cost_idr": 13780.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.25,
+      "internal_bn": 0.005,
+      "average_cost_idr": 13675.0,
+      "marginal_cost_idr": 13850.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.30000000000000004,
+      "internal_bn": 0.006000000000000001,
+      "average_cost_idr": 13710.0,
+      "marginal_cost_idr": 13920.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.35000000000000003,
+      "internal_bn": 0.007000000000000001,
+      "average_cost_idr": 13745.0,
+      "marginal_cost_idr": 13990.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.4,
+      "internal_bn": 0.008,
+      "average_cost_idr": 13780.000000000002,
+      "marginal_cost_idr": 14060.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.45,
+      "internal_bn": 0.009000000000000001,
+      "average_cost_idr": 13815.0,
+      "marginal_cost_idr": 14130.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.5,
+      "internal_bn": 0.01,
+      "average_cost_idr": 13850.000000000002,
+      "marginal_cost_idr": 14200.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.55,
+      "internal_bn": 0.011000000000000001,
+      "average_cost_idr": 13885.0,
+      "marginal_cost_idr": 14270.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.6000000000000001,
+      "internal_bn": 0.012000000000000002,
+      "average_cost_idr": 13920.0,
+      "marginal_cost_idr": 14340.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.65,
+      "internal_bn": 0.013000000000000001,
+      "average_cost_idr": 13955.0,
+      "marginal_cost_idr": 14410.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.7000000000000001,
+      "internal_bn": 0.014000000000000002,
+      "average_cost_idr": 13990.0,
+      "marginal_cost_idr": 14480.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.75,
+      "internal_bn": 0.015,
+      "average_cost_idr": 14025.0,
+      "marginal_cost_idr": 14550.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.8,
+      "internal_bn": 0.016,
+      "average_cost_idr": 14059.999999999998,
+      "marginal_cost_idr": 14620.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.8500000000000001,
+      "internal_bn": 0.017,
+      "average_cost_idr": 14095.000000000002,
+      "marginal_cost_idr": 14690.0,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.9,
+      "internal_bn": 0.018000000000000002,
+      "average_cost_idr": 14204.074074074073,
+      "marginal_cost_idr": 17426.666666666668,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 0.9500000000000001,
+      "internal_bn": 0.019000000000000003,
+      "average_cost_idr": 14445.701754385967,
+      "marginal_cost_idr": 20163.333333333336,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 1.0,
+      "internal_bn": 0.02,
+      "average_cost_idr": 14800.000000000002,
+      "marginal_cost_idr": 22899.999999999996,
+      "feasible": true,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 1.05,
+      "internal_bn": 0.021,
+      "average_cost_idr": 15250.873015873012,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 1.1,
+      "internal_bn": 0.022000000000000002,
+      "average_cost_idr": 15785.151515151516,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 1.1500000000000001,
+      "internal_bn": 0.023000000000000003,
+      "average_cost_idr": 16391.956521739132,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 14600.0
+    },
+    {
+      "market_type": "difficult",
+      "capacity_fraction": 1.2000000000000002,
+      "internal_bn": 0.024000000000000004,
+      "average_cost_idr": 17062.222222222226,
+      "marginal_cost_idr": null,
+      "feasible": false,
+      "external_price_idr": 14600.0
+    }
+  ]
+}

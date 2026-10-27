@@ -1,0 +1,1002 @@
+{
+  "schema_version": "1.0.0",
+  "cells": [
+    {
+      "cell_id": "H_45_80",
+      "target_share": 0.45,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.2083603564970737,
+      "expected_npv_tn": -0.8160123029739862,
+      "realised_internal_share": 0.45892185257555806,
+      "service_violation_probability": 0.0,
+      "feasible": true,
+      "reasons": [],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_45_90",
+      "target_share": 0.45,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.22849239650739275,
+      "expected_npv_tn": -0.8717516679888699,
+      "realised_internal_share": 0.4589106132346375,
+      "service_violation_probability": 0.0,
+      "feasible": true,
+      "reasons": [],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_45_100",
+      "target_share": 0.45,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.22613015026332373,
+      "expected_npv_tn": -0.8609037415507172,
+      "realised_internal_share": 0.45877431522515244,
+      "service_violation_probability": 0.001,
+      "feasible": true,
+      "reasons": [],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_45_110",
+      "target_share": 0.45,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.17716103420221788,
+      "expected_npv_tn": -0.7095822511088028,
+      "realised_internal_share": 0.4567730081491552,
+      "service_violation_probability": 0.047,
+      "feasible": true,
+      "reasons": [],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_45_120",
+      "target_share": 0.45,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.19889769286008321,
+      "expected_npv_tn": -0.7438478963966362,
+      "realised_internal_share": 0.4461608053725718,
+      "service_violation_probability": 0.31,
+      "feasible": false,
+      "reasons": [
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_45_140",
+      "target_share": 0.45,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6385606005975676,
+      "expected_npv_tn": -1.9783187876527322,
+      "realised_internal_share": 0.3958004160231509,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_50_80",
+      "target_share": 0.5,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.14726005997540523,
+      "expected_npv_tn": 0.11047001329813876,
+      "realised_internal_share": 0.49999287215351296,
+      "service_violation_probability": 0.0,
+      "feasible": true,
+      "reasons": [],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_50_90",
+      "target_share": 0.5,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.15377277853457552,
+      "expected_npv_tn": 0.12606060090805396,
+      "realised_internal_share": 0.4998734299091883,
+      "service_violation_probability": 0.0,
+      "feasible": true,
+      "reasons": [],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_50_100",
+      "target_share": 0.5,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.09987057146616164,
+      "expected_npv_tn": -0.0003010629618159033,
+      "realised_internal_share": 0.49787467552152476,
+      "service_violation_probability": 0.002,
+      "feasible": true,
+      "reasons": [],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_50_110",
+      "target_share": 0.5,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.02370651653873032,
+      "expected_npv_tn": -0.17808631631359179,
+      "realised_internal_share": 0.48547344066058745,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_50_120",
+      "target_share": 0.5,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.121434178967633,
+      "expected_npv_tn": -0.541449863761683,
+      "realised_internal_share": 0.45794940492826314,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_50_140",
+      "target_share": 0.5,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9741375343610938,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_55_80",
+      "target_share": 0.55,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.4939198767224366,
+      "expected_npv_tn": 0.8742068150615228,
+      "realised_internal_share": 0.5409981967648976,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_55_90",
+      "target_share": 0.55,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.45690645473727365,
+      "expected_npv_tn": 0.7924589790775471,
+      "realised_internal_share": 0.539283933083443,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_55_100",
+      "target_share": 0.55,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.2759782964960722,
+      "expected_npv_tn": 0.3857567248544014,
+      "realised_internal_share": 0.5257592737069818,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_55_110",
+      "target_share": 0.55,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.07907283195489492,
+      "expected_npv_tn": -0.055750461632895924,
+      "realised_internal_share": 0.4948548147464611,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_55_120",
+      "target_share": 0.55,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11370829585259057,
+      "expected_npv_tn": -0.5243093702951725,
+      "realised_internal_share": 0.4592890170681926,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_55_140",
+      "target_share": 0.55,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_60_80",
+      "target_share": 0.6,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.7837003751067656,
+      "expected_npv_tn": 1.5084157798609994,
+      "realised_internal_share": 0.5812601343527204,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_60_90",
+      "target_share": 0.6,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.6337676451122459,
+      "expected_npv_tn": 1.176051203802933,
+      "realised_internal_share": 0.5696690407940935,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_60_100",
+      "target_share": 0.6,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.3292942227675045,
+      "expected_npv_tn": 0.5002051224977743,
+      "realised_internal_share": 0.535718108825191,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_60_110",
+      "target_share": 0.6,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.08515215303318383,
+      "expected_npv_tn": -0.043282396488299506,
+      "realised_internal_share": 0.49602219577936696,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_60_120",
+      "target_share": 0.6,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11346369738758787,
+      "expected_npv_tn": -0.5235875437116648,
+      "realised_internal_share": 0.4593282874472319,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_60_140",
+      "target_share": 0.6,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_65_80",
+      "target_share": 0.65,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.9538967800577921,
+      "expected_npv_tn": 1.8806838297791255,
+      "realised_internal_share": 0.6164029407671667,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_65_90",
+      "target_share": 0.65,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.7010623885639405,
+      "expected_npv_tn": 1.3192787672889463,
+      "realised_internal_share": 0.5835174716655595,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_65_100",
+      "target_share": 0.65,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.3366388365831265,
+      "expected_npv_tn": 0.5158791367904042,
+      "realised_internal_share": 0.5372464054787074,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_65_110",
+      "target_share": 0.65,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.08539359178562296,
+      "expected_npv_tn": -0.04255984951337437,
+      "realised_internal_share": 0.4960647105420854,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_65_120",
+      "target_share": 0.65,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11346369738758787,
+      "expected_npv_tn": -0.5235875437116648,
+      "realised_internal_share": 0.4593282874472319,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_65_140",
+      "target_share": 0.65,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_70_80",
+      "target_share": 0.7,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 1.026767856586785,
+      "expected_npv_tn": 2.038747436176225,
+      "realised_internal_share": 0.6344983422563544,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_70_90",
+      "target_share": 0.7,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.710526080000975,
+      "expected_npv_tn": 1.3411575040952646,
+      "realised_internal_share": 0.5859403860982602,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_70_100",
+      "target_share": 0.7,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.33700818552759393,
+      "expected_npv_tn": 0.5166960288650305,
+      "realised_internal_share": 0.5373300574942571,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_70_110",
+      "target_share": 0.7,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.08539359178562296,
+      "expected_npv_tn": -0.04255984951337437,
+      "realised_internal_share": 0.4960647105420854,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_70_120",
+      "target_share": 0.7,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11346369738758787,
+      "expected_npv_tn": -0.5235875437116648,
+      "realised_internal_share": 0.4593282874472319,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_70_140",
+      "target_share": 0.7,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_75_80",
+      "target_share": 0.75,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 1.031381764427361,
+      "expected_npv_tn": 2.0494324042982957,
+      "realised_internal_share": 0.6358944937853361,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_75_90",
+      "target_share": 0.75,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.7106007557594253,
+      "expected_npv_tn": 1.3414188318849802,
+      "realised_internal_share": 0.5859579403179502,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_75_100",
+      "target_share": 0.75,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.33700818552759393,
+      "expected_npv_tn": 0.5166960288650305,
+      "realised_internal_share": 0.5373300574942571,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_75_110",
+      "target_share": 0.75,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.08539359178562296,
+      "expected_npv_tn": -0.04255984951337437,
+      "realised_internal_share": 0.4960647105420854,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_75_120",
+      "target_share": 0.75,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11346369738758787,
+      "expected_npv_tn": -0.5235875437116648,
+      "realised_internal_share": 0.4593282874472319,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_75_140",
+      "target_share": 0.75,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_80_80",
+      "target_share": 0.8,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 1.0313995863075542,
+      "expected_npv_tn": 2.0495025423054987,
+      "realised_internal_share": 0.635899895284311,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_80_90",
+      "target_share": 0.8,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.7106007557594253,
+      "expected_npv_tn": 1.3414188318849802,
+      "realised_internal_share": 0.5859579403179502,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_80_100",
+      "target_share": 0.8,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.33700818552759393,
+      "expected_npv_tn": 0.5166960288650305,
+      "realised_internal_share": 0.5373300574942571,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_80_110",
+      "target_share": 0.8,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.08539359178562296,
+      "expected_npv_tn": -0.04255984951337437,
+      "realised_internal_share": 0.4960647105420854,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_80_120",
+      "target_share": 0.8,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11346369738758787,
+      "expected_npv_tn": -0.5235875437116648,
+      "realised_internal_share": 0.4593282874472319,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_80_140",
+      "target_share": 0.8,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_85_80",
+      "target_share": 0.85,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 1.0313995863075542,
+      "expected_npv_tn": 2.0495025423054987,
+      "realised_internal_share": 0.635899895284311,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_85_90",
+      "target_share": 0.85,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.7106007557594253,
+      "expected_npv_tn": 1.3414188318849802,
+      "realised_internal_share": 0.5859579403179502,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_85_100",
+      "target_share": 0.85,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.33700818552759393,
+      "expected_npv_tn": 0.5166960288650305,
+      "realised_internal_share": 0.5373300574942571,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_85_110",
+      "target_share": 0.85,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.08539359178562296,
+      "expected_npv_tn": -0.04255984951337437,
+      "realised_internal_share": 0.4960647105420854,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_85_120",
+      "target_share": 0.85,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11346369738758787,
+      "expected_npv_tn": -0.5235875437116648,
+      "realised_internal_share": 0.4593282874472319,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_85_140",
+      "target_share": 0.85,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_90_80",
+      "target_share": 0.9,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 1.0313995863075542,
+      "expected_npv_tn": 2.0495025423054987,
+      "realised_internal_share": 0.635899895284311,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_90_90",
+      "target_share": 0.9,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.7106007557594253,
+      "expected_npv_tn": 1.3414188318849802,
+      "realised_internal_share": 0.5859579403179502,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_90_100",
+      "target_share": 0.9,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.33700818552759393,
+      "expected_npv_tn": 0.5166960288650305,
+      "realised_internal_share": 0.5373300574942571,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_90_110",
+      "target_share": 0.9,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.08539359178562296,
+      "expected_npv_tn": -0.04255984951337437,
+      "realised_internal_share": 0.4960647105420854,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_90_120",
+      "target_share": 0.9,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11346369738758787,
+      "expected_npv_tn": -0.5235875437116648,
+      "realised_internal_share": 0.4593282874472319,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_90_140",
+      "target_share": 0.9,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_95_80",
+      "target_share": 0.95,
+      "demand_axis": 0.8,
+      "package": "software",
+      "expected_y5_ebit_tn": 1.0313995863075542,
+      "expected_npv_tn": 2.0495025423054987,
+      "realised_internal_share": 0.635899895284311,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_95_90",
+      "target_share": 0.95,
+      "demand_axis": 0.9,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.7106007557594253,
+      "expected_npv_tn": 1.3414188318849802,
+      "realised_internal_share": 0.5859579403179502,
+      "service_violation_probability": 0.001,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_95_100",
+      "target_share": 0.95,
+      "demand_axis": 1.0,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.33700818552759393,
+      "expected_npv_tn": 0.5166960288650305,
+      "realised_internal_share": 0.5373300574942571,
+      "service_violation_probability": 0.002,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_95_110",
+      "target_share": 0.95,
+      "demand_axis": 1.1,
+      "package": "software",
+      "expected_y5_ebit_tn": 0.08539359178562296,
+      "expected_npv_tn": -0.04255984951337437,
+      "realised_internal_share": 0.4960647105420854,
+      "service_violation_probability": 0.047,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_95_120",
+      "target_share": 0.95,
+      "demand_axis": 1.2,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.11346369738758787,
+      "expected_npv_tn": -0.5235875437116648,
+      "realised_internal_share": 0.4593282874472319,
+      "service_violation_probability": 0.311,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    },
+    {
+      "cell_id": "H_95_140",
+      "target_share": 0.95,
+      "demand_axis": 1.4,
+      "package": "software",
+      "expected_y5_ebit_tn": -0.6367542340322959,
+      "expected_npv_tn": -1.9740712207952522,
+      "realised_internal_share": 0.3960752877260843,
+      "service_violation_probability": 0.956,
+      "feasible": false,
+      "reasons": [
+        "target_not_economic_or_capacity_limited",
+        "service_risk_above_10pct_worlds"
+      ],
+      "worlds": 1000
+    }
+  ]
+}

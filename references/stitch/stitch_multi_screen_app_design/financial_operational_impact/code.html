@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{
+  workspace:"#F6F7F9",
+  charcoal:"#202833",
+  slate:"#637080",
+  "border-light":"#E3E7EC",
+  accent:{
+    DEFAULT:"#C65317",
+    hover:"#A94010",
+    pale:"#FFF0E6"
+  },
+  cost:{
+    error:"#DC2626",
+    "error-bg":"#FEE2E2"
+  }
+},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"margin":"2rem","gutter-mobile":"1rem","margin-mobile":"1rem","space-xl":"2rem","gutter":"1.5rem","space-lg":"1.5rem","space-md":"1rem","space-xs":"0.25rem","space-sm":"0.5rem"},fontFamily:{"headline-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"headline-md":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"18px",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"20px",fontWeight:"600"}],"headline-xl-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"700"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.03em",fontWeight:"600"}],"headline-sm":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.015em",fontWeight:"600"}],"headline-xl":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}]}}}};</script></head><body class="bg-workspace font-body-md text-charcoal"><aside class="fixed left-0 top-0 h-full w-[232px] bg-white border-r border-border-light z-50 flex flex-col justify-between py-space-md"><div class="flex flex-col"><div class="px-space-md pb-space-md flex items-center gap-space-sm"><div class="w-8 h-8 rounded-lg bg-accent flex items-center justify-center"><span class="material-symbols-outlined text-white text-[20px]">hub</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-charcoal leading-tight">Nexora</span><span class="font-label-sm text-label-sm text-slate leading-none">NexExpress Operations</span></div></div><nav class="flex flex-col px-space-sm gap-space-xs"><div class="px-space-sm pt-space-sm pb-space-xs font-label-sm text-label-sm uppercase tracking-wider text-slate">Operate / Monitor</div><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors font-body-sm text-body-sm" data-path="overview" href="#"><span class="material-symbols-outlined text-[18px]">dashboard</span>Overview</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors font-body-sm text-body-sm" data-path="digital-twin" href="#"><span class="material-symbols-outlined text-[18px]">alt_route</span>Digital Twin</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors font-body-sm text-body-sm" data-path="demand-&amp;-capacity-forecast" href="#"><span class="material-symbols-outlined text-[18px]">ssid_chart</span>Forecasts</a><div class="px-space-sm pt-space-md pb-space-xs font-label-sm text-label-sm uppercase tracking-wider text-slate">Decide</div><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors font-body-sm text-body-sm" data-path="policy-lab" href="#"><span class="material-symbols-outlined text-[18px]">science</span>Policy Lab</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors font-body-sm text-body-sm" data-path="capacity-&amp;-partners" href="#"><span class="material-symbols-outlined text-[18px]">local_shipping</span>Capacity &amp; Partners</a><a class="flex items-center justify-between px-space-sm py-space-xs rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors font-body-sm text-body-sm" data-path="incidents-&amp;-actions" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">warning</span><span>Incidents &amp; Actions</span></div><span class="px-1.5 py-0.5 rounded-full bg-cost-error text-white font-label-sm text-[10px] leading-tight font-bold">1</span></a><div class="px-space-sm pt-space-md pb-space-xs font-label-sm text-label-sm uppercase tracking-wider text-slate">Evaluate</div><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs transition-colors bg-accent-pale text-accent font-semibold rounded-lg" data-path="financial-&amp;-operational-impact" href="#"><span class="material-symbols-outlined text-[18px] text-accent">analytics</span>Impact</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors font-body-sm text-body-sm" data-path="rollout" href="#"><span class="material-symbols-outlined text-[18px]">published_with_changes</span>Rollout</a></nav></div><div class="flex flex-col px-space-sm pt-space-md border-t border-border-light gap-space-xs"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors font-body-sm text-body-sm" data-path="evidence-&amp;-assumptions" href="#"><span class="material-symbols-outlined text-[18px]">fact_check</span>Evidence &amp; Assumptions</a><div class="flex items-center justify-between px-space-sm py-space-xs rounded-lg text-slate"><div class="flex items-center gap-space-sm font-body-sm text-body-sm"><span class="material-symbols-outlined text-[18px]">tune</span><span>Prototype Mode</span></div><div class="w-7 h-4 bg-accent rounded-full flex items-center p-0.5 cursor-pointer"><div class="w-3 h-3 bg-white rounded-full shadow-sm translate-x-3 transition-transform"></div></div></div></div></aside><div class="pl-[232px]"><header class="fixed top-0 left-[232px] right-0 h-14 bg-white border-b border-border-light z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-sm cursor-pointer hover:bg-workspace px-space-sm py-1 rounded-lg transition-colors"><span class="material-symbols-outlined text-[18px] text-accent">location_on</span><span class="font-label-lg text-label-lg text-charcoal">Greater Jakarta · Regional Network</span><span class="material-symbols-outlined text-[16px] text-slate">expand_more</span></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm bg-workspace border border-border-light px-space-sm py-1 rounded-lg"><span class="font-label-sm text-label-sm text-accent font-semibold">Campaign surge</span><span class="text-border-light">|</span><span class="font-body-sm text-body-sm text-slate">09:30 WIB · data 12s ago</span></div><span class="px-2 py-0.5 rounded-full bg-workspace border border-border-light text-slate font-label-sm text-label-sm">Prototype · simulated data</span><div class="h-4 w-[1px] bg-border-light"></div><button class="px-space-sm py-1 bg-workspace hover:bg-border-light/50 border border-border-light text-charcoal rounded-lg font-label-md text-label-md transition-colors">Assumptions</button><button class="p-1.5 hover:bg-workspace text-slate hover:text-charcoal rounded-lg transition-colors"><span class="material-symbols-outlined text-[18px]">restart_alt</span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="flex flex-col text-right"><span class="font-label-md text-label-md text-charcoal leading-tight">Jev</span><span class="font-label-sm text-label-sm text-slate leading-none">Ops Planner</span></div><div class="w-8 h-8 rounded-full bg-charcoal flex items-center justify-center"><span class="material-symbols-outlined text-white text-[18px]">person</span></div></div></div></header><main class="w-full pt-14 bg-workspace min-h-screen px-space-lg py-space-lg"><div class="max-w-[1440px] mx-auto"><div class="flex flex-col w-full">
+<!-- Header & Context Area -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div class="flex flex-col gap-1 max-w-3xl">
+<div class="flex items-center gap-space-xs text-slate font-label-sm text-label-sm tracking-widest uppercase">
+<span>Evaluate</span>
+<span>·</span>
+<span class="text-accent font-semibold">Scenario Financial Analysis</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-charcoal font-bold">Financial &amp; operational impact</h1>
+<p class="font-body-md text-body-md text-slate">
+        Comparing proposed policy (65% internal / 35% 3PL) against baseline (50% internal / 50% 3PL) across Greater Jakarta daily operations.
+      </p>
+</div>
+<!-- Right Actions & View Switcher -->
+<div class="flex items-center gap-space-sm self-start md:self-auto">
+<div class="flex bg-white border border-border-light p-1 rounded-xl">
+<button class="px-space-sm py-1.5 rounded-lg bg-accent text-white font-label-md text-label-md shadow-sm transition-all hover:bg-accent-hover">
+          Profit Bridge
+        </button>
+<button class="px-space-sm py-1.5 rounded-lg text-slate hover:text-charcoal font-label-md text-label-md transition-colors">
+          Unit Cost
+        </button>
+<button class="px-space-sm py-1.5 rounded-lg text-slate hover:text-charcoal font-label-md text-label-md transition-colors">
+          Annualised
+        </button>
+</div>
+<button class="flex items-center gap-1.5 px-space-md py-2 bg-white hover:bg-workspace border border-border-light text-charcoal font-label-md text-label-md rounded-xl transition-colors">
+<span class="material-symbols-outlined text-[18px] text-slate">download</span>
+<span>Export report</span>
+</button>
+</div>
+</div>
+<!-- Headline Key Metrics (4 Bento Cards) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md mb-space-xl">
+<!-- Card 1 -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col justify-between">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-slate font-medium">Net Contribution Delta</span>
+<span class="w-6 h-6 rounded-full bg-accent-pale flex items-center justify-center text-accent">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+</span>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-accent font-bold tracking-tight">+Rp 28,000,000</div>
+<div class="flex items-center gap-1.5 mt-1 font-body-sm text-body-sm text-slate">
+<span class="font-semibold text-accent">+Rp 10.2bn</span>
+<span>annualized run-rate</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs text-slate border-t border-border-light/60 font-label-sm text-[11px]">
+        vs 50/50 baseline run rate
+      </div>
+</div>
+<!-- Card 2 -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col justify-between">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-slate font-medium">Blended Unit Cost</span>
+<span class="w-6 h-6 rounded-full bg-workspace border border-border-light flex items-center justify-center text-slate">
+<span class="material-symbols-outlined text-[14px]">price_check</span>
+</span>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-charcoal font-bold tracking-tight">Rp 9,660</div>
+<div class="flex items-center gap-1.5 mt-1 font-body-sm text-body-sm text-slate">
+<span class="font-semibold text-accent">-Rp 340</span>
+<span>from Rp 10,000 baseline</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs text-slate border-t border-border-light/60 font-label-sm text-[11px]">
+        Weighted across 100k daily deliveries
+      </div>
+</div>
+<!-- Card 3 -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col justify-between">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-slate font-medium">Gross Delivery Savings</span>
+<span class="w-6 h-6 rounded-full bg-workspace border border-border-light flex items-center justify-center text-slate">
+<span class="material-symbols-outlined text-[14px]">savings</span>
+</span>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-charcoal font-bold tracking-tight">Rp 34,000,000</div>
+<div class="flex items-center gap-1.5 mt-1 font-body-sm text-body-sm text-slate">
+<span class="font-semibold text-charcoal">3.4%</span>
+<span>gross cost reduction</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs text-slate border-t border-border-light/60 font-label-sm text-[11px]">
+        Before incremental supervisory OpEx
+      </div>
+</div>
+<!-- Card 4 -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col justify-between">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-slate font-medium">Additional OpEx</span>
+<span class="w-6 h-6 rounded-full bg-cost-error-bg flex items-center justify-center text-cost-error">
+<span class="material-symbols-outlined text-[14px]">expand_circle_up</span>
+</span>
+</div>
+<div>
+<div class="font-headline-lg text-headline-lg text-cost-error font-bold tracking-tight">Rp 6,000,000</div>
+<div class="flex items-center gap-1.5 mt-1 font-body-sm text-body-sm text-slate">
+<span class="font-semibold text-cost-error">+2 shifts</span>
+<span>hub sorting &amp; linehaul leads</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs text-slate border-t border-border-light/60 font-label-sm text-[11px]">
+        Fully loaded daily labor overhead
+      </div>
+</div>
+</div>
+<!-- Two-Column Strategy & Financial Deep-Dive Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT COLUMN (65% width = 8 cols): Waterfall Bridge + Comparison Ledger -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Operating Profit Bridge Panel -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-charcoal font-semibold">Operating profit bridge (Daily net variance)</span>
+<span class="font-body-sm text-body-sm text-slate">Values represented in Million IDR (Rp M). Net yield after friction shifts.</span>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-slate">
+<span class="w-2.5 h-2.5 rounded-sm bg-accent"></span>
+<span>Net Yield / Policy Gain</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-slate">
+<span class="w-2.5 h-2.5 rounded-sm bg-slate"></span>
+<span>Efficiency / Fleet</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-slate">
+<span class="w-2.5 h-2.5 rounded-sm bg-cost-error"></span>
+<span>Cost Drag / OpEx</span>
+</div>
+</div>
+</div>
+<!-- SVG Waterfall Diagram -->
+<div class="w-full bg-workspace border border-border-light rounded-xl p-space-md relative overflow-hidden">
+<svg class="w-full h-auto max-h-[220px]" fill="none" viewbox="0 0 740 220" xmlns="http://www.w3.org/2000/svg">
+<!-- Grid Lines -->
+<line opacity="0.8" stroke="#E3E7EC" stroke-dasharray="3 3" x1="40" x2="710" y1="30" y2="30"></line>
+<line opacity="0.8" stroke="#E3E7EC" stroke-dasharray="3 3" x1="40" x2="710" y1="80" y2="80"></line>
+<line opacity="0.8" stroke="#E3E7EC" stroke-dasharray="3 3" x1="40" x2="710" y1="130" y2="130"></line>
+<line stroke="#E3E7EC" stroke-width="1.5" x1="40" x2="710" y1="180" y2="180"></line>
+<!-- Waterfall Bars -->
+<!-- Bar 1: Baseline Delivery Cost Index (Anchor) -->
+<rect fill="#637080" height="120" rx="4" width="70" x="55" y="60"></rect>
+<text fill="#202833" font-size="12" font-weight="600" text-anchor="middle" x="90" y="52">Rp 1,000M</text>
+<text fill="#637080" font-size="11" text-anchor="middle" x="90" y="198">Baseline Cost</text>
+<!-- Connector 1 -->
+<line stroke="#E3E7EC" stroke-dasharray="2 2" stroke-width="1.5" x1="125" x2="165" y1="60" y2="60"></line>
+<!-- Bar 2: +Internal Fleet Expansion (+Rp 54M gross efficiency) -->
+<rect fill="#202833" height="65" rx="4" width="70" x="165" y="30"></rect>
+<text fill="#202833" font-size="12" font-weight="600" text-anchor="middle" x="200" y="24">+Rp 54.0M</text>
+<text fill="#637080" font-size="11" text-anchor="middle" x="200" y="198">Internal Flex</text>
+<!-- Connector 2 -->
+<line stroke="#E3E7EC" stroke-dasharray="2 2" stroke-width="1.5" x1="235" x2="275" y1="95" y2="95"></line>
+<!-- Bar 3: -3PL Volume Tier Penalty (-Rp 20.0M) -->
+<rect fill="#DC2626" height="38" rx="4" width="70" x="275" y="95"></rect>
+<text fill="#DC2626" font-size="12" font-weight="600" text-anchor="middle" x="310" y="88">-Rp 20.0M</text>
+<text fill="#637080" font-size="11" text-anchor="middle" x="310" y="198">Tier Penalty</text>
+<!-- Connector 3 -->
+<line stroke="#E3E7EC" stroke-dasharray="2 2" stroke-width="1.5" x1="345" x2="385" y1="133" y2="133"></line>
+<!-- Bar 4: Gross Daily Delivery Saving (+Rp 34M) -->
+<rect fill="#637080" height="43" rx="4" width="70" x="385" y="90"></rect>
+<text fill="#202833" font-size="12" font-weight="600" text-anchor="middle" x="420" y="82">+Rp 34.0M</text>
+<text fill="#637080" font-size="11" text-anchor="middle" x="420" y="198">Gross Save</text>
+<!-- Connector 4 -->
+<line stroke="#E3E7EC" stroke-dasharray="2 2" stroke-width="1.5" x1="455" x2="495" y1="133" y2="133"></line>
+<!-- Bar 5: Incremental Hub OpEx (-Rp 6.0M) -->
+<rect fill="#DC2626" height="15" rx="4" width="70" x="495" y="133"></rect>
+<text fill="#DC2626" font-size="12" font-weight="600" text-anchor="middle" x="530" y="126">-Rp 6.0M</text>
+<text fill="#637080" font-size="11" text-anchor="middle" x="530" y="198">Hub OpEx</text>
+<!-- Connector 5 -->
+<line stroke="#E3E7EC" stroke-dasharray="2 2" stroke-width="1.5" x1="565" x2="605" y1="148" y2="148"></line>
+<!-- Bar 6: Net Contribution Gain (+Rp 28.0M Net Impact) -->
+<rect fill="#C65317" height="110" rx="4" width="85" x="605" y="70"></rect>
+<text fill="#C65317" font-size="12" font-weight="700" text-anchor="middle" x="647" y="62">+Rp 28.0M/d</text>
+<text fill="#202833" font-size="11" font-weight="700" text-anchor="middle" x="647" y="198">Net Contribution</text>
+</svg>
+</div>
+<!-- Annotation footnote -->
+<div class="mt-space-md flex items-center justify-between text-slate font-body-sm text-body-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-accent">verified</span>
+<span>Feasibility validated with Regional Linehaul Hubs (Pluit, Cawang, Tangerang).</span>
+</div>
+<span class="text-slate font-label-sm text-label-sm">Confidence band: P90 ±2.4%</span>
+</div>
+</div>
+<!-- Detailed Scenario Comparison Ledger Table -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-charcoal font-semibold">Scenario Comparison Ledger</span>
+<span class="font-body-sm text-body-sm text-slate">Deterministic sensitivity model across normal and high-velocity stress states.</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-workspace border border-border-light text-slate font-label-sm text-label-sm">
+            100,000 parcels/day standard
+          </span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm border-separate border-spacing-0">
+<thead>
+<tr class="bg-workspace text-slate font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-3 px-space-md rounded-l-lg border-b border-border-light">Operational Metric</th>
+<th class="py-3 px-space-md text-right border-b border-border-light">Baseline (50/50)</th>
+<th class="py-3 px-space-md text-right bg-accent-pale text-accent font-bold border-b border-accent/20">Proposed (65/35)</th>
+<th class="py-3 px-space-md text-right rounded-r-lg border-b border-border-light">Stress Test (120% Surge)</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border-light">
+<tr class="hover:bg-workspace/50 transition-colors">
+<td class="py-3 px-space-md text-charcoal font-medium flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-accent"></span>
+                  Internal Fleet Volume
+                </td>
+<td class="py-3 px-space-md text-right text-charcoal">50,000 <span class="text-slate text-[11px]">(50%)</span></td>
+<td class="py-3 px-space-md text-right font-semibold text-accent bg-accent-pale/50">65,000 <span class="text-accent text-[11px] font-bold">(65%)</span></td>
+<td class="py-3 px-space-md text-right text-charcoal">78,000 <span class="text-slate text-[11px]">(65%)</span></td>
+</tr>
+<tr class="hover:bg-workspace/50 transition-colors">
+<td class="py-3 px-space-md text-charcoal font-medium flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-slate"></span>
+                  3PL Partner Volume
+                </td>
+<td class="py-3 px-space-md text-right text-charcoal">50,000 <span class="text-slate text-[11px]">(50%)</span></td>
+<td class="py-3 px-space-md text-right font-semibold text-charcoal bg-accent-pale/50">35,000 <span class="text-slate text-[11px]">(35%)</span></td>
+<td class="py-3 px-space-md text-right text-charcoal">42,000 <span class="text-slate text-[11px]">(35%)</span></td>
+</tr>
+<tr class="hover:bg-workspace/50 transition-colors">
+<td class="py-3 px-space-md text-charcoal font-medium">Internal Cost / Parcel</td>
+<td class="py-3 px-space-md text-right text-charcoal">Rp 8,000</td>
+<td class="py-3 px-space-md text-right font-semibold text-charcoal bg-accent-pale/50">Rp 8,400</td>
+<td class="py-3 px-space-md text-right text-charcoal">Rp 8,650</td>
+</tr>
+<tr class="hover:bg-workspace/50 transition-colors">
+<td class="py-3 px-space-md text-charcoal font-medium">3PL Contract Rate / Parcel</td>
+<td class="py-3 px-space-md text-right text-charcoal">Rp 12,000</td>
+<td class="py-3 px-space-md text-right font-semibold text-charcoal bg-accent-pale/50">Rp 12,000</td>
+<td class="py-3 px-space-md text-right text-charcoal">Rp 12,200</td>
+</tr>
+<tr class="hover:bg-workspace/50 transition-colors">
+<td class="py-3 px-space-md text-charcoal font-medium">Blended Unit Delivery Cost</td>
+<td class="py-3 px-space-md text-right text-charcoal">Rp 10,000</td>
+<td class="py-3 px-space-md text-right font-bold text-accent bg-accent-pale/50">Rp 9,660</td>
+<td class="py-3 px-space-md text-right text-charcoal">Rp 9,892</td>
+</tr>
+<tr class="hover:bg-workspace/50 transition-colors">
+<td class="py-3 px-space-md text-charcoal font-medium">Total Daily Delivery Cost</td>
+<td class="py-3 px-space-md text-right text-charcoal">Rp 1,000,000,000</td>
+<td class="py-3 px-space-md text-right font-semibold text-charcoal bg-accent-pale/50">Rp 966,000,000</td>
+<td class="py-3 px-space-md text-right text-charcoal">Rp 1,187,100,000</td>
+</tr>
+<tr class="bg-workspace/70 font-semibold">
+<td class="py-3 px-space-md text-charcoal">Net Daily Contribution Gain</td>
+<td class="py-3 px-space-md text-right text-slate">Rp 0 (Baseline)</td>
+<td class="py-3 px-space-md text-right text-accent bg-accent-pale font-bold">+Rp 28,000,000</td>
+<td class="py-3 px-space-md text-right text-accent">+Rp 31,900,000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN (35% width = 4 cols): Assumptions, Sensitivity & Decision Card -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Panel 1: Unit Economics & Margin Walk (Lintara inspired) -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm text-charcoal font-semibold">Unit economics &amp; margins</span>
+<span class="font-label-sm text-label-sm text-slate uppercase">Active Model</span>
+</div>
+<p class="font-body-sm text-body-sm text-slate mb-space-md">
+          Adjusted cost parameters reflecting higher feeder distances and hub overtime.
+        </p>
+<div class="flex flex-col gap-space-sm">
+<div class="p-space-sm rounded-lg bg-workspace border border-border-light flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-slate">Internal parcel cost</span>
+<span class="font-body-md text-body-md font-semibold text-charcoal">Rp 8,400</span>
+</div>
+<span class="font-label-sm text-label-sm text-slate">+Rp 400 extension</span>
+</div>
+<div class="p-space-sm rounded-lg bg-workspace border border-border-light flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-slate">3PL contracted rate</span>
+<span class="font-body-md text-body-md font-semibold text-charcoal">Rp 12,000</span>
+</div>
+<span class="font-label-sm text-label-sm text-slate">Tier 1 SLA locked</span>
+</div>
+<div class="p-space-sm rounded-lg bg-workspace border border-border-light flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-slate">Breakeven shifted volume</span>
+<span class="font-body-md text-body-md font-semibold text-charcoal">5,400 parcels</span>
+</div>
+<span class="font-label-sm text-label-sm text-accent font-semibold">Reached at 08:45 WIB</span>
+</div>
+<div class="p-space-sm rounded-lg bg-workspace border border-border-light flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-slate">Capital expenditure (CapEx)</span>
+<span class="font-body-md text-body-md font-semibold text-accent">Rp 0</span>
+</div>
+<span class="font-label-sm text-label-sm text-slate">Fleet flex buffer</span>
+</div>
+</div>
+</div>
+<!-- Panel 2: Sensitivity to Contractor Pricing -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm text-charcoal font-semibold">3PL rate sensitivity</span>
+<span class="material-symbols-outlined text-[18px] text-slate">tune</span>
+</div>
+<p class="font-body-sm text-body-sm text-slate mb-space-md">
+          How net contributions flex if partner fleets renegotiate during peak weeks.
+        </p>
+<div class="flex flex-col gap-2.5">
+<!-- 3PL -Rp 500 -->
+<div class="p-space-sm rounded-lg bg-workspace border border-border-light flex items-center justify-between hover:bg-white transition-colors">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-charcoal font-semibold">3PL Rate: Rp 11,500 <span class="text-cost-error font-normal">(-Rp 500)</span></span>
+<span class="font-body-sm text-body-sm text-slate">Compressed arbitrage spread</span>
+</div>
+<div class="font-label-lg text-label-lg font-bold text-charcoal">+Rp 26.2M/d</div>
+</div>
+<!-- Current baseline (Active 3PL rate sensitivity card) -->
+<div class="p-space-sm rounded-lg bg-accent-pale border-l-4 border-l-accent border-y border-r border-accent/30 flex items-center justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md text-accent font-bold">3PL Rate: Rp 12,000 (Current)</span>
+<span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+</div>
+<span class="font-body-sm text-body-sm text-slate">Modeled proposed state</span>
+</div>
+<div class="font-label-lg text-label-lg font-bold text-accent">+Rp 28.0M/d</div>
+</div>
+<!-- 3PL +Rp 1000 -->
+<div class="p-space-sm rounded-lg bg-workspace border border-border-light flex items-center justify-between hover:bg-white transition-colors">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-charcoal font-semibold">3PL Rate: Rp 13,000 <span class="text-accent font-normal">(+Rp 1,000)</span></span>
+<span class="font-body-sm text-body-sm text-slate">High contractor surcharge</span>
+</div>
+<div class="font-label-lg text-label-lg font-bold text-accent">+Rp 31.5M/d</div>
+</div>
+</div>
+</div>
+<!-- Panel 3: Executive Decision Handoff Card -->
+<div class="p-space-lg rounded-xl bg-white border border-border-light flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-space-sm">
+<div class="w-7 h-7 rounded-lg bg-accent-pale flex items-center justify-center text-accent">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-charcoal font-semibold">Decision recommendation</span>
+</div>
+<p class="font-body-md text-body-md text-charcoal mb-space-md">
+            Authorize <strong>65% internal allocation</strong> for the upcoming 10.10 campaign window. Downside risk protected at P10 &gt; <span class="text-accent font-semibold">+Rp 11.4M/day</span> even under extreme traffic bottleneck events.
+          </p>
+<div class="flex items-center gap-2 py-2 px-space-sm rounded-lg bg-workspace border border-border-light mb-space-md">
+<span class="material-symbols-outlined text-[18px] text-slate">info</span>
+<span class="font-body-sm text-body-sm text-slate">SLA risk variance is negligible at -0.12% across suburban DKI.</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<button class="w-full py-2.5 px-space-md rounded-xl bg-accent hover:bg-accent-hover text-white font-label-lg text-label-lg font-semibold shadow-sm transition-all flex items-center justify-center gap-2" id="commitBtn">
+<span>Commit Scenario to Rollout</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<button class="w-full py-2 px-space-md rounded-xl bg-workspace hover:bg-border-light/50 border border-border-light text-slate hover:text-charcoal font-label-md text-label-md transition-colors">
+            Run Secondary Simulation
+          </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for Commit button
+  const commitBtn = document.getElementById('commitBtn');
+  if (commitBtn) {
+    commitBtn.addEventListener('click', function() {
+      const originalText = this.innerHTML;
+      this.innerHTML = '<span class="material-symbols-outlined text-[18px] animate-spin">refresh</span> <span>Preparing Rollout Plan...</span>';
+      setTimeout(() => {
+        this.innerHTML = '<span class="material-symbols-outlined text-[18px]">check_circle</span> <span>Policy Staged for 10.10</span>';
+        this.classList.remove('bg-accent');
+        this.classList.add('bg-accent-hover');
+      }, 700);
+    });
+  }
+</script></div></main></div></body></html>

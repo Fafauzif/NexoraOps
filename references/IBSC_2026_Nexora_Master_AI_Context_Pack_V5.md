@@ -1,0 +1,12336 @@
+# IBSC 2026 / NEXORA — MASTER AI CONTEXT PACK
+
+**Version 5 — updated 27 October 2026, Asia/Jakarta. Covers the seller interview guide, operational prototype direction, source/reference review, Monte Carlo clarification, geographic grounding, financial choices, and completed analytical handoff.**
+
+Read this Version 5 update first. It supersedes incompatible current-state statements and earlier proposals, while preserving their historical context. The entire supplied Version 4 file is preserved byte-for-byte in the final archive, including its own earlier archives. Exact new handoff documents and the original friend-authored simulation brief are embedded below so this file is useful without the rest of the chat.
+
+## Navigation
+
+1. [Latest state and ownership](#v5-state)
+2. [Seller interview work and user preferences](#v5-sellers)
+3. [Operational strategy and references](#v5-ops)
+4. [Numerical engine and Monte Carlo correction](#v5-engine)
+5. [Prototype screens and stack](#v5-prototype)
+6. [Five analyses and confirmed financial choices](#v5-analysis)
+7. [Geographic grounding](#v5-geo)
+8. [Artifacts and evidence status](#v5-artifacts)
+9. [Continuation instructions](#v5-next)
+10. [Exact standalone analytical handoff](#v5-analysis-brief)
+11. [Exact Google Stitch brief](#v5-stitch-brief)
+12. [Seller interview guide text](#v5-interview-text)
+13. [Original friend-authored simulation brief](#v5-friend-brief)
+14. [Source/output manifest](#v5-manifest)
+15. [Unchanged Version 4 and older archives](#v4-archive)
+
+<a id="v5-state"></a>
+## 1. Latest state and ownership
+
+**Completed in this chat:** a 30-minute Indonesian seller interview DOCX, including a spacing revision and respondent-photo documentation; a self-contained Markdown brief for three Google Stitch screens; a self-contained analytical handoff covering five analyses plus geographic preparation and a required master context pack; and review of the user-supplied casebook, screenshots, friend brief, and selected Lintara code/documentation.
+
+**Work split confirmed:** another chat will perform the analytical work and produce XLSX, spatial data, JSON, reproducible code, methodology/findings, a prototype handoff, and its own updated master context pack. This chat is intended to build the prototype after design and analytical outputs are available. Those other-chat outputs have not been supplied here. Do not claim any Monte Carlo, geographic acquisition, new logistics model, investment return, or optimal policy has already been executed or validated.
+
+The user reports the buyer survey has been sent out. This supersedes V4's uncertainty about whether distribution occurred as an owner-reported status update, but does not verify a public deployment endpoint, sample size, completed responses, or results. No buyer results or completed seller interviews were supplied in this chat.
+
+**No Nexora prototype has been implemented or deployed in this chat.** The Stitch brief was delivered; no Stitch-generated designs have been returned. No Jev integration has been implemented. No final allocation, target unit cost, investment budget, or ROI has been approved.
+
+Nexora remains fictional. External observations must not be attributed to its customers, couriers, facilities, or operating history. Case facts, derived quantities, external observations, and assumptions must remain distinct.
+
+<a id="v5-sellers"></a>
+## 2. Seller interviews and document preferences
+
+The user chose qualitative seller interviews because access to a large seller sample is unlikely. Recruitment will be **convenience sampling**, including whatever mixed seller types are reachable. Current, reduced-activity, and former sellers are all potentially useful; no achieved sample or representative sampling is claimed.
+
+Confirmed guide requirements:
+
+- Entirely Indonesian, conversational and polite, addressing respondents as **Kak**.
+- Approximately 30 minutes, eight core questions plus selective optional probes.
+- DOCX with two columns: questions/probes and typed answers. Cells expand as answers are entered.
+- Respondent fields: code/name optional, product type, selling channels, time selling, approximate monthly orders, interview date/time, and interviewer.
+- Introductory consent, optional recording permission, time allocations, interviewer tips, post-interview summary, and optional follow-up contact.
+- User added a respondent photo area for documentation. Final guide includes space to insert a photo, caption/date/location/photographer fields, and separate optional photo permission. Interview, recording, and photo permissions are distinct.
+- No team logo or institution identity was supplied; none should be invented.
+
+Validation themes: seller total economics; value of channel demand relative to fees; actual changes in stock/effort/ad spend/channel allocation rather than account closure alone; payout predictability and cash flow; returns/logistics/listing/dispute recovery; differentiated assortment and customer continuity; discovery/ad economics; and print-on-demand fit, launch barriers, workable terms, and incremental versus substituted products.
+
+Ask about actual recent events first. Introduce PoD only after current business experience. Do not persuade sellers who reject the concept. Distinguish payout after platform deductions from profit after all costs, and stated interest from adoption. The buyer survey cannot establish seller economics or production-partner feasibility.
+
+Final timing:
+
+- 0–2 opening/consent.
+- 2–4 business background.
+- 4–8 economics of a representative recent order.
+- 8–12 latest change in channel focus, or reasons for staying.
+- 12–17 material operating problem and resolution.
+- 17–21 discovery and purchase journey/marketing.
+- 21–23 recent product-launch decision.
+- 23–28 PoD concept and conditions for trying/rejecting.
+- 28–30 highest-priority change and close.
+
+The user objected when the assistant drafted a complete English guide before the requested clarification stage. After clarification, the user explicitly authorised the Indonesian DOCX. Later the user supplied a screenshot showing cramped text. The revised final version uses Arial, increased line/paragraph spacing and cell padding, wider question columns, disabled automatic hyphenation, and seven clean pages with no blank overflow page. All pages were rendered and visually inspected; the last render had seven pages. This is document-layout QA, not a test of actual interview duration.
+
+The final DOCX was saved as a new item, then replaced as version 1 after the spacing revision. Its text is embedded later, but the editable DOCX itself is not embedded as binary data.
+
+<a id="v5-ops"></a>
+## 3. Operational direction and supplied references
+
+The user wants a compelling competition prototype: digital twin, heatmaps, scenario controls, and an incident-assessment workflow. The user explicitly understands that a fictional case requires assumptions and wants an optimistic but rational presentation grounded where possible in actual evidence.
+
+### 3.1 Friend's simulation brief
+
+User attachment: `Nexora Ibsc2026 Simulation Context Brief (1).md`. Its full original content is archived below as a historical proposal, not authoritative strategy. It proposed increasing internal share, driving blended cost towards Rp5,000–6,000, reinvesting savings in shipping subsidies, and using Monte Carlo for profit/volume outcomes.
+
+Corrections discussed:
+
+- Do not sample internal share only in an already preferred range and call that optimisation.
+- Do not assume large internal-cost reductions and demand increases, then describe simulation output as proving them.
+- Rp300,000 is GMV per parcel, not proven AOV.
+- Conditional Rp11tn residual is not verified fixed/technology/administration expense.
+- Demand, seller retention, and buyer repeat effects may overlap; avoid double-counting.
+- Fee changes/subsidy cuts and attrition coexist, but the case aggregates do not identify their causal effects.
+- At 80% internal share and Rp12,000 external cost, Rp6,000 blended requires Rp4,500 internal cost; Rp5,000 blended requires Rp3,250. Prior targets are not approved requirements.
+- An illustrative Rp3,500 subsidy on 55% of two billion baseline parcels costs Rp3.85tn with full platform funding. This is arithmetic, not a proposed approved subsidy.
+- No blanket-subsidy strategy or universal insourcing strategy has been selected.
+
+The user believes 100% internal delivery is likely unattractive due to marginal/expansion costs. The agreed modelling principle is to **allow that result to emerge**, not encode a predetermined optimum. Current Rp8,000 average internal cost does not establish marginal cost for the next sparse lane or capacity increment.
+
+### 3.2 JakCool screenshots
+
+Seven screenshots, named `Screenshot 2026-10-27 152526.png`, `152531`, `152537`, `152540`, `152543`, `152550`, and `152557`, show a station HVAC prototype: overview, digital twin, forecast, action queue, plant/water, anomalies, and impact. They were visually inspected. They are references for workflow and interface, not measured proof for Nexora or verification of JakCool's displayed savings/accuracy.
+
+Useful pattern: current state → forecast → recommendation → expected consequence → comparison. Adapt station zones to delivery hubs/catchments, plant limits to processing/vehicle capacity, and action approvals to allocation/overflow/shift decisions. Do not borrow energy metrics or label simulated Nexora results as verified pilot measurements.
+
+### 3.3 Lintara screenshot and source
+
+Attachments: `image(20261027-082626).png` and `Lintara_Project (1).zip`. The archive contains 182 files including React/TypeScript/Vite source, Three.js station views, numerical simulation/routing, Zustand state, reports, tests, and model/architecture/verification documentation. Extracted working review copy: `lintara_review/` in this conversation workspace.
+
+Inspected architecture/model documentation and selected simulation, routing, random-generation, rendering, and export code. This was **static source/document review**; the assistant did not rerun its build/tests or browser acceptance.
+
+Reusable design principles:
+
+- Model independent from React/WebGL/rendering.
+- Shared event/state model for replay and financial/analytical metrics.
+- Keyed seeded draws keep unrelated demand aligned when comparing interventions.
+- Baseline/proposed/stress branches, scenario persistence, exports, and bounded caches.
+- Quality settings affect representation, not analytical counts.
+
+Do not treat Lintara's passenger, shopping, or station-routing assumptions as delivery logistics. It needs a new domain engine. No trained forecasting model was established from the inspected source. Its included documentation reports 133 tests and recorded CPU benchmarks, but these are historical package claims/results, not newly reproduced checks here; browser/GPU performance was explicitly not established.
+
+<a id="v5-engine"></a>
+## 4. Prototype computation and Monte Carlo correction
+
+The user clarified that this is a competition prototype with predetermined scenarios and explicit assumptions, but **heatmaps and numerical consequences should genuinely be calculated**. The user then challenged the assistant's statement that Monte Carlo was unnecessary.
+
+**Authoritative correction:** frontend-only Monte Carlo is feasible and desired for consideration. “No production model” does not mean a static screenshot or fake numerical outputs. A browser engine can calculate capacity, costs, allocation, financial effects, and thousands of seeded uncertain worlds. A Web Worker can keep computation off the main UI thread. Runtime must be measured rather than promised.
+
+Distinguish:
+
+- Deterministic operating rules and financial formulas.
+- Random draws for uncertain demand, cost, travel time, capacity loss, etc.
+- Policy search across allocations/capacity choices.
+- A selected-world twin replay versus a multi-world heatmap summary.
+
+Use fixed seeds/matched worlds and fresh finalist draws. Example proposed experiment sizes were approximately 100 policies × 1,000 worlds for screening and 10,000 fresh worlds for finalists. These are **planning suggestions**, not achieved runs or strict requirements. Do not claim every heatmap cell received 10,000 runs without actual execution. Compare against matching counterfactual demand, include structural uncertainty, and do not label assumed-distribution success frequency as empirical confidence.
+
+A lightweight surrogate trained on simulation results was discussed as an optional way to accelerate interactive previews, with measured approximation error. It is not required, implemented, or validated. It would approximate the simulator rather than establish real Nexora behaviour.
+
+Jev was researched as TypeSafe's structured-decision model. Its proposed role is narrow exception classification/prioritisation; numeric consequences and feasibility belong to code/optimisation. Speed or vendor calibration claims do not establish logistics decision quality. No API calls, actual latency/cost benchmarks, or integration occurred here. **The current prototype must not depend on Jev:** use local rules/scripted responses labelled Demo response. A real deployment could evaluate it separately with a rule-based comparator.
+
+<a id="v5-prototype"></a>
+## 5. Agreed prototype scope and design handoff
+
+Exactly three key screens were specified in a delivered English Markdown brief for Google Stitch:
+
+1. **Network Control Room:** dominant regional network/twin map, internal/3PL lanes, capacity/utilisation, costs, sliders, selected-hub inspector, scenario/reset, and incident link.
+2. **Policy Lab:** numeric Monte Carlo heatmap, internal share versus demand, metric toggles, infeasible cells, selected-policy distribution/detail, and apply-to-network action.
+3. **Incident Response:** selected disruption, structured demo assessment, candidate action comparison, feasibility/cost/service implications, apply/undo and action log.
+
+User will explore visual styles in Stitch. No style, palette, typeface, or returned UI design is approved. Do not build three unrelated dashboards or a landing page. Maps and analytical graphics should dominate; no decorative chatbot/AI imagery or tiny text.
+
+The exact Stitch brief is embedded later. It includes illustrative fixture numbers (100,000 regional parcels/day, proposed 65% internal, Rp9,660 delivery cost/parcel, +Rp28m/day contribution) and a Bekasi capacity-loss incident. **These are internally consistent design fixtures, not analytical findings or user-mandated financial targets. Replace them with the forthcoming analytical outputs where available.**
+
+### Proposed technical stack
+
+Prototype recommendation: React + TypeScript + Vite; Three.js for schematic/isometric twin; ECharts for heatmaps, curves, and distributions; Zustand shared scenario state; plain TypeScript numerical engine in a Web Worker; versioned JSON assumptions/results; localStorage; local rule/scripted incident assessment; Vitest and Playwright verification. No backend, login, server database, or live AI is necessary.
+
+MapLibre may be added for a real geographic base map and layers; Three.js can remain for detailed 3D facilities/network. Shared numerical state must drive map, KPIs, and charts. The later geography decision strengthens the case for geographic layers; exact map/3D integration is not implemented or locked.
+
+Proposed production starting architecture, not an approved implementation: React/TypeScript frontend, MapLibre plus optional Three.js, Python/FastAPI services, PostgreSQL/PostGIS, OR-Tools optimisation, NumPy numerical jobs, Celery/Redis background queue, TMS/WMS/courier tracking integrations, company SSO/roles/audit log, and separately evaluated Jev backend assessment. Three.js is not limited to prototypes. Infrastructure scale and component choices require actual operational validation.
+
+<a id="v5-analysis"></a>
+## 6. Five analyses and final financial choices
+
+The analytical handoff requires:
+
+1. Baseline economics and accounting reconciliation.
+2. Marginal cost, utilisation, capacity, congestion, and discrete expansion analysis.
+3. Feasible policy/investment comparison and calculated heatmaps.
+4. Reproducible Monte Carlo, held-out finalist evaluation, stresses, structural and parameter sensitivity.
+5. Financial/service impact: consolidated operating-profit bridge, incremental cash flow, investment, NPV, project IRR, payback, funding, and service safeguards.
+
+The user authorised external research and independent selection of remaining assumptions. **Do not ask them to fabricate technical input values.** No approved budget or target payback exists. Requested stance: optimistic but rational, with explicit central/upside/downside and no forced winning result.
+
+Final clarification answers, supplied by the user's friend and accepted by the user:
+
+- **1B:** analyst chooses investment horizon from economic asset/system life, with sensitivity. Do not extend until IRR clears the hurdle.
+- **2C:** compare software-led and more capital-intensive physical packages, including no-investment/software-only and targeted upgrades where supportable.
+- **3A:** recommended rollout must preserve positive annual consolidated group operating-profit growth from Year 1.
+
+Other confirmed choices:
+
+- Main objective group operating-profit improvement, with investment return and payback also reported.
+- Core logistics case holds demand and monetisation equal to the matching counterfactual. Commercial growth/retention/subsidies are optional separately budgeted extensions.
+- National financial view through representative market types plus detailed real-geography-grounded Greater Jakarta for the demo.
+- Prefer strong expected performance with tolerable downside; also show max-expected-return alternative.
+- Research discount-rate range and all costs/capacity/cost-curve assumptions with provenance.
+
+The initial phrase “until IRR becomes positive / IRR > discount rate” was clarified into **test IRR against discount rate over a justified economic life**, with NPV/payback and appropriate incremental cash flows. Do not use group operating profit as project cash flow. Use unlevered project cash flows by default; no financing arrangements have been supplied. No fixed five-, seven-, or ten-year horizon was finally chosen. No discount rate or numerical investment return has been selected.
+
+Operating-profit growth and project IRR/NPV are separate constraints. Being above Rp5tn in every projected year is insufficient if a later year declines. If no justified policy meets all requirements, report that and the binding conditions rather than forcing success. Avoid invented perpetual terminal values; expose supported salvage/replacement/terminal assumptions.
+
+The workbook must contain meaningful calculated outputs, formulas for deterministic calculations where practical, and clearly labelled imported Monte Carlo results. It must not pretend changing an Excel input reruns external simulations automatically. Reproducible code, JSON schemas/units, and reference parity fixtures are required so prototype calculations can reproduce analysis.
+
+<a id="v5-geo"></a>
+## 7. Real-geography-grounded analysis
+
+User specifically requested use of https://github.com/opengeos/geoai-skills to improve geographical realism and the eventual heatmap. The repository and its `skills/overture-data/SKILL.md` were inspected online; **not installed or executed**. No maps, roads, buildings, population products, or routing matrices were acquired in this chat.
+
+It is a Claude Code plugin using GeoAI Python workflows, with tools for inspection, Overture extraction, raster processing, imagery search, and detection. Another chat should inspect current compatibility; use compatible Python/direct-data fallback if needed and record what actually ran. Do not claim plugin execution just from reading its documentation.
+
+Agreed addition before the five analyses:
+
+- Retrieve relevant real boundaries, roads, buildings/places and suitable population/activity proxies for a bounded Greater Jakarta area.
+- Inspect coverage, CRS, attributes, licenses, topology, and data vintage.
+- Construct network distances/catchments with appropriate access/direction constraints and boundary buffer; mark unreachable areas explicitly.
+- Estimate travel time with explicit speed/congestion assumptions unless actual observations are sourced.
+- Create manageable zones and transparently normalised synthetic parcel-demand proxies; test alternative resolutions and proxy weights.
+- Place hypothetical hubs/candidate facilities at plausible accessible locations, without attributing observed warehouse assets to NexExpress.
+- Compute zone/lane costs and feasible allocations; export both a geographic decision map and the policy sensitivity heatmap.
+- Use representative national types/weights; never multiply one Jakarta saving uniformly across all Indonesia.
+
+Real road/building data does not reveal Nexora's order density, facility ownership, spare capacity, actual travel speed, or current per-lane costs. Satellite building detection is optional only if it fills a material gap. Do not require US-specific aerial imagery for Indonesia.
+
+Outputs requested: source/date/license/coverage register, analytical GeoPackage or equivalent, lightweight GeoJSON, distance/time matrices, synthetic demand and weights, costs/allocations, scripts, and compact prototype JSON. Geography must change calculations, not just the basemap.
+
+<a id="v5-artifacts"></a>
+## 8. Artifacts and evidence status
+
+### Completed outputs
+
+| Artifact | Exact identity and status |
+|---|---|
+| `Panduan_Wawancara_Seller_Nexora.docx` | Final 7-page guide, layout verified; library ID `libfile_ec4e582595648191a8dc64093ec77360`, current version 1 after spacing replacement |
+| `Nexora_Stitch_Three_Screen_Brief.md` | Delivered self-contained UI brief; library ID `libfile_ea16b35f4de88191bb671ecf5a98f369`, created version 0 |
+| `Nexora_Analysis_Standalone_Handoff.md` | Delivered self-contained analysis instructions, 5,406 words at creation, including required master pack; library ID `libfile_e5479b9ba8f48191a84ea8dfef843c5a`, created version 0 |
+
+These IDs identify observed saves, not permission to assume access from another chat. Exact text of both Markdown outputs is embedded below. Companion binaries must be reattached if their bytes are needed elsewhere.
+
+### Important supplied artifacts
+
+- Original master V4: `IBSC_2026_Nexora_Master_AI_Context_Pack_V4(2).md`, library ID `libfile_4b372b1d80788191af6a75c6323ddd44`; unchanged input archived below.
+- Official casebook: `Casebook Preliminary IBSC 2026.pdf`, 18 pages, ID `libfile_a6e197727cd08191afcc48a3d3cee9ac`. Text extracted in this chat; constraint page 12 visually inspected. Embedded analytical brief contains the relevant case facts and financial safeguards.
+- Friend brief: `Nexora Ibsc2026 Simulation Context Brief (1).md`, ID `libfile_04b553d6d9c0819181f3a8d60cfc46a4`.
+- Lintara source: `Lintara_Project (1).zip`, ID `libfile_cce726fdc7a88191bbe7c419d3600131`.
+- Lintara screenshot: `image(20261027-082626).png`, ID `libfile_3d3ac7148d0c819183e687800341cd95`.
+- Interview spacing screenshot: `image(20261027-081301).png`, ID `libfile_5ab24c5bc2588191916bb00c7b4770f4`.
+- Seven JakCool screenshot names are listed in Section 3; they remain visual references rather than a validated operating dataset.
+
+### Research references inspected
+
+- GeoAI skills: https://github.com/opengeos/geoai-skills
+- Overture workflow: https://github.com/opengeos/geoai-skills/blob/main/skills/overture-data/SKILL.md
+- Overture transport: https://docs.overturemaps.org/guides/transportation/
+- OR-Tools routing: https://developers.google.com/optimization/routing and capacity/time-window subguides.
+- Amazon published routing dataset: https://www.amazon.science/publications/2021-amazon-last-mile-routing-research-challenge-data-set — describes 9,184 historical US routes in 2018; potential method-testing source, not Indonesian/Nexora cost data. No download/model run here.
+- Jev: https://docs.typesafe.ai/introduction and https://docs.typesafe.ai/models — documentation checked, no actual requests or benchmarks. Model versions/pricing/latency are time-sensitive; verify afresh if relevant.
+- Three.js https://threejs.org/ ; Vite https://vite.dev/guide/features.html ; ECharts https://echarts.apache.org/en/feature.html ; MapLibre https://maplibre.org/maplibre-gl-js/docs/ ; PostGIS https://www.postgis.net/
+- Microsoft IRR/NPV guidance: https://support.microsoft.com/en-gb/excel/go-with-the-cash-flow-calculate-npv-and-irr-in-excel
+
+No substantive result should be inferred merely from a tool's documented capabilities.
+
+<a id="v5-next"></a>
+## 9. Continuation rules and next steps
+
+1. Preserve V4 buyer research, PoD hypothesis, survey design, and evidence boundaries. This operational direction does not prove earlier buyer/seller hypotheses or select the whole competition strategy.
+2. The standalone handoff is complete and authorised; the user has supplied all three final choices. Do not restart clarification about those decisions.
+3. Await/review the separate analytical outputs and Stitch designs. No new empirical results are available in this chat yet.
+4. For prototype work, use analytic JSON, formulas, geographic layers, and parity fixtures; replace illustrative Stitch fixtures with supported outputs. Keep AI assessment demo-labelled and the visual twin synchronised with numeric state.
+5. The other analytical chat must create and maintain its own `Nexora_Master_Context_Pack.md` early and at milestones, deliver a final reconciled copy, and preserve its incoming handoff unchanged once in an appendix. Required contents include user changes, decision/assumption registers, sources/versions, methods, actual run counts/seeds/validation, corrections, rejected approaches, findings, artifact manifest, remaining questions, and continuation instructions. It must not depend on “see earlier chat.” This user requirement was explicitly added before delivering the standalone handoff.
+6. This V5 master is a continuity pack for **this** chat; it does not pretend to contain an unseen analytical chat's future results. Merge future updates only from actual supplied evidence.
+
+Copy-ready continuation:
+
+> We are preparing a competition prototype for fictional Nexora. Buyer survey distribution is owner-reported; no results or seller interviews are supplied. The Indonesian seller guide is completed. Another chat is assigned five logistics analyses plus real-geography preparation and must deliver XLSX, JSON/GeoJSON, reproducible code, methodology, prototype handoff, and its own master context pack. Its final decisions are economic-life-based horizon, comparison of software and physical packages, and positive annual group operating-profit growth from Year 1. Core benefits exclude assumed commercial demand/retention uplift. No investment budget or discount rate is approved. This chat will build a frontend prototype with a genuine numerical/Monte Carlo engine, a shared-state digital twin, policy heatmap, and local demo incident assessment, without live Jev. Stitch's three-screen brief is delivered; no returned design or analytical results have yet been received. Read the newest state and exact embedded handoffs before continuing. Do not turn fixtures or proposed runs into validated findings.
+
+
+<a id="v5-analysis-brief"></a>
+# Appendix A — Exact standalone analytical handoff
+
+<!-- BEGIN EXACT EMBEDDED DOCUMENT -->
+
+# Nexora logistics analysis and prototype data handoff
+
+## 1. Instruction to the receiving assistant
+
+You are the analytical workstream for an Indonesian e-commerce business competition project. **Carry out the research, calculations, geospatial preparation, policy evaluation, Monte Carlo analysis, and financial modelling described below. Deliver the actual files, including a complete master context pack.** Do not stop at a proposed methodology or a list of things the user should calculate.
+
+This document is self-contained. Do not assume access to previous chats, their files, connected accounts, or the original PDF. Verified relevant casebook figures and constraints are transcribed below. If the original PDF is separately attached, it takes precedence over any transcription error. Otherwise use this extract and accurately describe your source access; do not claim you personally inspected the PDF.
+
+The user has authorised you to independently research and select remaining technical and financial assumptions. Do not ask the user to invent costs, discount rates, elasticities, capacities, or forecast inputs. Make educated, documented assumptions and test consequential alternatives. Ask only if a material dependency cannot reasonably be resolved. Use available spreadsheet and geospatial skills and tools according to their instructions.
+
+**This chat does the analysis. A different chat will build the prototype from your outputs. Do not build or deploy the website.**
+
+## 2. Project and strategic context
+
+Nexora is fictional. Indonesia is the case market. NexExpress is its internal logistics arm, operating alongside third-party logistics providers, called 3PLs. All monetary case figures are Indonesian rupiah (IDR/Rp).
+
+Official case question:
+
+> How can Nexora achieve sustainable profitable growth while strengthening its competitive position and mitigating seller and buyer attrition in Indonesia's increasingly competitive e-commerce market?
+
+The wider team has three working goals: grow transaction value, monetise sustainably, and deliver efficiently and reliably. This workstream concerns the third goal and its financial consequences. Buyer surveys have been distributed, and seller interviews are being prepared. No survey results, completed interview findings, or validated demand elasticities are supplied here. Print-on-demand is a separate growth hypothesis; do not incorporate its revenue or demand into this logistics model.
+
+The operational hypothesis is that better allocation between NexExpress and 3PLs, more effective use of existing capacity, and selective investments can improve consolidated economics without sacrificing service. The answer is not assumed to be more insourcing everywhere. A current-policy or smaller-investment alternative is allowed to win.
+
+The competition prototype will demonstrate a delivery operations control room, a policy heatmap, and incident-response decisions. It will contain actual browser-side numerical calculations and potentially thousands of Monte Carlo runs, using case anchors, external evidence, and explicit hypothetical operating assumptions. It is not a live company digital twin.
+
+The user wants an optimistic but rational opportunity assessment. Interpret optimism as pursuing plausible improvements and staged investment in favourable locations, not forcing favourable assumptions or a positive result. Present a central case, a justified upside, and meaningful downside cases.
+
+## 3. Confirmed user decisions
+
+These choices are settled. Do not ask them again.
+
+1. **Investment life:** choose the evaluation horizon from the proposed assets' and systems' economic lives. Explain the choice and test alternative horizons. Do not keep extending the horizon until IRR passes.
+2. **Objective:** prioritise consolidated group operating-profit improvement, with investment economics and service safeguards also reported. Use NPV to assess value across mutually exclusive investment alternatives; do not rank different-sized projects solely by IRR.
+3. **Budget:** no approved investment ceiling or required payback period exists. Evaluate a range of investment packages and show efficient trade-offs and break-even spending. Do not invent an approved budget.
+4. **Operating scope:** compare both software-led coordination/allocation and more capital-intensive physical expansion. Include software-only, targeted shifts/vehicles/upgrades, and larger physical investment alternatives where supportable.
+5. **Profit constraint:** the recommended rollout must preserve positive annual consolidated group operating-profit growth from Year 1. This is stricter than merely remaining profitable. Test it explicitly; do not disguise a failure.
+6. **Commercial scope:** isolate logistics economics first. Hold underlying transaction demand and monetisation constant between each policy and its matching counterfactual. Additional demand, fee relief, retention gains, and shipping subsidies belong in separate optional extensions, not the core benefit calculation.
+7. **Geography:** use a national financial perspective through transparent representative delivery-market types, plus a more detailed real-geography-grounded Greater Jakarta model for the prototype.
+8. **Risk preference:** favour strong expected performance with tolerable downside; also display the maximum-expected-return alternative and explain the trade-off.
+9. **Assumptions:** independently research and choose all other technical and financial assumptions, with provenance and sensitivity testing.
+10. **Prototype AI:** no live Jev integration is required. A later prototype may use rule-based or scripted incident assessment labelled as a demo. Do not make AI API calls a dependency of this analysis.
+
+## 4. Authoritative casebook extract
+
+Source: *Casebook Preliminary IBSC 2026*, International Business Solution Competition 2026. The originating chat inspected the supplied 18-page PDF and verified the constraint page visually. Page numbers below are PDF page numbers and match printed numbering on the cited pages.
+
+### Operational matrix — page 7
+
+| KPI | 2024 | 2025 |
+|---|---:|---:|
+| GMV | Rp560 trillion | Rp600 trillion |
+| Platform revenue | Rp45 trillion | Rp60 trillion |
+| Reported take rate | 8% | 10% |
+| Marketing expense | Rp28 trillion | Rp24 trillion |
+| Average delivery cost per parcel | Rp12,000 | Rp10,000 |
+| Operating profit or loss | −Rp3 trillion | +Rp5 trillion |
+| Annual small-seller churn | 7% | 12% |
+
+Take rate is revenue divided by GMV. The exact implied 2024 ratio is 45/560, approximately 8.0357%; the exhibit reports a rounded 8%.
+
+### Additional operating data — page 10
+
+| Measure | Value |
+|---|---:|
+| Annual parcels delivered in 2025 | 2 billion |
+| NexExpress share of parcels in 2025 | 50% |
+| Average cost per NexExpress parcel | Rp8,000 |
+| Average cost per third-party courier parcel | Rp12,000 |
+| Small sellers active at beginning of 2025 | 1.2 million |
+| Repeat-buyer rate, 2024 to 2025 | 62% → 57% |
+
+No order count, active-buyer count, route-level costs, network map, internal capacity, 2024 parcel volume, delivery failure rates, or definitions of the churn/repeat cohorts are supplied.
+
+### Seller segments — page 10
+
+| Segment | 2025 GMV, Rp trillion | 2025 platform revenue, Rp trillion | Annual churn |
+|---|---:|---:|---:|
+| Small sellers / MSMEs | 200 | 20 | 12% |
+| Mid-size sellers | 220 | 22 | 5% |
+| Other Segments | 180 | 18 | 2% |
+
+Retain the label Other Segments. The case does not define it as large sellers or brands. Equal implied segment revenue/GMV ratios do not establish equal commission schedules or contribution margins.
+
+### Competitors — page 8
+
+| Indicator | Nexora | Scrolla | Avori | Borong.id |
+|---|---:|---:|---:|---:|
+| 2025 GMV, Rp trillion | 600 | 330 | 180 | 90 |
+| Reported GMV growth | 7% | 32% | 3% | 6% |
+| Reported take rate | 10% | 6% | 8% | 7% |
+| General free shipping | No, targeted incentives only | Yes | Limited | Yes, with minimum spend |
+| Delivery cost per parcel, Rp | 10,000 | 12,500 | 11,000 | 11,500 |
+
+Competitor profitability, service levels, and subsidy funding are not supplied. Do not infer them from these figures.
+
+### Market — page 9
+
+| Measure | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|
+| Market growth | 9% | 14% | 11% |
+| Nexora GMV value share | 50% | 48% | 46% |
+| Scrolla share | 14% | 21% | 25% |
+| Avori share | 20% | 15% | 14% |
+| Borong.id share | 8% | 7% | 7% |
+| Other players | 8% | 9% | 8% |
+
+Displayed values are rounded and do not fully reconcile when reverse-engineered. Preserve reported values rather than silently changing them.
+
+### Background and management positions — pages 4–6
+
+Nexora gradually raised commissions, reduced broad promotions, and increased internal delivery. Commission schedules vary approximately 8%–20%+ by category, plus service fees; these are not the same as the blended revenue/GMV take rate. Logistics contributes to revenue as well as cost, but recognition and internal-transfer details are absent.
+
+Management emphasises growing profit, cheaper current internal delivery, seller variety, and data/automation at scale. The logistics director's view that internal delivery is cheaper does not establish that the next parcel on every remaining lane is cheaper internally.
+
+### Mandatory constraints — pages 11–12
+
+- Profit growth must remain positive and sustainable.
+- Digital technology and innovation must form the core driver.
+- Additional assumptions must be realistic, explicit, and consistent with case facts.
+- External references are permitted.
+- Evaluate financial impact and operational feasibility with credible evidence and rigorous reasoning.
+
+The user's Year-1 annual profit-growth interpretation is specified in Section 3. A positive project NPV does not override a failure of this separate constraint.
+
+### Competition context — pages 14–15
+
+The preliminary executive summary is limited to three pages excluding cover, references, and appendix; references use APA style. Deadline stated in the supplied casebook: 1 November 2026 at 23:59 GMT+7. Rubric: problem analysis 20%, strategic solution 30%, impact/feasibility 30%, data/evidence 15%, essay structure 5%. Your current deliverables are analytical files, not that submission. Provide a few concise exhibits and defensible conclusions that can later support it.
+
+## 5. Accounting and interpretation boundaries
+
+Use these checks before designing the model:
+
+- Current blend: 0.5 × Rp8,000 + 0.5 × Rp12,000 = Rp10,000 per parcel.
+- Assuming aligned cost and volume scopes, implied delivery spending is 2bn × Rp10,000 = Rp20tn, comprising Rp8tn internal and Rp12tn external. This is derived, not an audited logistics P&L.
+- Rp600tn / 2bn = Rp300,000 **GMV per parcel**, not proven average order value.
+- Rp60tn / 2bn = Rp30,000 platform revenue per parcel on an aggregate basis; not marginal contribution per new parcel.
+- Rp60tn − Rp24tn marketing − Rp5tn operating profit = Rp31tn other operating costs including logistics.
+- Subtracting the derived Rp20tn delivery cost leaves Rp11tn as a conditional residual. It is not verified fixed overhead, technology expense, or a directly observed cost bucket. Do not confidently forecast it as wholly fixed.
+- For unchanged volume and constant unit costs, shifting 10 percentage points internally mechanically saves Rp0.8tn annually. This is a reference calculation, not a forecast after capacity investment or changed route mix.
+- Every Rp1,000 per parcel at two billion parcels equals Rp2tn annually. Use this as a unit sanity check.
+- Current average cost is not marginal cost. The current internal network may already serve easier or denser lanes.
+- Nexora–NexExpress internal transfers do not create consolidated profit. Do not invent new external revenue from transfer pricing.
+- Include technology and expansion costs once, and distinguish capital expenditure from depreciation and recurring expense.
+- Do not double-count failed-delivery expense already included in a cost estimate.
+- A seller departure is not proportional GMV loss. A five-percentage-point repeat-buyer change is not automatically parcel growth or churn.
+- Buyer retention, seller retention, and parcel growth can refer to the same underlying transactions; do not add them as independent benefits.
+- Lower logistics cost alone does not prove improved buyer/seller retention. Report those as strategic hypotheses unless supported by additional evidence.
+
+A prior informal proposal targeted 65–85% internal delivery and Rp5,000–6,000 blended costs. **These are not approved constraints or validated targets.** Do not centre the analysis on achieving them. At 80% internal share and Rp12,000 external cost, a Rp6,000 blend requires Rp4,500 internal cost; a Rp5,000 blend requires Rp3,250. Let the model establish what is plausible.
+
+## 6. Research and evidence protocol
+
+For each input distinguish:
+
+1. CASE FACT — from the extract, with page.
+2. DERIVED — arithmetic from case or external observations, with formula.
+3. EXTERNAL OBSERVATION — primary-source benchmark with geography, date, unit, scope, and URL.
+4. ASSUMPTION — an authored input or distribution, with reasoning and alternatives.
+
+Prefer original datasets, official statistics, operator disclosures, official tariffs, primary research, and tool documentation. Check source applicability rather than collecting large volumes of citations. A public courier tariff is not internal marginal cost. A foreign efficiency estimate is not a Nexora saving coefficient.
+
+For important assumptions record low/central/high or distribution parameters, correlation logic, impact sensitivity, and confidence in provenance. Distinguish parameter uncertainty from random operating variability. Do not claim that Monte Carlo confidence under assumed distributions is empirical confidence about Nexora.
+
+Record retrieval dates, dataset versions, licenses/attribution, failures, and data-quality limitations. Do not use unrelated or poorly matched data simply to increase the number of sources. Do not silently replace inaccessible data with invented observations.
+
+## 7. Geography workstream
+
+### Required investigation
+
+Inspect and selectively use https://github.com/opengeos/geoai-skills for actual geographic grounding. It is a Claude Code plugin built on the GeoAI Python library, not guaranteed to be a drop-in plugin in your environment. Inspect current instructions and dependencies before use. If its launcher is unavailable, use compatible underlying Python/library or direct-data workflows, recording the route actually used. Do not claim the plugin executed if you merely followed its methods.
+
+Relevant repository capabilities identified during planning include geographic inspection, Overture data extraction, raster processing, STAC imagery search, and imagery-based object detection. Overture workflows can retrieve buildings, places, transportation segments, and connectors. Primary transportation reference: https://docs.overturemaps.org/guides/transportation/ . Verify current coverage and schemas yourself.
+
+Use existing mapped features first. Do not make satellite object detection mandatory when roads/buildings are already available. Some imagery workflows are US-specific, so check Indonesian coverage before choosing one. Additional sources such as OpenStreetMap, Indonesian official statistics, or gridded population products may be used where relevant and accessible; investigate rather than assume availability or completeness.
+
+### Geographic analysis tasks
+
+- Select and document a bounded Greater Jakarta study area: Jakarta, Bogor, Depok, Tangerang, Bekasi as appropriate to available data and feasible scope.
+- Retrieve real geographic features and inspect coordinate systems, geometries, completeness, dates, and attributes.
+- Construct a connected road-network representation with an appropriate buffer beyond the study boundary. Handle direction/access restrictions where available, disconnected components, and unreachable destinations explicitly.
+- Use network travel distances for hub-to-zone accessibility. Label travel times as estimates unless sourced from actual measured times. Speed limits are not observed speeds; congestion needs separate assumptions or evidence.
+- Select a manageable zoning resolution based on the analysis. Compare at least one alternative zoning or demand-distribution assumption to avoid false precision.
+- Create transparent synthetic parcel-demand allocations using suitable settlement/population/building/activity proxies. These are not measured Nexora order locations. Normalise the chosen regional volume explicitly and vary proxy weights.
+- Place **hypothetical** existing and candidate facilities at plausible accessible locations. Actual warehouse geometry does not establish NexExpress ownership or spare capacity.
+- Calculate catchments, hub-to-zone distance/time matrices, service feasibility, and spatial cost drivers.
+- Export an actual geographic decision layer: preferred delivery mode under each selected policy, marginal cost advantage, capacity pressure, and uncertainty/switching where supportable.
+
+Use suitable geospatial tools as needed; you need not use deep learning to justify the work. Avoid arbitrary straight lines across barriers in the analytical routing network. Simplified lines may be used for visual overview only if the underlying distances are network-derived and the distinction is clear.
+
+### National versus regional treatment
+
+The case's two billion parcels are national annual volume. The Greater Jakarta volume is an assumption requiring a documented allocation method; do not treat all national parcels as local or reuse an arbitrary demonstration volume as observed data.
+
+Use representative national delivery-market types with explicit weights and assumptions, such as dense urban, suburban/periurban, lower-density regional, and difficult/inter-island service where relevant. Weights must reconcile with national volume and baseline allocation/cost anchors. Test alternative weights. Do not multiply one Jakarta cost saving uniformly across the entire country. Label extrapolated results as modelled national scenarios.
+
+## 8. Required analysis 1 — Baseline economics
+
+Reconcile the baseline case, cost scopes, units, national annual and regional daily scales. Build a matching counterfactual for each forecast period. Keep demand and monetisation identical between policy and counterfactual in the core analysis; shared background inflation or exogenous changes may be modelled symmetrically and disclosed.
+
+Use an incremental bridge from reported group operating profit where the case lacks a reliable full cost breakdown. Do not manufacture a fully identified historical P&L.
+
+Baseline calibration should reproduce the 50% internal share and aggregate Rp8,000/Rp12,000 costs. A single calibration match does not identify fixed/variable splits or unique cost curves. Document alternative plausible decompositions and test their consequences.
+
+Output baseline ledger, provenance, formulas, residual treatment, and assumptions.
+
+## 9. Required analysis 2 — Marginal cost and capacity
+
+Construct an explicit, operationally interpretable cost function:
+
+- Existing committed capacity and utilisation.
+- Avoidable/incremental labour, distance, vehicle time, fuel, handling, dispatch, and redelivery costs.
+- Cost spreading as utilisation increases, where justified.
+- Overtime, queues, missed cut-offs, and overflow near capacity.
+- Discrete added shifts, vehicles, sorting upgrades, facilities, or collection points where applicable.
+- Implementation delays, ramp-up, spare capacity, replacement expenditure, and stranded costs.
+- External carrier tariffs, capacity, service availability, and possible repricing/contract effects.
+
+Identify where the next increment of internal allocation is attractive relative to the actual alternative. Ensure spillovers between zones and shared hub capacity are respected; individually cheap zones may not all be simultaneously feasible.
+
+Deliver marginal and average cost curves, capacity thresholds, expansion steps, and a geographic map of cost advantage. Do not hard-code a U-shaped curve or an interior optimum just to make 100% internal look bad. Any internal share can win if supported by the defined conditions.
+
+## 10. Required analysis 3 — Policy and investment comparison
+
+Distinguish decision variables from uncertain world conditions.
+
+Decisions may include lane/zone allocation, overflow rules, dispatch/consolidation, added shifts, vehicles, hub upgrades, and phased investment. Uncertainties may include demand, travel time, cost inflation, productivity, failures, and implementation outcomes.
+
+At minimum compare:
+
+- Current 50/50 aggregate allocation, respecting its assumed geography.
+- Simple feasible allocation/overflow rules.
+- Software-led coordination/allocation with existing assets.
+- Targeted capacity upgrades.
+- More capital-intensive expansion.
+- A capacity-aware recommended policy and a highest-expected-return alternative if different.
+
+Evaluate no-investment alternatives fairly, including their costs and limitations. Do not award an intervention savings for capabilities implicitly assumed absent without explanation.
+
+A grid or other transparent search is acceptable. Use a suitable solver if warranted. Report the best **evaluated** feasible policy unless global optimality is established. Target internal share and feasible realised internal share are different fields; unused capacity, unserved demand, and outsourced overflow must be visible.
+
+Create:
+
+1. A numeric heatmap with internal-share policies versus demand conditions, with expected incremental contribution and infeasible cells.
+2. A companion geographic allocation/cost-advantage layer.
+3. A policy comparison table including service and investment.
+
+For each heatmap point compare against the counterfactual under the same demand level. Define the demand axis separately from stochastic demand variation around that level. Do not subtract a fixed 2025 profit from every higher-demand scenario and call all volume benefit policy benefit.
+
+## 11. Required analysis 4 — Monte Carlo, stress, and sensitivity
+
+Actually execute the numerical analysis, with recorded seeds, code, run counts, and runtime. Use seeded stochastic sampling so results are reproducible and policies encounter matched operating worlds. Preserve independent random-variable identities where possible when policy structures differ.
+
+Start with a pilot performance/convergence check. A suggested plan is approximately 100 policy candidates × 1,000 sampled worlds for screening, then approximately 10,000 fresh worlds for shortlisted policies. Adjust to computational feasibility and convergence; these are planning sizes, not achieved results or mandatory wasteful counts. Do not claim a completed 10,000-run surface if only finalists received that many runs.
+
+Document distributions, plausible correlations, constraints, and truncation. Include structural sensitivity to cost-curve forms, geographic allocation, demand proxies, and national weights, not just random noise around one preferred model.
+
+Report expected/median outcomes, downside percentiles, share of runs improving over baseline, service violations, investment exposure, and policy-ranking stability. If you use a risk penalty or service threshold, specify and justify it and test alternatives. A 10th percentile outcome is not a 90% confidence interval for a real-world causal effect.
+
+Stress at least: campaign surge, reduced hub capacity, corridor/travel-time disruption, weak productivity improvement, higher implementation costs, and external-carrier repricing. Include cases where the intervention is neutral or loses. Evaluate shortlisted policies on fresh draws rather than reporting only selection-sample winners.
+
+Provide a sensitivity/tornado exhibit and break-even thresholds: which assumptions would reverse the recommendation, or cause it to miss profit/service requirements?
+
+## 12. Required analysis 5 — Financial and service impact
+
+### Profit and cash flow
+
+Build a transparent consolidated operating-profit bridge and separate incremental investment cash-flow model. Account for technology implementation, recurring software/cloud/AI costs where relevant, integration, training, labour changes, transition costs, depreciation, maintenance, replacement, working capital, and taxes using researched or disclosed assumptions.
+
+Use unlevered incremental project cash flows as the default; do not invent financing arrangements or present project IRR as equity IRR. Match nominal/real and currency treatment between cash flows and discount rates. Research a defensible nominal IDR discount-rate range; do not label an assumed hurdle rate as Nexora's observed WACC.
+
+Choose the horizon from economic lives and rollout timing. Avoid a perpetuity terminal value in the main case. Use supported residual/salvage values, replacement, and decommissioning where relevant; expose any terminal-value dependence separately.
+
+Calculate NPV, project IRR/XIRR as appropriate, payback, discounted payback, peak funding need, and break-even investment. For no-investment policies, IRR may be undefined; report N/A rather than fabricate it. If cash-flow sign changes produce multiple or unreliable IRRs, emphasise NPV and explain the issue. Do not silently turn operating profit into cash flow.
+
+The user's desired hurdle is **IRR above the chosen discount rate**, with positive NPV over a justified horizon. This is an evaluation criterion, not permission to manufacture success. If it cannot be met, report that and investigate a smaller or differently phased policy within plausible assumptions.
+
+### Annual growth constraint
+
+Starting from reported 2025 group operating profit of Rp5tn, report annual group operating profit, year-on-year growth, the corresponding counterfactual, and incremental policy impact. Explicitly test positive annual profit growth from Year 1 and through the modelled horizon. Merely being above Rp5tn every year is insufficient if a later year declines.
+
+Do not force the counterfactual or savings trajectory to make this pass. If no supported policy satisfies the user's constraint and investment criteria, state so and show the binding conditions and nearest feasible alternatives.
+
+### Service safeguards
+
+Define a manageable set of modelled measures: on-time performance or service feasibility, overflow/unserved parcels, backlog, and capacity utilisation. Justify thresholds, and distinguish daily planning feasibility from an empirically calibrated delivery probability. Cheap but infeasible policies must not win.
+
+Do not claim a modelled service improvement has demonstrated a buyer-repeat or seller-retention effect. A concise strategic interpretation is welcome, but leave unmeasured benefits unquantified.
+
+### Optional extensions
+
+Only after completing core logistics analysis, optionally show separately budgeted subsidy reinvestment or commercial growth scenarios. Require incremental contribution to cover incentives, additional fulfilment, and related costs. No survey-derived elasticity is available in this brief. Keep these extensions out of headline core savings.
+
+## 13. Prototype handoff requirements
+
+The other chat will likely use React, TypeScript, Vite, Three.js, ECharts, Zustand, and browser Web Workers. Data and calculation semantics matter more than framework-specific code.
+
+Three target screens:
+
+1. Network Control Room: regional twin, facilities, routes, allocation, utilisation, costs, selected scenario, and controls.
+2. Policy Lab: numeric Monte Carlo heatmap, policy comparison, downside distribution, assumptions, and apply-policy action.
+3. Incident Response: capacity/corridor disruption, structured demo assessment, feasible action comparison, and before/after consequences.
+
+The twin replays one selected world; the heatmap summarises multiple worlds. All displays must consume a consistent selected scenario. No live Jev, real company telemetry, or production authentication is required.
+
+Provide:
+
+- Stable zone, hub, lane, policy, scenario, and intervention IDs.
+- Versioned JSON schema/data dictionary, units, time bases, and financial scope.
+- Clear separation of case constants, researched inputs, assumptions, decisions, draws, and results.
+- Slider ranges and defaults justified by analysis; do not assume a previous UI fixture is a factual constraint.
+- Formulas/pseudocode sufficient to reimplement the numerical engine in TypeScript.
+- Seed/random-generation specification if cross-language replication is expected. Otherwise export sampled worlds so both implementations can use identical inputs.
+- Small reference test fixtures with expected outputs and tolerances to verify workbook/Python/frontend parity.
+- Numeric heatmap cells and feasibility reasons, not only chart images.
+- Geographic layers and network-derived route geometry or clearly labelled visual simplifications.
+- One worked incident, such as hub capacity loss, with feasible alternatives and reconciled cost/volume effects. Keep dispatch-window and daily totals distinct.
+- Provenance and simulated-status labels that can be surfaced in an assumptions drawer.
+
+Do not place heavy raw geospatial datasets inside browser JSON. Supply simplified display layers and compact analytical matrices, retaining full-resolution source layers separately. Keep displayed precision appropriate to source uncertainty.
+
+## 14. Required deliverables
+
+Deliver actual files with usable links. Suggested package:
+
+### A. `Nexora_Logistics_Analysis.xlsx`
+
+A well-formatted workbook containing at least:
+
+- Read Me and model scope.
+- Case facts and baseline reconciliation.
+- Source and assumption register.
+- Geography/zone summaries and national weighting.
+- Marginal cost and capacity functions.
+- Investment alternatives and rollout.
+- Policy comparison and numeric heatmap.
+- Monte Carlo summary, recorded samples/draw references, and sensitivity.
+- Operating-profit bridge and incremental project cash flows.
+- NPV/IRR/payback and service safeguards.
+- Executive findings and validation checks.
+
+Use editable formulas for deterministic financial and operating calculations where practical. Label externally computed simulation results as imported results. Include formula caches or recalculated values so the workbook opens with meaningful numbers. Do not require macros. Changing a financial assumption should update linked formulas; changing a simulation parameter may require rerunning the supplied script, and the workbook must say so. Do not imply imported Monte Carlo tables automatically recalculate in Excel.
+
+### B. Prototype-ready data
+
+Prefer separate compact JSON/GeoJSON files for assumptions/configuration, policies, heatmap, selected outcomes, incidents, facilities/zones/routes, and reference test fixtures. A combined file is acceptable if well structured. Include valid JSON values, explicit null handling, and stable units; no NaN/Infinity.
+
+### C. Geospatial evidence
+
+GeoPackage or equivalent analytical layers; source/data dictionary and attribution. Preserve necessary source references and reproducible retrieval/preparation scripts. Package feasible scoped inputs, not an indiscriminate country-scale download. State any redistribution restrictions.
+
+### D. Reproducible code
+
+Python scripts/notebooks or another suitable executable workflow for data preparation, cost calculations, policy search, Monte Carlo, exports, and QA. Include dependency versions, exact commands, seeds, and fallback routes. Do not leave the core findings dependent on inaccessible chat-only calculations.
+
+### E. `Nexora_Methodology_and_Findings.md`
+
+Explain data access, geography, accounting, assumptions, policy search, uncertainty, validation, findings, limitations, and recommended rollout. Include APA-style external references with URLs and dates. State what was actually executed versus only proposed.
+
+### F. `Nexora_Prototype_Handoff.md`
+
+Document the result schema, calculation rules, state transitions, illustrative/demo boundaries, reference fixtures, and the few analytical conclusions the UI should communicate. A ZIP containing deliverables and a concise manifest is useful in addition to the main XLSX link.
+
+### G. `Nexora_Master_Context_Pack.md`
+
+This is a mandatory additional deliverable. The user explicitly wants to preserve the new chat's important context so another assistant can continue without the conversation history. It is a continuity record, not just an executive summary.
+
+**Create it early and update it at major milestones**, after substantive decisions, after corrections or changes in scope, and before context compaction when feasible. Produce a final version after all outputs and validation results are known. Do not rely on remembering the whole session at the end. Maintain this file through the available persistent artifact/file workflow; keep reproducible working checkpoints where appropriate.
+
+The final pack must contain:
+
+1. **Read first and current state:** purpose, latest status, completed work, outstanding work, and a navigation guide. Distinguish verified execution, assumptions, proposed future work, and failed or blocked work.
+2. **Original incoming context:** preserve this entire handoff document in a clearly delimited appendix, unchanged, including the confirmed user choices and case extract. A reference to a file that may not be available in a later chat is not sufficient. Avoid recursive copies of earlier pack versions; keep the initial brief once and a versioned change log.
+3. **User steering and scope changes:** important subsequent user instructions, preferences, constraints, and authorisations, with exact wording where needed for meaning. Clearly identify changes that supersede the incoming brief.
+4. **Decision register:** stable IDs, what was chosen, rationale, alternatives considered, reasons for rejecting or deferring them, evidence relied on, and whether the user approved the decision or the analyst chose it under delegated authority.
+5. **Assumption register:** final values, ranges/distributions, units, provenance category, reasoning, correlations, revisions, sensitivity, and remaining uncertainty. Include evaluation life, discount rate, financial treatment, economic/physical life distinctions, geographic weights, demand proxies, costs, capacity, and service thresholds.
+6. **Source and geography record:** exact source URLs, retrieval dates, dataset/repository versions or commit IDs where available, geographic scope, coordinate systems, coverage gaps, licenses, and actual access routes. Do not describe a catalogued dataset as downloaded or inspected unless it was.
+7. **Model specification:** accounting boundaries, counterfactuals, equations, cost-curve forms, allocation rules, investments, rollout, demand normalisation, national extrapolation, cash-flow construction, risk objectives, and constraints. Preserve consequential implementation details needed to reproduce the results.
+8. **Executed analysis record:** actual candidate counts, sampled-world counts, seeds, held-out evaluation design, distribution parameters, scenario definitions, software/dependency versions, runtime where measured, validation results, and outputs. Distinguish plans from achieved work.
+9. **Findings and interpretation:** the recommended policy, alternatives, financial and service effects, break-even points, downside cases, structural sensitivities, and boundaries of what the evidence supports. Preserve failed or unfavourable results relevant to the recommendation.
+10. **Corrections and abandoned approaches:** what was wrong or changed, why, and which former figures or conclusions must no longer be used. Label historical entries as superseded rather than leaving contradictory figures unresolved.
+11. **Output manifest:** exact final filenames, available artifact IDs/links, schema versions, paths, checksums where practical, and what each file contains. Include the workbook, spatial outputs, JSON, code, findings, and prototype handoff. Do not invent identifiers or depend on temporary execution paths as the only locator.
+12. **Prototype continuation:** which outputs drive each of the three screens, shared state and units, reference fixtures, simulated versus observed fields, known performance limitations, and remaining UI decisions.
+13. **Open issues and next actions:** unresolved analytical questions, dependencies, limits, and a copy-ready continuation prompt for the prototype-building chat. The next assistant should not need to ask the user to repeat settled decisions.
+
+Use a concise current-state section plus detailed appendices. The pack must be self-contained for understanding the work, while clearly identifying companion data/code files required to rerun it; it need not duplicate every raw geospatial feature or Monte Carlo draw. Do not replace specifics with statements such as “see earlier conversation.” Preserve analytical reasoning and decision rationale, not private hidden reasoning. Do not include credentials or unnecessary personal data.
+
+If the session must end before all work is complete, deliver an updated partial pack with exact completed and pending status. At final completion, reconcile the pack against the actual delivered files and results. Provide the master pack as its own downloadable MD file in addition to any ZIP.
+
+## 15. Validation and completion gates
+
+Complete relevant checks before delivery:
+
+- Baseline identities and national-volume weights reconcile.
+- Allocations conserve parcels: demand equals internal + external + explicitly unserved/deferred quantities for the defined window. Backlog carries over if modelled.
+- Hub/vehicle/shift capacity and service constraints are respected or violations reported.
+- Distance units, coordinate systems, daily/annual scaling, and monetary magnitudes are correct.
+- Unreachable road-network locations are not treated as zero distance.
+- Fixed costs, expansion spending, depreciation, technology fees, subsidies, and internal transfers are not double-counted.
+- No savings are credited for unchanged capabilities in the counterfactual.
+- Cash-flow/NPV/IRR calculations reconcile; Excel beginning-period cash flows are handled correctly.
+- Year-on-year group profit growth and project investment criteria are separately checked.
+- Seeded results reproduce, comparisons use matched worlds, and finalist results use fresh draws.
+- The recommended policy is not an accidental winner from one assumed geographic distribution, cost-curve form, or expansion threshold.
+- JSON/GeoJSON is valid; IDs and units match tables and workbook; reference fixtures agree across outputs.
+- Workbook formulas do not contain errors or broken external links, and charts/labels are readable.
+
+Use a concise execution plan initially, then proceed autonomously through analysis and delivery. Keep the user updated at meaningful milestones. Finish with the actual recommendation, key conditions, principal risks, executed run counts, and file links, including the separate final master context pack. If a tool or source is blocked, use a materially suitable documented fallback where possible and report the precise remaining limitation. Do not fabricate acquisition, runs, validation, or results.
+
+<!-- END EXACT EMBEDDED DOCUMENT -->
+
+<a id="v5-stitch-brief"></a>
+# Appendix B — Exact Google Stitch brief
+
+<!-- BEGIN EXACT EMBEDDED DOCUMENT -->
+
+# Nexora logistics prototype brief for Google Stitch
+
+## Your task
+
+Design exactly **three connected high fidelity desktop web app screens** for an e-commerce logistics decision platform. This is a business competition prototype, intended to make the proposed operating workflow tangible. Produce actual screen designs, not a landing page, pitch deck, or written UX analysis.
+
+The three screens are:
+
+1. **Network Control Room** — an interactive digital twin of delivery operations.
+2. **Policy Lab** — a Monte Carlo heatmap for comparing delivery policies under uncertainty.
+3. **Incident Response** — Jev-assisted exception assessment and a calculated action comparison.
+
+Keep the product structure, terminology, and selected scenario consistent across all three. Do not produce three unrelated dashboards or three style variants of one screen. Visual style remains deliberately open: choose a coherent direction for this first set; the owner will explore other styles separately.
+
+## Product and audience
+
+Nexora is a fictional Indonesian marketplace. Its internal delivery arm, NexExpress, works alongside third-party logistics providers, abbreviated **3PL**. The operating question is which deliveries to serve internally, where to outsource, and when additional capacity is worth its cost.
+
+The user is a logistics planning or operations manager. They need to understand the network, compare policies, and resolve a disruption. Competition judges will explore the same interface during a short demonstration.
+
+The intended future application is frontend-first: browser calculations and a Web Worker can evaluate policies and run Monte Carlo scenarios. Its visual twin, heatmap, and financial outputs must share the same underlying scenario state. Stitch's current job is to visualise that experience; do not implement the engine or imply you ran it.
+
+Use English interface copy, IDR currency, Indonesian place names, and WIB times. Optimise these initial designs for a desktop presentation around 1440–1600 pixels wide. Keep type readable at normal laptop viewing size.
+
+## Design freedom and priorities
+
+Do not lock this product into an existing brand palette, specific font, dark theme, or light theme. Explore a strong but usable visual direction. Keep analytical meaning stable: red/amber for adverse conditions, a distinct positive colour for improvement, and neutral treatment for uncertainty or missing data. Status must also use text or symbols, not colour alone.
+
+Make the map and analytical graphics the visual anchors. Use measured spacing, clear hierarchy, legible chart labels, and restrained KPI cards. The product should feel like an operational tool that someone could actually use. Avoid decorative AI imagery, glowing brains, endless identical cards, oversized marketing headlines, or a chatbot dominating the interface.
+
+JakCool and Lintara are conceptual inspirations: a spatial operating view, shared timeline, scenario comparison, and actions with visible consequences. This brief is self-contained; you do not need access to their screenshots. Do not copy their station layouts or energy metrics.
+
+## Shared navigation and state
+
+Use one compact sidebar or equivalent persistent navigation with exactly these destinations:
+
+- Network
+- Policy Lab
+- Incidents, with an incident count
+
+Use **Nexora** as the product identity and **NexExpress Operations** as a descriptor. A secondary product name is optional; do not invent a corporate history or customer list.
+
+A consistent header should communicate:
+
+- Region: **Greater Jakarta**
+- Scenario: **Campaign surge**
+- Scenario time: **09:30 WIB**
+- **Prototype · simulated operations** status
+- Access to **Assumptions** and **Reset scenario**
+
+Show context-specific primary actions instead of repeating every action everywhere. Assumptions should open a drawer or contextual panel, not a fourth main screen.
+
+## Facts and demonstration fixtures
+
+### Supplied fictional case anchors
+
+- Nexora annual parcels: **2 billion**.
+- Current internal parcel share: **50%**.
+- Current average internal delivery cost: **Rp8,000 per parcel**.
+- Current average 3PL delivery cost: **Rp12,000 per parcel**.
+- Current blended delivery cost: **Rp10,000 per parcel**.
+
+These are national annual case anchors. They do not identify actual hub locations, route costs, local capacity, or marginal costs.
+
+### Illustrative regional fixture for consistent design
+
+Use a hypothetical Greater Jakarta day with **100,000 parcels**. Regional facilities and volumes below are authored prototype assumptions, not observed Nexora operations.
+
+For the baseline:
+
+- Internal allocation: 50,000 parcels; external allocation: 50,000.
+- Daily delivery cost: **Rp1.00bn** at Rp10,000 per parcel.
+
+For the selected proposed policy:
+
+- Internal allocation: 65,000; external allocation: 35,000.
+- Internal average cost: **Rp8,400**, reflecting the assumed changed delivery mix.
+- External average cost: Rp12,000.
+- Delivery cost: **Rp966m/day**, or **Rp9,660 per parcel**.
+- Gross delivery saving: **Rp34m/day** versus the baseline.
+- Additional operating expense: **Rp6m/day**, outside the delivery-cost figure.
+- Operating contribution improvement: **Rp28m/day**, assuming unchanged revenue and other costs.
+- Any upfront investment is a separate cash requirement, not automatically included in that daily expense.
+
+All fixture values are design examples, not results of an executed model. A quiet persistent simulated-data indicator is sufficient; put detailed provenance in Assumptions. Never label fixtures as measured, verified, or live production data.
+
+## Screen 1 — Network Control Room
+
+### User task
+
+Understand where the selected delivery policy works, which locations are under pressure, and how changing conditions affects operations.
+
+### Composition
+
+Make a spatial network view the dominant element, occupying roughly two thirds of the working area. Use an elegant 2.5D/isometric regional map or readable geographic network representation. Show Greater Jakarta with labelled hypothetical hubs around Jakarta, Tangerang, Bekasi, Depok, and Bogor. Geography should be plausible; facility locations must be presented as illustrative.
+
+Show internal and 3PL lanes with distinguishable line treatments and a legend. Show parcel-flow direction, selected facilities, coverage areas, and hub utilisation. Animation can be suggested through direction markers and replay controls; no decorative motion unrelated to network state.
+
+A compact KPI strip should show:
+
+- 100,000 parcels/day
+- 65% internal allocation
+- Rp9,660 delivery cost/parcel
+- +Rp28m/day operating contribution versus baseline
+
+Use a right-side inspector for the selected hub: allocation, usable capacity, overflow, and cost drivers. Select **Bekasi hub** and show a capacity-loss warning that links to Incident Response. The incident is a pending disruption overlay; keep the current policy's cost cards distinct from an unapplied disruption or response preview.
+
+Place a compact scenario-control tray below or beside the map:
+
+- Parcel demand slider
+- Target internal share slider, visibly at 65%
+- Capacity option selector: existing network / add shift / expansion
+- Map layer selector: allocation / utilisation / marginal cost advantage
+- Baseline versus proposed comparison toggle
+
+Show **Open Policy Lab** as the main planning action. Provide a smaller **Review incident** action in the warning panel.
+
+### Interaction intent
+
+Sliders update a preview, with clear pending or recalculating feedback. Moving the target beyond available capacity must show overflow or infeasibility rather than magically fulfilling it. In optimisation mode, distinguish the requested share from the feasible recommended share.
+
+Clicking a hub opens its inspector. Applying a policy from Screen 2 updates the selected policy here. The map, KPIs, and inspector must appear to describe the same scenario.
+
+## Screen 2 — Policy Lab
+
+### User task
+
+Compare internal/external delivery policies across uncertain demand and costs; choose a policy with an acceptable financial downside and service outcome.
+
+### Composition
+
+Make a large, precise, interactive **Monte Carlo heatmap** the focal point.
+
+- Horizontal axis: target internal delivery share, **40–100%**.
+- Vertical axis: demand relative to baseline, **80–140%**.
+- Colour: expected daily operating contribution improvement versus the baseline evaluated under the same demand conditions.
+- Clearly hatched or crossed cells: infeasible under the selected capacity constraint.
+- Highlight the selected point: **65% share / 100% demand**.
+- Include a readable numeric colour legend with a visible zero boundary.
+
+A metric selector changes the heatmap between:
+
+- Expected contribution improvement
+- Downside contribution improvement, defined as the 10th percentile
+- Share of sampled scenarios beating baseline
+
+The probability-like measure must be labelled **under selected assumptions**, not real-world success confidence.
+
+Use a restrained configuration panel with:
+
+- Capacity option
+- Demand uncertainty
+- Operating-cost uncertainty
+- Service requirement
+- Number of sampled scenarios, for example **10,000**
+- Primary action: **Run analysis**
+
+Show a selected-policy detail panel with expected outcome, downside, service result, additional capacity required, and upfront investment if applicable. Keep money periods explicit. Do not mix daily regional figures with annual national profit.
+
+Include a small distribution or cumulative-outcome chart for the selected policy, with a zero-improvement reference line. Any stochastic values beyond the deterministic fixture may be illustrative design values, clearly covered by the simulated-data status; do not invent claims of actual completed analysis.
+
+Primary policy action: **Apply policy to network**. Secondary action: **Compare with baseline**.
+
+### Interaction intent
+
+Selecting a heatmap cell changes the detail panel. Infeasible cells explain which constraint fails and which capacity option could resolve it. Analysis has ready, running, complete, and stale-results states. Show one coherent completed example in the main design; annotate or provide small component treatments for the other states without creating additional full screens.
+
+Changing inputs marks existing results as outdated. Do not show a fake measured runtime, model accuracy, or guaranteed global optimum. A suitable recommendation label is **Best evaluated policy under selected assumptions**.
+
+## Screen 3 — Incident Response
+
+### User task
+
+Interpret a delivery disruption, compare feasible responses, and apply a chosen response with a visible audit trail.
+
+### Selected incident
+
+**Bekasi sorting capacity reduced**
+
+At 09:30 WIB, usable capacity for the selected dispatch window falls from **16,000 to 10,000 parcels**. The current plan allocates **14,000 parcels**, leaving **4,000 parcels requiring reassignment**. Treat this as an illustrative incident, separate from the daily regional totals.
+
+### Composition
+
+Use three clear areas:
+
+1. A compact incident list with the selected Bekasi event and restrained severity/status indicators.
+2. An incident detail and Jev assessment area, including the affected network fragment.
+3. A response comparison and application area.
+
+Show the original report as a short operational message. The **Jev assessment** should return structured information, not a long chatbot conversation:
+
+- Exception category: capacity shortfall
+- Affected facility: Bekasi
+- Reassignment needed: 4,000 parcels
+- Suggested response category: rebalance and outsource overflow
+- Assessment status: **Demo response** unless a real integration exists
+
+Arithmetic and feasibility checks come from the calculator, not Jev's judgment. Do not display an invented AI confidence percentage.
+
+Compare three candidate responses:
+
+- Outsource all 4,000 affected parcels.
+- Transfer part of the volume to a neighbouring hub and outsource the remainder.
+- Add a temporary shift, subject to activation time and available capacity.
+
+Use a compact comparison table with reassigned parcels, incremental response cost, timing, feasibility, and service risk. Show one highlighted feasible option and one option unavailable before the dispatch cut-off. Do not make every response successful.
+
+For internally consistent illustrative numbers, external handling of 4,000 parcels at Rp12,000 costs **Rp48m**. An alternative transfers 3,000 parcels at an assumed all-in Rp9,000 and outsources 1,000 at Rp12,000, costing **Rp39m**, or **Rp9m less than the all-external response**. This is response handling cost, not automatically incremental expense versus the original internal plan. Preserve those comparison labels.
+
+Show the pre-application state with primary action **Apply response** and secondary **Keep current plan**. A compact confirmation preview states the affected volume and cost comparison. The proposed action is not already executed.
+
+### Interaction intent
+
+Applying a response updates the network allocation, resolves or reduces the shortfall, and adds an action-log entry. The network and financial metrics must update together. Provide a visible Undo affordance for this reversible demo action. Jev unavailable should fall back to rule-based assessment without hiding the incident or disabling the numerical comparison.
+
+## Shared quality requirements
+
+- Exactly three full screens, using the same product shell and design language.
+- Preserve clear differences between current state, proposed policy, pending incident, and applied action.
+- Give maps and charts meaningful labels, legends, units, and selection states.
+- Use clear hierarchy and generous spacing; avoid tiny text to fit everything into one viewport.
+- Show feasible, constrained, and adverse outcomes, not only green success states.
+- Use drawers, tooltips, and contextual disclosures for assumptions and calculation detail.
+- All optimisation and Monte Carlo outputs are conditional on explicit assumptions.
+- The selected twin replay represents one scenario; the heatmap summarises multiple scenarios.
+- Do not add authentication, billing, customer management, marketing pages, a subsidy-design module, or unrelated marketplace features.
+- Do not claim real telemetry, production AI deployment, empirical forecast accuracy, or verified savings.
+
+## What the three screens should demonstrate together
+
+A judge can understand the network on Screen 1, explore the cost and capacity trade-off on Screen 2, and see how an operator resolves a disruption on Screen 3. The visual result should make the product's operating workflow understandable before anyone explains its architecture.
+
+<!-- END EXACT EMBEDDED DOCUMENT -->
+
+<a id="v5-interview-text"></a>
+# Appendix C — Text of the final seller interview DOCX
+
+Text extraction preserves the wording and table-cell sequence; it does not recreate DOCX layout. The supplied editable DOCX is the final seven-page version.
+
+Panduan Wawancara Seller
+
+Riset Nexora  |  IBSC 2026  |  Durasi 30 menit
+
+Panduan untuk memahami pengalaman berjualan, pilihan kanal, dan tanggapan terhadap konsep produksi sesuai pesanan. Gunakan satu salinan untuk setiap responden. Jawaban diketik langsung pada kolom kanan; sel akan memanjang sesuai isi.
+
+Identitas responden
+
+**Left column**
+
+Informasi
+
+**Right column**
+
+Isian
+
+**Left column**
+
+Kode responden dan nama opsional
+
+**Right column**
+
+[Kode: … | Nama opsional: …]
+
+**Left column**
+
+Waktu dan pewawancara
+
+**Right column**
+
+[Tanggal: … | Jam: … | Pewawancara: …]
+
+**Left column**
+
+Produk dan lama berjualan
+
+**Right column**
+
+[Jenis produk: … | Lama berjualan: …]
+
+**Left column**
+
+Kanal dan status berjualan
+
+**Right column**
+
+[Kanal yang digunakan/pernah digunakan: … | Aktif / berkurang / berhenti: …]
+
+**Left column**
+
+Kisaran pesanan per bulan
+
+**Right column**
+
+[Perkiraan: … | Periode acuan: …]
+
+Petunjuk pewawancara
+
+• Tanyakan pertanyaan utama sesuai urutan. Pilih paling banyak satu atau dua pendalaman yang paling relevan; tidak semuanya harus ditanyakan.
+
+• Minta contoh kejadian terbaru sebelum meminta pendapat umum. Gali alasan tetap bertahan maupun alasan mengurangi aktivitas. Jangan mengasumsikan biaya adalah masalah utama.
+
+• Jika responden sudah berhenti, gunakan pengalaman terakhir saat masih berjualan. Jika hanya memakai satu kanal, jangan memaksakan perbandingan.
+
+• Jelaskan konsep produksi sesuai pesanan hanya pada bagian uji konsep. Jika tidak cocok, catat alasannya dan lanjutkan. Hindari membujuk responden.
+
+• Angka boleh berupa kisaran. Jangan meminta kata sandi atau data pelanggan. Catat sumber angka dan bedakan pengalaman nyata dari perkiraan.
+
+Persiapan persetujuan rekaman
+
+Isi sebelum wawancara bila akan merekam: siapa yang dapat mengakses […………], tempat penyimpanan […………], dan kapan rekaman dihapus […………]. Jelaskan kepada responden. Rekaman bukan syarat ikut wawancara.
+
+Pembukaan dan pengalaman berjualan
+
+Menit 0–8  |  Pembukaan 2 menit, lalu pertanyaan 1 dan 2
+
+Bacakan pada menit 0–2
+
+“Terima kasih waktunya, Kak. Kami melakukan riset mahasiswa tentang pengalaman dan pilihan tempat berjualan, bukan menawarkan layanan. Wawancaranya sekitar 30 menit. Kami ingin mendengar pengalaman baik maupun kurang baik. Kakak boleh melewati pertanyaan atau berhenti kapan saja.”
+
+“Apakah Kakak bersedia diwawancarai dan jawabannya dicatat untuk analisis tim? Identitas akan disamarkan dalam pelaporan. Apakah Kakak juga bersedia direkam?” Jelaskan pengaturan rekaman pada halaman sebelumnya.
+
+Persetujuan wawancara dan catatan: [Ya / Tidak]    Rekaman: [Ya / Tidak / Tidak diminta]
+
+Jika menolak wawancara, akhiri. Jika hanya menolak rekaman, lanjutkan dengan catatan.
+
+**Left column**
+
+Pertanyaan dan pendalaman opsional
+
+**Right column**
+
+Jawaban responden
+
+**Left column**
+
+1  |  Menit 2–4  |  Latar usaha
+“Kak, boleh cerita singkat tentang usaha dan tempat Kakak berjualan?”
+Pendalaman opsional
+• Produk, rentang harga, dan kanal utama saat ini atau terakhir berjualan?
+
+**Right column**
+
+[Ketik gambaran usaha dan kanal utama. Lengkapi identitas bila belum terisi.]
+
+**Left column**
+
+2  |  Menit 4–8  |  Hasil satu pesanan
+“Dari satu pesanan terbaru yang cukup mewakili penjualan Kakak, berapa harga jual dan sisanya setelah biaya?”
+Pendalaman opsional
+• Setelah jawaban spontan: biaya barang, potongan platform, iklan/afiliasi, kemasan, atau subsidi penjual?
+• Apakah potongannya sesuai perkiraan dan program yang Kakak pilih?
+• Kapan hasil penjualannya bisa dipakai? Pernah memengaruhi pembelian stok?
+Petunjuk: Pastikan biaya yang sudah dihitung. Sisa saldo platform belum tentu laba bersih.
+
+**Right column**
+
+[Harga jual: …
+Rincian biaya: …
+Sisa setelah biaya yang disebut: …
+Perkiraan atau catatan transaksi: …
+Pencairan dan dampaknya: …]
+
+Pilihan kanal dan kendala operasional
+
+Menit 8–17  |  Pertanyaan 3 dan 4
+
+**Left column**
+
+Pertanyaan dan pendalaman opsional
+
+**Right column**
+
+Jawaban responden
+
+**Left column**
+
+3  |  Menit 8–12  |  Pilihan kanal
+“Kapan terakhir Kakak mengubah stok, iklan, atau waktu berjualan di suatu kanal? Apa pemicunya?”
+Pendalaman opsional
+• Apa yang berubah pada pesanan dan uang yang tersisa setelahnya?
+• Kalau tidak berubah, apa yang membuat kanal itu tetap layak?
+• Produk apa yang dipindah? Bagaimana pelanggan lama mendapatkannya?
+
+**Right column**
+
+[Ketik pemicu, tindakan nyata, waktu, hasil, serta alasan bertahan bila ada.]
+
+**Left column**
+
+4  |  Menit 12–17  |  Masalah dan penyelesaian
+“Apa kendala terbaru yang cukup berdampak pada usaha Kakak? Boleh ceritakan dari awal sampai akhirnya bagaimana?”
+Pendalaman opsional
+• Kalau perlu contoh: membuat listing, pengiriman, retur, sengketa, atau pencairan dana.
+• Apa kerugian uang atau waktunya? Siapa menangani, dan apa hasil akhirnya?
+• Setelah kejadian itu, apakah Kakak mengubah stok, cara kerja, atau tempat berjualan?
+• Kalau tidak ada kendala berarti, bagian layanan apa yang paling membantu?
+Petunjuk: Catat juga penyebab dari sisi penjual atau faktor lain. Jangan langsung menyimpulkan platform yang bersalah.
+
+**Right column**
+
+[Kejadian dan waktunya: …
+Dampak uang/waktu: …
+Upaya dan hasil penyelesaian: …
+Penggantian yang benar-benar diterima: …
+Perubahan setelah kejadian: …]
+
+Pemasaran dan produk baru
+
+Menit 17–23  |  Pertanyaan 5 dan 6
+
+**Left column**
+
+Pertanyaan dan pendalaman opsional
+
+**Right column**
+
+Jawaban responden
+
+**Left column**
+
+5  |  Menit 17–21  |  Sumber pembeli
+“Untuk salah satu pesanan terbaru, pembelinya pertama kali tahu produk Kakak dari mana, lalu belinya lewat mana?”
+Pendalaman opsional
+• Bagaimana Kakak mengetahui sumber pembelinya? Jika tidak tahu, catat demikian.
+• Kalau pernah memakai iklan, konten, atau afiliasi, apa hasil percobaan terakhir?
+• Bagaimana Kakak menilai biaya promosi itu sepadan dengan hasilnya?
+• Dukungan apa yang masih dibutuhkan agar mendapat pesanan yang menguntungkan?
+Petunjuk: Bedakan tempat pelanggan menemukan produk, membayar, dan menerima layanan pengiriman. Jangan menganggap semua penjualan tambahan disebabkan iklan.
+
+**Right column**
+
+[Contoh pesanan: …
+Sumber penemuan dan dasar informasinya: …
+Kanal pembelian: …
+Biaya promosi dan hasil yang diketahui: …
+Dukungan yang dibutuhkan: …]
+
+**Left column**
+
+6  |  Menit 21–23  |  Pengalaman meluncurkan produk
+“Kapan terakhir Kakak mempertimbangkan produk atau varian baru? Akhirnya jadi dijual atau tidak, dan apa pertimbangannya?”
+Pendalaman opsional
+• Apa kendala terbesarnya? Bagaimana Kakak mengatasinya?
+• Bagaimana Kakak mengecek minat pembeli sebelum menambah stok?
+• Kalau belum pernah, mengapa memilih produk yang sekarang?
+
+**Right column**
+
+[Produk/varian: …
+Keputusan dan alasan: …
+Cara menguji minat pembeli: …
+Kendala yang benar-benar dialami: …]
+
+Uji konsep produksi sesuai pesanan
+
+Menit 23–28  |  Pertanyaan 7
+
+Bacakan konsep setelah pertanyaan 6
+
+“Kami ingin meminta pendapat tentang ide layanan yang masih berupa konsep. Bayangkan ada layanan opsional di marketplace: penjual mengirim desain miliknya atau yang berhak digunakan. Mitra produksi membuat barang setelah ada pesanan, lalu barang dikirim ke pembeli. Misalnya kaus atau tote bag. Penjual tidak perlu menyiapkan stok barang jadi untuk produk itu. Tetap ada biaya produksi dan platform. Harga, waktu produksi dan pengiriman, serta tanggung jawab jika bermasalah masih perlu ditentukan.”
+
+“Supaya kami tahu penjelasannya jelas, menurut Kakak bagaimana cara kerja layanan ini?” Klarifikasi bila perlu tanpa menambahkan janji kualitas, penjualan, atau keuntungan.
+
+**Left column**
+
+Pertanyaan dan pendalaman opsional
+
+**Right column**
+
+Jawaban responden
+
+**Left column**
+
+7  |  Menit 23–28  |  Kecocokan dan syarat mencoba
+“Menurut Kakak, apakah layanan seperti ini cocok untuk usaha Kakak? Bagian mana yang berguna, tidak berguna, atau masih meragukan?”
+Pendalaman opsional
+• Produk apa yang mungkin dicoba? Apakah produk baru atau pengganti cara produksi yang sekarang?
+• Jika ada produk konkret: harga jual, biaya, sisa per pesanan, dan waktu tunggu seperti apa yang masuk akal?
+• Hal apa yang harus jelas sebelum mencoba? Gali yang paling relevan: kualitas, hak desain, retur/cacat, atau pembayaran.
+• Dukungan tambahan apa yang dibutuhkan, jika ada, untuk produksi, membuat listing, promosi, atau pengiriman?
+Petunjuk: Jika tidak cocok, gali alasannya lalu lanjutkan. Minat belum membuktikan adopsi.
+
+**Right column**
+
+[Cocok / Tidak cocok / Belum tahu, karena: …
+Produk konkret dan perbedaannya dari cara sekarang: …
+Syarat dan kisaran angka bila ada: …
+Keraguan atau alasan menolak: …
+Informasi yang masih dibutuhkan: …]
+
+Penutup dan rangkuman
+
+Menit 28–30  |  Pertanyaan 8 dan penutup. Rangkuman diisi setelah wawancara.
+
+**Left column**
+
+Pertanyaan dan pendalaman opsional
+
+**Right column**
+
+Jawaban responden
+
+**Left column**
+
+8  |  Menit 28–30  |  Prioritas responden
+“Dari semua yang kita bahas, satu perubahan apa yang paling berpengaruh pada keputusan Kakak memilih tempat berjualan? Kenapa itu yang paling penting?”
+Pendalaman opsional
+• Adakah hal penting yang belum kami tanyakan?
+
+**Right column**
+
+[Prioritas utama dan alasan: …
+Hal tambahan dari responden: …]
+
+“Terima kasih banyak, Kak. Cerita Kakak membantu kami memahami pengalaman penjual. Kalau ada jawaban yang perlu diperjelas, apakah Kakak bersedia kami hubungi lagi?”
+
+Kesediaan tindak lanjut: [Ya / Tidak]    Kontak opsional jika setuju: […………]
+
+Rangkuman pewawancara setelah wawancara
+
+Bagian ini tidak perlu dibacakan. Pisahkan ucapan responden dari interpretasi tim. Gunakan “tidak diketahui” untuk informasi yang belum ada.
+
+**Left column**
+
+Hal yang dirangkum
+
+**Right column**
+
+Catatan analisis
+
+**Left column**
+
+Perubahan aktivitas berjualan
+
+**Right column**
+
+[Bertahan / bertambah / berkurang / berhenti; sebutkan kanal, produk, dan periode.]
+
+**Left column**
+
+Pemicu dan dampak utama
+
+**Right column**
+
+[Kejadian → tindakan → dampak. Cantumkan apakah angka berasal dari ingatan atau catatan.]
+
+**Left column**
+
+Alasan tetap bertahan
+
+**Right column**
+
+[Manfaat kanal yang dianggap sepadan; pengalaman positif atau penjelasan alternatif.]
+
+**Left column**
+
+Tanggapan terhadap konsep
+
+**Right column**
+
+[Kebutuhan yang cocok, produk konkret, syarat mencoba, dan alasan menolak. Bedakan dari antusiasme umum.]
+
+**Left column**
+
+Kutipan dan tindak lanjut
+
+**Right column**
+
+[Kutipan persis hanya bila tercatat tepat; selain itu tandai parafrasa. Informasi apa yang perlu diperiksa lagi?]
+
+Dokumentasi foto responden
+
+Diisi setelah wawancara  |  Dokumentasi bersifat opsional
+
+Minta izin sebelum mengambil atau memasukkan foto. Responden tetap dapat mengikuti wawancara tanpa difoto. Persetujuan foto ini terpisah dari persetujuan wawancara dan rekaman.
+
+Persetujuan foto untuk dokumentasi internal tim: [Ya / Tidak]
+
+Jika tidak setuju, biarkan ruang foto kosong. Penggunaan untuk presentasi, publikasi, atau media sosial memerlukan izin terpisah sesuai tujuan penggunaannya.
+
+Kode responden: […………]    Tanggal pengambilan foto: […………]
+
+**Left column**
+
+Foto responden
+
+**Right column**
+
+Keterangan dokumentasi
+
+**Left column**
+
+[Sisipkan foto responden di sini]
+
+**Right column**
+
+[Nama/kode pada foto: …
+
+Lokasi atau media wawancara: …
+
+Pengambil foto: …
+
+Keterangan singkat: …]
+
+Cara memasukkan foto
+
+Klik kolom foto, hapus teks petunjuk, lalu pilih Sisipkan > Gambar di Word. Gunakan posisi gambar sebaris dengan teks dan lebar maksimal sekitar 10 cm agar tetap berada di dalam kolom.
+
+Hindari menyertakan data pelanggan, layar transaksi, atau orang lain yang belum memberi izin di dalam foto.
+
+Batas interpretasi
+
+Responden direkrut berdasarkan kemudahan akses dan dapat berbeda jenis usahanya. Temuan menjelaskan pengalaman responden yang diwawancarai; jangan mengubahnya menjadi persentase seluruh seller Indonesia. Pengalaman berasal dari platform nyata, bukan bukti langsung tentang Nexora. Kelayakan mitra produksi dan keuntungan platform tetap perlu diuji terpisah.
+
+
+<a id="v5-friend-brief"></a>
+# Appendix D — Original friend-authored simulation brief
+
+Historical proposal only. Corrections and later confirmed decisions above and in Appendix A take precedence.
+
+<!-- BEGIN EXACT FRIEND BRIEF -->
+
+# AI Context Brief: Nexora Logistics & Delivery Subsidy Simulation (IBSC 2026)
+
+## 1. Purpose of This Document
+This context brief consolidates the complete case data, unit economics reconstruction, strategic thesis, mathematical simulation framework, and unresolved strategic design choices for the **International Business Solution Competition (IBSC) 2026 Preliminary Round Case ("Nexora")**. Feed this file directly to an AI assistant or financial modeling workflow to run Monte Carlo simulations, build sensitivity tables, or draft the 3-page Executive Summary.
+
+## 2. Case Overview & Strategic Context
+* **Company Profile:** **Nexora** is one of Southeast Asia's largest open-platform e-commerce marketplaces, with **Indonesia** serving as its largest and primary market (all monetary figures are in **Indonesian Rupiah — IDR**).
+* **Logistics Arm:** Nexora operates an in-house logistics network, **NexExpress**, alongside third-party logistics (3PL) couriers.
+* **Historical Shift (Pre-2025 vs. 2025):** Prior to 2025, Nexora prioritized rapid Gross Merchandise Value (GMV) growth through heavy platform-wide discount vouchers and free-shipping subsidies fulfilled mostly via 3PLs. Facing investor pressure in 2025 for sustainable profitability, Nexora raised seller commission fees (to 8%–20%+ across categories), scaled back general promotional/shipping subsidies, and routed 50% of parcels through NexExpress.
+* **The Core Dilemma:** While Nexora swung from an **IDR 3 trillion operating loss (2024)** to an **IDR 5 trillion operating profit (2025)**, the austerity measures triggered severe side effects:
+  1. **Small Seller (MSME) Attrition:** Annual MSME seller churn jumped from **7% (2024) to 12% (2025)**, threatening product variety and IDR 200 trillion in MSME GMV.
+  2. **Buyer Retention Decline:** Repeat-buyer rate dropped from **62% (2024) to 57% (2025)** as price-sensitive Indonesian shoppers lost access to platform-wide free shipping.
+  3. **Market Share Erosion:** Nexora's Indonesian market value share slipped from **50% (2023) → 48% (2024) → 46% (2025)**, while social-commerce rival **Scrolla** surged from **14% (2023) → 21% (2024) → 25% (2025)** on the back of 32% YoY GMV growth and general free shipping.
+
+## 3. Verified Case Data & Reconstructed Unit Economics (2024–2025)
+
+### 3.1 Historical Operational Matrix & Implied P&L
+| Metric | 2024 Actual | 2025 Actual | Derivation / Case Source |
+| :--- | ---: | ---: | :--- |
+| **Gross Merchandise Value (GMV)** | IDR 560 Tn | IDR 600 Tn | Casebook p. 7 (+7.14% YoY growth) |
+| **Platform Revenue** | IDR 45 Tn | IDR 60 Tn | Casebook p. 7 (+33.3% YoY growth) |
+| **Take Rate (Revenue / GMV)** | 8.0% | 10.0% | Casebook p. 7 (45/560 ≈ 8.04%; 60/600 = 10.0%) |
+| **Annual Parcels Delivered ($Q$)** | *Not stated* | 2.0 billion | Casebook p. 10 |
+| **Implied Average Order Value (AOV)** | *Not stated* | IDR 300,000 | Implied: $\text{IDR } 600\text{ Tn} \div 2.0\text{B parcels}$ |
+| **Implied Revenue per Parcel** | *Not stated* | IDR 30,000 | Implied: $\text{IDR } 60\text{ Tn} \div 2.0\text{B parcels}$ |
+| **Blended Delivery Cost per Parcel** | IDR 12,000 | IDR 10,000 | Casebook p. 7 (50% NexExpress @ 8K + 50% 3PL @ 12K) |
+| **Total Logistics Expense** | *Not stated* | IDR 20 Tn | Implied: $2.0\text{B parcels} \times \text{IDR } 10,000$ |
+| **Marketing Expense** | IDR 28 Tn | IDR 24 Tn | Casebook p. 7 (-14.3% YoY reduction) |
+| **Implied Other Fixed / Tech / G&A OpEx** | *Not stated* | IDR 11 Tn | Plug from 2025 P&L: $60\text{T} - 20\text{T} - 24\text{T} - 5\text{T} = 11\text{T}$ |
+| **Operating Profit / (Loss)** | (IDR 3 Tn) | IDR 5 Tn | Casebook p. 7 (8.33% Operating Margin on Revenue) |
+| **Annual Small Seller Churn Rate** | 7.0% | 12.0% | Casebook p. 7 & p. 10 (+500 bps deterioration) |
+| **Repeat-Buyer Rate** | 62.0% | 57.0% | Casebook p. 10 (-500 bps deterioration) |
+
+### 3.2 Seller Segment Breakdown (2025)
+| Seller Segment | 2025 GMV (IDR Tn) | Share of GMV | 2025 Revenue (IDR Tn) | Implied Segment Take Rate | Annual Churn Rate | Active Sellers (Start of 2025) |
+| :--- | ---: | ---: | ---: | ---: | ---: | :--- |
+| **Small Sellers (MSME)** | 200 | 33.3% | 20 | 10.0% | 12.0% | 1.2 million (144,000 churned/yr) |
+| **Mid-Size Sellers** | 220 | 36.7% | 22 | 10.0% | 5.0% | *Not stated* |
+| **Other Segments (Brands/Large)** | 180 | 30.0% | 18 | 10.0% | 2.0% | *Not stated* |
+| **Total / Platform Blended** | **600** | **100.0%** | **60** | **10.0%** | — | — |
+
+### 3.3 Logistics & Competitor Benchmarks (2025)
+| Platform | 2025 GMV (IDR Tn) | YoY GMV Growth | Market Value Share (2023 → 2024 → 2025) | Take Rate | General Free Shipping Policy | Delivery Cost / Parcel |
+| :--- | ---: | ---: | :--- | ---: | :--- | ---: |
+| **Nexora** | 600 | 7% | 50% → 48% → 46% | 10% | No, targeted incentives only | IDR 10,000 (NexExpress: 8,000; 3PL: 12,000) |
+| **Scrolla** (Social Commerce) | 330 | 32% | 14% → 21% → 25% | 6% | Yes (Platform-wide) | IDR 12,500 |
+| **Avori** | 180 | 3% | 20% → 15% → 14% | 8% | Limited | IDR 11,000 |
+| **Borong.id** (Low-fee rival) | 90 | 6% | 8% → 7% → 7% | 7% | Yes, with minimum spend | IDR 11,500 |
+| **Other Players** | ~104 | — | 8% → 9% → 8% | — | — | — |
+
+## 4. User's Proposed Strategic Hypothesis
+* **Core Thesis:** Leverage **NexExpress** scale and digital/operational innovation to compress delivery cost per parcel down toward **IDR 5,000–6,000/parcel** (from the 2025 blended IDR 10,000/parcel). Reinvest a portion of those structural logistics cost savings into **re-introducing delivery subsidies**, thereby unlocking higher parcel order volume ($Q$), higher GMV, stronger repeat-buyer retention, and lower MSME churn—while maintaining positive operating profit growth above the IDR 5 trillion baseline.
+* **Why a Structural Innovation Lever is Required:** Currently, NexExpress handles 50% of volume at IDR 8,000/parcel and 3PLs handle 50% at IDR 12,000/parcel. Even if Nexora shifted 100% of volume to NexExpress at current costs, unit cost would floor at IDR 8,000/parcel. Reaching **IDR 5,000–6,000/parcel** requires combining **higher NexExpress share (e.g., 75%–85%)** with **digital logistics innovation** (e.g., AI dynamic route batching, automated sorting hubs, predictive inventory placement, and hyper-local collection/drop-off points) and **route-density economies of scale**.
+
+## 5. Mathematical Architecture for Monte Carlo Simulation
+For each simulation iteration $i \in \{1, \dots, N\}$ (e.g., $N = 10,000$ runs), the P&L and operational linkages are governed by the following equations:
+
+1. **Blended Unit Delivery Cost ($C_{\text{blend}, i}$):**
+   $$C_{\text{blend}, i} = s_{\text{own}, i} \cdot c_{\text{own}, i}(Q_i) + (1 - s_{\text{own}, i}) \cdot c_{\text{3PL}, i}$$
+   *Where:*
+   * $s_{\text{own}, i}$ = Share of parcels fulfilled by NexExpress (Baseline: $0.50$; Target range: $0.70\text{–}0.85$).
+   * $c_{\text{own}, i}(Q_i)$ = NexExpress unit cost after tech efficiency and route density scale effects (Baseline: IDR 8,000; Target range: IDR 4,500–6,200).
+   * $c_{\text{3PL}, i}$ = Third-party courier unit cost, accounting for industry logistics inflation (Baseline: IDR 12,000; Target range: IDR 12,000–13,000).
+
+2. **Parcel Volume Response to Delivery Subsidies ($Q_i$):**
+   $$Q_i = Q_0 \cdot \left(1 + \epsilon_{Q, i} \cdot \frac{v_{\text{sub}, i} \cdot \alpha_i}{\text{Baseline Shipping Fee}} + \gamma_{\text{MSME}, i} \cdot \Delta \text{Retention}_{\text{MSME}, i}\right)$$
+   *Where:*
+   * $Q_0 = 2.0\text{ billion parcels}$ (2025 baseline).
+   * $v_{\text{sub}, i}$ = Subsidy value granted per eligible parcel (e.g., IDR 2,500–5,000).
+   * $\alpha_i$ = Share of total platform parcels eligible for the subsidy (e.g., $40\%\text{–}80\%$, depending on targeting rules).
+   * $\epsilon_{Q, i}$ = Demand elasticity of buyer order frequency with respect to shipping subsidy (capturing repeat-buyer rate recovery from 57% toward 62%+).
+   * $\Delta \text{Retention}_{\text{MSME}, i}$ = Preserved MSME seller supply from reducing MSME churn below 12%.
+
+3. **GMV & Platform Revenue ($GMV_i, Rev_i$):**
+   $$GMV_i = Q_i \cdot AOV_i$$
+   $$Rev_i = GMV_i \cdot \tau_i$$
+   *Where:*
+   * $AOV_i$ = Average Order Value (2025 baseline: IDR 300,000; varies depending on whether minimum-spend thresholds are enforced).
+   * $\tau_i$ = Blended Platform Take Rate (2025 baseline: $10.0\%$).
+
+4. **Total Logistics & Subsidy Outflow ($L_i, S_i$):**
+   $$\text{Base Logistics Cost } (L_i) = Q_i \cdot C_{\text{blend}, i}$$
+   $$\text{Net Platform Subsidy Cost } (S_i) = Q_i \cdot \alpha_i \cdot v_{\text{sub}, i} \cdot \theta_{\text{platform}}$$
+   *(Where $\theta_{\text{platform}} \in [0, 1]$ is the fraction of the shipping subsidy funded by Nexora vs. co-funded by participating merchants).*
+
+5. **Operating Profit & Margin ($\Pi_i, Margin_i$):**
+   $$\Pi_i = Rev_i - L_i - S_i - Mktg_i - FixedOpEx_i - TechCapExAmort_i$$
+   $$\text{Success Condition (Case Constraint): } \Pi_i > \text{IDR } 5.0\text{ Trillion}$$
+
+## 6. Required Assumptions & Probability Distributions Inventory
+When executing the Monte Carlo simulation, input variables should be parameterized using realistic distributions (e.g., Triangular or Truncated Normal):
+
+| Parameter Category | Variable | 2025 Baseline | Suggested Monte Carlo Range (Min / Mode / Max) | Economic Rationale |
+| :--- | :--- | :--- | :--- | :--- |
+| **Logistics Efficiency** | NexExpress Parcel Share ($s_{\text{own}}$) | 50% | 65% / 75% / 85% | Reflects capacity expansion into Tier-2/3 Indonesian cities while keeping 3PLs for remote islands. |
+| **Logistics Efficiency** | NexExpress Unit Cost ($c_{\text{own}}$) | IDR 8,000 | IDR 4,500 / IDR 5,200 / IDR 6,200 | Driven by AI route optimization, automated sorting hubs, collection lockers, and higher stop density. |
+| **Logistics Efficiency** | 3PL Unit Cost ($c_{\text{3PL}}$) | IDR 12,000 | IDR 12,000 / IDR 12,500 / IDR 13,200 | Case p. 5 notes industry-wide logistics costs continue an upward trend (+4% to +10% inflation). |
+| **Subsidy Design** | Subsidy per Eligible Parcel ($v_{\text{sub}}$) | Targeted only | IDR 2,000 / IDR 3,500 / IDR 5,000 | Offsets buyer shipping cost enough to neutralize Scrolla's free-shipping advantage. |
+| **Subsidy Design** | Eligible Parcel Share ($\alpha$) | Low | 35% / 55% / 75% | Depends on whether subsidies are MSME-targeted, minimum-spend gated, or platform-wide. |
+| **Demand Response** | Parcel Volume Growth ($Q_i / Q_0 - 1$) | +7% GMV growth | +10% / +18% / +28% (2.20B to 2.56B parcels) | Captures repeat-buyer rebound (57% → 62%+) and reduced MSME churn (12% → 7%–8%). |
+| **Basket Dynamics** | Average Order Value ($AOV_i$) | IDR 300,000 | IDR 275,000 / IDR 300,000 / IDR 315,000 | Unconditional free shipping lowers AOV; minimum-spend thresholds (like Borong.id) preserve or raise AOV. |
+| **Monetization & OpEx** | Blended Take Rate ($\tau_i$) | 10.0% | 9.5% / 10.0% / 10.2% | Accounts for potential MSME commission relief vs. value-added logistics/ad fee monetization. |
+| **Monetization & OpEx** | Annualized Tech & Automation OpEx | Included in 11T | +IDR 1.0T / +IDR 1.8T / +IDR 2.8T | Captures software, AI routing, and sorting automation investment required per Case p. 6 & p. 12. |
+
+## 7. Strategic Alignment Questions & Design Choices (To Lock In Before Modeling)
+When instructing an AI to finalize the simulation or write the case solution, specify your preferred stance on these five strategic design questions:
+
+1. **Subsidy Targeting Mechanism (Solving MSME Churn + Repeat Buyer Drop):**
+   * *Option 1A (MSME + Minimum Spend Gate):* Subsidize shipping specifically on orders from **Small Sellers (MSMEs)** or bundled carts above a minimum IDR threshold (protecting AOV and directly attacking the 12% MSME churn rate).
+   * *Option 1B (Loyalty / Frequency Tiered):* Unlock escalating shipping vouchers as buyers cross monthly order thresholds (directly attacking the 62% → 57% repeat-buyer drop).
+   * *Option 1C (Broad Platform-Wide):* Match Scrolla head-on with blanket free shipping across most transactions.
+2. **Definition of the IDR 5,000–6,000 Cost Target & Digital Enabler:**
+   * Clarify whether **IDR 5,000–6,000/parcel** is the **in-house NexExpress unit cost** (yielding a blended cost of ~IDR 6,200–7,000 when combined with 3PLs) or the **overall blended platform cost** (which requires NexExpress in-house cost to reach ~IDR 4,500–5,200 at 80% share).
+   * Select the core **Digital Innovation Enabler** (mandatory on p. 11–12): e.g., *AI-Powered Predictive Consolidation & Dynamic Routing*, *Smart Collection Point / Locker Network*, or *Automated Micro-Fulfillment & Sorting Hubs*.
+3. **P&L Accounting Treatment of Delivery Subsidies:**
+   * *Pass-Through Rate Reduction:* Nexora lowers the base shipping fee charged to users in proportion to NexExpress cost savings (margin-neutral on logistics, driving pure volume upside).
+   * *Explicit Promotional Subsidy:* Nexora captures the logistics cost reduction on the P&L (reducing Logistics Cost from IDR 20T to ~IDR 13.8T) and allocates an explicit shipping subsidy budget (e.g., IDR 3T–5T) to make shipping Rp 0 on eligible orders.
+4. **Take Rate & Small Seller Commission Policy:**
+   * Decide whether to hold the **10% Take Rate constant** (relying entirely on free-shipping traffic boosts to retain small sellers) or pair shipping subsidies with **tiered commission relief for MSMEs** (e.g., reducing MSME take rate from 10% to 8.5%, offset by higher monetization/ad services on large brands).
+5. **Simulation Horizon & Output Format:**
+   * Choose between a **1-year steady-state simulation (2026 target)** or a **3-year phased rollout (2026–2028)** showing progressive NexExpress share expansion (50% → 65% → 75% → 85%) and unit cost compression.
+
+## 8. Hard Case Constraints & Submission Checklist (Pages 11–15)
+* **Mandatory Strategic Constraints (Page 12):**
+  * Profit growth **must remain positive and sustainable** (Operating Profit $> \text{IDR } 5\text{ trillion}$).
+  * **Digital technology and innovation** must form the core driver of the strategy.
+  * Additional assumptions must be **realistic, clearly articulated, and consistent with case facts**.
+  * External references beyond provided case materials are permitted (cited in **APA Style**).
+* **Judging Rubric Weights (Page 15):**
+  * **Problem Analysis (20%):** Structured breakdown of root causes (MSME churn, repeat-buyer drop, Scrolla threat, logistics cost structure) and urgency.
+  * **Strategic Solution (30%):** Differentiated, non-generic strategy logically aligned with root causes and digital innovation.
+  * **Impact and Feasibility (30%):** Strong, realistic, measurable financial and user impact (where the Monte Carlo simulation directly scores points) under real operational constraints.
+  * **Quality of Data & Evidence (15%):** Rigorous, objective use of case metrics and external benchmarks.
+  * **Essay Structure (5%):** Strict adherence to formatting rules.
+* **Formatting & Submission Specifications (Page 14):**
+  * **Length:** Maximum **3 pages** (excluding Cover, References, and Appendix — detailed Monte Carlo output tables and distribution charts can be placed in the Appendix and summarized in the main text).
+  * **Format:** A4 paper, Times New Roman 12 pt, Single line spacing, Justified alignment, 2.54 cm margins (all sides), IBSC Logo included, exported as PDF (`Preliminary_Team Name_IBSC2026.pdf`, max 30 MB).
+  * **Deadline:** 1 November 2026, 11:59 PM (GMT+7).
+
+<!-- END EXACT FRIEND BRIEF -->
+
+<a id="v5-manifest"></a>
+# Appendix E — Source and completed-output checksums
+
+These checksums identify the input/source/output bytes present when V5 was assembled. The V5 file itself is excluded to avoid a self-referential hash.
+
+```json
+[
+  {
+    "filename": "IBSC_2026_Nexora_Master_AI_Context_Pack_V4(2).md",
+    "bytes": 752683,
+    "sha256": "d2bf63eebe1f3dd797f2c7a87426014e6c0404adc67bbde6b3e97aecb2580a8b"
+  },
+  {
+    "filename": "Casebook Preliminary IBSC 2026.pdf",
+    "bytes": 34032733,
+    "sha256": "0fed0087e5c5f0c04fc8bae6b1c7dfcd0c798b06205b018eada4619f8e6547a0"
+  },
+  {
+    "filename": "Nexora Ibsc2026 Simulation Context Brief (1).md",
+    "bytes": 15569,
+    "sha256": "cbe8fe672f9095dd563cf960ccb03af419351591072a7b068ac3a20aff3f33a0"
+  },
+  {
+    "filename": "Lintara_Project (1).zip",
+    "bytes": 3525294,
+    "sha256": "ffe27766d7e6cda6ed71f80c29a8a752f25ffdb696aa88e647b3d23a7334efac"
+  },
+  {
+    "filename": "Nexora_Analysis_Standalone_Handoff.md",
+    "bytes": 39398,
+    "sha256": "5988b69b278a763c2088d70f0ffd73b105b4930465ae42bf613a2f07ef3c7727"
+  },
+  {
+    "filename": "Nexora_Stitch_Three_Screen_Brief.md",
+    "bytes": 14673,
+    "sha256": "fff21c17532fe7d5d77b692f8cacccc00326c0b1a45b4354e6699ec471247c0a"
+  },
+  {
+    "filename": "Panduan_Wawancara_Seller_Nexora.docx",
+    "bytes": 43300,
+    "sha256": "2e17b133a9e4c73d032dbf55cd626e4d5ba6ff9f0530bf93cc4e90c03e368282"
+  }
+]
+```
+
+<a id="v4-archive"></a>
+# Unchanged Version 4 and earlier archives
+
+The following source archive is historical context. Read Version 5 first for current state and corrections.
+
+<!-- BEGIN BYTE-PRESERVED VERSION 4 ARCHIVE -->
+
+# IBSC 2026 / NEXORA — MASTER AI CONTEXT PACK
+
+**Version 4 — updated 27 October 2026, Asia/Jakarta. Includes the strategy discussion, fresh repository analysis, completed buyer-survey build, troubleshooting and latest owner-reported status.**
+
+Read this Version 4 update first. It supersedes earlier statements about the current stage; it does not erase historical evidence or turn proposals into validated conclusions. The complete supplied Version 3 pack, including its own previous-version archives, is preserved byte-for-byte at the end. Exact questionnaire and research-design appendices are included so that experimental details survive a handoff.
+
+## V4 navigation
+
+1. [Current state and next work](#v4-current)
+2. [Strategic reasoning and decisions](#v4-strategy)
+3. [New repository analysis and buyer-repeat implications](#v4-research)
+4. [Survey purpose, recruitment and design](#v4-survey)
+5. [Exact experiments, analysis and falsification boundaries](#v4-experiments)
+6. [Raffle, privacy, interface and user preferences](#v4-preferences)
+7. [Current script and operational architecture](#v4-script)
+8. [Troubleshooting and live status](#v4-status)
+9. [Artifacts, evidence hierarchy and handoff rules](#v4-handoff)
+10. [Approved short description for teammates](#v4-description)
+11. [Appendix A: complete fresh corpus-analysis report](#v4-appendix-analysis)
+12. [Appendix B: complete survey research design](#v4-appendix-design)
+13. [Appendix C: full questionnaire and scenario wording](#v4-appendix-questionnaire)
+14. [Appendix D: verification scope and test inventory](#v4-appendix-tests)
+15. [Complete unchanged Version 3 pack and earlier archives](#v3-preserved)
+
+<a id="v4-current"></a>
+## 1. Current state and next work
+
+**Latest confirmed state:** the user ran the v1.3.0 survey script in a new Apps Script project. By the user-supplied status log at **11:51:22–11:51:24 on 27 October 2026**, its top-level flags were `"ready": "true"` and `"active": "true"`. In this implementation, setup-ready is set after all eight forms have been built and verified; active is set when the study is opened. All eight variants are therefore recorded as successfully set up and enabled. This is owner-reported Google execution evidence, not a live account inspection by the assistant.
+
+The owner’s private results workbook is:
+
+https://docs.google.com/spreadsheets/d/1tvP7vbj3g29BqW4hdOZOnpAY5IVsESQOMSQ91Jd_0YE
+
+**Participant access still needs confirmation.** The logged web-app URL ended in `/dev`, the editor test endpoint:
+
+https://script.google.com/macros/s/AKfycbzwSNY7SFt04yUwx7-cmxoDu7Ziw4I0nAxHTIIuEcA/dev
+
+No public `/exec` deployment URL was supplied or tested in the visible conversation. Do not manufacture one by changing the suffix. The user was instructed to copy the actual Web app URL from Deploy → Manage deployments, or create a Web app deployment with **Execute as: Me; Who has access: Anyone**. One landing-page link should be shared so that assignments remain randomized and the study code is prefilled. The private workbook or individual unprefilled form URLs are not recruitment links.
+
+The next operational check is an incognito visit to the actual `/exec` URL, followed by a check that the button opens an assigned form without sign-in. End-to-end submission, appearance on a real mobile device, and response arrival in the workbook have not been reported as completed. Do not restart setup, recreate the eight forms or discard the current workbook merely because the long status JSON was truncated.
+
+**Research stage:** the secondary corpus analysis is completed; the survey is built and active according to the owner’s log. No participant results, achieved sample size, survey estimates, completed interviews, seller validation, field experiment, approved strategy budget or competition submission are available in this chat. The survey is followed by optional explanatory interviews if feasible. Collection has not been demonstrated simply by opening the forms.
+
+<a id="v4-strategy"></a>
+## 2. Strategic reasoning and decisions from this conversation
+
+### 2.1 The three working goals and their relationship
+
+The user’s working goals are:
+
+1. **Grow transaction value.**
+2. **Monetize that activity sustainably.**
+3. **Deliver efficiently and reliably.**
+
+These are organizing goals, not an approved final strategic solution. Seller churn and buyer repeatability affect the durable transaction base and therefore both growth and sustainable monetization; they are not definitions of goal 2. Goal 2 must account for sellers’ net economics, buyers’ usable value, platform contribution and the persistence of the activity being monetized. More GMV without adequate incremental contribution is not the end objective. Goal 3 also affects the first two through delivery experience, recovery and cost.
+
+The official case question preserved in Version 3 remains authoritative: **How can Nexora achieve sustainable profitable growth while strengthening its competitive position and mitigating seller and buyer attrition in Indonesia’s increasingly competitive e-commerce market?**
+
+The user recalled a director’s statement and wording about remaining the e-commerce leader as support for goal 1. The exact earlier assistant quotation is unavailable in this visible conversation; do not invent a named director, quote or page. Available case evidence already supports a growth/share challenge: GMV rises from Rp560tn to Rp600tn (+7.14%), against reported market growth of 11%; value share falls from 50% in 2023 to 48% in 2024 and 46% in 2025. Revenue grows faster, Rp45tn to Rp60tn, alongside a higher blended take rate. Those observations make transaction growth and competitiveness relevant without proving a causal diagnosis of share loss.
+
+### 2.2 Creator publishing / print-on-demand: retained as a goal-1 hypothesis
+
+The user proposed a service inspired by Amazon Kindle Direct Publishing and print-on-demand: help sellers or creators bring products to market, potentially without committing to large inventories. The reference is an analogy, not a decision to copy Amazon’s business model, enter book publishing or claim that digital publishing economics transfer to physical goods.
+
+The user explicitly accepted keeping **print-on-demand (PoD) under goal 1**, with later survey/interview validation. The concept may add distinctive supply, let creators test demand, and generate incremental purchase occasions or order value. It may also improve sellers’ perceived value from the platform if Nexora supplies useful production, listing, discovery and fulfilment support. None of those benefits has been measured.
+
+The concept was developed beyond operational fulfilment alone:
+
+- Help translate creator ideas into sellable product listings and manageable product launches; address the practical selling task rather than merely adding a factory connection.
+- Explore marketing/discovery support so the new supply has a credible path to buyers. The user specifically raised helping sellers’ marketing efforts.
+- Treat paid Nexora advertising as a **possible separate monetization stream**. No ad product, compulsory spend, price or guaranteed incremental seller return was approved. Additional advertising charges cannot be assumed sustainable merely because ads generate platform revenue.
+- Use NexExpress as a potential delivery/coordination advantage where its actual capacity, route economics and service quality fit. Lower current average internal parcel cost does not establish manufacturing feasibility, universal next-day delivery, optimal insourcing or positive PoD contribution.
+
+PoD is not assumed to rescue sellers already leaving because of fundamentally different fee, trust, demand or settlement problems. Nor is it assumed to solve buyer repeatability across the marketplace. It might attract a new creator segment or serve existing sellers; that is an open segmentation question, not an established retention effect.
+
+Unresolved validation includes creator/seller adoption, inventory constraints, production partners, design ownership/licensing, quality consistency, lead times, returns and defect allocation, demand acquisition costs, net seller earnings, platform contribution, incremental demand versus substitution, and repeat demand. No supplier economics or ad ROI were inferred from buyer survey choices.
+
+### 2.3 Social-driven shopping: a competing explanation, not a mandate to imitate Scrolla
+
+The user was unconvinced that Nexora needed a social-driven proposition like Scrolla and asked for an unbiased judgment. Preserve that as a question to test, not a foregone anti-social or pro-social conclusion. Scrolla’s case performance motivates examining discovery, but does not establish that cloning a feed, live commerce or creator network is Nexora’s best response.
+
+Discovery and transaction capture can happen on different channels. Creator partnerships, shareable products and marketing links may complement an effective marketplace checkout without requiring a full social platform. The implemented survey asks whether an actual recent purchase began with content/live/creator recommendations and where the transaction occurred; it does not run an experiment on a social feed or establish incremental social-commerce profitability.
+
+### 2.4 Buyer repeatability remains platform-wide
+
+The user explicitly rejected making the buyer-repeat strategy a direct extension of PoD. The central question is:
+
+**“What prevents a previous Nexora buyer from choosing Nexora for their next relevant purchase?”**
+
+The analysis therefore separates no new need or insufficient budget from platform-specific rejection or inability: no consideration; a less attractive offer; a failed attempt to purchase; inability to use money, benefits or payment routes; and loss of confidence after an incident. App deletion, a complaint, occasional use and multihoming are not interchangeable with verified permanent buyer churn.
+
+No blanket loyalty scheme, membership, points currency, permanent subsidy, accelerated-refund service or courier-choice product has been selected as the final platform-wide solution. **Usable value and next-purchase recovery** are working hypotheses to validate against rivals.
+
+### 2.5 Matched-product price scraping: useful but bounded
+
+The user proposed Apify e-commerce scrapers for Shopee, Tokopedia and other marketplaces to compare the same product. A genuinely matched product/variant, time, destination and payment/promotion eligibility can reveal observable differences in final payable cost, listing availability or pricing presentation. Product price alone can miss shipping, platform fees, minimum baskets, conditional vouchers and account-specific entitlements.
+
+Treat an implementation as a proposed follow-up; no matched-price collection was executed in this conversation. Such a scrape would not establish why a buyer switched, validate current refund experiences, estimate actual repeat rates, or capture every personalized checkout condition. The user’s earlier requests for elaboration on insights numbered 4, 6 and 9 refer to prior answer numbering whose exact text is unavailable here. Do not remap those numbers arbitrarily to the Version 3 finding IDs; the full old pack remains preserved.
+
+<a id="v4-research"></a>
+## 3. Fresh repository analysis: what was actually done
+
+At the user’s explicit request, the assistant cloned **Nexora-Research** and analyzed its app-review corpus rather than relying only on the existing summary:
+
+https://github.com/Fafauzif/Nexora-Research/tree/73bf0c4468fd979bd9d514e6f6acba582bd440ce
+
+The checkout included Git LFS data. The clean app-review stream contained **1,834,939 records**. All were parsed and lexically screened; **34,152 potential records / 34,141 within-app normalized-text families** met the retrieval screen. **166 distinct full reviews** were then read analytically: 80 discovery, 50 reserved, and 36 targeted exploratory follow-up. All 166 selected texts, dates and ratings matched the raw-source records. This is not a semantic reading of all 1.83 million reviews and not human-validated ground truth.
+
+| App | Clean records screened | Source-date range |
+| --- | ---: | --- |
+| Shopee | 781,789 | 22 June 2015–13 November 2023 |
+| Lazada | 774,911 | 9 June 2013–13 November 2023 |
+| Tokopedia | 71,229 | 12 September 2018–25 October 2024 |
+| Bukalapak | 90,127 | 12 September 2018–27 October 2024 |
+| Blibli | 116,883 | 11 December 2013–9 February 2025 |
+
+Shopee/Lazada exports are international and individual countries are unknown. The three Indonesian-app-context datasets total 278,239 rows, not 278,239 verified Indonesian buyers. Most reviews predate the case period. These records cannot identify effects of Nexora’s 2025 monetization, contemporary policy validity, population prevalence, verified churn or causal financial effects. The app-review corpus is separate from the prior 8,713-record Apify workbook and the wider historical multi-source inventory; do not pool their denominators.
+
+### 3.1 Five mechanism findings and their practical implications
+
+| Mechanism supported by selected comparator accounts | Implication to validate | Important rival or counterexample |
+| --- | --- | --- |
+| A nominally generous reward may not be usable at the intended basket. A loyal reviewer prefers smaller immediate shipping relief to difficult cashback; another reports uninstalling over unusable points. | Examine final payable value and benefit compatibility, eligibility, expiry and cashability before adding rewards. | Other reviewers continue buying for discounts; promotion design need not fail generally. |
+| A failed order can leave funds unavailable for a replacement purchase. | Measure restoration of usable funds and an acceptable replacement route, not just refund-ticket closure. | Easy reusable refunds and bank refunds also appear. Faster refunds’ cost, fraud risk and cash needs remain unmeasured. |
+| Willing buyers may be unable to execute a purchase because of search, checkout, payment or eligibility problems. | Separate intent, attempt, payment and completion; a discount may not fix a blocked transaction. | A restriction may be legitimate risk control; some issues resolve; an app quitter may still buy via the website. |
+| Free shipping can lose to dependable local delivery or a better carrier experience. | Evaluate delivery promises, serviceability and recovery by route/customer context alongside total cost. | Automatic carrier assignment also receives praise; universal courier choice or insourcing is not established. |
+| Unresolved loss or difficult issue resolution can outweigh past satisfaction or loyalty status. | Test incident ownership, fair resolution and subsequent purchase behavior together. | Some buyers continue despite problems because assortment and benefits remain valuable. |
+
+The combined direction is **platform-wide usable value and next-purchase recovery**, separate from the PoD growth concept. Do not convert these qualitative accounts into an importance ranking or assume all five mechanisms are equally frequent. The complete report, selected evidence locators, actions-versus-intentions distinctions, counterexamples, method and source attribution appear in Appendix A.
+
+<a id="v4-survey"></a>
+## 4. Survey purpose, recruitment and structure
+
+**Purpose:** explore actual marketplace-choice behavior and obstacles to the next relevant purchase; test three plausible decision levers while keeping competing explanations visible; obtain bounded evidence about a creator-designed PoD offer. Nexora is fictional, so respondents answer about real marketplaces and hypothetical marketplace offers, not verified Nexora customer histories.
+
+**Recruitment target:** approximately **50–100 college students**, primarily peers recruited through convenience sampling. Eligibility: age **18+**, currently a student in Indonesia, bought physical goods through a marketplace in the previous **six months**. The survey is in Indonesian and targets **6–8 minutes**. No probability sampling, representative population claim or measured pilot completion time is available.
+
+**Sequence:** QUAN first, optional QUAL interviews afterwards. Interviews could not happen first. The plan is explanatory sequential mixed methods if the later interview stage is actually conducted; optional text responses alone do not mean that a completed mixed-method interview study exists.
+
+**Instrument:** 22 defined question fields, including the prefilled study code, optional raffle/contact fields and routed items. Respondents do not necessarily see every question. The first page contains the study code, optional e-wallet details and combined eligibility/consent. Ineligible or nonconsenting participants submit without proceeding. Actual behavior comes before the vignettes. Those reporting a recent order problem receive two additional problem questions; others skip them.
+
+The behavior section covers purchase frequency; budget-constrained postponement; usual marketplace; the most recent relevant need and eventual outcome; channels actually checked; the main reason for the decision; recent order problems and subsequent actions; past creator/custom-design purchases; and content-led discovery with the eventual buying channel. Optional text and interview willingness/contact follow the scenarios. The full exact wording is in Appendix C.
+
+**Assignment design:** three independently assigned binary factors yield **2 × 2 × 2 = eight Google Forms**, one for each combination. Each person is routed to one form and sees one condition from each of the three experiments. This is three A/B comparisons within one survey, not eight unrelated experiments and not only two forms. The user initially expected two forms and asked for clarification; the implemented eight-combination structure was subsequently accepted and successfully built.
+
+The landing page generates a random browser identifier, normally retained in local storage. A server-side keyed pseudorandom function derives the three assignments and a signed code binds the response to its expected form. Assignment probability is approximately balanced in expectation; realized completion counts need not be balanced. At 50–100 valid complete responses, each factor condition might have roughly 25–50 responses, while an individual eight-way combination might have only about 6–13. These are planning expectations, not achieved allocations or a power calculation.
+
+<a id="v4-experiments"></a>
+## 5. Exact experiments and what they can establish
+
+The prices, timelines and stipulated product characteristics below are **team assumptions approved as hypothetical questionnaire settings**. They are not observed market offers, verified Nexora operating promises or modeled costs.
+
+| Experiment | Condition A | Condition B | Primary recorded choice |
+| --- | --- | --- | --- |
+| Benefit arrangement | Rp100,000 total before promotion; Rp10,000 immediate discount; pay Rp90,000 now | Pay Rp100,000 now; receive Rp10,000 after completion for another purchase within 30 days; no minimum; noncashable | Buy now on this marketplace versus compare elsewhere, postpone or not buy |
+| Recovery timing | Stockout cancellation; approved refund available in **1 day** | Same situation; refund available in **3 working days** | Same marketplace for next need versus another channel, wait or uncertain |
+| PoD arrival time | Standard ready-stock tote Rp60,000, arrival 2 days; creator PoD tote Rp75,000, arrival **3 days** | Same standard alternative; same creator PoD tote, arrival **7 days** | Standard tote, creator tote or neither |
+
+Across benefit arms, stated product need, trusted seller, 3-day delivery and underlying total are held constant. This compares complete reward arrangements, including current outlay and contingency; it does not isolate cashability, expiry, timing or mental accounting separately and is not an equal-platform-cost comparison. Its outcome concerns current stated choice, not observed future repeat.
+
+Across refund arms, the stockout incident, clear support response, approval and return to the **same original payment method** remain constant. The recorded difference concerns timing. Budget questions can contextualize interpretation, but cannot establish whether liquidity, fairness or trust mediates the response. No operational feasibility or cost estimate is tested.
+
+Across PoD arms, the **same paired totebag picture** is used. Both products are stipulated as canvas, 35 × 40 cm, equivalent print quality and equivalent defect-return terms. Prices include shipping and other charges. The creator tote is an independent illustrator’s design, printed after ordering; it is not a direct experiment on respondent-uploaded customization. The standard/creator products differ visually and in price, while only creator arrival time changes randomly.
+
+**Critical boundary:** the PoD experiment can estimate the effect of the longer arrival promise on stated choice of this particular creator offer within this sample and survey. The overall share choosing it is descriptive acceptance of a bundle. It does not causally isolate originality, personalization, the production model or willingness to pay. It cannot validate seller participation, partner quality, advertising ROI, NexExpress capacity or contribution economics. The illustrations are hypothetical and not actual products for sale.
+
+### 5.1 Planned analysis and the user’s anti-confirmation-bias requirement
+
+The user wants a survey that can weaken an attractive hypothesis and point toward alternatives, rather than sell a predetermined solution. Preserve the pre-vignette behavior questions, alternative outcomes, open text and counterexamples. Do not describe all answers as validation of PoD or loyalty incentives.
+
+- Pool across the other randomized assignments and compare **two conditions per factor**. Retain counts and shares for all response categories; define the main binary choice before looking at results.
+- Report effect differences and appropriate uncertainty intervals if conducting the full analysis. The included `summarizeResults` command creates descriptive counts and shares only; it supplies neither intervals nor p-values.
+- If using significance tests, specify the three primary contrasts before examining results and address multiple comparisons, for example with Holm adjustment. No powered interactions or fine subgroup conclusions are planned.
+- Keep assigned counts, completion counts, exclusions and any uneven dropout visible. Treat repeated measures from one person as coming from the same person. No conventional population margin of error is justified by convenience sampling.
+- A wide interval or nonsignificant result with 50–100 respondents is not proof of no effect. No stated-choice contrast demonstrates actual retention lift, transaction growth or financial return.
+- Reward preference may motivate a clearer-value hypothesis; refund sensitivity may motivate usable recovery; failed-attempt behavior may point to functional barriers; weak creator-offer selection may motivate a different design, price or segment. These are interpretation paths, not automatic causal verdicts.
+
+Experiment order is fixed: benefit, refund, PoD. Conditions are randomized, but fatigue, priming and fixed-order context remain possible. Follow-up interviews should include continuers after problems, switchers without reported problems, creator-offer rejecters and unexpected choices, not only enthusiastic respondents.
+
+The main analysis retains the earliest valid, eligible, complete submission per signed study code. Invalid/mismatched codes, failed eligibility/consent, missing experimental answers and late submissions are excluded. Contradictory checkbox combinations are flagged rather than automatically treated as substantive churn. Raw form responses remain available. No-login participation cannot guarantee one person per browser identity.
+
+<a id="v4-preferences"></a>
+## 6. Raffle, privacy, interface and accepted preferences
+
+### 6.1 Raffle decisions
+
+- Total **Rp200,000**, distributed to **four randomly selected winners × Rp50,000**.
+- Optional e-wallet provider and number fields must appear **on the first form page**. The user believes visible payout fields improve credibility and rejected a later-only/separate raffle arrangement.
+- Providers: **GoPay, DANA, OVO, ShopeePay, LinkAja, Lainnya**. Use e-wallet details, not bank account collection. Fields remain optional and are not a condition of taking the survey.
+- The user wanted minimal field instructions and said they would think about additional wording themselves. Do not add elaborate payout directions, request PIN/OTP credentials, or invent an organizer, affiliation or approval.
+- Closing date and draw-date text are blank; manual close is the current default. No calendar date was agreed. The draw is owner-invoked, not automatic.
+- Only complete eligible validated submissions with usable raffle details enter the draw. Phone numbers are normalized and deduplicated across wallet providers; this is a raffle safeguard, not proof that the research sample has unique people.
+- Draw output is written privately. No prizes have been drawn, people contacted or funds transferred in this conversation.
+
+### 6.2 Participant access and data handling
+
+**No Google sign-in.** The user repeated this emphatically. Forms are configured without email collection or one-response-per-Google-user limits, with response summaries unpublished and no file-upload questions. Public web-app access requires an actual deployment accessible to Anyone; account/organization restrictions cannot be overridden by a script assertion.
+
+The workbook separates analysis rows, raffle details and interview contacts into different tabs. This is organizational separation **within the same private workbook**, not irreversible anonymization or a separate access-control boundary. The code can link records by study code/source key, and the raw source forms contain submitted answers. Keep editor access restricted; sharing the workbook is not part of recruitment. No agreed data-retention/deletion schedule was recorded.
+
+No IP, location or fingerprinting collection is implemented. Browser storage supports stable assignment; clearing storage, changing browsers or devices, or disabling storage undermines deduplication. The study does not promise fraud-proof participation. Answers do not improve raffle odds.
+
+### 6.3 Landing page and image decisions
+
+The user explicitly requested **GPT Image** for relevant illustrations, especially the totebag comparison. One hypothetical paired totebag illustration was created and embedded identically in all forms. It is not displayed on the landing page, avoiding product priming before the survey.
+
+The user rejected a generic landing page and requested installation/use of **Taste, Impeccable and UI UX Pro Max** from GitHub. These were installed from `Leonxlnx/taste-skill`, `pbakaus/impeccable`, and `nextlevelbuilder/ui-ux-pro-max-skill`. Design work used a restrained paper/teal invitation layout, Schibsted Grotesk typography, clear duration/eligibility, prominent study entry and raffle information, responsive spacing and usable focus/error states. There are no externally hosted font or image dependencies in the delivered single script.
+
+The Google Apps Script iframe flow uses an initial assignment button, then a genuine continuation link opening the assigned Google Form. It avoids relying on automatic navigation after an asynchronous callback. The landing heading is “Belanja di mana?”; the actual form title is “Di mana kamu akhirnya belanja?”.
+
+No full real-browser screenshot review or Google-hosted mobile render was completed by the assistant; source, DOM-double and contrast checks are narrower evidence. Do not retrospectively claim that the UI was visually verified on participants’ phones.
+
+### 6.4 Writing and delivery preferences to retain
+
+Use natural, direct writing with clean, restrained hierarchy and design. Avoid canned conclusions, decorative callouts, invented claims or source attribution. Keep assistant commentary out of deliverable contents. Use genuine traceable evidence; label planning assumptions and limitations. No frozen rows/columns in spreadsheet outputs. Resolve routine wording independently; ask before material changes to scope, interpretation or financial assumptions.
+
+The user wants working artifacts and brief actionable handoffs, particularly when frustrated. They repeatedly requested **one copy-paste `.gs` file for a new project**. Do not return only a ZIP, provide stale v1.0 code, hide essential commands behind private `_` names, or repeatedly ask them to reset or assemble assets. They prefer a small number of batched actions and are strongly frustrated by repeated errors and vague assurances. Do not promise immunity to Google quotas, authorization or service outages.
+
+<a id="v4-script"></a>
+## 7. Authoritative script and operational architecture
+
+**Current delivered script: `START_HERE_Survey_v1_3.gs`, version 1.3.0.**
+
+[Persistent single-file script](https://chatgpt.com/library?file_id=libfile_689bfe8323f08191909e9f81015f20aa&account_id=personal)
+
+The single file includes the Apps Script server code, landing HTML/CSS/JavaScript, embedded typeface and totebag JPEG. No additional HTML file, asset upload, image URL or JSON configuration is needed. Owner startup is Save → select **`setupSurvey`** → Run → authorize. The user has already completed that startup successfully; these are recovery instructions, not a request to run it again now.
+
+### 7.1 Setup and recovery
+
+Version 1.3.0 builds sequentially in one run while budgeting approximately 250 seconds and reserving estimated time for the next form. It installs a minute-based continuation trigger when necessary. A setup user lock prevents overlapping builders; form mutations use a script lock. Each form ID is saved before construction so an interrupted form can be resumed. Finished verified forms are reused. An existing form containing responses must not be rebuilt destructively.
+
+An explicit `setupSurvey` restart clears exhausted attempt counters only for pending forms. Automatic retries stop after three unsuccessful attempts rather than loop forever. At completion, all eight are verified and automatically opened (`AUTO_OPEN_AFTER_SETUP: true`); intentionally closed studies are not reopened just by rerunning finalized setup. Background continuation is a timeout safeguard, not an error and not an absolute service guarantee.
+
+### 7.2 Owner commands
+
+| Visible function | Purpose |
+| --- | --- |
+| `setupSurvey` | Initialize a new project or resume incomplete setup; current owner has already done this |
+| `setupNext` / `retrySetup` | Owner recovery commands for incomplete setup |
+| `statusSurvey` | Refresh Status sheet and log current flags/registry; verbose output can be truncated |
+| `verifySurvey` | Read back all forms’ question/settings/routing checks |
+| `openSurvey` / `closeSurvey` | Enable/close participant intake |
+| `reconcileResponses` | Recover missed submit events and refresh analysis flags |
+| `summarizeResults` | Create descriptive factor-arm counts and choice shares |
+| `updatePublicDates` | Refresh agreed date text without rebuilding forms |
+| `drawRaffle` | Draw and save four winners after closure and reconciliation |
+| `stopBackgroundJobs` | Stop timer jobs after final export/draw; retain form data and submit triggers |
+
+Public owner commands verify the active and effective account identities and the stored administrator identity; anonymous `google.script.run` callers must not be able to invoke administrative mutations. Private helpers retain trailing underscores. The participant assignment method is public but does not expose workbook IDs or contact data.
+
+### 7.3 Storage, responses and raffle safeguards
+
+Workbook tabs: **Status, Responses, Raffle, Assignments, Followup, Log, Codebook, DrawPool, Winners**; **Summary** is added on request. No rows or columns are frozen. Form registries are stored in separate properties for the eight variants rather than one oversized property. Source keys combine form ID and response ID to make ingestion idempotent. Formula-like spreadsheet values are escaped.
+
+Each form has a submit trigger. A periodic reconciliation job recovers missing events, tracks progress within a time budget and preserves raw source responses. The first valid eligible complete response per study code is determined by source submission time rather than trigger arrival order. Contacts are written before the analysis source key is finalized so retrying an ingestion does not silently lose raffle/contact details.
+
+Raffle drawing requires closure and full reconciliation, at least four eligible unique entries, and normalized contact deduplication. It saves a bounded draw state, a pool snapshot/hash and a persistent seed; retries reproduce the same draw instead of quietly rerolling. A changed pool after the snapshot causes an error. No automatic payments, messages or emails are implemented.
+
+<a id="v4-status"></a>
+## 8. Troubleshooting history and latest live evidence
+
+This history explains why older artifacts and advice should not be reused. It does not mean the latest setup is still broken.
+
+| Stage | Observed issue or evidence | Correction / meaning |
+| --- | --- | --- |
+| Initial v1.0-style package | User could not find `setupSurvey`; only private setup functions ended in `_` | Added visible owner-gated command wrappers; versioned replacements supplied |
+| User run at 11:11 | `Exception: Invalid data updating form`, `buildForm_ @ Code.gs:139` | The operation at that line was optional `setCustomClosedFormMessage`; removed it. Do not claim Google’s internal cause was independently diagnosed. |
+| Next run at 11:17 | Setup paused after three failed attempts for `000` | Saved failure counter from previous runs; recovery resets pending counters. Final v1.3 startup handles explicit restart. |
+| Compatibility fixes | Form reconstruction and presentation operations needed safer ordering | Delete items front-to-back to remove branch references before their target pages; set image content before its title/help; label required failures; skip noncritical cosmetic-setting failures; read back form structure/settings. |
+| User verifier at 11:19–11:20 | Two native forms had 22 question fields each and `verified: true`; six `NOT_READY` | Two succeeded; the then-current design queued remaining setup. `NOT_READY` was incomplete work, not six proven construction errors. |
+| New v1.3 owner setup 11:26:21–11:29:43 | Created/verified 1 at 11:27:06; 2 at 11:27:42; 3 at 11:28:03; 4 at 11:28:39; 5 at 11:29:10; 6 at 11:29:42; automatic-continuation message | Budgeted batch setup worked. Remaining two were scheduled in background. Workbook link printed. |
+| Latest owner status 11:51:20–11:51:24 | `ready: "true"`, `active: "true"`; long registry truncated | All eight are recorded ready; study active. Truncation concerns displayed logging length, not form construction or missing survey questions. |
+
+### 8.1 Current form registry identifiers from the owner’s log
+
+These IDs belong to the successful new-project build. Do not confuse them with earlier failed-project IDs. Their editor URLs can be formed as `https://docs.google.com/forms/d/FORM_ID/edit` for the owner; editor access should remain private. Recruitment should use the landing page, not these IDs.
+
+| Variant | Google Form ID |
+| --- | --- |
+| `000` | `1xMi58HYY_H4K3Dup82eAv85GoXFVQWpuEFp2sT4KFXQ` |
+| `001` | `1uFZLrJdQT1ZDENKw2JSXDHPSO3yglEtoRajKUuxQXsA` |
+| `010` | `1quEaJJfsFrW1-tKmhr9ewbLjh2_eeNol2dAlKo5_UKU` |
+| `011` | `1cQRN5FZ7elqerOQwNGCxtp8bX4IVnJt_Plmzir8p3SE` |
+| `100` | `1DN8lbJL0EhR8FnIK7aR4FC_Ls19jP4RyXRsq1vqhMFk` |
+| `101` | `1XaUrZe99RPCsEWcF8VAhFqYtPAOGf-WW9RSk0GxCnIs` |
+| `110` | `1Zjq-h0V3HRo6MruojkFjxh-tT_mLL1OxCLK6TkSws4Y` |
+| `111` | `1wCGyAQ9FHRoKxPEZKVwv3s2iR5sYxsTBbjPhuUrmLHQ` |
+
+The bit mapping in the actual code is: first bit `0=discount / 1=cashback`; second bit `0=1-day refund / 1=3-working-day refund`; third bit `0=3-day PoD arrival / 1=7-day PoD arrival`. Leading zeros must be retained.
+
+### 8.2 Known verification limits
+
+Local verification records show **30 server tests plus eight landing tests**. These use Apps Script service doubles and DOM doubles, markup/CSS checks and contrast calculations. They cover setup/resume/time budgeting, owner-only wrappers, routing, signed assignment, idempotent ingestion, deduplication, raffle stability and selected UI/error states. They are not Google-account execution, browser screenshots, independent penetration tests or service-availability guarantees.
+
+The owner’s successful Google logs add real construction and status evidence. They do not establish successful public anonymous participation, a completed test submission, response reconciliation at scale, a successful real draw, or visual quality on every device. The exact test inventory and scopes are preserved in Appendix D.
+
+<a id="v4-handoff"></a>
+## 9. Artifacts, evidence hierarchy and continuation rules
+
+### 9.1 Durable artifacts and source roles
+
+| Artifact | Role / current status |
+| --- | --- |
+| Version 3 context pack preserved below | Prior complete analysis, case calculations, qualitative evidence library, references, original-source archives and earlier decisions |
+| Combined Cleaned Data workbook | Authoritative new-Apify raw/clean lineage, 8,713 unique records; link remains in Version 3 |
+| Insights and Implications workbook | Twenty findings, case economics, selected evidence and proposed tests; link remains in Version 3 |
+| Nexora-Research repository at specified commit | Historical multi-source research corpus; comparator data, not Nexora internal customer events |
+| Fresh Buyer Repeat Corpus Analysis report | Full new app-review screen, selected-reading findings and limitations; reproduced in Appendix A |
+| Survey v1.3.0 single file | Current delivered implementation; persistent link in Section 7 |
+| Current Google workbook linked in Section 1 | Owner-reported active project’s data destination; private |
+| Research design and questionnaire | Exact implemented experimental intent and wording, reproduced in Appendices B and C |
+
+Latest source workspace inventory for reproducibility, not audience-facing evidence citations: `survey_package_onestep/core.gs`, `landing.html`, `build.py`, `test_survey.cjs`, `test_landing.cjs`, embedded assets, questionnaire JSON and test-result JSON; corpus-analysis scripts and ledgers under `Nexora-Research/analysis/buyer_repeat_20261027/`. Source code and corpus files are not necessarily available in a future chat; the durable script link and textual appendices are the continuity fallback. No new analysis changes were pushed to the public research repository.
+
+Earlier files named `Survey_Copy_Paste.gs`, `Survey_v1_2_1.gs`, `Survey_v1_2_2.gs`, or initial/v2 ZIPs are **superseded for fresh setup**. Some packaged setup/verification documents predate the v1.3 automatic batch/open behavior and should not override the actual current script or this update. A future ZIP must update its instructions before delivery.
+
+### 9.2 Evidence hierarchy and things not to claim
+
+1. The supplied casebook is the fictional Nexora internal evidence base; its official question and figures take priority over analogies and guidebook framing.
+2. External scraped reviews/posts support mechanisms and rival explanations, not current Nexora prevalence or causal effects. Keep historical/international context and denominators attached.
+3. Hypothetical vignette settings are team assumptions. Random assignment can support within-survey stated-choice contrasts, subject to implementation and attrition; it cannot turn a convenience sample into a representative population or a field retention experiment.
+4. Script service-double tests, owner execution logs and actual public end-to-end tests are distinct evidence layers. Only the first two are currently available.
+5. PoD, seller marketing support, ads, refund acceleration and a broader usable-value/recovery proposition remain options under validation. No approved profit forecast, spend commitment, supplier agreement or final strategic recommendation exists.
+
+Do not ask the user again whether the prize is four × Rp50,000, whether wallet fields belong first, whether Google sign-in is acceptable, whether to use totebags, or whether the target duration is 6–8 minutes. These decisions are settled. Do not replace the platform-wide repeat question with PoD-only retention. Do not call a non-significant result proof of no effect. Do not recreate completed forms as a routine next step.
+
+The next substantive research work, when requested, is to analyze real valid submissions, describe arm allocation/exclusions/uncertainty, compare actual-choice patterns with vignette choices, and prepare focused follow-up interviews. Seller interviews or a separate seller instrument would be needed for the seller economics and adoption side. A matched-price scrape may complement the buyer research but has not been authorized to run as part of this context update.
+
+### 9.3 Conversation continuity and unavailable details
+
+This update consolidates the visible user turns, supplied files, existing analysis outputs and final implementation. It is a factual topical record, not an invented verbatim transcript of missing assistant turns. An attempt to retrieve unavailable earlier detail returned “Personal context is disabled.” The pack therefore does not invent earlier numbered-insight wording, specific director quotations or an unseen final plan. The complete source-derived appendices and unchanged previous pack provide the actual available detail.
+
+<a id="v4-description"></a>
+## 10. Short survey description shared for teammates
+
+The survey explores why previous Nexora buyers choose—or avoid—it for their next purchase, and tests interest in print-on-demand products.
+
+We’re targeting **50–100 college students** through convenience sampling with a **6–8-minute online survey**. It combines past shopping experiences, open-ended questions, and three randomized A/B scenarios: discount vs cashback, faster vs slower refunds, and shorter vs longer delivery for a print-on-demand tote bag.
+
+Results will help prioritize hypotheses and guide follow-up interviews. Findings are exploratory, not representative of all Nexora buyers.
+
+**Methodological qualification for future formal descriptions:** “Nexora buyers” is strategic shorthand in the team summary; the instrument recruits real marketplace buyers and uses hypothetical marketplace scenarios because Nexora is fictional. It does not sample verified Nexora users. Prefer “marketplace buyers, to inform the Nexora case” when writing a formal methods section.
+
+
+<a id="v4-appendix-analysis"></a>
+## Appendix A — Complete new buyer-repeat corpus-analysis report
+
+# Why might a previous marketplace buyer not make the next purchase?
+
+New analysis of the Nexora-Research repository, 27 October 2026 (Asia/Jakarta).
+
+## Main finding
+
+The historical reviews support several distinct mechanisms, beyond a generic lack of loyalty: buyers evaluate usable rather than nominal benefits; failed purchases can leave money or eligibility unavailable for the next order; search and checkout failures obstruct willing buyers; local delivery experience can motivate comparison with rivals; and unresolved losses can undermine trust despite loyalty status. These are evidence-backed hypotheses for Nexora research, not diagnosed causes of Nexora's repeat-rate decline.
+
+The repository was cloned successfully at commit `73bf0c4468fd979bd9d514e6f6acba582bd440ce`, including Git LFS data. The previous context-pack summary was not treated as new evidence. This analysis screened the authoritative app-review stream and read underlying records. It did not use the historical support tweets or indexed social snippets as if they were Play Store reviews.
+
+## Scope and evidence strength
+
+All **1,834,939** cleaned app-review records were parsed and screened. A reproducible lexical screen returned **34,152 records**, or **34,141 within-app normalized-text families**. The screen retrieves potential buying, stopping, switching, temporal-change or inability accounts; it is not a classifier of actual churn.
+
+I read **166 distinct full reviews**: 80 discovery records, 50 separate reserved records, and 36 exploratory follow-up records. All 166 matched normalized raw-source text, date and rating. These are single-agent analytical readings, not human-validated ground truth. Automated retrieval and full-text reading are different scopes of work: I did not semantically read 1.83 million reviews.
+
+| App | Clean records scanned | Source date coverage | Market interpretation |
+|---|---:|---|---|
+| Shopee | 781,789 | 22 Jun 2015–13 Nov 2023 | International export; individual reviewer countries unknown |
+| Lazada | 774,911 | 9 Jun 2013–13 Nov 2023 | International export; individual reviewer countries unknown |
+| Tokopedia | 71,229 | 12 Sep 2018–25 Oct 2024 | Indonesian-app curator context; individual reviewer countries unknown |
+| Bukalapak | 90,127 | 12 Sep 2018–27 Oct 2024 | Indonesian-app curator context; individual reviewer countries unknown |
+| Blibli | 116,883 | 11 Dec 2013–9 Feb 2025 | Indonesian-app curator context; individual reviewer countries unknown |
+
+Most records predate the 2025 case. These data cannot measure the effects of Nexora's 2025 monetization change or describe current marketplace policies. Several read international records explicitly mention the Philippines or Vietnam; none was relabeled Indonesian. The three Indonesian-app-context files provide 278,239 records, not 278,239 verified Indonesian buyers.
+
+## 1. A benefit can look generous but fail at the intended purchase
+
+**Finding:** Some reviewers distinguish a benefit's advertised amount from whether they can actually use it to reduce their next payment. One loyal buyer explicitly reports choosing smaller immediate shipping relief over larger, hard-to-obtain cashback. Another reports uninstalling because accumulated points could not pay for purchases. These are stronger observations than simply inferring low loyalty from complaints about rewards.
+
+| Ledger record | App; date | What the full text reports | Evidence boundary |
+|---|---|---|---|
+| R014 — `kaggle_rezkyyayang_bukalapak:5290` | Bukalapak; 17 Dec 2020 | Self-described loyal user prefers Rp8,000–10,000 direct shipping relief to Rp20,000 cashback that is difficult to receive. | Reported promotion-choice behavior, not a verified platform exit or general willingness-to-pay estimate |
+| R044 — `kaggle_rezkyyayang_tokopedia:13953` | Tokopedia; 17 Oct 2021 | Reports uninstalling because accumulated points cannot be used for payment; contrasts a rival's redemption. | Self-reported app deletion, not verified permanent purchase loss; point rules unverified |
+| T032 — `kaggle_rezkyyayang_tokopedia:33212` | Tokopedia; 3 Nov 2022 | Previously combined cashback and shipping promotion, now says only one can be used and a service charge is added. | Changed entitlement as reported; no completed switch shown |
+| R007 — `kaggle_rezkyyayang_blibli:3278` | Blibli; 27 Aug 2020 | Buyer since 2015 dislikes shipping eligibility depending on basket value. | Still awards five stars; cannot infer departure |
+| T015 — `kaggle_rezkyyayang_bukalapak:29967` | Bukalapak; 16 Mar 2019 | Promotion requires a carrier not offered for the desired product. | Illustrates benefit-product compatibility, not proof of a policy error |
+
+**Counterevidence:** R035 continues buying for discounts; T031 values inter-island shipping relief; R009 praises cheap goods and free/fast delivery. Promotions clearly can be valuable. These records do not select a universally superior incentive design.
+
+**Nexora implication:** Investigate benefit spendability at the intended basket, including eligibility, expiry, seller/carrier restrictions, stacking and final amount due. A possible test compares a clear immediate benefit against an equal-platform-cost contingent reward. The historical testimony does not establish comparative cost-effectiveness. Membership or more points is not yet the selected solution.
+
+## 2. Closing a failed order may not restore the buyer's ability to replace it
+
+**Finding:** Reviewers sometimes describe refund or balance arrangements that make replacement purchases difficult. The next-order barrier is partly financial availability, not necessarily dissatisfaction alone.
+
+| Ledger record | App; date | What the full text reports | Evidence boundary |
+|---|---|---|---|
+| D014 — `kaggle_rezkyyayang_blibli:2410` | Blibli; 24 Aug 2021 | Frequent buyer asks to change an address; support advises cancellation and repurchase, but refund remains unavailable while the item is still needed. | Reported sequence, not verified support policy or lost replacement sale |
+| R048 — `kaggle_rezkyyayang_tokopedia:209` | Tokopedia; 16 Oct 2024 | Cancelled order refunded to balance; reviewer says Rp20,000 is below a withdrawal minimum, while spending it on a cheap item entails high shipping without an eligible voucher. | One compound episode; the specific limits/amounts are allegations, not current policy facts |
+| T011 — `kaggle_rezkyyayang_blibli:71928` | Blibli; 9 Aug 2018 | Says a card refund is outstanding and the money could have bought other goods. | Explicit opportunity-cost account; delay and responsibility unverified |
+| R002 — `kaggle_rezkyyayang_blibli:3559` | Blibli; 27 May 2021 | Cancellation followed by reorder, phone-reset and withdrawal difficulties; announces departure. | Intention/aversion, not verified permanent exit |
+
+**Counterevidence:** T035 reports a stockout refund that was easy to use for a different purchase. T036 praises refund to a bank account. The process can work and is not uniformly broken.
+
+**Nexora implication:** A possible buyer-repeat metric is time from failed order to restored usable funds and a completed replacement order. Do not optimize this by trapping funds in platform credit: compare genuinely useful customer options. Any accelerated refund proposal must account for fraud, payment reversal risk, cash requirements and service cost.
+
+## 3. Some willing buyers cannot execute the purchase
+
+**Finding:** Search, product images, cart, payment routes and account eligibility appear in accounts of attempted purchases. These differ from choosing a competitor voluntarily, and can occur in five-star reviews.
+
+- R012 — `kaggle_rezkyyayang_bukalapak:4231` (6 Feb 2019): explicitly says they have not shopped on Bukalapak for a long time because product search fails, despite flash deals still working. This is unusually direct reported reduced purchasing associated with a functional barrier.
+- D080 — `kaggle_rezkyyayang_tokopedia:21913` (21 May 2019): gives five stars and describes the platform positively overall, but cannot enter payment for days and asks for reachable support.
+- R047 — `kaggle_rezkyyayang_tokopedia:7337` (20 Apr 2020): says previously easy balance checkout now requires inconvenient top-up or transfer steps. No completed departure is reported.
+- D064 — `kaggle_bwandowando_shopee:48237` (23 Jun 2019): explicitly needs to buy but COD is suspended; the triggering reason is unknown and reviewer location is unknown.
+- T009 — `kaggle_rezkyyayang_blibli:299` (1 Jan 2022): after claimed repeated promotional purchases, reviewer reports transactions blocked as abnormal and asks to buy even without vouchers. Legitimate risk protection is a rival explanation; complaint attribution does not establish an unjust sanction.
+
+**Counterevidence:** D046 says an inability to order was resolved. T005 uninstalled an unreliable app but continued via the website—app loss is not necessarily platform loss. Reinstalling to troubleshoot (D040, D055, R023, R043) must not be coded as churn.
+
+**Nexora implication:** First establish whether the next purchase was considered, attempted, eligible, paid and fulfilled. If a material number of willing buyers are blocked, reactivation discounts may not address the barrier. Test recovery paths and risk-review exceptions using verified events; do not simply remove fraud or nonacceptance controls.
+
+## 4. Free delivery may lose against a more dependable local alternative
+
+**Finding:** Price and delivery experience are intertwined. A free-shipping offer is not automatically sufficient if a buyer expects delay or dislikes an assigned carrier for their locality.
+
+- D071 — `kaggle_rezkyyayang_tokopedia:21267` (6 May 2024): Tokopedia user reports trying Shopee and finding delivery faster despite free shipping; criticizes the recommended-carrier arrangement. This shows reported trial/comparison, not permanent migration or an independently timed experiment.
+- T014 — `kaggle_rezkyyayang_bukalapak:534` (22 Nov 2019): reviewer describes formerly frequent Bukalapak purchases and now being comfortable at a competitor, citing price, process speed, shipping and courier choice together. Their claimed historical purchase frequency is not verified. The text cannot isolate which factor caused the move.
+- T003 — `kaggle_rezkyyayang_blibli:771` (19 Jan 2022): values official stores but says automatically selected delivery is slow locally.
+- D003 — `kaggle_rezkyyayang_blibli:84047` (28 Oct 2017): reports uninstalling because checkout no longer covers the delivery area, although it reportedly did before.
+
+**Counterevidence:** T025 praises an automatically assigned courier as fast. T001 praises courier options; not every buyer requires them. R032 describes an international geography-specific inability after moving, not Indonesian serviceability. A menu of carriers is therefore only one candidate remedy; address information, better allocation or local exception handling may also fit.
+
+**Nexora implication:** NexExpress can potentially support retention if it delivers reliably for a particular route/customer context. Its lower group-average parcel cost alone does not establish that assigning every additional parcel to it improves value. Evaluate marginal route cost, delivery success, repeat incidents and recovery; do not infer a universal outsourcing or insourcing rule.
+
+## 5. Unresolved losses can outweigh loyalty status and past satisfaction
+
+**Finding:** Some accounts describe liking or repeatedly using a platform before difficult issue resolution. The next-purchase problem may be expected protection when something goes wrong, not a shortage of points.
+
+- D022 — `kaggle_rezkyyayang_bukalapak:8399` (23 Jan 2020): reports uninstalling despite liking and frequently using the app, after a wrong item, slow return and difficult complaint process. This is self-reported action with explicit prior participation.
+- D065 — `kaggle_rezkyyayang_tokopedia:56750` (1 May 2024): long-time buyer describes month-long nonreceipt and dismissive insurance response; expresses aversion but no later action is observed.
+- D054 — `kaggle_bwandowando_shopee:673460` (3 Aug 2022): dissatisfied buyer questions the value of loyalty tiers because support will not investigate incomplete delivery/returns; probable switching intention, not executed switching. Reviewer country is unknown.
+- R021 — `kaggle_bwandowando_lazada:463347` (4 Jan 2021): says they decided to switch after an alleged scam and no platform help. Decision wording does not establish an actual subsequent purchase.
+
+**Counterevidence:** R001 praises easy returns, T021 rapid problem response, and D047 continues despite delivery problems because the assortment and benefits remain valuable. Complaints are not deterministic departure predictors.
+
+**Nexora implication:** Evaluate fair resolution, usable recovery and subsequent purchase behavior together. A tested intervention might improve incident ownership, response continuity and an understandable next step. Its profitability must include service costs, buyer/seller fairness, abuse and avoided losses; permanent compensation for every complaint is not established as optimal.
+
+## What this changes in the proposed strategy
+
+The records make a platform-wide **next-purchase recovery and usable value** hypothesis more defensible than immediately choosing a new loyalty currency or blanket subsidy. This is a direction for validation, not a finished product recommendation.
+
+1. Preserve straightforward value at the next eligible basket: actual payable total and usable benefits.
+2. After a problem, restore an acceptable route to purchase: funds, checkout, appropriate eligibility and delivery confidence.
+3. Validate which barrier is material before choosing an intervention or estimating its return.
+
+This is separate from the creator/print-on-demand growth concept. A distinctive product launch service could help grow transaction value, while these hypotheses concern repeat across existing categories and sellers.
+
+The proposed matched-price scrape addresses the first mechanism's observable prices and charges. It cannot on its own diagnose inaccessible refunds, malfunctioning checkout, restrictions or confidence after disputes.
+
+## Validation design for interviews/survey
+
+Begin with actual recent decisions: last completed Nexora purchase; subsequent relevant need; whether Nexora was considered; attempted checkout; final outcome; another platform or offline purchase. Distinguish no new need, no consideration, rejected offer, failed attempt and failed fulfilment. No new need is not equivalent to a preventable platform failure.
+
+Ask for amounts and steps where available: product/variant, destination, total payable, voucher eligibility, payment method, prior incident, refund availability, carrier and reason for next-platform choice. Ask what worked as well as what failed. Do not show a proposed solution before eliciting the account. Later experiments should compare incremental completed contribution, repeat over a defined period, risk and service cost—not satisfaction alone.
+
+## Reproducible method and limits
+
+`scan_reviews.py` streams all cleaned records, requires at least 12 whitespace-delimited tokens, a commerce cue and a broad behavior/temporal/inability cue in English or Indonesian. Record language/country are not imputed. The screen consequently misses short or differently worded accounts and other languages. Overlapping lexical flags are retrieval aids, not validated causes or importance ratings.
+
+Exact casefolded whitespace-normalized text families are deduplicated within each app for sampling. Their hashes split discovery/reserved pools. A separate salted hash selects 8 discovery and 5 reserved families per app and per behavior/friction stratum, for 80 and 50 readings. The split preserves exact text families but cannot identify authors, near-duplicates or independent incidents. It is a reproducible selected sample, not a probability sample of app users.
+
+The reserved sample was separate from discovery but not a preregistered confirmatory study; reading labels remain judgment-based. A further 36 records were selected from the three Indonesian-app-context raw files using exploratory patterns for repeat-change, benefit spendability, recovery funds and carrier choice. They were read after the first two samples and must not be called independent confirmation. There was no source-record overlap among the 166 final readings.
+
+`code_reviews.py` and `finalize.py` preserve agent judgments, source locators, dates, original normalized text, actions versus intentions, and counterexamples. Codes are A (reported action/change), I (intention/aversion), F (friction without reported exit), P (positive/continued use), G (generic/ambiguous), S (seller-side), X (irrelevant). A is broad: it includes app deletion, program substitution, reported non-purchasing and platform trial. It must not be relabeled a count of churn. Prior-use code Y means explicit previous use, order or purchase; it does not mean verified habitual buying.
+
+For transparency, discovery classifications were A7/I21/F32/P12/G4/S3/X1; reserved were A9/I7/F24/P8/G1/S1; targeted follow-up were A3/I4/F13/P10/G2/S4. These are sample-reading diagnostics, not population percentages or comparable platform outcome rates.
+
+`finalize.py` reads the original ZIP members with CSV parsers, normalizes text consistently with the source cleaning and validates all 166 chosen texts/dates/ratings. All passed. The full cleaned input SHA-256 matches the repository's source manifest: `fea8cf11f7e90986332f3d6edbde966a9c5518c36ca615bf34802b68acfe19f2`.
+
+No allegations were independently verified. No policy validity, incident causality, platform ranking, current Indonesian prevalence, verified churn, unique-person count or financial effect was estimated. Star ratings are not outcome labels: five-star complaints and one-star reinstall-to-fix accounts were retained. Seller narratives and first-purchase failures were identified rather than silently counted as lost repeat buyers. Review-source app and actual target can differ (T012 is a Blibli-source review complaining about Tokopedia).
+
+## Files and reproduction
+
+- `evidence_ledger.csv`: 166 full-text readings, interpretations, labels and original row provenance.
+- `full_reading_ledger.jsonl`: machine-readable complete ledger.
+- `scan_summary.json`, `reading_summary.json`, `followup_method.json`, `validation.json`: coverage, screens, selections and checks.
+- `scan_reviews.py`, `targeted_followup.py`, `code_reviews.py`, `finalize.py`: reproducible retrieval, sampling, saved readings and raw validation.
+
+Run the four scripts from this directory in that order in the cloned repository (Python standard library only). The original corpus is not duplicated in the compact analysis package. New analysis files are local; no changes have been pushed upstream.
+
+## Source and attribution
+
+Repository: https://github.com/Fafauzif/Nexora-Research/tree/73bf0c4468fd979bd9d514e6f6acba582bd440ce
+
+Methodology: `datasets/app_reviews/METHODOLOGY.md`; source registry: `datasets/app_reviews/source_manifest.json`; original data archives: `datasets/app_reviews/raw/`.
+
+- BwandoWando, Shopee App Reviews from Google Store: https://www.kaggle.com/datasets/bwandowando/shopee-app-reviews-from-google-store — dataset-declared CC BY-NC-SA 4.0.
+- BwandoWando, Lazada App Reviews from Google Store: https://www.kaggle.com/datasets/bwandowando/lazada-app-reviews-from-google-store — dataset-declared CC BY-NC-SA 4.0.
+- Rezky Yayang Yakhamid, Reviews of Indonesian Startup Apps on Playstore: https://www.kaggle.com/datasets/rezkyyayang/reviews-of-indonesian-app-startups-on-playstore — dataset-declared CC0.
+
+Normalized Shopee/Lazada review excerpts and their annotated derivatives retain the source dataset's declared noncommercial/share-alike terms. The mixed-source package does not override source licenses. Refer to the repository attribution document for original collection provenance; declared licenses do not independently establish ownership of all review text.
+
+
+<a id="v4-appendix-design"></a>
+## Appendix B — Complete buyer-survey research design and references
+
+# Student marketplace-choice survey: research design
+
+## Scope
+
+Exploratory survey of a convenience sample, targeting approximately 50–100 students aged 18+ studying in Indonesia and reporting at least one physical-product marketplace purchase in the preceding six months. Target completion time: 6–8 minutes. The sample does not represent all Indonesian students, marketplace buyers or Nexora users. Nexora is fictional; participants answer about actual marketplace experience and hypothetical offers.
+
+The design begins with actual recent decisions and experience, followed by hypothetical randomized scenarios. A later interview phase can explain contrasting choices and unexpected patterns. The planned survey-to-interview sequence is an explanatory sequential mixed-methods approach; evidence is integrated by using survey results to select interview topics and participants (Creswell et al., 2011).
+
+## Assignment
+
+Three binary assignments generate eight questionnaire combinations. Every respondent answers all three experiments, seeing one condition per experiment. A keyed pseudorandom function of a browser-generated random identifier selects the three bits. Under honest one-time participation, each combination has equal assignment probability and each factor is approximately 50/50. Realized allocation and completion counts need not be equal. Signed assignment codes bind a response to its assigned form; browser identifiers are not proof of unique people.
+
+The same browser normally retains its identifier through local storage. No fingerprinting, location or IP collection is implemented. Clearing storage or using a different device allows another identity; no-login convenience sampling remains vulnerable to duplicate or fabricated participants. Raffle entries are additionally deduplicated by normalized phone number, which does not solve all research-data duplication.
+
+## Experimental factors
+
+| Factor | Condition A | Condition B | Main outcome |
+|---|---|---|---|
+| Benefit design | Rp10,000 current discount on Rp100,000 total | Rp10,000 future cashback after completing the order, valid 30 days, no minimum, not withdrawable | Buy now on this marketplace vs other stated choices |
+| Recovery time | Approved refund available in 1 day | Approved refund available in 3 working days | Buy again on the same marketplace vs other stated choices |
+| PoD arrival time | Creator tote arrives in 3 days | Creator tote arrives in 7 days | Choose creator-designed PoD tote vs standard tote or neither |
+
+Prices, timelines, equivalent quality and protections are **team assumptions for hypothetical scenarios**, approved as questionnaire settings. They are not observed market prices, operational promises or verified cost estimates.
+
+### Benefit design
+
+The experiment compares complete incentive arrangements. Current payment, timing, future-purchase requirement, expiry and cashability differ as stated. The result does not isolate one psychological mechanism or compare equal platform costs. A future-use reward may also encourage a stated future order despite being less attractive for the current purchase; the single current-choice outcome cannot measure actual longer-term retention.
+
+### Recovery time
+
+The prior incident, stated support response and refund destination remain constant. Only the stated timing changes. Budget constraints are measured before the vignette. A difference in stated next choice does not prove whether liquidity, fairness or trust mediates the response. The scenarios do not establish operational feasibility or the economics of faster refunds.
+
+### Print-on-demand offer
+
+Both conditions show the identical paired totebag illustration and product descriptions. The ready-stock standard tote costs Rp60,000, arrives in 2 days; the creator tote costs Rp75,000 and is printed after ordering. Only the creator tote's arrival time changes. Both prices include delivery and other stated charges.
+
+The randomized comparison estimates how the longer arrival promise changes stated selection of this particular creator offer. The overall creator-choice share is descriptive acceptance of a specific design/price offer, not a causal estimate of the value of originality or print-on-demand production. The designs differ, and visual taste can strongly affect selection. The study does not test sellers' inventory constraints, production-partner quality, seller adoption, advertising profitability, NexExpress capacity or platform contribution.
+
+All product pictures are hypothetical illustrations. The same embedded JPEG is used in all eight forms. Equal size/material/quality are scenario stipulations, not facts inferred from the images. No actual sale or independent maker affiliation is claimed.
+
+## Analysis plan
+
+For each factor, pool across the other assignments and compare its two conditions. Main outcomes are the binary selections specified above; retain and display all answer categories. The main contrasts are conditional on this sample and the other factors' randomized distribution. There are about 25–50 respondents per factor condition if 50–100 eligible complete responses are obtained and allocation is roughly balanced, not 25–50 respondents per questionnaire combination.
+
+Present counts, estimated differences and suitable uncertainty intervals. If formal hypothesis testing is performed, define the three primary contrasts before viewing results and account for the family of comparisons, such as with a Holm adjustment. The included summary function provides counts and shares only; it does not calculate p-values or intervals. Small samples may leave wide uncertainty; an inconclusive estimate does not falsify a mechanism. No adequately powered interaction, subgroup or population-prevalence claims are planned. Multiple outcomes from the same respondent are not independent samples.
+
+The experiment order is fixed: benefit, recovery, PoD. Randomizing the conditions avoids consistently pairing a particular benefit with a particular recovery or PoD condition, but does not eliminate general fatigue or priming between blocks. Estimated effects concern this survey context. They are effects on hypothetical responses, not observed transactions, field A/B-test effects, actual retention lift or financial returns (EGAP, n.d.-a; Hughes & Jones, 2019).
+
+The first valid eligible complete submission per assigned study code is retained for main analysis. Consent/eligibility failures, invalid or mismatched assignment codes, missing required experimental answers and submissions after closure are excluded from the main assigned-sample analysis. Other inconsistencies are flagged for review. Source responses are retained. Duplicate contacts in the raffle are handled separately from research-data eligibility. Exclusions and arm-specific completion should be reported; dropout after assignment can bias complete-case comparisons.
+
+Convenience recruitment, self-selection, a prize incentive, recall errors, social desirability, known-purpose response behavior and word/order effects limit interpretation. Closed choice lists can cue explanations. No causal mediation or importance ranking is established by self-reported reasons. Future interviews should deliberately include continuing buyers after problems, switching without a reported problem, creator-offer rejecters and respondents with unexpected choice patterns.
+
+## References
+
+Creswell, J. W., Klassen, A. C., Plano Clark, V. L., & Smith, K. C. (2011). *Best practices for mixed methods research in the health sciences*. National Institutes of Health. https://obssr.od.nih.gov/sites/obssr/files/Best_Practices_for_Mixed_Methods_Research.pdf
+
+Evidence in Governance and Politics. (n.d.-a). *10 things you need to know about randomization*. https://methods.egap.org/guides/data-collection/randomization_en.html
+
+Evidence in Governance and Politics. (n.d.-b). *10 things you need to know about multiple comparisons*. https://methods.egap.org/guides/analysis-procedures/multiple-comparisons_en.html
+
+Hughes, A., & Jones, B. (2019, January 29). *‘Good jobs’ vs. ‘jobs’: Survey experiments can measure the effects of question wording—and more*. Pew Research Center. https://www.pewresearch.org/short-reads/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/
+
+Google. (n.d.-a). *Class Form*. Google for Developers. https://developers.google.com/apps-script/reference/forms/form
+
+Google. (n.d.-b). *Web apps*. Google for Developers. https://developers.google.com/apps-script/guides/web
+
+
+<a id="v4-appendix-questionnaire"></a>
+## Appendix C — Exact full questionnaire and vignette wording
+
+# Kuesioner pilihan belanja mahasiswa
+
+Perkiraan durasi: 6–8 menit. Bahasa: Indonesia. Target: mahasiswa usia 18 tahun ke atas di Indonesia yang pernah membeli barang melalui marketplace dalam enam bulan terakhir.
+
+## Kode survei
+
+Terisi otomatis saat membuka formulir dari halaman awal.
+
+## E-wallet untuk undian (opsional)
+
+- GoPay
+- DANA
+- OVO
+- ShopeePay
+- LinkAja
+- Lainnya
+
+Opsional.
+
+## Nomor e-wallet (opsional)
+
+Opsional.
+
+## Apakah kamu memenuhi syarat dan bersedia ikut?
+
+Saya berusia minimal 18 tahun, sedang menjadi mahasiswa di Indonesia, dan pernah membeli barang melalui marketplace dalam 6 bulan terakhir. Saya memahami bahwa partisipasi sukarela dan respons digunakan untuk penelitian. Detail e-wallet, jika diisi, dipakai untuk keperluan undian.
+
+Tidak memenuhi syarat / tidak bersedia → kirim tanpa pertanyaan lanjutan.
+
+## Dalam 30 hari terakhir, berapa kali kamu membeli barang melalui marketplace?
+
+- Tidak ada
+- 1 kali
+- 2–3 kali
+- 4–6 kali
+- 7 kali atau lebih
+- Tidak ingat
+
+## Dalam 3 bulan terakhir, seberapa sering kamu menunda membeli barang karena anggaran belum cukup?
+
+- Tidak pernah
+- Jarang
+- Kadang-kadang
+- Sering
+- Sangat sering
+- Tidak ingat / tidak ingin menjawab
+
+## Dalam 3 bulan terakhir, marketplace mana yang paling sering kamu pakai untuk membeli barang?
+
+- Shopee
+- Tokopedia
+- TikTok Shop / ShopTokopedia
+- Lazada
+- Blibli
+- Bukalapak
+- Marketplace lain
+- Tidak punya marketplace yang biasa dipakai
+
+## Pikirkan kebutuhan barang paling baru dalam 30 hari terakhir. Barang apa yang kamu cari?
+
+- Pakaian, sepatu, atau aksesori
+- Skincare, kosmetik, atau perawatan diri
+- Elektronik atau aksesori elektronik
+- Makanan atau minuman kemasan
+- Buku, alat tulis, atau perlengkapan kuliah
+- Keperluan rumah atau kos
+- Barang lain
+- Tidak ada kebutuhan barang / tidak ingat
+
+## Apa yang akhirnya kamu lakukan untuk kebutuhan tersebut?
+
+- Membeli melalui marketplace yang biasa saya pakai
+- Membeli melalui marketplace lain
+- Membeli melalui marketplace; saya tidak punya yang biasa dipakai
+- Membeli langsung lewat media sosial / chat penjual
+- Membeli di toko fisik
+- Menunda / tidak jadi membeli
+- Masih mencari / belum memutuskan
+- Tidak ada kebutuhan barang / tidak ingat
+
+## Sebelum keputusan itu, pilihan mana yang benar-benar kamu cek?
+
+- Shopee
+- Tokopedia
+- TikTok Shop / ShopTokopedia
+- Lazada
+- Blibli
+- Marketplace lain
+- Media sosial / chat penjual
+- Toko fisik
+- Tidak sempat membandingkan
+- Tidak ada kebutuhan barang / tidak ingat
+
+## Apa satu hal yang paling menentukan keputusanmu waktu itu?
+
+- Total harga setelah ongkir, biaya, dan diskon
+- Produk atau variasi yang tersedia
+- Penjual / keaslian / kualitas yang lebih dipercaya
+- Kecepatan atau kepastian pengiriman
+- Kemudahan mencari barang dan menyelesaikan pembayaran
+- Pengalaman sebelumnya / penanganan masalah
+- Rekomendasi, konten, atau kreator yang mengenalkan produknya
+- Anggaran belum cukup / belum benar-benar membutuhkan
+- Alasan lain
+- Tidak ada kebutuhan barang / tidak ingat
+
+## Dalam 3 bulan terakhir, apakah ada pembelian marketplace yang bermasalah?
+
+- Ada
+- Tidak ada / tidak ingat
+
+Ada → pertanyaan jenis masalah dan langkah berikutnya. Tidak ada / tidak ingat → langsung ke produk dan penemuan baru.
+
+## Untuk kejadian paling baru itu, masalah utamanya apa?
+
+- Barang terlambat / tidak sampai
+- Barang salah, rusak, atau tidak sesuai
+- Pesanan dibatalkan
+- Pembayaran, saldo, atau pengembalian dana
+- Masalah lain
+
+## Setelah kejadian itu, apa yang sudah kamu lakukan?
+
+- Sudah membeli lagi di marketplace yang sama
+- Membeli di marketplace lain / langsung ke penjual / offline
+- Mencoba membeli lagi tetapi terkendala pembayaran, saldo, akun, atau checkout
+- Ingin membeli lagi tetapi belum ada kebutuhan / anggaran
+- Belum ingin membeli lagi karena kejadian itu
+- Masalah masih berlangsung / tidak ingat
+
+## Dalam 6 bulan terakhir, pernah membeli barang dengan desain dari kreator / ilustrator independen atau desain pesanan sendiri?
+
+- Pernah
+- Belum pernah
+- Tidak yakin
+
+## Dalam 3 bulan terakhir, pernah membeli barang yang pertama kali kamu temukan lewat konten, live, atau rekomendasi kreator?
+
+- Pernah, lalu membelinya lewat marketplace
+- Pernah, lalu membelinya langsung lewat penjual / kanal lain
+- Menemukan barang lewat konten, tetapi belum membelinya
+- Tidak pernah / tidak ingat
+
+## Dalam situasi ini, apa yang paling mungkin kamu lakukan?
+
+- Membeli sekarang di marketplace ini
+- Mencari penawaran di tempat lain terlebih dahulu
+- Menunda pembelian
+- Tidak membeli barang tersebut
+
+### Skenario A
+
+Bayangkan kamu sudah memilih barang yang memang sedang dibutuhkan. Harga barang, ongkir, dan biaya lain sebelum promo berjumlah Rp100.000. Penjual dipercaya dan barang diperkirakan tiba dalam 3 hari.
+
+Kamu mendapat potongan Rp10.000 langsung pada pesanan ini. Jadi, jumlah yang dibayar sekarang Rp90.000. Tidak ada minimum belanja atau syarat tambahan.
+
+Anggap informasi lain sama. Ini situasi hipotetis untuk survei.
+
+### Skenario B
+
+Bayangkan kamu sudah memilih barang yang memang sedang dibutuhkan. Harga barang, ongkir, dan biaya lain sebelum promo berjumlah Rp100.000. Penjual dipercaya dan barang diperkirakan tiba dalam 3 hari.
+
+Kamu membayar Rp100.000 sekarang dan mendapat cashback Rp10.000 setelah pesanan selesai. Cashback bisa dipakai untuk pembelian berikutnya selama 30 hari, tanpa minimum belanja atau syarat tambahan. Cashback tidak bisa dicairkan.
+
+Anggap informasi lain sama. Ini situasi hipotetis untuk survei.
+
+## Saat ada kebutuhan barang berikutnya, pilihan mana yang paling mungkin kamu ambil?
+
+- Membeli lagi di marketplace yang sama
+- Membeli lewat tempat lain
+- Menunggu / belum membeli
+- Belum bisa menentukan
+
+### Skenario A
+
+Bayangkan kamu pernah membeli barang di suatu marketplace. Pesanan terakhir dibatalkan karena stok penjual habis. Pengembalian dana sudah disetujui, dukungan pelanggan memberikan jawaban yang jelas, dan dana kembali ke metode pembayaran semula.
+
+Dana tersedia kembali dalam 1 hari.
+
+Saat muncul kebutuhan barang berikutnya, barang yang sama tersedia di marketplace ini dan marketplace lain dengan total harga serta perkiraan pengiriman yang sama. Ini situasi hipotetis untuk survei.
+
+### Skenario B
+
+Bayangkan kamu pernah membeli barang di suatu marketplace. Pesanan terakhir dibatalkan karena stok penjual habis. Pengembalian dana sudah disetujui, dukungan pelanggan memberikan jawaban yang jelas, dan dana kembali ke metode pembayaran semula.
+
+Dana tersedia kembali dalam 3 hari kerja.
+
+Saat muncul kebutuhan barang berikutnya, barang yang sama tersedia di marketplace ini dan marketplace lain dengan total harga serta perkiraan pengiriman yang sama. Ini situasi hipotetis untuk survei.
+
+## Kalau sedang mencari totebag, mana yang kamu pilih?
+
+- Totebag kiri: ready stock, Rp60.000, tiba 2 hari lagi
+- Totebag kanan: desain kreator, Rp75.000, dicetak setelah dipesan
+- Tidak memilih keduanya / mencari pilihan lain
+
+### Skenario A
+
+Bayangkan kamu sedang mencari totebag dan melihat dua pilihan ini. Keduanya berbahan kanvas, berukuran 35 × 40 cm, kualitas cetak setara, dan memiliki ketentuan pengembalian yang sama bila cacat. Harga berikut sudah termasuk ongkir dan biaya lain.
+
+KIRI — Desain standar, ready stock. Total Rp60.000. Diperkirakan tiba 2 hari lagi.
+
+KANAN — Desain ilustrator independen, dicetak setelah ada pesanan. Total Rp75.000. Diperkirakan tiba 3 hari lagi.
+
+Ilustrasi dan penawaran ini hanya untuk skenario penelitian, bukan produk yang sedang dijual.
+
+### Skenario B
+
+Bayangkan kamu sedang mencari totebag dan melihat dua pilihan ini. Keduanya berbahan kanvas, berukuran 35 × 40 cm, kualitas cetak setara, dan memiliki ketentuan pengembalian yang sama bila cacat. Harga berikut sudah termasuk ongkir dan biaya lain.
+
+KIRI — Desain standar, ready stock. Total Rp60.000. Diperkirakan tiba 2 hari lagi.
+
+KANAN — Desain ilustrator independen, dicetak setelah ada pesanan. Total Rp75.000. Diperkirakan tiba 7 hari lagi.
+
+Ilustrasi dan penawaran ini hanya untuk skenario penelitian, bukan produk yang sedang dijual.
+
+## Ada hal lain yang membuatmu kembali belanja, memilih tempat lain, atau tidak jadi membeli? (opsional)
+
+Opsional.
+
+## Kalau ada obrolan lanjutan tentang pengalaman belanja, apakah kamu bersedia? (opsional)
+
+- Bersedia
+- Belum bersedia
+
+Opsional.
+
+## Kontak untuk obrolan lanjutan (opsional)
+
+Opsional.
+
+
+
+<a id="v4-appendix-tests"></a>
+## Appendix D — Verification inventory and scope
+
+### Apps Script service-double tests
+
+Recorded passed count: **30**.
+
+- Visible admin functions exist and are owner-gated
+- Anonymous and other-account callers cannot run any admin command
+- Closed before setup; rejects bad client IDs
+- Resumable setup builds eight forms, correct required routing, embedded images
+- Repeated setup does not create another project or forms
+- No email, login limit or public response summary; opens all forms
+- Stable signed assignment and valid prefilled link
+- Independent assignment distribution over 8,000 deterministic browser IDs
+- Each vignette changes only the assigned attribute
+- Submission ingestion and retry are idempotent; contact separated; formula injection escaped
+- Earliest valid response wins even if triggers arrive out of order
+- Wrong form, invalid token and skipped consent cannot enter analysis or raffle
+- Conditional problem items required, no contradictory option silently excluded
+- Reconciliation recovers a missed submit event
+- Raffle duplicates normalized phone across wallets; four unique winners; repeat draw stable
+- Raffle normalization and injection helpers
+- Landing output is real HTML and public settings contain no data IDs
+- Summary has unique columns and excludes duplicate study codes
+- Dates can be refreshed without deleting collected data
+- Partially built form is resumed without orphan duplicate form
+- Raffle state stores bounded metadata rather than a large list of response IDs
+- Known live failure cannot recur: custom closed message is never called
+- Owner verifier checks eight real-form-shaped settings and routing records
+- Rebuilding a complete form removes forward references safely
+- Required errors are labelled and optional presentation failure does not abort
+- One setup command completes and opens all eight forms without manual continuation
+- Explicit setup clears exhausted pending attempts and preserves completed forms
+- Rerunning setup does not reopen an intentionally closed study
+- Time budget defers pending work and the same setup command completes it
+- Concurrent setup execution does not start another build
+
+Scope recorded with the tests: Local Apps Script service doubles; real Google authorization, publication, quotas, emails and device behavior not executed.
+
+### Landing-page DOM/source tests
+
+Recorded passed count: **8**.
+
+- Preview does not send responses or fabricate a live form URL
+- Normal assignment exposes valid Google Forms continuation and hides initial button
+- Server failure is recoverable and does not reveal internal details
+- Double clicks do not create parallel requests while pending
+- Unexpected links are rejected
+- Disabled local storage still allows participation
+- HTML has responsive layout, semantic button, focus styles, live status and no external assets
+- Text and button color contrasts meet 4.5:1
+
+Scope recorded with the tests: Node DOM doubles, markup/CSS inspection and contrast calculations. A real browser render and actual Google-hosted iframe were unavailable; mobile preview must be checked after deployment.
+
+### Preservation checksums
+
+SHA-256 identifies the exact bytes supplied or delivered in this workspace. These are integrity metadata, not external research citations.
+
+- Preserved Version 3 master context pack: `29bb8509bc4b8ff1157aa8964c133efccb7239c474ccaa9c60f024a5361eaf5f` (668,135 bytes).
+- Delivered survey v1.3.0 single file: `6bafa511b7f2171de65ecaee76d35738d48ee044dfbe9a9394aaebb1b3c62352` (523,475 bytes).
+- Fresh buyer-repeat corpus-analysis report: `351bd3839e4a42395c103aa565d2f4e31bb8f9bcba4ce86c39d18b08c1e90159` (20,192 bytes).
+
+<a id="v3-preserved"></a>
+## Complete unchanged Version 3 context pack and earlier archives
+
+Everything after the following marker is the exact original supplied Version 3 file, including all prior material and its own archives. Older current-state statements describe their historical stage; Version 4 above governs the present handoff.
+
+<!-- BEGIN BYTE-FOR-BYTE VERSION 3 ARCHIVE -->
+# IBSC 2026 / NEXORA — MASTER AI CONTEXT PACK
+
+**Version 3 — updated 26 October 2026, after completion of the Apify dataset and deep-analysis workbooks.**
+
+This is the same master context pack, updated in place. The complete previous Version 2 is preserved byte-for-byte in the final archive. Read the Version 3 current state and addendum first: older statements that analysis had not been requested or performed describe an earlier stage and are no longer the current project status.
+
+The update records the new conversation, user decisions and preferences, collection inputs and actual outputs, cleaning and review methods, final findings and qualifications, external research, proposed actions, quality checks and deliverable links. It is a continuity artifact, not a submitted competition answer or an approved final strategy. Conversation history below is a faithful topical synopsis of the supplied chat and completed work, not an invented verbatim transcript of unavailable assistant turns.
+
+## Version 3 navigation
+
+1. [Current state and handoff](#v3-current)
+2. [Conversation, decisions and preferences](#v3-conversation)
+3. [Collection history, actors and accepted JSON inputs](#v3-collection)
+4. [Data inventory, cleaning and analytical boundaries](#v3-data)
+5. [Twenty final findings and evidence limits](#v3-findings)
+6. [Case economics and interpretation safeguards](#v3-economics)
+7. [Proposed actions and connected argument](#v3-actions)
+8. [Complete selected evidence and external research ledger](#v3-evidence)
+9. [Methods, robustness and quality checks](#v3-qa)
+10. [Additional supplied PDF and prior-analysis source archives](#v3-pdfs)
+11. [Complete unchanged Version 2 archive](#v2-archive)
+
+<a id="v3-current"></a>
+## 1. Current state and handoff
+
+**Business objective:** sustainable profitable transaction growth, with productive seller participation and buyer repeat purchase occasions. More registrations, more app installs, more active accounts or more transactions in isolation do not establish success. Acquisition can remain relevant where it supplies profitable incremental transactions; retention and deeper use became the working focus rather than an acquisition-only framing.
+
+**Official case question remains authoritative:** How can Nexora achieve sustainable profitable growth while strengthening its competitive position and mitigating seller and buyer attrition in Indonesia's increasingly competitive e-commerce market?
+
+**Working analytical problem statement, proposed rather than user-approved competition wording:** Nexora must grow the contribution from valuable completed transactions while reducing the loss or redirection of productive seller supply and buyer purchase occasions.
+
+The casebook remains the entire supplied Nexora internal evidence base and takes precedence over the guidebook by explicit prior user decision. Nexora is fictional; no comparator platform is identified as Nexora. External posts show attributed comparator experiences and possible mechanisms, not Nexora customer behavior or causal effects.
+
+Two requested XLSX deliverables have been completed and delivered. The new Apify corpus has been normalized and analyzed, including qualitative evidence review, original case arithmetic and explicitly labelled external research. The earlier multi-million-record collection remains a separate historical source layer; its raw files were not pooled into these workbooks. No Nexora interviews or surveys have been performed, no intervention uplift has been established and no final strategic solution or budget has been approved.
+
+### 1.1 Final deliverables
+
+- [Combined_Cleaned_Data.xlsx](https://chatgpt.com/library?file_id=libfile_9ecebe1506bc8191b8580b6b5d57418d&account_id=personal) — 10 sheets; 8,713 unique content records, all 9,114 original source occurrences, all original nested attributes, source lineage, coding rules, review ledger and QA.
+- [Insights_and_Implications.xlsx](https://chatgpt.com/library?file_id=libfile_7eab3993eebc81918547236c9b891ff9&account_id=personal) — 16 sheets; 20 findings/hypotheses, 82 selected supporting/counterevidence excerpts, 32 case calculations, 10 external research entries, seven proposed actions, a 10-headline argument and a three-branch issue tree.
+
+Read **Executive Insights → Insight Library → Evidence** first. Use **Case Economics** for arithmetic and **Method and Review / Robustness** for interpretation limits. Use the first workbook for row-level provenance and original data.
+
+These XLSX files are the authoritative full data artifacts. This MD preserves the final selected analytical content and source context; it does not paste thousands of raw records or reproduce Excel chart graphics. Formula results copied below are fixed snapshots from the delivered workbooks; the editable formulas remain in the XLSX.
+
+### 1.2 What the evidence supports, and what remains open
+
+- The official case supports a monetization-led revenue increase, weaker repeat-buyer and small-seller indicators, ongoing share erosion, and a material operating-cost decision. Accounting decomposition does not identify causal effects of fee changes.
+- Comparator accounts support specific tradeoffs involving demand access, final basket cost, trusted completion, seller settlement, migration friction and recovery. Some mechanisms have several supporting accounts; others are explicitly exploratory single episodes.
+- The evidence does not estimate Nexora switching costs, price elasticity, wallet share, causal churn drivers, incremental advertising lift, seller profitability or the ROI of proposed interventions.
+- The three useful decision stages are: productive supply remains available; a buyer chooses and pays for a purchase occasion; the order completes or recovers while earning contribution. This is a transaction-stage issue tree, not a claim that buyer and seller experiences are causally independent.
+- Immediate next work, if requested: select a focused strategic thesis from the proposed tests, conduct behavioral interviews/surveys, construct clearly labelled operating sensitivities, and draft the required competition deliverable. Do not require unavailable internal data before making a transparent, bounded case recommendation.
+
+**Handoff instruction:** Continue from the completed workbooks and the final narrowed claims below. Do not restart collection, ask the already answered scope questions again, describe the analysis as not performed, or promote any exploratory lead into a proven Nexora fact. Keep the official case question, accounting limits and distinction between observation and proposal visible.
+
+<a id="v3-conversation"></a>
+## 2. New conversation: reasoning, decisions and working preferences
+
+### 2.1 Business reasoning developed in the supplied chat
+
+The user initially questioned whether the case was about acquiring more buyers and sellers, and how to obtain evidence without private Nexora data. They proposed secondary research followed by original analysis, with interviews/surveys later. They wanted current reports and papers that build business intuition, especially consulting and industry material explaining buyer/seller mechanisms and social commerce, rather than market-size or generic trend summaries. They requested five important free, easily accessible readings and challenged dated sources.
+
+Two user-supplied examples of the desired explanatory style were McKinsey's articles on Indonesian resellers and the six must-haves for D2C growth:
+
+- https://www.mckinsey.com/industries/retail/our-insights/resellers-the-unseen-engine-of-indonesian-e-commerce
+- https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-six-must-haves-to-achieve-breakthrough-growth-in-e-commerce-d2c
+
+These links record the user's reference preference. Their contents are not newly verified findings in this update, and this pack does not invent the missing earlier five-report answer.
+
+The user returned repeatedly to one big case problem and asked whether operations belonged in it. They explored high take rate, why merchants/buyers might stay after the subsidy era, switching costs, multihoming and value share. The working focus moved toward winning more purchase occasions and productive transactions from people who can use several platforms. App ownership or continued activity cannot establish exclusivity, satisfaction or retained wallet share. The subsidy-created habit/relationship explanation remains a hypothesis, not established causality.
+
+Definitions to retain:
+
+- **Take rate:** platform revenue divided by GMV for the same defined scope and period. Nexora's reported 8% → 10% is a blended case measure; 45/560 = 8.0357% before rounding. It is not automatically a single merchant's commission, total deductions or contribution margin.
+- **GMV value share:** Nexora GMV divided by comparable total-market GMV in the defined geography/period. Multihoming is compatible with a high share. It measures where aggregate transaction value is captured, not share of installed apps, unique shoppers or individual wallet share. Rounded market and company figures can produce small reconciliation differences.
+- **Operations:** logistics cost, capacity, delivery reliability, returns, disputes, loss allocation and recovery can affect both contribution and future choice. Do not reduce operations to average shipping cost alone.
+
+The user supplied a prior winning transaction-growth case as inspiration. Its transferable question is how to deepen useful transaction routines after reaching scale; the bank-app mechanics and its financial assumptions do not transfer automatically to an e-commerce marketplace. Source text of that supplied deck is preserved below without treating it as Nexora evidence.
+
+### 2.2 Research and simulation intent
+
+The user suggested synthetic/simulated logistics distributions because internal route/cost data are unavailable, alongside original analysis of secondary buyer/seller evidence and later primary research. The delivered work contains transparent case sensitivities, not an empirically calibrated Nexora route simulation. No invented route distribution, shipping tariff or failure rate has been represented as observed data. A later simulation should vary explicit assumptions and show break-even regions and sensitivity, rather than claim an optimized operating plan from synthetic observations.
+
+Social listening on X was proposed as one buyer source; seller evidence was also deliberately collected. Neither platform language nor a first-person phrase verifies residence, merchant identity, actual purchase or independent incidents. Primary research should ask about recent completed or abandoned decisions and actual tradeoffs rather than simply whether a respondent likes a proposed feature.
+
+### 2.3 Explicit instructions and preferences accepted during this phase
+
+- Deliver **two XLSX files**: one cleaned combined dataset of every new supplied scrape, and one deep analysis with unique insights, the “So what?” and insight-led headlines.
+- The user approved the recommended scope: Nexora profitable transaction growth/retention; **2025 as the historical core, with 2026 kept separate**; external information allowed if clearly labelled. Analysis is in English while exact Indonesian evidence remains in its original language.
+- The user explicitly said to proceed with very deep analysis and to read the mentoring PDF to understand what a unique insight looks like. This authorized analysis supersedes the old master’s earlier collection-only state.
+- Collection inputs should be **a few large JSONs, pasted directly in chat**. The user objected strongly to 18 manual runs and asked us to handle separation later. Do not impose many small manual tasks when batching is possible.
+- The user reported that the first X actor failed and that “xquip” had worked. The verified replacement used here is **xquik/x-tweet-scraper**; do not silently substitute the failed actor.
+- The user's stated remaining credit at the larger-run stage was **US$4**. Plans were credit-sensitive; quoted estimates were not an actual-charge audit.
+- The current request is to update this initial master MD with everything new, including this chat. It does not authorize a new scrape, an approved strategy, primary interviews, messages to others or competition submission.
+
+The PDF's practical insight standard was applied: frame the business problem precisely; separate symptom, mechanism and solution; use a plausible opposite or flip test; specify the client/segment friction; explain a changed business decision; prefer historical behavior; and tie the proposed action to the observed problem. Framework labels, generic customer-experience advice and rephrased trends are insufficient.
+
+<a id="v3-collection"></a>
+## 3. Collection history and accepted inputs
+
+### 3.1 Actors, access and corrections
+
+Actor input fields and contemporaneous pricing were checked against public Apify actor metadata/input schemas during the original collection work on 26 October 2026. These are historical checks, not a guarantee of future pricing or continued free-plan access. Free-plan credit is shared across actors; it is not unlimited output or a separate allowance for each actor.
+
+Recommended/used actors included `streamers/youtube-scraper`, `streamers/youtube-comments-scraper`, `clockworks/tiktok-scraper` and `clockworks/tiktok-comments-scraper`. The first X suggestion, `apidojo/tweet-scraper`, had a restricted free demonstration. The supplied log showed a maximum-10-items free-plan notice and zero results for the complex dated query in both Latest and Top. The cap warning and zero query results are different observations; the log does not establish that a cap caused zero results. The actor automatically switched sort behavior when both since/until appeared.
+
+The user-run replacement was `xquik/x-tweet-scraper` (https://apify.com/xquik/x-tweet-scraper). Verified fields included `mode`, `searchTerms`, `queryType`, `lang`, `maxItems`, `includeSearchTerms` and `outputVariant`. `maxItems` is a global run cap, not per query. Date operators were placed in each term, with `since` inclusive and `until` exclusive. Query labels preserve retrieval context; they do not independently validate role or period. X pricing at the time was $0.00015 per returned row plus separately billed platform usage.
+
+Other candidate actors were excluded or not relied upon because their free limits, mock-data behavior or reliability were unsuitable. In particular, an inexpensive X candidate's documentation described mock data and another Shopee review actor had a restrictive lifetime free allowance. Do not label all Apify actors as freely usable at research scale.
+
+### 3.2 Run progression and actual output
+
+1. Pilot discovery supplied 80 buyer YouTube videos, 80 seller YouTube videos and 80 buyer TikTok videos.
+2. Follow-up supplied two 1,000-row X runs, 800 YouTube comments, two TikTok comment runs (242 and 52 rows), and 200 seller TikTok discovery records.
+3. A proposed 18-input plan was superseded after the user requested a few large inputs. The accepted next batch was three runs: X buyers up to 4,000; X sellers up to 4,000; TikTok comments up to 1,500.
+4. Actual final exports were **4,000 X buyer-query records, 716 X seller-query records and 864 TikTok comments**. These are retrieval labels, not confirmed buyer/seller populations. The 716-row result is not evidence that only 716 relevant sellers exist, nor proof of exhaustive search.
+
+The assistant prepared JSONs and analyzed the supplied exports; the user executed the Apify runs. Actual spending was not reconciled to billing. At full caps, the final three-run base estimate was $1.20 for 8,000 X rows plus $1.875 for 1,500 TikTok comments = $3.075, leaving about $0.925 of the stated $4 for platform usage/retries. That estimate is not a guaranteed charge or proof of remaining credit.
+
+The X inputs combined four platforms and two 2025 half-year windows per role, with first-person/possessive cues, marketplace nicknames and exclusions for native retweets, selected official accounts and a known promotional account. The TikTok input combined 12 URLs, 125 comments per video and no replies. A global cap does not produce equal platform/period coverage. Post-processing can split what was collected; it cannot recover missed strata. Comment dates must be read from comment timestamps, not inferred from parent video dates.
+
+| Historical artifact | Status |
+| --- | --- |
+| [nexora_apify_kit.zip](https://chatgpt.com/library?file_id=libfile_7f2bc083c040819180cc67d9c596e78c&account_id=personal) | Initial kit; historical inputs |
+| [nexora_apify_followup.zip](https://chatgpt.com/library?file_id=libfile_5e72b50351c08191bf0bf750f8b5e0f3&account_id=personal) | Follow-up kit |
+| [nexora_round3_4_dollar_plan.zip](https://chatgpt.com/library?file_id=libfile_fcec25ba90d88191ab90d676ca57741a&account_id=personal) | Superseded 18-run plan; not current preferred workflow |
+| [nexora_three_runs.zip](https://chatgpt.com/library?file_id=libfile_e8f0eb7e78fc8191bde5e70d3f7b31f3&account_id=personal) | Accepted three-run kit |
+
+### 3.3 Accepted three JSONs, preserved exactly
+
+These are historical prepared inputs already run by the user, not instructions to launch another run. Future use requires checking the current schema, access and charges.
+
+#### 01_x_buyers_4000.json
+
+```json
+{
+  "mode": "search",
+  "searchTerms": [
+    "(Lazada OR Lazadut) (aku OR saya OR gue OR gw) (beli OR belanja OR checkout OR \"check out\" OR pindah OR kapok OR langganan OR pilih) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-01-01 until:2025-07-01",
+    "(Lazada OR Lazadut) (aku OR saya OR gue OR gw) (beli OR belanja OR checkout OR \"check out\" OR pindah OR kapok OR langganan OR pilih) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-07-01 until:2026-01-01",
+    "(Shopee OR \"toko oren\" OR \"toko orange\") (aku OR saya OR gue OR gw) (beli OR belanja OR checkout OR \"check out\" OR pindah OR kapok OR langganan OR pilih) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-01-01 until:2025-07-01",
+    "(Shopee OR \"toko oren\" OR \"toko orange\") (aku OR saya OR gue OR gw) (beli OR belanja OR checkout OR \"check out\" OR pindah OR kapok OR langganan OR pilih) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-07-01 until:2026-01-01",
+    "(tiktokshop OR \"tiktok shop\" OR \"shop tokopedia\" OR \"toko hitam\") (aku OR saya OR gue OR gw) (beli OR belanja OR checkout OR \"check out\" OR pindah OR kapok OR langganan OR pilih) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-01-01 until:2025-07-01",
+    "(tiktokshop OR \"tiktok shop\" OR \"shop tokopedia\" OR \"toko hitam\") (aku OR saya OR gue OR gw) (beli OR belanja OR checkout OR \"check out\" OR pindah OR kapok OR langganan OR pilih) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-07-01 until:2026-01-01",
+    "(Tokopedia OR Tokped OR \"toko ijo\" OR \"toko hijau\") (aku OR saya OR gue OR gw) (beli OR belanja OR checkout OR \"check out\" OR pindah OR kapok OR langganan OR pilih) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-01-01 until:2025-07-01",
+    "(Tokopedia OR Tokped OR \"toko ijo\" OR \"toko hijau\") (aku OR saya OR gue OR gw) (beli OR belanja OR checkout OR \"check out\" OR pindah OR kapok OR langganan OR pilih) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-07-01 until:2026-01-01"
+  ],
+  "queryType": "Latest",
+  "lang": "id",
+  "maxItems": 4000,
+  "includeSearchTerms": true,
+  "outputVariant": "rich"
+}
+```
+
+#### 02_x_sellers_4000.json
+
+```json
+{
+  "mode": "search",
+  "searchTerms": [
+    "(Lazada OR Lazadut) ((aku OR saya OR gue OR gw) (jualan OR berjualan OR dagang OR omzet OR omset) OR \"toko saya\" OR \"toko gue\" OR \"toko gw\" OR \"toko aku\" OR tokoku OR jualanku) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-01-01 until:2025-07-01",
+    "(Lazada OR Lazadut) ((aku OR saya OR gue OR gw) (jualan OR berjualan OR dagang OR omzet OR omset) OR \"toko saya\" OR \"toko gue\" OR \"toko gw\" OR \"toko aku\" OR tokoku OR jualanku) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-07-01 until:2026-01-01",
+    "(Shopee OR \"toko oren\" OR \"toko orange\") ((aku OR saya OR gue OR gw) (jualan OR berjualan OR dagang OR omzet OR omset) OR \"toko saya\" OR \"toko gue\" OR \"toko gw\" OR \"toko aku\" OR tokoku OR jualanku) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-01-01 until:2025-07-01",
+    "(Shopee OR \"toko oren\" OR \"toko orange\") ((aku OR saya OR gue OR gw) (jualan OR berjualan OR dagang OR omzet OR omset) OR \"toko saya\" OR \"toko gue\" OR \"toko gw\" OR \"toko aku\" OR tokoku OR jualanku) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-07-01 until:2026-01-01",
+    "(tiktokshop OR \"tiktok shop\" OR \"shop tokopedia\" OR \"toko hitam\") ((aku OR saya OR gue OR gw) (jualan OR berjualan OR dagang OR omzet OR omset) OR \"toko saya\" OR \"toko gue\" OR \"toko gw\" OR \"toko aku\" OR tokoku OR jualanku) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-01-01 until:2025-07-01",
+    "(tiktokshop OR \"tiktok shop\" OR \"shop tokopedia\" OR \"toko hitam\") ((aku OR saya OR gue OR gw) (jualan OR berjualan OR dagang OR omzet OR omset) OR \"toko saya\" OR \"toko gue\" OR \"toko gw\" OR \"toko aku\" OR tokoku OR jualanku) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-07-01 until:2026-01-01",
+    "(Tokopedia OR Tokped OR \"toko ijo\" OR \"toko hijau\") ((aku OR saya OR gue OR gw) (jualan OR berjualan OR dagang OR omzet OR omset) OR \"toko saya\" OR \"toko gue\" OR \"toko gw\" OR \"toko aku\" OR tokoku OR jualanku) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-01-01 until:2025-07-01",
+    "(Tokopedia OR Tokped OR \"toko ijo\" OR \"toko hijau\") ((aku OR saya OR gue OR gw) (jualan OR berjualan OR dagang OR omzet OR omset) OR \"toko saya\" OR \"toko gue\" OR \"toko gw\" OR \"toko aku\" OR tokoku OR jualanku) -filter:nativeretweets -from:xkode06 -from:LazadaID -from:tokopedia -from:ShopeeID -from:SIMPATI since:2025-07-01 until:2026-01-01"
+  ],
+  "queryType": "Latest",
+  "lang": "id",
+  "maxItems": 4000,
+  "includeSearchTerms": true,
+  "outputVariant": "rich"
+}
+```
+
+#### 03_tiktok_comments_1500.json
+
+```json
+{
+  "postURLs": [
+    "https://www.tiktok.com/@ceritaomken/video/7511319675909836039",
+    "https://www.tiktok.com/@pecahtelur.id/video/7522712523334749458",
+    "https://www.tiktok.com/@jansenhartono7/video/7517537961181793554",
+    "https://www.tiktok.com/@waffaelzayn/video/7587279762620484885",
+    "https://www.tiktok.com/@fendyshop/video/7498979419822902536",
+    "https://www.tiktok.com/@nathanaelaldo_/video/7532338841726831880",
+    "https://www.tiktok.com/@adhita.yulia/video/7634830402879999253",
+    "https://www.tiktok.com/@shantishardii/video/7637402703815216404",
+    "https://www.tiktok.com/@byharfa/video/7659582565094804757",
+    "https://www.tiktok.com/@pakhanif.id/video/7602956320416812306",
+    "https://www.tiktok.com/@barokah.tani34/video/7636782070710242568",
+    "https://www.tiktok.com/@_broazmi/video/7660861532657421575"
+  ],
+  "commentsPerPost": 125,
+  "maxRepliesPerComment": 0
+}
+```
+
+<a id="v3-data"></a>
+## 4. Data inventory and analytical boundaries
+
+### 4.1 Exact supplied export manifest
+
+The 12 JSON exports below are the entire new combined raw-data scope. Collection times are inferred from export filenames and retained as provenance, distinct from publication dates. SHA-256 values identify the processed source bytes.
+
+| Source ID | Export filename | Platform/type | Raw rows | SHA-256 |
+| --- | --- | --- | --- | --- |
+| SRC01 | dataset_tiktok-comments-scraper_2026-10-26_14-22-59-482.json | TikTok/comment | 242 | 9f2799e8295b56632ce8ab9d7781a89fa2ab0cf9770e0283be74dac29270d9b6 |
+| SRC02 | dataset_tiktok-comments-scraper_2026-10-26_14-23-30-892.json | TikTok/comment | 52 | 42a5b27416aaed3994197fc50e55d2979074f2073b06f2e50e264e046c52d5dd |
+| SRC03 | dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json | TikTok/comment | 864 | 1c96760e9409f03630c89b5bafcb0f6a35e5d7f3f29f61c5985c0a32bb445cd5 |
+| SRC04 | dataset_tiktok-scraper_2026-10-26_14-04-15-115.json | TikTok/video | 80 | 94b146d6706e8a8bf559f004cbd2ee50eb5c159f4b456b0095d06b81e9e0403a |
+| SRC05 | dataset_tiktok-scraper_2026-10-26_14-24-36-925.json | TikTok/video | 200 | a90f4d83806cc3f850f9f3b77e6fbab25cb8f20429e0e51c76fa1a374687686f |
+| SRC06 | dataset_x-tweet-scraper_2026-10-26_14-22-05-257.json | X/post | 1000 | cf2b0329fb6fb3108396db778b084b31a4bdf48f073c521642483973cf00b98c |
+| SRC07 | dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json | X/post | 1000 | 85ea78ad06a333079a1bac5abbd7edb40d6e918a1d47313bbceca904073f5cee |
+| SRC08 | dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json | X/post | 716 | af6a7def6acb8a23e0073a61e6c994f0e4e957820eb29804e9f8d6ddf96b88ad |
+| SRC09 | dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json | X/post | 4000 | c7de0bb2085d088a102ff7ec653665dfd2805655f7928190ea608697de623260 |
+| SRC10 | dataset_youtube-comments-scraper_2026-10-26_14-23-24-633.json | YouTube/comment | 800 | 41461f9eb45ab094f9c5b51a16ecf2d68c6de339a88ed5a8d14eee0c3227af74 |
+| SRC11 | dataset_youtube-scraper_2026-10-26_14-04-22-088.json | YouTube/video | 80 | f00556ca6ddc4e8d9169e10c9b6d658de6c228b63c67c2146cf3189543c70b27 |
+| SRC12 | dataset_youtube-scraper_2026-10-26_14-04-49-831.json | YouTube/video | 80 | 5eaee7df6e7821038d036ebc892b2de3e7052cda45cfc0da681d9ca1b65ccc47 |
+
+| Platform/type | Raw occurrences | Unique content IDs | Repeated occurrences retained in lineage |
+| --- | --- | --- | --- |
+| X posts | 6716 | 6323 | 393 |
+| TikTok comments | 1158 | 1158 | 0 |
+| TikTok videos | 280 | 278 | 2 |
+| YouTube comments | 800 | 800 | 0 |
+| YouTube videos | 160 | 154 | 6 |
+| Total | 9114 | 8713 | 401 |
+
+### 4.2 Cleaning and preservation
+
+- The Master key is platform + record type + original content ID. Exact duplicate identities are merged only in Master. Every source/query occurrence remains in SourceMap; repeated text with a different ID is flagged rather than silently removed.
+- Original text is retained. Clean text uses NFKC normalization, selected zero-width/BOM removal and whitespace normalization; emoji joiners and meaning are preserved. Empty/short/relevant/promotion/date flags permit filtering without deleting the original evidence.
+- All original nested attributes and duplicate snapshots are preserved as JSON chunks. The 9,114 snapshots occupy 9,116 chunks because two snapshots exceed a safe single-cell size; chunks are at most 30,000 UTF-16 code units. Every snapshot was reconstructed and compared exactly, with no mismatch.
+- The 69 Master fields include source/query lineage, exact and relative date representations, joined parent context, engagement metrics, role/action cues, theme matches and exclusion reasons. Role/action fields are candidate language cues, not verified behavior. Theme rules are overlapping lexical screens, not complete semantic coding or sentiment analysis.
+- IDs are exact strings. UTC publication years define time cohorts; separately retained Jakarta dates are typed Excel dates. YouTube comments supply only relative publication text and are never assigned an invented exact 2025 date.
+- SourceMap has 9,114 rows; ManualReview has 261 ledger entries (buyer and seller review lists may overlap); RawAttributes has 9,116 chunks. Missing IDs, duplicate Master keys and orphan joined parent metadata were zero in the pipeline checks.
+
+### 4.3 Universes that must not be confused
+
+- All unique content records: **8,713**, including **432 video discovery/context records** and **8,281 text posts/comments**.
+- All unique records by period: **6,817 exact 2025; 952 exact 2026; 144 other exact years; 800 date-uncertain**.
+- All exact 2025 text: **6,728**, before the eligibility screen.
+- Automated core 2025 screen: **5,527** text records = 5,245 X posts + 282 TikTok comments. These passed exact-year, length, relevance and promotion rules; they are not 5,527 verified respondents or a fully manually coded population.
+- Automated current 2026 screen: **329** text records, held separately from the historical case core.
+- Buyer qualitative review: **148 unique full texts**. Seller review: **113 candidates**, with **43 high-impact full checks** and the remainder candidate/excerpt review, distinguished in the ledger. Do not describe all 113 as fully read or 261 as independent people.
+- Selected evidence library: **82 support/counterevidence entries across insights**. Records can recur under different insights, so summing citations does not yield a unique-evidence count.
+
+### 4.4 Coverage and selection warnings that change interpretation
+
+The earlier buyer X pilot was heavily weighted to December 2025 (525/1,000), had no January–May observations and included 137 posts from one promotional account. It had no Shopee-query-labelled rows, which does not mean no Shopee mentions. The final buyer batch was heavily Shopee-query-weighted (3,001/4,000). These runs do not support platform population comparisons or a balanced half-year design.
+
+The historical TikTok batch's 242 comments included 125 dated 2025 and 117 dated 2026. The separate current batch supplied 52 dated 2026. The final 864-comment batch contained 280 dated 2025 and 584 dated 2026. Video dates cannot establish comment dates. The 200 seller TikTok discovery records included 46 advertising/sponsorship flags and 103 dated 2026; such flags identify source attributes, not independent testimony or residence.
+
+Counts and theme shares describe selected search results. Search terms select for particular complaints and behaviors; comments share source-video context; accounts can repeat; platform authors cannot be resolved to people across channels. No population weights, margin of error, causal coefficient or current Indonesian sentiment estimate is justified. Engagement counts use different platform units and are not directly comparable.
+
+### 4.5 Prior historical corpus remains separate
+
+Version 2 preserves a prior published-source inventory of 2,348,965 retained records plus 415 separate indexed URL leads. That historical corpus is not contained in the new 8,713-record combined workbook. The supplied `Nexora_Dataset_Findings.md` is inherited prior analysis; selected summaries are carried in Prior Research with explicit transfer limits, not represented as a fresh replication of its underlying raw records.
+
+Those summaries include COD restriction/recovery chains, carrier/address preferences in both directions, and a reserved sample with 0/120 confirmations of a specific competitor-discovery-to-original-checkout mechanism. Narrow selected denominators do not establish prevalence or absence in the market; historical international support records are not contemporary Indonesian Nexora experiences.
+
+<a id="v3-findings"></a>
+## 5. Final twenty findings and hypotheses
+
+The wording below is copied from the final delivered Insight Library after challenge and refinement. It supersedes broader preliminary headlines in intermediate analyst notes. Each record includes evidence status, mechanism, implication, rival explanation, limitations and the next validation. The selected original excerpts follow later.
+
+**Read the status before the headline.** C01–C06 use fictional case facts and accounting/scenario logic. B01–B06 and S01–S08 use attributed comparator accounts; none is an estimated Nexora causal effect.
+
+### C01 — Most of Nexora’s revenue increase reflects a higher realized revenue-to-GMV ratio rather than GMV expansion.
+
+**Decision area:** Case economics
+
+**Evidence status:** DERIVED CASE FINDING plus strategic inference
+
+**Case finding:** GMV rose7.14%while platform revenue rose33.33%. Under the stated decomposition, IDR11.79tn of the IDR15tn revenue gain comes from realized monetization/mix rather than baseline-rate volume growth.
+
+**Proposed mechanism:** The revenue/GMV ratio increased concurrently with profit and weaker marketplace indicators. Delayed substitution is one untested explanation. This accounting decomposition does not establish that commission changes caused profit growth.
+
+**So what for Nexora:** Another fee increase is not proven repeatable simply because the first increase coincided with profit. The next decision must show additional value delivered or an acceptable behavioral loss.
+
+**Proposed action:** Evaluate targeted value improvements and fee architecture against incremental contribution, seller realized margin and retained buyer transactions; preserve broad fee increases as a tested option rather than a default.
+
+**Plausible opposite:** The realized-rate improvement mainly reflects higher-value services/category mix and can continue without harming valuable participation.
+
+**Counterevidence:** The case documents lower average delivery cost and successful positive operating profit; these support a genuine operational improvement and do not establish pure extraction.
+
+**Limits:** 78.57%is an accounting decomposition of REVENUE growth, not profit and not causal fee attribution. Revenue recognition by service is unknown.
+Retain the separate profit bridge, rate/mix label and stated decomposition convention. Do not call78.6%ofprofit growth fee-driven.
+The11.79tn/78.57%calculation decomposes revenue growth; it does not identify the causes of the8tnprofit improvement or isolate fee hikes. Current headline’s turnaround depended more wording risks moving from an accounting identity to causal profit attribution.
+
+**Next validation:** Separate source evidence for total seller costs versus improved demand/service value; ask merchants about actual volume, contribution and channel-allocation changes after fee changes.
+
+**Evidence anchors:** ["D01","D02","D05","D06","D07","D13"]
+
+### C02 — Seller churn priorities should depend on buyer dependence and replaceability, which the case does not measure.
+
+**Decision area:** Case economics
+
+**Evidence status:** CASE FACTS support materiality; priority mechanism remains HYPOTHESIS
+
+**Case finding:** Small sellers supply one third of case GMV and face12%annual churn, compared with5%mid-size and2%Other Segments. Counts alone do not reveal unique assortment or contribution.
+
+**Proposed mechanism:** Buyer spillovers arise if an exiting seller supplies hard-to-substitute products or service; duplicate low-value listings may be replaceable. A seller can also redirect inventory/effort before formal exit, which requires comparator evidence.
+
+**So what for Nexora:** A universal seller-retention subsidy risks paying for duplicated or unprofitable activity. Segment by buyer dependence, differentiation and recoverability rather than size/churn risk alone.
+
+**Proposed action:** Prioritize seller support where unique assortment and buyer repeat dependence are credible; use interviews and public assortment comparisons as proxies, with uncertainty explicit.
+
+**Plausible opposite:** Most exiting sellers have interchangeable listings or low contribution; reducing their churn would add little buyer value.
+
+**Counterevidence:** No case exhibit measures unique SKUs, seller-level contribution, buyer substitution or cause of exit. High churn alone does not prove marketplace deterioration.
+
+**Limits:** Do not multiply12%churn by small-sellerGMV or revenue to claim loss. Estimated144kdepartures are conditional cohort arithmetic, not net losses;60k is a same-base illustration.
+Do not convert12%churn to12%GMVloss or call60,000observed incremental exits. Compare differentiated-seller support with untargeted retention only as proposed validation.
+Small-seller materiality and churn are case facts. Unique assortment, replaceability and buyer dependence are not measured; retaining more sellers protecting less value is only a conditional strategy hypothesis.
+
+**Next validation:** Interview buyers about the last product/seller unavailable on Nexora and where they completed purchase; interview sellers about distinctive inventory withheld or shifted before account closure.
+
+**Evidence anchors:** ["D17","D18","D25","D26","D27"]
+
+### C03 — NexExpress is cheaper on today’s parcel mix; expansion still requires a marginal route-and-capacity test.
+
+**Decision area:** Case economics
+
+**Evidence status:** DERIVED IDENTITY plus untested marginal-economics hypothesis
+
+**Case finding:** The reported50/50mix ofRp8,000internal andRp12,000external average parcel costs exactly reconciles toRp10,000. A mechanical10ppshare shift would saveRp0.8tn only at unchanged costs and volumes.
+
+**Proposed mechanism:** The current in-house network may select dense/easy routes; additional capacity/geography may cost more. Ownership can lower average cost while poor recovery or slower delivery erodes buyer trust.
+
+**So what for Nexora:** The actionable unit is the route/service cohort, not the group-wide in-house share target. A fixed target can misallocate difficult parcels and conceal service losses.
+
+**Proposed action:** Use a transparent scenario gate for internal-versus-external route allocation incorporating marginal handling/capacity and service failure exposure; do not prescribe blanket insourcing from averages.
+
+**Plausible opposite:** NexExpress has spare capacity and density gains, so incremental internal cost is at or below the current average and further insourcing adds value.
+
+**Counterevidence:** Average delivery cost did improve16.67%, and current internal parcels show a substantial average cost advantage.
+
+**Limits:** No route costs, spare capacity, capital cost, SLA or failure rates are supplied. No estimate of historical total savings can be inferred without 2024 volume. Rp0.8tn is a labelled illustration, not forecast.
+Never present0.8tnas forecast savings. Dense/easy route selection and capacity constraints are alternative explanations, not known case facts.
+50/50weighted-average cost identity and constant-cost0.8tnscenario recompute. The next-route marginal-cost claim is an economic decision test, not an observed route finding.
+
+**Next validation:** In absence of internal data, bracket route/capacity/service assumptions in a later scenario model and use comparator complaints to define failure modes, not assign Nexora failure rates.
+
+**Evidence anchors:** ["D22","D23","D31"]
+
+### C04 — Share erosion predates the 2025 turnaround, so its causes cannot be assigned to that transition alone.
+
+**Decision area:** Case economics
+
+**Evidence status:** CASE TIME-PATTERN FINDING plus strategic inference
+
+**Case finding:** Displayed GMV share fell50%to48%to46%over 2023–2025: a2ppdecline before the 2025 transition and another2ppduring it. The rounded exhibit shows persistence, not a demonstrated acceleration.
+
+**Proposed mechanism:** A structural acquisition/discovery/assortment disadvantage could precede fee changes; fees and promotion cuts may be one added friction rather than the sole root cause.
+
+**So what for Nexora:** A full rollback of fees or broad free shipping may address price symptoms without resolving where buyer consideration is formed. Competitive response must identify which purchasing occasions Nexora fails to win.
+
+**Proposed action:** Distinguish discovery-led occasions from search/replenishment occasions in the research and proposed interventions; test the relevant gap rather than copy a rival’s entire model.
+
+**Plausible opposite:** Subsidy and fee differences, including earlier unobserved changes, explain most share erosion; restoring price parity would be sufficient.
+
+**Counterevidence:** The case lacks category/channel cohorts and the timing of prior commercial changes. A temporal pattern does not identify discovery as the cause.
+
+**Limits:** Share is GMV value share, not app installations, user share or percentage of people who switched. Competitor growth is not proof of profitability or social-content causality.
+Do not identify social discovery or structural fit as the cause solely from this pattern. A fee rollback may still be worth testing.
+Rounded share series declines2ppbefore and2ppduring 2025. It rebuts a simple uniquely 2025 timing story, but earlier fee/subsidy changes or competitor differences remain possible.
+
+**Next validation:** Use actual recent purchase journeys to locate discovery, comparison, checkout and fulfilment channels; compare delivered basket price and stock availability for matched offers.
+
+**Evidence anchors:** ["D20","D21","D01"]
+
+### C05 — At unchanged volume, Rp1,000extra parcel cost equals40%of current operating profit before offsets.
+
+**Decision area:** Case economics
+
+**Evidence status:** STATIC CASE SENSITIVITY, not forecast
+
+**Case finding:** At2bnannual parcels, Rp1,000perparcel equalsRp2tn, or40%ofRp5tnoperating profit. Operating profit is8.33%ofrevenue but only0.83%ofGMV.
+
+**Proposed mechanism:** Revenue is largely value-linked, while delivery and some recovery costs are parcel/incident-linked; average GMV growth can hide cost-intensive mixes and split deliveries.
+
+**So what for Nexora:** Profitable transaction growth must specify contribution after delivery/recovery; GMV or transaction count alone can scale a thin-buffer activity.
+
+**Proposed action:** Make the proposal’s impact calculation reconcile incremental realized revenue, incentives, logistics/recovery and implementation costs. Use scenarios instead of an assumed uniformGMV-to-profit conversion.
+
+**Plausible opposite:** Incremental orders have sufficiently high contribution and spare fulfilment capacity, so transaction growth improves the profit buffer despite added physical volume.
+
+**Counterevidence:** Current average delivery costs fell and the company operates profitably; no parcel-cost increase is observed in 2025.
+
+**Limits:** This is sensitivity only. Do not callRp5tnavailable cash, capex budget or net profit. GMV perparcelRp300,000is notAOV because order count is absent.
+Keep hypothetical sensitivity visually distinct from observed deterioration, investment budget or forecast. GMVperparcel is notAOV.
+2bn×Rp1,000=Rp2tn=40%of5tnOP recomputes. It assumes full incremental cost pass-through at unchanged volume with no revenue or cost offsets.
+
+**Next validation:** Stress-test low-basket, multi-parcel and high-return scenarios separately, with all unmeasured rates explicit.
+
+**Evidence anchors:** ["D15","D16","D29","D30"]
+
+### C06 — Average delivery cost fell while the reconstructed other-operating-cost pool roseRp11trillion.
+
+**Decision area:** Case economics
+
+**Evidence status:** RECONSTRUCTED CASE ACCOUNTING FINDING
+
+**Case finding:** The operating-profit bridge reconciles asRp15tnhigherrevenue +Rp4tnlowermarketing −Rp11tnhigherotheroperatingcosts =Rp8tnimprovement. Total operating costs roseRp48tn→Rp55tn despite lower average parcel cost.
+
+**Proposed mechanism:** More volume, insourcing scope, service mix, capacity spending or unrelated costs can raise absolute costs while unit delivery economics improve. The residual does not reveal which driver dominates.
+
+**So what for Nexora:** Before crediting a technology/logistics project with savings, isolate which cost pool it changes and avoid adding the same delivery benefit twice to the profit bridge.
+
+**Proposed action:** Show one consolidated profit bridge and keep any logistics scenario outside historical attribution until cost scope is reconciled.
+
+**Plausible opposite:** Operations genuinely improved efficiently, while higher total costs reflect deliberate growth investment or accounting-scope changes rather than inefficiency.
+
+**Counterevidence:** Average delivery cost fell16.67%; the case lacks 2024 parcelvolume, so total logistics spending could have moved either way.
+
+**Limits:** Other costs are an algebraic residual including logistics, not a disclosed standalone overhead or logistics line. Do not attribute allRp11tnincrease to insourcing.
+Other costs are a residual and not the logistics cost pool. No historical total logistics saving can be computed without 2024 volume.
+15tnrevenue+4tnmarketing−11tnother-costdrag reconciles8tnOPimprovement. Increasing absolute costs alongside decreasing average unit costs is not itself evidence of inefficiency.
+
+**Next validation:** Keep competing cost explanations visible and identify which supplied/external evidence can inform the scenario ranges without inventing internal actuals.
+
+**Evidence anchors:** ["D08","D09","D10","D11","D12","D13","D14"]
+
+### B01 — Some shoppers restrict risky categories or choose delivery safeguards when buying expensive items online.
+
+**Decision area:** Buyer decisions
+
+**Evidence status:** Repeated qualitative contrast across distinct authors/conversations; no prevalence or estimated premium
+
+**Proposed mechanism:** Different authors describe category concerns, courier safeguards and successful high-value purchases on several platforms. The evidence suggests occasion-specific risk management. It does not observe each buyer’s complete basket allocation or wallet share.
+
+**So what for Nexora:** For Nexora, user retention or transaction frequency can look healthy while the platform loses valuable category occasions. The relevant competitive unit is a basket/category-and-risk occasion, not only an app account.
+
+**Proposed action:** Evaluate category-specific reliable delivery/protection bundles and explicit courier choice for high-value baskets. Measure contribution and completed high-value orders rather than promise blanket free shipping.
+
+**Plausible opposite:** Shoppers choose the lowest net price across categories regardless of courier/protection or item value.
+
+**Counterevidence:** 1907820312428957776: Reports two successful high-value TikTok phone purchases; TikTok is not universally restricted to low-value goods.
+1936264427315380673: Reports six successful phone purchases across Tokopedia/Lazada, countering blanket online-device distrust.
+
+**Limits:** Self-reports and advice; selected search sample and viral thread effects. Prices, insurance effectiveness and actual delivery records are not verified. Several replies share conversation clusters; do not count each as independent market replication.
+No measured price premium, category wallet-share loss or causal effect. Preserve successful high-value TikTok and Lazada counterexamples.
+Five supporting authors and five source clusters in 2025. Explicit snack/gadget contrast is an inquiry, not an observed abandoned gadget order. Other high-value cases support safeguards, but do not jointly prove lower-price routing for the same buyers.
+
+**Next validation:** Ask for the last three low/high-value purchases: platform considered, actual net checkout price, delivery service, safeguards and rejected alternative. Test reliable-delivery/protection attributes against price in a randomized choice design; no assumed 20% premium.
+
+**Evidence anchors:** 1932937047410712896; 1932826662758166753; 1977006906486276454; 1933321961347960903; 7511573610126033672
+
+### B02 — One seller reports paying marketplace fees for trusted settlement after finding the buyer through TikTok.
+
+**Decision area:** Buyer decisions
+
+**Evidence status:** Single reported completed transaction; exploratory business-model hypothesis, not replicated buyer willingness-to-pay
+
+**Proposed mechanism:** Discovery and settlement can be different jobs. A seller may accept a marketplace charge to reassure a socially acquired buyer, while other sellers route payment outside the platform.
+
+**So what for Nexora:** Nexora could compete as a trusted completion layer for demand originating elsewhere. This is a testable option, not proof that social discovery broadly migrates while checkout stays.
+
+**Proposed action:** Test protected social-to-marketplace checkout links with transparent fees and dispute protection; compare incremental completed profitable orders to fee bypass and fraud exposure.
+
+**Plausible opposite:** Once demand originates on social media, the parties consistently avoid marketplace settlement and its fees.
+
+**Counterevidence:** 1961259583282061641: Merchant advertises direct full payment with only token Rp1k Shopee checkout to obtain delivery benefits; incentive leakage/fee bypass remains an alternative.
+
+**Limits:** The completed phone transaction is narrated by the seller. No buyer interview, willingness-to-pay estimate, net voucher price or alternative service comparison is observed. Legacy Nexora_Dataset_Findings found zero explicit competitor-discovery→original-checkout replications in 120 reserved historical reviews and did not establish a 20% trust premium; do not treat this new single episode as overturning that constraint.
+Do not call this replicated buyer willingness-to-pay, quantify a trust premium or extrapolate an entire social-to-marketplace funnel.
+The completed social-origin phone sale is one seller account. Two other supporting records are safety advice, not completed transactions. The opposite is commercially plausible and counterevidence describes proposed fee bypass.
+
+**Next validation:** Trace actual social-origin orders with voluntary buyer/seller interviews: discovery source, reason for settlement channel, final delivered price, fee payer and completed order. A/B test protected checkout only after confirming demand; do not infer broad funnel migration from one account.
+
+**Evidence anchors:** 1898740464834216042; 1925534434423710020; 1922082454409564664
+
+### B03 — Occasional deal-driven purchases can preserve activity without making a marketplace the shopper’s default.
+
+**Decision area:** Buyer decisions
+
+**Evidence status:** Multiple qualitative episodes of comparison, periodic use and switching; no longitudinal wallet-share estimate
+
+**Proposed mechanism:** Multi-homing can mean tactical routing of different shopping occasions. A monthly discount or ecosystem membership can retain particular occasions without establishing exclusive loyalty.
+
+**So what for Nexora:** Nexora should distinguish default-platform status, occasional deal capture, category preference and complete exit. More registered or monthly active buyers may not mean more share of their transactions.
+
+**Proposed action:** Segment retention around observed purchase occasions and replenishment categories. Test narrow repeat incentives and membership benefits against incremental contribution, while separately tracking non-incentivized repeat purchasing.
+
+**Plausible opposite:** A shopper either remains loyal to one platform or fully leaves; occasional purchases are a reliable proxy for default status.
+
+**Counterevidence:** 7511718017128071954: Reports actually uninstalling Tokopedia/Lazada and keeping Shopee/TikTok, showing full exit also occurs.
+7511742592175293191: Reports shifting from Tokopedia to full Shopee use because of perceived lower prices.
+
+**Limits:** Unlinked posts from different authors cannot establish an individual wallet-share trajectory. Membership statements can be promotional; evidence below deliberately includes ordinary comments but still lacks verified receipts.
+No account-linked longitudinal wallet share. Membership causality and stated membership mechanics are not independently verified.
+Five supporting authors across four clusters. Three TikTok supporting/counter statements share a creator discussion; evidence still includes independent X price-search and recurring-category accounts.
+
+**Next validation:** Use a 30-day purchase diary across all installed platforms: actual orders, categories, incentives, net price and first-choice alternative. Separate membership selection from causal impact with controlled offer testing.
+
+**Evidence anchors:** 1994035655010328735; 7512338445416792833; 7511608520765621000; 1903450962527674445; 1940701699318129101
+
+### B04 — Migration accounts describe broken reordering paths and attempts to reconnect with familiar sellers off-platform.
+
+**Decision area:** Buyer decisions
+
+**Evidence status:** Two explicit relationship/workflow disruptions plus a direct-channel move; qualitative mechanism lead
+
+**Proposed mechanism:** Accounts describe failed reordering or listing paths and attempts to reconnect with familiar sellers through Instagram or contact details. These are friction and recovery attempts, not verified completed off-platform purchases.
+
+**So what for Nexora:** For Nexora, seller attrition and workflow changes may spill into buyer repeat loss through broken replenishment relationships. Retaining an account is insufficient if the familiar transaction path disappears.
+
+**Proposed action:** Preserve reorder/history continuity and seller accessibility through platform changes. For unavailable preferred sellers, test equivalent trusted-seller substitutes and clear communication rather than only generic voucher reacquisition.
+
+**Plausible opposite:** Buyer repeat is unaffected by vendor/history continuity because equivalent listings and promotions are readily substitutable.
+
+**Counterevidence:** 1923200161171337353: Reports more Tokopedia than Shopee purchase history and 1.5 years without Shopee; not all buyers are destabilized into switching.
+
+**Limits:** Real Tokopedia migration is comparator context, not a Nexora case fact or demonstrated Nexora diagnosis. No causal attribution or count of affected buyers is measured. Direct-channel relocation has one explicit observed account.
+Reclassify direct-channel relocation as attempted contact or stated intention. Do not label it an observed completed off-platform order.
+The wording before either party formally exits is not observed. Asking a seller for a phone number to avoid Tokopedia does not establish that a direct-channel purchase subsequently occurred. The first migration post shows manual IG contact, not completed external checkout.
+
+**Next validation:** Interview buyers about the last repeat purchase from a familiar seller and any seller disappearance or workflow change. Test reorder continuity and seller substitution, measuring completed reorders and contribution. Do not assume Nexora will undergo the same real-platform migration.
+
+**Evidence anchors:** 1932639371083329905; 1931127713479471201; 1933430821798777110
+
+### B05 — Successful refund reports can coexist with advice to avoid another online purchase.
+
+**Decision area:** Buyer decisions
+
+**Evidence status:** Mixed firsthand and comparative accounts; intentional counterexamples to a one-dimensional trust story
+
+**Proposed mechanism:** Pre-purchase authenticity and post-purchase recoverability are different sources of trust. Refunds can mitigate money loss without restoring confidence in the transaction route or courier.
+
+**So what for Nexora:** Nexora should diagnose whether lost repeat comes from bad merchandise, difficult resolution, or fear of recurrence. Refund completion alone is an incomplete recovery KPI.
+
+**Proposed action:** Pair refund resolution with a safe next-order route: clear protection status, accessible human escalation and alternate delivery choices where justified. Measure subsequent attempted and completed orders alongside resolution time.
+
+**Plausible opposite:** Refunding the current loss fully restores purchase willingness, and listing quality/protection can be summarized by one trust score.
+
+**Counterevidence:** 1889133734269768125: Reports seven years of Shopee use and easy returns among reasons to stay; brand-addressed reply may be prompted/incentivized.
+1916500694992916916: Reports successful insurance refund for a broken frame; positive recovery is present in the corpus.
+
+**Limits:** Complaint videos oversample failures, positive brand replies may be prompted, and comparator claims are unverified. A positive recovery case may still advise offline purchasing; neither loss nor recovery proves future retention.
+Recovery confidence and actual repeat behavior must remain distinct; do not estimate retained/lost revenue from resolved complaints.
+Refund plus avoidance is a secondhand laptop account followed by advice. The evidence does not observe that buyer’s next purchase. One 2026 TikTok failure account is current context only.
+
+**Next validation:** Ask separately about resolution satisfaction, confidence in another order, actual next purchase platform and acceptable payment/courier. Test repeat-order recovery with a control; do not equate resolved ticket with retained spend.
+
+**Evidence anchors:** 7586698888980693767; 1990742149873479961; 1903548952127160578; 1933657300633596073; 7605757721791759112
+
+### B06 — Small-basket fee complaints and checkout-price mismatches show why item discounts can fail to communicate value.
+
+**Decision area:** Buyer decisions
+
+**Evidence status:** Specific buyer charge and checkout mismatch accounts; mechanism hypothesis, not measured basket elasticity
+
+**Proposed mechanism:** A flat service charge consumes a larger share of a small basket. Voucher-adjusted product prices may differ from the final payable total, leaving a gap between deal discovery and transaction value.
+
+**So what for Nexora:** For Nexora, reducing blanket subsidies should be evaluated on delivered basket economics and price certainty, especially for low-ticket replenishment, rather than listed product discounts alone.
+
+**Proposed action:** Show final delivered price earlier and test targeted small-basket thresholds/fee credits or legitimate same-store bundling. Treat basket consolidation effects as an experiment, not an established finding.
+
+**Plausible opposite:** Buyers evaluate only item price, and a flat fee has the same behavioral relevance across basket values.
+
+**Counterevidence:** 1903450962527674445: Recurring Lazada diaper purchases remain cheaper for this buyer despite platform charges; fees do not make every online basket uncompetitive.
+2000207442521542756: Describes stacking vouchers/coins during an event to lower an actual checkout price substantially; deep discounts can still matter.
+
+**Limits:** The reported Rp2k charge is an individual account, not a verified current fee schedule. Legacy basket consolidation/fragmentation hypothesis did not replicate coherently and must not be promoted as fact. No basket abandonment rate or optimal threshold is measured.
+Rp2,000 versus belowRp5,000 is fee/item-price testimony, not necessarily fee/order-value burden. Do not treat advertised price mismatch as proven deceptive pricing.
+Three 2025X accounts support small-item fee burden and final-price uncertainty. Two 2026 TikTok accounts are separate current context. No measured elasticity, purchase abandonment rate or basket consolidation is established.
+
+**Next validation:** Collect last-checkout screenshots across comparable baskets with item price, voucher, fee and shipping separately; test final-price clarity and basket thresholds. Do not claim systematic basket reallocation without observed order-level behavior.
+
+**Evidence anchors:** 1934169752878137663; 1925564922551050430; 1974847867321004289; 7644839718403932948; 7604317856944653077
+
+### S01 — Seller accounts describe accepting higher fees where cheaper channels fail to reproduce demand.
+
+**Decision area:** Seller decisions
+
+**Evidence status:** Moderate qualitative support across X and TikTok; contribution-profit superiority unmeasured
+
+**Proposed mechanism:** A nominal fee is only one input into the value of a sales channel. Lower-fee channels can have fewer orders, while a costly marketplace supplies distribution and existing buyer habits. This is demand access rather than proof of technical lock-in.
+
+**So what for Nexora:** Nexora should test whether its monetization increase outpaced seller value delivered. Blanket fee cuts may subsidize sellers who would stay for demand, while failing to replace lost reach for vulnerable merchants.
+
+**Proposed action:** Segment retention offers by delivered-order contribution and incremental demand, not headline fee alone. Compare a targeted fee rebate with incremental qualified exposure and a payout/service intervention; do not assume any one wins.
+
+**Plausible opposite:** Nominal fee differences are the dominant switching driver, and sellers can recreate equivalent demand on cheaper channels.
+
+**Counterevidence:** 1934073931461530051: Countercase: explicitly closed Tokopedia/TikTok store amid rising deductions.
+7511894332032549650: Tokopedia success counterexample warns against treating every smaller marketplace as demand-poor.
+
+**Limits:** The quoted percentages are merchant-reported total deductions, not verified official tariffs or Nexora take rates.
+Order volume is not profit; product and buyer mix differ across channels.
+Three seller accounts do not estimate the population prevalence or causal effect.
+Label merchant, employee-reported employer experience and current 2026 comment separately. Do not assert price-power elasticity or technical lock-in.
+Three 2025X accounts plus one 2026 TikTok comparison support demand-access trade-offs. One author describes a former employer rather than their own merchant account. Lower channel order volume is not lower channel contribution profit.
+
+**Next validation:** ["Ask sellers about their last three actual channel-allocation changes, delivered orders, realized payout and contribution after acquisition/returns.","For Nexora case recommendation, identify high-value assortment at risk; do not equate all small-seller departures with revenue loss."]
+
+**Evidence anchors:** 1934478848437244030; 1948051560967340453; 2005527416350072963; 7666050324592067336
+
+### S02 — Low-ticket sellers describe large fixed-fee burdens; bundling and minimum quantities are proposed or reported adaptations.
+
+**Decision area:** Seller decisions
+
+**Evidence status:** Strong mechanism plausibility; multiple attributed low-ticket examples; net transaction impact unmeasured
+
+**Proposed mechanism:** Fixed per-order deductions are disproportionately large for cheap items. Historical comments include calculations and bundling advice. Explicit minimum-quantity or withdrawal accounts are current-2026 evidence. A resulting loss of purchase frequency is a hypothesis.
+
+**So what for Nexora:** A platform can preserve revenue per order while weakening the small-basket use cases that generate purchase frequency. Nexora should distinguish low-ticket merchant viability from average take-rate optics.
+
+**Proposed action:** Test a targeted fixed-charge cap/rebate for eligible low-basket delivered orders, or buyer-acceptable bundling; validate contribution economics before scaling. Do not infer that removing all fees is optimal.
+
+**Plausible opposite:** A fixed charge is absorbed or passed through without changing assortment, order quantities or channel choice.
+
+**Counterevidence:** 7517637591853056786: Counter-response: simply add Rp1,250 to the price; absorption/passthrough can be viable for some baskets.
+
+**Limits:** Most low-ticket examples cluster under one seller-cost video, so they are not independent sampling frames.
+Reported percentages and charges are not verified policy.
+Basket scenarios must explicitly specify one item/order; item price is not automatically order value.
+2026 buyer minimum-quantity account is current context, not historical 2025 evidence.
+Use 2025 fixed-fee pressure as repeated within-thread testimony, 2026 minimum-quantity account as current corroboration, and assortment withdrawal as a hypothesis. Illustrative one-item basket assumptions must be explicit.
+Four 2025 support quotes cluster under ONE seller-cost video; the bundle quote proposes an approach rather than reports an executed adaptation. The explicit buyer minimum-quantity example is from 2026. Current headline’s remove options/pushing withdrawal formulation exceeds the directly observed historical behavior.
+
+**Next validation:** ["Use a transparent scenario: fixed charge/basket value at several basket sizes, with all assumptions labeled.","Ask merchants which SKU or minimum-order rules they changed most recently; ask buyers about the last low-ticket purchase they moved offline."]
+
+**Evidence anchors:** 7518636846524924680; 7517655338348692232; 7530140839852557057; 7518222619511227154; 7634941721280807688
+
+### S03 — Some sellers cannot reconcile deductions to the programs they believe they selected.
+
+**Decision area:** Seller decisions
+
+**Evidence status:** Moderate qualitative support; fee-consent interface failures not independently verified
+
+**Proposed mechanism:** Program layers, affiliate commission and shipping charges can make realized payout unpredictable. Sellers may interpret unexpected deductions as loss of control even when a stated fee schedule exists. Clear consent and prospective net proceeds address a different mechanism from lowering nominal commission.
+
+**So what for Nexora:** Nexora may be able to improve seller retention without reversing its entire monetization model, if unpredictable participation and settlement are material causes. This is a testable option, not a proven cheaper retention lever.
+
+**Proposed action:** Pilot a pre-activation net-payout preview, explicit program ownership/consent, change history and order-level reconciliation. Keep commercial program enrollment understandable and reversible where feasible.
+
+**Plausible opposite:** Sellers fully understand and choose every deduction; only the final fee level matters.
+
+**Counterevidence:** 7609181671909442312: 2026 countercase explicitly manages program participation, avoids affiliate commission, and reports smooth orders.
+1896551926902423771: 2025 merchant stops joining events rather than closing the store, showing selective disengagement.
+
+**Limits:** Complaints can reflect incomplete seller learning rather than defective platform consent.
+The interface and selected programs were not inspected; screenshots linked in posts were not independently validated.
+Advice and individual cases cannot establish how frequently auto-enrollment occurs.
+Counterfactuals must include user misunderstanding and forgotten enrollment. Payout-preview solution is a testable response, not proven cheaper retention.
+Four 2025X accounts distinguish program uncertainty from headline price. They do not establish an interface defect, forced enrollment or systematic non-consent.
+
+**Next validation:** ["Ask merchants to reconstruct one actual payout line by line and identify which programs they knowingly selected.","Compare a comprehension/preview intervention against an equivalent-value rebate using actual program selection and retained contribution."]
+
+**Evidence anchors:** 1940059847573323927; 1990244439688905130; 1985172072247730536; 1937976968999539087
+
+### S04 — Seller logistics complaints concern recoverable losses and adjudication, not parcel cost alone.
+
+**Decision area:** Seller decisions
+
+**Evidence status:** Moderate cross-platform qualitative signal; allegations and loss allocation remain unverified
+
+**Proposed mechanism:** Returns, non-returned goods, rejected appeals and uncertain reimbursement can wipe out thin contribution margins. Buyers and sellers require a credible adjudication process; choosing one side automatically is not the same as fairness. Operational optimization can externalize costs to merchants.
+
+**So what for Nexora:** Nexora internal shipping cost savings do not by themselves establish marketplace value. Its logistics recommendation should evaluate successful delivery, recovery and retained merchant contribution alongside cost per parcel.
+
+**Proposed action:** Pilot evidence-based return chain-of-custody, timed appeal decisions, transparent compensation and risk-tiered shipping choice. Compare end-to-end expected loss, service cost and fraud exposure; preserve buyer protection.
+
+**Plausible opposite:** Parcel cost and speed are sufficient measures of seller logistics value, while dispute/reimbursement design has little retention consequence.
+
+**Counterevidence:** 2001653692144173292: 2025 buyer reports a convenient pickup/refund process; recovery may be effective for one side while disputed by the other.
+
+**Limits:** Several records are accusations, not verified fraud or courier misconduct.
+A seller admitting packaging fault is important counterevidence to a platform-only blame story.
+Neither failure rates nor expected loss magnitudes can be estimated from this selected complaint sample.
+Move or mark the packaging admission as mixed-cause/counterevidence. Preserve buyer protection; do not classify unverified accusations as confirmed theft, fraud or illegal conduct.
+Five 2025 authors across five source clusters describe failure/loss allocation. Source1885261754961453301 explicitly admits inadequate packaging: it challenges platform-only blame even though it is correctly relevant to return adjudication.
+
+**Next validation:** ["Use scenario ranges for failure, return and reimbursement costs; never synthesize them as Nexora observations.","Ask sellers about the last completed appeal, returned-item receipt and actual reimbursement, then compare buyer and merchant evidence for the same flow."]
+
+**Evidence anchors:** 7511706811750957831; 1916082418454564994; 1885261754961453301; 1909767236279320623; 1999458197716058285
+
+### S05 — Migration accounts describe listing and workflow friction despite the promise of easier multichannel selling.
+
+**Decision area:** Seller decisions
+
+**Evidence status:** Moderate qualitative support across X and TikTok; integration causality unproven
+
+**Proposed mechanism:** Self-reported listing, account and operating-task problems accompany integration. Official 2025 guidance separately describes simpler multichannel workflows. The corpus does not identify the net average effect or a causal before-and-after sequence.
+
+**So what for Nexora:** For Nexora, a digital enabler must preserve productive selling workflows and assortment availability. A single dashboard is not a retention proposition if it adds onboarding or listing friction.
+
+**Proposed action:** Prioritize backward-compatible listings, clear rejection reasons, migration exception handling and lightweight merchant workflows. Validate live SKU availability and time-to-first-delivered-sale, not accounts linked alone.
+
+**Plausible opposite:** Integration is operationally seamless and its main effect is to increase merchant access to buyers.
+
+**Counterevidence:** 7511608520765621000: 2025 buyer values cross-platform membership; integration can provide benefits, but to a different actor.
+
+**Limits:** Merchants may sell restricted or ineligible products; rejected listings are not necessarily erroneous.
+Comment clustering and self-selection can overstate integration dissatisfaction.
+These are comparator-platform experiences, not proof of Nexora integration failure.
+Official 2025 guidance says sellers need not sell on both storefronts or create TikTok videos; distinguish migration/account-link requirements from those separate claims.
+2025 workflow and listing complaints are grounded. The claim that disruption occurs before demand benefits is not an identified temporal sequence for the same merchant. Some rejected listings could be ineligible.
+
+**Next validation:** ["Ask merchants about the last failed listing/account-linking task, what they did next and whether the affected SKU was offered elsewhere.","Distinguish regulatory/category-compliance restrictions from avoidable UX or migration failures."]
+
+**Evidence anchors:** 1933672902353981708; 1925283766584713421; 7516524262976111368; 7511380522166453012; 1922162865714180389
+
+### S06 — One artist reports split settlement while other sellers advertise partial marketplace checkout.
+
+**Decision area:** Seller decisions
+
+**Evidence status:** Exploratory 2025 behavioral signal; amount and prevalence unknown
+
+**Proposed mechanism:** Sellers can retain an account and an order record while routing only a deposit or small listing through checkout. Off-platform discovery and payment are different from complete switching; nominal retention and parcel activity can coexist with lower captured transaction value.
+
+**So what for Nexora:** Nexora should not equate active seller counts, order counts or parcels with full capture of customer commerce. The relevant question is why merchants value its transaction services but avoid the monetized payment base.
+
+**Proposed action:** Investigate net-payout predictability and fair service pricing alongside payment integrity and consumer protection. Monitor inconsistencies using legitimate records if available; do not recommend evasion or punitive blanket action from social anecdotes.
+
+**Plausible opposite:** Retained sellers and marketplace orders generally represent full-value commerce, so payment routing adds little information beyond churn.
+
+**Counterevidence:** 1937310932134428947: 2025 alternative response explicitly adds admin fees to sale price rather than diverting payment.
+
+**Limits:** The records describe possible rule circumvention; the behavior was not independently verified.
+No leakage rate or Nexora GMV understatement can be inferred.
+Public sale offers can differ from executed transactions; separate advertised terms from claimed action.
+No leakage prevalence, amount or Nexora GMV understatement. Advertised terms and described methods are not verified completed transactions; do not present evasion as recommended practice.
+One artist reports a split-payment method. Two posts are advertised terms, and one is hearsay about other sellers. Three to four sources therefore do not mean three to four executed leakage transactions.
+
+**Next validation:** ["Ask for historical completed transaction journeys: discovery channel, payment split, checkout amount, shipping channel and reason.","Measure captured value only with actual case-authorized data; use this evidence to motivate a hypothesis, not to calculate a rate."]
+
+**Evidence anchors:** 7517695799447929607; 1985152148775284749; 1884157903726379099; 1915636539067158944
+
+### S07 — A2026 commenter reports leaving inventory selling for affiliate work while remaining in the platform ecosystem.
+
+**Decision area:** Seller decisions
+
+**Evidence status:** Exploratory; one explicit 2026 role-transition case with supporting exit accounts
+
+**Proposed mechanism:** Seller economics can change participation role rather than cause app deletion. Becoming an affiliate preserves engagement and platform demand generation while removing owned inventory, fulfillment effort and potentially distinctive assortment. Account activity is therefore not equivalent to merchant capacity.
+
+**So what for Nexora:** Nexora retention analysis should distinguish productive merchants, affiliates, buyers and dormant storefronts. If viable small sellers become promoters, engagement can look healthy while assortment depth weakens.
+
+**Proposed action:** Define role-specific retention and productive-assortment metrics. Explore lighter merchant operating models only where they preserve contribution and differentiated selection; do not treat affiliate conversion as an automatic substitute for merchant retention.
+
+**Plausible opposite:** Merchant exit normally causes full platform exit, and affiliate activity preserves equivalent supply-side value.
+
+**Counterevidence:** 7609181671909442312: 2026 merchant continues selling and deliberately avoids affiliate commission; role outcomes differ.
+
+**Limits:** Only one inspected record explicitly reports merchant-to-affiliate transition, and it is from 2026.
+The record does not prove the same account/store was retained or quantify lost inventory.
+Treat as a current-context research hypothesis, not a core 2025 Nexora finding or population pattern.
+Keep outside core 2025 findings. Productive-seller versus account-activity measurement is an inferred design implication, not an observed Nexora mismeasurement.
+Only record7635608878596948743 explicitly describes merchant-to-affiliate transition, and its comment date is 2026. The supporting 2025 quote establishes store closure, not affiliate transition; continued use of the same account is unobserved.
+
+**Next validation:** ["Ask exited merchants what they do on each app now: sell own inventory, affiliate promotion, sourcing, buying, browsing or none.","Determine which unique SKUs or fulfillment capacity disappeared rather than counting all exited sellers equally."]
+
+**Evidence anchors:** 7635608878596948743; 7602962692718412564; 1934073931461530051
+
+### S08 — Seller accounts describe payout delays as a cash-flow constraint beyond stated marketplace deductions.
+
+**Decision area:** Seller decisions
+
+**Evidence status:** Moderate qualitative mechanism support; historical X plus date-uncertain YouTube corroboration
+
+**Proposed mechanism:** A sold item is not immediately usable cash. Unclear receipt, completion and withdrawal holds can restrict reinvestment and amplify the effective burden of commissions. Zero-fee alternatives can still disappoint if payout reliability is weak.
+
+**So what for Nexora:** Treat settlement predictability as a separate working-capital test alongside deductions and demand. The corpus does not show whether fixing payouts is cheaper or more effective than fee relief.
+
+**Proposed action:** Test transparent expected payout dates, reason-coded exceptions, payout-status tracking and risk-tiered accelerated settlement. Preserve fraud/return reserves and evaluate incremental risk, not just merchant convenience.
+
+**Plausible opposite:** Sellers care mainly about eventual payout and commission level; settlement timing has little effect on reinvestment or channel allocation.
+
+**Counterevidence:** 2003303005962272963: 2025 official reply requests details for a payout issue; demonstrates support response, not proven resolution.
+2001653692144173292: Fast buyer refund can be valuable; merchant cash-cycle optimization must preserve buyer-side recovery.
+
+**Limits:** No transaction logs validate reported payout delay duration or contractual eligibility.
+YouTube publication times are relative; these sources are date-uncertain thematic support, not verified 2025 observations.
+Payout holds can protect buyers and control fraud; immediate settlement is not universally optimal.
+Payout holds may implement legitimate return/fraud protection. No verified liquidity loss, delay prevalence or working-capital causal effect is quantified.
+Two 2025X sources and three date-uncertain YouTube sources support payout-delay complaints. No source establishes that the nominal fee is acceptable. YouTube rows cannot be assigned exact 2025 dates.
+
+**Next validation:** ["Ask merchants about their last sale, delivery, buyer confirmation, available balance and bank receipt dates.","Compare fee, volume and inventory-turnover profiles; model payout-delay scenarios as assumptions until verified."]
+
+**Evidence anchors:** 2004145221555441848; 1945485837845807164; UgzmY3r17nyDzV6o6Ud4AaABAg; UgzuahIJSUZyIJkJZ2N4AaABAg; Ugwexv4yopAm1Z4IO5h4AaABAg
+
+### 5.1 Explicit corrections to preserve in future writing
+
+- C01's 78.57% is a decomposition of **revenue growth**, not the share of profit growth caused by fee hikes. Blended monetization/mix can include several revenue components.
+- C02 does not observe assortment replaceability, buyer dependence or incremental seller exits. “Other segments” is not a measured large-seller segment. Churn is not proportional GMV loss.
+- C03/C05 are static sensitivities. Current average parcel costs do not price marginal routes or capacity. GMV per parcel is not order AOV, and the illustrative 10-point sourcing shift's Rp0.8tn is gross constant-cost arithmetic, not forecast net savings.
+- C04 shows two percentage points of share decline before and during 2025 using rounded annual shares, not an identified acceleration or a social-commerce causal effect.
+- B01's category-risk question is not a completed abandoned high-value order or a measured willingness to pay for safeguards.
+- B02 has one reported completed seller-origin phone transaction discovered through TikTok and settled through Shopee. Other safety suggestions are advice, not replicated completed buyer actions or a measured trust premium.
+- B04 describes broken reorder paths and attempts to contact familiar sellers. It does not establish completed off-platform purchases or the timing of formal exit.
+- B05 distinguishes a resolved refund from the next purchase; reported refund plus avoidance advice is not observed longitudinal repeat behavior.
+- S02's four historical supporting comments cluster under one video. Bundling is proposed advice in the historical evidence; explicit minimum-quantity/removal examples include 2026. Do not claim widespread verified 2025 seller adaptation.
+- S03 permits misunderstanding/forgotten enrollment as a rival explanation. Unreconciled deductions do not prove forced enrollment or an interface defect.
+- S04 includes mixed-cause evidence such as admitted packaging weakness. Allegations are not confirmed theft, fraud or platform fault; retain buyer protection in proposed remedies.
+- S05 does not identify a before/after demand-benefit sequence for the same seller. Official 2025 guidance permits Tokopedia only, TikTok Shop only or both, and does not mandate making TikTok videos.
+- S06 distinguishes one reported split-settlement method, advertised terms and hearsay. No leakage prevalence, amount or Nexora GMV understatement is measured; fee evasion is not a recommended strategy.
+- S07 is a **single 2026** merchant-to-affiliate account, outside core 2025 evidence. Continued same-account use is not observed.
+- S08 does not establish that nominal fees are acceptable. Payout timing is a separate possible constraint; legitimate return/fraud holds remain a rival explanation. Date-uncertain YouTube comments are not silently historical 2025 corroboration.
+
+<a id="v3-economics"></a>
+## 6. Case economics and accounting safeguards
+
+Key arithmetic: GMV 560 → 600tn (+7.14%); platform revenue 45 → 60tn (+33.33%); reported take rate 8% → 10%; operating profit −3 → +5tn; marketing 28 → 24tn. Small sellers contribute 200/600 = one third of 2025 GMV. Repeat-buyer rate falls 62% → 57%, small-seller churn rises 7% → 12%, and value share is 50% → 48% → 46% across 2023–2025.
+
+At the 2024 realized revenue/GMV ratio, volume growth explains Rp3.214tn of Rp15tn revenue growth; the residual rate/mix component is Rp11.786tn (78.57%). The chosen decomposition convention allocates the cross term to rate/mix. This is an accounting identity, not a causal commission experiment.
+
+The operating-profit bridge is +15tn revenue +4tn lower marketing −11tn higher residual other operating costs = +8tn profit improvement. Other costs are a residual, not an identified logistics cost pool. The case does not provide 2024 parcel volume, so historical total logistics savings cannot be inferred from the average-cost decline.
+
+At unchanged 2bn annual parcels, an additional Rp1,000 each would be Rp2tn, 40% of current Rp5tn operating profit before revenue/cost offsets. That is a sensitivity, not observed deterioration or an approved spending envelope.
+
+The tables below preserve all final case inputs and 32 derived measures. Values are cached workbook results; formulas are preserved for continuity where present.
+
+### Workbook snapshot — Case Inputs
+
+| Input ID | Case input | Value | Unit | Source locator |
+| --- | --- | --- | --- | --- |
+| gmv_2024 | GMV 2024 | 560 | IDR trillion | S1 p.7 |
+| gmv_2025 | GMV 2025 | 600 | IDR trillion | S1 p.7 |
+| revenue_2024 | Platform revenue 2024 | 45 | IDR trillion | S1 p.7 |
+| revenue_2025 | Platform revenue 2025 | 60 | IDR trillion | S1 p.7 |
+| take_reported_2024 | Reported take rate 2024 | 0.08 | ratio; rounded source | S1 p.7 |
+| take_reported_2025 | Reported take rate 2025 | 0.1 | ratio | S1 p.7 |
+| marketing_2024 | Marketing expense 2024 | 28 | IDR trillion | S1 p.7 |
+| marketing_2025 | Marketing expense 2025 | 24 | IDR trillion | S1 p.7 |
+| op_2024 | Operating profit 2024 | -3 | IDR trillion | S1 p.7 |
+| op_2025 | Operating profit 2025 | 5 | IDR trillion | S1 p.7 |
+| delivery_cost_2024 | Average delivery cost 2024 | 12000 | IDR per parcel | S1 p.7 |
+| delivery_cost_2025 | Average delivery cost 2025 | 10000 | IDR per parcel | S1 p.7 |
+| small_churn_2024 | Annual small-seller churn 2024 | 0.07 | ratio | S1 p.7 |
+| small_churn_2025 | Annual small-seller churn 2025 | 0.12 | ratio | S1 pp.7,10 |
+| repeat_2024 | Repeat-buyer rate 2024 | 0.62 | ratio; cohort definition unknown | S1 p.10 |
+| repeat_2025 | Repeat-buyer rate 2025 | 0.57 | ratio; cohort definition unknown | S1 p.10 |
+| share_2023 | GMV value share 2023 | 0.5 | ratio | S1 p.9 |
+| share_2024 | GMV value share 2024 | 0.48 | ratio | S1 p.9 |
+| share_2025 | GMV value share 2025 | 0.46 | ratio | S1 p.9 |
+| market_growth_2025 | Reported market growth 2025 | 0.11 | ratio; source rounded | S1 p.9 |
+| small_gmv_2025 | Small seller GMV | 200 | IDR trillion | S1 p.10 |
+| small_revenue_2025 | Small seller platform revenue | 20 | IDR trillion | S1 p.10 |
+| mid_gmv_2025 | Mid-size seller GMV | 220 | IDR trillion | S1 p.10 |
+| mid_revenue_2025 | Mid-size seller platform revenue | 22 | IDR trillion | S1 p.10 |
+| mid_churn_2025 | Mid-size seller churn | 0.05 | ratio | S1 p.10 |
+| other_gmv_2025 | Other Segments GMV | 180 | IDR trillion | S1 p.10 |
+| other_revenue_2025 | Other Segments platform revenue | 18 | IDR trillion | S1 p.10 |
+| other_churn_2025 | Other Segments churn | 0.02 | ratio | S1 p.10 |
+| parcels_2025_bn | Annual parcels 2025 | 2 | billion parcels | S1 p.10 |
+| internal_share_2025 | NexExpress parcel share | 0.5 | ratio | S1 p.10 |
+| internal_cost_2025 | NexExpress average parcel cost | 8000 | IDR per parcel | S1 p.10 |
+| external_cost_2025 | Third-party average parcel cost | 12000 | IDR per parcel | S1 p.10 |
+| small_sellers_start_2025 | Small sellers at beginning of 2025 | 1200000 | sellers | S1 p.10 |
+| scrolla_gmv_2025 | Scrolla GMV | 330 | IDR trillion | S1 p.8 |
+| scrolla_growth_2025 | Scrolla GMV growth | 0.32 | ratio | S1 p.8 |
+| scrolla_take_2025 | Scrolla reported take rate | 0.06 | ratio | S1 p.8 |
+| scrolla_delivery_2025 | Scrolla average delivery cost | 12500 | IDR per parcel | S1 p.8 |
+
+### Workbook snapshot — Case Economics
+
+| ID | Derived measure | Result | Unit | Evidence status | Interpretation limit |
+| --- | --- | --- | --- | --- | --- |
+| D01 | GMV growth | 0.07142857142857142 | ratio | DERIVED | Growth below reported market growth does not identify cause. |
+| D02 | Revenue growth | 0.3333333333333333 | ratio | DERIVED | Do not equate all revenue growth to commission increases. |
+| D03 | Exact realized revenue/GMV 2024 | 0.08035714285714286 | ratio | DERIVED | Use this rather than rounded8% in reconciled decomposition. |
+| D04 | Exact realized revenue/GMV 2025 | 0.1 | ratio | DERIVED | Not an identified category commission rate; services/logistics/mix may contribute. |
+| D05 | Revenue growth from volume at 2024 realized rate | 3.2142857142857144 | IDR trillion | DERIVED | Accounting decomposition with 2024 realized rate fixed; not causal attribution. |
+| D06 | Revenue growth from monetization/mix at 2025 GMV | 11.785714285714285 | IDR trillion | DERIVED | Interaction assigned to rate/mix effect at current GMV; not pure fee revenue. |
+| D07 | Monetization/mix share of revenue growth | 0.7857142857142857 | ratio | DERIVED | Decomposition convention stated; not78.6% of profit caused by fees. |
+| D08 | Other operating costs 2024 | 20 | IDR trillion | DERIVED RESIDUAL | Includes logistics and all other costs; breakdown unavailable. |
+| D09 | Other operating costs 2025 | 31 | IDR trillion | DERIVED RESIDUAL | Includes logistics and all other costs; not overhead only. |
+| D10 | Profit bridge revenue gain | 15 | IDR trillion | DERIVED | Revenue, not contribution. |
+| D11 | Profit bridge marketing saving | 4 | IDR trillion | DERIVED | Accounting saving, not verified efficient acquisition. |
+| D12 | Profit bridge other-cost drag | -11 | IDR trillion | DERIVED RESIDUAL | Detailed sources unknown; do not attribute to logistics alone. |
+| D13 | Operating-profit improvement | 8 | IDR trillion | DERIVED | No meaningful percentage growth from negative base. |
+| D14 | Reconciled profit bridge | 8 | IDR trillion | DERIVED | Consistent accounting-scope assumption required; equals D13. |
+| D15 | Operating margin on revenue | 0.08333333333333333 | ratio | DERIVED | Operating profit, not net income or cash. |
+| D16 | Operating profit/GMV | 0.008333333333333333 | ratio | DERIVED | Different denominator than operating margin. |
+| D17 | Small seller share of GMV | 0.3333333333333333 | ratio | DERIVED | Not unique-SKU share, contribution share or buyer dependence. |
+| D18 | Small seller churn change | 0.04999999999999999 | percentage-point change expressed as ratio | DERIVED | 5percentage points, not5% relative. |
+| D19 | Repeat-buyer rate change | -0.050000000000000044 | percentage-point change expressed as ratio | DERIVED | Not buyer churn; metric cohort definition missing. |
+| D20 | GMV share change 2024 | -0.020000000000000018 | percentage-point change expressed as ratio | DERIVED | Erosion predates2025 transition. |
+| D21 | GMV share change 2025 | -0.019999999999999962 | percentage-point change expressed as ratio | DERIVED | No acceleration is visible in the rounded annual change. |
+| D22 | Current blended delivery cost | 10000 | IDR per parcel | DERIVED IDENTITY | Average population alignment assumed; no marginal-cost inference. |
+| D23 | Implied delivery spend 2025 | 20 | IDR trillion | DERIVED IDENTITY | Not an audited logistics P&L; cost scope/consolidation treatment must align. |
+| D24 | GMV per parcel | 300000 | IDR per parcel | DERIVED | Not AOV or order basket size; no order-count data. |
+| D25 | Estimated small-seller departures in2025 cohort | 144000 | sellers | CONDITIONAL DERIVED | Only if annual12% applies to the1.2m opening cohort; not net exits or12%GMV loss. |
+| D26 | Same-base departures at7%counterfactual | 84000.00000000001 | sellers | ILLUSTRATIVE COUNTERFACTUAL | 2024 opening count absent; not observed2024departures. |
+| D27 | Same-base excess departures illustration | 59999.999999999985 | sellers | ILLUSTRATIVE COUNTERFACTUAL | Not observed incremental exits versus2024; entrants and timing unknown. |
+| D28 | Revenue sensitivity to1percentage-point realized rate | 6 | IDR trillion per1percentage point | STATIC SENSITIVITY | Before behavior and costs; not automatic profit gain. |
+| D29 | Cost sensitivity toRp1000 per parcel | 2 | IDR trillion | STATIC SENSITIVITY | Assumes same annual volume and cost scope; not a forecast. |
+| D30 | Rp1000 parcel-cost change as share of operating profit | 0.4 | ratio | STATIC SENSITIVITY | Operating-profit sensitivity, not cash budget or investment capacity. |
+| D31 | Ten-percentage-point in-house shift gross saving | 0.8 | IDR trillion annual | ILLUSTRATIVE SCENARIO | Constant volume/average costs; excludes capex, capacity, marginal routes, transition, service losses and courier repricing. |
+| D32 | Implied market growth from rounded company share values | 0.11801242236024834 | ratio | RECONCILIATION DIAGNOSTIC | 11.80%differs from reported11%; do not overwrite official growth with reverse-engineered precision. |
+
+**Saved Excel formulas**
+
+| Workbook row | Column | Formula |
+| --- | --- | --- |
+| 8 | C | =('Case Inputs'!$C$9-'Case Inputs'!$C$8)/'Case Inputs'!$C$8 |
+| 9 | C | =('Case Inputs'!$C$11-'Case Inputs'!$C$10)/'Case Inputs'!$C$10 |
+| 10 | C | ='Case Inputs'!$C$10/'Case Inputs'!$C$8 |
+| 11 | C | ='Case Inputs'!$C$11/'Case Inputs'!$C$9 |
+| 12 | C | =('Case Inputs'!$C$9-'Case Inputs'!$C$8)*('Case Inputs'!$C$10/'Case Inputs'!$C$8) |
+| 13 | C | ='Case Inputs'!$C$9*(('Case Inputs'!$C$11/'Case Inputs'!$C$9)-('Case Inputs'!$C$10/'Case Inputs'!$C$8)) |
+| 14 | C | ='Case Economics'!$C$13/('Case Inputs'!$C$11-'Case Inputs'!$C$10) |
+| 15 | C | ='Case Inputs'!$C$10-'Case Inputs'!$C$14-'Case Inputs'!$C$16 |
+| 16 | C | ='Case Inputs'!$C$11-'Case Inputs'!$C$15-'Case Inputs'!$C$17 |
+| 17 | C | ='Case Inputs'!$C$11-'Case Inputs'!$C$10 |
+| 18 | C | ='Case Inputs'!$C$14-'Case Inputs'!$C$15 |
+| 19 | C | =-('Case Economics'!$C$16-'Case Economics'!$C$15) |
+| 20 | C | ='Case Inputs'!$C$17-'Case Inputs'!$C$16 |
+| 21 | C | ='Case Economics'!$C$17+'Case Economics'!$C$18+'Case Economics'!$C$19 |
+| 22 | C | ='Case Inputs'!$C$17/'Case Inputs'!$C$11 |
+| 23 | C | ='Case Inputs'!$C$17/'Case Inputs'!$C$9 |
+| 24 | C | ='Case Inputs'!$C$28/'Case Inputs'!$C$9 |
+| 25 | C | ='Case Inputs'!$C$21-'Case Inputs'!$C$20 |
+| 26 | C | ='Case Inputs'!$C$23-'Case Inputs'!$C$22 |
+| 27 | C | ='Case Inputs'!$C$25-'Case Inputs'!$C$24 |
+| 28 | C | ='Case Inputs'!$C$26-'Case Inputs'!$C$25 |
+| 29 | C | ='Case Inputs'!$C$37*'Case Inputs'!$C$38+(1-'Case Inputs'!$C$37)*'Case Inputs'!$C$39 |
+| 30 | C | ='Case Inputs'!$C$36*'Case Inputs'!$C$19/1000 |
+| 31 | C | ='Case Inputs'!$C$9/'Case Inputs'!$C$36*1000 |
+| 32 | C | ='Case Inputs'!$C$40*'Case Inputs'!$C$21 |
+| 33 | C | ='Case Inputs'!$C$40*'Case Inputs'!$C$20 |
+| 34 | C | ='Case Economics'!$C$32-'Case Economics'!$C$33 |
+| 35 | C | ='Case Inputs'!$C$9*0.01 |
+| 36 | C | ='Case Inputs'!$C$36*1000/1000 |
+| 37 | C | ='Case Economics'!$C$36/'Case Inputs'!$C$17 |
+| 38 | C | ='Case Inputs'!$C$36*0.10*('Case Inputs'!$C$39-'Case Inputs'!$C$38)/1000 |
+| 39 | C | =('Case Inputs'!$C$9/'Case Inputs'!$C$26)/('Case Inputs'!$C$8/'Case Inputs'!$C$25)-1 |
+
+<a id="v3-actions"></a>
+## 7. Proposed action portfolio and argument
+
+These are research/implementation options, not a selected final strategy, proven results or approved budgets. Prioritize through evidence quality, materiality, plausibility of incremental contribution and feasibility; do not add invented uplifts simply to make the model attractive.
+
+The proposed tests cover basket viability/final price; seller net proceeds, program consent and payout predictability; route and recovery contribution; productive assortment/reordering continuity; occasion-specific retention; exploratory protected checkout for social-origin demand; and incremental profitable demand. A fee rebate should be compared with exposure, settlement and service alternatives rather than assumed superior.
+
+Nexora already has targeted incentives in the case. “Target incentives” alone is not a novel digital strategy. Deprioritized ideas include indiscriminate fee cuts/subsidy restoration, maximizing in-house share regardless of marginal economics, copying a full social platform, equating advertised ROAS with incremental profit and using active accounts as sufficient proof of productive retention.
+
+### Workbook snapshot — Actions and Research
+
+| id | name | priority | evidence ids | business decision | proposed intervention | historical interview questions | alternative or test | success measure | contribution guardrail | unknowns | go no go gate | priority rationale |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A01 | Test low-ticket basket economics and final-price certainty | Priority 2: bounded economics test | ["B06","S02","C01","EXT01"] | Whether targeted fee architecture, final-price clarity or legitimate basket consolidation protects viable small-ticket occasions better than an equivalent blanket rebate. | Display total delivered payable price early; give merchants an understandable low-ticket contribution preview. Test limited fee thresholds/credits or same-store bundles without hiding unit prices. | ["Show the last small purchase you considered but did not complete: what was the item price, final payable total and platform used instead?","For the last low-ticket SKU you stopped selling or bundled, reconstruct actual deductions, margin and customer response."] | Compare transparent total-price display alone, a narrowly scoped fee adjustment and business-as-usual for comparable eligible baskets. Measure existing purchases displaced as well as additional purchases. | Incremental completed eligible purchase occasions and delivered-order contribution; merchant SKU availability; subsequent non-incentivized repeat. | Subtract fee-credit cost, shipping/recovery cost and cannibalization. A bigger average basket is not a success if order frequency or contribution falls. Do not infer a universal optimum threshold from these data. | ["Nexora fixed/variable fee schedule by category","Basket distribution and low-ticket contribution","Buyer pass-through and incremental demand"] | Proceed beyond pilot only if observed incremental contribution is positive and useful assortment/price clarity improve. Reject if existing full-value orders merely receive a subsidy. | Multiple mechanisms and an external fixed-charge example support relevance, but Nexora basket economics and an effective threshold are unknown. |
+| A02 | Make net proceeds, program consent and payout timing predictable | Priority 1: reproduce and test process friction | ["S03","S08","EXT09"] | Whether predictability can retain productive merchants at lower economic cost than reducing headline fees or adding credit. | Pre-activation net-payout preview, visible program/affiliate-charge consent and change history, order-level reconciliation and expected settlement dates with reason-coded exceptions. Explain attributed campaign revenue separately from incremental ad contribution. | ["Reconstruct your last completed order from selling price through each deduction to bank receipt; which charges or dates surprised you?","Which paid programs did you knowingly select, and what did you change after the last unexpected deduction or delayed payout?"] | Test preview/consent/settlement information against an equivalent-cost rebate and existing workflow; assess comprehension before assuming an interface defect. | Fewer unexplained deductions and payout escalations, better forecast-to-realized payout accuracy, retained productive SKUs and contribution. | Include support/implementation cost, any accelerated-settlement funding and fraud/return exposure. Do not accelerate funds indiscriminately or call attributed GMV incremental sales. | ["Actual Nexora consent and payout workflows","Source of settlement holds","Merchant comprehension versus interface failure","Incremental fraud/reserve cost"] | Proceed if the target problem is reproduced on legitimate order evidence and the intervention improves retained contribution without unacceptable fraud or buyer-protection losses. | Potential process interventions differ from a broad revenue concession; reproduce actual consent/payout failures before treating them as low-cost wins. |
+| A03 | Allocate fulfilment and recovery by total transaction contribution | Priority 2: scenario gate before fulfilment expansion | ["C03","C05","C06","S04","B01","B05","EXT07"] | Which route/risk cohorts should use NexExpress, external couriers or a differentiated protection/recovery offer. | Evaluate delivery choice jointly with failed-delivery, return handling, appeal decisions and reimbursement. Preserve buyer protection while documenting seller chain-of-custody and compensation. | ["For your last failed or returned order, who held the goods and money at each stage, what evidence did you submit and what was actually reimbursed?","After your last resolved delivery problem, where did you make your next comparable purchase and why?"] | Compare matched service cohorts or scenario ranges for in-house and external handling; test risk-specific courier choice or recovery improvements rather than blanket insourcing. | Contribution per successfully completed order, service failure/recovery outcomes and subsequent comparable-category purchasing; parcel cost remains one input. | Use marginal delivery/capacity costs plus expected service loss, transition cost and capital requirements. Rp0.8tn from a 10pp share shift is only a constant-cost illustration; do not double-count it in the historical bridge. | ["Marginal route costs and spare capacity","Failure/return/reimbursement rates","Capital and transition expense","Actual Nexora service deterioration is unproven"] | Do not recommend a fixed higher in-house share until plausible adverse scenarios preserve positive incremental contribution and acceptable service. DHL APAC figures are external context, not Indonesian failure rates. | Case cost sensitivity makes the decision material, while missing marginal-route/capacity data prevents a validated expansion forecast. |
+| A04 | Protect productive assortment and repeat-order continuity | Priority 1: identify productive supply at risk | ["C02","B04","S05","S07","EXT02"] | Which merchants and workflows merit retention investment beyond a churn-risk score. | Identify differentiated products, familiar buyer-seller relationships and broken listing/reorder paths; prioritize backward-compatible workflows, actionable listing rejection explanations and migration exception handling where applicable. | ["Which products did you last remove, stop replenishing or move to another channel while keeping your marketplace account?","Tell us about the last familiar seller or reordered product you could not find; what did you buy instead and where?","What do you currently do on each platform: sell inventory, affiliate promotion, source goods, buy, browse or nothing?"] | Compare productive-assortment support to a generic seller rebate among merchants with documented at-risk SKUs; distinguish legitimate compliance restrictions from avoidable workflow failures. | Sellable differentiated SKUs, successful repeat purchases from affected relationships, delivered sales and merchant contribution—not account links or logins alone. | Value incremental retained activity once; account for substitution to other Nexora sellers and support cost. Do not assume every small seller is irreplaceable. | ["SKU uniqueness and buyer dependence","Contribution of exiting merchants","Nexora-specific workflow failure","Merchant-to-affiliate transition is a 2026 exploratory signal"] | Prioritize only when evidence identifies genuinely at-risk productive supply or a reproducible continuity failure; avoid blanket retention spending based on churn labels. | Small-seller materiality is established; buyer dependence and SKU uniqueness must determine which retention intervention is worth funding. |
+| A05 | Test retention around actual purchase occasions | Priority 1: identify lost purchase occasions | ["B01","B03","C04","EXT05","EXT10"] | Which category/risk/replenishment occasions Nexora can win profitably, rather than whether users remain active. | Use purchase diaries and past-order reconstruction to separate default preference, deal-only visits, expensive protected purchases and routine replenishment. Test benefit combinations for the identified occasions. | ["List your last five online purchases across every platform: category, total paid, benefit used and next-best alternative.","Which platform did you stop using as your first choice, and what was the last actual purchase that changed that habit?"] | Within a documented occasion, compare relevant service/price/membership attributes with the current targeted-incentive offer. Nexora already targets incentives, so targeting alone is not the innovation. | Incremental completed occasions, non-incentivized repeat and contribution; within-person channel allocation from diary respondents rather than inferred population wallet share. | Distinguish membership self-selection and purchases that would have happened anyway. Deduct incentive, delivery and service costs and measure displacement of existing Nexora orders. | ["Buyer cohort and repeat-rate definition","Actual across-platform transaction allocation","Willingness to pay for service attributes","EXT10 is 2026 context and associational"] | Proceed only when a specific lost occasion is observed and a controlled offer improves incremental contribution; do not infer exclusivity or causal membership lift from active-user counts. | This research distinguishes active-account retention from the transaction objective and informs which commercial or service test should run. |
+| A06 | Explore trusted settlement for demand discovered elsewhere | Priority 3: exploratory option | ["B02","S06","EXT03","EXT04"] | Whether Nexora can earn contribution as a trusted completion layer without owning the original discovery moment. | Research protected checkout links and transparent transaction-service pricing for legitimate social-origin orders; preserve payment integrity and buyer protection. | ["For your last social-origin sale, where did the buyer discover it, where was payment completed and why was that channel chosen?","What was the last occasion on which you paid part outside a marketplace, and what benefit or charge drove that decision?"] | First establish repeatable demand with completed-order reconstruction. If supported, compare protected marketplace checkout with the current lawful checkout path; do not promote fee evasion. | Incremental legitimate completed transactions, net captured transaction value, fraud/dispute outcomes and contribution. | Include protection, fraud, recovery, acquisition and subsidy costs. One reported trust-driven transaction does not establish a 20% premium or a large addressable funnel. | ["How common completed social-origin protected checkout actually is","Willingness to pay and who pays","Leakage and fraud exposure","Technical and policy feasibility"] | Keep as a research hypothesis until independent completed examples and unit economics are established. Reject rollout if the service primarily subsidizes token checkout or payment bypass. | The most direct completed-transaction example is a single report; a full product rollout would outrun the evidence. |
+| A07 | Prove merchant value through incremental profitable demand | Priority 2: controlled commercial-value comparison | ["S01","C01","EXT09","EXT08"] | Whether qualified incremental demand, a service fix or a fee rebate best retains commercially valuable sellers. | Show merchants realized delivered-order economics and distinguish attributed ad sales from incremental contribution. Test qualified exposure/service improvements against a cost-equivalent rebate for a defined seller cohort. | ["What was your last change in inventory, advertising or effort across channels, and what happened to completed orders and take-home margin?","Show the last campaign you judged successful: which attributed orders would likely have occurred organically or through an affiliate anyway?"] | Use an eligible holdout or credible comparison for incremental demand. Compare interventions at comparable platform cost; do not assume lower fees or more exposure wins. | Incremental delivered-order contribution and retained productive supply; merchant realized margin, not GMV Max dashboard ROI alone. | Subtract ad/exposure opportunity cost, rebate, cannibalization, returns and service costs. EXT08 is Sea group reporting and does not identify Nexora or individual merchant economics. | ["Seller demand dependence and counterfactual sales","True incremental exposure effect","Contribution after advertising and returns","Category and service mix"] | Scale only if merchants and the platform both retain positive incremental economics; stop if attributed revenue rises without incremental completed contribution. | Demand dependence has qualitative support, but qualified exposure, rebate and service alternatives need a counterfactual comparison. |
+
+### Workbook snapshot — Headlines and Issue Tree
+
+| order | headline | evidence_ids | status |
+| --- | --- | --- | --- |
+| 1 | Nexora’s profit recovery outpaced GMV growth while buyer repeat and small-seller retention weakened. | ["C01","D01","D02","D18","D19"] | Case facts and derived accounting |
+| 2 | Share erosion began before the 2025 changes, so a subsidy rollback cannot be assumed to solve the whole problem. | ["C04","D20","D21"] | Case time pattern plus strategic inference |
+| 3 | Comparator accounts show that platform activity can persist while purchase occasions, roles or captured value move elsewhere. | ["B03","S06","S07"] | Qualitative comparator mechanisms; S07 is a single 2026 lead |
+| 4 | Some buyers describe category-specific concerns and delivery safeguards alongside successful high-value purchases across competing platforms. | ["B01","B06"] | Qualitative contrast with successful high-value counterexamples |
+| 5 | Some sellers tolerate high deductions when the marketplace supplies demand that cheaper channels fail to reproduce. | ["S01"] | Repeated attributed accounts; profit superiority unmeasured |
+| 6 | Fixed charges expose low-ticket viability concerns; whether they reduce Nexora purchase frequency remains a testable hypothesis. | ["S02","B06","EXT01"] | Observed responses plus unmeasured transaction-frequency hypothesis |
+| 7 | Unexpected deductions and payout uncertainty create retention hypotheses distinct from the nominal fee level. | ["S03","S08"] | Comparator mechanisms; cheaper retention impact unproven |
+| 8 | NexExpress’s lower average parcel cost does not establish the profitability of the next route or failed order. | ["C03","C05","S04","B05"] | Case identity and sensitivity plus comparator failure modes |
+| 9 | The decision is which productive transactions to protect, not which account count or shipping share to maximize. | ["C02","B04","S05","C03"] | Proposed synthesis; incremental value still requires validation |
+| 10 | The first tests should compare transaction-value improvements with rebates before committing to a broad commercial reset. | ["A01","A02","A03","A04","A05","A07"] | Proposed action sequence, not a measured outcome |
+
+| id | stage | mechanism | evidence_ids | supported_observations | hypothesis_not_proven_for_nexora | rival_explanation | actions |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| T1 | Productive supply exists and remains sellable | Merchant value, assortment and workflow continuity | ["S01","S02","S03","S05","S08","B04","C02"] | Comparator merchants describe demand-versus-fee trade-offs, low-ticket viability problems, listing/workflow disruptions and uncertain settlement. Small sellers contribute one third of Nexora case GMV. | A portion of valuable supply is withheld, moved or made unavailable before formal seller churn, and this disrupts buyer repeat relationships. | Departing sellers or unavailable listings may be low-contribution, duplicative, restricted or ineligible; not every workflow complaint is platform error. | ["A01","A02","A04","A07"] |
+| T2 | Buyer chooses and pays for a purchase occasion | Delivered basket value, trusted completion and occasion allocation | ["B01","B02","B03","B06","S06","C04","EXT04","EXT05"] | Comparator accounts allocate purchases by basket risk, final payable price, benefits and familiar seller relationships. Discovery and settlement can be separated in individual accounts. | Nexora loses particular categories or replenishment occasions before losing app activity, and discounts alone do not restore them. | Price or assortment parity could explain most lost occasions; social-to-marketplace settlement is only a small exploratory lead. | ["A01","A05","A06"] |
+| T3 | Order completes, recovers from failure and earns contribution | Fulfilment and recovery economics across buyer, seller and platform | ["C03","C05","C06","S04","B01","B05"] | Nexora average internal parcel cost is lower; comparator accounts identify recovery, loss allocation and courier choice as transaction-value factors. | Some cheaper fulfilment choices may externalize costs or weaken repeat confidence, so route-level total contribution differs from average parcel cost. | NexExpress may have spare capacity and density gains; some failures originate with packaging or seller conduct rather than platform logistics. | ["A03","A02"] |
+
+| Deprioritized idea | Reason | Evidence anchors |
+| --- | --- | --- |
+| Blanket fee cuts or restoring general subsidies | No Nexora fee elasticity, contribution or incrementality is identified; some merchants report staying for demand despite fees. | ["C01","S01","B03"] |
+| A universal higher in-house parcel-share target | Current average costs do not price marginal routes, capacity, service risk or transition capital. | ["C03","C05","S04"] |
+| Introducing targeted incentives as the unique innovation | Targeted incentives already exist in the supplied case; differentiation must come from a validated action or transaction mechanism. | ["C02","A05"] |
+| Copying the full social-content model of a faster-growing competitor | Nexora’s discovery gap and content economics are unmeasured; regional video-commerce growth is context, not a company-specific causal diagnosis. | ["C04","EXT03","B02"] |
+| Financing merchants before understanding payout process failures | Credit can finance an avoidable process-induced cash gap and add risk; settlement timing and hold reasons must be reconstructed first. | ["S08","A02"] |
+| Use churn scores or active accounts as the primary success metric | High churn risk does not identify profitable recoverability or unique assortment; activity can persist under a different role. | ["C02","S07","B03"] |
+| Claiming a quantified trust premium or large social-to-checkout opportunity | Current completed-transaction evidence is exploratory and does not identify willingness to pay, prevalence or a 20% premium. | ["B02","S06"] |
+| Treating campaign-attributed GMV or platform revenue growth as incremental merchant profit | Attribution can include organic/affiliate sales; platform and merchant contribution have different cost bases. | ["EXT09","EXT08","S01","C01"] |
+
+### 7.1 Complete proposed issue-tree logic
+
+```json
+{
+  "root_question": "Which productive transactions does Nexora fail to retain, and which changes can recover them at positive incremental contribution?",
+  "symptoms": [
+    {
+      "symptom": "Small-seller churn rises from 7% to 12%",
+      "evidence_ids": [
+        "C02",
+        "D18"
+      ]
+    },
+    {
+      "symptom": "Repeat-buyer rate falls from 62% to 57%",
+      "evidence_ids": [
+        "D19"
+      ]
+    },
+    {
+      "symptom": "GMV share falls from 50% to 48% to 46%",
+      "evidence_ids": [
+        "C04",
+        "D20",
+        "D21"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "T1",
+      "stage": "Productive supply exists and remains sellable",
+      "mechanism": "Merchant value, assortment and workflow continuity",
+      "evidence_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S05",
+        "S08",
+        "B04",
+        "C02"
+      ],
+      "supported_observations": "Comparator merchants describe demand-versus-fee trade-offs, low-ticket viability problems, listing/workflow disruptions and uncertain settlement. Small sellers contribute one third of Nexora case GMV.",
+      "hypothesis_not_proven_for_nexora": "A portion of valuable supply is withheld, moved or made unavailable before formal seller churn, and this disrupts buyer repeat relationships.",
+      "rival_explanation": "Departing sellers or unavailable listings may be low-contribution, duplicative, restricted or ineligible; not every workflow complaint is platform error.",
+      "actions": [
+        "A01",
+        "A02",
+        "A04",
+        "A07"
+      ]
+    },
+    {
+      "id": "T2",
+      "stage": "Buyer chooses and pays for a purchase occasion",
+      "mechanism": "Delivered basket value, trusted completion and occasion allocation",
+      "evidence_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B06",
+        "S06",
+        "C04",
+        "EXT04",
+        "EXT05"
+      ],
+      "supported_observations": "Comparator accounts allocate purchases by basket risk, final payable price, benefits and familiar seller relationships. Discovery and settlement can be separated in individual accounts.",
+      "hypothesis_not_proven_for_nexora": "Nexora loses particular categories or replenishment occasions before losing app activity, and discounts alone do not restore them.",
+      "rival_explanation": "Price or assortment parity could explain most lost occasions; social-to-marketplace settlement is only a small exploratory lead.",
+      "actions": [
+        "A01",
+        "A05",
+        "A06"
+      ]
+    },
+    {
+      "id": "T3",
+      "stage": "Order completes, recovers from failure and earns contribution",
+      "mechanism": "Fulfilment and recovery economics across buyer, seller and platform",
+      "evidence_ids": [
+        "C03",
+        "C05",
+        "C06",
+        "S04",
+        "B01",
+        "B05"
+      ],
+      "supported_observations": "Nexora average internal parcel cost is lower; comparator accounts identify recovery, loss allocation and courier choice as transaction-value factors.",
+      "hypothesis_not_proven_for_nexora": "Some cheaper fulfilment choices may externalize costs or weaken repeat confidence, so route-level total contribution differs from average parcel cost.",
+      "rival_explanation": "NexExpress may have spare capacity and density gains; some failures originate with packaging or seller conduct rather than platform logistics.",
+      "actions": [
+        "A03",
+        "A02"
+      ]
+    }
+  ],
+  "structure_note": "Branches are successive transaction gates, with symptoms kept above them and proposed actions kept separate. Mechanisms can interact across gates; the tree is not a claim that observed causes are mutually exclusive or fully identified."
+}
+```
+
+### 7.2 Common measurement rule
+
+All proposal impact calculations should reconcile incremental realized revenue minus intervention, fulfilment, recovery, fraud and implementation costs. Count the same retained transaction once across buyer, seller and logistics benefits. No causal uplift, retention rate, ROI, budget threshold or statistical significance is estimated from the selected social sample.
+
+<a id="v3-evidence"></a>
+## 8. Selected exact evidence and labelled external research
+
+### 8.1 Complete 82-entry selected evidence library
+
+The following are the final workbook's selected support and counterevidence entries. Texts are exact source-language quotations supplied in the user’s scraped files. They preserve reported experiences and allegations without certifying their truth. The evidence ledger's 82 entries are not 82 independent incidents or unique people. Use source clusters, dates, role interpretation and stance together.
+
+#### B01-S-001 — B01 / Support
+
+**Master record key:** X|post|1932937047410712896
+
+**Platform:** X
+
+**Source content ID:** 1932937047410712896
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|232069521
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> beli gadget di tiktokshop aman ga si gusy..gue mentok beli cemilan doang disana
+> 
+> tertarik sama diskonnya tapi beberapa kali nemu thread barang dalamnya ditukar sama kurir😩
+
+**Interpretation:** Explicitly buys snacks on TikTok but hesitates to buy gadgets despite discounts; inquiry is not an observed gadget abandonment.
+
+**URL:** https://x.com/pawsikiater/status/1932937047410712896
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-05-257.json; dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B01-S-002 — B01 / Support
+
+**Master record key:** X|post|1932826662758166753
+
+**Platform:** X
+
+**Source content ID:** 1932826662758166753
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1426130292415229958
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @sanggarrrr @noturhusband_ Pengalaman sih di Tokped aman. Beli tablet, laptop, Switch, harganya diatas 5jt semua. Kuncinya sepengalaman gw tu, jangan pake free ongkir. Kita pastiin kurirnya pilihan kita yg udh jelas track recordnya. Plus, klo ada opsi asuransi, pakein sekalian. Paling nambah brp puluh rb.
+
+**Interpretation:** Reports >Rp5m devices and deliberate avoidance of free delivery to choose a known courier; stated extra payment has no measured market premium.
+
+**URL:** https://x.com/jakulasi/status/1932826662758166753
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B01-S-003 — B01 / Support
+
+**Master record key:** X|post|1977006906486276454
+
+**Platform:** X
+
+**Source content ID:** 1977006906486276454
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1407028669151801346
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @tanyarlfes amannn kak aku pernah beli di agres tpi lewat tokped dan aku juga agak takut ya beli barang mahal jadi aku ngambil barangnya ke tempatnya dan disana di unboxing bareng2
+
+**Interpretation:** Reports buying through Tokopedia but collecting and unboxing at the store to manage expensive-item risk.
+
+**URL:** https://x.com/imutkiyuttts/status/1977006906486276454
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B01-S-004 — B01 / Support
+
+**Master record key:** X|post|1933321961347960903
+
+**Platform:** X
+
+**Source content ID:** 1933321961347960903
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1815856203001720832
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @namiyeraa @noturhusband_ Aku ga pernah beli elektronik di shopee kalau beli elektronik selalu di tokped selalu aman dari hp,kamera,laptop dan lcd aman semua karena langsung wajib asuransi pengiriman juga
+
+**Interpretation:** Reports category-specific platform preference for electronics and insurance as its rationale.
+
+**URL:** https://x.com/Piomonn/status/1933321961347960903
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B01-S-005 — B01 / Support
+
+**Master record key:** TikTok|comment|7511573610126033672
+
+**Platform:** TikTok
+
+**Source content ID:** 7511573610126033672
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7036833577368372225
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** buyer
+
+**Evidence type:** stated preference/advice; actual high-value purchase not specified
+
+**Original exact text:**
+
+> beli shopee sih
+> kl d tiktok, ga berani beli brg mahal² krn byk brg yg beda antara video dan barang aslinya
+
+**Interpretation:** 2025 TikTok commenter says they use Shopee for expensive goods because video representations may differ from actual products.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### B01-C-006 — B01 / Counterexample
+
+**Master record key:** X|post|1907820312428957776
+
+**Platform:** X
+
+**Source content ID:** 1907820312428957776
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|878087936138289152
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @tanyakanrl nder aku ada saran beli di tiktokshop aja,
+> kohcun atau sefrico aku udh 2x beli disana 15 basic sm 13 basic, aman dr pengiriman ataupun hp nya. harganya beda jauh dr oren dan offline. kemarin ip 13 7,2 jt an.
+
+**Interpretation:** Reports two successful high-value TikTok phone purchases; TikTok is not universally restricted to low-value goods.
+
+**URL:** https://x.com/seainblue_/status/1907820312428957776
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B01-C-007 — B01 / Counterexample
+
+**Master record key:** X|post|1936264427315380673
+
+**Platform:** X
+
+**Source content ID:** 1936264427315380673
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1474949772498780163
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @somexthread Saya udah 6 kali beli hp online tokped & lajada, syukur semua aman dan awet sampe sekarang.
+
+**Interpretation:** Reports six successful phone purchases across Tokopedia/Lazada, countering blanket online-device distrust.
+
+**URL:** https://x.com/RaniGumeleng/status/1936264427315380673
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B02-S-008 — B02 / Support
+
+**Master record key:** X|post|1898740464834216042
+
+**Platform:** X
+
+**Source content ID:** 1898740464834216042
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|2466507807
+
+**Role from reading:** seller
+
+**Evidence type:** first-person reported completed sale; seller-attributed buyer trust
+
+**Original exact text:**
+
+> @ceteraliu Buat semuanya, lain kali kalau online pilih rekber/ shopee, tokped. Langsung tf ke rekening pribadi tuh emang rawan kena tipu.
+> 
+> Aku aja abis jual hp, yang beli orang di tiktok, tapi transaksi di shopee, relain keluar biaya admin shopee yang gede banget💔 demi kepercayaan pembeli. https://t.co/UVnehqPCin
+
+**Interpretation:** Seller says buyer came from TikTok but they completed the phone transaction through Shopee despite high admin fees for buyer trust.
+
+**URL:** https://x.com/chiquitotoro25/status/1898740464834216042
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B02-S-009 — B02 / Support
+
+**Master record key:** X|post|1925534434423710020
+
+**Platform:** X
+
+**Source content ID:** 1925534434423710020
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1377634646142246915
+
+**Role from reading:** buyer/adviser
+
+**Evidence type:** safety advice
+
+**Original exact text:**
+
+> Guys buat yg mau wtb gtu bisa ga jangan transaksi di dm😿😿 minimal pindah ke wa trs megang data rl nya dulu pls jangan mau lamgsung trf ya allah aku tu kasian sama kalian yg pada kena😭
+> 
+> Atau minta full co shopee dehh + biaya admin jg gapapa yg prnting aman.
+
+**Interpretation:** Advises paying full amount through Shopee and accepting admin fees for safety; not an observed own willingness-to-pay transaction.
+
+**URL:** https://x.com/jihyoonsukk/status/1925534434423710020
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B02-S-010 — B02 / Support
+
+**Master record key:** X|post|1922082454409564664
+
+**Platform:** X
+
+**Source content ID:** 1922082454409564664
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|289213363
+
+**Role from reading:** buyer/adviser
+
+**Evidence type:** safety advice
+
+**Original exact text:**
+
+> @zigicpmgks Ini aku cek udah ada yang laporin 2 orang, coba laporin juga biar rekening dia di blokir...
+> 
+> Lain kali hati" ya, belanja digicam cari yang bisa rekber shopee/tokped, sebelum belanja jg periksa rekening dulu disini, tapi saranku sih jgn mau tf duluan
+>  https://t.co/VaU0VycitJ https://t.co/X3aoL1dqfh
+
+**Interpretation:** Recommends escrow marketplace rather than transfer-first for digicam purchases.
+
+**URL:** https://x.com/_watert/status/1922082454409564664
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B02-C-011 — B02 / Counterexample
+
+**Master record key:** X|post|1961259583282061641
+
+**Platform:** X
+
+**Source content ID:** 1961259583282061641
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|736604994
+
+**Role from reading:** seller
+
+**Evidence type:** sales solicitation/proposed transaction route, not verified completed bypass
+
+**Original exact text:**
+
+> bismillah.. NEW! bukan preloved
+> ✅ expired masih jauh
+> ✅ masih segel
+> ✅ 100% original
+> 
+> bs checkout lewat oren, harga yg aku share blm termasuk biaya admin 8%
+> saranku payment (harga barang) lgsg ke rekening pribadiku, toko oren cuma checkout 1k (untuk dapetin free ongkir) https://t.co/ooFhZ0YGhU
+
+**Interpretation:** Merchant advertises direct full payment with only token Rp1k Shopee checkout to obtain delivery benefits; incentive leakage/fee bypass remains an alternative.
+
+**URL:** https://x.com/butterinbowl/status/1961259583282061641
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B03-S-012 — B03 / Support
+
+**Master record key:** X|post|1994035655010328735
+
+**Platform:** X
+
+**Source content ID:** 1994035655010328735
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1703782844986953728
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> drtd scroll2 shopee, tokped, lazada sm tiktok buat nyari low ph cosrx ga nemu2 diskonnya. trs nyari di seller twt pada gacocok harga juga, alhamdulillah tbtb dapet di tiktok kayaknya cencel an org, emg ya apapun yang udah ditakdirkan untukmu selalu akan menjadi milikmu
+
+**Interpretation:** Reports searching Shopee, Tokopedia, Lazada, TikTok and X sellers for the same skincare item before finding TikTok stock/discount.
+
+**URL:** https://x.com/deygemas/status/1994035655010328735
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### B03-S-013 — B03 / Support
+
+**Master record key:** TikTok|comment|7512338445416792833
+
+**Platform:** TikTok
+
+**Source content ID:** 7512338445416792833
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7281325003981898757
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> 1 bulan sekali masih beli tokped. karena selalu d kasih diskon. lumayan buat beli biji kopi diskonan. wkwkwk
+
+**Interpretation:** Says still buying on Tokopedia monthly for discounted coffee beans: retained category occasion, not exclusive preference.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### B03-S-014 — B03 / Support
+
+**Master record key:** TikTok|comment|7511608520765621000
+
+**Platform:** TikTok
+
+**Source content ID:** 7511608520765621000
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6887436257506657282
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> Lebih sering beli di toped karena gabung TikTok dan gojek, jadi 1 member bisa multiplafon apalagi member plus
+
+**Interpretation:** States more frequent Tokopedia use due to a membership spanning TikTok/GoJek; stated reason rather than measured uplift.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### B03-S-015 — B03 / Support
+
+**Master record key:** X|post|1903450962527674445
+
+**Platform:** X
+
+**Source content ID:** 1903450962527674445
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1642864069
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @Seleknightss Padahal harga brg di lazada lebih murah lho. Aku langganan beli pampers ibuku.  Di tokped 48rb , oren 45rb , lazada 32rb , merk sama , isi sama.
+
+**Interpretation:** Reports recurring diaper purchases with explicit same-brand/quantity prices across three platforms; numbers are testimony, not an independently scraped matched basket.
+
+**URL:** https://x.com/deeranddash/status/1903450962527674445
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B03-S-016 — B03 / Support
+
+**Master record key:** X|post|1940701699318129101
+
+**Platform:** X
+
+**Source content ID:** 1940701699318129101
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1418099395
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @PartaiSocmed saya untuk ikut gratis ongkir juga wajib langganan Rp90k untuk 6 bulan. itu juga nggak semua penjual tokopedia ada gratis ongkir.
+
+**Interpretation:** Pays membership for free shipping but reports seller eligibility limitations; benefits can disappoint even after subscription.
+
+**URL:** https://x.com/Addsmann/status/1940701699318129101
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json; dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B03-C-017 — B03 / Counterexample
+
+**Master record key:** TikTok|comment|7511718017128071954
+
+**Platform:** TikTok
+
+**Source content ID:** 7511718017128071954
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6908959890014831618
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> gw gw gw
+> sekarang cuman beli di shopee ma tiktok
+> klo tokopedia, lazzada dll udah uninstal dari taun 2020 😂
+
+**Interpretation:** Reports actually uninstalling Tokopedia/Lazada and keeping Shopee/TikTok, showing full exit also occurs.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### B03-C-018 — B03 / Counterexample
+
+**Master record key:** TikTok|comment|7511742592175293191
+
+**Platform:** TikTok
+
+**Source content ID:** 7511742592175293191
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7175793358160790554
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> rata2 harga murah di sopi. dulu selalu pake toped..skrng udh ful sopi
+
+**Interpretation:** Reports shifting from Tokopedia to full Shopee use because of perceived lower prices.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### B04-S-019 — B04 / Support
+
+**Master record key:** X|post|1932639371083329905
+
+**Platform:** X
+
+**Source content ID:** 1932639371083329905
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|7195422
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @tokopedia migrasi ke TikTok Shop bener-bener NGGAK SMOOTH. Buat aku sebagai pelanggan lama nyusahin banget karena nggak bisa ngetrack riwayat transaksi, dan ada vendor langganan yang aku reach out ga jawab2; untung mereka ada akun IG jadi aku kontak manual 🫠
+> 
+> Menurut aku experience ini "nggak banget" ☠️ buat Tokped, aku saranin, geura evaluasi deh sebelum user bener2 minggat 😅
+
+**Interpretation:** Long-time customer reports lost history, unresponsive regular vendors and manual Instagram contact during migration; threatens exit but actual permanent exit is not established.
+
+**URL:** https://x.com/puty/status/1932639371083329905
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-05-257.json; dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B04-S-020 — B04 / Support
+
+**Master record key:** X|post|1931127713479471201
+
+**Platform:** X
+
+**Source content ID:** 1931127713479471201
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1775505047956471808
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> Halo min @tokopedia @TokopediaCare aku habis beli token listrik di tokped tapi gak bisa liat token listriknya krna tools riwayat transaksi sedang pengembangan. Gimna dong Min token listrik listrik udh diujung tanduk nih https://t.co/AtghovocvR
+
+**Interpretation:** Reports inability to access a purchased electricity token while transaction-history tools are under development: workflow continuity affects immediate product utility.
+
+**URL:** https://x.com/JabezSenSi/status/1931127713479471201
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B04-S-021 — B04 / Support
+
+**Master record key:** X|post|1933430821798777110
+
+**Platform:** X
+
+**Source content ID:** 1933430821798777110
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|148632630
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @fxmario ada toko langganan, gw udah minta nomer HP-nya biar belanja gak lewat tokped lagi.
+> daripada gw pusing dia pusing juga.
+
+**Interpretation:** Reports requesting the phone number of a regular store to stop purchasing through Tokopedia; explicit direct-channel move, reason broadly described as mutual hassle.
+
+**URL:** https://x.com/acipanser/status/1933430821798777110
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B04-C-022 — B04 / Counterexample
+
+**Master record key:** X|post|1923200161171337353
+
+**Platform:** X
+
+**Source content ID:** 1923200161171337353
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|255487607
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> Well, not for everyone tho.
+> 
+> Riwayat belanja gue di Tokopedia lebih banyak daripada di Shopee. Bahkan pernah gak pake Shopee selama 1,5 tahun.
+
+**Interpretation:** Reports more Tokopedia than Shopee purchase history and 1.5 years without Shopee; not all buyers are destabilized into switching.
+
+**URL:** https://x.com/bpark97/status/1923200161171337353
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B05-S-023 — B05 / Support
+
+**Master record key:** TikTok|comment|7586698888980693767
+
+**Platform:** TikTok
+
+**Source content ID:** 7586698888980693767
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7384527323544880145
+
+**Parent video:** 7525935834395200786
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> tpi jujur ya,
+> pengalaman di Tokped aga kurang enak, kadang susah return, lama nyampe, tpi plus ny byk toko yg ori/dri pabrik/distributor asli, klo Shopee minus ny, byk kw/toko mencurigakan, kurir byk oknum(terutama barang yg trend kek perfume/diecast), tpi plus ny gampang return/refund, Rata-rata seller fast resp, lacak paket ny akurat, byk diskon 😋
+
+**Interpretation:** Contrasts perceived Tokopedia authentic sellers with difficult returns versus Shopee suspicious listings but easier returns, responsive sellers and accurate tracking.
+
+**URL:** https://www.tiktok.com/@satupersen_official/video/7525935834395200786
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-22-59-482.json
+
+#### B05-S-024 — B05 / Support
+
+**Master record key:** X|post|1990742149873479961
+
+**Platform:** X
+
+**Source content ID:** 1990742149873479961
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|802455718850940928
+
+**Role from reading:** buyer/adviser
+
+**Evidence type:** secondhand recovery plus advice; not own verified purchase
+
+**Original exact text:**
+
+> @tanyakanrl Tpi jangan onlen nder,, temn ku beli laptop dibawa kabur sama kurir instan, (ga bisa gue sebut), tp untung bisa refund sm shopee, beli langsung aja kata gua
+
+**Interpretation:** Recounts a friend receiving a refund after an instant-courier laptop loss, yet still recommends buying offline.
+
+**URL:** https://x.com/zenniedya/status/1990742149873479961
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B05-S-025 — B05 / Support
+
+**Master record key:** X|post|1903548952127160578
+
+**Platform:** X
+
+**Source content ID:** 1903548952127160578
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|2925433711
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @Seleknightss lazada ui ux nya bikin pusing, mau chat seller aja harus lewatin bot banyak, retur barang saldonya ga bisa langsung masuk rekening harus nunggu dulu, pake ekspedisi lex id cepet sih kemarin tanggal 20 pesen, 22 udah nyampe padahal dari bogor emang sesepi itu keknya
+
+**Interpretation:** Reports fast delivery alongside difficult bot-mediated seller contact and slow refund-to-bank availability: speed and recovery can diverge.
+
+**URL:** https://x.com/asmarajathi/status/1903548952127160578
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### B05-S-026 — B05 / Support
+
+**Master record key:** X|post|1933657300633596073
+
+**Platform:** X
+
+**Source content ID:** 1933657300633596073
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|154840456
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @AgusMagelangan @kecapmbahjoyo @AkalBuku Sejak transaksiku dibatalin dgn alasan rekening yg digunakan utk membayar tdk sesuai dgn pemesan, aku langsung uninstall tokped. Seumur² belanja onlen baru kali ini transaksi dibatalin dgn alasan yg gak masuk akal.
+
+**Interpretation:** Reports uninstalling after a payment/order cancellation rule, not simply a price increase.
+
+**URL:** https://x.com/itstikakid/status/1933657300633596073
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B05-S-027 — B05 / Support
+
+**Master record key:** TikTok|comment|7605757721791759112
+
+**Platform:** TikTok
+
+**Source content ID:** 7605757721791759112
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6942642034621121537
+
+**Parent video:** 7583198365140241685
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> parah ih Oren..aku juga pesan paket.Kurir spx di Surabaya tidak mengirimkan 3 paket saya tidak ada juga konfirmasi apapun.namun malah mengirim bukti foto penerimaan barang palsu dan mencatat bahwa "yg bersangkutan" yakni saya sendiri yg menerima barang.pasahal jelas tidak apa paket yg datang.sedangkan di hari penerimaan barang itu dari pagi sampai malam saya ada di tempat.bagaimana dan dimana 3 paket saya sekarang.katanya pengembalian dana 3hr.mundur 2mg lagi.apasih uang receh nunggu lama bgt.nyesel beli di oren.enakan di tiktok garcep kirimnya.
+
+**Interpretation:** Current 2026 commenter alleges false delivery proof and repeated refund delay, preferring TikTok for future speed; unverified allegation and stated preference.
+
+**URL:** https://www.tiktok.com/@badri_hz/video/7583198365140241685
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-22-59-482.json
+
+#### B05-C-028 — B05 / Counterexample
+
+**Master record key:** X|post|1889133734269768125
+
+**Platform:** X
+
+**Source content ID:** 1889133734269768125
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|4922936485
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @ShopeeID Yang bikin betah aku belanja di shopee selama 7 Tahun ini.
+> 
+> 1. Banyak Promo dan Diskon.
+> 2. Tampilan selalu nyaman digunakan.
+> 3. Proses Pengembalian barang mudah bila Tidak sesuai pesanan.
+> 4. Ada harga khusus saat live 
+> Dll. https://t.co/t1SBzu247o
+
+**Interpretation:** Reports seven years of Shopee use and easy returns among reasons to stay; brand-addressed reply may be prompted/incentivized.
+
+**URL:** https://x.com/Koceng23/status/1889133734269768125
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B05-C-029 — B05 / Counterexample
+
+**Master record key:** X|post|1916500694992916916
+
+**Platform:** X
+
+**Source content ID:** 1916500694992916916
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1749780604034723840
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @BOBOlBOY djava optik bagus kak, punyaku udah ketindihan masih bisa dibenerin (tp ak waktu itu beli yg lentur harganya 300an)
+> 
+> skrng aku pake heykama (200an), bagus juga sih tp gatau knp gampang patah... untung hidupin asuransi shopee, jdinya dpt refund uang buat beli frame lagi
+
+**Interpretation:** Reports successful insurance refund for a broken frame; positive recovery is present in the corpus.
+
+**URL:** https://x.com/chasethewhim/status/1916500694992916916
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B06-S-030 — B06 / Support
+
+**Master record key:** X|post|1934169752878137663
+
+**Platform:** X
+
+**Source content ID:** 1934169752878137663
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|869865271212687361
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @discountfess aku tiap co biaya layanan selalu 2k 🥲 dahal beli barang seharga gasampek 5k. emang babi banget shopee
+
+**Interpretation:** Reports Rp2k service fee on items below Rp5k. The implied fee/item ratio exceeds40% only for this testimony; no platform-wide average is inferred.
+
+**URL:** https://x.com/eunabi30/status/1934169752878137663
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B06-S-031 — B06 / Support
+
+**Master record key:** X|post|1925564922551050430
+
+**Platform:** X
+
+**Source content ID:** 1925564922551050430
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|4005138192
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @basebuku Mau nanya nih, aku kan jarang pake lazada, nah aku coba mau beli yg lagi diskon kaya gini kan, tapi pas mau co pembayaran kok harganya balik normal ya? Udah aku cari" Vouchernya trus pake poin segala macem masih lebih mahal dari harga yg diiklanin?
+
+**Interpretation:** Reports advertised discounted price returning to normal at payment despite trying vouchers and points; asks for help rather than explicitly reporting abandonment.
+
+**URL:** https://x.com/nnedskiiie/status/1925564922551050430
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B06-S-032 — B06 / Support
+
+**Master record key:** X|post|1974847867321004289
+
+**Platform:** X
+
+**Source content ID:** 1974847867321004289
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1766137098988556288
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person comparison/question
+
+**Original exact text:**
+
+> @TwinSoul39 @nacharmingly kak kelebihan voucher deals tuh apa sih? kan kt beli vouchernya + bayar ongkir dan layanan lainnya. kalau di aku ketemu harganya sama kaya harga normal shopee biasanya:((
+
+**Interpretation:** Questions voucher deal value after adding voucher cost, shipping and service charges; final total resembles normal Shopee price.
+
+**URL:** https://x.com/apachaaL/status/1974847867321004289
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B06-S-033 — B06 / Support
+
+**Master record key:** TikTok|comment|7644839718403932948
+
+**Platform:** TikTok
+
+**Source content ID:** 7644839718403932948
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6987596972061934598
+
+**Parent video:** 7634830402879999253
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> dulu sering beli skincare atau kebutuhan dapur lewat online, sekarang lebih milih ke toko grosiran di tempatku, lebih murah, ga ada biaya lain", biaya admin, dan ongkir. beli online sekarang mahaaal banget
+
+**Interpretation:** Current 2026 commenter reports moving skincare/kitchen purchases to local wholesale stores because total online charges make them dearer. The price claim is unverified.
+
+**URL:** https://www.tiktok.com/@adhita.yulia/video/7634830402879999253
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### B06-S-034 — B06 / Support
+
+**Master record key:** TikTok|comment|7604317856944653077
+
+**Platform:** TikTok
+
+**Source content ID:** 7604317856944653077
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7177193105907860482
+
+**Parent video:** 7602956320416812306
+
+**Role from reading:** buyer/unclear
+
+**Evidence type:** stated perception
+
+**Original exact text:**
+
+> sekarang aja buat pembeli bisa kena biaya ongkir tambahan 🤣
+> ada voucher ongkir tapi berasa gk dpt free ongkir 🤣
+
+**Interpretation:** Current commenter says shipping vouchers no longer feel like free shipping because buyer surcharges remain.
+
+**URL:** https://www.tiktok.com/@pakhanif.id/video/7602956320416812306
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### B06-C-035 — B06 / Counterexample
+
+**Master record key:** X|post|1903450962527674445
+
+**Platform:** X
+
+**Source content ID:** 1903450962527674445
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1642864069
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @Seleknightss Padahal harga brg di lazada lebih murah lho. Aku langganan beli pampers ibuku.  Di tokped 48rb , oren 45rb , lazada 32rb , merk sama , isi sama.
+
+**Interpretation:** Recurring Lazada diaper purchases remain cheaper for this buyer despite platform charges; fees do not make every online basket uncompetitive.
+
+**URL:** https://x.com/deeranddash/status/1903450962527674445
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### B06-C-036 — B06 / Counterexample
+
+**Master record key:** X|post|2000207442521542756
+
+**Platform:** X
+
+**Source content ID:** 2000207442521542756
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1561900495039770624
+
+**Role from reading:** buyer
+
+**Evidence type:** first-person reported behavior
+
+**Original exact text:**
+
+> @discountfess Nunggu event aja Nder, kemaren aku co jiniso cuma kena 55k, pake voucher lazada 29k voucher toko 60k koin 61k, kalo kebagian voucher 30% sd 50k lebih murah lagi pasti
+
+**Interpretation:** Describes stacking vouchers/coins during an event to lower an actual checkout price substantially; deep discounts can still matter.
+
+**URL:** https://x.com/rayeolot9only/status/2000207442521542756
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-05-257.json
+
+#### S01-S-037 — S01 / Support
+
+**Master record key:** X|post|1934478848437244030
+
+**Platform:** X
+
+**Source content ID:** 1934478848437244030
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1783403525734813696
+
+**Role from reading:** self_reported_multichannel_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> jualan di online shop :
+> admin shopee 15%
+> admin tiktok 18%
+> admin tokped 7% (toko masih sepi) 
+> admin lazada 5% (baru sekali dapet orderan) 
+> harga wajib ambyar kalo mau bersaing 
+> 
+> jualan di kedai :
+> belum ada yang jaga
+> bahan baku harganya fluktuatif banget
+> biaya operasional gede
+
+**Interpretation:** Explicit comparison: lower reported fees on Tokopedia/Lazada coincide with weaker orders.
+
+**URL:** https://x.com/antiherrrro/status/1934478848437244030
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S01-S-038 — S01 / Support
+
+**Master record key:** X|post|1948051560967340453
+
+**Platform:** X
+
+**Source content ID:** 1948051560967340453
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1962546132
+
+**Role from reading:** former_employee_recollection
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @cadby0 Kantor gue yg lama jg jualan di shopee, pertahun admin aja bisa sampe 2M😭 kantor gue sampe bikin website/aplikasi sendiri biar menghindari admin tp kurang laku pdhl dikasih gratis ongkir jg🥲
+
+**Interpretation:** Own site/app reportedly sold poorly despite free shipping; this is a recollection, not an audited test.
+
+**URL:** https://x.com/fishfromthesky/status/1948051560967340453
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S01-S-039 — S01 / Support
+
+**Master record key:** X|post|2005527416350072963
+
+**Platform:** X
+
+**Source content ID:** 2005527416350072963
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1478755336727105541
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @bfeeling_ @elevenov_ @ShopeeID @ShopeeCare Wkwk sama ini harganya 145rb diganti 80 krn gak ikut asuransi, hadeh dan lucunya kemarin ada lewat di tl, ada yg jual karungan paket spx🤣🤣 emg ini ekspedisi gila, tp monopoli bgt:(
+> 
+> Jujur shopee udh gak worth it, pengen jualan ditempat lain tp pelanggannya masih shopee minded https://t.co/hIhB1fKJWV
+
+**Interpretation:** Desire to move is constrained by customers remaining Shopee-minded.
+
+**URL:** https://x.com/gaunxsix/status/2005527416350072963
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S01-S-040 — S01 / Support
+
+**Master record key:** TikTok|comment|7666050324592067336
+
+**Platform:** TikTok
+
+**Source content ID:** 7666050324592067336
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6827925178921829377
+
+**Parent video:** 7659582565094804757
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> tapi tiktok lebih parah admin nya, padahal diakuisisi tokped bukanya lebih murah adminnya buat seller dari pada Shopee ini malah lebih mahal, tapi penjualan aku lebih banyak di tiktok walau admin lebih mahal, bersyukur aja dah
+
+**Interpretation:** 2026 context: higher TikTok fees tolerated alongside more sales.
+
+**URL:** https://www.tiktok.com/@byharfa/video/7659582565094804757
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S01-C-041 — S01 / Counterexample
+
+**Master record key:** X|post|1934073931461530051
+
+**Platform:** X
+
+**Source content ID:** 1934073931461530051
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|54865264
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @Cikr4k72 @tokopedia @TokopediaCare Iya kak, potongannya makin besar. Sementara saya tutup toko saya, ga jualan lagi di tokped tiktok 🥲
+
+**Interpretation:** Countercase: explicitly closed Tokopedia/TikTok store amid rising deductions.
+
+**URL:** https://x.com/manktya/status/1934073931461530051
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json; dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S01-C-042 — S01 / Counterexample
+
+**Master record key:** TikTok|comment|7511894332032549650
+
+**Platform:** TikTok
+
+**Source content ID:** 7511894332032549650
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7431266637350978566
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> ak jualan di tokped laku banget kok..semua platform punya pelanggan yang beda2.ada yang nyaman beli di toktok,oyen atau ijo
+
+**Interpretation:** Tokopedia success counterexample warns against treating every smaller marketplace as demand-poor.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S02-S-043 — S02 / Support
+
+**Master record key:** TikTok|comment|7518636846524924680
+
+**Platform:** TikTok
+
+**Source content ID:** 7518636846524924680
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6757912417227703298
+
+**Parent video:** 7517537961181793554
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Saya ada toko jual kertas buket , 1 lembarnya 2000 an , masih di potong 13,5 %, skrg tambah lagi di potong 1250 ckckckckckk
+
+**Interpretation:** 2025 bouquet-paper seller describes roughly Rp2,000/unit plus a reported fixed Rp1,250 charge.
+
+**URL:** https://www.tiktok.com/@jansenhartono7/video/7517537961181793554
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S02-S-044 — S02 / Support
+
+**Master record key:** TikTok|comment|7517655338348692232
+
+**Platform:** TikTok
+
+**Source content ID:** 7517655338348692232
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7452637887675270160
+
+**Parent video:** 7517537961181793554
+
+**Role from reading:** apparent_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> jualan 8000 kena 1250 😭
+
+**Interpretation:** 2025 low-ticket example: Rp8,000 sale and Rp1,250 charge.
+
+**URL:** https://www.tiktok.com/@jansenhartono7/video/7517537961181793554
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S02-S-045 — S02 / Support
+
+**Master record key:** TikTok|comment|7530140839852557057
+
+**Platform:** TikTok
+
+**Source content ID:** 7530140839852557057
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6884562019535307777
+
+**Parent video:** 7517537961181793554
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> aku ada produk yg harganya 6000 dipotong 1250 blum plastik termal dan iklan ...kyk kerja bakti BNR 😭🙈
+
+**Interpretation:** 2025 Rp6,000 product reportedly incurs Rp1,250 before packaging and ads.
+
+**URL:** https://www.tiktok.com/@jansenhartono7/video/7517537961181793554
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S02-S-046 — S02 / Support
+
+**Master record key:** TikTok|comment|7518222619511227154
+
+**Platform:** TikTok
+
+**Source content ID:** 7518222619511227154
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6901215697557767170
+
+**Parent video:** 7517537961181793554
+
+**Role from reading:** advice_or_possible_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Solusinya yaa produk receh naikin 1250 beli 6pcs diskon 1000 . Beli 12 diskon 2500 ( siapatau ye kann jadi beli lebih dari 1 ) kan jadi perpcs cuma 100
+
+**Interpretation:** Suggested quantity discount illustrates a proposed response, not measured adoption.
+
+**URL:** https://www.tiktok.com/@jansenhartono7/video/7517537961181793554
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S02-S-047 — S02 / Support
+
+**Master record key:** TikTok|comment|7634941721280807688
+
+**Platform:** TikTok
+
+**Source content ID:** 7634941721280807688
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6927147009548272641
+
+**Parent video:** 7634830402879999253
+
+**Role from reading:** self_reported_buyer
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> 😅jujur semenjak ada biaya aneh2 di shoppe .seller juga ditekan biaya.sekarang gw gak bisa co barang murah cuma satu biji.contoh korek dulu bisa beli cuma satu biji.sekarang ada minimal pembelian tiga kadang 6 gila gak tuh🤣🤣🤣dan setelah gw bandingkan harga toko lebih murah beli di toko
+
+**Interpretation:** 2026 account says cheap items now require minimum quantities and offline comparison becomes preferable.
+
+**URL:** https://www.tiktok.com/@adhita.yulia/video/7634830402879999253
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S02-C-048 — S02 / Counterexample
+
+**Master record key:** TikTok|comment|7517637591853056786
+
+**Platform:** TikTok
+
+**Source content ID:** 7517637591853056786
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6871447474713986050
+
+**Parent video:** 7517537961181793554
+
+**Role from reading:** advice_role_unknown
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> ya tinggal tambah aja harga 1250 . 🗿👍
+
+**Interpretation:** Counter-response: simply add Rp1,250 to the price; absorption/passthrough can be viable for some baskets.
+
+**URL:** https://www.tiktok.com/@jansenhartono7/video/7517537961181793554
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S03-S-049 — S03 / Support
+
+**Master record key:** X|post|1940059847573323927
+
+**Platform:** X
+
+**Source content ID:** 1940059847573323927
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1644687268299563009
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Nah ini yg paling bangsat, potongannya macem2.
+> Ada shipping tokoku yg nanggung padahal nggak ngerasa ngasih free ongkir.
+> Lalu ada fee Xtraboost Program?
+> What the fak is Xtraboost?
+> Apakah aku kena jebakan? apakah aku salah klik ikutan promo? ngeceknya dimana?
+> Apalagi sekarang ads manager seller manager ribetnya minta ampun, "mainland" banget ribetnya.
+> Bahasa interfacenya muluk muluk ky mulut politishit.
+> Asli kangen simplenya jualan di Tokped.
+> 
+> lalu apakah tiktok shop itu fair?
+> Oh tidak brother, barang2 mainland ngaku lokal akan diboost oleh mereka. Barang maklonan lokal kl nggak kuat promo atau bayar ya habis.
+> 
+> Fak yu lah tiktok!
+
+**Interpretation:** 2025 seller asks what Xtraboost is, whether a promotion was selected accidentally and where to check.
+
+**URL:** https://x.com/el_jastip/status/1940059847573323927
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-05-257.json; dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json; dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S03-S-050 — S03 / Support
+
+**Master record key:** X|post|1990244439688905130
+
+**Platform:** X
+
+**Source content ID:** 1990244439688905130
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1217122841780293632
+
+**Role from reading:** self_reported_returning_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Para seller shopee tolong berkumpul. Ajarin pemula ini biar gak boncos 🥲. Gue baru jualan lagi di shopee. Gak sadar kalo ternyata produk gue ikut affiliate dengan komisi 10%. Itu yang bayar komisi seller ya? Potongan 2.220 di case gue itu karena program affiliate? Bukan admin? https://t.co/eD451MS2cs
+
+**Interpretation:** 2025 returning merchant discovers an affiliate commission and cannot distinguish it from admin fees.
+
+**URL:** https://x.com/Chan7Maruko/status/1990244439688905130
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json; dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S03-S-051 — S03 / Support
+
+**Master record key:** X|post|1985172072247730536
+
+**Platform:** X
+
+**Source content ID:** 1985172072247730536
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1726972094074982400
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @plutrous Potongan biaya toko gue udah 15% 🫶🫶🫶🫶 
+> 
+> Jadi seller tu serba salah, masuk program shopee bikin boncos. Nggak masuk program, nggak dapat voucher gratis ongkir, exposure nggak dapat. Makin lama kebijakannya makin .... https://t.co/J781n2qrf3
+
+**Interpretation:** 2025 merchant perceives a choice between loss-making programs and loss of exposure/free-shipping access.
+
+**URL:** https://x.com/semangkukuji/status/1985172072247730536
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json; dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S03-S-052 — S03 / Support
+
+**Master record key:** X|post|1937976968999539087
+
+**Platform:** X
+
+**Source content ID:** 1937976968999539087
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|389937149
+
+**Role from reading:** apparent_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @elmaestro7110 Setelah bergabung sama tiktokshop, potongan banyak banget, biasanya diskon dibuat oleh penjual, sekarang diskon barang dibuat oleh penyedia layanan 😁 https://t.co/QzaCoEowHj
+
+**Interpretation:** 2025 account says discount control moved from seller toward platform; an attribution, not established rule.
+
+**URL:** https://x.com/ayaharno/status/1937976968999539087
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S03-C-053 — S03 / Counterexample
+
+**Master record key:** TikTok|comment|7609181671909442312
+
+**Platform:** TikTok
+
+**Source content ID:** 7609181671909442312
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6841513986832483330
+
+**Parent video:** 7602956320416812306
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Sy jualan campur2 di orange admin total 12.25% dari awal jualan sampe skrg udah 9th dan sekalipun gak pernah aktifin promosi xtra cuma ikut freeong xtra alhamdulillah pesanan lancar apalagi kalau even tgl kembar banyak yg co. Sy jg gak aktifin komisi affilliator jd gk nambah2 biaya.
+
+**Interpretation:** 2026 countercase explicitly manages program participation, avoids affiliate commission, and reports smooth orders.
+
+**URL:** https://www.tiktok.com/@pakhanif.id/video/7602956320416812306
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S03-C-054 — S03 / Counterexample
+
+**Master record key:** X|post|1896551926902423771
+
+**Platform:** X
+
+**Source content ID:** 1896551926902423771
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|115270226
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @tanyarlfes Aku cuma sekali aja ikut2an event, yg rugi seller wkwkw. Yakali jualan 20ribu admin shopee 12%, pdhl laba kita cuma 500 perak, eh masih dipotong vocer 5ribu lg 🤣🤣🤣
+> Dahlah tiap ada event biar2in aja, gak akan ngikut
+
+**Interpretation:** 2025 merchant stops joining events rather than closing the store, showing selective disengagement.
+
+**URL:** https://x.com/selviaRF/status/1896551926902423771
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S04-S-055 — S04 / Support
+
+**Master record key:** TikTok|comment|7511706811750957831
+
+**Platform:** TikTok
+
+**Source content ID:** 7511706811750957831
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7176122355324224513
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> admin dan bebas ongkir dipotong segede gaban tpi kl ada masalah tiktok gak belain seller sama sekali.
+> paket retur cod belum kita terima tpi transkasi udh dibatalin platform,skrng barang saya gak jelas ada dimana, belum lgi cutomer nipu retir barang tpi bukan yg kita kirim kita udh ajuin banding sama sekali gak diurusin tuh,tiba2 udh selesai aja
+
+**Interpretation:** 2025 COD-return account says transaction canceled before returned goods arrived and appeal did not resolve it.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S04-S-056 — S04 / Support
+
+**Master record key:** X|post|1916082418454564994
+
+**Platform:** X
+
+**Source content ID:** 1916082418454564994
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1019154630553419782
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Gue kesel banget sama @JNECare, Gue jualan di shopee, beberapa kali barang diretur gegara alamat tidak lengkap padahal lengkap gt, tapi kek yaudah.
+> MASALAHNYA !!! returnya GAK SAMPE ke gue, kalo gue rugi pengiriman minimal barang gue balik kocak, mana bukti fotonya muka org lain
+
+**Interpretation:** 2025 merchant says returned goods did not reach them and delivery evidence showed another person.
+
+**URL:** https://x.com/aymeeew/status/1916082418454564994
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S04-S-057 — S04 / Support
+
+**Master record key:** X|post|1885261754961453301
+
+**Platform:** X
+
+**Source content ID:** 1885261754961453301
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|78883179
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Keputusan Shopee gak adil sih, asli! Gw jualan kartu flazz terus kartu flazznya bengkok saat diterima pembeli. Iya ini kesalahan gw karena packing bubble wrapnya kurang tebal.
+> 
+> Tapi kenapa Shopee tidak memberi keputusan penengah agar kartunya dikirim balik/retur ke penjual??? Itu kartu padahal masih bisa gw pakai lagi buat keperluan sendiri, tinggal dilurusin doang.
+> 
+> Udah coba banding, tetap aja hasil keputusannya ditolak. Bukannya untung malah buntung Rp100.000 lebih.....
+
+**Interpretation:** 2025 merchant admits insufficient packaging but objects to losing both sale value and recoverable merchandise.
+
+**URL:** https://x.com/gerbongbagasi/status/1885261754961453301
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S04-S-058 — S04 / Support
+
+**Master record key:** X|post|1909767236279320623
+
+**Platform:** X
+
+**Source content ID:** 1909767236279320623
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1787729081779548160
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Aku jualan biasanya jasa kirim pakai j&t terus dishopee Karna sekarang diputus sama shopee dan cuman bisa pakai spx kan . Ternyata ini tujuan mereka dibalik itu semua. Biar ongkir penjual yang bayar. Mana ngeri banget potongan ongkirnya . Aku jualan ini jadi rugi 😭😭😭 https://t.co/pQ20XVEORp
+
+**Interpretation:** 2025 account links forced courier choice and shipping deductions to merchant loss.
+
+**URL:** https://x.com/Onadia_aa/status/1909767236279320623
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S04-S-059 — S04 / Support
+
+**Master record key:** X|post|1999458197716058285
+
+**Platform:** X
+
+**Source content ID:** 1999458197716058285
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|352207066
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> saya jg ada jualan di shopee, spx saya non aktifkan, sering bermasalah datengin gudangnya jg tetep enggak ada solusi,  rugi jutaan gara2 ini. blacklist 😂
+
+**Interpretation:** 2025 merchant reports disabling SPX after unresolved losses, a service-allocation response rather than full platform exit.
+
+**URL:** https://x.com/bardanslm/status/1999458197716058285
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json; dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S04-C-060 — S04 / Counterexample
+
+**Master record key:** X|post|2001653692144173292
+
+**Platform:** X
+
+**Source content ID:** 2001653692144173292
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1909670781233381377
+
+**Role from reading:** self_reported_buyer
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @tanyakanrl Perasaan pengembalian dana ga ribet deh.
+> Tinggal km packing ulang, pilih pengiriman pick up, tempel resi, ntar kurir ke rumahmu. Kalo udh di pick up kurir, dana langsung masuk.
+> 
+> Kalo chat seller malah makin ribet, pdhl shopee udh mempermudah
+
+**Interpretation:** 2025 buyer reports a convenient pickup/refund process; recovery may be effective for one side while disputed by the other.
+
+**URL:** https://x.com/kasurpalembwang/status/2001653692144173292
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S05-S-061 — S05 / Support
+
+**Master record key:** X|post|1933672902353981708
+
+**Platform:** X
+
+**Source content ID:** 1933672902353981708
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|2947363027
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @fxmario Kalo gue bukan belanja tapi makin ribet setelah tokopedia kerjasama tiktok. yang jualan jadi dibikin kesulitan gabisa tambah produk, alasan nya ga dikasih tau. @TokopediaCare bahkan udah nanya customer service nya aja dibiarin gitu aja. alhasil ke toko oren aja udah
+
+**Interpretation:** 2025 seller describes inability to add products, absent explanation/support, and switching to orange.
+
+**URL:** https://x.com/cozyaltruis/status/1933672902353981708
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json; dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json; dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### S05-S-062 — S05 / Support
+
+**Master record key:** X|post|1925283766584713421
+
+**Platform:** X
+
+**Source content ID:** 1925283766584713421
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1478878650
+
+**Role from reading:** apparent_merchant_operator
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> jujur tiktok tokped shop bikin pusing, 2 hari ngurusin ini nih mesti terhubung tokped seller ke tiktokshop, udah terhubung malah titkok pribadi jadi seller udh di ajukan dokumen secara tertulis atau pdf tetep aja. beuuh kacau lebih baik marasing masing we pusing
+
+**Interpretation:** 2025 account describes two days of failed account linking and unintended personal-account conversion.
+
+**URL:** https://x.com/voyesssss/status/1925283766584713421
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S05-S-063 — S05 / Support
+
+**Master record key:** TikTok|comment|7516524262976111368
+
+**Platform:** TikTok
+
+**Source content ID:** 7516524262976111368
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6895923917715801090
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> permasalahannya produk yg saya jual dengan lancar di Tokopedia sedangkan di tiktok..banyak larangan dan postingan produk saya yg biasa laris di tokped malah ditolak terus ..aneh
+
+**Interpretation:** 2025 merchant says formerly successful Tokopedia products are repeatedly rejected on TikTok.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S05-S-064 — S05 / Support
+
+**Master record key:** TikTok|comment|7511380522166453012
+
+**Platform:** TikTok
+
+**Source content ID:** 7511380522166453012
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6676067301232854018
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> toko saya di tokped udah di tutup semenjak tiktok seller ada.
+
+**Interpretation:** 2025 commenter reports closing a Tokopedia store after TikTok seller transition.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S05-S-065 — S05 / Support
+
+**Master record key:** X|post|1922162865714180389
+
+**Platform:** X
+
+**Source content ID:** 1922162865714180389
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|291585013
+
+**Role from reading:** apparent_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @tokopedia udh mulai gencar minta seller gabungin akun sama Tiktok. Otomatis harus buat akun Tiktok. Males oiii..gw ga mau buat akun medsos lg. Moga² Toped ga kehilangan brand imagenya sbg e-com lokal andalan. Potongannya jg jangan naik mulu dong..situasi masih mendung nih🙁
+
+**Interpretation:** 2025 resistance to creating another social-media account illustrates workflow/identity preference, not necessarily price.
+
+**URL:** https://x.com/FloLibertus/status/1922162865714180389
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S05-C-066 — S05 / Counterexample
+
+**Master record key:** TikTok|comment|7511608520765621000
+
+**Platform:** TikTok
+
+**Source content ID:** 7511608520765621000
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6887436257506657282
+
+**Parent video:** 7511319675909836039
+
+**Role from reading:** self_reported_buyer
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Lebih sering beli di toped karena gabung TikTok dan gojek, jadi 1 member bisa multiplafon apalagi member plus
+
+**Interpretation:** 2025 buyer values cross-platform membership; integration can provide benefits, but to a different actor.
+
+**URL:** https://www.tiktok.com/@ceritaomken/video/7511319675909836039
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S06-S-067 — S06 / Support
+
+**Master record key:** TikTok|comment|7517695799447929607
+
+**Platform:** TikTok
+
+**Source content ID:** 7517695799447929607
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6828237851118994433
+
+**Parent video:** 7517537961181793554
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> aku jualan jasa lukis sketsa.. cara biar gak kena admin byk .. dgn cara sistem pembayaran split bill..
+> CO di shopee DP nya aja misal 30k biar customer dpt gratis ongkir..
+> sisa nya tf ke Shopee pay..
+> .
+> toko ku admin nya 13,5% .dan prodak yg ku jual paling murah sekitar 85k
+
+**Interpretation:** 2025 sketch seller explicitly describes a small checkout deposit for free shipping and remaining transfer outside the product checkout.
+
+**URL:** https://www.tiktok.com/@jansenhartono7/video/7517537961181793554
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S06-S-068 — S06 / Support
+
+**Master record key:** X|post|1985152148775284749
+
+**Platform:** X
+
+**Source content ID:** 1985152148775284749
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1693450188231417856
+
+**Role from reading:** observer_or_possible_buyer
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @plutrous Potongannya gede, pantesan banyak seller shopee pada minta CO di etalase kecil terus sisanya di transfer
+
+**Interpretation:** 2025 account recognizes sellers requesting checkout through a small listing and transfer of the remainder.
+
+**URL:** https://x.com/Alocasiaa/status/1985152148775284749
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S06-S-069 — S06 / Support
+
+**Master record key:** X|post|1884157903726379099
+
+**Platform:** X
+
+**Source content ID:** 1884157903726379099
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1057630139389898752
+
+**Role from reading:** merchant_sales_offer
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> haii guys aku mau jualan clearance skincare, makeup, body care, parfume mulai 7k ajaa. semuanya dijamin original, exp lama
+> 
+> splitpay/full co shopee +adm 12% yaa
+> 
+> no keep, soalnya buru2 pindahan 
+> 
+> bisa gratis ongkir pake shopee
+> 
+> dom malang
+> 
+> pricelist aku drop dibawah https://t.co/lYzSS64cyz
+
+**Interpretation:** 2025 clearance offer advertises split/full checkout and an additional admin amount; an offer, not confirmed execution.
+
+**URL:** https://x.com/kuwcing/status/1884157903726379099
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S06-S-070 — S06 / Support
+
+**Master record key:** X|post|1915636539067158944
+
+**Platform:** X
+
+**Source content ID:** 1915636539067158944
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1545956342996733952
+
+**Role from reading:** merchant_sales_offer
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Hai! Aku mau jual tas branded vintage punya tante. Jualan ini non-profit, sebagian penghasilan akan disumbangkan.
+> 
+> Terms & Conditions 
+> Tas Branded Pre-loved by @116def
+> 
+> 1. Harga fix tidak boleh nego. Harga sudah sangat di bawah harga beli sekali 🥺
+> 2. Kondisi tas adalah second / preloved dan as is (sesuai foto) - please expect some scratches, discoloration, light marks. 
+> 3. Harga tertera di luar shipping, shopee admin dan safe packing Rp10k (box, bubble wrap, sticker warning). 
+> 4. Payment via bank transfer BCA / CIMB dan co Shopee / Tokped only
+> 5. Pengiriman dari Tangsel
+> 6. Ekspedisi pengiriman JNE / SPX / J&T / Gojek / GRAB
+> 7. No reservation
+> 8. Boleh keep event tapi harus bayar harga tas dulu minus 10k + admin, packing 10k, shipping. Misal: harga tas 150k - maka bayar 140k dan co 20,000 + shipping. 
+> 9. Packing and shipping max 5 hari kerja
+> 10. Cara membeli: DM @116def dengan foto tas yang diinginkan nanti di balas dari yang paling bawah. 
+> 11. Membeli berarti sudah baca terms and conditions. No return/ refund
+> 12. Sebagian dari penghasilan penjualan ini akan disumbangkan ke yang membutuhkan 🙏
+
+**Interpretation:** 2025 seller advertises bank transfer and platform checkout options; demonstrates channel optionality, not necessarily fee evasion.
+
+**URL:** https://x.com/shanscribes/status/1915636539067158944
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json; dataset_x-tweet-scraper_2026-10-26_14-43-34-987.json
+
+#### S06-C-071 — S06 / Counterexample
+
+**Master record key:** X|post|1937310932134428947
+
+**Platform:** X
+
+**Source content ID:** 1937310932134428947
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1068091217622163456
+
+**Role from reading:** apparent_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> kalo ada orang wts pake shopee exclude admin shopee tolong di maklumi guys. orang mah udah minta murah, include all, seller dapet apa njir... shopee gue tuh potongan nya udah 11,5% sendiri + ini, rugi banyak kalo jualan include all 🥹🥹🥹
+
+**Interpretation:** 2025 alternative response explicitly adds admin fees to sale price rather than diverting payment.
+
+**URL:** https://x.com/nobubuzthing/status/1937310932134428947
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S07-S-072 — S07 / Support
+
+**Master record key:** TikTok|comment|7635608878596948743
+
+**Platform:** TikTok
+
+**Source content ID:** 7635608878596948743
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6673475367883588609
+
+**Parent video:** 7634830402879999253
+
+**Role from reading:** self_reported_former_merchant_now_affiliate
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> aku berhenti jualan di oren. sekarang jadi afiliate nya aja. soalnya makin gila banget biayanya.. padhal untung udah tipis banget
+
+**Interpretation:** 2026 commenter explicitly says stopped selling on orange and now only acts as its affiliate.
+
+**URL:** https://www.tiktok.com/@adhita.yulia/video/7634830402879999253
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S07-S-073 — S07 / Support
+
+**Master record key:** TikTok|comment|7602962692718412564
+
+**Platform:** TikTok
+
+**Source content ID:** 7602962692718412564
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|7335301829196530694
+
+**Parent video:** 7602956320416812306
+
+**Role from reading:** self_reported_former_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> aku udah off bang jualan di shopee,potongan nya gede bngt kalo keluar pulau bisa 20% potongan nya,harga gak bisa bersaing.
+
+**Interpretation:** 2026 merchant says stopped selling because deductions made price competition unviable.
+
+**URL:** https://www.tiktok.com/@pakhanif.id/video/7602956320416812306
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S07-S-074 — S07 / Support
+
+**Master record key:** X|post|1934073931461530051
+
+**Platform:** X
+
+**Source content ID:** 1934073931461530051
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|54865264
+
+**Role from reading:** self_reported_former_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @Cikr4k72 @tokopedia @TokopediaCare Iya kak, potongannya makin besar. Sementara saya tutup toko saya, ga jualan lagi di tokped tiktok 🥲
+
+**Interpretation:** 2025 storefront closure supports separating store participation from general platform activity, but does not establish affiliate transition.
+
+**URL:** https://x.com/manktya/status/1934073931461530051
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json; dataset_x-tweet-scraper_2026-10-26_14-43-03-172.json
+
+#### S07-C-075 — S07 / Counterexample
+
+**Master record key:** TikTok|comment|7609181671909442312
+
+**Platform:** TikTok
+
+**Source content ID:** 7609181671909442312
+
+**Year:** 2026
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** TikTok|6841513986832483330
+
+**Parent video:** 7602956320416812306
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Sy jualan campur2 di orange admin total 12.25% dari awal jualan sampe skrg udah 9th dan sekalipun gak pernah aktifin promosi xtra cuma ikut freeong xtra alhamdulillah pesanan lancar apalagi kalau even tgl kembar banyak yg co. Sy jg gak aktifin komisi affilliator jd gk nambah2 biaya.
+
+**Interpretation:** 2026 merchant continues selling and deliberately avoids affiliate commission; role outcomes differ.
+
+**URL:** https://www.tiktok.com/@pakhanif.id/video/7602956320416812306
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_tiktok-comments-scraper_2026-10-26_14-44-27-055.json
+
+#### S08-S-076 — S08 / Support
+
+**Master record key:** X|post|2004145221555441848
+
+**Platform:** X
+
+**Source content ID:** 2004145221555441848
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|2306427439
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Yang jualan di shopee pernh gk uang saldo penjual nya blm cair?? Padahal pembeli udh pencet pesanan di terima😭😭 nominal kecil masuk, ini nominal 900an gk masuk² kaya gni trus, pdhl sblm nya 4jt langsung masukkk😭😭 kenapaa yaa plisss
+> #zonauang siapa tau ada yg tau jg https://t.co/xXPjqYu4D2
+
+**Interpretation:** 2025 merchant says larger payment did not settle after buyer confirmed receipt.
+
+**URL:** https://x.com/gcoldfish/status/2004145221555441848
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S08-S-077 — S08 / Support
+
+**Master record key:** X|post|1945485837845807164
+
+**Platform:** X
+
+**Source content ID:** 1945485837845807164
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|755384312
+
+**Role from reading:** self_reported_seller_operator
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @memefess Megang admin Tokopedia x TikTod Shop, sampah benerr website adminnya, lemot, sering ga ke load halamannya, potongan harga bikin ngelus dada, sama suka bener nahan uang seller (kalo cust ga selesaiin transaksi kena hold 7 hari + narik saldo ke rekening kena hold 3-5 hari). Sampahh
+
+**Interpretation:** 2025 operator describes separate completion and withdrawal holds as part of the burden.
+
+**URL:** https://x.com/The_SnJc/status/1945485837845807164
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S08-S-078 — S08 / Support
+
+**Master record key:** YouTube|comment|UgzmY3r17nyDzV6o6Ud4AaABAg
+
+**Platform:** YouTube
+
+**Source content ID:** UgzmY3r17nyDzV6o6Ud4AaABAg
+
+**Year:** Uncertain
+
+**Date precision:** Relative/uncertain
+
+**Author cluster:** YouTube|ahmadmuzayin5176
+
+**Parent video:** Ay_pg33Q23A
+
+**Role from reading:** self_reported_small_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Tambahan info Bang.. Dari potongan komisi kesemua itu, penjual dibuat pusing lagi dikarenakan waktu pencairan dana hasil penjualan yang semakin lama. Yang aneh, walaupun pembeli sudah klik selesai, dana masih ditahan dengan alasan pembeli masih bisa mengembalikan pesanan. Tolong Bang, kami sebagai penjual kecil sangat tersendat untuk memutar hasil penjualan untuk modal produksi kembali. Terimakasih Bang
+
+**Interpretation:** Date-uncertain YouTube commenter explicitly links delayed settlement to inability to recycle cash into production.
+
+**URL:** https://www.youtube.com/watch?v=Ay_pg33Q23A
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_youtube-comments-scraper_2026-10-26_14-23-24-633.json
+
+#### S08-S-079 — S08 / Support
+
+**Master record key:** YouTube|comment|UgzuahIJSUZyIJkJZ2N4AaABAg
+
+**Platform:** YouTube
+
+**Source content ID:** UgzuahIJSUZyIJkJZ2N4AaABAg
+
+**Year:** Uncertain
+
+**Date precision:** Relative/uncertain
+
+**Author cluster:** YouTube|rizkiabdillah932
+
+**Parent video:** DITvF8ot938
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Sekarang toko saya kena pembeli sudah klik pesanan di terima. Tapi dana masuknya seminggu kemudian setelah pembeli klik pesanan di terima.
+> Ap toko saya aja yg kena.??
+
+**Interpretation:** Date-uncertain commenter says payout arrives a week after buyer confirmation.
+
+**URL:** https://www.youtube.com/watch?v=DITvF8ot938
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_youtube-comments-scraper_2026-10-26_14-23-24-633.json
+
+#### S08-S-080 — S08 / Support
+
+**Master record key:** YouTube|comment|Ugwexv4yopAm1Z4IO5h4AaABAg
+
+**Platform:** YouTube
+
+**Source content ID:** Ugwexv4yopAm1Z4IO5h4AaABAg
+
+**Year:** Uncertain
+
+**Date precision:** Relative/uncertain
+
+**Author cluster:** YouTube|jeokybozje2250
+
+**Parent video:** MhVmcKDLl80
+
+**Role from reading:** self_reported_merchant
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> Woi saldo penjualan saya di toco belum masuk2. Padahal keteranganya udah di TF ke rekening ku. Tapi sampai skr belum masuk2. Tolong please. Aku butuh banget uang itu
+
+**Interpretation:** Counterexample to zero-fee cure: Toco sale payout reportedly not received.
+
+**URL:** https://www.youtube.com/watch?v=MhVmcKDLl80
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_youtube-comments-scraper_2026-10-26_14-23-24-633.json
+
+#### S08-C-081 — S08 / Counterexample
+
+**Master record key:** X|post|2003303005962272963
+
+**Platform:** X
+
+**Source content ID:** 2003303005962272963
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|2983890506
+
+**Role from reading:** official_platform_support
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @asapapng Hi kak asapapng, maaf ya udah buat kmu gak nyaman terkait kendala penarikan saldo penjual kamu. Agar bisa aku bantu, infoin username akun Shopee kamu dan screenshot kendala penarikan kamu tersebut ke kami melalui DM ya. Stay safe ^NT
+
+**Interpretation:** 2025 official reply requests details for a payout issue; demonstrates support response, not proven resolution.
+
+**URL:** https://x.com/ShopeeID/status/2003303005962272963
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+#### S08-C-082 — S08 / Counterexample
+
+**Master record key:** X|post|2001653692144173292
+
+**Platform:** X
+
+**Source content ID:** 2001653692144173292
+
+**Year:** 2025
+
+**Date precision:** Exact timestamp
+
+**Author cluster:** X|1909670781233381377
+
+**Role from reading:** self_reported_buyer
+
+**Evidence type:** Attributed public account; not independently verified
+
+**Original exact text:**
+
+> @tanyakanrl Perasaan pengembalian dana ga ribet deh.
+> Tinggal km packing ulang, pilih pengiriman pick up, tempel resi, ntar kurir ke rumahmu. Kalo udh di pick up kurir, dana langsung masuk.
+> 
+> Kalo chat seller malah makin ribet, pdhl shopee udh mempermudah
+
+**Interpretation:** Fast buyer refund can be valuable; merchant cash-cycle optimization must preserve buyer-side recovery.
+
+**URL:** https://x.com/kasurpalembwang/status/2001653692144173292
+
+**Source check:** Exact source text matched
+
+**Source files:** dataset_x-tweet-scraper_2026-10-26_14-22-19-703.json
+
+### 8.2 External-source applicability safeguards
+
+EXT01 is only partially verified through official indexed excerpts; its dynamic page body was not fully inspected. Its Rp1,250 fee divided by hypothetical basket values is an illustration, not Nexora policy or measured seller margin. EXT02's platform launch/testimonial material does not establish causal benefits. EXT03 is regional, not Indonesia-only. EXT04/EXT05 are publisher surveys, not account-linked panel data. EXT04's publication date was corrected to 18 February 2026; its H2 2025 evidence remains historical context. An ambiguous reported “10% increase” is not recast as 10 percentage points.
+
+EXT06's event-year inconsistency means the questionable event sales-growth totals were not relied on. EXT07's APAC subset excludes Indonesia and measures stated intentions. EXT08 is consolidated Sea/Shopee disclosure, not Indonesia-only merchant take rate; logistics revenue/subsidy presentation can affect the blend. EXT09 describes current 2026 product attribution and cannot establish historical 2025 incremental sales or profit. EXT10 is sponsored 2026 regional survey context, with the public summary inspected rather than the marketing-gated full report; multihoming/spend association is not causality.
+
+Primary URLs, publication periods, geography, source kind, claim and limits are preserved in the final ledger below. This context-pack update did not commission a new web-research round.
+
+### Workbook snapshot — External Research
+
+| ID | Source | Evidence kind | Publication date | Data / applicability period | Geography | Verified public claim | Decision relevance | Limitations | Primary URL | Supporting URL | Illustration |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| EXT01 | Ringkasan Biaya Admin Shopee / Biaya Proses Pesanan | Official platform seller policy; partial verification | Current official help-page search index says updated 2026-07-30/31; policy effective 2025-07-20 | 2025 historical policy, documented by current 2026 help page | Indonesia | Official seller-help search excerpt states a Rp1,250 order-processing fee for each completed transaction created from 20 July 2025. | A fixed fee can create greater percentage pressure on low-ticket orders; segment seller economics by order value rather than treating a percentage take-rate average as uniform pain. | Official page body is dynamic and not readable by the web fetch; precise policy was visible in official search indexing, not a fully inspected historical archive. Current pages can change; verify the contemporaneous fee schedule before using as a definitive policy timeline. Categories, exemptions and other charges are not established here. | https://seller.shopee.co.id/edu/article/3489 | https://seller.shopee.co.id/edu/article/25787 | Illustration ONLY: Rp1,250 divided by hypothetical order values Rp10,000/Rp25,000/Rp50,000/Rp100,000 equals 12.5%/5%/2.5%/1.25%, BEFORE other fees. These are not measured seller margins or Nexora rates. |
+| EXT02 | Tokopedia and TikTok Shop Seller Center Officially Launches | Official platform product announcement and policy clarification | 2025-06-11 (launch); 2025-06-05 (myths/facts) | 2025 historical | Indonesia | The integrated center manages products, orders, promotions, chat and inventory across both platforms. Official guidance says sellers can choose Tokopedia only, TikTok Shop only, or both, and do not have to create TikTok videos. The platform also announced migration/training support. | Separate reported migration friction and identity/account burden from economic multihoming. A unified backend may lower operating effort while transition requirements still alienate some users. Complaints about mandatory migration do not establish mandatory selling on both storefronts. | Platform-authored launch material and selected testimonials; efficiency and GMV benefits are promotional claims without a controlled counterfactual. Do not treat its reported short-term seller growth as causal evidence. | https://newsroom.tiktok.com/tokopedia-dan-tiktok-shop-seller-center-resmi-diluncurkan?lang=id-ID | https://newsroom.tiktok.com/memahami-tokopedia-tiktok-shop-seller-center-mitos-vs-fakta?lang=id-ID |  |
+| EXT03 | e-Conomy SEA 2025 | Consulting/industry research programme, primary publisher | 2025-11-11 | 2025 historical regional context | Southeast Asia, not Indonesia-only | Google/Temasek/Bain estimate video commerce at 25% of regional e-commerce GMV in 2025 and identify retail-media monetization as a growing revenue stream. | Treat product discovery and demand generation as distinct competitive capabilities from checkout and fulfillment. Fees, advertising and affiliate spending can all mediate access to demand. | Regional modeled/industry estimates, not Nexora or an Indonesian customer sample; report aggregates do not show who switched platforms or the profitability of video-driven orders. | https://www.bain.com/insights/e-conomy-sea-2025/ |  |  |
+| EXT04 | Stagnant Income, Rising Costs: Double Checking on Social Media | Primary Indonesian survey publisher | 2026-02-18; survey covers H2 2025. Article date independently confirmed from the primary publisher. | 2025 H2 data, published retrospectively in 2026 | Indonesia | Jakpat reports a survey of 2,125 respondents across Gen Z, Millennials and Gen X. E-commerce browsing was86% versus90% a year earlier, while brand social-media browsing reached53% (publisher reports a10% increase). Its research interpretation is that social media supports investigation and discovery while final transactions remain centered on e-commerce. | Social and marketplace usage can be complementary stages of the same purchase journey. Test cross-platform discovery-to-checkout paths; an app's engagement share is not necessarily its transaction or wallet share. | Online survey with self-reported behavior; exact sample design, weights and the unit meant by10% are not fully explained in the public article. Do not call it a10-percentage-point rise without the full table. Platform-usage percentages are not GMV/value shares. | https://insight.jakpat.net/stagnant-income-rising-costs-double-checking-on-social-media/ | https://insight.jakpat.net/indonesia-e-commerce-trends-2nd-semester-of-2025/ |  |
+| EXT05 | Online Shopping 2025: Essentials Rise, Secondary Products Decline | Primary Indonesian survey publisher | 2025-07-31 | 2025 H1 versus 2024 H1 | Indonesia | Jakpat's2,283-respondent survey reports95% purchasing online in H1 2025, while average monthly e-commerce spending fell fromRp543,250 toRp470,516 (about13%). The publisher associates the shift with spending restraint and a move toward essentials. | Acquiring or activating more shoppers need not expand value at the same rate. Distinguish active buyers, order frequency, basket value, category mix and share of wallet in the problem statement. | Self-reported survey averages and repeat cross-sections; not a panel proving the same shoppers cut spending. The public summary does not establish each platform's transaction count or basket value. | https://insight.jakpat.net/online-shopping-2025-essentials-rise-secondary-products-decline/ |  |  |
+| EXT06 | Indonesia Mega Sales: 5 Key Consumer Insights to Win the E-Commerce Peak | Primary market research publisher | 2025-09-18 | December 2024 survey, published 2025 | Indonesia;41cities | NIQ describes an online survey of1,016 internet users aged15+ during12.12 in December 2024. It reports84% expressed greater trust when influencers disclosed paid partnerships. Free shipping and discounts each appeared as70% reported Mega Sales drivers. | Commercial content is not automatically valueless to shoppers, but disclosure and authenticity can change its function. Keep advertising exposure separate from independent first-person testimony; do not treat a false scraping ad flag as proof of independence. | Event-specific self-reports, not ordinary-period behavior or a causal disclosure experiment. NIQ page contains an internal year inconsistency in its sales-total paragraph, so omit its sales-total/6.6x claims; use the explicit methods paragraph dating fieldwork 2024. | https://nielseniq.com/global/en/insights/analysis/2025/indonesia-mega-sales-5-key-consumer-insights-to-win-the-e-commerce-peak/ |  |  |
+| EXT07 | DHL E-Commerce Trends Report 2025: Asia Pacific findings | Primary logistics-industry consumer survey publisher | 2025-06-23 | 2025 | APAC survey subset:Australia,China,India,Malaysia,Thailand; INDONESIA NOT INCLUDED | DHL's24,000-consumer global survey reports77% of its APAC respondents would abandon a purchase without preferred delivery options and75% without an acceptable returns process. The APAC markets listed by the publisher exclude Indonesia. | Use delivery choice and return clarity as hypotheses about purchase conversion and confidence, not merely warehouse efficiency. Investigate both delivery promises and recovery after failure. | Stated hypothetical intentions rather than measured cart-event conversion. Logistics-provider-sponsored research; geographic transfer must be labelled explicitly. The source being hosted on DHL Indonesia does not make it an Indonesian sample. | https://www.dhl.com/id-en/home/press/press-archive/2025/dhls-e-commerce-trends-report-2025-ai-and-social-media-reshaping-online-shopping-in-asia-pacific.html |  |  |
+| EXT08 | Sea Limited Fourth Quarter and Full Year 2025 Results | Primary company financial disclosure | 2026-03-03 | 2025 actuals published retrospectively 2026 | Shopee consolidated operating markets, not Indonesia-only | For Q4 2025, Shopee reported core marketplace revenue (mainly transaction fees and advertising) growing50.2% toUS$3.6bn, while value-added revenue (mainly logistics-related) fell7.5% toUS$735m because of higher shipping-subsidy revenue net-offs. GMV grew28.6%. Full-year adjusted EBITDA reachedUS$880.6m versusUS$155.8m in 2024. | Buyer shipping incentives and seller monetization can move in different directions. A headline revenue/GMV take rate blends fees, advertising and other revenue; it is not the commission schedule or an individual merchant's effective burden. | Company-reported consolidated financials and non-GAAP adjusted EBITDA; not Indonesian seller unit economics or causal proof of why sellers stay. Shipping-subsidy accounting net-offs can alter revenue without equivalent changes in customer demand. | https://cdn.sea.com/investor/4Q2025/JcKns4LaJC8bxcQdJwXz/2026.03.03%20Sea%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results.pdf |  |  |
+| EXT09 | About Product GMV Max / TikTok Shop Ads campaign migration | Official advertising-product documentation | UpdatedSeptember 2026; campaign migration help updatedMarch 2026 | CURRENT2026 feature documentation; separate note says default campaign transition beganJuly 2025 | TikTok Shop; Indonesia-language help with Indonesian seller-center applicability | Official documentation says promoted-product orders, including those from organic content and affiliates, are attributed to Product GMV Max in the Seller Center dashboard. The product optimizes paid and organic delivery together. A separate help page says GMV Max became the default/only supported TikTok Shop Ads campaign type fromJuly 2025. | A reported GMV Max ROI can be channel-attributed revenue rather than incremental advertising lift, and it omits seller cost of goods and other costs. Test incremental contribution profit, not headline ROAS, before claiming an advertising solution works. | 2026 current feature documentation must not be retroactively imposed as exact 2025 attribution behavior. Platform describes capabilities, not independently verified performance. Do not claim all organic orders would have occurred without advertising. | https://ads.tiktok.com/resources/help/article/about-product-gmv-max?lang=id | https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads-in-the-seller-center-app?lang=id |  |
+| EXT10 | The 2026 eCommerce Savvy Shopper Report:Southeast Asia | Primary commissioned industry research; sponsored public summary | 2026-09-22 | CURRENT2026; not 2025 case evidence | 6,000shoppers across sixSEA markets includingIndonesia | Cube/Lazada's public summary associates higher shopping capability across verification,value optimization,confidence/protection and digital fluency with more frequent shopping,more platforms,membership use and off-platform research. The savvy group reports31% higher monthly spend than the general group. | Multiplatform usage can be a sign of active,value-seeking shoppers rather than imminent disengagement. Test whether Nexora wins particular shopping missions and wallet share, not whether it is the only installed app. | Survey association,not proof that improving digital fluency causes31% more spending. Lazada-sponsored; public summary only; full report requires personal-data/marketing signup and was not submitted or retrieved. Regional average cannot be relabelledIndonesia-specific. | https://cube.asia/the-2026-ecommerce-savvy-shopper-report-southeast-asia/ |  |  |
+
+### Workbook snapshot — Prior Research
+
+| ID | Supplied analysis | Reported finding | Decision hypothesis | Replication / transfer limit | Source locator |
+| --- | --- | --- | --- | --- | --- |
+| PR01 | Nexora_Dataset_Findings.md | A prior historical app-review analysis reports a delivery dispute followed by COD restriction, including continuing intent to buy. | Recovery may need to restore an acceptable payment path, alongside compensation and seller-risk controls. | Underlying historical raw corpus was not reprocessed in this workbook. Do not pool its sample counts with current Apify records or assert Nexora has this policy. | Section 1, supplied prior analysis |
+| PR02 | Nexora_Dataset_Findings.md | Prior historical support analysis reports future carrier preferences in both directions, including after current parcel receipt. | Evaluate carrier/address compatibility and recurring exceptions rather than assuming ownership alone determines experience. | Historical 2017 support analogues outside Indonesian Nexora. Prior agent-coded findings, not independently rerun here. | Section 2, supplied prior analysis |
+| PR03 | Nexora_Dataset_Findings.md | A prior reserved sample found 0 of120 screened reviews explicitly repeating competitor discovery followed by original-platform checkout. | Keep one new seller-reported trust-checkout episode exploratory. | A failure to replicate this sequence in that screened historical sample does not prove it never occurs; the new corpus does not establish prevalence. | Appendix B, supplied prior analysis |
+
+<a id="v3-qa"></a>
+## 9. Methods, robustness, final validation and remaining unknowns
+
+All 82 selected evidence/counterevidence quotes were checked against platform/record IDs, original text, dates and source files, with zero missing records or exact quote/date mismatches. All 32 case calculations were independently recomputed with zero arithmetic mismatches. This is quote/arithmetic validation, not verification of allegations, a representative inter-rater coding study or independent re-reading of every raw record.
+
+All 9,114 original snapshots reconstructed exactly. Final dataset validation checked 8,713 Master IDs plus 17,426 parent/author ID cells as exact strings, 16,638 typed Jakarta-date cells, ZIP CRC and formula errors. No mismatch or formula error was reported. Source-ID header labels were corrected. A preview renderer could show scientific notation for long numeric-looking strings, but XML retained their exact string values; no Excel numeric rounding was accepted.
+
+The analysis workbook contains 183 formulas and two native financial charts. Its arithmetic/formula checks passed; a GMV input-change check recalculated growth correctly and was restored to the case baseline. A crowded corpus chart was removed in favor of a fully labelled table. The final claims were narrowed following the challenge; the final workbook text above takes precedence over preliminary drafts. Classifications are saved outputs: editing raw text in Excel does not rerun language screening or qualitative coding.
+
+Author-capped sensitivity retains the earliest eligible record per platform-specific author, with record fallback where an author is absent. It is a sensitivity sample, not population weighting. Theme categories overlap; neither all-record nor author-capped shares estimate importance, causes or population prevalence.
+
+### Workbook snapshot — Executive Insights
+
+| Finding | Evidence and tension | So what / next decision | Status |
+| --- | --- | --- | --- |
+| C01  Most of Nexora’s revenue increase reflects a higher realized revenue-to-GMV ratio rather than GMV expansion. | GMV rose7.14%while platform revenue rose33.33%. Under the stated decomposition, IDR11.79tn of the IDR15tn revenue gain comes from realized monetization/mix rather than baseline-rate volume growth. | Another fee increase is not proven repeatable simply because the first increase coincided with profit. The next decision must show additional value delivered or an acceptable behavioral loss. | DERIVED CASE FINDING plus strategic inference |
+| S01  Seller accounts describe accepting higher fees where cheaper channels fail to reproduce demand. | A nominal fee is only one input into the value of a sales channel. Lower-fee channels can have fewer orders, while a costly marketplace supplies distribution and existing buyer habits. This is demand access rather than proof of technical lock-in. | Nexora should test whether its monetization increase outpaced seller value delivered. Blanket fee cuts may subsidize sellers who would stay for demand, while failing to replace lost reach for vulnerable merchants. | Moderate qualitative support across X and TikTok; contribution-profit superiority unmeasured |
+| S02  Low-ticket sellers describe large fixed-fee burdens; bundling and minimum quantities are proposed or reported adaptations. | Fixed per-order deductions are disproportionately large for cheap items. Historical comments include calculations and bundling advice. Explicit minimum-quantity or withdrawal accounts are current-2026 evidence. A resulting loss of purchase frequency is a hypothesis. | A platform can preserve revenue per order while weakening the small-basket use cases that generate purchase frequency. Nexora should distinguish low-ticket merchant viability from average take-rate optics. | Strong mechanism plausibility; multiple attributed low-ticket examples; net transaction impact unmeasured |
+| B01  Some shoppers restrict risky categories or choose delivery safeguards when buying expensive items online. | Different authors describe category concerns, courier safeguards and successful high-value purchases on several platforms. The evidence suggests occasion-specific risk management. It does not observe each buyer’s complete basket allocation or wallet share. | For Nexora, user retention or transaction frequency can look healthy while the platform loses valuable category occasions. The relevant competitive unit is a basket/category-and-risk occasion, not only an app account. | Repeated qualitative contrast across distinct authors/conversations; no prevalence or estimated premium |
+| S05  Migration accounts describe listing and workflow friction despite the promise of easier multichannel selling. | Self-reported listing, account and operating-task problems accompany integration. Official 2025 guidance separately describes simpler multichannel workflows. The corpus does not identify the net average effect or a causal before-and-after sequence. | For Nexora, a digital enabler must preserve productive selling workflows and assortment availability. A single dashboard is not a retention proposition if it adds onboarding or listing friction. | Moderate qualitative support across X and TikTok; integration causality unproven |
+| S08  Seller accounts describe payout delays as a cash-flow constraint beyond stated marketplace deductions. | A sold item is not immediately usable cash. Unclear receipt, completion and withdrawal holds can restrict reinvestment and amplify the effective burden of commissions. Zero-fee alternatives can still disappoint if payout reliability is weak. | Treat settlement predictability as a separate working-capital test alongside deductions and demand. The corpus does not show whether fixing payouts is cheaper or more effective than fee relief. | Moderate qualitative mechanism support; historical X plus date-uncertain YouTube corroboration |
+| S04  Seller logistics complaints concern recoverable losses and adjudication, not parcel cost alone. | Returns, non-returned goods, rejected appeals and uncertain reimbursement can wipe out thin contribution margins. Buyers and sellers require a credible adjudication process; choosing one side automatically is not the same as fairness. Operational optimization can externalize costs to merchants. | Nexora internal shipping cost savings do not by themselves establish marketplace value. Its logistics recommendation should evaluate successful delivery, recovery and retained merchant contribution alongside cost per parcel. | Moderate cross-platform qualitative signal; allegations and loss allocation remain unverified |
+| C03  NexExpress is cheaper on today’s parcel mix; expansion still requires a marginal route-and-capacity test. | The reported50/50mix ofRp8,000internal andRp12,000external average parcel costs exactly reconciles toRp10,000. A mechanical10ppshare shift would saveRp0.8tn only at unchanged costs and volumes. | The actionable unit is the route/service cohort, not the group-wide in-house share target. A fixed target can misallocate difficult parcels and conceal service losses. | DERIVED IDENTITY plus untested marginal-economics hypothesis |
+
+### Workbook snapshot — Buyer Decisions
+
+| ID | Headline | Evidence / mechanism | Implication | Action | Counter-hypothesis | Evidence status |
+| --- | --- | --- | --- | --- | --- | --- |
+| B01 | Some shoppers restrict risky categories or choose delivery safeguards when buying expensive items online. | Different authors describe category concerns, courier safeguards and successful high-value purchases on several platforms. The evidence suggests occasion-specific risk management. It does not observe each buyer’s complete basket allocation or wallet share. | For Nexora, user retention or transaction frequency can look healthy while the platform loses valuable category occasions. The relevant competitive unit is a basket/category-and-risk occasion, not only an app account. | Evaluate category-specific reliable delivery/protection bundles and explicit courier choice for high-value baskets. Measure contribution and completed high-value orders rather than promise blanket free shipping. | Shoppers choose the lowest net price across categories regardless of courier/protection or item value. | Repeated qualitative contrast across distinct authors/conversations; no prevalence or estimated premium |
+| B02 | One seller reports paying marketplace fees for trusted settlement after finding the buyer through TikTok. | Discovery and settlement can be different jobs. A seller may accept a marketplace charge to reassure a socially acquired buyer, while other sellers route payment outside the platform. | Nexora could compete as a trusted completion layer for demand originating elsewhere. This is a testable option, not proof that social discovery broadly migrates while checkout stays. | Test protected social-to-marketplace checkout links with transparent fees and dispute protection; compare incremental completed profitable orders to fee bypass and fraud exposure. | Once demand originates on social media, the parties consistently avoid marketplace settlement and its fees. | Single reported completed transaction; exploratory business-model hypothesis, not replicated buyer willingness-to-pay |
+| B03 | Occasional deal-driven purchases can preserve activity without making a marketplace the shopper’s default. | Multi-homing can mean tactical routing of different shopping occasions. A monthly discount or ecosystem membership can retain particular occasions without establishing exclusive loyalty. | Nexora should distinguish default-platform status, occasional deal capture, category preference and complete exit. More registered or monthly active buyers may not mean more share of their transactions. | Segment retention around observed purchase occasions and replenishment categories. Test narrow repeat incentives and membership benefits against incremental contribution, while separately tracking non-incentivized repeat purchasing. | A shopper either remains loyal to one platform or fully leaves; occasional purchases are a reliable proxy for default status. | Multiple qualitative episodes of comparison, periodic use and switching; no longitudinal wallet-share estimate |
+| B04 | Migration accounts describe broken reordering paths and attempts to reconnect with familiar sellers off-platform. | Accounts describe failed reordering or listing paths and attempts to reconnect with familiar sellers through Instagram or contact details. These are friction and recovery attempts, not verified completed off-platform purchases. | For Nexora, seller attrition and workflow changes may spill into buyer repeat loss through broken replenishment relationships. Retaining an account is insufficient if the familiar transaction path disappears. | Preserve reorder/history continuity and seller accessibility through platform changes. For unavailable preferred sellers, test equivalent trusted-seller substitutes and clear communication rather than only generic voucher reacquisition. | Buyer repeat is unaffected by vendor/history continuity because equivalent listings and promotions are readily substitutable. | Two explicit relationship/workflow disruptions plus a direct-channel move; qualitative mechanism lead |
+| B05 | Successful refund reports can coexist with advice to avoid another online purchase. | Pre-purchase authenticity and post-purchase recoverability are different sources of trust. Refunds can mitigate money loss without restoring confidence in the transaction route or courier. | Nexora should diagnose whether lost repeat comes from bad merchandise, difficult resolution, or fear of recurrence. Refund completion alone is an incomplete recovery KPI. | Pair refund resolution with a safe next-order route: clear protection status, accessible human escalation and alternate delivery choices where justified. Measure subsequent attempted and completed orders alongside resolution time. | Refunding the current loss fully restores purchase willingness, and listing quality/protection can be summarized by one trust score. | Mixed firsthand and comparative accounts; intentional counterexamples to a one-dimensional trust story |
+| B06 | Small-basket fee complaints and checkout-price mismatches show why item discounts can fail to communicate value. | A flat service charge consumes a larger share of a small basket. Voucher-adjusted product prices may differ from the final payable total, leaving a gap between deal discovery and transaction value. | For Nexora, reducing blanket subsidies should be evaluated on delivered basket economics and price certainty, especially for low-ticket replenishment, rather than listed product discounts alone. | Show final delivered price earlier and test targeted small-basket thresholds/fee credits or legitimate same-store bundling. Treat basket consolidation effects as an experiment, not an established finding. | Buyers evaluate only item price, and a flat fee has the same behavioral relevance across basket values. | Specific buyer charge and checkout mismatch accounts; mechanism hypothesis, not measured basket elasticity |
+
+### Workbook snapshot — Seller Decisions
+
+| ID | Headline | Evidence / mechanism | Implication | Action | Counter-hypothesis | Evidence status |
+| --- | --- | --- | --- | --- | --- | --- |
+| S01 | Seller accounts describe accepting higher fees where cheaper channels fail to reproduce demand. | A nominal fee is only one input into the value of a sales channel. Lower-fee channels can have fewer orders, while a costly marketplace supplies distribution and existing buyer habits. This is demand access rather than proof of technical lock-in. | Nexora should test whether its monetization increase outpaced seller value delivered. Blanket fee cuts may subsidize sellers who would stay for demand, while failing to replace lost reach for vulnerable merchants. | Segment retention offers by delivered-order contribution and incremental demand, not headline fee alone. Compare a targeted fee rebate with incremental qualified exposure and a payout/service intervention; do not assume any one wins. | Nominal fee differences are the dominant switching driver, and sellers can recreate equivalent demand on cheaper channels. | Moderate qualitative support across X and TikTok; contribution-profit superiority unmeasured |
+| S02 | Low-ticket sellers describe large fixed-fee burdens; bundling and minimum quantities are proposed or reported adaptations. | Fixed per-order deductions are disproportionately large for cheap items. Historical comments include calculations and bundling advice. Explicit minimum-quantity or withdrawal accounts are current-2026 evidence. A resulting loss of purchase frequency is a hypothesis. | A platform can preserve revenue per order while weakening the small-basket use cases that generate purchase frequency. Nexora should distinguish low-ticket merchant viability from average take-rate optics. | Test a targeted fixed-charge cap/rebate for eligible low-basket delivered orders, or buyer-acceptable bundling; validate contribution economics before scaling. Do not infer that removing all fees is optimal. | A fixed charge is absorbed or passed through without changing assortment, order quantities or channel choice. | Strong mechanism plausibility; multiple attributed low-ticket examples; net transaction impact unmeasured |
+| S03 | Some sellers cannot reconcile deductions to the programs they believe they selected. | Program layers, affiliate commission and shipping charges can make realized payout unpredictable. Sellers may interpret unexpected deductions as loss of control even when a stated fee schedule exists. Clear consent and prospective net proceeds address a different mechanism from lowering nominal commission. | Nexora may be able to improve seller retention without reversing its entire monetization model, if unpredictable participation and settlement are material causes. This is a testable option, not a proven cheaper retention lever. | Pilot a pre-activation net-payout preview, explicit program ownership/consent, change history and order-level reconciliation. Keep commercial program enrollment understandable and reversible where feasible. | Sellers fully understand and choose every deduction; only the final fee level matters. | Moderate qualitative support; fee-consent interface failures not independently verified |
+| S04 | Seller logistics complaints concern recoverable losses and adjudication, not parcel cost alone. | Returns, non-returned goods, rejected appeals and uncertain reimbursement can wipe out thin contribution margins. Buyers and sellers require a credible adjudication process; choosing one side automatically is not the same as fairness. Operational optimization can externalize costs to merchants. | Nexora internal shipping cost savings do not by themselves establish marketplace value. Its logistics recommendation should evaluate successful delivery, recovery and retained merchant contribution alongside cost per parcel. | Pilot evidence-based return chain-of-custody, timed appeal decisions, transparent compensation and risk-tiered shipping choice. Compare end-to-end expected loss, service cost and fraud exposure; preserve buyer protection. | Parcel cost and speed are sufficient measures of seller logistics value, while dispute/reimbursement design has little retention consequence. | Moderate cross-platform qualitative signal; allegations and loss allocation remain unverified |
+| S05 | Migration accounts describe listing and workflow friction despite the promise of easier multichannel selling. | Self-reported listing, account and operating-task problems accompany integration. Official 2025 guidance separately describes simpler multichannel workflows. The corpus does not identify the net average effect or a causal before-and-after sequence. | For Nexora, a digital enabler must preserve productive selling workflows and assortment availability. A single dashboard is not a retention proposition if it adds onboarding or listing friction. | Prioritize backward-compatible listings, clear rejection reasons, migration exception handling and lightweight merchant workflows. Validate live SKU availability and time-to-first-delivered-sale, not accounts linked alone. | Integration is operationally seamless and its main effect is to increase merchant access to buyers. | Moderate qualitative support across X and TikTok; integration causality unproven |
+| S06 | One artist reports split settlement while other sellers advertise partial marketplace checkout. | Sellers can retain an account and an order record while routing only a deposit or small listing through checkout. Off-platform discovery and payment are different from complete switching; nominal retention and parcel activity can coexist with lower captured transaction value. | Nexora should not equate active seller counts, order counts or parcels with full capture of customer commerce. The relevant question is why merchants value its transaction services but avoid the monetized payment base. | Investigate net-payout predictability and fair service pricing alongside payment integrity and consumer protection. Monitor inconsistencies using legitimate records if available; do not recommend evasion or punitive blanket action from social anecdotes. | Retained sellers and marketplace orders generally represent full-value commerce, so payment routing adds little information beyond churn. | Exploratory 2025 behavioral signal; amount and prevalence unknown |
+| S07 | A2026 commenter reports leaving inventory selling for affiliate work while remaining in the platform ecosystem. | Seller economics can change participation role rather than cause app deletion. Becoming an affiliate preserves engagement and platform demand generation while removing owned inventory, fulfillment effort and potentially distinctive assortment. Account activity is therefore not equivalent to merchant capacity. | Nexora retention analysis should distinguish productive merchants, affiliates, buyers and dormant storefronts. If viable small sellers become promoters, engagement can look healthy while assortment depth weakens. | Define role-specific retention and productive-assortment metrics. Explore lighter merchant operating models only where they preserve contribution and differentiated selection; do not treat affiliate conversion as an automatic substitute for merchant retention. | Merchant exit normally causes full platform exit, and affiliate activity preserves equivalent supply-side value. | Exploratory; one explicit 2026 role-transition case with supporting exit accounts |
+| S08 | Seller accounts describe payout delays as a cash-flow constraint beyond stated marketplace deductions. | A sold item is not immediately usable cash. Unclear receipt, completion and withdrawal holds can restrict reinvestment and amplify the effective burden of commissions. Zero-fee alternatives can still disappoint if payout reliability is weak. | Treat settlement predictability as a separate working-capital test alongside deductions and demand. The corpus does not show whether fixing payouts is cheaper or more effective than fee relief. | Test transparent expected payout dates, reason-coded exceptions, payout-status tracking and risk-tiered accelerated settlement. Preserve fraud/return reserves and evaluate incremental risk, not just merchant convenience. | Sellers care mainly about eventual payout and commission level; settlement timing has little effect on reinvestment or channel allocation. | Moderate qualitative mechanism support; historical X plus date-uncertain YouTube corroboration |
+
+### Workbook snapshot — Delivery and Recovery
+
+| ID | Headline | Evidence / mechanism | Implication | Action | Counter-hypothesis | Evidence status |
+| --- | --- | --- | --- | --- | --- | --- |
+| C03 | NexExpress is cheaper on today’s parcel mix; expansion still requires a marginal route-and-capacity test. | The current in-house network may select dense/easy routes; additional capacity/geography may cost more. Ownership can lower average cost while poor recovery or slower delivery erodes buyer trust. | The actionable unit is the route/service cohort, not the group-wide in-house share target. A fixed target can misallocate difficult parcels and conceal service losses. | Use a transparent scenario gate for internal-versus-external route allocation incorporating marginal handling/capacity and service failure exposure; do not prescribe blanket insourcing from averages. | NexExpress has spare capacity and density gains, so incremental internal cost is at or below the current average and further insourcing adds value. | DERIVED IDENTITY plus untested marginal-economics hypothesis |
+| C05 | At unchanged volume, Rp1,000extra parcel cost equals40%of current operating profit before offsets. | Revenue is largely value-linked, while delivery and some recovery costs are parcel/incident-linked; average GMV growth can hide cost-intensive mixes and split deliveries. | Profitable transaction growth must specify contribution after delivery/recovery; GMV or transaction count alone can scale a thin-buffer activity. | Make the proposal’s impact calculation reconcile incremental realized revenue, incentives, logistics/recovery and implementation costs. Use scenarios instead of an assumed uniformGMV-to-profit conversion. | Incremental orders have sufficiently high contribution and spare fulfilment capacity, so transaction growth improves the profit buffer despite added physical volume. | STATIC CASE SENSITIVITY, not forecast |
+| B01 | Some shoppers restrict risky categories or choose delivery safeguards when buying expensive items online. | Different authors describe category concerns, courier safeguards and successful high-value purchases on several platforms. The evidence suggests occasion-specific risk management. It does not observe each buyer’s complete basket allocation or wallet share. | For Nexora, user retention or transaction frequency can look healthy while the platform loses valuable category occasions. The relevant competitive unit is a basket/category-and-risk occasion, not only an app account. | Evaluate category-specific reliable delivery/protection bundles and explicit courier choice for high-value baskets. Measure contribution and completed high-value orders rather than promise blanket free shipping. | Shoppers choose the lowest net price across categories regardless of courier/protection or item value. | Repeated qualitative contrast across distinct authors/conversations; no prevalence or estimated premium |
+| B05 | Successful refund reports can coexist with advice to avoid another online purchase. | Pre-purchase authenticity and post-purchase recoverability are different sources of trust. Refunds can mitigate money loss without restoring confidence in the transaction route or courier. | Nexora should diagnose whether lost repeat comes from bad merchandise, difficult resolution, or fear of recurrence. Refund completion alone is an incomplete recovery KPI. | Pair refund resolution with a safe next-order route: clear protection status, accessible human escalation and alternate delivery choices where justified. Measure subsequent attempted and completed orders alongside resolution time. | Refunding the current loss fully restores purchase willingness, and listing quality/protection can be summarized by one trust score. | Mixed firsthand and comparative accounts; intentional counterexamples to a one-dimensional trust story |
+| S04 | Seller logistics complaints concern recoverable losses and adjudication, not parcel cost alone. | Returns, non-returned goods, rejected appeals and uncertain reimbursement can wipe out thin contribution margins. Buyers and sellers require a credible adjudication process; choosing one side automatically is not the same as fairness. Operational optimization can externalize costs to merchants. | Nexora internal shipping cost savings do not by themselves establish marketplace value. Its logistics recommendation should evaluate successful delivery, recovery and retained merchant contribution alongside cost per parcel. | Pilot evidence-based return chain-of-custody, timed appeal decisions, transparent compensation and risk-tiered shipping choice. Compare end-to-end expected loss, service cost and fraud exposure; preserve buyer protection. | Parcel cost and speed are sufficient measures of seller logistics value, while dispute/reimbursement design has little retention consequence. | Moderate cross-platform qualitative signal; allegations and loss allocation remain unverified |
+| S08 | Seller accounts describe payout delays as a cash-flow constraint beyond stated marketplace deductions. | A sold item is not immediately usable cash. Unclear receipt, completion and withdrawal holds can restrict reinvestment and amplify the effective burden of commissions. Zero-fee alternatives can still disappoint if payout reliability is weak. | Treat settlement predictability as a separate working-capital test alongside deductions and demand. The corpus does not show whether fixing payouts is cheaper or more effective than fee relief. | Test transparent expected payout dates, reason-coded exceptions, payout-status tracking and risk-tiered accelerated settlement. Preserve fraud/return reserves and evaluate incremental risk, not just merchant convenience. | Sellers care mainly about eventual payout and commission level; settlement timing has little effect on reinvestment or channel allocation. | Moderate qualitative mechanism support; historical X plus date-uncertain YouTube corroboration |
+
+### Workbook snapshot — Corpus Patterns
+
+| Universe | Records | Interpretation |
+| --- | --- | --- |
+| All unique content IDs | 8713 | Content units, not unique people |
+| Exact 2025 core screen | 5527 | Eligibility proxy; requires semantic interpretation |
+| Exact 2026 current screen | 329 | Eligibility proxy; requires semantic interpretation |
+| YouTube comments with uncertain date | 800 | Content units, not unique people |
+| Source occurrences | 9114 | Content units, not unique people |
+| Duplicate occurrences | 401 | Content units, not unique people |
+
+| Mention category | 2025 screened records | 2025 screen base | Share of screened records | 2026 screened records | 2026 screen base | Current share |
+| --- | --- | --- | --- | --- | --- | --- |
+| Price & total buyer cost | 1335 | 5527 | 0.24154152343043242 | 56 | 329 | 0.1702127659574468 |
+| Fees & deductions | 269 | 5527 | 0.04867016464628189 | 27 | 329 | 0.08206686930091185 |
+| Promotions & subsidies | 873 | 5527 | 0.157951872625294 | 17 | 329 | 0.05167173252279635 |
+| Demand & realized sales | 297 | 5527 | 0.05373620408901755 | 30 | 329 | 0.0911854103343465 |
+| Content & discovery | 302 | 5527 | 0.054640853989506064 | 9 | 329 | 0.02735562310030395 |
+| Seller tools & integration | 199 | 5527 | 0.036005066039442736 | 23 | 329 | 0.06990881458966565 |
+| Delivery & pickup reliability | 378 | 5527 | 0.06839153247693143 | 15 | 329 | 0.04559270516717325 |
+| Trust & product quality | 548 | 5527 | 0.0991496290935408 | 21 | 329 | 0.06382978723404255 |
+| Returns & dispute recovery | 207 | 5527 | 0.037452505880224356 | 17 | 329 | 0.05167173252279635 |
+| Payments & cash flow | 403 | 5527 | 0.07291478197937398 | 13 | 329 | 0.03951367781155015 |
+| Platform alternatives & allocation | 162 | 5527 | 0.029310656775827754 | 5 | 329 | 0.015197568389057751 |
+| Membership & continued use | 313 | 5527 | 0.056631083770580785 | 5 | 329 | 0.015197568389057751 |
+| Seller margins & viability | 249 | 5527 | 0.04505156504432784 | 34 | 329 | 0.1033434650455927 |
+| Other operating costs | 270 | 5527 | 0.04885109462637959 | 5 | 329 | 0.015197568389057751 |
+
+### Workbook snapshot — Robustness
+
+| Universe | Theme | All mentions | All records | Record share | Author-capped mentions | Author-capped records | Capped share | Method |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| core_2025 | Price & total buyer cost | 1335 | 5527 | 0.24154152343043242 | 897 | 4003 | 0.22408193854609043 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Fees & deductions | 269 | 5527 | 0.04867016464628189 | 180 | 4003 | 0.04496627529352985 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Promotions & subsidies | 873 | 5527 | 0.157951872625294 | 551 | 4003 | 0.13764676492630526 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Demand & realized sales | 297 | 5527 | 0.05373620408901755 | 202 | 4003 | 0.05046215338496128 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Content & discovery | 302 | 5527 | 0.054640853989506064 | 178 | 4003 | 0.04446665001249063 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Seller tools & integration | 199 | 5527 | 0.036005066039442736 | 113 | 4003 | 0.028228828378715962 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Delivery & pickup reliability | 378 | 5527 | 0.06839153247693143 | 275 | 4003 | 0.06869847614289283 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Trust & product quality | 548 | 5527 | 0.0991496290935408 | 370 | 4003 | 0.09243067699225581 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Returns & dispute recovery | 207 | 5527 | 0.037452505880224356 | 142 | 4003 | 0.03547339495378466 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Payments & cash flow | 403 | 5527 | 0.07291478197937398 | 254 | 4003 | 0.06345241069198101 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Platform alternatives & allocation | 162 | 5527 | 0.029310656775827754 | 110 | 4003 | 0.02747939045715713 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Membership & continued use | 313 | 5527 | 0.056631083770580785 | 209 | 4003 | 0.05221084186859855 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Seller margins & viability | 249 | 5527 | 0.04505156504432784 | 156 | 4003 | 0.0389707719210592 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| core_2025 | Other operating costs | 270 | 5527 | 0.04885109462637959 | 183 | 4003 | 0.04571571321508868 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Price & total buyer cost | 56 | 329 | 0.1702127659574468 | 56 | 325 | 0.1723076923076923 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Fees & deductions | 27 | 329 | 0.08206686930091185 | 27 | 325 | 0.08307692307692308 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Promotions & subsidies | 17 | 329 | 0.05167173252279635 | 17 | 325 | 0.052307692307692305 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Demand & realized sales | 30 | 329 | 0.0911854103343465 | 29 | 325 | 0.08923076923076922 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Content & discovery | 9 | 329 | 0.02735562310030395 | 9 | 325 | 0.027692307692307693 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Seller tools & integration | 23 | 329 | 0.06990881458966565 | 22 | 325 | 0.06769230769230769 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Delivery & pickup reliability | 15 | 329 | 0.04559270516717325 | 15 | 325 | 0.046153846153846156 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Trust & product quality | 21 | 329 | 0.06382978723404255 | 21 | 325 | 0.06461538461538462 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Returns & dispute recovery | 17 | 329 | 0.05167173252279635 | 16 | 325 | 0.04923076923076923 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Payments & cash flow | 13 | 329 | 0.03951367781155015 | 13 | 325 | 0.04 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Platform alternatives & allocation | 5 | 329 | 0.015197568389057751 | 5 | 325 | 0.015384615384615385 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Membership & continued use | 5 | 329 | 0.015197568389057751 | 5 | 325 | 0.015384615384615385 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Seller margins & viability | 34 | 329 | 0.1033434650455927 | 34 | 325 | 0.10461538461538461 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+| current_2026 | Other operating costs | 5 | 329 | 0.015197568389057751 | 4 | 325 | 0.012307692307692308 | Sensitivity sample, earliest retained record per known platform-specific author (unknown author uses record key); not population weighting |
+
+| Universe | Platform | Parent video ID | Parent title | Comment records | Author accounts | Cohort comment base |
+| --- | --- | --- | --- | --- | --- | --- |
+| core_2025 | TikTok | 7517537961181793554 |  | 107 | 106 | 282 |
+| core_2025 | TikTok | 7511319675909836039 |  | 68 | 68 | 282 |
+| core_2025 | TikTok | 7583198365140241685 |  | 54 | 54 | 282 |
+| core_2025 | TikTok | 7474221764755606839 |  | 23 | 23 | 282 |
+| core_2025 | TikTok | 7522712523334749458 |  | 10 | 10 | 282 |
+| core_2025 | TikTok | 7525935834395200786 |  | 7 | 7 | 282 |
+| core_2025 | TikTok | 7587279762620484885 |  | 5 | 5 | 282 |
+| core_2025 | TikTok | 7532338841726831880 |  | 4 | 4 | 282 |
+| core_2025 | TikTok | 7563931718277729543 |  | 4 | 4 | 282 |
+| current_2026 | TikTok | 7602956320416812306 |  | 103 | 103 | 329 |
+| current_2026 | TikTok | 7603036716986797320 |  | 44 | 44 | 329 |
+| current_2026 | TikTok | 7583198365140241685 |  | 42 | 42 | 329 |
+| current_2026 | TikTok | 7660861532657421575 |  | 31 | 31 | 329 |
+| current_2026 | TikTok | 7563931718277729543 |  | 25 | 22 | 329 |
+| current_2026 | TikTok | 7659582565094804757 |  | 17 | 16 | 329 |
+| current_2026 | TikTok | 7525935834395200786 |  | 16 | 16 | 329 |
+| current_2026 | TikTok | 7474221764755606839 |  | 15 | 15 | 329 |
+| current_2026 | TikTok | 7634830402879999253 |  | 12 | 12 | 329 |
+| current_2026 | TikTok | 7587279762620484885 |  | 10 | 10 | 329 |
+| current_2026 | TikTok | 7637402703815216404 |  | 5 | 5 | 329 |
+| current_2026 | TikTok | 7595902571768843541 |  | 4 | 4 | 329 |
+| current_2026 | TikTok | 7636782070710242568 |  | 2 | 2 | 329 |
+| current_2026 | TikTok | 7511319675909836039 |  | 2 | 2 | 329 |
+| current_2026 | TikTok | 7498979419822902536 |  | 1 | 1 | 329 |
+| uncertain_date_text | YouTube | Ay_pg33Q23A | Potongan marketplace udah sampai 20%... | 100 | 95 | 800 |
+| uncertain_date_text | YouTube | DITvF8ot938 | Apakah Shopee masih worth it di tahun 2026? | 100 | 89 | 800 |
+| uncertain_date_text | YouTube | MlMo8LEQRDU | Fitur Hitung Harga Jual dan Biaya Admin Tiktok Shop Biar Ngga Boncos | 100 | 68 | 800 |
+| uncertain_date_text | YouTube | MhVmcKDLl80 | Review Toco Pengganti Tokopedia? | 100 | 93 | 800 |
+| uncertain_date_text | YouTube | EP6lZsW_-KA | Om Botak Kasih Bocoran! Ini STRATEGI Jualan Laris di SHOPEE & TIKTOK - Christina Lie #CeritaOmBotak | 100 | 89 | 800 |
+| uncertain_date_text | YouTube | QLl0IxupfN8 | TIPS JUALAN LARIS DI SHOPEE UNTUK SHOPEE SELLER PEMULA! | 100 | 65 | 800 |
+| uncertain_date_text | YouTube | 3tTgy88yN_g | Mantan Tukang Parkir Jago Jualan di TikTok & Shopee, Ini Rahasianya.. | 100 | 95 | 800 |
+| uncertain_date_text | YouTube | uQKpHkKaH5A | Gratis Ongkir Dihapus? Cara Jualan Tetap Laris di Shopee Tanpa Iklan | 100 | 93 | 800 |
+
+### Workbook snapshot — Method and Review
+
+| Rule | Definition |
+| --- | --- |
+| Business framing | Profitable transaction growth and buyer/seller retention, not registrations or app exclusivity alone. |
+| Source hierarchy | Fictional case facts and derived calculations; new comparator social accounts; labelled external research; inherited prior analysis; proposed tests. |
+| Unique content versus people | 8,713 unique platform/type/content IDs from9,114 source occurrences. Author handles are platform-specific and cannot be resolved to unique people across channels. |
+| Core 2025 screen | Exact 2025 text post/comment, not promotion-screened, at least4 word tokens and relevant marketplace or joined context. This is an automated eligibility proxy. |
+| Date uncertainty | 800 YouTube comments expose only relative publishedTimeText. They are not assigned exact 2025 dates. |
+| Semantic review | Buyer agent read148 unique full texts. Seller agent reviewed113 candidates with43high-impact full checks, distinguished in ledger. Sampling was purposeful, not a representative validation sample. |
+| Duplicate lineage | Deduplicate by platform/type/ID and keep every source occurrence/query. Repeated similar stories and author clusters remain flagged; do not assume all posts are independent incidents. |
+| Quantitative boundaries | Theme percentages are overlapping lexical-mention shares in a screened selected corpus, not importance ratings, churn incidence, causes or platform market shares. No causal effect or survey margin of error is calculated. |
+| Action design | Separate choice, completed action and speculation. Recommendations and economic sensitivities are hypotheses/illustrations until tested. |
+| Mentoring criteria | Each insight must have a plausible opposite, a case-specific friction, a changed decision, direct evidence and a problem-to-action connection. |
+| External claim guardrail | Do not relabel regional surveys Indonesian, current 2026 policy historical 2025, sponsored content independent testimony, or advertising-attributed GMV incremental profit. |
+| Workbook calculations | Case arithmetic and corpus mention shares are editable Excel formulas. Text screening, deduplication and semantic review are saved analytical classifications; editing raw text does not rerun language coding. |
+
+| Independent challenge | Result |
+| --- | --- |
+| selected_evidence_and_counterevidence_quotes_checked | 82 |
+| record_ids_missing | 0 |
+| exact_quote_mismatches | 0 |
+| source_file_mismatches_after_field_normalization | 0 |
+| exact_year_mismatches | 0 |
+| case_calculations_recomputed | 32 |
+| case_arithmetic_mismatches | 0 |
+| Scope | Independent challenge of buyer_insights.json,seller_insights.json,case_logic.json and mentoring notes; exact quote and arithmetic audit, not complete re-coding of all scraped records or verification of allegations. |
+| Verdict | The evidence library is grounded and unusually specific; no quote fabrication was found. Main risks are headline breadth, conflating proposed routes with executed transactions, causal language around accounting identities, and merging 2026/date-uncertain corroboration into historical 2025 findings. All proposals remain validation options rather than proven Nexora solutions. |
+| Full record-level reading ledger | See ManualReview in Combined_Cleaned_Data.xlsx. Buyer148 full texts; seller113 candidates of which43high-impact full checks. |
+
+### 9.1 Deterministic screening and field dictionary
+
+```json
+{
+  "metadata": {
+    "created_at": "2026-10-26",
+    "geography": "Indonesia intended; language or source location does not confirm residence",
+    "scope": "Supplied Apify exports only",
+    "coding_version": "regex-screen-v1",
+    "counts_are": "Content records and platform-specific author IDs/handles, not people/transactions",
+    "period_basis": "Exact UTC publication year; Jakarta publication date retained separately",
+    "master_columns": [
+      "record_key",
+      "platform",
+      "record_type",
+      "source_id",
+      "parent_id",
+      "author_id",
+      "author_handle",
+      "author_name",
+      "author_cluster_key",
+      "author_location",
+      "original_text",
+      "clean_text",
+      "title",
+      "parent_title",
+      "parent_caption",
+      "url",
+      "parent_url",
+      "publication_timestamp_utc",
+      "publication_date_jakarta",
+      "publication_year",
+      "date_precision",
+      "date_text_original",
+      "period_cohort",
+      "collection_timestamp_utc",
+      "collection_date_jakarta",
+      "content_language",
+      "market_mentions",
+      "parent_market_mentions",
+      "query_target_markets",
+      "all_queries",
+      "source_files",
+      "source_ids",
+      "source_occurrence_count",
+      "selected_snapshot_file",
+      "like_count",
+      "view_count",
+      "reply_count",
+      "comment_count",
+      "share_count",
+      "retweet_count",
+      "quote_count",
+      "bookmark_count",
+      "ad_flag",
+      "sponsored_flag",
+      "paid_content_flag",
+      "creator_owner_flag",
+      "first_person_cue",
+      "merchant_cue",
+      "buyer_cue",
+      "role_candidate",
+      "confirmed_role",
+      "action_stay_cue",
+      "action_switch_cue",
+      "action_multihome_cue",
+      "action_abandon_cue",
+      "promotional_screen",
+      "promotional_reason",
+      "short_text_screen",
+      "word_token_count",
+      "relevant_screen",
+      "themes",
+      "theme_match_evidence",
+      "analysis_eligible_screen",
+      "core_2025_screen",
+      "current_2026_screen",
+      "screen_exclusion_reasons",
+      "same_text_other_ids",
+      "duplicate_text_cluster",
+      "coding_method"
+    ],
+    "source_map_columns": [
+      "occurrence_key",
+      "record_key",
+      "source_id",
+      "file_name",
+      "original_row",
+      "query_or_input",
+      "query_target_markets",
+      "collection_timestamp_utc",
+      "original_id",
+      "platform",
+      "record_type",
+      "raw_attributes_chunk_count"
+    ]
+  },
+  "codebook": [
+    {
+      "field": "record_key",
+      "definition": "Platform | record type | original content ID; all IDs are strings.",
+      "status": "Source-derived"
+    },
+    {
+      "field": "clean_text",
+      "definition": "NFKC normalization; zero-width space/BOM removed; whitespace collapsed; emoji joiners preserved; original_text retained unchanged.",
+      "status": "Deterministic cleaning"
+    },
+    {
+      "field": "raw_attributes_chunks",
+      "definition": "Every original row serialized as JSON, including all nested attributes and each duplicate snapshot; ordered chunks <=30,000 UTF-16 code units. Join by occurrence_key and concatenate chunk_number to recover original JSON.",
+      "status": "Lossless field-preservation table"
+    },
+    {
+      "field": "publication_timestamp_utc",
+      "definition": "Exact source timestamp parsed to UTC. YouTube publishedTimeText is deliberately not converted.",
+      "status": "Source-derived; nullable"
+    },
+    {
+      "field": "role_candidate",
+      "definition": "Regex language cues only, not verified buyer/merchant status. Query roles are distinct from observed roles.",
+      "status": "Automated candidate"
+    },
+    {
+      "field": "confirmed_role",
+      "definition": "Not semantically reviewed unless a separate human/analyst reviewed-record ledger establishes role.",
+      "status": "Unreviewed default"
+    },
+    {
+      "field": "themes",
+      "definition": "Multiple non-exclusive lexical mention categories with exact matched terms. Not sentiment, causality or a count of independent incidents.",
+      "status": "Automated candidate"
+    },
+    {
+      "field": "promotional_screen",
+      "definition": "Source ad flag, known official/promo handles, sales offer/commercial CTA, or promotion-profile plus offer vocabulary. May miss or overflag commercial content.",
+      "status": "Automated screen"
+    },
+    {
+      "field": "core_2025_screen",
+      "definition": "Exact 2025 text post/comment, >=4 word tokens, marketplace mention or joined context, not promotion-screened. Not a verified respondent sample.",
+      "status": "Screened analytical cohort"
+    },
+    {
+      "field": "current_2026_screen",
+      "definition": "Same screen rules for exact 2026 publication timestamp. Kept separate from 2025.",
+      "status": "Screened analytical cohort"
+    },
+    {
+      "field": "same_text_other_ids",
+      "definition": "Number of distinct IDs sharing case-insensitive normalized text within platform/type. Retained and flagged, not deleted.",
+      "status": "Deterministic repeat flag"
+    },
+    {
+      "field": "author_cluster_key",
+      "definition": "Platform-specific author ID or handle when present; no identity linking across platforms. Distinct handles are not verified distinct people.",
+      "status": "Source-derived"
+    },
+    {
+      "field": "like_count/view_count/reply_count",
+      "definition": "Native source metrics; null is missing, zero is observed zero. Compare within platform/content type only; not transaction outcomes.",
+      "status": "Source-derived snapshots"
+    },
+    {
+      "field": "market_mentions",
+      "definition": "Market names/nicknames explicitly found in own text. parent_market_mentions and query_target_markets are separate contexts.",
+      "status": "Automated mention cue"
+    },
+    {
+      "field": "action_*_cue",
+      "definition": "Lexical action mentions; may be intended, hypothetical, quoted, negated, or actual. Semantic review is required before reporting behavior.",
+      "status": "Automated candidate"
+    }
+  ],
+  "theme_rules": [
+    {
+      "theme": "Price & total buyer cost",
+      "pattern": "harga|murah|mahal|selisih|lebih hemat|total belanja|ongkir|biaya penanganan",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Fees & deductions",
+      "pattern": "biaya admin|biaya layanan|biaya platform|potongan|komisi|commission|\\bfee\\b|take rate|admin naik",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Promotions & subsidies",
+      "pattern": "voucher|vocer|voc |diskon|promo|cashback|gratis ongkir|koin|subsidi|minbel",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Demand & realized sales",
+      "pattern": "trafik|traffic|pembeli|orderan|pesanan|sepi|laris|omzet|omset|penjualan|\\blaku\\b|konversi",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Content & discovery",
+      "pattern": "\\blive\\b|affiliate|afiliat|konten|algoritma|gmv max|\\bfyp\\b|video pendek",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Seller tools & integration",
+      "pattern": "integrasi|migrasi|gabung.*akun|akun.*gabung|dashboard|upload|listing|fitur|omnichannel|roas|\\biklan\\b|gagal.*produk|tambah.*produk",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Delivery & pickup reliability",
+      "pattern": "kurir|ekspedisi|\\bpaket\\b|pengiriman|terlambat|telat|barang.*hilang|paket.*hilang|pick.?up|\\bjne\\b|\\bjnt\\b|id.?express|\\blel\\b|logistik",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Trust & product quality",
+      "pattern": "\\baman\\b|palsu|original|\\bori\\b|penipu|ketipu|ditipu|tidak sesuai|ga sesuai|gak sesuai|zonk|rusak|percaya|kepercayaan|scam",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Returns & dispute recovery",
+      "pattern": "retur|refund|pengembalian|resolusi|komplain|complain|klaim|customer service|\\bcs\\b|ganti rugi",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Payments & cash flow",
+      "pattern": "pembayaran|\\bbayar\\b|saldo|transfer|pencairan|ditahan|\\bcod\\b|paylater|spaylater|virtual account|dana.*masuk|masuk.*dana",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Platform alternatives & allocation",
+      "pattern": "pindah|beralih|bandingin|bandingkan|dibanding|alternatif|platform lain|marketplace lain|multi.?channel|multi.?hom",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Membership & continued use",
+      "pattern": "langganan|\\bvip\\b|loyal|setia|balik lagi|tetap.*(?:pakai|pake|belanja)|masih.*(?:pakai|pake)|selalu.*(?:belanja|beli)",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Seller margins & viability",
+      "pattern": "untung|rugi|boncos|margin|profit|modal|\\bhpp\\b|netto|gulung tikar|gulung tiker",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    },
+    {
+      "theme": "Other operating costs",
+      "pattern": "produksi|packing|bahan baku|gaji|sewa|pajak|kemasan",
+      "scope": "Automated text mention screen only; not a confirmed driver or cause"
+    }
+  ],
+  "screen_rules": [
+    {
+      "field": "first_person_cue",
+      "pattern": "\\b(?:aku|saya|gue|gw|gua|ane)\\b|tokoku|jualanku|belanjaanku",
+      "meaning": "First-person/possessive language cue only"
+    },
+    {
+      "field": "merchant_cue",
+      "pattern": "jualan|berjualan|tokoku|toko\\s+(?:saya|gue|gw|aku)|omzet|omset|supplier|dagang",
+      "meaning": "Merchant vocabulary with first-person cue, or explicit possessive shop wording"
+    },
+    {
+      "field": "buyer_cue",
+      "pattern": "\\bbeli\\b|belanja|checkout|check out|pesan(?:an)?|bayar|retur|refund|langganan",
+      "meaning": "Purchase vocabulary together with first-person cue"
+    },
+    {
+      "field": "promotional_screen",
+      "pattern": "\\bwts\\b|want to sell|open\\s+(?:po|jastip)|ready\\s*(?:stock|stok)|jual\\s+cepat|order\\s+(?:via|di)|harga\\s*[:=]\\s*(?:rp|\\d)|minat\\s+(?:dm|chat)",
+      "meaning": "Direct sales-offer pattern"
+    },
+    {
+      "field": "promotional_screen",
+      "pattern": "klik\\s+(?:link|di)|link\\s+(?:di|in)\\s*bio|join\\s+(?:grup|group|telegram)|dm\\s+sekarang|hubungi\\s+kami|slot\\s+kemitraan|checkout\\s+(?:di\\s*)?(?:sini|disini)|cek\\s+(?:di\\s*)?keranjang|kursus\\s+privat|jasa\\s+handle",
+      "meaning": "Commercial call-to-action pattern"
+    },
+    {
+      "field": "promotional_screen",
+      "pattern": "shopee_id, shopeeid, tokopedia, lazadaid, lazadaindonesia, simpati, shoptokopedia, tiktokidn, shopeeindonesia, mitrashopee_id, xkode06",
+      "meaning": "Known official/promotion handles"
+    },
+    {
+      "field": "short_text_screen",
+      "pattern": "Word-token count < 4; token regex [\\p{L}\\p{N}]+",
+      "meaning": "Short or nonverbal screen; not a judgment of truth"
+    },
+    {
+      "field": "core_2025_screen",
+      "pattern": "Text post/comment AND UTC year2025 AND >=4 word tokens AND direct/parent marketplace cue AND no promotion flag",
+      "meaning": "Reproducible lexical screen, not a semantically verified sample"
+    },
+    {
+      "field": "current_2026_screen",
+      "pattern": "Same screen with UTC year2026",
+      "meaning": "Current-period context, separate from historical case evidence"
+    },
+    {
+      "field": "publication_year",
+      "pattern": "UTC year from exact source timestamp",
+      "meaning": "Jakarta date is separately typed; rounded YouTube relative dates are never imputed"
+    }
+  ]
+}
+```
+
+### 9.2 Processing and final-validation records
+
+```json
+{
+  "pipeline_checks": {
+    "raw_rows": 9114,
+    "source_map_rows": 9114,
+    "raw_attributes_chunks": 9116,
+    "max_raw_chunk_length": 30000,
+    "unique_records": 8713,
+    "duplicate_occurrences_removed_from_master": 401,
+    "by_type": [
+      {
+        "platform": "TikTok",
+        "record_type": "comment",
+        "records": 1158,
+        "distinct_author_handles_or_ids": 1125
+      },
+      {
+        "platform": "TikTok",
+        "record_type": "video",
+        "records": 278,
+        "distinct_author_handles_or_ids": 235
+      },
+      {
+        "platform": "X",
+        "record_type": "post",
+        "records": 6323,
+        "distinct_author_handles_or_ids": 3973
+      },
+      {
+        "platform": "YouTube",
+        "record_type": "comment",
+        "records": 800,
+        "distinct_author_handles_or_ids": 669
+      },
+      {
+        "platform": "YouTube",
+        "record_type": "video",
+        "records": 154,
+        "distinct_author_handles_or_ids": 97
+      }
+    ],
+    "missing_ids": 0,
+    "duplicate_master_keys": 0,
+    "orphan_comment_parent_metadata": 0,
+    "exact_text_repeat_records": 199,
+    "all_records_preserved": true
+  },
+  "independent_challenge": {
+    "selected_evidence_and_counterevidence_quotes_checked": 82,
+    "record_ids_missing": 0,
+    "exact_quote_mismatches": 0,
+    "source_file_mismatches_after_field_normalization": 0,
+    "exact_year_mismatches": 0,
+    "case_calculations_recomputed": 32,
+    "case_arithmetic_mismatches": 0
+  }
+}
+```
+
+**dataset_final_id_and_date_validation.json**
+
+```json
+{
+  "zip_crc_pass": true,
+  "master_ids_checked": 8713,
+  "parent_and_author_ids_checked": 17426,
+  "mismatches": [],
+  "formula_errors": [],
+  "header_fixes": {
+    "SourceMap": "Source file ID",
+    "Sources": "Source file ID",
+    "RawAttributes": "Source file ID"
+  },
+  "timestamp_formats": {
+    "Master": {
+      "format": "yyyy-mm-dd hh:mm:ss",
+      "cell_type": "d",
+      "raw_value": "2025-02-22T12:58:45.000Z"
+    },
+    "SourceMap": {
+      "format": "yyyy-mm-dd hh:mm:ss",
+      "cell_type": "d",
+      "raw_value": "2026-10-26T14:22:59.482Z"
+    },
+    "Sources": {
+      "format": "yyyy-mm-dd hh:mm:ss",
+      "cell_type": "d",
+      "raw_value": "2026-10-26T14:22:59.482Z"
+    }
+  },
+  "typed_jakarta_date_cells_checked": 16638
+}
+```
+
+**dataset_build_qa.json**
+
+```json
+{
+  "sheets": [
+    "Overview",
+    "Master",
+    "SourceMap",
+    "VideoContext",
+    "ManualReview",
+    "Codes",
+    "Rules",
+    "Sources",
+    "RawAttributes",
+    "QA"
+  ],
+  "master_records": 8713,
+  "source_occurrences": 9114,
+  "raw_attribute_chunks": 9116,
+  "manual_review_entries": 261,
+  "checks": {
+    "raw_rows": 9114,
+    "source_map_rows": 9114,
+    "raw_attributes_chunks": 9116,
+    "max_raw_chunk_length": 30000,
+    "unique_records": 8713,
+    "duplicate_occurrences_removed_from_master": 401,
+    "by_type": [
+      {
+        "platform": "TikTok",
+        "record_type": "comment",
+        "records": 1158,
+        "distinct_author_handles_or_ids": 1125
+      },
+      {
+        "platform": "TikTok",
+        "record_type": "video",
+        "records": 278,
+        "distinct_author_handles_or_ids": 235
+      },
+      {
+        "platform": "X",
+        "record_type": "post",
+        "records": 6323,
+        "distinct_author_handles_or_ids": 3973
+      },
+      {
+        "platform": "YouTube",
+        "record_type": "comment",
+        "records": 800,
+        "distinct_author_handles_or_ids": 669
+      },
+      {
+        "platform": "YouTube",
+        "record_type": "video",
+        "records": 154,
+        "distinct_author_handles_or_ids": 97
+      }
+    ],
+    "missing_ids": 0,
+    "duplicate_master_keys": 0,
+    "orphan_comment_parent_metadata": 0,
+    "exact_text_repeat_records": 199,
+    "all_records_preserved": true
+  }
+}
+```
+
+**Raw snapshot roundtrip**
+
+```json
+{
+  "all_original_snapshots_roundtrip": 9114,
+  "mismatches": 0,
+  "missing_occurrence_keys": 0,
+  "max_chunk_utf16_units": 30000
+}
+```
+
+### 9.3 Outstanding unknowns and claims not to invent
+
+- Nexora buyer-level multihoming, wallet allocation, occasion transitions, willingness to pay, category risk and subsequent post-recovery behavior.
+- Seller contribution by channel, incremental demand, viable basket economics, payout-hold causes, SKU uniqueness/replaceability, actual assortment withdrawal and buyer dependency.
+- Marginal route/capacity costs, geographic parcel mix, actual promised-vs-delivered service, loss rates and attribution, returns/fraud economics, and 2024 volume.
+- Representative Indonesian buyer/seller incidence; role and residence verification; a causal explanation for 2025 churn or share erosion.
+- Incremental advertising lift, size of payment leakage, effect of protected checkout, cost of retention interventions and a justified implementation budget.
+- Competition team/registration details or organizer changes not supplied later. Preserve the casebook-stated submission deadline and authority hierarchy from the old archive; do not claim a new live organizer check.
+
+Future primary work should ask for recent concrete purchases/sales, alternatives considered, final landed price and net proceeds, reasons for a completed action or abandonment, and evidence of subsequent behavior. Simulations should state parameter ranges and compare alternatives at positive incremental contribution; synthetic distributions must never be described as measured Nexora operations.
+
+<a id="v3-pdfs"></a>
+## 10. Additional supplied source archives
+
+These two additional PDFs were supplied in this phase after the original five-source master. The mentoring document guided the insight standard. The prior winning deck is inspiration supplied by the user, not Nexora evidence. The source text is preserved page by page below. Extraction does not preserve diagrams, graphic hierarchy or all chart values, and may duplicate text from layered slide design; it is not a substitute for the original PDF when visual interpretation matters.
+
+### S6 — Mentoring notes
+
+**Filename:** Mentoring Notes — Problem Analysis in BCC(1).pdf  
+**PDF pages:** 8
+
+#### S6 PDF page 1
+
+```text
+Mentoring Notes — Problem Analysis in BCC
+1. Main Diagnosis
+The main issue with the previous problem analysis was not effort, but direction. The analysis looked
+polished and used many frameworks, but the core business problem was not clearly framed. The issue tree
+did not clearly show what kind of business problem LRT City Sentul was facing.
+A strong BCC problem framing should clarify whether the case is mainly about:
+money or profitability,
+product-market fit,
+market or competition,
+internal capability, HR, or process,
+investment or expansion decision.
+In this case, the problem was likely a product-market fit problem: how LRT City Sentul can make its product
+and services fit better with student needs. However , the existing framing did not make that clear enough.
+The previous problem framing was too general. It talked about making LRT City Sentul more “credible” as a
+student-friendly ecosystem, but it did not narrow down whether credibility should be solved through
+product, marketing, service design, pricing, operations, or mobility.
+2. Problem Framing Feedback
+The problem statement should be more specific and business-transferrable.
+Instead of framing the problem as:
+“How can LRT City Sentul become a credible student-friendly living ecosystem?”
+A stronger framing would be closer to:
+“How can LRT City Sentul redesign its housing product and service offering to achieve
+stronger product-market fit with students, despite its distance disadvantage?”
+The word “credible” is too vague unless it is explained through a business function. Credible through what?
+Product? Pricing? Marketing? Operations? Mobility? Parent trust? The framing must force a specific
+analytical direction.
+The issue tree should not place “weak student fit” as one branch because weak student fit is the entire
+problem. The sub-problems should explain where the product-market fit breaks down, such as affordability,
+mobility, safety, study environment, parent trust, or service reliability.
+• 
+• 
+• 
+• 
+• 
+1
+```
+
+#### S6 PDF page 2
+
+```text
+3. Issue Tree Feedback
+The issue tree was not fully MECE. It mixed symptoms, causes, and solution areas in the same layer .
+A better issue tree should break down the product-market fit problem into clear dimensions. For example:
+Main problem:
+LRT City Sentul has weak product-market fit with students.
+Possible sub-problems:
+Affordability fit
+Are the pricing, payment scheme, and monthly cost structure suitable for student cash flow?
+Mobility fit
+Does the location disadvantage become acceptable through reliable access, shuttle, LRT linkage, or
+commute comfort?
+Safety and trust fit
+Does the offer satisfy both students and parents as decision influencers?
+Daily routine fit
+Does the housing support actual student routines: studying, resting, laundry, food, Wi-Fi, privacy,
+and flexibility?
+Competitive fit
+Why would students choose LRT City Sentul over kost, campus-proximate housing, apartments, or
+coliving?
+The Kano Model was useful because it helped identify which factors students see as basic expectations
+versus performance features. The issue tree should have been built more directly from these factors.
+4. Insight Quality Feedback
+Many insights were too obvious. They sounded correct, but not unique enough to win.
+Example of weak insight:
+“Students need daily life to be easier , safer , and more practical.”
+This is too generic. The opposite would be:
+“Students want daily life to be harder , more dangerous, and less practical.”
+1. 
+2. 
+3. 
+4. 
+5. 
+2
+```
+
+#### S6 PDF page 3
+
+```text
+That opposite makes no sense, so the original insight is too obvious.
+A useful test for insight quality:
+Flip the insight into its opposite. If the opposite makes no sense, the insight is probably too
+generic.
+A stronger insight would be something like:
+“Although students are the intended users, parents may still act as the real decision-makers
+because they fund the rent and care most about safety, trust, and operational reliability.”
+This is more specific because the opposite could still make sense:
+“Students are the sole decision-makers, and parents do not strongly influence housing
+choice.”
+That is debatable, so the insight is more meaningful.
+5. What Makes an Insight Strong
+A strong BCC insight must be specific to:
+the case,
+the customer segment,
+the client’s situation,
+the business problem,
+the strategic decision.
+For this case, the insight should be specific to:
+students,
+LRT City Sentul,
+Sentul’s location disadvantage,
+housing and well-being,
+the gap between apartment and kost alternatives.
+The analysis was too broad. A lot of the insights could apply to almost any apartment or housing product. A
+strong insight should explain what is uniquely true about students choosing LRT City Sentul.
+Possible stronger insight direction:
+“The core barrier may not be that LRT City Sentul lacks facilities, but that its location creates a
+distance friction that students will only accept if the total living experience feels safer , more
+predictable, and more parent-approved than kost alternatives.”
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+3
+```
+
+#### S6 PDF page 4
+
+```text
+This is more case-specific because it connects student needs, LRT City Sentul’s location, and the competitive
+alternative.
+6. White Space Analysis Feedback
+The white space analysis was too obvious because the axes were too generic.
+If the map simply shows that students want affordable, safe, convenient, and supportive housing, it does
+not create a new strategic understanding. The analysis must explain why moving into the new position
+matters, why competitors cannot already occupy it, and why LRT City Sentul has the right to win there.
+A stronger white space analysis should answer:
+What do students care about most?
+What do parents care about most?
+What does LRT City Sentul uniquely have?
+What does LRT City Sentul uniquely lack?
+Why is its distance disadvantage not fatal?
+What trade-off would make students accept living farther away?
+7. Framework Feedback
+The biggest warning was framework dumping.
+Frameworks are not the point. Frameworks only matter if they produce new insights or guide decisions. If
+the team enters a framework without a clear direction, the output becomes exposition: “framework A says
+this, framework B says that,” but the judge still does not know the main problem.
+The better approach is top-down:
+State the main problem.
+State the main insight.
+Use frameworks only to prove or stress-test that insight.
+Connect each framework to the recommendation.
+Bad structure:
+“We used framework A, then framework B, then framework C.”
+Better structure:
+“The core problem is weak student product-market fit caused by distance friction,
+affordability concerns, and parent trust. Our survey, Kano Model, competitor mapping, and
+interviews all validate this.”
+The heading should be the insight, not the framework name.
+• 
+• 
+• 
+• 
+• 
+• 
+1. 
+2. 
+3. 
+4. 
+4
+```
+
+#### S6 PDF page 5
+
+```text
+8. Survey and Research Feedback
+Survey questions should avoid hypothetical questions.
+Weak survey questions:
+“Would you use this product?”
+“Would you like this feature?”
+“Would you be interested in living here?”
+These are weak because respondents often answer aspirationally, not behaviorally.
+Better survey questions ask about historical behavior:
+“Where do you currently live?”
+“Who influenced your housing decision?”
+“How long is your current commute?”
+“What was the biggest reason you chose your current housing?”
+“Have you ever rejected a housing option because it was too far?”
+“How much do your parents influence your housing decision?”
+“What monthly cost range is acceptable?”
+“What trade-off would make you accept living farther from campus?”
+If testing a product concept, break it into attributes rather than asking directly whether they like the
+product.
+For example, test:
+shuttle availability,
+all-in pricing,
+parent monitoring or trust features,
+Wi-Fi reliability,
+study space,
+safety system,
+laundry or food bundle,
+flexible payment.
+9. Solution Fit Feedback
+Some solutions did not connect strongly enough to the analysis.
+SAVA was seen as weakly grounded because the analysis did not clearly show that complaint handling,
+information access, or apartment request management was a major student pain point. If a problem was
+never diagnosed, the solution feels random even if it sounds useful.
+PASTI Bundle sounded better , but the narration needed to be stronger .
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+5
+```
+
+#### S6 PDF page 6
+
+```text
+The shuttle or mobility-related solution was stronger because it directly addressed the location and distance
+friction. This is the type of solution that should have been emphasized more because it connects clearly to
+the likely core problem.
+The key principle:
+Problem-solution fit must be extremely obvious.
+If the problem is location friction, the solution must clearly reduce location friction.
+If the problem is parent trust, the solution must clearly build parent trust.
+If the problem is affordability, the solution must clearly change the cost equation.
+If the problem is student routine, the solution must clearly improve daily routine.
+10. Marketing Solution Feedback
+The marketing solution was considered acceptable. However , marketing should not be the main answer
+unless the problem is clearly proven to be a perception or communication problem.
+For LRT City Sentul, the stronger problem may not be marketing. It may be product-market fit, especially
+because the location is far . Therefore, marketing should support the product strategy, not replace it.
+11. Top-Down Communication Feedback
+The proposal was not top-down enough.
+The current structure felt like:
+“This framework gives this result, then this framework gives this result, then another
+framework gives another result.”
+A stronger structure should feel like:
+“This is the main problem. These analyses prove it. These are the few insights that matter .
+These solutions directly answer those insights.”
+Judges skim first. They usually read headings and main insights before checking the methodology. If the
+insight is interesting, then they stress-test the appendix, survey, and framework logic.
+Therefore, slide titles and section headings should be insight-based.
+Weak heading:
+“Survey Analysis”
+Strong heading:
+6
+```
+
+#### S6 PDF page 7
+
+```text
+“Students may tolerate distance only when the housing offer reduces total daily uncertainty.”
+Weak heading:
+“Competitor Analysis”
+Strong heading:
+“Kost wins on proximity and affordability, so LRT City Sentul must win through managed
+reliability and parent trust.”
+Weak heading:
+“Kano Model”
+Strong heading:
+“Students will not value lifestyle facilities until basic reliability is proven.”
+12. Main Lessons to Internalize
+The main lesson is that BCC problem analysis is not about using many frameworks. It is about producing a
+few sharp, non-obvious, case-specific insights that lead directly to strong recommendations.
+Important principles:
+Start with the business problem, not the framework.
+Clarify whether the case is about money, product-market fit, market, internal capability, or
+investment.
+Make the issue tree MECE.
+Separate symptoms, causes, and solutions.
+Use frameworks to generate insights, not to decorate the proposal.
+Test every insight by flipping it into its opposite.
+Avoid obvious insights that apply to everyone.
+Make insights specific to the client, customer , and case context.
+Use historical behavior questions in surveys.
+Ensure every solution directly solves a diagnosed problem.
+Write top-down so judges can understand the main argument by skimming.
+Use insight-based headings instead of framework-based headings.
+13. Practical Next Step for Revision
+The revision should start from the problem framing, not from redesigning slides.
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+7
+```
+
+#### S6 PDF page 8
+
+```text
+Recommended next steps:
+Reframe the case as a product-market fit problem.
+Define the main product-market fit gap.
+Rebuild the issue tree around the biggest reasons students may not choose LRT City Sentul.
+Identify which problems are most supported by evidence.
+Rewrite insights so they are more specific to students, parents, location, and LRT City Sentul.
+Remove or deprioritize frameworks that do not create new insight.
+Reconnect each solution to one diagnosed problem.
+Rewrite headings into insight statements.
+Make the proposal easier for judges to skim.
+Put methodology and supporting details in the appendix, not the main storyline.
+14. Sharpest Takeaway
+The problem was not that the analysis lacked frameworks. The problem was that the frameworks did not
+produce enough specific, surprising, and case-relevant insights.
+The goal of problem analysis is not to show that students need affordable, safe, and convenient housing.
+Everyone already knows that.
+The goal is to answer:
+“What specific friction prevents this specific target market from choosing this specific client,
+and what must the client change to overcome it better than alternatives?”
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+8
+```
+
+### S7 — User-supplied prior winning case
+
+**Filename:** Winner MCC BILLIONS 2026_compressed.pdf  
+**PDF pages:** 17
+
+#### S7 PDF page 1
+
+```text
+Livin’Momentum
+Livin’Momentum
+ A Three-Pillar Strategy to Deepen Financial
+Routine Ownership by Building Confidence,
+Capturing Habits, and Orchestrating Money
+ A Three-Pillar Strategy to Deepen Financial
+Routine Ownership by Building Confidence,
+Capturing Habits, and Orchestrating Money
+F a u z i
+F a d h l u r r o h m a n
+F a u z i
+F a d h l u r r o h m a n
+F a u z i
+F a d h l u r r o h m a n
+S a l w a  A l i f i a
+P u t r i
+S a l w a  A l i f i a
+P u t r i
+S a l w a  A l i f i a
+P u t r i
+N a y l a
+S h a f i r a
+N a y l aN a y l a
+S h a f i r aS h a f i r a
+Proposed by:yay bcc seru bangetProposed by:Proposed by:yay bcc seru bangetyay bcc seru banget
+```
+
+#### S7 PDF page 2
+
+```text
+1
+1 Bank Mandiri as a pioneer in digital
+transformation
+Bank Mandiri as a pioneer in digital
+transformation
+Mandiri Has Built a National Scale Foundation, Yet Usage Depth
+Has Not Reached Its Full Potential
+Mandiri Has Built a National Scale Foundation, Yet Usage Depth
+Has Not Reached Its Full Potential
+2
+2
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+1yay bcc seru banget | Billions 2026
+Mandiri has redefined Indonesia's banking
+industry by committing to a seamless,
+integrated omnichannel banking experience
+for all segments.
+Mandiri has redefined Indonesia's banking
+industry by committing to a seamless,
+integrated omnichannel banking experience
+for all segments.
+Company Profile and Business Context
+Company Profile and Business Context
+Bank Mandiri has massive digital scale, yet advanced feature adoption
+and existing customer transition remain the primary bottlenecks
+...However, this ecosystem is currently experiencing severe bottlenecks on
+three main fronts
+...However, this ecosystem is currently experiencing severe bottlenecks on
+three main fronts
+In realizing the vision of "Omnichannel Excellence" and capture
+Indonesia's digital growth, Mandiri has built a massive infrastructure...
+In realizing the vision of "Omnichannel Excellence" and capture
+Indonesia's digital growth, Mandiri has built a massive infrastructure...
+Bank Mandiri is no longer just providing basic
+traditional banking, but is leading the movement
+toward a highly integrated digital financial
+ecosystem.
+Bank Mandiri is no longer just providing basic
+traditional banking, but is leading the movement
+toward a highly integrated digital financial
+ecosystem.
+Misaligned Branch Operations: Frontline interactions favor
+transaction speed over educating legacy customers on digital.
+Misaligned Branch Operations: Frontline interactions favor
+transaction speed over educating legacy customers on digital.
+Poor Feature Discoverability: Cluttered UI and fragmented
+journeys limit users to basic transfers, leaving advanced features
+underutilized.
+Poor Feature Discoverability: Cluttered UI and fragmented
+journeys limit users to basic transfers, leaving advanced features
+underutilized.
+Weak Habit-Building & CRM: Generic campaigns fail to build
+daily habits, causing low usage and lingering digital distrust.
+Weak Habit-Building & CRM: Generic campaigns fail to build
+daily habits, causing low usage and lingering digital distrust.
+Livin' by Mandiri &
+Branch Nationwide
+network processing
+billions of transactions
+for 38M+ users.
+Livin' by Mandiri &
+Branch Nationwide
+network processing
+billions of transactions
+for 38M+ users.
+Integrated Ecosystem
+Backed by a vast
+network of QRIS, agri-
+chains, and retail
+partners.
+Integrated Ecosystem
+Backed by a vast
+network of QRIS, agri-
+chains, and retail
+partners.
+Merchant
+Ecosystem
+Merchant
+Ecosystem Digital
+Users
+Digital
+Users
+B r a n c h
+N e t w o r k s
+B r a n c h
+N e t w o r k s
+```
+
+#### S7 PDF page 3
+
+```text
+1
+ 2
+3
+Livin’s user base has nearly quadrupled since 2021, reaching ~41M
+registered users by June 2026, confirming that Mandiri has already built
+substantial digital reach.
+2 0 2 1 2 0 2 2 2 0 2 3 2 0 2 4 2 0 2 5
+0
+1 0
+2 0
+3 0
+4 0
+9 . 8 2
+1 5 . 8
+2 2 . 8
+2 9 . 3
+3 7 . 2
++61%
++45%
++29%
++27%
+Scale-to-Depth Analysis
+Scale-to-Depth Analysis
+Livin’ has already built massive reach, but scale alone does not guarantee
+ownership of customers’ financial behavior
+2
+Source: PT Bank Mandiri (Persero) Tbk. (2024, 2025, 2026), Bank Indonesia
+(2026), Jakpat (2026)
+Livin’ has already achieved massive scale... ...while Indonesia’s digital transaction pool keeps
+expanding...
+...but interoperable rails are shifting the battle from
+transaction access to routine ownership.
+~41M registered users
++24.3% YoY | Jun-26 ~27K new users/day
+↗  + 3 6 . 8 8 %
+↗  + 3 1 . 3 9 %  
+↗  + 1 0 0 . 1 2 %
+D i g i t a l  P a y m e n t s
+M o b i l e - a p p
+T r a n s a c t i o n s
+Q R I S  V o l u m e
+E - w a l l e t  U s a g e
+B a n k i n g  A p p  U s a g e
+M o n e y  T r a n s f e r
+B i l l  P a y m e n t
+O n l i n e  S h o p p i n g
+8 0
+4 4
+7 0
+6 4
+6 4 Out of 100%. Money Transfer, Bill Payment, and Online Shopping refer to
+use cases among e-wallet users.
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+```
+
+#### S7 PDF page 4
+
+```text
+Transaction Leakage Analysis
+Transaction Leakage Analysis
+Customers are already using Livin’, but their recurring financial routines
+are still leaking elsewhere
+3
+Customers are already active in Livin’...
+1
+Source: Team Customer Survey, 2026
+2
+3
+...but leakage concentrates in recurring financial jobs...
+...even when Mandiri already owns the primary
+banking relationship.
+31/36
+used Livin’ for their most
+recent banking activity
+18/36
+used Livin’ 10+ times in
+the last 30 days
+32/36
+also actively use another
+bank, e-wallet, or fintech
+Methodology: Customer survey of 36 eligible respondents, all aged 18–24, recruited through non-probability convenience sampling. Results describe
+the sample only and are used to identify directional patterns in Livin’ usage and transaction leakage. 
+0 5 1 0 1 5 2 0
+B i l l s  /  p u l s a  /  t o p - u p
+T r a n s f e r
+Q R  /  m e r c h a n t  p a y m e n t s
+B a l a n c e  /  t r a n s a c t i o n  h i s t o r y
+2 0
+1 4
+1 4
+8
+10 / 16
+use e-wallet / fintech for
+bills, pulsa, or top-up
+6 / 16
+use Livin’ for bills, pulsa,
+or top-up
+Respondents primarily using a non-Livin digital channel, by financial job
+Job-specific base: n=31–32 respondents who perform each activity
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+```
+
+#### S7 PDF page 5
+
+```text
+1
+ 2
+Financial Control Gap Analysis
+Financial Control Gap Analysis
+Digital banking has made money easier to move, but not necessarily
+easier to manage
+4
+Digital banking has removed friction from spending... ...creating a second-order need for financial control.
+Source: Team Exploratory Customer Interviews, August 2026
+“Sekarang hampir semua
+pembayaran tinggal scan
+atau transfer, jadi transaksi
+nominal kecil pun langsung
+dilakukan.”
+3/3
+said digital banking makes
+transactions more
+immediate or more frequent
+This creates a culture where...
+3/3
+independently suggested
+more proactive money-
+management support
+Methodology: Exploratory qualitative interviews with 3 active Livin’ users,
+consisting of 1 payroll customer aged 45 and 2 university students aged
+19. 
+ALLOCATE AFTER
+INCOME
+ALERT ME BEFORE
+I OVERRUN
+HELP ME SEE
+WHERE IT WENT
+“After payday, help
+me divide money
+across savings,
+investment, and
+monthly needs.”
+“After payday, help
+me divide money
+across savings,
+investment, and
+monthly needs.”
+“After payday, help
+me divide money
+across savings,
+investment, and
+monthly needs.”
+- C01 | 45, payroll
+user
+- C02 | 19,
+university student
+-C03 | 19,
+university student
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+```
+
+#### S7 PDF page 6
+
+```text
+1
+ 2
+Common Theme What Customers Experience Typical Trigger
+Low Digital
+Confidence
+Unsure whether they can complete
+transactions correctly without help
+Limited familiarity with Livin’
+or smartphones
+Fear of Making
+Mistakes
+Hesitation to transact independently
+because errors may feel costly or
+irreversible
+Transfers, payments,
+purchases
+Security & Trust
+Concerns
+Need reassurance that the app and
+transaction process are safe
+Fear of fraud, hacking, or
+incorrect transactions
+Activation &
+Access Friction
+Difficulty entering or re-entering the
+digital journey
+New device, initial
+registration, account reset
+Credential
+Recovery
+Loss of access interrupts previously
+usable routines
+Forgotten MPIN/password,
+phone or number changes
+Digital Confidence & Recovery Analysis
+Digital Confidence & Recovery Analysis
+Digital confidence can break both before the first transaction and when
+something goes wrong afterwards
+5Source: Primary branch interviews (n=2); Livin’ Google Play review corpus
+(n=250,600); OJK & BPS, SNLIK 2025
+Low confidence can stop customers from becoming
+independently digital...
+...and that confidence can break again when access
+or transaction certainty is disrupted.
+Methodology: Exploratory qualitative interviews with 2 Bank Mandiri
+branch employees who regularly assist customers with Livin’ activation,
+access recovery, and digital transaction support.
+Customers may need reassurance and guided first success before
+they can transact independently.
+0 5 , 0 0 0 1 0 , 0 0 0 1 5 , 0 0 0 2 0 , 0 0 0
+F a i l e d  T r a n s a c t i o n
+A p p  U p d a t e
+L o g i n  /  A u t h e n t i c a t i o n
+B a l a n c e  /  H i s t o r y
+A c t i v a t i o n
+1 6 , 0 6 0
+1 4 , 8 8 2
+1 4 , 7 0 8
+4 , 8 5 2
+3 , 3 7 7
+High-stakes
+digital failures
+destroy
+customer
+trust.
+F i n a n c i a l  L i t e r a c y F i n a n c i a l  I n c l u s i o n
+0 2 0 4 0 6 0 8 0 1 0 0
+1 8 – 2 5
+2 6 – 3 5
+3 6 – 5 0
+5 1 – 7 9
+7 3
+9 0
+7 4
+8 6
+7 2
+8 6
+5 5
+6 7
+Access to
+financial services
+doesn't
+guarantee
+financial
+capability.
+Methodology: Thematic analysis of 250,600 scraped Livin’ Google Play
+reviews, triangulated with SNLIK 2025 national financial literacy and
+inclusion data. 
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+```
+
+#### S7 PDF page 7
+
+```text
+Every payment is an opportunity to
+deepen customer engagement
+ is an opportunity is an opportunity
+Livin’ shifts a destination banking app to
+customers’ default payment companion
+Solution 1: Livin’ loop
+Solution 1: Livin’ loop
+Turns transaction leakage into retained habits by embedding Livin' into
+everyday QRIS payments
+1 The challenge isn’t payment adoption, it’s habit
+ownership
+habit
+ownership
+habit
+ownership
+2
+Every QRIS payment activates a
+personalization engine
+3
+Driving higher Daily Active Usage (DAU) through
+seamless micro-interactions.
+6
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+```
+
+#### S7 PDF page 8
+
+```text
+Turns transaction leakage into retained habits by embedding Livin' into
+everyday QRIS payments
+1
+Solution 1: Livin’ Loop
+Solution 1: Livin’ Loop
+7
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+One payment. One insight. One action. Repeat.
+Small actions today create stronger financial habit tomorrow
+Customer’s build habis through one simple routineone simple routineone simple routine
+Micro-CommitmentDefaultEffect
+HabitFormation ChoiceArchitecture VariableReward
+Behavioral Drivers Behind Livin’ Loop
+W h e n  p a y m e n t s  b e c o m e  p a r t  o f  d a i l y  l i f e ,
+e n g a g e m e n t  a n d  p r o d u c t  a d o p t i o n  g r o w
+o r g a n i c a l l y  w i t h o u t  f o r c i n g  e x p l o r a t i o n
+2 Global Benchmarks: Driving
+Engagement via Everyday Payments
+```
+
+#### S7 PDF page 9
+
+```text
+2
+3
+4
+5
+6
+9
+1 0
+8
+1 1
+Customer
+Financial Profile
+Generation
+Transaction
+Categorization
+Income & Cash
+Flow Detection
+Allocation
+Recommendation
+Engine
+Product
+Eligibility
+Layer
+Trigger Event
+Engine
+CRM
+Personalization
+Layer
+Recommendation
+Prioritization
+Continuous
+Learning Loop
+1 2 3 4 5 6
+7 9 10 8 11
+Financial
+Goal Engine
+Interaction Logging &
+Performance
+Analytics
+3
+Solve the barriers behind inactive money
+2
+1
+Livin’ becomes your personalized financial operating system that
+recommends the right allocation, at the right time
+Solution 2: Livin’ Flow
+Solution 2: Livin’ Flow
+Power every recommendation with
+intelligent orchestration
+ with
+intelligent orchestration
+ with
+intelligent orchestration
+A smart engine that works in the background to deliver
+the right recommendation at the right time, driving
+more actions and better financial outcomes.
+Drive More
+Transactions
+Stronger Cross-
+Product Adoption
+Higher
+Engagement Seamless Omnichannel
+Experience
+Turn idle balances into smarter financial
+decisions
+into smarter financial
+decisions
+into smarter financial
+decisions
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+8
+Turn every financial event into a
+smart allocation decision.
+Livin’ Flow analyzes income,
+spending, commitments, goals,
+and product ownership to
+recommend where customers
+should allocate their money next
+at the moment it matters.
+Passive
+Balances
+Fragmented
+Decisions
+ Irrelevant
+Offers
+Low Product
+Adoption
+```
+
+#### S7 PDF page 10
+
+```text
+1
+ 2
+Livin’ Flow converts passive balances into active financial control through
+programmable, event-driven money orchestration
+Solution 2: Livin’ Flow
+Solution 2: Livin’ Flow
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+E x a m p l e  F l o w :  A f t e r  S a l a r y  R e c e i v e d
+9
+Smart Allocation Engine  to Maximize Every Rupiah
+Global Benchmarks: Programmable Finance
+as an Engagement Moat
+```
+
+#### S7 PDF page 11
+
+```text
+from first activation to lifelong confidence
+Every first success is the beginning of digital
+independence.
+Branch
+Coaching
+2  F i r s t  S u c c e s s
+Independent
+Transaction
+Confidence
+Building
+Let’s complete
+your first digital
+transaction
+together
+Solution 3: Livin’ Assure
+Solution 3: Livin’ Assure
+Build digital confidence by guiding first success and seamless recovery
+across every digital journey
+1 Digital Confidence doesn’t end after
+onboarding
+doesn’t end after
+onboarding
+doesn’t end after
+onboarding
+Welcome to
+Livin!
+Great job!You did it!
+Rp 50.000
+Sent successfully
+3  C o n f i d e n c e  B u i l d i n g
+Your Digital
+Confidence
+Score is
+growing
+Existing Barrier    Livin Assure     
+An omnichannel
+confidence framework
+3
+C u s t o m e r
+A c t i v a t i o n
+G u i d e d  F i r s t
+S u c c e s s
+D i g i t a l
+C o n f i d e n c e
+S c o r e
+R e c o v e r y
+E n g i n e
+O m n i c h a n n e l
+S y n c h r o n i s a t i o n
+C o n f i d e n c e
+R e i n f o r c e m e n t
+2 Addressing the biggest barriers to
+digital confidence
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+10
+O n e  f r o m
+f i r s t
+s u c c e s s  t o
+d i g i t a l
+c o n f i d e n c e
+O n e  f r o m
+f i r s t
+s u c c e s s  t o
+d i g i t a l
+c o n f i d e n c e
+O n e  f r o m
+f i r s t
+s u c c e s s  t o
+d i g i t a l
+c o n f i d e n c e
+```
+
+#### S7 PDF page 12
+
+```text
+1
+ 2
+Solution 3: Livin’ Assure
+Solution 3: Livin’ Assure
+Build digital confidence by guiding first success and seamless recovery
+across every digital journey
+Customers build digital confidence
+through one simple journey
+Benchmark: Global best practice that
+inspire Livin’ Loop 
+Every digital step builds confidence
+Every challenge is answered
+Every customer stays with Livin’
+B e h a v i o r a l  D r i v e r s  B e h i n d  L i v i n  L o o p
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+11
+G l o b a l  l e a d e r s  p r o v e :  c o n f i d e n c e ,  r e c o v e r y ,  a n d
+c o u n t i n u i t y  d r i v e  h i g h e r  e n g a g e m e n t  a n d  l o y a l t y
+By implementing these global standards, Livin’ Assure
+will close the confidence gap—turning every digital
+barrier into an opportunity to build trust and maximize
+customer lifetime value.
+```
+
+#### S7 PDF page 13
+
+```text
+Build confidence first, capture repeat behavior next, then scale into
+intelligent money orchestration.
+Implementation Roadmap & KPI Architecture
+Implementation Roadmap & KPI Architecture
+Source:
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+Key Result
+Digital
+Foundation
+Own the 
+Routine
+Orchestrate 
+the Money
+Q1 Q2 Q3 Q4 Q1 Q2
+Build 
+Confidence
+Customer Consent & Data Architecture
+Routine Hub & Smart Reminders
+Saved Setup & Customer-
+Controlled Autopay
+Routine Capture Scale-Up
+Smart Allocation MVP
+KPI Dashboard & Experimentation
+Access Recovery & Transaction Assurance
+Scale Across Priority Journeys
+Allocation Rules & Personalization
+Ecosystem Scale-Up
+NORTH STAR
+12
+```
+
+#### S7 PDF page 14
+
+```text
+Growth only compounds if automation stays controlled, reliable,
+and trusted.
+Risk Mitigation & Governance
+Risk Mitigation & Governance
+Source:
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+Automation errors could undermine customer control and trust
+Personalization may create privacy and consent concerns
+Access or transaction failures could reset digital confidence
+New features may launch without becoming recurring habits
+Incentives may drive trial without durable retention
+Scaling too quickly may increase compliance and execution risk
+1
+2
+3
+4
+5
+6
+Key Risks to Sustainable Adoption
+Risk Matrix
+Mitigation Plan
+Customer-Controlled
+Automation
+1 Trust, Consent &
+Security
+2 Reliability & Recovery
+3 Pilot, Measure, Scale
+4
+Keep users in control
+through opt-in rules, clear
+previews, configurable
+limits, and easy pause or
+cancellation.
+Use explicit consent,
+transparent data use,
+, and strong
+authentication for
+sensitive actions.
+Show clear transaction
+status, preserve recovery
+context, and provide fast
+escalation when access or
+payments fail.
+Launch with controlled
+cohorts and SCALE / ITERATE
+/ STOP gates based on
+adoption, retention,
+economics, and risk.
+Likelihood
+MediumLow High
+High
+Impact/Sensitivity
+MediumLow
+1
+2
+3
+4
+5
+6
+13
+```
+
+#### S7 PDF page 15
+
+```text
+Modest gains in routine ownership can translate into meaningful
+value at Livin’s scale.
+Financial Projection & Business Case
+Financial Projection & Business Case
+Source:
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+PORTFOLIO FINANCIAL IMPACT
+Base-case annual economics & cash build-up Rp billion
+ Benefit share expands +32.0pp
+Adjusted benefit share of total program economics
+SCALE EFFICIENCY
+2031 cumulative net cash by scenario
+ 5Y ROI
+127.7%
+PAYBACK
+FY2030
+Initial
+Rp75bn
+Y5 Net
+Rp86.9bn
+Base-case value creation at scale
+Net Cash by FY2031 Rp95.8bn
+Y5 Incremental Transactions +173m
+Deposit / Investment Depth Rp2.05tn /
+Rp1.02tn
+Incremental program economics; not total Livin' economics.
+KEY TAKEAWAYS
+• Payback FY2030; Rp95.8bn
+cumulative cash by FY2031.
+• Even at -20% adoption,
+cumulative cash stays +Rp18.9bn.
+• Growth comes from
+transactions, balances,
+investments, and service savings.
+14
+```
+
+#### S7 PDF page 16
+
+```text
+Livin’s next growth chapter is not about adding more users, but
+owning more of the financial routines they already perform.
+Conclusion & Strategic Imperative
+Conclusion & Strategic Imperative
+15Source:
+Situation and Problem
+Situation and Problem Solution
+Solution Implementation
+Implementation Conclusion
+ConclusionExecutive Summary
+Executive Summary
+Key Issues
+ Key Strategies
+ Key Impacts
+Easy payments still leave a money-
+control gap
+ Livin’ Flow
+ Strengthen money allocation and control
+Digital confidence can break across the
+journey
+ Livin’ Assure
+ Build and preserve independent digital use
+Financials
+Scale does not guarantee routine
+ownership
+ Livin’ Loop + Livin’ Flow
+ Deepen transaction ownership
+Recurring jobs still leak to other platforms
+ Livin’ Loop
+ Turn recurring jobs into Livin’ habits
+5Y ROI
+ Initial
+Investment
+ Payback
+ Y5 Net
+Contribution
+127.7%
+From owning the
+relationship to
+owning the routine.2030 Rp86.9 bnRp75 bn
+```
+
+#### S7 PDF page 17
+
+```text
+References
+References
+yay bcc seru banget | Billions 2026
+PT Bank Mandiri (Persero) Tbk. (2024, January 31). FY 2023 results presentation. 
+PT Bank Mandiri (Persero) Tbk. (2025). Annual report 2024: Leading today, championing
+the future. 
+PT Bank Mandiri (Persero) Tbk. (2026). Annual report 2025: Orchestrating ecosystems to
+deliver strong growth.
+Bank Indonesia. (2026, July 22). BI-Rate held at 5.75%: Strengthening stability,
+supporting economic growth.
+```
+
+### 10.1 Additional PDF manifest
+
+```json
+[
+  {
+    "filename": "Mentoring Notes — Problem Analysis in BCC(1).pdf",
+    "pages": 8,
+    "sha256": "e2b1a7ece670ebc0f625a2362197771eb9438754bc8af02269bef66bd3eb7c4e"
+  },
+  {
+    "filename": "Winner MCC BILLIONS 2026_compressed.pdf",
+    "pages": 17,
+    "sha256": "16bc8a0cfe98d9a463fd4dbc0151d3f49d67697fabc91375eb84f64d3f11460c"
+  }
+]
+```
+
+### 10.2 Complete supplied prior-analysis Markdown
+
+**S8 — Nexora_Dataset_Findings.md.** This is the inherited analysis of the earlier historical corpus. Its original wording is preserved below for provenance. It is not a new re-analysis of those underlying raw files and is not pooled with the 12 Apify exports. The Version 3 qualifications and final workbook Prior Research ledger govern its application to the current case.
+
+<!-- BEGIN BYTE-PRESERVED SUPPLIED PRIOR-ANALYSIS MD -->
+
+# A disputed delivery can restrict the next purchase's payment options
+
+**Original analysis of the Nexora research corpus · 26 October 2026**
+
+The strongest discovery is a repeated sequence in historical app reviews: an author disputes a failed delivery, then reports losing cash-on-delivery (COD) access. Some explicitly want to keep buying. One describes being told to reorder the undelivered item but finding COD blocked; another hesitates to prepay because the same couriers might again fail to deliver. The business problem changes from recovering a disappointing transaction to preserving the ability to make the next one.
+
+This sequence appeared in **20 of 80 discovery reviews and 24 of 100 reserved reviews manually read from a narrowly screened set**. These denominators are reviews containing COD and restriction language, not all reviewers, customers or COD orders. The evidence establishes repeated self-reported sequences, not wrongful-sanction rates or verified lost sales.
+
+A second discovery concerns the next delivery rather than the next payment. Historical support participants sometimes request a change in future carrier allocation after receiving the current parcel, or when they have no current order problem. Their preferences run in opposite directions: some want to avoid Amazon Logistics; others explicitly prefer Amazon drivers to a named third party. Concrete address and access problems explain why a single ownership rule can fit different recipients differently.
+
+Together, these findings introduce **participation constraints and persistent delivery compatibility** into a diagnosis that might otherwise concentrate on prices, subsidies and the outcome of individual orders. They do not establish why Nexora's own buyers or sellers leave. Nexora is fictional; its casebook supplies the internal facts. All observations below concern external analogues with different dates, markets and collection methods.
+
+## 1. Disputed delivery events can become restrictions on future purchasing
+
+### The distinctive sequence is delivery → responsibility classification → payment access
+
+The relevant group is authors describing their own COD restriction, with an explicit preceding delivery event whose responsibility they contest. This differs from an author merely saying that COD is unavailable for a product or address. It also differs from voluntarily abandoning a platform after a late parcel.
+
+The discovery material first exposed a potential interaction between fulfillment and payment risk. Review `kaggle_bwandowando_shopee:26563` describes delivery notices without a courier arriving, two canceled deliveries and a subsequent COD block. The author then explains why another payment method is unattractive: they do not trust the same couriers to deliver a prepaid order. This is a specific obstacle to recovery. The payment alternative requires confidence in the operation that the author believes just failed.
+
+The reserved records repeated this structure. Review `kaggle_bwandowando_shopee:87631` describes months of ordering, a COD suspension attributed to courier returns, and reluctance to pay in advance. Review `:36776` is particularly discriminating: the courier allegedly advised replacing the order, while the author reports being blocked from COD. A remedy for the first transaction collides with eligibility for the next.
+
+The conventional interpretation challenged here is that reduced purchasing after poor fulfillment necessarily reflects a decision to switch, or can be repaired by compensation for the failed order. These records describe an additional pathway: someone can still want the platform and merchandise while losing an acceptable way to transact. That pathway cannot be inferred from a low rating alone.
+
+### A reserved sample separates the mechanism from look-alike complaints
+
+The analysis streamed all **1,834,939 app-review records**. Broad discovery included 375 reviews sampled across five apps and all five ratings, plus a separate root review of 90 narrative records across apps and rating groups. Candidate retrieval then used explicit COD/cash-on-delivery language and whole-word restriction terms. Exact casefolded, whitespace-normalized full-text families were assigned together to discovery or reserved evidence.
+
+The frozen screen returned **269 discovery families and 315 reserved families**. Random samples of 80 and 100 respectively were read and assigned mutually exclusive categories using the actual texts. The reserved sample contained 89 Shopee, 10 Lazada and one Blibli record. Of the 24 reserved disputed-delivery sequences, 22 came from Shopee and two from Lazada. They span review dates in 2017–2023. This is therefore dominated by one historical app export, with limited replication in a second export from the same collector, not cross-platform prevalence.
+
+| Reading category | Discovery sample, n = 80 | Reserved sample, n = 100 |
+|---|---:|---:|
+| Own COD restriction linked to disputed delivery | 20 | 24 |
+| Own restriction linked to seller/system cancellation | 7 | 1 |
+| Own restriction linked to an allegedly wrong/defective product return | 2 | 0 |
+| Author admits refusal, cancellation or unavailability; includes mixed responsibility | 6 | 8 |
+| Own restriction reported without a sufficiently specific trigger | 30 | 46 |
+| Route/item/cart availability, rather than an account sanction | 4 | 4 |
+| Seller discussion of risk controls | 2 | 1 |
+| Other people's experiences, generic claims or warnings | 2 | 8 |
+| Restriction words refer to another issue | 7 | 8 |
+| **Total** | **80** | **100** |
+
+The large unexplained category matters: a denial of wrongdoing was insufficient to establish the proposed sequence. The table does not classify all COD restrictions as logistics failures. The screen also missed relevant wording: a reserved review described a lost item followed by COD becoming unavailable without using its restriction terms. Retrieval counts are consequently neither complete counts of the mechanism nor estimates of its population frequency.
+
+A separate agent read all 24 reserved disputed-delivery cases and additional rival/excluded cases. Three of the 24 give a less specific account of nonreceipt or return-to-sender without a concrete courier-side detail. A conservative sensitivity therefore retains **21 of the 100 screened reviews**. This post-reading sensitivity is disclosed as a qualification, not another untouched confirmation. Neither count verifies who was responsible for a delivery failure.
+
+### Traceable records distinguish exclusion, continued use and recovery
+
+Dates below are the source review dates. Descriptions of earlier incidents and updates inside a review are self-reports, not a reconstructed transaction panel. The Shopee ID prefix in this table is `kaggle_bwandowando_shopee:`.
+
+| Record | Date; rating; partition | What the author reports | What it discriminates |
+|---|---|---|---|
+| `:26563` | 2018-11-10; 3★; discovery | Delivery notices without arrival; COD blocked after two cancellations; hesitation to prepay because delivery remains uncertain. | An alternative payment method can depend on the trust damaged by the first event. |
+| `:610349` | 2022-03-05; 1★; discovery | Tracking allegedly identified a misroute, followed by a COD ban. | A specific disputed responsibility code, rather than only a general denial of fault. Tracking was not independently inspected. |
+| `:87631` | 2019-11-05; 2★; reserved | Repeated previous orders, courier returns and COD suspension; explicitly dislikes advance payment after that experience. | Repetition of the payment-substitution obstacle outside discovery. |
+| `:36776` | 2019-02-27; 1★; reserved | An undelivered birthday order is returned; courier advises placing it again; COD is now blocked. | Reordering advice does not necessarily restore an accessible checkout route. |
+| `:4452` | 2017-07-02; 4★; reserved | Several courier returns and a COD ban, followed by an explicit statement that the author will still recommend and use the app. | A restriction complaint is compatible with continued-use intention. It is not verified churn. |
+| `:360741` | 2021-01-01; 5★; reserved | Order marked lost/system-canceled, COD suspended, then an update: “All is fine now.” | The sequence need not produce permanent exclusion; a review can contain recovery. |
+
+The last two records make an important distinction within the finding. The analysis is not claiming that every reported restriction eliminates purchasing. Some authors continue, some intend to continue, and some describe recovery. What repeats is the connection between an order outcome and future payment eligibility.
+
+### The strongest rival is legitimate protection against nonacceptance
+
+The data contain an opposing participant interest. In discovery review `kaggle_bwandowando_shopee:568296` (2021-12-18, 5★), a self-described seller asks that a new account's first order be non-COD to protect sellers from bogus buyers who create replacement accounts. Removing controls indiscriminately could shift failed-delivery risk onto merchants.
+
+Complaint attribution is also unreliable. Discovery review `:52548` admits changing one's mind, attempting cancellation and telling the seller the parcel would be refused, yet blames the seller for a threatened sanction. Reserved review `kaggle_bwandowando_lazada:595866` claims more than 600 successful COD orders but admits refusing three. The author says the restriction remained after 18 subsequent successful deliveries. Those numbers are unverified testimony; they do not tell us the platform's actual risk window or whether the rule was justified.
+
+Another reserved Shopee reviewer, `:751526` (2023-07-19, 5★), accepts having been suspended while out of town and still calls the app their preferred platform. Such cases rule out equating a restriction with courier misconduct, dissatisfaction or exit.
+
+**Established:** repeated authors explicitly connect a disputed delivery event with their own payment restriction; some describe a continuing desire to buy and a reason prepayment is unattractive. Admitted refusals, continued-use statements and recovery are also present.
+
+**Interpretation:** the boundary between fulfilling an order and governing participation can matter to retention. **Proposed mechanism:** a delivery outcome or responsibility classification may feed a payment-risk decision, allowing one operational dispute to affect a later transaction. System logs, policy rules and verified responsibility are absent, so that mechanism remains an inference from reported sequences.
+
+### Nexora's options change if recovery must restore participation
+
+The casebook describes increased routing through NexExpress, pressure to mitigate attrition and a need for automation at scale (S1 pp. 4–6, 11). It does **not** disclose a Nexora COD policy or such sanctions. The external result cannot diagnose an existing Nexora risk-rule defect.
+
+It does identify a strategic design choice that a fee-or-subsidy diagnosis misses. If operational events affect account, payment or promotional eligibility, options deserve assessment for preserving distinctions between seller cancellation, courier non-delivery and customer refusal; obtaining recipient corroboration when responsibility is disputed; and making restrictions reviewable while protecting sellers from repeated nonacceptance. A compensation-only option and an eligibility-restoration option repair different things. The corpus does not select between them or establish their economic returns.
+
+## 2. The carrier a recipient wants can reverse with local compatibility, even after a parcel arrives
+
+### The requested change concerns future assignment, not necessarily today's delay
+
+The support evidence reveals a specific mismatch between an order-level remedy and a recurring delivery relationship. In reserved conversation `twcs_component:2602997`, the same inbound author first reports a missing USPS parcel. In `twcs:2603002`, the author says a neighbor has now brought it, then asks how recurrence will be prevented and whether future USPS deliveries can be excluded. Receipt precedes an explicit request about the next assignment. The subsequent company reply offers feedback and private contact; no eventual routing outcome is visible.
+
+This sequence challenges the interpretation that successful receipt necessarily resolves the relevant delivery problem. The remaining concern is exposure to the same allocation next time. It is also more specific than a general demand for faster delivery: some participants describe address reachability, building access, reception hours or repeated failures involving a particular carrier.
+
+The preferred direction is not uniformly away from the platform's carrier. Reserved records include requests for more Amazon drivers after UPS trouble. The plausible competing explanation—owned logistics is the source of the problem—fails as a general account of these records.
+
+### The comparison uses authors within observed conversations
+
+The full historical support stratum contains **513,077 tweets in 126,882 observed reply components**, spanning 2011–2017. Replies from companies were retained as process context and excluded from customer-opinion coding. For this test, the frame was source-inbound authors in components linked to AmazonHelp. The observation unit was **source author ID × component**, not a tweet, verified customer, transaction or complete conversation.
+
+Whole components were assigned to discovery or reserved evidence by a hash of component ID. The AmazonHelp-linked inbound frame contained 43,885 discovery and 44,788 reserved author-component cases. A fixed carrier-control retrieval returned 154 and 150 cases respectively. The first 100 reserved cases in a specified hash order were read with their same-author messages and conversation context. Their messages date from **29 September to 2 December 2017**.
+
+| What the reserved text audit found | Count and exact denominator |
+|---|---:|
+| Explicit prospective allocation preference/recommendation | 44 of 100 screened author-component cases |
+| Own-carrier avoidance | 20 of the 44 eligible cases |
+| Explicitly identifiable third-party avoidance | 18 of 44 |
+| Insufficiently identifiable carrier direction | 6 of 44 |
+| Recurrent personal carrier problem | 26 of 44 |
+| Explicit address/access/schedule/geographic compatibility problem | 5 of 44 |
+| Explicit preference for the platform's own drivers | 3 of 44 |
+| Future exclusion request explicitly made after receipt | 1 of 44 |
+| Explicitly no current problem/order while discussing future allocation | 2 of 44 |
+
+The avoidance categories sum to 44; the other rows overlap. Eligibility includes general recommendations and a bystander's platform-wide request. These are not 44 verified purchasers demanding a carrier menu. Carrier names and English control vocabulary bias retrieval, so **20 versus 18 is not a carrier ranking or a population comparison**.
+
+The 56 false positives included return pickups, selecting delivery speed, intercepting a current parcel and unrelated uses of “switch.” Reading 60 further nonmatching carrier-related cases from a frame of 2,885 found three clear missed allocation requests and two ambiguous objections. The retrieval was left unchanged. This validates the need for record reading and establishes incomplete retrieval, not market-wide recall.
+
+### Concrete conditions explain why preferences reverse
+
+| Evidence locator | Same-author observation | Why it changes the diagnosis |
+|---|---|---|
+| Reserved `twcs_component:613971`; `twcs:613973`, `:613978`, `:613981`; 2017-11-25 | Author says GATI repeatedly returns parcels at a rural postcode while India Post delivers; contrasts this with urban service and disputes a “customer refused” reason. | System-reported availability and the recipient's reported serviceability can diverge. The urban/rural contrast is testimony, not a verified relocation or carrier experiment. |
+| Reserved `twcs_component:2859925`; `twcs:2859928`, `:2859926`; 2017-11-27 | Author admits a new house is confusing, describes repeated Amazon Logistics calls for directions, requests UPS going forward and says there is no current problem anymore. | Address learning or access information is a credible rival remedy to changing carrier. The author is not attributing every difficulty to a blameless address. |
+| Reserved `twcs_component:2602997`; `twcs:2603002`–`:2603003`; 2017-11-27 | Neighbor brings the missing parcel; author then asks about excluding USPS from future orders. | One completed delivery leaves a prospective allocation question. Private contact afterward establishes no outcome. |
+| Reserved `twcs_component:890528`; `twcs:890530`, `:890529`; 2017-10-21 | Author praises Amazon support's intervention after UPS trouble and wants more Amazon trucks and less UPS. | The desired direction can favor owned delivery. |
+| Reserved `twcs_component:56924`; `twcs:56926`, `:56930`; 2017-11-01 | Author describes repeated holding at a local UPS hub, a previous request for an alternate-carrier flag and a preference for Amazon drivers. | The condition is a reported local history, rather than a universal ownership preference. |
+| Discovery `twcs_component:1449147`; `twcs:1449150`, `:1449151`; 2017-11-03 | A second participant blames Amazon Logistics; the original complainant corrects them: Amazon Logistics has been fine, while this parcel uses Royal Mail. | Treating all messages in a component as one person's opinion would reverse the original attribution. |
+
+These examples describe attempts to control recurrence, and sometimes an alternative that reportedly works at a specific address. They do not verify relative carrier performance. The three reserved explicit preferences for owned drivers are direct counterevidence to a blanket anti-in-house interpretation, not proof of owned-carrier superiority.
+
+### Changing carriers is one possible response, not the demonstrated solution
+
+The strongest rival is that some failures attributed to carriers originate elsewhere. Reserved `twcs:416106` says Amazon Logistics had been blocked but problems now involve warehouse ship dates. That account was excluded from the prospective-allocation count. A carrier menu would not resolve the stated warehouse problem.
+
+Other discovery records suggest different responses. In `twcs:2835669` the author describes repeated Amazon Logistics failures; in `:2835668` the same author praises a new map showing the driver's location and remaining stops. Better information can have value without a carrier change. In `twcs:950270`, a customer publicly thanks support and reports that Amazon Logistics was removed from preferred providers. This is a customer-reported account change, with no observed future delivery performance. It also prevents claiming that exception controls were universally absent.
+
+There is an additional temporal caution. Two reserved cases contain both a receipt report and a prospective carrier preference. Only one explicitly makes the request **after** receipt. The other author's later thumbs-up could mean the arrival changed their view; persistence is unknown. The audit separated those categories after an independent challenge, rather than preserving a more dramatic but unsupported count of two.
+
+**Established:** explicit future-allocation requests; repeated, concrete compatibility accounts; one clear receipt-then-request sequence; and preferences toward as well as away from owned delivery. **Interpretation:** an order's completion and a recipient's confidence in future routing are distinct. **Proposed mechanism:** repeatedly assigning an unsuitable carrier/address pair can recreate a problem after each individual case is closed. The evidence does not measure how common that mechanism is or prove which intervention works.
+
+### Nexora's logistics choice gains a compatibility constraint
+
+Nexora's casebook describes an owned-network expansion and a logistics director arguing from its lower average cost (S1 pp. 4–6). The records add a constraint to evaluating that option: ownership and average efficiency do not establish which carrier fits a particular delivery context. This is a dataset-derived reason to consider local exceptions, not a financial recalculation or a rejection of NexExpress.
+
+Options deserving consideration include persistent carrier deprioritization after documented recurring problems; better address, map and reception information; pickup-point compatibility checks; and informed alternatives when a particular assignment is unsuitable. Each responds to a different observed condition. Universal carrier choice, universal outsourcing and unlimited exceptions are not established by this evidence. The casebook does not disclose Nexora's current exception capabilities, so absence of those capabilities cannot be asserted.
+
+## These findings change the option set without resolving Nexora's root cause
+
+The two discoveries concern different links in continued participation. The first concerns whether a person retains an acceptable means to purchase after a disputed event. The second concerns whether the next purchase recreates a known delivery incompatibility, even after the previous parcel has arrived.
+
+| A reasonable diagnosis could otherwise miss… | The strategic comparison the records introduce |
+|---|---|
+| Continued purchase intent alongside restricted payment access. | Compensation or price relief versus restoration of an eligible transaction path, with seller-risk protections retained. |
+| A resolved parcel alongside an unresolved recurring carrier/address fit. | One-order recovery versus persistent allocation exceptions, address learning or delivery visibility. |
+
+The corpus cannot adjudicate whether Nexora's attrition is caused primarily by fees, reduced incentives, discovery competition, operational restrictions or a healthier participant mix. Those remain competing explanations. The findings earn a place in problem analysis because they identify concrete pathways and different remedies that a price-only or order-only interpretation would overlook. They do not select a final strategy or supply an ROI forecast.
+
+## Appendix — evidence scope, rejected candidates and reproduction
+
+### A. What was available and inspected
+
+The working repository was cloned from [Fafauzif/Nexora-Research](https://github.com/Fafauzif/Nexora-Research), including available LFS objects, at source commit **`73bf0c4468fd979bd9d514e6f6acba582bd440ce`**. `START_HERE.md`, the attached/repository context pack, overall and source-specific methodologies, dictionaries, licenses and QA documentation were read. All eight pages of the mentoring notes were read. The preserved casebook text supplied business context; its financial exhibits were not the source of the findings.
+
+The existing package verifier passed **187 manifest-listed payloads** against their sizes and SHA-256 hashes and independently streamed the three principal clean files to reconcile their counts. This was input verification, not validation of the truth of any testimony.
+
+| Evidence stratum | Source inventory and coverage | Analytical use and limits |
+|---|---|---|
+| App reviews | 1,834,939 retained reviews: Shopee 781,789; Lazada 774,911; Tokopedia 71,229; Bukalapak 90,127; Blibli 116,883. Overall 2013-06-09–2025-02-09. | All rows streamed for preparation/retrieval; varied discovery reading; coded COD samples and misses. Shopee/Lazada end 2023-11-13; Tokopedia/Bukalapak end October 2024; Blibli February 2025. Country, author role and language are absent as native attributes. |
+| Historical support | 513,077 tweets; 126,882 observed components; 2011-10-13–2017-12-03. Core marketplace/courier 438,115; adjacent retail 74,962. | Full stream parsed; discovery across eight selected company handles; final test restricted to AmazonHelp-linked source-inbound cases. Companies are not customer opinions. Surrogate IDs are not live X status IDs. |
+| Smaller published X samples | 949 records: 876 PDF-derived records and 73 CSV records; principally January 2024 and January 2026 source dates. | All parsed; 56 fixed-seed examples read, then targeted candidate records. Mixed language, promotions, cash-out solicitations and extraction artifacts prevented treating titles or offers as completed behavior. |
+| Indexed social material | 251 Agent Reach representations plus 202 other indexed representations; 415 canonical URLs after overlap reconciliation, including 376 Reddit URLs and 39 X metadata URLs. Seven partial page reads supplement existing URLs. | All 197 discovery URLs read; 35 held-out candidate matches and 30 random nonmatches audited; later targeted whole-pool challenges and all seven partial reads. Not full threads or individual-comment exports. No prevalence estimates. |
+
+No new public records were collected during this analysis. App identity, language and forum context were not used to infer author residence. Role was accepted only where the text supported it. Records, exact text families, author-component cases and URLs were kept distinct; none is a verified count of people or transactions. No cross-source sentiment percentage was computed.
+
+### B. Candidates rejected or narrowed after investigation
+
+Broad reading and retrieval covered more than the two retained mechanisms. Prior interpretations in the context pack were treated as hypotheses, including subsidy-funded habits, weakened merchant economics, demand shifting and logistics-density loops. This corpus lacks the Nexora cohorts and exposures needed to test those as company-specific explanations.
+
+| Candidate | Actual investigation | Disposition |
+|---|---|---|
+| Sellers who bring their own demand respond differently to marketplace fees. | Discovery found explicit escrow-only social-media use and an Etsy seller's own-traffic migration account. Fixed URL retrieval produced 41 discovery and 35 held-out matches; all 35 held-out matches and 30 random nonmatches were read. | No clean repeated held-out comparison established the proposed group difference. Retain as a possible distinction between discovery and settlement functions, not a principal finding or fee-elasticity result. |
+| Shipping rules systematically change basket consolidation or fragmentation. | Root read all 208 discovery app reviews retrieved by same/different-store plus shipping wording; social whole-pool retrieval added 29 URL candidates. | Most texts were complaints or feature requests. A few reported abandonment, reduced quantity, return or cart-limit workarounds, but no coherent comparison supported systematic basket reallocation. Rejected as a main finding. |
+| Checkout retention conceals migration of discovery to another platform. | App discovery included one explicit competitor-search → original-checkout account. A separate frozen search screen excluded 300 previously audited COD families and returned 1,409 reserved families; a random 120 were read. | Zero of 120 explicitly repeated competitor-search → original-checkout; four described using or comparing a browser for same-marketplace product search and one Google discovery with purchase unknown. Durable migration and checkout location were generally unobserved. Keep task separation exploratory; the stronger cross-platform claim was not replicated. |
+| Higher listed marketplace prices demonstrate a buyer trust premium. | Social record `6449eff08e7f8ad9ccb9` reports customers choosing marketplace channels despite a seller's 20% listed markup and invitations to cheaper direct channels. | Buyer explanations, shipping, credit and net voucher-adjusted prices are absent. Neither willingness to pay 20% nor a trust mechanism is established. |
+
+These negative results matter. They prevent replacing a weak initial story with a different attractive story that the data cannot support. They also prevent treating a few advertisements, hypothetical preferences or search excerpts as observed transaction behavior.
+
+### C. Validation, exposure and uncertainty
+
+**App partition:** SHA-256 of casefolded, whitespace-normalized complete text; first digest byte below 128 → discovery, otherwise reserved. This blocks exact normalized text duplicates across partitions, not paraphrases or repeated authors. Discovery used a 15-per-app-per-rating narrative reservoir, seed `261026`; 285 of its 375 records were read before the COD freeze, with the remaining 90 discovery records read later. Thirty short discovery reviews were also read. Root's separate sample used seed `20261026`. COD samples used seeds `26102602` (80 discovery families) and `26102603` (100 reserved families).
+
+The COD retrieval and category definitions were saved before reserved extraction/reading, with their hash and local file-order receipt. Both partitions also had 30 random missed-screen COD texts and 30 missed-screen COD texts containing delivery/return/cancellation wording read: **120 false-negative audit selections across the two partitions**. These are enrichment checks, not a random sample of all possible mechanism cases. A separate agent challenged 65 of the 100 reserved COD reviews, including all 24 principal positives and admitted-contribution/eligibility/false-positive groups. Primary definitions were unchanged; the 21-case specificity sensitivity was developed afterward and is explicitly post-reading.
+
+**Support partition:** SHA-256 of observed component ID; the same first-byte rule keeps a component together. Retrieval and eligibility definitions were saved before reserved reading. The fixed sample is the first 100 cases by SHA-256 of `author_id_source|conversation_id`; 60 nonmatching carrier-related cases were audited separately. A separate agent challenged 30 reserved cases. The temporal distinction between receipt/preference co-occurrence and an explicit request after receipt was refined after that challenge. Four inconsistent default notes were corrected without changing eligibility flags. Accordingly, this is exploratory discovery subjected to reserved-record challenges, **not untouched confirmation of every subsequently refined claim**.
+
+**Social partition:** SHA-256 of canonical URL, using the same first-byte rule; 197 discovery and 218 reserved URLs. The independent challenger initially examined the full social pool before learning its partition, and later whole-pool reading informed narrowing. Those checks are openly exploratory, not independent confirmation. The smaller X samples were not promoted to a quantitative finding.
+
+All manual reading/coding and the independent challenge were performed by analysis agents; no independent human coder participated. Recorded judgments and disagreements are inspectable, not a certified ground truth. No causal estimate, significance test, verified churn label, unique-person estimate or current-market generalization was produced. Complaint selection, incomplete conversations, mixed services, source collector settings, multilingual retrieval gaps and self-serving accounts remain material limits.
+
+### D. Reproduce the calculations and locate the records
+
+The working checkout is `/workspace/scratch/c2a11ffd42f3/Nexora-Research`; new work is under `analysis/original_20261026/`. The analysis is local and has not been pushed to the upstream repository. Source files were preserved. Python's standard library is sufficient for the analysis scripts. Large SQLite/minimal-JSON intermediates are regenerated and excluded from the analysis commit.
+
+Run from the checkout root:
+
+```bash
+python scripts/verify_package.py --counts
+python analysis/original_20261026/reproduce.py
+python analysis/original_20261026/verify_report.py
+```
+
+`reproduce.py` regenerates extraction, fixed samples, evidence and numerical summaries from the unchanged source files and saved manual coding decisions. It does not automate discovery of the interpretation or certify the experiences. `verify_report.py` independently checks annotation denominators, split separation, source IDs and the report's principal counts. Manual codes are inputs to reproducibility, not labels inferred as truth by keyword matching.
+
+The **14-step default reproduction run completed successfully**. The separate report verification passed the COD and carrier denominators, text-family separation, false-negative audit counts, social URL reconciliation, search-test counts and resolution of all 27 app/support evidence IDs used here. Results are recorded in `root/reproduction_run.log` and `root/report_verification.log`. The original tracked source files have no changes.
+
+Local entry points: [reproduce.py](sandbox:/workspace/scratch/c2a11ffd42f3/Nexora-Research/analysis/original_20261026/reproduce.py), [verify_report.py](sandbox:/workspace/scratch/c2a11ffd42f3/Nexora-Research/analysis/original_20261026/verify_report.py), and [locate_evidence.py](sandbox:/workspace/scratch/c2a11ffd42f3/Nexora-Research/analysis/original_20261026/locate_evidence.py).
+
+| Working evidence and parameters | Files |
+|---|---|
+| COD frozen rules, coded evidence and calculations | `app/COD_FROZEN_PROTOCOL.md`, `app/cod_protocol_execution_receipt.json`, `app/cod_discovery_manual_labels.csv`, `app/cod_test_manual_labels.csv`, `app/cod_audited_evidence.jsonl`, `app/cod_results.json` |
+| Carrier frozen rules, full sampled contexts and coding | `support/control_protocol.json`, `support/control_screen.py`, `support/control_test_cases.jsonl`, `support/control_test_nonmatch.jsonl`, `support/control_validation_manual.csv`, `support/control_nonmatch_manual.csv`, `support/control_validation_summary.json` |
+| Adversarial checks, exposure record and specificity cautions | `challenge/CHALLENGE_PROTOCOL.md`, `challenge/CHALLENGE_FINDINGS.md`, `challenge/app_frozen_test_independent_audit.csv`, `challenge/support_frozen_test_independent_audit.csv` |
+| Social URL reconciliation, rejected-candidate audit and evidence | `social/prepare_social.py`, `social/frozen_protocol.json`, `social/DOSSIER.md`, `social/selected_evidence.jsonl` |
+| Root reading, basket retrieval and decision ledger | `root/overview.py`, `root/discovery_reading_sample.jsonl`, `root/basket_retrieval.py`, `root/basket_discovery_retrieval.jsonl`, `root/DECISIONS.md` |
+| App search test and its separate exposure boundary | `app/SEARCH_FROZEN_PROTOCOL.md`, `app/search_test.py`, `app/search_test_audit.jsonl`, `app/search_test_counts.json` |
+
+Paths in that table are relative to `analysis/original_20261026/`. Full record IDs resolve directly to source rows:
+
+```bash
+python analysis/original_20261026/locate_evidence.py \
+  --id kaggle_bwandowando_shopee:87631 \
+  --id twcs:2603002
+```
+
+App rows include their original ZIP member and zero-based source row index. TWCS rows include source surrogate IDs, component, reply parent and source author fields. Social rows include canonical URLs and capture/item locators; partial reads remain supporting representations. Never turn TWCS numeric surrogates into invented live status links.
+
+Source attribution and reuse conditions remain those in `documentation/LICENSE_AND_ATTRIBUTION.md`: BwandoWando's two app datasets and Thoughtvector's support dataset declare CC BY-NC-SA 4.0; rezkyyayang's app collection declares CC0; the Zenodo sources declare CC BY 4.0. Indexed excerpts carry no blanket open-content license. The casebook is cited through its page-text archive in `context/IBSC_2026_Nexora_Master_AI_Context_Pack_UPDATED.md` (S1 pp. 4–6, 11); the attached mentoring notes informed the requirement for debatable, decision-changing mechanisms, not a substantive marketplace claim.
+
+
+<!-- END BYTE-PRESERVED SUPPLIED PRIOR-ANALYSIS MD -->
+
+<a id="v2-archive"></a>
+## 11. Complete unchanged Version 2 archive
+
+Everything between the archive markers below is the exact previous master, preserved for source continuity. Its original current-state statements and future-task language are historical. Version 3 above supersedes the collection-only/no-analysis state, while the official casebook facts, competition source hierarchy and source archives remain applicable unless a later explicit correction says otherwise.
+
+<!-- BEGIN BYTE-PRESERVED VERSION 2 ARCHIVE -->
+
+# IBSC 2026 / NEXORA — UPDATED MASTER AI CONTEXT PACK
+
+**Version2; updated26October2026 (Asia/Jakarta).** This is the full prior master plus subsequent conversation and final collection-run status. Read this current-state note and the final addendum before treating older working-state passages as current. All original source archives in the first master remain preserved below.
+
+## Latest settled context
+
+- Nexora is fictional for this project. The casebook is the entire supplied internal evidence base and takes precedence over the guidebook by explicit user decision. Do not propose obtaining unavailable internal cohorts as a prerequisite for completing this competition.
+- External datasets and social listening are indirect mechanism benchmarks, never Nexora observations. No real platform is declared Nexora's identity.
+- The user suspects current profits may draw on relationships/habits built during subsidy spending. This remains a working hypothesis, not an accepted causal finding or proof of inevitable failure. Operating-cost drivers and competing explanations remain unresolved.
+- Fiverr was discussed as a qualified analogy; historical research details/URLs are preserved in the conversation update. It is not proof of Nexora's trajectory.
+- Current authorized task: broad parallel external data collection; raw/clean ZIP; collection and cleaning methodology; updated context. **No new sentiment, topic or business analysis of the collected corpus was requested or performed.**
+- Large volume was achieved through published historical datasets and supplementary app reviews. Actual Agent Reach public-web retrieval produced bounded indexed Reddit excerpts. No millions-of-current-Reddit/X-posts claim is valid.
+- Current corpus counts and limits are in the final addendum and RUN_SUMMARY. Future analysis is a new phase; no final Nexora strategy has been selected in the supplied conversation.
+
+## How the preserved layers work
+
+The complete version1 follows. Its dated state is retained for provenance, not silently overwritten. Later user corrections and the final run addendum supersede earlier tentative operational plans. The existing video transcript remains machine-generated with its original qualifications. Original attachments are identified in the source manifest; PDF graphics and video binary are not embedded in this MD.
+
+<!-- BEGIN COMPLETE VERSION1 MASTER -->
+
+# IBSC 2026 / NEXORA — MASTER AI CONTEXT PACK
+
+**Version:** 1.0 | **Compiled:** 26 October 2026 (Asia/Jakarta) | **Language:** English  
+**Purpose:** One portable, detailed Markdown context pack combining all five supplied attachments. **Authority update: casebook takes precedence over guidebook, explicitly decided by the user during compilation.** This is a preparation and continuity document, not the competition submission.
+
+## Read this first
+
+This pack has two layers: an organized working context for quick orientation, followed by full source-text preservation. Read the organized layer to understand the case and the current state; consult the preserved sources for wording, methods, detailed examples, and provenance. The organized layer does not replace those sources.
+
+The user asked to combine everything into **one MD file**, with substantial detail and minimal context loss. The user used the video to study and asked for transcription. The request authorizes consolidation and transcription; it does not establish an accepted strategy, team identity, new research findings, or an instruction to submit competition materials.
+
+**Continuity boundary:** This pack captures the five attachments and the visible request. It does not reconstruct unprovided chats, workbooks, slide decks, survey data, or manual edits. A reference to an earlier artifact in the BCC guide is historical context, not proof that the artifact is present.
+
+**Representation boundary:** Both original Markdown sources are reproduced in full, unchanged. Both PDFs are represented through page-numbered text extraction plus normalized working tables and requirements. Their graphic design, logos, and binary objects are not recreated in Markdown. The video is represented through a timestamped machine transcript and visual study notes; it is not embedded as a playable video. Machine transcription is not a certified verbatim record.
+
+<a id="pack-navigation"></a>
+## Navigation
+
+1. [Source manifest and evidence hierarchy](#pack-sources)
+2. [Portable current project state](#pack-state)
+3. [Official case brief and data dictionary](#pack-case)
+4. [Competition rules, rubric, timeline, and conflicts](#pack-rules)
+5. [Calculation ledger and accounting safeguards](#pack-calculations)
+6. [Integrated diagnosis and competing explanations](#pack-diagnosis)
+7. [Research agenda and strategy-development controls](#pack-research)
+8. [Reusable BCC workflow and design preferences](#pack-workflow)
+9. [Study video: handling, chapter map, and transcript](#pack-video)
+10. [Full casebook page-text archive](#archive-casebook)
+11. [Full guidebook page-text archive](#archive-guidebook)
+12. [Full existing Nexora analysis Markdown](#archive-analysis)
+13. [Full BCC Hub master Markdown](#archive-bcc)
+14. [External-reference register retained from the supplied notes](#pack-external)
+15. [Open items, handoff prompt, and preservation audit](#pack-handoff)
+
+<a id="pack-sources"></a>
+## 1. Source manifest and evidence hierarchy
+
+| ID | Supplied filename | Nature and intended use | Source locator |
+|---|---|---|---|
+| S1 | Casebook Preliminary IBSC 2026_compressed.pdf | Official preliminary case, exhibits, task, constraints, submission information, rubric, glossary | 18 PDF pages; cite as S1 p. N |
+| S2 | Guidebook IBSC 2026.pdf | Official competition guide, eligibility, theme, timeline, submission formats and later-round requirements | 17 PDF pages; cite as S2 p. N |
+| S3 | Pasted markdown(20261026-025326).md | Existing detailed Nexora interpretation, calculations, industry context, hypotheses and external links | Full text in archive; not an official case exhibit |
+| S4 | Nexora_s_2025_Turnaround.mp4 | User's study video; explanatory narration and illustrations | Approximately 13 minutes 30.7 seconds; cite S4 MM:SS |
+| S5 | BCC_HUB_MASTER_v3_2026-09-12(2).md | Reusable coaching, analysis, research, economics, appendix and handoff guidance | Edition v3, 12 September 2026; full 18-section source in archive |
+
+### 1.1 Resolve authority by the type of claim
+
+- Use S1 for Nexora case facts, financial baselines, operational metrics, the case question, and case-specific constraints.
+- Use S1 and S2 together for competition requirements. **Current explicit user decision: the casebook (S1) takes precedence wherever it conflicts with the guidebook (S2).** Retain S2 for supplementary requirements absent from S1.
+- Use S3 for preserved analysis and ideas. Its calculations can be checked against S1; its causal explanations remain hypotheses unless supported independently.
+- Use S4 as the user's learning material. An illustration, analogy, or simplification in the video does not add an official case fact.
+- Use S5 as reusable working guidance. Its Garuda examples do not become Nexora facts, and its deck preferences do not override the required essay format.
+- Current explicit user choices govern the requested work. Source quotations and historical instructions remain attributed context, subject to the actual task and governing instructions.
+
+### 1.2 Evidence labels to retain in future work
+
+| Label | Meaning | Example |
+|---|---|---|
+| CASE FACT | Explicitly supplied in S1 | 2025 GMV is IDR600tn |
+| COMPETITION REQUIREMENT | Explicitly supplied in S1/S2 | Digital innovation must be a core driver |
+| DERIVED | Reproducible calculation from supplied values | GMV grew 7.14% |
+| HYPOTHESIS | Plausible mechanism that has not been established | Higher fees reduced seller margins and increased exits |
+| ILLUSTRATION | Teaching example, not Nexora data | A Rp2,000 charge reduces a hypothetical Rp5,000 merchant contribution by 40% |
+| INHERITED EXTERNAL CLAIM | Retained from supplied notes; not independently rechecked in this compilation | Descriptions of actual industry reports or regulations |
+| PROPOSED | An option, experiment, target or future action | Route-level contribution optimization |
+| UNKNOWN / CONFLICT | Absent information or inconsistent source instructions | Exact repeat-buyer cohort definition |
+
+No new external research was commissioned for this consolidation. Existing external URLs and claims are retained with their provenance; inclusion is not independent verification of their current accuracy.
+
+<a id="pack-state"></a>
+## 2. Portable current project state
+
+| Field | State supported by the attachments and visible request |
+|---|---|
+| Competition | International Business Solution Competition 2026, associated with HIMABIS UNPAD, Business Administration, FISIP Universitas Padjadjaran |
+| Client / case company | Nexora, an e-commerce marketplace with NexExpress delivery operations |
+| Primary analytical geography | Indonesia; broader Southeast Asia is context |
+| Data horizon | Financial/operating comparisons for 2024–2025; market-share series for 2023–2025 |
+| Preparation context | User is studying the case and wants a complete portable AI context pack |
+| Known working assets | Two PDFs, one detailed Nexora analysis MD, one study video, one reusable BCC master MD |
+| Accepted strategic recommendation | Not established in the supplied record |
+| Accepted deliverable draft | Not supplied; this pack is context, not an accepted Executive Summary |
+| Team name, members, leader, university | Not supplied |
+| Registration status | Not supplied; do not infer it from the registration dates |
+| Existing customer interviews / surveys | Not supplied for Nexora |
+| Nexora private operational datasets | Not supplied beyond casebook exhibits |
+| Immediate authorized work | Consolidate all five inputs into one detailed MD and transcribe the study video |
+| Likely next substantive work | Use this context to structure diagnosis, choose research priorities, compare strategies and draft the preliminary Executive Summary when requested |
+
+The preliminary deadline shown in both PDFs is **1 November 2026, 11:59 PM GMT+7 / WIB**. That is a source-stated deadline, not a live organizer-status check. Preserve any later official clarification if supplied.
+
+<a id="pack-case"></a>
+## 3. Official case brief and data dictionary
+
+### 3.1 Business setting — S1 pp. 4–5
+
+Nexora is one of Southeast Asia's largest e-commerce marketplaces, with Indonesia as its largest market. Its open platform serves general-public buyers and sellers ranging from new MSMEs to established brands. Its owned delivery business, NexExpress, collects parcels from sellers and delivers them to buyers. Seller commissions, service fees, and logistics are part of the business model.
+
+The earlier model prioritized user acquisition and GMV through vouchers, free-shipping promotions, flash sales, and company-funded subsidies. Most deliveries were handled by third-party couriers. From the case's 2025 turning point, investors increasingly expect sustainable profitability. Nexora has increased seller commission fees, reduced general promotions and routed more delivery volume through NexExpress.
+
+The transition places pressure on smaller, lower-margin merchants and price-sensitive buyers. The case describes rising industry logistics costs while also reporting falling average Nexora delivery costs. Those statements can coexist: one is an industry pressure, the other a company-level outcome. They do not establish that every courier or route experienced the same change.
+
+### 3.2 Official decision question — S1 p. 11
+
+> How can Nexora achieve sustainable profitable growth while strengthening its competitive position and mitigating seller and buyer attrition in Indonesia's increasingly competitive e-commerce market?
+
+The required response must identify and prioritize fundamental challenges using the case data, develop a differentiated strategy addressing root causes, make digital innovation a core enabler, evaluate business impact and financial/operational feasibility, and use credible external evidence, transparent assumptions and rigorous reasoning.
+
+### 3.3 Explicit constraints — S1 p. 12
+
+1. Profit growth must remain positive and sustainable.
+2. Digital technology and innovation must be a core driver.
+3. Additional assumptions must be realistic, articulated clearly, and consistent with case facts.
+4. External references are permitted.
+
+The case provides no numerical capex budget, minimum retained profit, mandatory in-house parcel percentage, technology budget, numerical churn target, or precise implementation horizon. Such values must be justified and labeled if introduced later.
+
+### 3.4 Operational matrix — S1 p. 7
+
+| KPI | 2024 | 2025 | Measurement note |
+|---|---:|---:|---|
+| GMV | IDR560tn | IDR600tn | Merchandise transaction value, not platform revenue |
+| Platform revenue | IDR45tn | IDR60tn | Revenue recognition breakdown is not disclosed |
+| Reported take rate | 8% | 10% | Rounded; 45/560 is 8.0357% |
+| Marketing expense | IDR28tn | IDR24tn | Mix of spending and accounting treatment unspecified |
+| Delivery cost per parcel | IDR12,000 | IDR10,000 | Average cost; route/service mix not disclosed |
+| Operating profit / loss | -IDR3tn | +IDR5tn | Do not relabel this as net profit, EBITDA or cash flow |
+| Annual small-seller churn | 7% | 12% | Definition, activity threshold and 2024 starting count unspecified |
+
+### 3.5 Competitor comparison, 2025 — S1 p. 8
+
+| Indicator | Nexora | Scrolla | Avori | Borong.id |
+|---|---:|---:|---:|---:|
+| GMV, IDRtn | 600 | 330 | 180 | 90 |
+| Reported GMV growth vs 2024 | 7% | 32% | 3% | 6% |
+| Take rate | 10% | 6% | 8% | 7% |
+| General free shipping | No; targeted incentives only | Yes | Limited | Yes, with minimum spend |
+| Delivery cost per parcel | IDR10,000 | IDR12,500 | IDR11,000 | IDR11,500 |
+
+Scrolla integrates content/social entertainment with purchasing. Borong.id is described as a lower-fee alternative. The table does not establish competitors' profitability, service quality, subsidy funding, or the exact cause of their growth. Nexora **already has targeted incentives**; introducing targeting alone is not automatically a differentiated innovation.
+
+### 3.6 Market growth and GMV value share — S1 p. 9
+
+| Measure | 2023 | 2024 | 2025 |
+|---|---:|---:|---:|
+| Market growth | 9% | 14% | 11% |
+| Nexora share | 50% | 48% | 46% |
+| Scrolla share | 14% | 21% | 25% |
+| Avori share | 20% | 15% | 14% |
+| Borong.id share | 8% | 7% | 7% |
+| Other players | 8% | 9% | 8% |
+
+Value share means each platform's GMV divided by total market GMV over the 12-month period. The company and market exhibits are displayed at rounded precision and do not fully reconcile when reverse-engineered.
+
+### 3.7 Seller-segment performance, 2025 — S1 p. 10
+
+| Seller segment | GMV, IDRtn | Platform revenue, IDRtn | Annual churn |
+|---|---:|---:|---:|
+| Small sellers / MSME | 200 | 20 | 12% |
+| Mid-size sellers | 220 | 22 | 5% |
+| Other Segments | 180 | 18 | 2% |
+| Total | 600 | 60 | Not supplied |
+
+Keep the label **Other Segments**: the source does not define it as large sellers. The three implied revenue-to-GMV ratios equal 10%, but that does not prove equal headline fees, category mix, margins, or profitability. Do not average the churn rates without seller-count denominators.
+
+### 3.8 Additional operating data — S1 p. 10
+
+| Measure | Supplied value |
+|---|---:|
+| Annual parcels delivered in 2025 | 2 billion |
+| NexExpress share of parcels in 2025 | 50% |
+| Average cost per NexExpress parcel | IDR8,000 |
+| Average cost per third-party parcel | IDR12,000 |
+| Small sellers active at beginning of 2025 | 1.2 million |
+| Repeat-buyer rate | 62% in 2024; 57% in 2025 |
+
+No order count, active-buyer count, repeat-buyer definition, basket distribution, route-level cost, internal capacity limit or 2024 parcel total is supplied.
+
+### 3.9 Directors' statements — S1 p. 6
+
+| Director | Supplied position | Interpretation boundary |
+|---|---|---|
+| Commercial | “The market has accepted our earlier increase. Another step is the fastest way to keep profit growing.” | Management viewpoint; not proof of future fee elasticity |
+| Logistics | “Every parcel we move in-house costs less than a third-party courier. Owning delivery is our long-term advantage.” | Current averages do not establish marginal economics of every remaining route |
+| Seller Success | “Small sellers are leaving first. If we lose them, we lose the variety that brings buyers here.” | Unique assortment and buyer spillovers require validation |
+| Technology | “Whichever option we choose needs data and automation behind it. We cannot run it by hand at this scale.” | Scale requirement; not proof of any specific missing technology |
+
+The two lower quotes and their corresponding labels are normalized by their visual column positions in the original PDF; plain-text extraction interleaves their lines.
+
+<a id="pack-rules"></a>
+## 4. Competition rules, rubric, timeline, and source conflicts
+
+### 4.1 Theme and purpose — S2 pp. 3–5
+
+**Grand theme:** “Redefining Business Possibilities Through Digital Transformation: Think Beyond. Transform Business.”
+
+The theme calls for rethinking business models, processes and customer value through digital opportunities. Technology adoption alone is insufficient: the strategy should be innovative, feasible, actionable and capable of creating sustainable value for business and society. The event emphasizes analytical, collaborative and decision-making skills, future-ready problem solving, institutional credibility and professional partnerships.
+
+### 4.2 Timeline — S2 p. 6, visually checked
+
+| Event | Date in 2026 |
+|---|---|
+| Open registration | 8–23 October |
+| Preliminary case distribution | 25 October |
+| Preliminary submission | 1 November |
+| Semifinalists announcement | 6 November |
+| Mentoring session | 8 November |
+| Semifinal case distribution | 8 November |
+| Semifinal submission | 16 November |
+| Finalists announcement | 21 November |
+| Mentoring session | 22 November |
+| Technical meeting | 26 November |
+| Grand final | 28 November |
+
+These pairs were recovered from the visual timeline, whose alternating arrows are not preserved by linear extraction. Do not attach a time of day to events where none is provided.
+
+### 4.3 Eligibility, registration and team conditions — S2 pp. 7–10
+
+- Active Diploma D3/D4 or undergraduate S1 students worldwide, evidenced by a valid student identification card (KTM).
+- Teams have 3–4 members and one designated leader. Cross-university, faculty, major and academic-year teams are allowed.
+- Each participant may join only one team; each team may submit only one work.
+- Registered members cannot be replaced. Unauthorized changes to team composition or submitted files are prohibited.
+- The leader completes registration, is the main committee contact and joins the official WhatsApp community.
+- Required registration evidence includes KTM, public Instagram account, official Twibbon on Feed, poster on Story, tags to @ibsc.unpad and three friends, screenshots of posts/stories and proof of following official Instagram/TikTok accounts.
+- Preliminary registration is free. Continuing teams qualifying for the semifinal pay IDR180,000.
+- Finalists must attend the technical meeting. Updates are communicated through the leader's email, official Instagram and WhatsApp community.
+- Preliminary and semifinal rounds are online; the final is expected offline in the Bandung area.
+
+### 4.4 Integrity and document language — S2 p. 8
+
+Submissions must be original and unpublished, not currently entered in or previously submitted to another competition. A Statement of Originality is required. Quotations and supporting data need clear references. Plagiarism can result in disqualification without notice. The guide prohibits unlawful and specified discriminatory or pornographic content. All competition documents and presentations must be in **English**. Judges' decisions are final and cannot be contested.
+
+The supplied rules do not state a specific AI-use policy. Do not infer either an AI ban or unrestricted permission from silence. Preserve any later organizer clarification.
+
+### 4.5 Preliminary Executive Summary — S1 p. 14; S2 pp. 11–12
+
+| Requirement | Specification |
+|---|---|
+| Content | Concise, structured problem, proposed solution and potential impact |
+| Language | English |
+| Paper | A4 |
+| Font | Times New Roman, 12 pt |
+| Spacing | Single |
+| Alignment | Justified |
+| Margins | 2.54 cm on every side |
+| Main-body length | Maximum 3 pages |
+| References / appendix | Excluded from main-body page count in both sources |
+| Cover | Explicitly excluded by S1; not mentioned in S2's exclusions |
+| Referencing | APA Style; edition unspecified |
+| Logo | IBSC logo must be included |
+| Format / maximum size | PDF / 30 MB |
+| Deadline | 1 November 2026, 11:59 PM GMT+7 |
+| Submission | Official Google Form; Executive Summary plus Statement of Originality |
+
+**Filename conflict — resolved by user decision:** S1 says `Preliminary_Team Name_IBSC2026`; S2 says `TeamName_Preliminary_IBSC2026`. The user explicitly directed that the casebook takes precedence. Use the S1 order: **`Preliminary_Team Name_IBSC2026.pdf`**, substituting the actual team name when known. S2's different order is retained only as historical source provenance. Do not ask the user to resolve this again.
+
+**Cover treatment — casebook governs:** S1 explicitly excludes Cover, References and Appendix from the three-page limit. Apply that rule. A separate cover is not explicitly mandatory in the extracted specifications; do not equate “cover excluded” with “cover required.”
+
+**Late policy in S1:** Five-minute grace period; after it, one-point deduction per minute of delay; submissions more than three hours after the deadline are disqualified. Preserve the exact wording in the archive: it does not fully specify whether the deduction starts from the original deadline or the end of the grace period. Plan to submit before the official deadline.
+
+### 4.6 Preliminary assessment rubric — S1 p. 15; S2 p. 13
+
+| Criterion | Weight | What it assesses |
+|---|---:|---|
+| Problem Analysis | 20% | Logical breakdown, relevant subcomponents, root causes, urgency and impact |
+| Strategic Solution | 30% | Innovative, differentiated strategy linked to root causes |
+| Impact and Feasibility | 30% | Realistic, measurable user/business impact and credible implementation under constraints |
+| Quality of Data & Evidence | 15% | Relevant evidence and arguments for objectivity |
+| Essay Structure | 5% | Required structure, specifications and neatness |
+| **Total** | **100%** | Weights agree across both sources |
+
+Strategic Solution plus Impact and Feasibility account for 60%, but this is not an instruction to allocate exactly 60% of words to them. Diagnosis and evidence must be sufficient to support the recommendation.
+
+### 4.7 Semifinal Full Paper — S2 pp. 14–15
+
+The idea/theme must remain consistent with the preliminary Executive Summary, developed into deeper analysis and demonstrated feasibility. Required contents: Abstract; Keywords (maximum five); Introduction; Problem Analysis; Proposed Solution; Feasibility and Implementation; Impact and Measurement; Conclusion; References; Appendix.
+
+| Format item | Requirement |
+|---|---|
+| Language / paper | English / A4 |
+| Body font | Times New Roman, 12 pt |
+| Title | Times New Roman, 14 pt, bold |
+| Spacing / alignment | 1.15 / justified |
+| Margins | Left 2 cm; top 4 cm; bottom 3 cm; right 2 cm |
+| Length | Maximum 15 pages, excluding references and appendix |
+| Reference style | APA |
+| Logo / file type / size | IBSC logo / PDF / maximum 30 MB |
+| Filename | `TeamName_Semifinal_IBSC2026` |
+| Submission link | To Be Announced in the supplied guide |
+
+No detailed final-round pitch duration, slide limit or final assessment scheme is established by these attachments. Do not import a generic case-competition format as an official requirement.
+
+### 4.8 Supplied official links and contacts
+
+- Registration: https://bit.ly/FormRegistrationIBSC2026
+- Preliminary submission: https://bit.ly/Preliminary-SubmissionIBSC2026
+- Statement of Originality: https://bit.ly/StatementOfOriginalityIBSC2026
+- Logo: https://bit.ly/IBSCLogo
+- Twibbon and poster: https://bit.ly/IBSC2026TwibbonAndPoster
+- Instagram and TikTok: @ibsc.unpad; other listed identity: IBSC Unpad.
+- Email: ibsc.unpad.id@gmail.com
+- Shakeela: 081314360550; Alya: 087808670093.
+
+These are copied from the source files, not live-tested links or an authorization to contact anyone.
+
+<a id="pack-calculations"></a>
+## 5. Calculation ledger and accounting safeguards
+
+All calculations below are DERIVED unless explicitly marked illustrative. Monetary shorthand: IDR/Rp; tn = trillion = 10^12; bn = billion = 10^9. Percentage-point changes are distinguished from relative percentages.
+
+### 5.1 Core changes
+
+| ID | Calculation | Result | Interpretation boundary |
+|---|---|---:|---|
+| D01 | (600−560)/560 | 7.1429% GMV growth | Source competitor table rounds Nexora to 7% |
+| D02 | (60−45)/45 | 33.3333% revenue growth | Not proof of fee-only growth |
+| D03 | (24−28)/28 | -14.2857% marketing expense | IDR4tn lower spending |
+| D04 | (10,000−12,000)/12,000 | -16.6667% average delivery cost | Not total historical savings |
+| D05 | 5−(-3) | IDR8tn profit improvement | A percentage change from loss to profit is not informative |
+| D06 | 12%−7% | +5 percentage points churn | Relative increase is 71.4286% |
+| D07 | 57%−62% | -5 percentage points repeat-buyer rate | Relative change is -8.0645%; not automatically buyer churn |
+| D08 | 46%−48%; 46%−50% | -2pp in 2025; -4pp since 2023 | Erosion started before the stated 2025 transition |
+| D09 | 5/60 | 8.3333% operating margin on revenue | Not net margin |
+| D10 | 5/600 | 0.8333% operating profit / GMV | Different denominator from revenue margin |
+| D11 | 200/600; 220/600; 180/600 | 33.33%; 36.67%; 30% GMV shares | No seller contribution margins supplied |
+| D12 | 600tn / 2bn | IDR300,000 GMV per parcel | Not proven average order value |
+
+### 5.2 Revenue-growth decomposition
+
+Use the exact implied 2024 rate `45/560 = 0.0803571429`, not the rounded 8% label, for a reconciliation:
+
+- Baseline-rate volume effect: `(600−560) × (45/560) = IDR3.2142857tn`.
+- Realized monetization/mix effect: `600 × [(60/600)−(45/560)] = IDR11.7857143tn`.
+- Sum: `3.2142857 + 11.7857143 = IDR15tn` revenue growth.
+- Second component as share of revenue growth: `11.7857143/15 = 78.5714%`.
+
+This is an exact accounting decomposition with the interaction allocated to the rate effect at 2025 GMV. It does not identify causal commission revenue: category mix, service mix, logistics recognition and other factors can be embedded. A different decomposition convention can allocate the interaction differently; specify the convention rather than treating the percentage as a uniquely identified causal estimate.
+
+### 5.3 Reconstructed profit bridge
+
+Assume operating profit equals revenue less operating costs on a consistent reporting basis.
+
+| IDRtn | 2024 | 2025 | Change |
+|---|---:|---:|---:|
+| Revenue | 45 | 60 | +15 |
+| Marketing expense | 28 | 24 | -4 |
+| Other operating costs, including logistics | 20 | 31 | +11 |
+| Total operating costs | 48 | 55 | +7 |
+| Operating profit | -3 | 5 | +8 |
+
+`Profit change = revenue change − marketing change − other-cost change = 15 − (-4) − 11 = 8`.
+
+Other operating costs are a residual, not an independently supplied cost breakdown. Do not call them overhead only, technology only, or logistics only. Do not add an estimated historical logistics saving to this bridge as though it were an additional independent benefit.
+
+### 5.4 Logistics identities and scenarios
+
+Current blended cost reconciles: `0.5 × 8,000 + 0.5 × 12,000 = IDR10,000` per parcel.
+
+At the reported 2025 volumes, NexExpress and third parties each handle approximately one billion parcels. If volume and unit-cost populations align, implied annual delivery spending is `2bn × 10,000 = IDR20tn`: IDR8tn internal and IDR12tn outsourced. These are derived spending identities, not a case-provided audited logistics P&L. Cost scope and consolidation treatment need checking before integration into a financial model.
+
+For a purely mechanical share-shift scenario with constant costs and volume:
+
+`Savings = total parcels × increase in internal share × (external cost − internal cost)`.
+
+A ten-percentage-point shift gives `2bn × 0.10 × 4,000 = IDR0.8tn` annual gross savings. This is **not** a validated strategy forecast. Capacity investment, route selection, marginal costs, transition expense, service failures and external courier repricing can reduce or reverse the benefit.
+
+Do not assume the average IDR8,000 cost remains available for every additional parcel. NexExpress may currently serve easier, denser or different routes. Nor does a lower cost automatically imply reliable or faster delivery.
+
+### 5.5 Churn arithmetic and its limits
+
+If the 12% churn rate applies to the 1.2 million small sellers present at the beginning of 2025, estimated departures from that cohort are `1,200,000 × 12% = 144,000` sellers.
+
+A hypothetical 7% churn applied to the **same** starting base gives 84,000; the same-base difference is 60,000. This is not observed incremental exits vs 2024 because the 2024 starting seller count is absent. It is not net seller loss because new sellers may enter. It is not 12% loss of small-seller GMV or revenue: timing, size, substitutability and sales reallocation matter.
+
+### 5.6 Static sensitivities
+
+- One percentage point of realized revenue/GMV at IDR600tn GMV equals IDR6tn annual revenue, before behavioral effects and costs.
+- IDR1,000 per parcel across two billion parcels equals IDR2tn annual cost, 40% of IDR5tn operating profit.
+- These are sensitivity anchors, not predictions that all revenue changes flow directly to profit.
+- Profit growth, positive profit, margin growth, operating cash flow and return on invested capital are distinct tests. A proposal should define which one it targets and retain the case's requirement for positive, sustainable profit growth.
+
+### 5.7 Market reconciliation
+
+Using Nexora GMV and displayed shares gives implied total market GMV of `560/0.48 = IDR1,166.6667tn` for 2024 and `600/0.46 = IDR1,304.3478tn` for 2025. The implied growth is approximately **11.80%**, versus the reported 11% market growth. Rounding and exhibit simplification may explain the difference. Do not overwrite the official 11% with a reverse-engineered “correction.” Use reported company values for company growth and reported market values for market context; expose the mismatch when precision matters.
+
+### 5.8 Non-negotiable modeling checks
+
+- Consolidated Nexora–NexExpress transfers do not create extra group profit by themselves.
+- Do not count incentives as both contra-revenue and expense without reconciling accounting treatment.
+- Do not count the same retained GMV as seller retention uplift, buyer retention uplift and logistics growth independently.
+- Revenue is not contribution, operating profit is not cash, and GMV is not revenue.
+- Retention value depends on incremental retained activity, unit contribution, timing, cannibalization and intervention cost.
+- Avoid claiming statistical significance, estimated elasticity or causal impact from these aggregate exhibits alone.
+
+<a id="pack-diagnosis"></a>
+## 6. Integrated diagnosis and competing explanations
+
+### 6.1 Best-supported working interpretation
+
+Nexora has achieved a substantial financial turnaround while indicators of future marketplace strength have weakened. Higher realized monetization and reduced marketing spending coexist with slower-than-market GMV growth, rising small-seller churn, declining repeat-buyer rate and falling share. The durability of the transaction base is therefore the central unresolved issue.
+
+This is a qualified diagnosis, not proof that profitability itself damaged the ecosystem. Some departing sellers or buyers may have been costly to serve or primarily subsidy-seeking. The key question is whether Nexora is increasing productive marketplace value or extracting more from relationships whose future value is weakening.
+
+### 6.2 Four competing explanations to preserve
+
+| Hypothesis | Supporting observations | Rival explanation / missing discriminator | Evidence needed |
+|---|---|---|---|
+| Merchant economics deteriorated | Fees increased; small-seller churn rose | Some sellers may be unproductive, seasonal or moving for unrelated reasons | Seller total costs, margin changes, fee exposure, exit timing and comparable cohorts |
+| Discovery / engagement disadvantage | Scrolla grew 32%; Nexora share declined before 2025 | Price, category mix or promotion intensity may explain growth | Category funnels, search/content origin, acquisition, conversion and shopping occasions |
+| Service experience changed | More volume moved in-house; repeat-buyer metric weakened | No service deterioration is documented | Comparable route/courier SLA, failed attempts, returns, complaints and refunds |
+| Healthier mix after subsidy reductions | Marketing fell while profit improved | Valuable cohorts and distinctive assortment might also be leaving | Contribution of departing cohorts, buyer substitution and continuing-cohort behavior |
+
+Do not force a single root cause before examining these alternatives. The evidence supports prioritizing the decision; it does not yet identify a unique causal model.
+
+### 6.3 Mechanisms carried forward from the existing analysis
+
+**Ecosystem surplus:** Sellers need profitable demand; buyers need attractive delivered prices, selection and trust; the platform and logistics network need viable economics. Capturing a larger fee share is different from creating a larger pool of value.
+
+**Delayed behavioral response:** Fees can increase revenue immediately, while sellers gradually redirect stock, advertising or effort and buyers gradually change purchase habits. Current profit and future weakness can coexist.
+
+**Multi-homing:** Sellers and buyers may use several platforms. A formally active seller can still shift distinctive inventory and attention away from Nexora before measurable churn occurs.
+
+**Network quality:** More sellers do not automatically add useful assortment. Unique, reliable products can be more valuable than duplicated listings; seller count is an incomplete objective.
+
+**Marginal logistics:** Additional density on existing routes can lower cost, while new capacity, difficult geography and poor service outcomes can increase it. Ownership creates opportunities, not guaranteed advantages.
+
+**Discovery economics:** Content commerce can shape demand before a consumer searches. Its costs include creators, production, distribution, moderation and returns; it is not a free growth engine.
+
+**Transaction-value versus physical-cost mismatch:** Much monetization scales with GMV while delivery and some support costs scale with parcels or transactions. Basket, weight, distance and split shipments matter.
+
+**Decision systems:** Prediction is valuable only if it changes an economically useful action. A churn score does not establish who can be retained profitably; click optimization can undermine purchase quality; delivery-cost optimization can undermine reliability.
+
+### 6.4 Illustrative risk loop, not established causation
+
+Higher fees / lower incentives → weaker valuable participation → slower order growth / lower delivery density → cost and profit pressure → further fee pressure.
+
+Every arrow is a testable mechanism. The case does not show falling parcel volume, prove fees caused churn, or establish density deterioration. Use the loop to design questions, not as a demonstrated causal finding.
+
+### 6.5 Stakeholder tensions
+
+Commercial, logistics, seller success and technology each emphasize legitimate but partial objectives. A sustainable strategy must reconcile group contribution, seller economics, buyer experience and capital requirements. Their statements suggest possible local-optimization risks, but their formal incentives, compensation and governance are not documented.
+
+Independent couriers care about viable volume and terms; regulators may care about competition and consumer/MSME protection. Sellers differ by category, margins and dependence; buyers trade price, speed, trust and selection. Avoid treating either group as homogeneous.
+
+Nexora appears fictionalized or anonymized in S3's interpretation. Neither PDF explicitly confirms a real-world identity. Do not equate it with Shopee, Tokopedia or another company, or assign Nexora's numbers to a real business.
+
+<a id="pack-research"></a>
+## 7. Research agenda and strategy-development controls
+
+### 7.1 Highest-value missing information
+
+| Unknown | Why it can change the recommendation | Useful test / acquisition route |
+|---|---|---|
+| Contribution by seller, buyer, category and route | Aggregate GMV may hide loss-making growth and valuable niche activity | Reconciled transaction-level economics if available; transparent scenario ranges otherwise |
+| Seller total economics and fee response | Fee reduction and value enhancement address different mechanisms | Behavior-first interviews, fee history, margins, advertising and settlement costs |
+| Distinctive assortment lost on exit | Seller-count protection can preserve duplication rather than value | Product uniqueness, buyer search failure, substitution and category analysis |
+| Repeat-buyer definition and comparable cohorts | Aggregate rate may reflect acquisition mix rather than worsening loyalty | Cohort window, eligibility and frequency definitions |
+| Marginal logistics costs and capacity | Determines whether in-house expansion creates value | Route-matched comparisons, utilization, capex, SLA and sensitivity |
+| Source of Scrolla's category growth | A discovery gap requires a different response from a price gap | Shopping-journey and category/channel research |
+| Incentive incrementality | Sales during promotions may have occurred anyway | Treatment/control or credible comparison with contribution outcomes |
+| Cash conversion and capital burden | Operating profit may not finance proposed expansion | Capex, leases, working capital and cash flow |
+| Regulatory constraints | Can affect courier allocation, platform conduct and digital features | Dated authoritative legal/official checks when developing the strategy |
+
+Absence of private data does not require fabricated precision. Build bounded, labeled scenarios, use credible comparable evidence, explain transfer limits and design a pilot to resolve pivotal uncertainties.
+
+### 7.2 Research design inherited from S5
+
+Start with the decision and issue tree, then a research matrix: question; hypothesis; rival explanation; method/source; evidence that would change the view; decision supported; owner/timing. Prefer recent actual behavior before hypothetical concept reactions. Surveys describe the recruited sample under the instrument's wording; interviews explore mechanisms without estimating prevalence. Experiments and pilots need a credible counterfactual.
+
+Record observation units, raw/retained/excluded counts, denominators, dates, missingness, transformations, weighting and version. Multiple reports derived from the same dataset are not independent triangulation. Do not treat more rows, framework scores or longer appendices as evidence of validity.
+
+### 7.3 Strategy evaluation scaffold — not an accepted solution
+
+Future options might address seller economics, buyer value, logistics allocation, discovery or cross-functional decision systems. No option below has been selected or assigned a validated return:
+
+| Option family | Mechanism to test | Main feasibility/evidence risk |
+|---|---|---|
+| Seller productivity / economic transparency | Improve profitable seller activity and make total economics understandable | Capability and adoption may differ; uplift is not established |
+| Incremental incentive allocation | Fund behavior that produces net new contribution | Nexora already targets incentives; must demonstrate what changes and why it is better |
+| Route/service-level logistics allocation | Match fulfillment to marginal economics and reliability | Capacity, capital, route mix and fair treatment of partners |
+| Category-specific discovery improvement | Improve qualified demand where content changes purchase decisions | Creator/content costs and returns may consume gains |
+| Integrated contribution governance | Align commercial, seller, buyer and logistics decisions | Data access, ownership, objective conflicts and system integration |
+
+A useful recommendation specifies target group, problem mechanism, intervention, digital decision, operating owner, economics, evidence, risks and alternative considered. Avoid selecting several appealing initiatives whose effects overlap or whose implementation cannot fit the resource envelope.
+
+### 7.4 Digital architecture questions
+
+For a proposed digital component, specify inputs, decision frequency, action, accountable owner, feedback, exception handling and economic outcome. Distinguish rules, analytics, prediction, causal/uplift estimation and optimization. Do not call every dashboard “AI,” and do not imply AI capability already exists without evidence. Define human review for consequential exceptions and a measurable fallback if data quality is poor.
+
+### 7.5 Financial model template
+
+1. Define eligible base and counterfactual baseline.
+2. Estimate exposure, adoption and realized behavior separately.
+3. Convert changed behavior into incremental transactions/GMV without double-counting.
+4. Apply realized revenue rate with explicit accounting treatment.
+5. Deduct incremental fulfillment, payment, return, support, incentive and technology costs.
+6. Separate one-off implementation, recurring costs, capex and working capital.
+7. Model timing, ramp, downside/base/upside and the most sensitive assumptions.
+8. Reconcile to the IDR5tn operating baseline and define positive sustainable profit growth.
+9. State what must be true for break-even, and how the pilot measures it.
+
+### 7.6 Pilot and measurement specification
+
+Define hypothesis, eligible population, assignment unit, treatment, comparison, duration rationale, leading indicators, primary economic metric, service/participant guardrails, stop criteria, owners and conditional scale decision. Address seasonality, selection, spillover, seller multi-homing and concurrent promotions. A successful prediction model is not a successful business pilot; measure decisions and outcomes.
+
+No arbitrary numerical targets, sample sizes, statistical power or implementation dates are established by the supplied inputs. Proposed values must have a rationale and remain labeled.
+
+<a id="pack-workflow"></a>
+## 8. Reusable BCC workflow and design preferences
+
+The full S5 source is preserved later. This section is only a routing index, not a compressed replacement.
+
+### 8.1 Working modes and progression
+
+S5 supports nine modes: intake/structure; research architecture; evidence analysis; solution lab; implementation architecture; deck/appendix building; review/pressure test; presentation coaching; continuity editing. A typical progression is case intake → decision-linked research → evidence → synthesis → option comparison → economics/implementation → argument → delivery/defense. It is iterative and should be scaled to the task.
+
+Retain three perspectives: analyst for structure and evidence; client for value/economics/execution; judge for clarity and actual rubric alignment. Challenge unsupported claims respectfully, expose material uncertainty, and avoid artificial review scores or promises of winning.
+
+### 8.2 Frameworks are optional instruments
+
+The full master includes issue trees/MECE, SCQA and Pyramid, profit trees, TAM/SAM/SOM, 3C/STP/journeys/CBBE, PESTEL/Five Forces, VRIO/7S, SWOT/TOWS/IFE/EFE/IE, Ansoff/BCG/ERRC/SPACE, impact–effort/QSPM, M&A/DMAIC and financial metrics. Use only those that answer a decision. An assumption-filled matrix cannot manufacture evidence; numerical weights must be sourced or labeled judgment.
+
+### 8.3 Current deliverable format takes priority
+
+The current preliminary deliverable is a three-page Executive Summary, not a deck. The appendix slide defaults in S5 do not override Times New Roman, A4 and the other competition requirements. A future deck request should start from the current accepted deck; none was supplied in this task.
+
+### 8.4 Appendix defaults retained from S5
+
+The user-approved detailed visual approach is for **appendices only**. Defaults include a small blue topic label, an evidence-led headline naturally occupying exactly two readable lines, native editable evidence tables/charts, nearby material qualifiers, clear source attribution and separate evidence navigation. Plus Jakarta Sans with genuine upright SemiBold body and Bold headings is an appendix default where permitted by the actual template.
+
+Garuda's 1920×1080 canvas, sample margins, font sizes and particular navigation pages are reference proportions, not mandatory Nexora layouts. Preserve accepted main-deck branding and protected objects. Avoid importing Garuda company facts, programs, respondents, results or earlier project restrictions.
+
+### 8.5 Artifact and continuity safeguards
+
+Preserve the latest accepted artifact and user manual edits, check actual source versions, record protected content and scope, render changed visuals, verify numerical/source consistency, check export-specific links and record any untested behavior. A text handoff is not the binary deck or workbook. Stable exhibit IDs must be distinguished from changing slide numbers. Internal evidence navigation is separate from external source attribution.
+
+S5 contains extensive templates and worked examples; retain their original qualifications when reusing them. This consolidation does not install a software skill or grant access to prior files/accounts.
+
+
+<a id="pack-video"></a>
+## 9. Study video: chapter map, visual notes and transcription
+
+**Source:** S4, `Nexora_s_2025_Turnaround.mp4`. **Runtime:** 810.678 seconds (13:30.7). **Video:** 1280×720, 24fps. **Audio:** mono AAC, 44.1kHz. The file contains no embedded subtitle stream.
+
+### 9.1 Transcript method and reliability
+
+The audio was extracted at 16kHz mono and transcribed locally with faster-whisper, small English-capable model, int8 CPU inference, beam size five, voice-activity filtering and a prompt containing the case's proper names. The readable transcript retains segment timestamps, spoken sequence, figures, analogies and claims. Obvious proper-name/word recognition errors are normalized through the correction table below; the raw machine-recognition text follows separately so these edits do not erase the original output.
+
+Timestamps identify recognition segments, not verified word-level alignment. The transcript was checked against the case documents and sampled video visuals, not manually audio-verified word by word. It may contain recognition errors, imperfect punctuation or words inferred by the model. It is unsuitable as an exact quotation record without listening to the relevant interval. No missing speech was invented from the written notes. Speaker identities were not established, so no named-speaker attribution is added.
+
+### 9.2 Chapter map from narration
+
+| Approximate start | Topic | Core learning carried into the pack |
+|---|---|---|
+| 00:00 | Introduction and learning objective | Build structural business intuition before proposing features; distinguish facts from guesses |
+| 01:10 | Anatomy of Nexora's marketplace | GMV versus platform revenue; physical transaction and settlement flow |
+| 03:06 | The 2025 profitability paradox | Profit turnaround coexists with weakening participation indicators |
+| 05:35 | Network effects and merchant math | Multi-homing and the disproportionate effect of fees on thin merchant margins |
+| 07:39 | In-house logistics | Average versus marginal cost; density, geography, capex and capacity |
+| 09:10 | Social-commerce threat | Discovery and demand creation before conventional marketplace search |
+| 10:25 | Diagnosing Nexora's future | Test competing hypotheses and cross-functional objectives before solution selection |
+| Final section | Decision questions | Focus on contribution, lost assortment, cohort economics and evidence that can disprove the preferred explanation |
+
+Starts are approximate, anchored to available narration segments. They are not official chapter markers embedded in the file.
+
+### 9.3 Visual study notes
+
+A sampled contact sheet was inspected across the runtime at approximately 30-second intervals. The presentation uses a pale background, bright green/teal concept panels, sketch-style commerce/logistics illustrations and tables. Visuals reinforce rather than independently validate the narration.
+
+| Approximate interval | Visible content / teaching device | Interpretation |
+|---|---|---|
+| 00:00–00:30 | “Nexora's 2025 Turnaround” title, map, parcel and business sketches | Opening framing |
+| 01:00 | “Anatomy of Nexora — Marketplace Mechanics” section card | Definitions before diagnosis |
+| 01:30 | Platform Revenue definition card | Nexora's retained slice from commissions, logistics and service fees differs from GMV |
+| 02:00–02:30 | Discovery → Transaction → Logistics → Settlement | Physical and financial sequence; illustrative simplification |
+| 03:00–03:30 | 2024/2025 GMV, revenue, marketing and profit arrows | Financial turnaround comparison |
+| 04:00–04:30 | Revenue, marketing, other operating costs and profit bridge | Other-cost residual +IDR11tn; does not identify its detailed sources |
+| 05:00 | Share, churn and repeat-buyer warning indicators | Different metrics require different denominators |
+| 05:30–06:00 | Marketplace Multi-Homing concept card | Use of several platforms can precede formal exit |
+| 06:30 | Seller commission range 8%–20%+ | Range is a case input; not the same as realized average take rate |
+| 07:00 | Explicit hypothetical merchant table | Price IDR100k before/after; costs IDR85k before/after; commission IDR10k→12k; profit IDR5k→3k |
+| 07:30–08:00 | Parcel density and courier sketches | Network cost mechanisms |
+| 08:30 | Indonesia, sorting/investment sketches | Geographic/capacity limitations |
+| 09:00–09:30 | Nexora versus Scrolla growth comparison | 7% versus 32%; not by itself causal proof |
+| 10:00 | Product desire / discovery illustration | Content can precede search |
+| 10:30–11:00 | Hypothesis / fit / evidence table | Bad economics → higher fees → margins; bad discovery → Scrolla share → journeys; healthier mix → subsidy cut → cohorts |
+| 11:30–12:00 | Network/ecosystem diagram | Interdependence and system-level economics |
+| 12:30 | Stakeholder Conflicts puzzle illustration | Partial objectives need reconciliation |
+| 13:00 | “Which routes generate the strongest contribution?” | Closing diagnostic question |
+
+The example at 07:00 was inspected at original frame resolution. Other visual observations are sampled, so this is not an exhaustive OCR capture of every transition, icon or frame.
+
+### 9.4 Important distinctions between study narration and official evidence
+
+Preserve the video as the user's learning context, including its emphatic teaching language, without upgrading its claims into case facts:
+
+1. The narration calls Nexora “an anonymized e-commerce case study.” The PDFs do not explicitly confirm this identity status. Treat it as the narrator's framing.
+2. The narration suggests rising revenue with lower marketing commonly signals sustainable product-market fit. Those two metrics alone do not establish product-market fit or sustainability.
+3. Around 04:25–04:50, the narrator attributes the +IDR11tn other-cost increase to moving boxes and emphasizes fee extraction over efficiency. The bridge only identifies a residual including logistics; detailed drivers are unknown. Average delivery cost did improve in the official exhibit.
+4. Around 07:13–07:37, the hypothetical commission rises from 10% to 12% of sales: a **two-percentage-point** increase, or a 20% relative increase in the commission amount. The narration's “2% fee increase” is informal. The merchant profit falls 40% in the example, but this does not prove why actual Nexora sellers churned.
+5. Around 08:23, the video uses IDR10,000 in its warning about additional internal parcels. The official current **blended** average is IDR10,000; the reported internal NexExpress average is IDR8,000. The underlying lesson about marginal cost remains useful.
+6. Around 08:34–09:04, easy urban/Jakarta routes and harder rural expansion are hypothetical explanations. NexExpress's actual route allocation and expansion requirement are not supplied.
+7. Around 09:24–10:07, stronger growth is described as proof of a different engagement mechanism and consumers are portrayed as switching discovery behaviors. Aggregate growth supports investigation, not a uniquely identified causal conclusion or a claim about all consumers.
+8. A statement that participants can keep several apps, or that a seller's active account may hide reduced effort, describes a plausible mechanism. No Nexora-specific app count, inventory shift or advertising reallocation is measured in the case.
+9. Narration about precise commission deduction timing or settlement is a teaching flow; the case does not establish Nexora's detailed payment/settlement mechanics.
+
+Where S4 and S1 disagree, use **S1**, consistent with the user's casebook-precedence decision. Do not silently rewrite the video to make it sound more cautious; keep the narration in its transcript and qualifications here.
+
+### 9.5 Readable timestamped transcript
+
+The following is a machine-generated transcript with conservative recognition corrections, not an edited essay or a summary.
+
+**[00:00–00:04]** All right. Welcome to This Explainer. What if I told you a company could increase its operating
+
+**[00:04–00:11]** profit by a massive 8 trillion rupiah in a single year, but actually be in a significantly worse
+
+**[00:11–00:16]** strategic position? Well, today we're unpacking Nexora. It's an anonymized e-commerce case study,
+
+**[00:16–00:21]** but it perfectly mirrors the real, highly complex dynamics of the Indonesian digital economy.
+
+**[00:21–00:24]** Now, if you're a university business case participant stepping into this scenario,
+
+**[00:24–00:29]** your absolute first instinct is probably going to be to start brainstorming shiny new
+
+**[00:29–00:33]** features or maybe some viral marketing campaigns. But hold on, stop right there.
+
+**[00:33–00:38]** Our goal today is to help you build deep structural business intuition before you even attempt to
+
+**[00:38–00:44]** propose a single solution. We need to separate the hard case facts from just casual guesses.
+
+**[00:44–00:48]** So we're going to look closely at what actually happens under the hood when a marketplace transitions
+
+**[00:48–00:53]** from growth at all costs fueled by heavy subsidies to a sudden investor-driven demand
+
+**[00:53–00:58]** for immediate profitability. To do that, we'll hit six key areas. The anatomy of Nexora's
+
+**[00:58–01:04]** marketplace, the 2025 profitability paradox, network effects and merchant math, unpacking
+
+**[01:04–01:10]** in-house logistics, the social commerce threat, and finally, diagnosing Nexora's future.
+
+**[01:10–01:14]** Let's dive into section one, anatomy of Nexora's marketplace.
+
+**[01:15–01:20]** Before we even touch the financials, we have to establish exactly what Nexora is
+
+**[01:20–01:24]** and how money and goods actually flow through its ecosystem. It sounds super basic, right?
+
+**[01:24–01:29]** But honestly, missing this is where most strategic analysis goes totally off the rails.
+
+**[01:29–01:34]** The foundational distinction you absolutely must grasp is between gross merchandise value,
+
+**[01:34–01:41]** or GMV, and platform revenue. Think of GMV as the total volume of money changing hands
+
+**[01:41–01:45]** at a giant weekend farmer's market. If a customer buys a $100 pair of shoes,
+
+**[01:45–01:50]** well, that $100 is GMV. But platform revenue, that's just the table rental
+
+**[01:50–01:55]** fee the market owner actually collects from the vendor. It's the slice Nexora keeps through
+
+**[01:55–02:00]** things like commissions, logistics charges, and service fees. It is so crucial to remember
+
+**[02:00–02:05]** that rapid GMV growth doesn't automatically mean attractive profitability for the platform itself.
+
+**[02:05–02:09]** You can have a bustling market, but if those table fees don't cover the cost of
+
+**[02:09–02:13]** sweeping the floors and paying the security guards, the market owner goes bankrupt.
+
+**[02:14–02:17]** Let's trace the physical lifecycle of a transaction, because we really need to bridge
+
+**[02:17–02:24]** the gap between digital clicks and real-world logistics. Step one, a buyer discovers a product,
+
+**[02:24–02:28]** typically by typing a keyword into a search bar, which is heavily influenced by platform incentives.
+
+**[02:29–02:34]** Step two, the buyer pays, and at this exact moment, Nexora deducts its commissions,
+
+**[02:34–02:40]** which range from 8% to 20% or more. Step three, the seller physically packs the item,
+
+**[02:40–02:45]** and a courier, maybe Nexora's in-house NexExpress, has to literally navigate traffic
+
+**[02:45–02:50]** to deliver it. Finally, step four, the funds are settled with the seller, and any returns are
+
+**[02:50–02:56]** processed. Grounding these abstract economic concepts in physical reality is just essential.
+
+**[02:56–02:59]** Always remind yourself that behind every single digital transaction on an app,
+
+**[02:59–03:03]** there's a physical cardboard box that has to be collected, sorted in a warehouse,
+
+**[03:03–03:09]** and moved across an incredibly complex archipelago. The 2025 profitability paradox.
+
+**[03:10–03:17]** So driven by changing investor expectations, Nexora executed a massive pivot. They moved away
+
+**[03:17–03:23]** from subsidy-fueled growth straight into aggressive monetization, and taking a moment to digest these
+
+**[03:23–03:29]** results. On paper, this looks like a textbook win for investors. I mean, they drove an incredible
+
+**[03:29–03:35]** 8 trillion rupiah swing in operating profit. They went from a 3 trillion loss to a 5 trillion
+
+**[03:35–03:42]** profit in just one single year. Notice that while GMV grew by a somewhat modest 7.1%,
+
+**[03:42–03:49]** platform revenue surged by 33.3%. And at the exact same time, they successfully slashed
+
+**[03:49–03:54]** marketing expenses by over 14%. Usually, when revenue surges and marketing costs drop,
+
+**[03:54–03:58]** it signals that a business has finally achieved sustainable product market fit.
+
+**[03:58–04:02]** On the surface, the turnaround looks completely locked in and highly successful.
+
+**[04:03–04:07]** But when we reconstruct the income statement just a bit differently,
+
+**[04:07–04:10]** a really interesting and honestly kind of concerning detail pops up.
+
+**[04:11–04:16]** Yes, revenue went up by 15 trillion and marketing went down by 4 trillion,
+
+**[04:16–04:21]** but focus on other operating costs. This line item, which includes heavy operational
+
+**[04:21–04:25]** lifting like logistics, actually increased by 11 trillion rupiah.
+
+**[04:25–04:29]** Think about that for a second. If they slashed their marketing budget,
+
+**[04:29–04:34]** where exactly did that 11 trillion in new costs come from? The physical reality of moving boxes.
+
+**[04:35–04:40]** Nexora became profitable even as their core operational costs skyrocketed. This tells us
+
+**[04:40–04:46]** their new profit cushion is coming heavily from squeezing more revenue out of existing activity,
+
+**[04:46–04:50]** mostly by raising fees and not necessarily from making their core logistics and operations
+
+**[04:50–04:56]** cheaper or more efficient. And this brings us to why we call this whole scenario a paradox.
+
+**[04:56–05:01]** This supposed financial success is sitting right alongside some seriously alarming warning
+
+**[05:01–05:09]** signs in the underlying unit metrics. Market share actually dropped from 50% in 2023 down to 46% in 2025,
+
+**[05:09–05:15]** and here is a critical nuance. That competitive erosion started before the 2025 pivot to
+
+**[05:15–05:21]** profitability. Meanwhile, small seller churn jumped from 7% to 12%, and the repeat buyer
+
+**[05:21–05:27]** rate fell from 62% to 57%. You really have to ask yourself the hard diagnostic question here.
+
+**[05:27–05:32]** Are they genuinely improving the core health of the business, or are they just cashing in on the
+
+**[05:32–05:37]** trust and habits they bought during the expensive subsidy years? Let's get into section three,
+
+**[05:37–05:43]** network effects and merchant math. To understand why those warning signs matter so much,
+
+**[05:43–05:47]** we have to zoom in on the fundamental mechanics of marketplace network effects.
+
+**[05:47–05:52]** And the most important concept here is marketplace multi-homing. In Indonesia, it is
+
+**[05:52–05:56]** incredibly easy for both buyers and sellers to just have five different e-commerce apps installed
+
+**[05:56–06:01]** on their phones. It's basically digital infidelity. A merchant might keep their Nexora profile
+
+**[06:01–06:06]** active, but secretly, they're sending their absolute best inventory, their lowest prices,
+
+**[06:06–06:09]** and their advertising dollars to a newer, flashier app with lower fees.
+
+**[06:10–06:14]** Because participants multi-home so seamlessly, ecosystem erosion happens long,
+
+**[06:15–06:18]** before a seller actually clicks delete account and officially churns.
+
+**[06:18–06:21]** The platform just slowly bleeds its most attractive assortment.
+
+**[06:22–06:26]** Now, over the last year, Nexora has incrementally raised seller commissions,
+
+**[06:26–06:31]** pushing them into the 8% to 20% plus range. To a finance director sitting comfortably in a
+
+**[06:31–06:35]** boardroom, this probably looks like a simple, elegant accounting change to boost the take
+
+**[06:35–06:41]** rate. But in reality, it acts as a direct, live-fire test of the seller's willingness
+
+**[06:41–06:46]** to pay for the platform's demand. How does this abstract percentage change actually feel
+
+**[06:46–06:48]** to a small merchant operating on razor-thin margins?
+
+**[06:49–06:53]** Let's walk through this math deliberately, because it's arguably the most important
+
+**[06:53–06:58]** calculation in this entire explainer. Using this explicitly hypothetical example,
+
+**[06:58–07:03]** let's say a merchant sells a popular product for 100,000 rupiah. Their wholesale product
+
+**[07:03–07:09]** costs and packaging total 85,000. Under the old system, the platform commission was 10,000.
+
+**[07:09–07:12]** So the merchant takes home 5,000 rupiah in profit. Pretty straightforward.
+
+**[07:13–07:17]** Now, Nexora decides to raise their fee by what sounds like a tiny amount,
+
+**[07:17–07:20]** just 2% of the selling price. The fee goes up to 12,000.
+
+**[07:21–07:26]** Look what happens to the merchant's actual take-home pay. It drops from 5,000 down to 3,000.
+
+**[07:27–07:32]** What looks like a tiny, totally reasonable 2% fee increase to the platform,
+
+**[07:32–07:37]** literally just evaporated a staggering 40% of that small seller's livelihood.
+
+**[07:37–07:42]** This math right here, this is why churn is spiking. Unpacking in-house logistics.
+
+**[07:43–07:47]** So let's shift gears and focus on how Nexora is moving these physical parcels,
+
+**[07:47–07:51]** specifically looking at the strategic push toward their in-house logistics service, NexExpress.
+
+**[07:52–07:57]** The case tells us Nexora successfully reduced its average delivery cost to 10,000 rupiah per
+
+**[07:57–08:02]** parcel. Sounds great, right? But as a thoughtful business leader, you must distinguish average
+
+**[08:02–08:08]** cost from marginal cost. Honestly, this is the most common trap for analysts, assuming the 1 millionth
+
+**[08:08–08:13]** parcel will cost the exact same to deliver as the very first parcel. Average cost is simply total
+
+**[08:13–08:19]** cost divided by current parcels. Marginal cost is the specific cost of delivering the very next
+
+**[08:19–08:23]** additional parcel. Every new parcel shifted away from a third-party courier and brought in-house
+
+**[08:23–08:29]** to NexExpress is not going to automatically cost 10,000 rupiah. Why won't it be the same?
+
+**[08:29–08:34]** Because of a bunch of physical variables. Logistics is entirely dependent on density and
+
+**[08:34–08:39]** geography. NexExpress might currently look incredibly efficient, but that's likely because
+
+**[08:39–08:43]** it's only handling the easiest, highest-density urban routes in central Jakarta. But remember,
+
+**[08:43–08:49]** Indonesia is a massive, diverse island archipelago. Pushing additional volume in-house means
+
+**[08:49–08:54]** expanding into harder, way less dense rural routes. Suddenly, handling that next parcel
+
+**[08:54–08:59]** requires expensive new regional sorting facilities, massive capital expenditure,
+
+**[08:59–09:04]** and fleets of new delivery drivers. By forcing more volume into NexExpress just to chase scale,
+
+**[09:04–09:09]** they might actually drive their marginal costs up instead of down, completely ruining the unit
+
+**[09:09–09:15]** economics. The social commerce threat. Meanwhile, the external environment is shifting rapidly
+
+**[09:15–09:20]** beneath Nexora's feet. We need to talk about the rise of social commerce competitors,
+
+**[09:20–09:24]** which threatens the very way traditional marketplaces operate. The contrast is striking.
+
+**[09:24–09:30]** In 2025, right during its great profit pivot, Nexora grew its GMV by a sluggish 7%,
+
+**[09:31–09:36]** but a pure social commerce competitor, Scrolla, they achieved a massive 32% GMV growth in the
+
+**[09:36–09:42]** exact same economic climate. This glaring disparity proves that Scrolla is capturing a completely
+
+**[09:42–09:46]** different type of consumer engagement than Nexora's traditional, intent-based model.
+
+**[09:47–09:52]** Social commerce captures consumer attention and actually creates the desire to buy
+
+**[09:52–09:57]** before the traditional product search even begins. Think about a wildly entertaining livestream,
+
+**[09:57–10:03]** or a creator demonstrating a beauty product on camera. It fundamentally rewires product discovery.
+
+**[10:03–10:07]** Consumers aren't going to Nexora and typing red lipstick into the search bar anymore.
+
+**[10:07–10:12]** They're buying the lipstick spontaneously while watching a video on Scrolla. This means rapid
+
+**[10:12–10:16]** transaction growth can occur in emotional categories like fashion and beauty, completely
+
+**[10:16–10:19]** bypassing Nexora search algorithms and traditional storefronts altogether.
+
+**[10:20–10:24]** Let's bring it all together in section 6, Diagnosing Nexora Future.
+
+**[10:25–10:29]** So we've seen the anatomy, the financials, and the competitive threats.
+
+**[10:29–10:32]** Now we have to synthesize these facts into a rigorous diagnosis.
+
+**[10:33–10:37]** The crucial point here is that we absolutely cannot jump to unsupported conclusions.
+
+**[10:38–10:42]** The fact that higher fees and higher seller churn are occurring at the exact same time,
+
+**[10:42–10:47]** yes, that's a factual case detail. But claiming higher fees caused that churn,
+
+**[10:47–10:53]** that is just a hypothesis. It could be that merchant economics are genuinely unattractive now.
+
+**[10:53–10:56]** Or it could be a massive discovery disadvantage against Scrolla.
+
+**[10:56–11:01]** Or, provocatively, consider this, the churn might actually represent a much healthier
+
+**[11:01–11:05]** business composition. What if the only sellers and buyers leaving are the
+
+**[11:05–11:10]** unprofitable, subsidy hunting opportunists who are just draining Nexora cash anyway?
+
+**[11:10–11:15]** In that scenario, shrinking is actually good. You need to hunt for specific cohort evidence
+
+**[11:15–11:20]** to prove which hypothesis is actually true. As you analyze Nexora, keep these eight
+
+**[11:20–11:26]** essential mental models in your toolkit. Ecosystem surplus reminds us that a platform only
+
+**[11:26–11:30]** survives if it creates excess value for its participants. Unit economics forces us to
+
+**[11:30–11:36]** see if a single transaction is actually profitable. Stocks, flows, and delayed effects
+
+**[11:36–11:40]** teach us that today's financial results are often just coasting on the accumulated trust,
+
+**[11:40–11:46]** the stock, of yesterday's subsidies. We just discussed marginal versus average economics
+
+**[11:46–11:51]** regarding shipping. Incrementality asks, would this sale have happened anyway without the
+
+**[11:51–11:55]** promotion? Attention journeys track where the customer first got the idea to buy.
+
+**[11:55–12:00]** Cash flow versus return on capital evaluates if the logistics investments are actually
+
+**[12:00–12:05]** generating a real return. And finally, system incentives dictate that people will do exactly
+
+**[12:05–12:10]** what they're paid to do. Pay special attention to delayed effects here. Coasting on old habits
+
+**[12:10–12:14]** is like eating your seed corn. It feels great today, but you're going to starve next winter.
+
+**[12:15–12:20]** You also have to consider the messy human element of business, stakeholder conflicts.
+
+**[12:20–12:24]** When you evaluate a strategy, always consider how an operational decision might
+
+**[12:24–12:29]** successfully improve one department's KPIs while silently destroying value elsewhere
+
+**[12:29–12:33]** in the ecosystem. The commercial director might be popping champagne over a fee increase that boosts
+
+**[12:33–12:38]** immediate quarterly revenue, completely ignoring that the seller success director is watching in
+
+**[12:38–12:43]** absolute horror as unique high quality assortment vanishes from the platform entirely.
+
+**[12:43–12:48]** The logistics director wants high utilization, but at what cost to merchant flexibility?
+
+**[12:48–12:53]** It's all connected. So before you propose any brilliant strategic solutions,
+
+**[12:53–12:57]** ask yourself the diagnostic questions a veteran business professor would ask.
+
+**[12:57–13:02]** Dig into the specific data, which cohorts of buyers, which specific product categories,
+
+**[13:02–13:06]** and which literal delivery routes actually generate the strongest contribution margin
+
+**[13:06–13:10]** after all the incentives, returns, and customer support are stripped away.
+
+**[13:10–13:14]** If Nexora is burning the furniture to keep the house warm today,
+
+**[13:14–13:16]** what happens when winter truly arrives next year?
+
+**[13:17–13:19]** Before you pitch a shiny new feature to solve this case,
+
+**[13:19–13:24]** ask yourself, are you treating the underlying disease or are you just masking the symptoms?
+
+**[13:24–13:27]** Thanks for joining this explainer. Catch you next time.
+
+### 9.6 Recognition correction log
+
+These are editorial recognition normalizations, not a claim of word-by-word listening verification. Case proper names were anchored to S1. The raw recognition record immediately below is retained.
+
+| Raw recognition | Readable rendering |
+|---|---|
+| NexSaurus' | Nexora's |
+| NexSaurus | Nexora |
+| next-door profile | Nexora profile |
+| Nex Express | NexExpress |
+| officially turns | officially churns |
+| caching in | cashing in |
+| customer supporters tripped away | customer support are stripped away |
+
+One phrase crosses segments around 06:31–06:41: the raw “take” / “right” is normalized to “take” / “rate” across the two readable segments. Read the pair together. Any remaining awkward wording should be checked against the audio before exact quotation.
+
+### 9.7 Raw machine transcript (unaltered recognition text)
+
+This second rendering preserves the original recognized words, including spelling errors and overstatements. Start/end timestamps are rounded down to seconds for display.
+
+[00:00–00:04] All right. Welcome to This Explainer. What if I told you a company could increase its operating
+
+[00:04–00:11] profit by a massive 8 trillion rupiah in a single year, but actually be in a significantly worse
+
+[00:11–00:16] strategic position? Well, today we're unpacking Nexora. It's an anonymized e-commerce case study,
+
+[00:16–00:21] but it perfectly mirrors the real, highly complex dynamics of the Indonesian digital economy.
+
+[00:21–00:24] Now, if you're a university business case participant stepping into this scenario,
+
+[00:24–00:29] your absolute first instinct is probably going to be to start brainstorming shiny new
+
+[00:29–00:33] features or maybe some viral marketing campaigns. But hold on, stop right there.
+
+[00:33–00:38] Our goal today is to help you build deep structural business intuition before you even attempt to
+
+[00:38–00:44] propose a single solution. We need to separate the hard case facts from just casual guesses.
+
+[00:44–00:48] So we're going to look closely at what actually happens under the hood when a marketplace transitions
+
+[00:48–00:53] from growth at all costs fueled by heavy subsidies to a sudden investor-driven demand
+
+[00:53–00:58] for immediate profitability. To do that, we'll hit six key areas. The anatomy of Nexora's
+
+[00:58–01:04] marketplace, the 2025 profitability paradox, network effects and merchant math, unpacking
+
+[01:04–01:10] in-house logistics, the social commerce threat, and finally, diagnosing Nexora's future.
+
+[01:10–01:14] Let's dive into section one, anatomy of Nexora's marketplace.
+
+[01:15–01:20] Before we even touch the financials, we have to establish exactly what Nexora is
+
+[01:20–01:24] and how money and goods actually flow through its ecosystem. It sounds super basic, right?
+
+[01:24–01:29] But honestly, missing this is where most strategic analysis goes totally off the rails.
+
+[01:29–01:34] The foundational distinction you absolutely must grasp is between gross merchandise value,
+
+[01:34–01:41] or GMV, and platform revenue. Think of GMV as the total volume of money changing hands
+
+[01:41–01:45] at a giant weekend farmer's market. If a customer buys a $100 pair of shoes,
+
+[01:45–01:50] well, that $100 is GMV. But platform revenue, that's just the table rental
+
+[01:50–01:55] fee the market owner actually collects from the vendor. It's the slice Nexora keeps through
+
+[01:55–02:00] things like commissions, logistics charges, and service fees. It is so crucial to remember
+
+[02:00–02:05] that rapid GMV growth doesn't automatically mean attractive profitability for the platform itself.
+
+[02:05–02:09] You can have a bustling market, but if those table fees don't cover the cost of
+
+[02:09–02:13] sweeping the floors and paying the security guards, the market owner goes bankrupt.
+
+[02:14–02:17] Let's trace the physical lifecycle of a transaction, because we really need to bridge
+
+[02:17–02:24] the gap between digital clicks and real-world logistics. Step one, a buyer discovers a product,
+
+[02:24–02:28] typically by typing a keyword into a search bar, which is heavily influenced by platform incentives.
+
+[02:29–02:34] Step two, the buyer pays, and at this exact moment, Nexora deducts its commissions,
+
+[02:34–02:40] which range from 8% to 20% or more. Step three, the seller physically packs the item,
+
+[02:40–02:45] and a courier, maybe Nexora's in-house Nex Express, has to literally navigate traffic
+
+[02:45–02:50] to deliver it. Finally, step four, the funds are settled with the seller, and any returns are
+
+[02:50–02:56] processed. Grounding these abstract economic concepts in physical reality is just essential.
+
+[02:56–02:59] Always remind yourself that behind every single digital transaction on an app,
+
+[02:59–03:03] there's a physical cardboard box that has to be collected, sorted in a warehouse,
+
+[03:03–03:09] and moved across an incredibly complex archipelago. The 2025 profitability paradox.
+
+[03:10–03:17] So driven by changing investor expectations, Nexora executed a massive pivot. They moved away
+
+[03:17–03:23] from subsidy-fueled growth straight into aggressive monetization, and taking a moment to digest these
+
+[03:23–03:29] results. On paper, this looks like a textbook win for investors. I mean, they drove an incredible
+
+[03:29–03:35] 8 trillion rupiah swing in operating profit. They went from a 3 trillion loss to a 5 trillion
+
+[03:35–03:42] profit in just one single year. Notice that while GMV grew by a somewhat modest 7.1%,
+
+[03:42–03:49] platform revenue surged by 33.3%. And at the exact same time, they successfully slashed
+
+[03:49–03:54] marketing expenses by over 14%. Usually, when revenue surges and marketing costs drop,
+
+[03:54–03:58] it signals that a business has finally achieved sustainable product market fit.
+
+[03:58–04:02] On the surface, the turnaround looks completely locked in and highly successful.
+
+[04:03–04:07] But when we reconstruct the income statement just a bit differently,
+
+[04:07–04:10] a really interesting and honestly kind of concerning detail pops up.
+
+[04:11–04:16] Yes, revenue went up by 15 trillion and marketing went down by 4 trillion,
+
+[04:16–04:21] but focus on other operating costs. This line item, which includes heavy operational
+
+[04:21–04:25] lifting like logistics, actually increased by 11 trillion rupiah.
+
+[04:25–04:29] Think about that for a second. If they slashed their marketing budget,
+
+[04:29–04:34] where exactly did that 11 trillion in new costs come from? The physical reality of moving boxes.
+
+[04:35–04:40] Nexora became profitable even as their core operational costs skyrocketed. This tells us
+
+[04:40–04:46] their new profit cushion is coming heavily from squeezing more revenue out of existing activity,
+
+[04:46–04:50] mostly by raising fees and not necessarily from making their core logistics and operations
+
+[04:50–04:56] cheaper or more efficient. And this brings us to why we call this whole scenario a paradox.
+
+[04:56–05:01] This supposed financial success is sitting right alongside some seriously alarming warning
+
+[05:01–05:09] signs in the underlying unit metrics. Market share actually dropped from 50% in 2023 down to 46% in 2025,
+
+[05:09–05:15] and here is a critical nuance. That competitive erosion started before the 2025 pivot to
+
+[05:15–05:21] profitability. Meanwhile, small seller churn jumped from 7% to 12%, and the repeat buyer
+
+[05:21–05:27] rate fell from 62% to 57%. You really have to ask yourself the hard diagnostic question here.
+
+[05:27–05:32] Are they genuinely improving the core health of the business, or are they just caching in on the
+
+[05:32–05:37] trust and habits they bought during the expensive subsidy years? Let's get into section three,
+
+[05:37–05:43] network effects and merchant math. To understand why those warning signs matter so much,
+
+[05:43–05:47] we have to zoom in on the fundamental mechanics of marketplace network effects.
+
+[05:47–05:52] And the most important concept here is marketplace multi-homing. In Indonesia, it is
+
+[05:52–05:56] incredibly easy for both buyers and sellers to just have five different e-commerce apps installed
+
+[05:56–06:01] on their phones. It's basically digital infidelity. A merchant might keep their next-door profile
+
+[06:01–06:06] active, but secretly, they're sending their absolute best inventory, their lowest prices,
+
+[06:06–06:09] and their advertising dollars to a newer, flashier app with lower fees.
+
+[06:10–06:14] Because participants multi-home so seamlessly, ecosystem erosion happens long,
+
+[06:15–06:18] before a seller actually clicks delete account and officially turns.
+
+[06:18–06:21] The platform just slowly bleeds its most attractive assortment.
+
+[06:22–06:26] Now, over the last year, Nexora has incrementally raised seller commissions,
+
+[06:26–06:31] pushing them into the 8% to 20% plus range. To a finance director sitting comfortably in a
+
+[06:31–06:35] boardroom, this probably looks like a simple, elegant accounting change to boost the take
+
+[06:35–06:41] right. But in reality, it acts as a direct, live-fire test of the seller's willingness
+
+[06:41–06:46] to pay for the platform's demand. How does this abstract percentage change actually feel
+
+[06:46–06:48] to a small merchant operating on razor-thin margins?
+
+[06:49–06:53] Let's walk through this math deliberately, because it's arguably the most important
+
+[06:53–06:58] calculation in this entire explainer. Using this explicitly hypothetical example,
+
+[06:58–07:03] let's say a merchant sells a popular product for 100,000 rupiah. Their wholesale product
+
+[07:03–07:09] costs and packaging total 85,000. Under the old system, the platform commission was 10,000.
+
+[07:09–07:12] So the merchant takes home 5,000 rupiah in profit. Pretty straightforward.
+
+[07:13–07:17] Now, Nexora decides to raise their fee by what sounds like a tiny amount,
+
+[07:17–07:20] just 2% of the selling price. The fee goes up to 12,000.
+
+[07:21–07:26] Look what happens to the merchant's actual take-home pay. It drops from 5,000 down to 3,000.
+
+[07:27–07:32] What looks like a tiny, totally reasonable 2% fee increase to the platform,
+
+[07:32–07:37] literally just evaporated a staggering 40% of that small seller's livelihood.
+
+[07:37–07:42] This math right here, this is why churn is spiking. Unpacking in-house logistics.
+
+[07:43–07:47] So let's shift gears and focus on how Nexora is moving these physical parcels,
+
+[07:47–07:51] specifically looking at the strategic push toward their in-house logistics service, NexExpress.
+
+[07:52–07:57] The case tells us Nexora successfully reduced its average delivery cost to 10,000 rupiah per
+
+[07:57–08:02] parcel. Sounds great, right? But as a thoughtful business leader, you must distinguish average
+
+[08:02–08:08] cost from marginal cost. Honestly, this is the most common trap for analysts, assuming the 1 millionth
+
+[08:08–08:13] parcel will cost the exact same to deliver as the very first parcel. Average cost is simply total
+
+[08:13–08:19] cost divided by current parcels. Marginal cost is the specific cost of delivering the very next
+
+[08:19–08:23] additional parcel. Every new parcel shifted away from a third-party courier and brought in-house
+
+[08:23–08:29] to NexExpress is not going to automatically cost 10,000 rupiah. Why won't it be the same?
+
+[08:29–08:34] Because of a bunch of physical variables. Logistics is entirely dependent on density and
+
+[08:34–08:39] geography. NexExpress might currently look incredibly efficient, but that's likely because
+
+[08:39–08:43] it's only handling the easiest, highest-density urban routes in central Jakarta. But remember,
+
+[08:43–08:49] Indonesia is a massive, diverse island archipelago. Pushing additional volume in-house means
+
+[08:49–08:54] expanding into harder, way less dense rural routes. Suddenly, handling that next parcel
+
+[08:54–08:59] requires expensive new regional sorting facilities, massive capital expenditure,
+
+[08:59–09:04] and fleets of new delivery drivers. By forcing more volume into NexExpress just to chase scale,
+
+[09:04–09:09] they might actually drive their marginal costs up instead of down, completely ruining the unit
+
+[09:09–09:15] economics. The social commerce threat. Meanwhile, the external environment is shifting rapidly
+
+[09:15–09:20] beneath NexSaurus feed. We need to talk about the rise of social commerce competitors,
+
+[09:20–09:24] which threatens the very way traditional marketplaces operate. The contrast is striking.
+
+[09:24–09:30] In 2025, right during its great profit pivot, NexSaurus grew its GMV by a sluggish 7%,
+
+[09:31–09:36] but a pure social commerce competitor, Scrolla, they achieved a massive 32% GMV growth in the
+
+[09:36–09:42] exact same economic climate. This glaring disparity proves that Scrolla is capturing a completely
+
+[09:42–09:46] different type of consumer engagement than NexSaurus' traditional, intent-based model.
+
+[09:47–09:52] Social commerce captures consumer attention and actually creates the desire to buy
+
+[09:52–09:57] before the traditional product search even begins. Think about a wildly entertaining livestream,
+
+[09:57–10:03] or a creator demonstrating a beauty product on camera. It fundamentally rewires product discovery.
+
+[10:03–10:07] Consumers aren't going to NexSaurus and typing red lipstick into the search bar anymore.
+
+[10:07–10:12] They're buying the lipstick spontaneously while watching a video on Scrolla. This means rapid
+
+[10:12–10:16] transaction growth can occur in emotional categories like fashion and beauty, completely
+
+[10:16–10:19] bypassing NexSaurus search algorithms and traditional storefronts altogether.
+
+[10:20–10:24] Let's bring it all together in section 6, Diagnosing NexSaurus Future.
+
+[10:25–10:29] So we've seen the anatomy, the financials, and the competitive threats.
+
+[10:29–10:32] Now we have to synthesize these facts into a rigorous diagnosis.
+
+[10:33–10:37] The crucial point here is that we absolutely cannot jump to unsupported conclusions.
+
+[10:38–10:42] The fact that higher fees and higher seller churn are occurring at the exact same time,
+
+[10:42–10:47] yes, that's a factual case detail. But claiming higher fees caused that churn,
+
+[10:47–10:53] that is just a hypothesis. It could be that merchant economics are genuinely unattractive now.
+
+[10:53–10:56] Or it could be a massive discovery disadvantage against Scrolla.
+
+[10:56–11:01] Or, provocatively, consider this, the churn might actually represent a much healthier
+
+[11:01–11:05] business composition. What if the only sellers and buyers leaving are the
+
+[11:05–11:10] unprofitable, subsidy hunting opportunists who are just draining NexSaurus cash anyway?
+
+[11:10–11:15] In that scenario, shrinking is actually good. You need to hunt for specific cohort evidence
+
+[11:15–11:20] to prove which hypothesis is actually true. As you analyze NexSaurus, keep these eight
+
+[11:20–11:26] essential mental models in your toolkit. Ecosystem surplus reminds us that a platform only
+
+[11:26–11:30] survives if it creates excess value for its participants. Unit economics forces us to
+
+[11:30–11:36] see if a single transaction is actually profitable. Stocks, flows, and delayed effects
+
+[11:36–11:40] teach us that today's financial results are often just coasting on the accumulated trust,
+
+[11:40–11:46] the stock, of yesterday's subsidies. We just discussed marginal versus average economics
+
+[11:46–11:51] regarding shipping. Incrementality asks, would this sale have happened anyway without the
+
+[11:51–11:55] promotion? Attention journeys track where the customer first got the idea to buy.
+
+[11:55–12:00] Cash flow versus return on capital evaluates if the logistics investments are actually
+
+[12:00–12:05] generating a real return. And finally, system incentives dictate that people will do exactly
+
+[12:05–12:10] what they're paid to do. Pay special attention to delayed effects here. Coasting on old habits
+
+[12:10–12:14] is like eating your seed corn. It feels great today, but you're going to starve next winter.
+
+[12:15–12:20] You also have to consider the messy human element of business, stakeholder conflicts.
+
+[12:20–12:24] When you evaluate a strategy, always consider how an operational decision might
+
+[12:24–12:29] successfully improve one department's KPIs while silently destroying value elsewhere
+
+[12:29–12:33] in the ecosystem. The commercial director might be popping champagne over a fee increase that boosts
+
+[12:33–12:38] immediate quarterly revenue, completely ignoring that the seller success director is watching in
+
+[12:38–12:43] absolute horror as unique high quality assortment vanishes from the platform entirely.
+
+[12:43–12:48] The logistics director wants high utilization, but at what cost to merchant flexibility?
+
+[12:48–12:53] It's all connected. So before you propose any brilliant strategic solutions,
+
+[12:53–12:57] ask yourself the diagnostic questions a veteran business professor would ask.
+
+[12:57–13:02] Dig into the specific data, which cohorts of buyers, which specific product categories,
+
+[13:02–13:06] and which literal delivery routes actually generate the strongest contribution margin
+
+[13:06–13:10] after all the incentives, returns, and customer supporters tripped away.
+
+[13:10–13:14] If Nexora is burning the furniture to keep the house warm today,
+
+[13:14–13:16] what happens when winter truly arrives next year?
+
+[13:17–13:19] Before you pitch a shiny new feature to solve this case,
+
+[13:19–13:24] ask yourself, are you treating the underlying disease or are you just masking the symptoms?
+
+[13:24–13:27] Thanks for joining this explainer. Catch you next time.
+
+### 9.8 Transcript coverage and checks
+
+- 164 recognized segments, first start 0.00s, last end 807.28s, media duration 810.678s.
+- Voice-activity-filtered duration reported by the recognizer: 807.376s. This is a model segmentation measure, not a guarantee that every spoken word was recognized.
+- Closing recognition includes “Thanks for joining this explainer. Catch you next time.” There is no recognized speech after 13:27; trailing media time is not a missing paragraph.
+- Transcript checked for chronological segment order and coverage through the closing narration. No gaps were filled from source documents.
+- Some segment endpoints can be consecutive while clauses continue; paragraphing follows recognition segments rather than editorial topics.
+
+
+
+<a id="archive-casebook"></a>
+## 10. Full S1 page-text archive — Casebook Preliminary IBSC 2026_compressed.pdf
+
+This archive contains the deduplicated extracted text of every PDF page. It is source text, not a rewritten essay. Overlapping duplicate glyphs have been removed; some decorative lettering and interleaved table lines remain. For tables, quotes and timeline pairings, consult the normalized versions above. Page labels refer to physical PDF pages.
+
+<!-- BEGIN S1 EXTRACTED PAGE TEXT -->
+
+
+
+### S1 — PDF page 1
+
+preliminary round casebook
+IInntteerrnnaattiioonnaall BBuussiinneessss SSoolluuttiioonn
+CCoommppeettiittiioonn 22002266
+
+### S1 — PDF page 2
+
+Table of Contents
+3
+C a s e M at e r i a l s
+1.Background 4
+2.Current Operational Status 5
+3.Data Performance
+10
+4.Problem Statement
+11
+5.Constraint
+12
+P r e l i m i n a r y I n f o r m at i o n 1 3
+1.Rules and Requirements 14
+2.Judging Criteria 15
+1 6
+C o n ta c t U s
+G l o s s a r y 1 8
+2
+International Business Solution Competition 2026
+
+### S1 — PDF page 3
+
+C A S E
+M A T E R I A L S
+
+### S1 — PDF page 4
+
+Backgrounds
+Nexora is one of the largest e-commerce marketplaces in Southeast Asia, with Indonesia as its largest market. Its open platform allows
+anyone to buy and sell: buyers come from the general public, while sellers range from newly established micro, small, and medium
+enterprises (MSMEs) to established brands. Given Indonesia's strategic importance to Nexora's regional operations, the Indonesian e-
+commerce market serves as the primary focus of this case.
+Behind every order sits a logistics network. Nexora operates NexExpress, its own delivery service, which collects parcels from sellers and
+delivers them to buyers. Alongside seller commissions and service fees, logistics is part of how Nexora earns revenue and shapes the
+customer experience.
+For years, Nexora fueled its growth through heavy subsidies. Constant discount vouchers, free-shipping promotions, and flash sales kept
+buyers engaged and sellers active, with the company absorbing the cost. Most of these deliveries were handled by third-party couriers.
+While the market rewarded rapid user acquisition and Gross Merchandise Value (GMV) growth, this capital-intensive approach was
+widely accepted.
+From 2025, that environment has changed. Investors no longer look only at growth; they expect a clear path to sustainable profitability.
+E-commerce platforms face increasing pressure to balance growth with profitability and operational efficiency. In response, Nexora has
+gradually raised seller commission fees, scaled back general promotions, and moved a larger share of deliveries to NexExpress.
+This transition is not easy, as Nexora competes with several strong players. Scrolla offers content-driven social commerce, while Avori and
+Borong.id remain established rivals in the Indonesian e-commerce market. Consumers are highly price-sensitive, and logistics costs
+continue to rise. Nexora must therefore pursue sustainable profitability while maintaining its competitive position and preventing sellers
+and buyers from switching to competing platforms.
+Geographical Scope: Unless explicitly stated otherwise, all company performance indicators, competitor comparisons, market growth figures, and market
+shares presented in this case refer to the Indonesian e-commerce marketplace market for the specified reporting periods. Nexora's broader Southeast
+Asian operations provide strategic context, but Indonesia is the primary market for analysis. All monetary figures are expressed in Indonesian Rupiah
+(IDR).
+International Business Solution Competition 2026 4
+
+### S1 — PDF page 5
+
+Current Operational Status
+Nexora has achieved profitability, but the operational changes required to attain it have placed added pressure on both
+sellers and buyers.
+Competitive Landscape
+Transition to Profitability Competitive Landscape
+Seller commissions have increased incrementally to Scrolla effectively integrates social entertainment with
+approximately 8%–20%+, varying by product category, direct e-commerce purchasing
+supplemented by additional service fees Borong.id serves as a viable alternative for users seeking
+Fulfillment is increasingly routed through NexExpress, lower fee structures
+reducing average delivery costs per package
+Platform-wide discount vouchers and general
+promotional subsidies have been scaled back
+Stakeholder Pressures Core Business Objectives
+Higher commission fees disproportionately impact Sustain long-term operational profitability and margin
+smaller, lower-margin merchants growth
+Price-sensitive consumers experience reduced access to Maintain market leadership as Southeast Asia's primary
+platform-wide shipping and purchase subsidies e-commerce platform
+Industry-wide logistics costs continue an upward trend Ensure high service quality, reliability, and delivery speed
+across logistics network
+International Business Solution Competition 2026 5
+
+### S1 — PDF page 6
+
+Initial Feedback
+The market has accepted our earlier Every parcel we move in-house costs
+increase. Another step is the fastest less than a third-party courier. Owning
+way to keep profit growing. delivery is our long-term advantage.
+-Commercial Director -Logistics Director
+Whichever option we choose needs
+Small sellers are leaving first. If we lose
+data and automation behind it. We
+them, we lose the variety that brings
+cannot run it by hand at this scale.
+buyers here.
+-Seller Success Director -Technology Director
+International Business Solution Competition 2026 6
+
+### S1 — PDF page 7
+
+Operational Matrix
+Key Performance Indicator 2024 2025
+Gross Merchandise Value (GMV) IDR 560 trillion IDR 600 trillion
+Platform Revenue IDR 45 trillion IDR 60 trillion
+Take Rate (Revenue / GMV) 8% 10%
+Marketing Expense IDR 28 trillion IDR 24 trillion
+IDR 10,000
+Delivery Cost per Parcel IDR 12,000
+Operating Profit (Loss) (IDR 3 trillion loss) IDR 5 trillion profit
+Annual Small Seller Churn Rate 7% 12%
+International Business Solution Competition 2026 7
+
+### S1 — PDF page 8
+
+Competitor and Market Share Performance
+Competitor comparison, 2025
+Indicator Nexora Scrolla Avori Borong.id
+GMV IDR 600 trillion IDR 330 trillion IDR 180 trillion IDR 90 trillion
+GMV growth from
+7% 32% 3% 6%
+2024
+Take rate 10% 6% 8% 7%
+Yes, with
+General free No, targeted
+Yes Limited minimum
+shipping incentives only
+spend
+Delivery cost per
+IDR 10,000 IDR 12,500 IDR 11,000 IDR 11,500
+parcel
+8
+International Business Solution Competition 2026
+
+### S1 — PDF page 9
+
+Competitor and Market Share Performance
+Indonesian e-commerce market growth and value share
+Value 2023 2024 2025
+Market growth 9% 14% 11%
+Nexora value share 50% 48% 46%
+Scrolla value share 14% 21% 25%
+Avori value share 20% 15% 14%
+Borong.id value share 8% 7% 7%
+Other players 8% 9% 8%
+* Value share is each platform's GMV as a share of the total market GMV for the 12-month period.
+International Business Solution Competition 2026 9
+
+### S1 — PDF page 10
+
+Seller Performance & Operational
+Perfomance by Seller Segment 2025 Additional Operating Data
+Seller GMV Revenue Annual
+Additional Operating Data Value
+segment (IDR Tn) (IDR Tn) churn
+Annual parcels delivered (2025) 2 billion parcels
+Small sellers
+200 20 12%
+(MSME)
+Parcels handled by NexExpress
+50%
+(2025)
+Mid-size
+220 22 5%
+Average cost per NexExpress parcel IDR 8,000
+sellers
+Average cost per third-party
+IDR 12,000
+Other courier parcel
+180 18 2%
+Segments
+Small sellers active at the beginning
+1.2 million
+of 2025
+Total 600 60 Repeat-buyer rate
+→
+62% 57%
+→
+(2024 2025)
+International Business Solution Competition 2026 10
+
+### S1 — PDF page 11
+
+Problem Statement
+C o r e Q u e s t i o n
+How can Nexora achieve sustainable profitable
+growth while strengthening its competitive
+position and mitigating seller and buyer attrition
+in Indonesia's increasingly competitive e-commerce
+market?
+Participants are required to:
+Identify and prioritize Nexora's fundamental business challenges based on the case data.
+Develop a differentiated strategic recommendation that addresses the identified root causes.
+Position digital innovation as a core enabler of the proposed strategy.
+Evaluate the expected business impact, financial implications, and operational feasibility of the
+recommendation.
+Support their analysis with credible external evidence, transparent assumptions, and rigorous business
+reasoning.
+International Business Solution Competition 2026 11
+
+### S1 — PDF page 12
+
+Constraint
+Participants must address the following key
+constraints:
+Profit growth must remain positive and sustainable
+Digital technology and innovation must form the core driver of the strategy
+Additional assumptions must be realistic, clearly articulated, and consistent with case facts
+External references beyond provided case materials are permitted
+International Business Solution Competition 2026 12
+
+### S1 — PDF page 13
+
+PP RR EE LL II MM II NN AA RR YY
+II NN FF OO RR MM AA TT II OO NN
+
+### S1 — PDF page 14
+
+Rules and Submission Requirements
+Parameter Specification Submission
+Paper Size A4 Submit Executive Summary
+and Statement of Originality
+Font Times New Roman, 12 pt
+through official IBSC 2026
+Google Form no longer than
+Line Spacing Single
+1 November 2026, 11:59 PM
+(GMT+7)
+Paragraph Alignment Justified
+https://bit.ly/Preliminary-
+Margin 2.54 cm (Top, Left, Bottom, Right)
+SubmissionIBSC2026
+3 pages, excluding Cover, References and
+Maximum Length
+Appendix
+Late Submission Penalty
+Reference Syle APA Style Participants are granted a 5-minute grace
+period after the official submission
+IBSC Logo Must be included in the document deadline. After the grace period, a penalty
+of 1 point per minute of delay will be
+File Format PDF applied to the submission score.
+Submissions received more than 3 hours
+after the official deadline will not be
+File Name Preliminary_Team Name_IBSC2026
+accepted and will be disqualified from
+evaluation.
+Maximum File Size 30 MB
+International Business Solution Competition 2026 14
+
+### S1 — PDF page 15
+
+Judging Criteria
+Problem Analysis Impact and Feasibility
+Impact and Feasibility
+Evaluates the participant’s solution based on their impact
+Evaluates the participant’s ability to systematically
+on users and the business supported by arguments that
+break down complex business problems into
+2 0 % 3 0 %
+are strong, realistic, measurable, and relevant to the
+logically structured and relevant sub-components,
+case, as well as their feasibility for implementation,
+to uncover their fundamental root causes, and their
+accompanied by a convincing explanation regarding the
+level of impact and urgency.
+feasibility under real constraints.
+Strategic Solution Essay Structure
+Strategic Solution
+Evaluates the participant's ability to propose Alignment of the essay with the structure and
+innovative, differentiated solutions that moves specifications required by the guidebook, as well 5 %
+Evaluates the participant's ability to propose 3in0nov%ative,
+beyond generic standard approaches and logically as the neatness of the work.
+differentiated solutions that moves beyond generic standard
+aligns with the identified root causes.
+approaches and logically aligns with the identified root causes.
+Quality of Data & Evidence Finality of judging decisions
+Evaluates the participants’s use of data and its All judging decisions and scores are final and binding. Participants
+1 5 %
+relevance with everything they have included, as may not dispute, appeal, or request a reassessment of the judges'
+well as arguments regarding their objectivity. decisions. The judges' evaluations shall be conducted in accordance
+with the established judging criteria.
+International Business Solution Competition 2026 15
+
+### S1 — PDF page 16
+
+C O N T A C T U S
+081314360550 (Shakeela)
+087808670093 (Alya)
+
+### S1 — PDF page 17
+
+G L O S S A R Y
+
+### S1 — PDF page 18
+
+Glossary
+Term Definition / Explanation
+MSMEs Micro, Small, and Medium Enterprises
+The total dollar value of merchandise sold through the platform over a given
+GMV (Gross Merchandise
+timeframe, calculated prior to deductions for fees, returns, or discounts. GMV does
+Value)
+not represent platform revenue.
+The percentage of total transaction volume retained by the platform as revenue,
+Take rate
+primarily derived from commission fees and service charges.
+Earnings Before Interest, Taxes, Depreciation, and Amortization; a measure of core
+EBITDA
+operational profitability.
+The percentage rate at which users or merchants discontinue using the platform
+Churn rate (seller churn)
+service within a specified period.
+The final step of the supply chain delivering goods from a transportation hub to the
+Last-mile delivery
+final end-user destination, often representing the most complex and costly phase of
+logistics.
+International Business Solution Competition 2026 18
+
+<!-- END S1 EXTRACTED PAGE TEXT -->
+
+
+
+<a id="archive-guidebook"></a>
+## 11. Full S2 page-text archive — Guidebook IBSC 2026.pdf
+
+This archive contains the deduplicated extracted text of every PDF page. It is source text, not a rewritten essay. Overlapping duplicate glyphs have been removed; some decorative lettering and interleaved table lines remain. For tables, quotes and timeline pairings, consult the normalized versions above. Page labels refer to physical PDF pages.
+
+<!-- BEGIN S2 EXTRACTED PAGE TEXT -->
+
+
+
+### S2 — PDF page 1
+
+Participant’s Guidebook
+Business Administration
+Faculty of Social and Political Science
+Universitas Padjadjaran
+
+### S2 — PDF page 2
+
+03 Get to Know IBSC
+04 Grand Theme
+05 Objectives
+06 Timeline
+07 Terms & Requirements
+09 Registration Flow
+11 Preliminary Round
+14 Semifinal Round
+16 Contact Person
+17 Official Communication Channels
+02
+
+### S2 — PDF page 3
+
+The International Business Solution Competition
+or IBSC is the largest annual HIMABIS UNPAD
+event. This event was carried out as a step of
+HIMABIS UNPAD in achieving its vision. In
+practice, IBSC will bring together students from
+all over Southeast Asia with business partners.
+Through solving business cases that focus on
+strategic issues facing the company, participants
+can practice analytical, collaborative, and
+decision-making skills, which are facilitated by
+company leaders and/or entrepreneurs from
+various institutions.
+03
+
+### S2 — PDF page 4
+
+“Redef ining Business Possibilities
+Through Digital Transformation:
+Think Beyond. Transform Business”
+IBSC 2026’s vision is to encourage young talents
+to move beyond conventional approaches in
+addressing real-world business challenges by
+exploring how digital transformation can create
+new business possibilities. The theme emphasizes
+that digital transformation is not merely about
+adopting technology, but about leveraging digital
+opportunities and innovative thinking to rethink
+business models, processes, and customer value.
+Through “Think Beyond,” participants are
+encouraged to challenge existing assumptions,
+identify emerging opportunities, and develop
+broader perspectives, while “Transform Business”
+highlights their ability to translate these
+perspectives into innovative, feasible, and
+actionable strategies that create sustainable
+value for businesses and society.
+04
+
+### S2 — PDF page 5
+
+1 . D e l i v e r T r a n s f o r m at i v e C o m p e t i t i o n E x p e r i e n c e
+Deliver a business case competition experience that substantively challenges
+participants to develop innovative, forward-thinking business solutions
+grounded in digital transformation.
+2 . D e v e l o p F u t u r e - R e a d y B u s i n e s s P r o b l e m S o lv e r s
+Cultivate participants’ strategic thinking, problem-solving, and digital
+innovation capabilities through exposure to complex, real-world business
+challenges.
+3 . E s ta b l i s h I n t e r n at i o n a l R e c o g n i t i o n & C r e d i b i l i t y
+Establish IBSC 2026 as a widely recognized and trusted international business
+case competition through consistent quality, strategic positioning, and
+meaningful industry engagement.
+4 . B u i l d S t r at e g i c Pa r t n e r s h i p s & P r o f e s s i o n a l
+E n g a g e m e n t
+Build strategic partnerships with industry and media stakeholders while
+ensuring every external touchpoint reflects a professional, credible, and
+consistent standard.
+0115
+
+### S2 — PDF page 6
+
+Preliminary Round Case Distribution
+Open Registration
+25 Oct
+8 Oct - 23 Oct
+Semifinalists Announcement Preliminary Round Case Submission
+1 Nov
+6 Nov
+Semifinal Round Case Distribution
+Mentoring Session
+8 Nov
+8 Nov
+Finalists Announcement Semifinal Round Case Submission
+21 Nov 16 Nov
+Mentoring Session Technical Meeting
+22 Nov 26 Nov
+Grand Final Day
+28 Nov
+06
+
+### S2 — PDF page 7
+
+PA R T I C I PA N T E L I G I B I L I T Y
+Participants must be active Diploma (D3/D4) or Undergraduate (S1)
+students worldwide, as evidenced by a valid Student Identification
+Card (KTM).
+Each team shall consist of three (3) to four (4) members, including
+one designated Team Leader.
+Participants may form teams across different universities, faculties,
+majors, and academic years.
+Each participant may only be registered in one team.
+All participants must complete the registration form and fulfill all
+requirements stated on the official Instagram account.
+All information provided during registration must be accurate. Any
+error or falsification of data may result in disqualification.
+t e a m r e g u l at i o n s
+Each team is permitted to submit only one work.
+Each team must appoint one member as Team Leader, who will
+serve as the primary point of contact with the committee.
+The registered team members cannot be replaced under any
+circumstances.
+All participants must be properly registered to participate in the
+competition.
+Any unauthorized changes to team composition or submitted files
+are not permitted.
+Teams that qualify for the final round must attend the Technical
+Meeting.
+Any changes to the schedule or regulations will be announced at
+the Technical Meeting and communicated through the Team
+Leader's email, official Instagram account, and WhatsApp
+Community.
+07
+
+### S2 — PDF page 8
+
+A C A D E M I C I N T E G R I T Y
+All submitted works must be original and unpublished, and must not
+be currently entered in or previously submitted to any other
+competition.
+Each team must complete and submit the Statement of Originality IBSC
+2026 form, declaring that the submitted work is the team's original
+work and has not been plagiarized.
+https://bit.ly/StatementOfOriginalityIBSC2026
+The competition does not tolerate plagiarism in any form. All
+quotations and supporting data must include clear references.
+Any work proven to be plagiarized will be disqualified without prior
+notice.
+Submissions must not contain SARA elements (ethnicity, religion, race,
+and intergroup relations), pornography, or any content that violates
+the law.
+S U B M I S S I O N a n d C O M P E T I T I O N R U L E S
+Solutions must be submitted in accordance with the format and writing
+guidelines provided by the committee.
+All competition documents, including the Executive Summary, Proposal,
+Pitch Deck, and all presentations, must be written in English.
+The preliminary and semifinal rounds will be held online, while the final
+round is expected to be held offline in the Bandung area.
+Violations of the established rules and formats, as well as late
+submission of files, may result in point deductions or disqualification.
+The winners will be announced on the IBSC’s official Instagram account.
+The decisions of the judges are absolute, final, and cannot be contested
+under any circumstances.
+08
+
+### S2 — PDF page 9
+
+E l i g i b i l i t y
+The competition is open to active Diploma (D3/D4) and
+Undergraduate (S1) students.
+Each team must consist of 3–4 members, who may come from the
+same or different universities.
+Each team must appoint one Team Leader.
+R e g i s t r at i o n P e r i o d
+Registration is open from 8 October 2026 to 23 October 2026.
+Registration can be completed through the following link:
+https://bit.ly/FormRegistrationIBSC2026
+Registration only needs to be completed by the designated Team
+Leader on behalf of the team.
+09
+
+### S2 — PDF page 10
+
+R e q u i r e d D o c u m e n t s
+Each team member must prepare:
+A valid Student Identification Card (KTM) as proof of active student
+status.
+Screenshot of the required Instagram posts:
+https://bit.ly/IBSC2026TwibbonAndPoster
+Official IBSC 2026 Twibbon uploaded to Instagram Feed.
+IBSC 2026 Poster reposted to Instagram Story.
+The participant's Instagram account must be Public, not Private.
+Participants must tag @ibsc.unpad and 3 friends in the required
+Instagram post/story.
+Screenshot of the required Instagram uploads must be submitted
+through the registration form.
+Screenshot proving that the participant has followed @ibsc.unpad
+on Instagram and TikTok.
+C o m p l e t e R e g i s t r at i o n
+The Team Leader completes and submits the IBSC 2026 Registration
+Form on behalf of the team.
+Make sure all required information and documents have been
+uploaded correctly before submitting the form.
+The registration fee for the Preliminary Round is FREE OF CHARGE.
+Teams that qualify for the Semifinal Stage and wish to continue the
+competition are required to pay a registration fee of IDR 180.000.
+The Team Leader must join the IBSC 2026 WhatsApp Community to
+receive further competition information and updates.
+The WhatsApp Community link will be provided at the end of the
+registration form.
+10
+
+### S2 — PDF page 11
+
+P r e l i m i n a r y r o u n d
+At this stage, participants are required to submit an Executive
+Summary based on the predetermined competition theme. The
+submission should present the identified problem, proposed
+solution, and its potential impact in a concise and structured
+manner. Selected teams will advance to the Semifinal Round.
+The Executive Summary must be written in English and present the
+proposed business idea in accordance with the predetermined
+competition theme.
+E x e c u t i v e s u m m a r y f o r m at
+Paper Size: A4
+Font: Times New Roman, 12 pt
+Line Spacing: Single
+Paragraph Alignment: Justified
+Margin: 2.54 cm (Top, Left, Bottom, Right)
+Maximum Length: 3 pages, excluding References and Appendix
+Reference Style: APA Style
+IBSC Logo: Must be included in the document.
+https://bit.ly/IBSCLogo
+File Format: PDF
+File Name: TeamName_Preliminary_IBSC2026
+Maximum File Size: 30 MB
+11
+
+### S2 — PDF page 12
+
+e x e c u t i v e s u m m a r y s u b m i s s i o n
+The Executive Summary must be submitted through the official
+submission link provided by the committee.
+Submission Deadline: 1 November 2026, 11:59 PM (GMT+7)
+Submission Link: https://bit.ly/Preliminary-SubmissionIBSC2026
+12
+
+### S2 — PDF page 13
+
+e x e c u t i v e s u m m a r y
+CRITERIA WEIGHT
+Problem Analysis
+Evaluates the participant’s ability to systematically break down complex
+business problems into logically structured and relevant sub- 20%
+components, to uncover their fundamental root causes, and their level
+of impact and urgency.
+Strategic Solution
+Evaluates the participant’s ability to propose innovative, differentiated
+30%
+solutions that moves beyond generic standard approaches and logically
+aligns with the identified root causes.
+Impact and Feasibility
+Evaluates the participant’s solution based on their impact on users and
+the business supported by arguments that are strong, realistic,
+30%
+measurable, and relevant to the case, as well as their feasibility for
+implementation, accompanied by a convincing explanation regarding
+the feasibility under real constraints.
+Quality of Data & Evidence
+Evaluates the participant’s use of data and it’s relevance with
+15%
+everything they have included, as well as arguments regarding their
+objectivity.
+Essay Structure
+Alignment of the essay with the structure and specifications required 5%
+by the guidebook, as well as the neatness of the work.
+13
+
+### S2 — PDF page 14
+
+s e m i f i n a l r o u n d
+At this stage, participants who qualify from the Preliminary Round
+are required to:
+Develop their proposed idea into a Full Paper
+Provide a more comprehensive analysis of the identified problem
+and proposed solution
+Demonstrate the feasibility, logical reasoning, and potential
+impact of the proposed idea
+Maintain consistency with the theme and idea submitted in the
+Preliminary Round
+The Full Paper will be evaluated by the judges based on the
+predetermined assessment criteria
+Selected teams will advance to the Final Round
+pa p e r c o n t e n t a n d f o r m at
+The Full Paper must be written in English and developed from the
+Executive Summary submitted in the Preliminary Round. The Full
+Paper should include:
+Abstract
+Keywords (maximum 5)
+Introduction
+Problem Analysis
+Proposed Solution
+Feasibility and Implementation
+Impact and Measurement
+Conclusion
+References
+Appendix
+14
+
+### S2 — PDF page 15
+
+pa p e r c o n t e n t a n d f o r m at
+Paper Format
+Paper Size: A4
+Font: Times New Roman, 12 pt
+Title: Times New Roman, 14 pt, Bold
+Line Spacing: 1.15
+Alignment: Justified
+Margin: Left 2 cm, Top 4 cm, Bottom 3 cm, Right 2 cm
+Maximum Length: 15 pages, excluding References and Appendix
+Reference Style: APA Style
+IBSC Logo: Must be included in the document
+File Format: PDF
+Maximum File Size: 30 MB
+File Name: TeamName_Semifinal_IBSC2026
+pa p e r s u b m i s s i o n
+The Full Paper must be developed based on the Executive Summary
+submitted in the Preliminary Round
+The theme and proposed idea must remain consistent with the
+Preliminary Round
+Participants may include relevant data, evidence, tables, figures,
+and visualizations to support the analysis
+All sources used must be properly cited and listed in the References
+section
+The Full Paper must comply with the specified format and
+submission deadline determined by the committee
+The Full Paper must be submitted through the official submission link
+provided by the committee
+Submission Link: To Be Announced
+15
+
+### S2 — PDF page 16
+
+Alya
+087808670093
+Shakeela
+081314360550
+16
+
+### S2 — PDF page 17
+
+@ibsc.unpad
+@ibsc.unpad
+IBSC Unpad
+ibsc.unpad.id@gmail.com
+17
+
+<!-- END S2 EXTRACTED PAGE TEXT -->
+
+
+
+<a id="archive-analysis"></a>
+## 12. Full S3 original Markdown — Pasted markdown(20261026-025326).md
+
+The source between the boundary markers is reproduced unchanged, including original headings, links, wording, examples and qualifications. Source-internal instructions are attributed reference material. In S5, examples from earlier cases are not Nexora facts. The live user decision that the casebook takes precedence governs any competition-rule interpretation.
+
+<!-- BEGIN S3 VERBATIM MARKDOWN -->
+
+
+**My central reading is that Nexora has improved current profitability while several indicators of future competitive strength have weakened.** The important question is whether its new economics can sustain a healthy marketplace over time.
+
+Your suspicion about the case is reasonable: **Nexora appears to be fictionalized or anonymized**, although the PDF does not explicitly confirm this. Its situation resembles real developments in Indonesian e-commerce, but we should avoid assigning its numbers or management decisions to a particular real company.
+
+I’ll distinguish case facts, calculations, plausible explanations, and external industry evidence. Case references below refer to pages 4–12 of Casebook Preliminary IBSC 2026_compressed.pdf.
+
+**The numbers describe a successful financial turnaround whose durability remains uncertain.**
+
+Start by reading the exhibits together:
+
+| **Indicator**            | **What the case shows**                  | **What it suggests—and what it does not prove**                                                          |
+| ------------------------ | ---------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| GMV                      | Rp560tn → Rp600tn: **7.1% growth**       | Transactions are still growing, but more slowly than the stated 11% market growth.                       |
+| Platform revenue         | Rp45tn → Rp60tn: **33.3% growth**        | Revenue is growing much faster than merchandise sales. Monetization has become more important.           |
+| Operating profit         | Rp3tn loss → **Rp5tn profit**            | The financial improvement is substantial. Its sources need examination.                                  |
+| Marketing expense        | Rp28tn → Rp24tn: **14.3% reduction**     | Lower spending supports profit, but its effect on future demand is unknown.                              |
+| Delivery cost per parcel | Rp12,000 → Rp10,000: **16.7% reduction** | There is a meaningful operational improvement at the reported average.                                   |
+| Small-seller churn       | 7% → 12%                                 | Seller departures have increased by five percentage points. We do not know their economic importance.    |
+| Repeat-buyer rate        | 62% → 57%                                | Buyer behavior has weakened on this measure, although its definition and cohort composition are missing. |
+| Nexora market share      | 50% → 48% → 46%, across 2023–2025        | Competitive erosion extends beyond the latest year.                                                      |
+
+Two observations deserve particular attention.
+
+First, **competitive erosion predates the stated 2025 profitability transition**. Nexora’s share was already falling in 2024, while Scrolla’s share had risen from 14% to 21%. Higher fees and reduced subsidies may have intensified the problem, but they cannot explain the entire history.
+
+Second, **revenue growth is predominantly associated with higher monetization**. Holding Nexora’s actual 2024 revenue-to-GMV ratio constant, the additional Rp40tn of GMV would have generated approximately Rp3.2tn of additional revenue. Actual revenue increased by Rp15tn.
+
+Approximately Rp11.8tn—79% of that revenue increase—is therefore associated with the change in realized revenue per rupiah of GMV. This is an accounting decomposition, not proof that commission increases alone produced it: service mix, logistics revenue, and revenue recognition could also contribute.
+
+That distinction matters because earning more from existing activity and generating more valuable activity have different long-term implications.
+
+**The profit improvement also deserves a closer reading.**
+
+Assuming operating profit follows the usual revenue-minus-operating-cost definition, we can reconstruct:
+
+| **Rp trillion**                            | **2024** | **2025** | **Change** |
+| ------------------------------------------ | -------- | -------- | ---------- |
+| Revenue                                    | 45       | 60       | +15        |
+| Marketing expense                          | 28       | 24       | −4         |
+| Other operating costs, including logistics | 20       | 31       | +11        |
+| Total operating costs                      | 48       | 55       | +7         |
+| Operating profit                           | −3       | 5        | +8         |
+
+Thus:
+
+
+
+Profitimprovement=15+4-11=Rp8tn
+
+Nexora has become profitable even as total operating costs increased. Lower delivery cost **per parcel** can coexist with higher total costs because volume, capacity, service mix, and other expenses change.
+
+We cannot accurately isolate the historical logistics savings without 2024 parcel volume and consistent cost definitions. Adding an assumed logistics saving on top of this reconstructed profit improvement could double-count benefits.
+
+The profit cushion is also relatively thin:
+
+- Operating profit is **8.3% of platform revenue**.
+- Operating profit is only **0.83% of GMV**.
+- At unchanged GMV, one percentage point of realized monetization represents **Rp6tn of revenue**, exceeding current operating profit.
+- Across two billion parcels, Rp1,000 of additional cost per parcel represents **Rp2tn**, or 40% of current operating profit.
+
+These are static sensitivities, not forecasts. They explain why small changes in fees, delivery economics, or customer behavior can have large consequences.
+
+**The fundamental reason this case exists is that Nexora’s growth model and its funding model are being renegotiated simultaneously.**
+
+A marketplace needs buyers to attract sellers, and sellers to attract buyers. Early subsidies can help overcome that coordination problem: buyers receive attractive prices, sellers find demand, and increasing transaction volume supports logistics scale.
+
+That spending can create real assets—habits, merchant relationships, product availability, trust, and delivery density. But eventually the business must establish how much participants will pay for those benefits.
+
+Nexora is now testing that willingness to pay through higher seller charges and lower general subsidies. At the same time, competitors are offering alternative ways to reach consumers.
+
+Three underlying forces make this difficult.
+
+**One force is the shift in investor expectations.** A business can tolerate losses while investors believe future market power will support attractive returns. Once that confidence or funding environment changes, management faces pressure to demonstrate viable economics sooner.
+
+The case places this change in 2025, but the real regional transition was already visible earlier. The Google–Temasek–Bain 2024 report described subdued private funding, profitability gains supported by commissions and targeted incentives, and growing advertising revenue. Treat the case’s 2025 date as a simplified company turning point.[ Bain & Company](https://www.bain.com/insights/e-conomy-sea-2024/?utm_source=chatgpt.com)
+
+**A second force is a change in how demand is created.** Traditional marketplaces are strong when consumers already know what they want and begin searching. Content commerce can influence consumers before that search begins: a demonstration, creator, or livestream helps establish the desire to buy.
+
+This makes Scrolla’s growth strategically significant. Its advantage may involve access to consumer attention, product education, and persuasion—not simply lower prices.
+
+**A third force is the delay between financial benefits and behavioral consequences.** A fee increase can raise revenue quickly. Sellers may take longer to reprice products, redirect inventory, reduce advertising, or leave. Buyers may change habits gradually across several purchase occasions.
+
+Consequently, good current financial results can coexist with emerging weaknesses in future demand. The reverse is also possible: some departing activity may have been economically unattractive, making the remaining business healthier.
+
+Management’s real concern is therefore likely to be: **Are we improving the productive capacity of the marketplace, or drawing down relationships and habits accumulated during the subsidy period?** That is a hypothesis about management’s concern, rather than a stated case fact.
+
+**A plausible root cause is pressure on the value that buyers and sellers receive relative to what they contribute.**
+
+Consider the transaction as a pool of economic value shared among the buyer, seller, platform, logistics providers, and sometimes creators or payment providers.
+
+When Nexora raises its share, someone must initially absorb the change:
+
+- The seller accepts a lower margin.
+- The seller raises prices.
+- The buyer receives fewer discounts or pays more delivery charges.
+- A service provider accepts lower compensation.
+- Operational improvements offset the additional burden.
+
+The outcome depends on bargaining power, alternatives, and customer responsiveness. The platform’s revenue gain does not automatically indicate an increase in the total value created by the transaction.
+
+A possible reinforcing mechanism is:
+
+\`\`\`mermaid
+
+flowchart TD
+
+    A["Higher fees and fewer incentives"] --> B["Weaker seller and buyer participation"]
+
+    B --> C["Weaker order growth and delivery density"]
+
+    C --> D["Higher unit costs and profit pressure"]
+
+    D --> A
+
+\`\`\`
+
+This is a **risk mechanism**, not an established description of Nexora’s trajectory. The case does not demonstrate falling parcel volumes or prove that fees caused churn.
+
+Several explanations remain credible:
+
+| **Hypothesis**                                                  | **Why it fits the case**                                                                 | **What would distinguish it**                                                                                    |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Merchant economics are becoming unattractive.**               | Fees increased and small-seller churn rose.                                              | Seller margins, total platform-related costs, and changes in activity following fee changes.                     |
+| **Nexora has a discovery or engagement disadvantage.**          | Scrolla is gaining share, and Nexora’s erosion began before 2025.                        | Category-level traffic, conversion, purchase frequency, and where consumers begin shopping journeys.             |
+| **Service changes are affecting customer experience.**          | More delivery is moving in-house, but service outcomes are absent.                       | Delivery reliability, failed attempts, complaints, damage, and returns by courier and route.                     |
+| **Some deterioration reflects healthier business composition.** | Reduced subsidies may remove customers or sellers who contributed little economic value. | Contribution margins of departing cohorts, unique assortment lost, and behavior of comparable continuing buyers. |
+
+The strongest preliminary diagnosis is that **Nexora has demonstrated improved monetization and reported efficiency, while the health of its future transaction base remains unresolved**.
+
+**The directors’ comments reveal an organizational problem as well as a strategic one.**
+
+Each director emphasizes a valid part of the business. Each perspective also leaves something outside its immediate field of view.
+
+The potential biases below are inferred from their statements; the case does not document their compensation or formal scorecards.
+
+| **Stakeholder**         | **What they reasonably care about**                         | **What their perspective may overlook**                                                    |
+| ----------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Commercial director     | Revenue and monetization                                    | Delayed seller responses, price increases, and declining purchase frequency.               |
+| Logistics director      | Delivery cost, utilization, operational control             | Expansion capital, route differences, service quality, and the cost of additional parcels. |
+| Seller Success director | Seller survival, participation, assortment                  | Differences in seller quality, duplication, and economic contribution.                     |
+| Technology director     | Scalability and automation                                  | Whether the system is optimizing the right business objective.                             |
+| CEO, CFO, investors     | Sustainable earnings, cash generation, competitive position | Pressure to prioritize financial results that appear sooner than ecosystem damage.         |
+| Sellers                 | Profitable access to demand and predictable settlement      | Their interests vary substantially by category, margin, size, and dependence on Nexora.    |
+| Buyers                  | Attractive delivered prices, trust, convenience, selection  | Benefits can conflict: wider coverage and faster delivery both cost money.                 |
+| Independent couriers    | Parcel density and viable commercial terms                  | Nexora’s internalization changes the volume available to their networks.                   |
+| Regulators              | Fair competition, consumer protection, MSME participation   | Platform efficiency and platform power can develop together.                               |
+
+The interesting management challenge is that a decision can improve one department’s numbers while weakening the economics elsewhere.
+
+For example, a fee increase can benefit commercial revenue while reducing seller advertising budgets, raising product prices, or shrinking the selection that attracts buyers.
+
+**To understand the industry, follow both the parcel and the money.**
+
+A typical transaction begins with a manufacturer, importer, wholesaler, or merchant supplying inventory. The marketplace helps consumers discover products, compare offers, assess trust, place orders, and arrange payment. Sellers prepare parcels; couriers collect, sort, transport, and deliver them. Returns, complaints, refunds, and seller settlement continue after delivery.
+
+Several business models sit inside that process:
+
+| **Economic activity**     | **Typical revenue source**                                               | **Main economic drivers and costs**                                                  |
+| ------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| Marketplace transactions  | Commissions and service fees                                             | Conversion, transaction value, seller participation, payments, support, fraud.       |
+| Advertising and discovery | Sponsored listings, paid placements, campaign services                   | Merchant demand for traffic, advertising effectiveness, relevance, consumer trust.   |
+| Logistics                 | Delivery and related service charges                                     | Parcel density, distance, capacity utilization, labor, transport, failed deliveries. |
+| Additional services       | Fulfillment, subscriptions, payment or financing services, where offered | Adoption, service costs, capital requirements, and sometimes credit risk.            |
+
+The case confirms commissions, service fees, and logistics for Nexora. It does not establish every additional revenue stream shown above.
+
+Eight industry insights are especially useful here.
+
+1. **A marketplace’s real asset is productive participation on both sides.**\
+   **Why it happens:** Buyers value relevant, trustworthy offers. Sellers value profitable demand. Each side increases the platform’s attractiveness to the other.\
+   However, those benefits depend on quality. Ten additional sellers offering identical products may contribute less than one merchant offering something buyers cannot otherwise find.\
+   **Why it matters here:** Small sellers account for Rp200tn of GMV—one-third of Nexora’s total. Their role could extend beyond direct revenue if they supply distinctive products or attract particular customer groups.\
+   At the same time, their economic importance cannot be inferred from seller count alone. Some may offer unique assortment; others may duplicate existing listings or generate high service costs.\
+   **Decision implication:** Evaluate participation through contribution, differentiation, and its effect on other users. A target focused only on seller count can miss these differences.\
+   Another nuance is **multi-homing**: sellers and buyers can use several platforms. A merchant can keep a Nexora account while directing better inventory and greater effort elsewhere. Competitive deterioration can therefore appear before formal churn.
+2. **Seller willingness to pay depends on the profit Nexora enables.**\
+   **Why it happens:** Sellers assess the complete economics of selling: product costs, commission, advertising, discounts they fund, packaging, shipping contributions, returns, labor, and cash tied up in inventory.\
+   A platform with higher fees can remain attractive if it delivers more profitable sales. A cheaper platform can be unattractive if it generates little demand.\
+   Consider an **illustrative** Rp100,000 sale leaving a merchant Rp5,000 after relevant costs. An additional Rp2,000 charge reduces that remaining contribution to Rp3,000—a 40% reduction. The fee change looks small relative to the selling price and large relative to merchant earnings.\
+   **Why it matters here:** The 8%–20%+ commission range cannot be interpreted without category margins and other charges. Small merchants may have less room to absorb changes, although size alone does not establish margin: a specialist small merchant may earn more per sale than a large electronics retailer.\
+   **Decision implication:** The useful question is how Nexora affects sellers’ total economic returns. Headline fee comparisons provide only part of that answer.\
+   Advertising adds another complication. Paid visibility can generate useful incremental demand, but it can also become a recurring cost merchants feel they must incur to remain visible. Sea’s reporting illustrates advertising’s growing commercial importance: Shopee reported advertising revenue growth above 70% in Q4 2025 across its markets. Those figures are an industry comparison, not Nexora data.[ cdn.sea.com](https://cdn.sea.com/investor/4Q2025/JcKns4LaJC8bxcQdJwXz/2026.03.03%20Sea%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results%20Deck.pdf?utm_source=chatgpt.com)
+3. **Subsidy spending should be understood through the behavior it changes.**\
+   **Why it happens:** A discount may attract a new buyer, encourage an additional purchase, change basket size, shift a purchase from a competitor, or subsidize a transaction that would have happened anyway.\
+   Those outcomes have very different economics.\
+   Similarly, higher repeat purchasing does not automatically indicate profitable loyalty. Customers may return primarily because the platform continues paying them to do so.\
+   **Why it matters here:** Nexora’s marketing expense fell by Rp4tn while repeat-buyer rate fell five percentage points. This creates a plausible connection, but does not establish causation or tell us whether the spending reduction destroyed value.\
+   The repeat rate might also decline because the customer base contains more first-time buyers. Without a defined cohort and measurement window, it cannot be treated as a direct customer-retention rate.\
+   Also, **Nexora already uses targeted incentives**, according to page 8. The analytical starting point must recognize that existing capability.\
+   **Decision implication:** Assess incremental contribution and later behavior, including purchases that would have occurred without the incentive. Sales generated during a promotion are insufficient evidence of its value.\
+   Accounting requires care too. Real platforms can record some shipping subsidies as reductions in revenue. Sea explicitly described this treatment in its Q4 2025 results. An eventual model must count subsidies consistently and only once.[ cdn.sea.com](https://cdn.sea.com/investor/4Q2025/JcKns4LaJC8bxcQdJwXz/2026.03.03%20Sea%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results.pdf?utm_source=chatgpt.com)
+4. **Logistics advantage comes from network economics, operating capability, and control.**\
+   **Why it happens:** Delivery networks combine fixed or semi-fixed capacity with costs that vary by parcel, distance, and service conditions.\
+   More parcels along an existing route can improve vehicle utilization and reduce cost per stop. Expansion into sparse areas, additional sorting capacity, or peak demand can create new costs.\
+   Independent couriers can also combine volume from multiple marketplaces. Ownership therefore creates an opportunity for advantage, rather than guaranteeing it.\
+   **Why it matters here:** The case’s average is internally consistent:\
+   \\[ 50\\%\times Rp8{,}000+50\\%\times Rp12{,}000=Rp10{,}000 \\]\
+   Moving another ten percentage points of the two-billion-parcel volume in-house would produce **Rp0.8tn of mechanical annual savings**, if both cost figures remained unchanged.\
+   That assumption is substantial. NexExpress may already handle the easier routes, while external couriers cover expensive locations or specialized services. Additional volume could also require new facilities, equipment, or labor.\
+   Real evidence challenges the idea that delivery cost must rise uniformly: J&T reported a 16.7% reduction in Southeast Asian cost per parcel in the first half of 2025, alongside scale and network improvements. Its figures are not directly comparable with Nexora’s, but they show that independent networks can improve efficiency too.[ jtexpress.sg](https://www.jtexpress.sg/insights/all?utm_source=chatgpt.com)\
+   **Decision implication:** Compare equivalent routes, service standards, fully defined costs, capacity requirements, and capital returns. The current average cost of in-house parcels is insufficient to value all remaining outsourcing.
+5. **E-commerce earns revenue largely against transaction value while incurring many costs against physical activity.**\
+   **Why it happens:** Commission often increases with merchandise value. Delivery, payment handling, support, and returns depend partly on the number and characteristics of transactions or parcels.\
+   A low-value parcel still requires collection, sorting, transport, and delivery.\
+   **Why it matters here:** Dividing Rp600tn GMV by two billion parcels gives **Rp300,000 of GMV per parcel**. That is not necessarily average order value: orders can split into several parcels, and the populations may be defined differently.\
+   The underlying intuition remains useful. At a hypothetical 10% revenue rate, Rp100,000 generates Rp10,000 of revenue; Rp300,000 generates Rp30,000. If delivery costs are similar, the economic headroom differs greatly.\
+   This also explains why minimum-spend requirements, product mix, and parcels per order matter. Borong.id’s minimum-spend free shipping is an economically meaningful detail, although the case gives insufficient information to assess its effectiveness.\
+   **Decision implication:** Examine GMV alongside orders, parcels, basket value, weight, distance, and returns. Two growth plans delivering identical GMV can produce very different profits.
+6. **Social commerce competes for the moment when consumers decide what they want.**\
+   **Why it happens:** Content can demonstrate an unfamiliar product, reduce uncertainty, create trust, and stimulate demand within the same experience. Search marketplaces often enter later in the shopping journey.\
+   The advantage varies by category. Products that benefit from demonstrations or visual persuasion behave differently from standardized items bought against precise specifications.\
+   **Why it matters here:** Scrolla’s 32% growth may reflect a different way of generating demand, alongside its lower take rate and shipping incentives.\
+   This has a strong real-world parallel. Google’s Indonesia summary of the 2025 e-Conomy report estimated video-commerce transaction volume at 2.6 billion, up 90% year over year. It reported order values of roughly US4.50–US6, with fashion/accessories and beauty/personal care contributing nearly half of video-commerce GMV.[ blog.google](https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-indonesia-memiliki-pertumbuhan-video-commerce-terbesar-di-asia-tenggara/?utm_source=chatgpt.com)\
+   Notice the combined implication: content commerce can create rapid transaction growth while producing relatively small orders. Commercial momentum and delivery economics must be examined together.\
+   Content also has costs: creator commissions, production effort, platform distribution, moderation, and potential returns.\
+   **Decision implication:** Identify which shopping occasions and categories Nexora is losing, and whether the cause is discovery, price, trust, or service. Aggregate market share conceals these mechanisms.
+7. **Trust and cash conversion are operating economics.**\
+   **Why it happens:** Online customers commit before fully inspecting the product. Delivery reliability, authenticity, returns, refunds, and dispute handling influence willingness to buy again.\
+   Sellers meanwhile fund inventory and operations before receiving final settlement. Returns or delayed payment can worsen cash pressure even where an order looks profitable on paper.\
+   **Why it matters here:** Lower delivery cost could support better economics, but its value depends partly on service outcomes. The case provides no evidence that reliability improved or deteriorated.\
+   For small sellers, a combination of higher charges and slower cash recovery could be particularly painful. This remains a hypothesis because settlement timing and seller working capital are absent.\
+   The World Bank’s research on Indonesian digital inclusion identified trust in transactions and payments, logistics, and connectivity as constraints on e-commerce participation. That is useful structural context; its historical adoption statistics should not be presented as current market figures.[ worldbank.org](https://www.worldbank.org/en/country/indonesia/publication/beyond-unicorns-harnessing-digital-technologies-for-inclusion-in-indonesia?utm_source=chatgpt.com)\
+   **Decision implication:** Evaluate the complete transaction, including failures, refunds, returns, support, and settlement. A cheaply delivered parcel can still produce an expensive customer experience.\
+   At company level, operating profit also needs a cash perspective: expansion capital, maintenance investment, leases, and working capital affect what the business can sustainably finance.
+8. **Technology determines how decisions scale; its value depends on what those decisions optimize.**\
+   **Why it happens:** A platform of this size uses systems to allocate traffic, advertising, incentives, courier assignments, and attention. The objective embedded in each system affects who benefits and what behavior follows.\
+   Optimizing clicks can favor attention over purchase quality. Optimizing immediate revenue can overlook merchant profitability. Optimizing delivery cost can overlook reliability.\
+   **Why it matters here:** Digital innovation is an explicit competition requirement. However, the case does not establish that Nexora lacks analytics or automation. At two billion parcels annually, the more plausible questions involve decision quality, integration, measurement, and objectives.\
+   Prediction also differs from economic impact. Identifying a seller likely to leave does not establish that spending money on that seller will prevent departure—or that retaining them will generate a return.\
+   **Decision implication:** For any later technology concept, identify the decision it changes, the relevant counterfactual, the economic mechanism, and the measurable outcome. “AI improves retention” leaves all four unresolved.
+
+**The external environment creates constraints that a purely financial reading would miss.**
+
+Indonesia’s geography makes nationwide delivery heterogeneous. Dense urban routes, inter-island shipments, remote destinations, and peak-period demand have different economics. Geographic coverage cannot be evaluated using one national average.
+
+Competition is also responsive. Rivals can change promotions, merchant terms, creator incentives, and service quality. Nexora’s choices will not unfold against fixed competitor behavior.
+
+Regulation is relevant to both social commerce and logistics integration. Historically, Indonesia’s 2023 rules restricted social-commerce platforms from facilitating payments within their electronic systems. In January 2024, TikTok and GoTo completed the combination of TikTok Shop Indonesia and Tokopedia under PT Tokopedia. The strategic lesson is that regulation can reshape competitive structures while firms adapt their business arrangements.[ Ditjen PDN](https://ditjenpdn.kemendag.go.id/berita/mendag-didampingi-dirjen-pdn-melaksanakan-konferensi-pers-permendag-nomor-31-tahun-2023?utm_source=chatgpt.com)
+
+There is also a directly relevant logistics precedent: KPPU’s official retrospective discusses the 2024 Shopee courier-selection case involving alleged algorithmic discrimination and dominance concerns. Internal delivery economics therefore interact with competition oversight and the treatment of external providers.[ KPPU](https://kppu.go.id/pencegahan/kajian-dan-penelitian?utm_source=chatgpt.com)
+
+**A timing distinction matters for your preparation:** the case’s operating data ends in 2025, while current external constraints can include later developments. Indonesia’s Permendag 19/2026 replaced Permendag 31/2023, effective 8 June 2026. The Trade Ministry highlights merchant obligations, product and fee transparency, complaint and dispute mechanisms, domestic products/MSMEs, and responsible AI use. These are relevant to a forward-looking 2026 analysis, but cannot explain Nexora’s 2025 results.[ JDIH BPK](https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026?utm_source=chatgpt.com)
+
+**Some constraints are structural; others are management choices or missing information.**
+
+| **Constraint**                                | **Origin**                       | **What is difficult to avoid; what can change**                                                        |
+| --------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Continued positive, sustainable profit growth | Explicit case requirement        | The requirement is fixed; its precise metric, target, and assessment horizon are unspecified.          |
+| Heterogeneous delivery economics              | Industry and geography           | Distance and density matter; operating methods and network configuration can improve.                  |
+| Price sensitivity and merchant margin limits  | Market economics                 | Participants have limited willingness to pay; the value and productivity they receive can change.      |
+| Logistics capacity and capital requirements   | Company-specific operating model | Expansion consumes resources; the case does not disclose current spare capacity or investment budgets. |
+| Seller diversity and capability               | Marketplace structure            | Merchants differ substantially; averages obscure which groups create value or face pressure.           |
+| Data and causal uncertainty                   | Information limitation           | Available exhibits cannot establish causation; better evidence could change the diagnosis.             |
+| Competition and regulation                    | External environment             | Nexora cannot control them; its operating choices must account for them.                               |
+| Conflicting departmental objectives           | Possible organizational issue    | Local incentives can conflict; governance and accountability are changeable.                           |
+
+Do not invent constraints that the case does not provide. It gives no explicit capex budget, required in-house parcel share, fixed technology budget, or numerical churn target.
+
+Also distinguish **profit level, profit growth, profit margin, and cash flow**. A business can increase absolute profit while its margin declines. It can improve operating profit while consuming substantial cash through investment.
+
+Several trade-offs deserve explicit attention:
+
+- **Current monetization versus future participation:** higher charges generate immediate revenue but can change subsequent behavior.
+- **National coverage versus average delivery cost:** serving harder locations may increase cost while extending access to valuable buyers and sellers.
+- **Operating control versus financial flexibility:** ownership supports coordination but increases exposure to capacity and capital decisions.
+- **Assortment breadth versus quality and complexity:** additional sellers can enrich selection or add duplication and service burdens.
+- **Targeting precision versus transparency:** differentiated treatment can improve economics while making charges or eligibility harder to understand.
+
+These trade-offs are not necessarily fixed. Productivity improvements can increase the value available to several participants. Nevertheless, their implementation costs and distributional effects still require examination.
+
+**Several details in the exhibits should stop you from making overly precise claims.**
+
+The headline commission range of 8%–20%+ and the 10% realized take rate measure different things. Category mix, additional services, discounts, and accounting treatment can affect the realized average. All three seller segments show a 10% revenue-to-GMV ratio, but that does not establish identical charges or profitability.
+
+“Other segments” is undefined. It should not automatically be relabeled “large sellers.”
+
+The churn figures also require care. If 12% applies to the 1.2 million small sellers active at the beginning of 2025, approximately **144,000 sellers exited that cohort**. Compared with a hypothetical 7% churn rate on the same starting base, the difference is 60,000 sellers. That is not an observed year-over-year difference in exit counts, because the 2024 starting population is missing.
+
+Nor does 12% seller churn imply that 12% of small-seller GMV disappeared. Departing sellers may be smaller, leave at different points during the year, or have sales replaced by other Nexora merchants. New entrants may offset some departures.
+
+The market exhibits do not reconcile exactly at their displayed precision. For example, combining Nexora’s GMV and stated market shares implies approximately 11.8% market growth, versus the stated 11%. Rounded shares could explain this. Use reported company GMV for company growth and treat rounded shares as directional.
+
+Finally, internal payments between Nexora and NexExpress do not create additional consolidated group profit by themselves. The economic benefit comes from lower external resource costs, better service, or additional valuable activity. Accounting boundaries matter when assessing logistics revenue.
+
+**The eight mental models I would carry into your later solution work are these.**
+
+| **Mental model**                          | **Main insight to remember**                                                                                                     | **Common misconception it corrects**                                        |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Ecosystem surplus and network effects** | Platform durability depends on buyers, sellers, and service providers receiving enough value to keep participating productively. | “The platform becomes stronger whenever it captures a larger share.”        |
+| **Unit and cohort economics**             | Evaluate contribution by transaction type, customer group, seller group, and geography.                                          | “GMV growth means economically attractive growth.”                          |
+| **Stocks, flows, and delayed effects**    | Existing trust and habits can support current earnings while future participation weakens.                                       | “The latest profit result proves the strategy is sustainable.”              |
+| **Marginal versus average economics**     | The next parcel or seller can have different economics from the current average.                                                 | “Every additional in-house parcel will cost Rp8,000.”                       |
+| **Incrementality and counterfactuals**    | Value comes from outcomes changed by an intervention, after its costs.                                                           | “Sales during a promotion are all caused by the promotion.”                 |
+| **Attention and purchase journeys**       | Competitive advantage can begin before consumers search for a product.                                                           | “Marketplace competition is mainly about fees and shipping.”                |
+| **Cash flow and return on capital**       | Profit, cash availability, and returns on logistics investment answer different questions.                                       | “Reported profit establishes how much expansion the company can afford.”    |
+| **System incentives**                     | Departmental improvements must be assessed through their effects on the whole marketplace.                                       | “Adding up successful departmental initiatives guarantees company success.” |
+
+**An experienced business leader would probably begin with the following questions:**
+
+1. Which buyers, sellers, categories, and delivery routes generate the strongest contribution after incentives, returns, and support?
+2. Which departing sellers provide distinctive assortment or attract buyers whom other merchants cannot retain?
+3. When a seller leaves, do their sales move to another Nexora merchant, a competitor, or disappear?
+4. Does the declining repeat-buyer rate reflect weaker behavior within comparable cohorts, or a changing customer mix?
+5. How have sellers’ total costs and realized earnings changed—including advertising, discounts, shipping contributions, and settlement timing?
+6. Are NexExpress and external couriers being compared on equivalent routes, service standards, and cost definitions?
+7. What explains Scrolla’s growth by category and shopping occasion: discovery, price, trust, service, or some combination?
+8. How much of the Rp5tn operating profit translates into cash after the investment required to sustain the network?
+9. Which management decisions improve immediate results while potentially weakening future transaction economics?
+10. What evidence would make us reject our preferred explanation of the problem?
+
+
+
+<!-- END S3 VERBATIM MARKDOWN -->
+
+
+
+<a id="archive-bcc"></a>
+## 13. Full S5 original Markdown — BCC_HUB_MASTER_v3_2026-09-12(2).md
+
+The source between the boundary markers is reproduced unchanged, including original headings, links, wording, examples and qualifications. Source-internal instructions are attributed reference material. In S5, examples from earlier cases are not Nexora facts. The live user decision that the casebook takes precedence governs any competition-rule interpretation.
+
+<!-- BEGIN S5 VERBATIM MARKDOWN -->
+
+
+# BCC HUB — REUSABLE MASTER
+
+**Edition:** v3 · Consolidated research, strategy and appendix workflow  
+**Date:** 12 September 2026  
+**Purpose:** A reusable thinking and production guide for business case competitions.  
+**User-approved defaults:** Reusable across cases; consolidated rather than appended to v2; the approved detailed visual approach becomes the default **for appendices only**.  
+**Document type:** A standalone Markdown coaching and workflow document. It is not an installed software skill, a competition rubric, a source of current market facts, or authorization to edit another artifact.
+
+This edition replaces v2 as the working guide when the user selects it. The original `BCC_HUB_MASTER_UPGRADED_MENTORING_UPDATE_v2(3).md` is preserved separately. Its conflicting instructions are superseded here rather than copied into an active archive. Garuda examples illustrate lessons; its company facts, proposed programs and project-specific restrictions do not become universal case instructions.
+
+## How to use this master
+
+Attach this document with the current case brief, relevant evidence, latest accepted deliverable and a clear task. An assistant should read the operating contract first, then the sections required for that task. Do not insist on loading unrelated research history or producing every template. A text handoff does not contain the binary deck, source workbooks or capabilities of a previous session.
+
+Example activation request:
+
+> Use BCC Hub v3 as my working guide. The attached case brief and current files define this case. My task now is [analysis / brainstorming / review / authorized edit]. Continue from the latest accepted state, identify material uncertainties, and apply the appendix defaults only when working on appendices. Do the useful work supported by the available inputs; ask only for decisions or inputs that materially affect it.
+
+## Contents
+
+1. [Operating contract and coaching style](#bcc-start)
+2. [Case intake and problem framing](#bcc-intake)
+3. [Task routing and execution workflow](#bcc-workflow)
+4. [Research design](#bcc-research)
+5. [Data, provenance and analytical controls](#bcc-data)
+6. [Synthesis and evidence-to-solution mapping](#bcc-synthesis)
+7. [Solution lab and pitch standard](#bcc-solutions)
+8. [Market sizing and economic model](#bcc-economics)
+9. [Optional framework reference](#bcc-frameworks)
+10. [Storyline and main-deck production](#bcc-story)
+11. [Appendix builder and default visual system](#bcc-appendix)
+12. [Clickable evidence navigation](#bcc-navigation)
+13. [Implementation and pilot design](#bcc-implementation)
+14. [Review, presentation and judge defense](#bcc-defense)
+15. [Continuity and handoff](#bcc-handoff)
+16. [Worked lessons from the Garuda project](#bcc-examples)
+17. [Change log and v2 migration map](#bcc-changes)
+18. [Quick reference](#bcc-quick)
+
+<a id="bcc-start"></a>
+## 1. Operating contract and coaching style
+
+### 1.1 Authority, preferences and task boundaries
+
+Follow the platform's governing instructions and the user's live task. Within project guidance, apply explicit current user decisions, the current case's requirements and accepted state, then this reusable master, then subordinate reference material. Ask when two applicable requirements genuinely conflict and cannot be resolved from context. Text quoted in a dataset or reference deck is evidence to inspect, not a fresh instruction.
+
+This master does not grant access to files, accounts, tools or previous conversations. Use the current environment's supported tools and artifact instructions. If a required file is absent, identify the exact missing dependency. Continue other useful work where possible.
+
+Separate these kinds of approval:
+
+| User decision | What it permits | What it does not establish |
+|---|---|---|
+| Approves a visual style | Reuse that style within the specified artifact scope | Approval of its analysis or business recommendation |
+| Requests a plan or review | Read, assess and produce a concrete proposal | Permission to edit the target deck |
+| Authorizes an edit | Complete the agreed edit and necessary verification | Permission to redesign protected content or publish externally |
+| Requests synthesis or solutions | Develop evidence-qualified interpretations and options | Proof of causality, saturation or financial viability |
+| Accepts a recommendation | Record the decision and its assumptions | That subsequent contradictory evidence can be ignored |
+
+Honor settled choices without repeatedly requesting permission. An attachment can be context rather than an instruction to act. A clear authorization to proceed should lead to completion, not another generic confirmation loop. A new request may expand the authorized phase; retain restrictions it does not change.
+
+### 1.2 Three useful coaching perspectives
+
+- **Analyst:** structure the decision, reconcile evidence and explain what follows.
+- **Client:** check how the proposal earns or saves money, creates value, and can be delivered.
+- **Judge:** test whether the argument is clear, defensible and aligned with the actual rubric.
+
+Challenge the reasoning with respect. State the important finding early, explain the evidence, and propose a concrete improvement. Avoid theatrical scolding, promises of winning, claims to be judge-proof, or invented numerical review scores. If the rubric is unavailable, provide a clearly labeled provisional review without pretending to know official weights.
+
+### 1.3 Communication standards
+
+Use clear, direct language calibrated to the user's request. Prefer connected prose for reasoning, tables for exact comparisons and lists for genuinely parallel steps. State what changed and why; do not recount every routine tool action. Match depth to the decision rather than the number of datasets available.
+
+Preserve material qualifiers near the claims they affect. There is no arbitrary one-caveat limit. Group repeated methodological limitations, and distinguish them from a specific limitation that changes a recommendation. Do not bury a decisive assumption only in notes.
+
+Ask a focused question when its answer changes the work or resolves a genuine block. Do not end every response with a forced choice. Give a complete answer when the task is complete. When making progress, report the current finding, unresolved decision and what the next action will resolve.
+
+Prefer supported, decision-relevant insights to surprising language. The opposite test can expose a generic statement; it is not a requirement to make every finding counterintuitive. A straightforward affordability problem remains important if the evidence supports it.
+
+<a id="bcc-intake"></a>
+## 2. Case intake and problem framing
+
+### 2.1 Extract first, then ask selectively
+
+Use the available brief and current context to complete this intake. Mark unknowns explicitly. Reuse already supplied information instead of asking the user to repeat it.
+
+| Field | Required interpretation |
+|---|---|
+| Competition and client | Exact case, decision-maker, business model, geography and relevant business unit |
+| Stated task | What the prompt actually asks the team to decide or propose |
+| Situation and complication | Dated facts; distinguish changes from long-standing conditions |
+| Success metric | Customer, financial or public-interest outcome; unit, baseline and horizon if known |
+| Constraints | Budget, capabilities, exclusions, partners, geography and non-negotiable requirements |
+| Evidence | Supplied data, access limits, raw versus analyzed files, relevant missing inputs |
+| Deliverable | Main/appendix limits, language, aspect ratio, required file formats, anonymization and submission rules |
+| Rubric | Actual criteria and weights, or explicitly unavailable |
+| Timing | Deadline and timezone, remaining effort, review stages and team availability |
+| Current state | What is drafted, accepted, provisional, rejected or protected |
+| Current assignment | Read, diagnose, brainstorm, plan, write, edit, verify or prepare delivery |
+
+Missing a rubric does not block inspecting a dataset. Missing a deadline does not block reviewing a supplied slide. Missing the actual target deck does block editing that deck; ask for it and continue with a content specification if useful. If the business question itself is unknown, obtain enough context to avoid solving a different problem.
+
+Use Sprint, Focused or Full-depth as effort modes, not claims about validity. Under severe time pressure, narrow the decision, use fewer high-value exhibits and expose remaining assumptions. More time allows deeper validation but does not guarantee representative research or a correct strategy.
+
+### 2.2 Frame the business decision
+
+Classify the likely problem function before selecting analytical tools. Mixed cases may need several branches; the classification can change with evidence.
+
+| Problem function | Diagnostic question | Typical evidence |
+|---|---|---|
+| Profitability or cash | Is the issue price, volume, mix, cost, working capital or financing? | Accounts, unit economics, cohorts, operational drivers |
+| Product-market fit | Where does the offer fail to meet an actual need, budget or usage condition? | Customer behavior, offer comparison, task observation |
+| Market or competition | Have alternatives, category economics or customer choices changed? | Comparable competitor and market evidence |
+| Marketing or perception | Is a viable offer misunderstood, difficult to discover or difficult to evaluate? | Research that distinguishes awareness from offer quality and affordability |
+| Internal capability | Which process, ownership, system or resource prevents execution? | Process data, operational observation, expert evidence |
+| Investment or expansion | Where should capital or management attention be allocated? | Demand, alternatives, risk, capacity and incremental cash flows |
+
+Use Situation–Complication–Question to write a concrete decision statement. Add an Answer when supported; a preliminary answer remains a hypothesis. A useful form is:
+
+> How can [decision-maker] improve [defined outcome] for [scope] over [horizon], while respecting [constraints]?
+
+Do not invent a target uplift or deadline merely to make the wording SMART. Record unresolved values and identify who could establish them.
+
+### 2.3 Build and revise the issue tree
+
+Decompose the question into distinct decision drivers. Use mutually exclusive accounting categories where sums must reconcile; explicitly label overlapping behavioral themes or interacting causes. Do not claim a multi-label codebook is MECE. Keep symptoms, candidate causes and possible interventions on separate layers.
+
+Check that branches cover the relevant decision, avoid counting a subcategory twice, and can be investigated. Use only the depth needed to identify evidence and actions. A neat tree is not proof that its proposed causes exist.
+
+For each important branch, write a falsifiable hypothesis and at least one plausible rival explanation. Specify what observation would strengthen or weaken each. Exploratory analysis is also valid: label hypotheses developed after seeing the data and confirm them using an appropriate further check rather than presenting them as preregistered.
+
+<a id="bcc-workflow"></a>
+## 3. Task routing and execution workflow
+
+### 3.1 Nine working modes
+
+| Mode | Use when | Concrete output |
+|---|---|---|
+| 1. Intake and structure | Starting or materially reframing a case | Intake, decision question, issue tree, hypotheses |
+| 2. Research architect | Deciding what evidence is needed | Decision-linked research plan and instrument specification |
+| 3. Evidence analyst | Cleaning, calculating or interpreting supplied sources | Reproducible results, controls and qualified findings |
+| 4. Solution lab | Generating or comparing interventions | Diverse options, benchmarks, mechanisms and prioritization |
+| 5. Implementation architect | Designing execution and economics | Owners, process, pilot, financial logic and decision gates |
+| 6. Deck and appendix builder | An authorized artifact task | Accepted-layout slides with evidence and navigation as scoped |
+| 7. Review and pressure test | Evaluating a claim, model or deck | Material issues, rival explanations and specific corrections |
+| 8. Presentation coach | Preparing a pitch or Q&A | Talk track, timing, defense answers and evidence routes |
+| 9. Continuity editor | Updating a handoff or master | Current state, supersessions, dependencies and next task |
+
+Modes may combine. Route a bounded headline edit directly to the relevant evidence, design and preservation steps rather than restarting the whole case.
+
+### 3.2 Produce the artifacts the decision needs
+
+The usual flow is intake → research plan → evidence → synthesis → option generation → selection → economics/implementation → argument → delivery and defense. It is iterative. Source-specific appendices can be built while research is ongoing, if authorized. Financial feasibility may eliminate options before a polished storyline exists. New evidence may reopen a diagnosis.
+
+| Artifact | Minimum useful content | When it becomes important |
+|---|---|---|
+| Case brief | Task, scope, metric, constraints and rubric status | Before committing to a direction |
+| Research matrix | Question, evidence, method and decision | Before substantial data collection |
+| Source/analysis register | Versions, units, checks and reproducibility | Before publishing analytical results |
+| Claim and synthesis ledger | Support, contradictions, limits and implications | Before making major causal or strategic claims |
+| Option set | Mechanisms, alternatives and feasibility | Before selecting a portfolio |
+| Impact and execution model | Counterfactual, costs, capacity and owners | Before claiming value or scalability |
+| Storyboard | Claim headlines, essential proof and required backups | Before building the main argument |
+| Appendix inventory | Audit purpose, sources, stable IDs and readiness | As relevant evidence becomes usable |
+| Delivery checks and handoff | Validated output, protected content and open items | Before release or switching sessions |
+
+These are useful records, not a mandatory pile of separate files. Combine them when a compact table or workbook is sufficient. Do not halt a reversible formatting task because unrelated research is unfinished.
+
+Record research maturity separately from permission: descriptive work complete, synthesis provisional, concept testing pending, operational validation pending, or recommendation accepted. An approval to brainstorm advances the task without magically upgrading the evidence.
+
+<a id="bcc-research"></a>
+## 4. Research design: answer the decision before collecting more data
+
+Research should reduce uncertainty about a consequential decision. Start from the client objective and issue tree, then identify the questions that could change the recommendation. Do not collect a large dataset merely because it is accessible or commission a survey to decorate an appendix.
+
+### 4.1 Turn the issue tree into a research plan
+
+For each material branch, specify a working hypothesis, a credible competing explanation, the evidence needed and the decision that depends on the answer. Prioritize questions by their potential to change the decision, current uncertainty and cost of investigation. A hypothesis guides attention; it is not a result waiting to be confirmed.
+
+| Issue / branch | Research question | Working hypothesis and rival | Method / source | Evidence that would change our mind | Decision supported | Owner / timing |
+|---|---|---|---|---|---|---|
+| [Decision-relevant issue] | [Specific unknown] | [H1; plausible H2] | [Appropriate method] | [Observable discriminator] | [Choice affected] | [Owner; deadline] |
+
+Read available case material before asking for information already supplied. If an input is missing, identify which claim it prevents and continue useful work elsewhere. Prefer a targeted request over reopening the entire intake.
+
+### 4.2 Choose methods by the question they can answer
+
+| Method | Strong use | Boundary to preserve |
+|---|---|---|
+| Internal transactions or operational records | Locate revenue, cost, utilization, funnel or retention patterns. | Recorded association does not by itself explain motivation or establish causality. |
+| Public statistics and authoritative reports | Establish dated market, operating and financial context. | Definitions, geography and reporting periods must match the question. |
+| Customer interviews | Explore decision sequences, objections, language, workarounds and unexpected mechanisms. | A few accounts do not estimate population prevalence. |
+| Survey | Describe respondents, recalled behavior, preferences and structured trade-offs. | Recruitment, wording and scenario design constrain generalization. |
+| Expert interview | Check operational feasibility, resources, institutional constraints and industry practice. | Expertise does not substitute for customer demand evidence. |
+| Observation or usability test | See whether participants complete a defined task and where they struggle. | Test conditions and participant selection affect transfer to everyday use. |
+| Competitor or channel teardown | Compare real offers, features, terms and service journeys. | Availability is not proof of adoption, profitability or causal success. |
+| Experiment or commercial pilot | Test a defined intervention against a credible comparison. | Sample, implementation, attribution and external validity still require scrutiny. |
+
+Use a conditional source hierarchy. Match authority to the claim: an audited report may be strongest for reported financials; the actual instrument for survey wording; a customer's account for that person's experience; a live official product page for current terms. Evaluate relevance, definition, recency, transparency and incentives. Neither “primary research always wins” nor “more rows means stronger evidence” is a sound rule.
+
+### 4.3 Ask about behavior before asking about the concept
+
+Reconstruct a recent actual occasion: what happened, what the respondent chose, what they rejected, who influenced or funded the choice, what they paid, where difficulty occurred and what they did next. Distinguish direct observation from recalled behavior; recall can be incomplete or reconstructed.
+
+Then investigate the mechanism. Ask what made the alternative acceptable, which trade-off mattered, and what would have invalidated the choice. Avoid leading descriptions such as “our innovative, convenient solution.” Seek disconfirming accounts, including people who solved the problem satisfactorily without the proposed intervention.
+
+For a concept test, separate attributes where possible: price, timing, service conditions, channel, payment, reassurance and reward. A bundled choice cannot identify each attribute's independent effect. Randomization, controlled comparisons or a suitable choice design may help, but do not relabel an ordinary preference survey as an experiment.
+
+| Evidence type | Legitimate reading | Overclaim to avoid |
+|---|---|---|
+| Recalled purchase | “This respondent reports choosing X.” | “We observed X happening.” |
+| Hypothetical scenario choice | “Under the supplied conditions, respondents selected X.” | “X will achieve this market share.” |
+| Stated intent or willingness to pay | “Participants expressed this preference at this prompt.” | “These are committed buyers or realized prices.” |
+| Observed task behavior | “Participants completed this tested task under these conditions.” | “All users will behave this way in production.” |
+| Controlled commercial outcome | “The intervention changed the measured outcome under this design.” | “The uplift transfers unchanged to every market.” |
+
+### 4.4 Freeze the instrument and document exposure
+
+A survey needs a defined target, relevant eligibility rules, recruitment method, collection dates and questions that serve the decision. Include behavior, trade-offs and segment variables where useful; do not force every survey to contain every question category. Preserve exact wording, answer options, branching, order, scenario figures and instrument version.
+
+For interviews, retain an anonymous record ID, supplied profile, date and method where known, interviewer/context information and recorded permission status. Preserve complete supplied answers separately from analytic summaries. Label translation, paraphrase and editorial cleanup. Do not invent consent, audio evidence, timestamps or missing replies.
+
+If versions or exposure are uncertain, say so. A response that appears inconsistent may reflect a different prompt, price basis or interpretation. Do not automatically code it as respondent error. Define in advance whether a repeat measure, post-explanation choice or follow-up question is needed; an unasked question cannot be reconstructed later.
+
+### 4.5 Manage research stages without creating unnecessary gates
+
+Distinguish collection, source-specific description, provisional synthesis, solution exploration and selection. The user's live request controls the authorized task. An additional file alone does not authorize deck edits or a new synthesis phase. A clear request to triangulate or brainstorm does authorize that work; do not carry an earlier phase restriction forward after the user explicitly changes it. Incomplete research permits labeled hypotheses and options, not fabricated certainty.
+
+Stop or narrow collection when the consequential questions are sufficiently resolved for the next decision, remaining uncertainty can be tested in a pilot, or further information is unlikely to change the choice enough to justify its cost. There is no universal sample cutoff that makes a survey valid and no interview count that automatically establishes saturation. Track what new interviews add and which participant types remain missing. If the deadline arrives first, document the resulting uncertainty and choose an appropriately bounded recommendation.
+
+<a id="bcc-data"></a>
+## 5. Data, provenance and analysis controls
+
+The analytical record should let another person reproduce the claims without treating the deck as the source database. Maintain distinct raw, cleaned, derived and presentation layers. Preserve original files; transformations belong in a documented working copy or reproducible calculation. Keep respondent-level personal information and full private datasets out of reusable master documents.
+
+### 5.1 Maintain a source register and cleaning ledger
+
+| Source ID | Exact file / publication and version | Unit / scope / period | Origin and retrieval date | Status | Used for / limitations |
+|---|---|---|---|---|---|
+| [S01] | [File, sheet or URL; version] | [What a row represents; geography; dates] | [Provider; capture date] | [Current / superseded / excluded] | [Supported questions; boundaries] |
+
+| Dataset | Raw rows | Exclusion rule and count | Duplicate rule and count | Retained rows | Missing / unresolved | Reproducible location |
+|---|---:|---|---|---:|---|---|
+| [Source ID] | [n] | [Rule; n] | [Key; n] | [n] | [Field; n; treatment] | [Script, formula or query] |
+
+Record whether exclusions are sequential or overlapping so counts reconcile correctly. Distinguish known zero, missing, not collected, not applicable, extraction failure and unassessed. Missing baggage text does not establish no entitlement; an absent reply does not establish an unresolved customer case; an unassessed capability does not establish failure.
+
+### 5.2 Define observation units, keys and joins
+
+Before aggregation, state what each row represents: person, response, transaction, review, search session, itinerary, segment, seller offer or accounting period. Related files may describe different levels of one captured hierarchy. Do not add them as independent samples.
+
+Document the intended join cardinality—one-to-one, one-to-many or many-to-many—and inspect unmatched keys, duplicate matches and row inflation. Aggregate to the appropriate level before calculating a metric. A seller-offer count is not an itinerary count; repeated observations of one person are not additional independent people. Company-group and business-unit figures also need separate definitions.
+
+For refreshed full exports, reconcile or replace the prior snapshot rather than blindly concatenate it. Determine whether apparent repeats are duplicate submissions, revised records, legitimate repeated events or unchanged rows in a newer export. Preserve a stable key and log changed records where available. If identity cannot be resolved reliably, state the limitation rather than asserting deduplication succeeded.
+
+### 5.3 Make every denominator explicit
+
+| Metric ID | Definition / formula | Numerator | Denominator / eligible base | Unit and window | Missingness / overlap | Evidence location |
+|---|---|---|---|---|---|---|
+| [M01] | [Exact calculation] | [Count or value] | [Who or what qualifies] | [Currency, time, scope] | [Treatment] | [Source ID; sheet / keys] |
+
+Use the actual question header and version, not remembered question numbering. Branching creates question-specific bases; eligibility creates a different base from raw submissions. Multi-select percentages may exceed 100%, and coded themes may overlap. Explain both. Show counts with percentages, particularly for small groups, and avoid false precision.
+
+Reconcile totals, category sums, time arithmetic, currency conversions and units. Align comparison windows and sampling rules where possible. If sources cannot be aligned, retain their distinct scopes rather than implying like-for-like measurement. Historical observations cannot establish a current fare, schedule, law or product capability; verify time-sensitive claims when they matter to the new decision.
+
+### 5.4 Keep transformations and qualitative coding auditable
+
+Record formulas, filters, thresholds, category mappings, parsing rules, language handling and treatment of ambiguous rows. Separate a directly supplied value, a recalculation, a modeled estimate and a judgment. Preserve enough source locators to trace an exhibit: file, sheet/table, relevant keys or row range, calculation and cutoff date.
+
+| Code / variable | Operational definition | Include / exclude | Overlap rule | Ambiguity treatment | Version / examples |
+|---|---|---|---|---|---|
+| [Theme] | [Observable criteria] | [Explicit boundaries] | [Multi-code allowed?] | [Review / unknown] | [Date; short anonymous examples] |
+
+For open answers and reviews, develop a codebook, test it on varied records and inspect uncertain or contradictory cases. Distinguish keyword mentions from verified incidents, sentiment from task failure, and public replies from successful resolution. When multiple coders or automated classification are used, document their role and review disagreements. Do not imply reliability testing or complete manual review that did not occur.
+
+### 5.5 Calibrate statistical and framework claims
+
+A convenience sample does not become representative because it is large. Report recruitment and eligible coverage; do not attach a national sampling margin of error without an appropriate design. Any interval or statistical comparison needs its assumptions, dependence structure and unit of analysis stated. Statistical significance is not commercial importance, and exploratory slicing can generate chance patterns.
+
+Framework weights, ratings and attractiveness scores are analyst inputs unless grounded otherwise. Show their rationale and test consequential assumptions. A derived matrix is not independent confirmation of its inputs. Arithmetic checking establishes calculation consistency, not the validity of a market assumption, causal claim or proposed budget. Preserve distinctions among revenue, cash flow, contribution, group results and business-unit results.
+
+### 5.6 Freeze a reproducible evidence snapshot
+
+Before using results in a deliverable, record the source versions, cutoff, transformations, metric definitions, unresolved issues and output version. Check only what changed plus dependent calculations; do not repeatedly recompute unchanged evidence for a formatting edit. When new data arrives, trace affected exhibits and claims through the dependency record. Reconcile dependent headlines, notes and economics within the authorized scope. Flag discrepancies in protected content and propose corrections without editing it; do not silently leave inconsistent versions unexplained.
+
+<a id="bcc-synthesis"></a>
+## 6. Synthesis: move from evidence to a decision without overstating it
+
+The analytical chain is **data → observation → interpretation → decision implication**. Each transition needs an explanation. An observation describes a pattern; an interpretation proposes what it means; an implication identifies a decision that should change. A polished headline does not turn an interpretation into a proven cause.
+
+### 6.1 Keep findings and hypotheses visibly distinct
+
+| Claim ID | Observation and supporting source | Interpretation / proposed mechanism | Rival explanation / contradiction | Confidence and boundary | Decision implication / next test |
+|---|---|---|---|---|---|
+| [C01] | [Fact; metric; evidence location] | [Why this might occur] | [What else fits] | [Supported / provisional / unresolved; scope] | [Choice affected; discriminator] |
+
+Distinguish supplied facts, observations from our sample, modeled estimates, tested effects and proposed mechanisms. Confidence labels should explain what is known and missing; avoid pseudo-precise confidence scores. Reserve “root cause” for an adequately supported mechanism, or label it a working root-cause hypothesis. A descriptive case may support a sensible intervention without identifying causality conclusively.
+
+### 6.2 Triangulate mechanisms, contradictions and boundaries
+
+Use different evidence types to ask whether a proposed explanation survives scrutiny. A survey may describe a pattern, interviews may explain how it occurs, operational data may establish its frequency or cost, and a pilot may test the proposed remedy. Their roles differ.
+
+| Proposed explanation | Supporting evidence | Contrary or limiting evidence | Sources actually independent? | Unresolved question | Consequence for recommendation |
+|---|---|---|---|---|---|
+| [Mechanism] | [Claim IDs] | [Counterexample / scope gap] | [Shared data, respondents or assumptions] | [What would discriminate] | [Proceed, narrow, test or reject] |
+
+Several analyses are not independent votes. A survey chart, its crosstab, a SWOT item and a TOWS recommendation may all derive from the same responses. A news report quoting another report is not a second measurement. Explain dependence and avoid counting the same fact repeatedly as stronger proof.
+
+Do not require all sources to agree. Different populations, dates, tasks and conditions may explain divergence. Preserve the strongest rival explanation even when it weakens a preferred idea. For example, a customer may understand the complete price and still rationally prefer a cheaper competing bundle. That finding would challenge an information-only solution without disproving every use for clearer information.
+
+### 6.3 Test whether the insight changes anything
+
+Apply the opposite test: if reversing a statement produces an absurd claim, the original may be too generic. “Customers prefer convenient service” offers little discrimination. A more useful insight specifies whose choice changes, under which condition, at what trade-off and with what business consequence.
+
+The opposite test is a sharpening heuristic, not a reason to suppress important but straightforward findings. A well-established cost leak can warrant action even when its desirability is obvious. Ask: what did we learn beyond the obvious, what choice does it change, and what evidence could show our interpretation is wrong?
+
+### 6.4 Map evidence to solutions without forcing a match
+
+| Solution / primary owner | Problem and affected customer or process | Evidence / analysis contribution | Mechanism proposed | Key assumption / alternative | Test and outcome metric |
+|---|---|---|---|---|---|
+| [Option] | [Specific problem] | [Claim IDs; what each establishes] | [Behavior or process change] | [Unproven link; rival remedy] | [Decision gate] |
+
+One finding may inform several stages of a customer journey. One initiative may also support acquisition, delivery and repeat choice. Give the initiative one primary home, show secondary effects and count its costs and benefits once. Do not force every analysis into every solution: schedule data may inform offer suitability without proving a retention problem; financial analysis may constrain an option without proving customer demand.
+
+Conclude synthesis with a small set of decision-relevant tensions, the options they support, the strongest objections and the next test. Make clear which conclusions are established enough for action, which justify a bounded pilot and which remain ideas. Then lead the storyline with the supported finding and explain the method beneath it or in the linked appendix. The goal is a defensible recommendation, not a catalogue of analytical tools.
+
+<a id="bcc-solutions"></a>
+## 7. Solution lab and pitch standard
+
+### 7.1 Generate a real option set
+
+Begin with the decision, the strongest supported mechanisms and the important rival explanation. Generate meaningfully different interventions across offer design, price, distribution, operations, service, partnerships and business model where relevant. Include a credible baseline/do-nothing option and a simpler alternative. Renaming the same feature does not create a new strategy.
+
+Separate divergence from selection. During exploration, allow ambitious concepts with clearly stated dependencies. Before recommending them, establish who needs them, how they work, what could block them and how the client captures value. Do not fit all evidence into a favored solution after the fact.
+
+Use Observe–Imitate–Modify (OIM):
+
+| Step | Question | Required result |
+|---|---|---|
+| Observe | What need, trade-off or operational condition does our evidence identify? | A scoped problem and the limits of our knowledge |
+| Imitate | What relevant mechanism has been implemented elsewhere? | A dated, attributable benchmark with the actual mechanism |
+| Modify | What must change for this customer, company and context? | A differentiated concept with explicit dependencies and economics |
+
+OIM is one useful ideation method, not permission to assume a benchmark's success or force imitation in every case. If the user asks for broad brainstorming, return a diverse longlist and a smaller recommended set. Explain the important trade-offs instead of manufacturing numerical scores.
+
+### 7.2 The standard solution pitch
+
+Every developed solution should answer the user's five fields. Keep the main pitch concise; store the operating detail and test design in appropriate supporting exhibits.
+
+| Field | What the pitch must say | Failure to avoid |
+|---|---|---|
+| **Description** | Customer, occasion, offer and scope in plain language | A name, acronym or slogan masquerading as a solution |
+| **Root cause solved** | Specific finding or mechanism; supporting evidence; whether causal or provisional | A broad preference presented as a proven bottleneck |
+| **Benchmark** | Where the mechanism operates; what is known about results; what changes here | Transferring uplift from a different market without justification |
+| **Mechanism** | Trigger, actors, sequence, decisions, delivery and exception handling | “Build an app,” “use AI,” or “partner with X” without an operating model |
+| **Impact** | How behavior/process changes, which metric moves, costs and counterfactual | Reach or sign-ups presented as profit, or an invented forecast |
+
+Also record owner, minimum resources, critical assumptions, risks, test and stop/scale criteria. A short pitch may reference this record rather than recite it in full.
+
+Copyable option record:
+
+| Option ID | Description/target | Problem and claim IDs | Benchmark/transfer limits | Mechanism and owner | Impact/cost logic | Critical unknown | Test and decision rule | Status |
+|---|---|---|---|---|---|---|---|---|
+| [ID] | [Offer and user] | [Evidence and maturity] | [Source and adaptation] | [Actions and authority] | [Incremental outcome] | [What could invalidate it] | [How to learn] | [Exploring / testing / selected / rejected] |
+
+### 7.3 Benchmark discipline
+
+Use primary operator documentation, direct research or attributable implementation evidence where available. Check relevant current offerings before claiming a gap: lack of a result in a quick search does not prove absence. Distinguish these levels:
+
+1. **Implemented mechanism:** reliable evidence it exists or was used.
+2. **Reported outcome:** a named organization reports a result; definition and period are clear.
+3. **Credible comparative effect:** evidence supports an incremental effect against a comparison.
+4. **Transfer hypothesis:** an argument for why that mechanism may work in this case.
+
+The fourth is our inference, even when the first three are strong. Record geography, customer, product, scale, timing, economics and operational differences. A mechanism can be useful without being globally unprecedented. Explain the specific modification and why customers might value it.
+
+For each benchmark, retain title, owner, publication/access dates, direct locator, supported claim and access limitation. A redirected homepage does not substantiate the original page's detailed terms. Product claims and results must be dated; examples in this reusable master are not a current product database.
+
+### 7.4 Select a coherent portfolio
+
+Choose a structure suited to the business question. A journey portfolio such as win the first purchase → deliver the promise → earn the next purchase is useful when the economics and customer behavior support it. It is not a mandatory three-solution formula for M&A, operational turnaround or another incompatible case.
+
+One analysis can inform several stages. Give each initiative one primary owner, budget and outcome; show secondary effects without presenting it as multiple independent programs. Map each pillar to its own evidence strength. A weakly evidenced retention idea stays experimental even if acquisition and service findings are strong.
+
+| Initiative | Primary pillar/problem | Secondary effects | Evidence strength | Dependency | Cost owner | Benefit accounting rule |
+|---|---|---|---|---|---|---|
+| [Initiative] | [Main purpose] | [Other plausible effects] | [Direct / supporting / untested] | [What must work first] | [Function] | [How overlap is handled] |
+
+Compare alternatives on impact, desirability, feasibility, strategic fit, resources, risk and time to learn. Explain criteria and uncertainty. Weighted scoring is optional; use it only with a justified scale and weights, and test sensitivity. Unknown is not zero. A fatal feasibility problem cannot be averaged away by high scores elsewhere. Reject, narrow or redesign an option that cannot be executed within its essential constraints.
+
+### 7.5 Separate market, product, channel and pilot
+
+Define four different objects before sizing or claiming scale:
+
+- **Customer market:** who experiences the relevant need, in what unit and period.
+- **Product/proposition:** what the company offers to satisfy it.
+- **Channel:** how those customers discover, evaluate or purchase the offer.
+- **Pilot:** the deliberately bounded environment used to learn.
+
+A campus event can be a channel or pilot without defining the entire market for a trip-proposal product. A large participant list does not establish airline demand. Similarly, a store pilot does not make every shopper an addressable user, and a corporate partnership does not guarantee employee adoption.
+
+Expand beyond a pilot only after testing transfer conditions: different customer needs, channel access, unit economics, capabilities and delivery constraints. Do not broaden the market solely to rescue an unattractive forecast.
+
+<a id="bcc-economics"></a>
+## 8. Market sizing and economic model
+
+### 8.1 Start with units and scope
+
+Define people, accounts, households, customers, purchases, journeys, segments and seats separately. Specify geography, business unit, period, currency and tax treatment. A repeat transaction is not a new customer. Revenue, gross ticket spending, GMV, profit and cash flow are different quantities.
+
+Define TAM as the theoretical relevant demand, SAM as demand the proposition can serve within its scope, and SOM as demand plausibly obtainable within the horizon and constraints. State whether each is a count or monetary measure. Population share is not automatically consumption share; the same population can make many trips or none.
+
+Use top-down sizing to bound the opportunity when sound category data exist. Use bottom-up sizing to connect reachable opportunities, viable supply, conversion and costs. Reconcile different units, periods and assumptions rather than forcing the methods to match. A material discrepancy is a question to investigate, not a number to average away.
+
+### 8.2 A bottom-up commercial model
+
+Build a funnel from actual or explicitly assumed conditional steps:
+
+> Relevant opportunities → reachable opportunities → suitable offers → completed purchases → fulfilled purchases.
+
+Use conditional rates whose denominators are defined. Do not multiply unrelated survey percentages as if they were independent probabilities. When records are available, count the intersection directly. Model channel overlap and repeat exposures before counting unique opportunities.
+
+For a travel example, suitability may require route coverage, dates, both outbound and return inventory, ground-transfer feasibility, acceptable total cost and channel access. A national population number supplies none of these automatically.
+
+| Input | Value/unit/period | Evidence state | Source or rationale | Downside/base/upside | Constraint or dependency |
+|---|---|---|---|---|---|
+| [Reachable opportunities] | [Value] | [Observed / derived / assumed] | [Locator] | [Range] | [Deduplication and channel scope] |
+| [Purchase probability] | [Conditional rate] | [State] | [Basis] | [Range] | [Denominator and test] |
+| [Fulfillment capacity] | [Units] | [State] | [Basis] | [Range] | [Timing and location] |
+| [Net contribution] | [Currency per unit] | [State] | [Basis] | [Range] | [Included costs] |
+
+Apply capacity, funding and servicing ceilings. Gross bookings may include customers who would have bought anyway, migration within the same company group, and purchases displacing more valuable demand. Label gross volume before subtracting or otherwise modeling these effects.
+
+### 8.3 Revenue and cost identities
+
+Choose one dimensionally correct revenue identity for the model:
+
+- Product: units sold × net price per unit.
+- Transaction business: purchasing customers × orders per customer × net average order value.
+- Marketplace: GMV × realized take rate, with other revenue separated.
+- Subscription: paying accounts × revenue per account per period, with acquisition, churn, pauses and cohort timing explicit.
+- Advertising: impressions ÷ 1,000 × realized CPM.
+- Cost reduction: comparable baseline cost − intervention cost, adjusted for volume, mix and service level.
+
+If using customer count × order frequency × order value, do not multiply by price again. Do not call order value “volume.” Taxes and pass-through collections are not automatically company revenue.
+
+Separate variable fulfillment costs, incentives, acquisition costs, support, expected recovery/warranty costs, partner fees, fixed setup and ongoing overhead. State treatment of depreciation, capital expenditure, working capital, lease payments and financing where relevant. Do not add the same expense through both a per-unit margin and a separate total-cost line.
+
+### 8.4 Incremental contribution and cash
+
+The decision compares intervention with a credible counterfactual:
+
+> Incremental contribution = total contribution under the program − total contribution without the program.
+
+Then deduct incremental fixed program costs not already included. Explicitly account for displaced demand, discounts on purchases that would already happen and changes between sister brands. Keep repeat purchase, acquisition and recovery benefits from being counted several times for the same transaction.
+
+Cash modeling adds the timing of receipts, refunds, supplier payments, working capital and capital spending. Accounting profit, positive operating cash flow and available program funding are separate questions. Historical company cash is not an approved project budget. A purpose-built cash diagnostic must retain its definition rather than being called generic free cash flow.
+
+**Illustrative arithmetic only:** a pilot has 100 genuinely incremental fulfilled orders at 80 currency units of contribution each. It also pays a 10-unit incentive on 300 pre-existing orders. With 4,000 units of incremental setup cost, incremental result is `100 × 80 − 300 × 10 − 4,000 = 1,000`. The 80 already includes costs and incentives on the incremental orders. These values are fictional; the example shows why total treated orders are not all incremental demand.
+
+### 8.5 Assumptions, sensitivity and decision gates
+
+Propose explicit assumptions when the task authorizes exploratory modeling. Give their rationale, evidence state and sensitivity. Never present them as measured facts or fill a scorecard merely to make it look complete. If a parameter cannot be bounded meaningfully, show the equation or break-even requirement and identify the evidence needed.
+
+Use conservative/base/upside as internally coherent scenarios, not confidence intervals unless a statistical model justifies that interpretation. Test the few variables capable of changing the decision. Include adoption, net margin, benefit cost, channel reach, implementation delay, capacity and cannibalization as relevant. Model correlated downside conditions where plausible.
+
+Check units, signs, totals, accounting scope and time horizon; distinguish percentages from percentage-point changes. Reconcile source tables and preserve formulas. Test break-even conditions, not just an attractive base case. For capital decisions, choose NPV, IRR, payback or another measure suited to cash-flow timing; handle non-conventional cash flows and no-payback cases honestly.
+
+Minimum economic output:
+
+1. Baseline/counterfactual and time horizon.
+2. Input register with evidence states and units.
+3. Incremental volume and revenue/contribution bridge.
+4. Costs, cash timing and capacity constraints.
+5. Downside/base/upside and break-even conditions.
+6. Overlap/cannibalization treatment and major unresolved inputs.
+7. Decision: pilot, revise, reject or scale conditionally.
+
+<a id="bcc-frameworks"></a>
+## 9. Optional framework library
+
+Select a framework because it helps answer a decision, not because a case deck is expected to contain it. A small, well-supported analysis can be stronger than a complete set of matrices. Frameworks organize evidence; multiple frameworks reusing the same evidence do not constitute independent triangulation.
+
+For each tool used, record the decision, scope and date, minimum inputs, calculation or judgment rules, result, sensitivity and implication. If an input is unavailable, mark it unassessed and state what could resolve it. Do not turn missing information into a low score or favorable assumption. There is no mandatory IFE → EFE → IE → SWOT → TOWS → recommendation chain.
+
+### 9.1 Problem structure: business typing, MECE and issue trees
+
+**Use when:** the team needs to decide what to investigate or explain a performance gap. **Minimum inputs:** decision-maker, objective, business model, observed symptom, period and constraints; see [case intake](#bcc-intake).
+
+Identify the working problem type: profitability, product-market fit, competition, perception, internal capability, investment, or a documented combination. Treat the type as revisable. An apparent awareness problem may ultimately be price, availability or execution.
+
+Break the decision into testable branches. Use MECE to reduce overlapping counts and reveal missing drivers: mutually exclusive accounting categories and collectively exhaustive coverage within the declared scope. Specify units and boundaries before claiming completeness. Behavioral causes can interact; show those relationships rather than pretending they are independent.
+
+Attach a research question, evidence needed and decision consequence to each material branch. Stop decomposing when a branch supports a useful test or action. A tidy tree does not establish causality, and “marketing / social media / price” mixes levels. Consult [research design](#bcc-research) and [synthesis](#bcc-synthesis) for evidence quality and rival explanations.
+
+### 9.2 Communication: SCQA, Pyramid, dots and dashes
+
+**Use when:** framing the case or communicating an answer. **Minimum inputs:** agreed context, evidenced complication, decision question and a recommendation or explicitly provisional answer.
+
+- **SCQA:** Situation establishes relevant context; Complication states the tension; Question defines the decision; Answer addresses it. A complication can be an opportunity or constraint, not necessarily a decline.
+- **Pyramid Principle:** lead with the answer, group distinct supporting reasons underneath, then supply evidence and material qualifications. Group reasons by logic rather than forcing three branches.
+- **Dots and dashes:** draft takeaway headlines first, then list the exhibits needed to substantiate each. Read the headlines in sequence to test the argument.
+
+An insight connects an observation to a trade-off or decision. The “opposite test” can expose a truism, but a debatable sentence still needs evidence. “People value convenience” is broad; identifying which task users sacrifice money or time to avoid is more actionable. Do not convert an association into an explanation through assertive wording. See [story construction](#bcc-story) for the main deck and appendix distinction.
+
+### 9.3 Profit tree and operating drivers
+
+**Use when:** explaining profit movement or locating a value opportunity. **Minimum inputs:** comparable revenue and cost periods, accounting definitions, units sold or customers served, prices, mix and exceptional items.
+
+Use compatible identities:
+
+- Profit = revenue − costs, at a stated accounting level.
+- Revenue = units × realized revenue per unit.
+- Alternatively, revenue = purchasing customers × orders per customer × revenue per order.
+- Operating cost = fixed cost + activity-dependent costs within the relevant capacity range.
+
+Average order value is a revenue measure; multiplying it into “volume” and then applying price again double-counts value. Separate price, quantity and mix, and identify interaction terms in period bridges. Cost classifications depend on horizon: staff, maintenance and capacity commitments are not automatically variable because operations use them.
+
+Calculate gross, operating and net margins with matching numerators. A growing business can lose profit through adverse mix or costs, while working-capital requirements can consume cash. Diagnose the driver before proposing an intervention; a higher fuel bill does not by itself justify hedging or establish that hedging reduces expected cost. Develop the counterfactual in [economics](#bcc-economics).
+
+### 9.4 TAM, SAM, SOM and bottom-up market sizing
+
+**Use when:** deciding whether an opportunity merits attention and what scale is plausible. **Minimum inputs:** customer and purchase-unit definitions, geography, period, eligible demand, frequency, price, reach and capacity.
+
+**TAM** is demand within the explicitly defined overall market; **SAM** is the part the offering and operating scope can serve; **SOM** is the portion plausibly obtainable during a stated period. Report people, transactions and revenue separately. Do not mix gross bookings, recognized revenue and contribution.
+
+Build top-down estimates using sourced population and qualification rates. Build bottom-up estimates from reachable accounts or customers, relevant occasions, purchase conversion and fulfilment capacity. Reconcile differences in coverage, frequency and units; do not average incompatible estimates or force agreement.
+
+**Illustrative calculation, not a market claim:** 10,000 eligible people × 2 relevant occasions/year × 20% reachable = 4,000 reachable occasions. At an assumed 5% purchase rate, the scenario yields 200 transactions; a 150-transaction capacity limit reduces feasible fulfilment to 150. At IDR500,000 per transaction, gross booking value is IDR75 million, not profit. Check repeat-person overlap and displaced purchases separately. An event partnership is a channel, not automatically the market.
+
+### 9.5 Customers, competitors and positioning: 3C, STP, journeys and CBBE
+
+**Use when:** deciding whom to serve, why they choose alternatives and how the company can compete. **Minimum inputs:** customer behavior and needs, alternative offers, segment reach and economics, capabilities, and a defined buying or use occasion.
+
+**3C** compares customers, competitors and company. Establish need and willingness or ability to pay, examine actual alternatives including non-consumption, then assess execution fit. Investigate in the order evidence availability supports; there is no compulsory external-first sequence.
+
+**STP** groups meaningful differences in needs, behavior, occasions or economics, selects a target, then states a positioning promise and reason to believe. Age alone rarely explains a mechanism. Distinguish traveler/user, payer, influencer and approver where relevant. Segments may overlap behaviorally; use exclusive definitions when sizing them. A narrow segment still needs sufficient reachable demand.
+
+**Jobs-to-be-done and journey mapping** trace the progress sought and steps taken before, during and after use. Record task, actor, alternative, friction and outcome. **Kano** can explore differing reactions to feature presence and absence; use an appropriate paired instrument rather than casually labeling features “delighters.” **AIDA** can organize attention-to-action hypotheses, but observed journeys need not be linear. Competitor maps require comparable offers and justified axes.
+
+**CBBE** examines salience, performance/imagery, judgments/feelings and resonance. Separate measured awareness, perceived quality, functional performance and actual repeat behavior. A qualitative pyramid is not a retention model. Use it to locate evidence gaps; do not claim that improving one layer necessarily produces the next. See [research](#bcc-research) for behavioral instruments.
+
+### 9.6 External environment: PESTEL and Five Forces
+
+**Use when:** external change or industry structure materially affects the decision. **Minimum inputs:** defined industry and geographic scope, dated macro evidence, competitive economics and exposure mechanisms.
+
+For **PESTEL/PESTLE**, examine political, economic, social, technological, environmental and legal forces. For each relevant factor, record the observed development, company exposure, time horizon, likely mechanism and strategic implication. Prioritize material factors without filling every category artificially. Verify current laws and policy details when relevant; do not recycle undated national statistics or cultural generalizations.
+
+For **Five Forces**, assess rivalry, entry, supplier power, buyer power and substitutes. Define the transaction and market boundary first: another provider of the same service is usually a rival; a different way to meet the need may be a substitute. Examine concentration, switching, capacity, differentiation, access and costs with evidence.
+
+A qualitative rating can summarize reasoning, but specify the scale and uncertainty. Averaging five scores is not a profitability forecast. Close by explaining which pressures affect price, cost, volume or investment and what can change; industry pressure does not establish that one marketing feature will resolve it.
+
+### 9.7 Internal capability: VRIO and 7S
+
+**Use when:** assessing whether the client can deliver and defend an advantage. **Minimum inputs:** specific resources or capabilities, customer value or cost effects, competitor availability, replication barriers and organizational evidence.
+
+**VRIO:** test value, rarity, difficulty of imitation or substitution, and organization to capture value. A valuable but common resource suggests parity; a valuable, rare but replicable resource suggests a potentially temporary advantage. Valuable, rare and difficult-to-copy capability without supporting organization is unrealized potential. All four supported conditions suggest a possible sustained advantage within the stated competitive context, not permanence. Mark uncertain tests unassessed. An app, brand or loyalty program is not rare merely because the company owns one.
+
+**7S:** compare strategy, structure, systems, style, staff, skills and shared values. Identify actual misalignments and their operational consequence, then specify the change, owner, dependency and evidence of improvement. This is useful for integration and implementation; it should not become seven generic descriptions. Competitor imitation risk matters, but a useful, profitable service improvement need not have a permanent moat to merit a pilot.
+
+### 9.8 Strategic factors: SWOT, TOWS, IFE, EFE and IE
+
+**Use when:** consolidating strategic factors or testing whether proposed choices fit the available evidence. **Minimum inputs:** distinct sourced factors, scope, date and, for scoring, defensible weights and rating rules.
+
+**SWOT** separates internal strengths/weaknesses from external opportunities/threats. Write factors with supporting evidence and implications; merge duplicates. **TOWS** generates options by combining relevant factors: use strengths to pursue opportunities or address threats; remedy weaknesses to access opportunities or reduce exposure. Select factors by materiality, not an arbitrary item count. TOWS is an option generator, not a mandatory origin for every recommendation.
+
+**IFE:** weights represent relative importance and sum to 1. Under the conventional scale, ratings 1–2 represent major/minor weaknesses and 3–4 minor/major strengths. **EFE:** weights also sum to 1, but ratings assess the company's response to external factors: 1 poor, 2 average, 3 above average, 4 superior. EFE does not rate whether the environment is favorable. Calculate total score as Σ(weight × rating); record the rationale for each value.
+
+Missing evidence about a response is not evidence of poor response. An assumed rating is not measured performance. If all EFE ratings are set to 2, the total is exactly 2 regardless of weights and conveys that assumption. Leave the total provisional, give justified bounds, or postpone it. Do not silently renormalize around omitted factors. The 2.5 midpoint is a conventional reference, not a validated threshold for business success.
+
+**IE** conventionally plots IFE horizontally and EFE vertically, using weak/low 1.00–1.99, average/medium 2.00–2.99, and strong/high 3.00–4.00 bands. State boundary treatment and cell orientation. Traditional groupings suggest grow/build, hold/maintain or harvest/divest; these are prompts for examination. They do not authorize investment or override customer and financial evidence.
+
+Test reasonable alternative factor weights and ratings, especially near a cell boundary. If plausible inputs move the recommended category, report instability. Discuss substantive tensions between options and capabilities; do not manipulate scores to obtain a preferred cell or require a solution to obey the matrix.
+
+### 9.9 Growth and portfolio choices: Ansoff, BCG, ERRC and SPACE
+
+**Use when:** comparing growth directions or portfolio allocation. **Minimum inputs:** definition of the existing business and markets, comparable segment economics, competitive position and resource requirements.
+
+**Ansoff** distinguishes penetration, market development, product development and diversification using existing/new markets and products. Define “new” relative to the company. A new interface may be a channel improvement; a younger audience already served may not constitute a new market. Novelty often adds uncertainty, but quadrant labels do not supply a universal risk ranking.
+
+**BCG** compares market growth with relative market share, conventionally the business's share divided by that of its largest competitor. Use matching market definitions and periods and justify growth thresholds. Stars, cash cows, question marks and low-growth/low-share units are prompts to examine cash generation and investment. Share does not establish profitability; a low-share unit may have strategic or economic value.
+
+**ERRC** asks what to eliminate, reduce, raise and create. Tie each proposed change to a customer trade-off and delivery economics. Do not eliminate essential obligations or call a feature unprecedented without evidence. **SPACE**, if used, requires an explicit scoring/sign convention for financial strength, competitive advantage, industry strength and environmental stability; add the paired axes and test the resulting vector's sensitivity. A provisional vector is not a strategic mandate.
+
+### 9.10 Choice discipline: impact–effort, QSPM and feasibility gates
+
+**Use when:** choosing or sequencing options. **Minimum inputs:** comparable alternatives, decision criteria, costs, capacity, impact mechanism, dependencies and uncertainty; see [solution development](#bcc-solutions).
+
+**Impact–effort** separates potential benefit from resources and complexity. Define impact in decision-relevant units and effort across money, time, integration and organizational change. A visually attractive quadrant does not replace estimates. Sequence dependencies: an enabling project can precede a higher-impact customer feature.
+
+**QSPM or a weighted scorecard** can expose assumptions about relative attractiveness. Define criteria, weights, rating anchors and which criteria truly differentiate choices. Compare alternatives consistently; flag missing values instead of treating them as zero. Test whether plausible weight or score changes alter the ranking. Avoid duplicate criteria that reward the same benefit twice.
+
+Apply non-negotiable feasibility conditions before compensatory scores: legal authority, operational safety, essential capacity, funding or another case-specific hard constraint. One critical failure can block an option; several favorable scores cannot average it away. Unknown means investigate or bound the pilot, not automatic failure. Record conditions, owner, remedy, evidence required and stop rule. Benchmarks, impact chains and problem–solution fit are developed in [solutions](#bcc-solutions) and [economics](#bcc-economics).
+
+### 9.11 Acquisition and operational improvement: M&A and DMAIC
+
+**Use when:** evaluating an acquisition or diagnosing a repeatable process. **Minimum inputs for M&A:** standalone performance, strategic alternatives, purchase price, financing, integration needs and qualified regulatory assessment.
+
+Compare build, partner and buy. Separate standalone value from incremental revenue/cost synergies, integration costs, dis-synergies, cannibalization and timing. Cross-selling is an assumption until customer overlap and behavior support it. Check valuation multiples against compatible metrics and transaction context; a generic revenue multiple or approval duration is insufficient. Funding and integration plans must be executable, and synergies must not be counted in both standalone value and the premium rationale.
+
+**DMAIC:** Define the customer or process outcome; Measure consistent baseline units; Analyze causal candidates; Improve with a controlled intervention; Control through ownership and monitoring. Use process maps, fishbone diagrams and 5 Whys to generate explanations, then verify them. Identify the actual bottleneck rather than choosing a visibly busy step.
+
+**Illustrative operational check:** reducing a cycle from 45 to 30 minutes cuts cycle time by 33.3%, while theoretical throughput rises from 1.33 to 2 units/hour, or 50%. Actual output depends on uptime, yield, staffing, supply, downstream capacity and demand. It does not automatically close a fulfilment gap.
+
+### 9.12 Financial metric reference
+
+**Use when:** comparing economic outcomes. **Minimum inputs:** incremental cash flows against a counterfactual, time horizon, cost definitions, working capital, capacity and justified discounting assumptions. Full model discipline is in [economics](#bcc-economics).
+
+| Metric | Calculation and interpretation safeguard |
+|---|---|
+| Contribution | Incremental net revenue less incremental variable and servicing costs; state what is excluded. |
+| Break-even volume | Incremental fixed cost ÷ positive contribution per unit, if linear assumptions hold within capacity. |
+| NPV | Σ from t=0 to T of CFₜ/(1+r)ᵗ, including initial outlay in CF₀. Match cash-flow and discount-rate definitions. Positive modeled NPV depends on credible assumptions and does not remove constraints. |
+| IRR | Rate making NPV zero. Non-conventional cash flows can yield multiple or no meaningful IRRs; use NPV to compare scale and timing consistently. |
+| Payback | First period cumulative net cash flow recovers the outlay. Outlay ÷ annual cash flow applies only to constant positive annual flows; simple payback ignores discounting and later cash flows. |
+| CAC | Defined acquisition costs ÷ relevant acquired customers. Separate attributed from incremental acquisition and specify the cohort. |
+| CLV | Expected discounted customer contribution after relevant retention/service costs. Order value × frequency × lifespan is revenue, not contribution CLV. State whether acquisition cost is included. |
+| ROI | Define numerator, investment denominator and period; do not compare incompatible ROI definitions. |
+
+There is no universal BCC discount rate, acceptable payback or CLV:CAC ratio. Use appropriate context, scenarios and sensitivity; do not choose constants to make a proposal pass. Prepare the model's assumptions, limitations and decision consequences for [Q&A defense](#bcc-defense).
+
+<a id="bcc-story"></a>
+## 10. Storyline and main-deck production
+
+### 10.1 Build the argument before its visual packaging
+
+For main-deck work, write the answer and supporting claim headlines before detailed layout. This does not prohibit earlier source-specific appendix production. Use dots-and-dashes: each dot is a slide's main claim; its dashes are the evidence and explanation that make it credible.
+
+Test horizontal logic: reading only the headlines should reveal the problem, diagnosis, choice, delivery and impact. Test vertical logic: each exhibit should support its own headline at the stated scope. Avoid turning a correlation into a causal headline or a hypothetical intention into a forecast.
+
+| Main claim | Essential proof | Material qualification | Proposed visual | Supporting appendix ID | Rubric criterion |
+|---|---|---|---|---|---|
+| [One sentence] | [Finding/model/mechanism] | [What changes interpretation] | [Chart/table/flow] | [Stable ID] | [Actual criterion] |
+
+A flexible main-deck sequence is executive answer → relevant context and diagnosis → selected strategy → solution mechanisms → implementation → economics → risks and decision. Adapt it to the brief and page limit. Do not mandate three solution slides, a fixed analysis count or a closing slide when those do not serve the task.
+
+### 10.2 Write supported insight headlines
+
+A useful headline says what the slide establishes and why it matters. Topic labels can identify the method or section. Main-deck typography follows the accepted main template; the appendix-specific exact two-line default does not automatically apply to main slides.
+
+Illustrative rewrites:
+
+| Weak label or overclaim | Better scoped headline |
+|---|---|
+| Survey analysis | Payer involvement is common in this sample, making shared evaluation worth testing |
+| Our app will solve conversion | The proposed flow removes a documented handoff; its conversion effect remains to be tested |
+| Financial projections | The pilot breaks even only above the modeled adoption threshold |
+| Competitor analysis | Comparable inclusions shift the decision toward total value and delivered service |
+
+Use “shows” for an observed or derived finding, “suggests” for an interpretation and “we propose/test” for an intervention. Do not scatter these words mechanically; make the claim's evidence state clear. A straightforward conclusion can be valuable without being surprising.
+
+### 10.3 Decide MAIN, APPENDIX or BOTH
+
+If removing information breaks the argument or hides a material limitation, keep the necessary version in the main deck. If it mainly makes the reasoning auditable, reproducible or easier to defend, put the detail in the appendix. BOTH means a concise main finding plus its full supporting record.
+
+The main deck must remain understandable without clicking. It should contain the decisive evidence and the conditions that determine the decision. Put full codebooks, framework factors, transcripts, assumptions, detailed calculations and rejected alternatives in appropriately scoped backups. Notes may hold longer source locators, but essential submission evidence must remain accessible in the submitted format; notes may not survive PDF export.
+
+### 10.4 Design the main slides for the current case
+
+Preserve the accepted main-deck template, type, color system and protected elements. Do not apply the appendix font, topic-label layout, table density or exact headline treatment to main slides merely because this master defines them for appendices. Use one dominant message and a visual arrangement that makes the evidence easy to compare. Dense tables can be justified, but inspect them at realistic size.
+
+Every numerical exhibit needs clear units, dates, denominators and scope. Mark hypothetical examples, scenarios and assumed scores. Choose bars for comparisons, lines for time, tables for exact mappings and process diagrams for sequences or ownership. Avoid decorative charts, misleading axes, unlabeled dual axes and diagrams that imply causal certainty without evidence.
+
+Before an authorized build, inspect the latest actual file and read the current presentation-tool instructions. Create a bounded edit plan, update relevant sources and notes, render the changes, and verify protected content. A file opening successfully does not establish that charts, links, fonts or evidence are intact. Detailed appendix and navigation requirements follow below.
+
+<a id="bcc-appendix"></a>
+## 11. Appendix builder and default visual system
+
+### 11.1 Purpose, scope and timing
+
+The main deck carries the argument; the appendix makes the work inspectable. A judge should understand the recommendation and its decisive evidence without clicking away. Appendices provide the full methods, calculations, detailed findings, alternatives and operating assumptions needed to challenge or reproduce that argument. Material qualifications remain beside the claims they qualify in the main deck.
+
+This section is the user's default **for appendices only**. It does not authorize restyling the main deck, replacing its fonts, moving its sections or rebuilding accepted slides. The current request and competition requirements determine the actual scope. A protected navigation slide stays protected even when this master recommends navigation as a general practice.
+
+Source-specific appendices can be produced while research continues. A completed survey audit, dated financial baseline or individual interview record need not wait for the final storyline. Building those exhibits does not automatically authorize triangulation, segment selection or solution conclusions. Conversely, an earlier research-stage restriction is not a permanent prohibition: a later explicit synthesis request authorizes that phase. Record the current phase in the case handoff.
+
+Every candidate exhibit needs a purpose: support a claim, expose a method, explain a decision or answer a plausible judge question. Combine related material when it remains readable; split when one slide cannot carry it. There is no universal appendix count, one-slide-per-framework rule or virtue in maximizing page count.
+
+### 11.2 Recover the accepted base
+
+Start from the latest accepted deck, including the user's subsequent manual edits. A filename alone may not distinguish the accepted revision from an older export. Check the handoff, modification history where available, slide contents and any recorded fingerprint. If only a context document is available, prepare the content specification and request the current deck before promising a faithful edit.
+
+Inspect the actual canvas, theme, appendix layouts, fonts, notes, native objects and relationships. Use this priority: current accepted appendix design and live instructions; current competition template; the appendix defaults below; supplied references for specific permitted features. A reference deck does not transfer its company facts, analysis, branding or conclusions into the current case.
+
+Create a bounded change map before production:
+
+| Field | Record |
+|---|---|
+| Requested result | New exhibits, evidence refresh, headline revision or navigation work |
+| Affected exhibits | Stable IDs and actual current slide positions |
+| Dependencies | Relevant source files, calculations and existing claims |
+| Protected elements | Main slides, navigation, accepted bodies, notes or other objects outside scope |
+| Required checks | Evidence, visual fit, relationships, destinations and preservation |
+
+Duplicate a matching accepted layout whenever possible. A transcript, dense framework table and comparative chart need different structures. Create a new layout only when existing ones cannot present the evidence clearly.
+
+### 11.3 Build an auditable exhibit specification
+
+Prepare content before drawing shapes. Each exhibit record should contain:
+
+- Stable exhibit ID, short topic label, two-line main headline and exhibit purpose.
+- Exact source filename or publication identifier; sheet, range, question number, record key or page as applicable.
+- Observation unit, raw and retained counts, exclusions, date window, missingness and calculation rules.
+- Exact table or chart data, units, rounding, relevant denominator and definition of each derived measure.
+- Material scope limits, assumption labels, provisional status and any contradictory finding needed to interpret the exhibit.
+- Visible source footer, detailed notes, linked claims and future refresh dependencies.
+
+Do not turn source availability into analytical completion. Unknown ratings remain unknown; untested effects remain hypotheses; proposed targets remain targets. Never invent weights, adoption uplift, market size, model inputs, technical capabilities or a respondent profile to fill a layout. Keep offers, reviews, flight segments and people as separate observation units.
+
+For a data refresh, rebuild affected measures from the relevant source version and propagate changed denominators, labels and conclusions within the authorized scope. Record affected protected content and proposed corrections without editing it. A new full export normally replaces or reconciles the earlier snapshot; it is not blindly appended. A formatting-only request does not require recalculating unrelated evidence.
+
+### 11.4 Default appendix design
+
+The default is a detailed, restrained evidence appendix with a clear hierarchy and readable tables. It should show analytical depth through traceable content, not decorative cards or unnecessary framework pages.
+
+| Element | Default treatment |
+|---|---|
+| Topic label | Small blue label naming the exhibit or analytical topic; one concise line |
+| Main headline | Evidence-led statement, naturally long enough to occupy exactly two readable lines |
+| Supporting context | Brief scope or interpretation only when it adds information |
+| Evidence body | Native editable tables, charts or structured text; intentional column proportions |
+| Qualification | Legible nearby limitation or assumption when material |
+| Footer | Distinct evidence navigation and source attribution where applicable |
+| Folio | Stable, readable appendix identifier consistent with the deck |
+
+Use Plus Jakarta Sans as the appendix font default where permitted: genuine upright SemiBold for body copy and Bold for headings. Adapt branding, colors and typography when the competition template or explicit user instruction requires it. This default never authorizes converting the main slides. Preserve supplied logos, frame elements and intentional decorative cropping.
+
+Inspect actual font faces, not just family names. In the approved Garuda workflow, requesting a generic normal face initially resolved to italic; explicit upright SemiBold and Bold registrations corrected it. Check installed or legitimately embedded font metadata, rendering and measurement. Disclose an unavoidable substitution. Do not relabel font internals or fabricate a missing face.
+
+Set the grid from the actual slide dimensions. As an illustrative starting reference, the accepted Garuda canvas was 1920 × 1080 px: left margin about 4.3%, headline width about 79.7%, body width about 91.6%, body beginning near 21.3% of height and ending before 86%. Its headline was 38 px, body typically 22–26 px and source footer 18 px. These are reference proportions, not dimensions to impose on another deck. At 96 dpi, points equal pixels × 0.75; never confuse the units.
+
+Reserve title, evidence, qualification and footer zones before filling them. Maintain deliberate row padding and chart-label space. Increase row height, simplify unnecessary columns or split across slides before shrinking text beyond practical reading size. Table continuation pages retain headers, units and scope. Density is acceptable when the hierarchy is clear and the content remains readable at ordinary slide view.
+
+### 11.5 Write real two-line headlines
+
+The topic label names the analysis; the headline states what the evidence shows. “Baggage analysis” belongs in the small label. The main headline should convey the supported finding and, where necessary, its boundary.
+
+Write the claim first, then fit it. Use an intentional break at a natural clause boundary for stable wrapping, while ensuring the sentence is genuinely substantial enough to require two lines. Do not pad a short label with empty language, squeeze type to preserve a preferred phrase or add unsupported causality for drama. Two-line fit is a visual default, not permission to distort evidence.
+
+An illustrative, non-case-specific pattern is:
+
+> Most retained responses involve another person in payment,  
+> while the survey does not establish whether coordination prevents booking
+
+Use “captured,” “screened,” “assumed” or dates when these change interpretation. Attribute an interview finding to that respondent; do not turn one person's account into a population conclusion. For methodological pages, state what the method establishes or limits rather than manufacturing a business insight. Headline-only revisions preserve the body, notes, evidence and unrelated geometry unless separately requested.
+
+### 11.6 Editable evidence and interview continuation
+
+Prefer native PowerPoint tables for exact values and native charts with inspectable data for comparisons. Preserve editability in accepted exhibits. A high-resolution source capture may be appropriate when fidelity to a document is essential, but use the relevant range, keep it readable and record its source. Do not flatten existing editable analysis simply because a screenshot is easier to produce.
+
+Charts need legible labels, explicit units, an appropriate denominator and the relevant time window. A chart adds value when it reveals comparison, distribution or change more clearly than a table. Avoid decorative chart variants, redundant titles and truncated axes that mislead.
+
+Survey appendices should preserve methodology, recruitment, screening, raw/eligible/excluded counts, relevant profiles, distributions, question wording or routing, and limitations. Include crosstabs only where useful; small cells do not become reliable segments because they are visually distinct.
+
+Interview appendices should be reusable, complete and editable. Record only supplied profile and session metadata, anonymous ID, consent status and translation status. Preserve the wording of questions and answers when a full transcript is requested. If the source is written Q&A, label it accordingly rather than claiming audio transcription. Distinguish verbatim material, faithful translation and edited summary. Keep the original text accessible in the appropriate exhibit, notes or accompanying source record; a translation does not replace the source.
+
+Duplicate the profile-and-Q&A structure for continuation pages. Preserve question order and use additional pages for longer answers rather than microscopic type. Update inherited notes, respondent IDs, permissions and metadata on every copied page. Leave unavailable fields clearly unrecorded; do not invent photographs, dates, quotations or documentation. Publication and quotation treatment must follow the permissions actually established. Provide simple duplication instructions so the user can add subsequent respondents independently.
+
+### 11.7 Production and preservation
+
+Read the presentation instructions available in the execution environment before implementing. Historical script names, object IDs and API signatures are reference information, not guarantees about a new file or runtime.
+
+Author from the audited specification, render the changed slides and correct content and layout together. Preserve slide masters, notes, images, chart workbooks and relationships. For narrow revisions, prefer targeted edits that limit unrelated changes. If an import/export round trip alters untouched objects, use a supported preservation method and compare the relevant package parts. New slides require correctly remapped relationships; copying visible shapes alone is insufficient.
+
+Save a new accepted revision through the environment's required saving method and retain the prior accepted artifact. Default to the requested editable format. A PDF may be generated internally for necessary verification, but do not add it as a deliverable unless requested or required by the competition submission. Update the handoff with the actual output, completed checks and remaining limitations.
+
+<a id="bcc-navigation"></a>
+## 12. Clickable evidence navigation and quality assurance
+
+### 12.1 Separate navigation from attribution
+
+An internal appendix link leads to the team's supporting analysis. A source reference identifies the underlying dataset, document or publication. These are different functions, and one does not replace the other.
+
+Use concise footer labels with meaningful destinations. Illustrative labels, **not links to existing exhibits**, are `Evidence: B29 Survey method · B34 Approval responses` and `Sources: Survey export, fieldwork window; team calculations`. Detailed locators belong in the destination exhibit or notes. A material qualifier cannot be hidden exclusively in a footer, hyperlink destination or speaker note.
+
+The supplied friend-reference PDF contributes navigation inspiration only. Its previously inspected page 2 linked to pages 10–11, and page 6 linked to pages 26–29; no appendix return links were found in that inspection. This shows how compact footer controls can expose depth. It does not endorse the reference deck's analysis or make those page numbers a reusable template.
+
+### 12.2 Maintain an explicit link registry
+
+Keep claim identity, exhibit identity and slide position separate. An exhibit may move while retaining its stable ID. Resolve actual destinations from the final file rather than assuming that visible folio B12 always equals a particular slide number.
+
+| Registry field | Purpose |
+|---|---|
+| Claim ID and current main slide | Identifies the assertion being supported |
+| Evidence role | Supporting finding, method, calculation, contradiction or limitation |
+| Stable exhibit ID | Names the supporting exhibit independently of position |
+| Current target and display label | Records the actual slide destination and text the judge sees |
+| Source ID and locator | Connects the exhibit to the underlying evidence |
+| Return destination | Names a deterministic main slide or relevant index |
+| Verification state | Records the file version and destinations actually checked |
+
+Register only relevant links. Several sources derived from the same underlying dataset are not independent confirmation. Link to the exhibit that directly supports the claim, with a methodology link where necessary; avoid a footer so crowded that no destination is readable.
+
+Build or update navigation only within the authorized scope. If navigation is protected or the user plans to finish it later, maintain the registry and proposed destinations without editing protected objects. Do not automatically create a contents slide after an arbitrary appendix count.
+
+### 12.3 Provide predictable return paths
+
+For an appendix serving one main slide, use a clearly labeled return link to that slide. For a shared exhibit, offer relevant named main-slide links or a compact section index. Avoid “Back” when the destination is ambiguous.
+
+Do not promise a dynamic return to whichever page the judge came from unless that behavior is supported and tested in the actual presentation environment. Static PPTX and exported PDF links should use deterministic destinations. A viewer's history button may help a user, but it is not a reliable authored navigation system.
+
+Keep controls within the footer zone, with readable labels and click targets that do not overlap each other. Preserve page numbers, source text and evidence content. Where several continuation pages form one exhibit, provide understandable previous/next or section links if useful and authorized.
+
+### 12.4 Test the artifact that will be delivered
+
+Check both link structure and actual behavior. Verify that each label matches the destination's topic and evidence, not merely that a relationship exists. Test outgoing links, shared-exhibit returns, continuation links and any index links after slides are added, reordered or removed.
+
+For a requested PDF submission, export the final PPTX and test the PDF destinations separately; successful PowerPoint links do not guarantee a correct PDF export. Check the intended viewing mode where available. If a viewer or format remains untested, state that precise limitation rather than claiming universal compatibility. Visible IDs and meaningful labels should still make the document usable if links are unavailable.
+
+### 12.5 Quality gates scaled to the change
+
+| Gate | Required evidence of completion |
+|---|---|
+| Content | Changed values match sources and calculations; denominators, units, missingness and assumptions are consistent |
+| Claims | Headlines are supported, scope is visible and no causal or strategic conclusion was invented to fill space |
+| Visual | Changed slides inspected at readable size; two natural headline lines, correct font faces, no clipping, collisions or illegible tables |
+| Structure | Correct order and IDs; native tables/charts, notes, workbooks and relationships remain valid |
+| Navigation | Authorized links reach the intended evidence and deterministic return locations in the delivered format |
+| Preservation | Protected slides and unrelated objects remain unchanged, with comparison appropriate to the editing method |
+| Handoff | Latest accepted artifact, source versions, link map, checks and unresolved issues are recorded |
+
+Use a full-deck overview to detect inconsistencies and inspect individual changed slides at readable size; a montage alone cannot verify dense tables. Check overflow and unintended object collisions, recognizing intentional template overlaps such as cropped decoration. Inspect notes for stale interview material, obsolete denominators or inherited source labels.
+
+A headline-only change needs focused content, fit and preservation checks, not a complete new research audit. A large evidence refresh or reordered linked deck requires broader dependency and navigation checks. Stop optional testing once the concrete risks and required gates are resolved; do not claim checks that were not performed.
+
+<a id="bcc-implementation"></a>
+## 13. Implementation and pilot design
+
+### 13.1 Specify how the work will be done
+
+A recommendation needs an operating model, not just a calendar. Identify the trigger, actor, information, authority, action, output and exception at each step. A named partner is not a committed partner; record whether the relationship is proposed, contacted, agreed or operational. Do not assign an internal capability to a company merely because it would make the proposal convenient.
+
+| Step/trigger | Accountable owner | Supporting actor | Input and authority | Action/output | Exception and escalation | Metric |
+|---|---|---|---|---|---|---|
+| [Event] | [Function] | [Partner/team] | [Data, budget, decision rights] | [What actually happens] | [Failure and response] | [Definition] |
+
+Translate this into a roadmap with dependencies. A low-cost manual pilot can test desirability or coordination before integration, but say which capabilities it cannot validate. A simulation tests a process assumption; it does not establish customer adoption or performance under full live demand.
+
+| Phase | Time/rationale | Key actions and dependencies | Owner | Resources/cost | Exit condition | Evidence produced |
+|---|---|---|---|---|---|---|
+| Prepare | [Estimated or confirmed] | [Prerequisites] | [Owner] | [Inputs] | [Readiness] | [Artifact] |
+| Pilot | [Bounded window] | [Treatment/comparison] | [Owner] | [Exposure limit] | [Success/failure rule] | [Results] |
+| Scale or revise | [Conditional] | [Replication requirements] | [Owner] | [Funding/capacity] | [Decision] | [Updated model] |
+
+A timeline estimate must have a basis and a dependency range. Avoid arbitrary precision. If vendor onboarding, system access or regulation is unresolved, show the dependency instead of promising a fixed launch date.
+
+### 13.2 Design a pilot that can change the decision
+
+State the testable hypothesis, eligibility, unit of assignment, intervention, comparison, duration rationale, success metric and stop criteria. Use randomization where feasible and appropriate. Otherwise identify a credible comparison and discuss selection, seasonality, spillover and concurrent changes. Do not call a pre/post difference causal simply because it is positive.
+
+Measure the baseline and treatment consistently. Distinguish exposure, eligible opportunity, adoption, successful fulfillment and repeat behavior. If repeat purchase depends on a future travel or consumption occasion, interpret elapsed time against opportunity, not an arbitrary universal repurchase deadline.
+
+Predefine material criteria before reviewing outcomes where possible. Set thresholds from break-even economics, operational capacity or decision risk; label proposed thresholds until accepted. Determine statistical sample needs from the effect and uncertainty that matter, not a universal BCC respondent count. A small exploratory pilot can reveal failure modes without estimating population uplift precisely.
+
+### 13.3 KPI ladder and risk control
+
+| KPI layer | Example | What it does not prove |
+|---|---|---|
+| Input | Budget, staffing, recruited outlets | Customer benefit |
+| Process | Time to issue a ticket or resolve a case | Full journey success by itself |
+| Output | Reach, proposals, trials, bookings | Incremental profit |
+| Customer outcome | Successful task, fulfilled need, repeat choice | Company economics without costs |
+| Business impact | Incremental contribution, cash, retention or social outcome | Sustainability beyond the tested scope |
+
+For each metric, define numerator, denominator, window, source, owner and cadence. Include failure and service-quality measures so growth cannot conceal degraded delivery.
+
+| Risk | Trigger/leading indicator | Likelihood/impact basis | Prevention | Contingency and stop condition | Owner |
+|---|---|---|---|---|---|
+| [Specific failure] | [Observable signal] | [Evidence or judgment] | [Action] | [What happens if it occurs] | [Function] |
+
+Prioritize risks that could change adoption, cost, authority or delivery. Generic “monitor closely” language is insufficient. Scale only when demand, economics and operations jointly meet the chosen criteria; an attractive dashboard cannot compensate for an unfulfilled promise.
+
+<a id="bcc-defense"></a>
+## 14. Review, presentation and judge defense
+
+### 14.1 Review the decision before polishing the presentation
+
+Lead with the main verdict and the few issues that could change it. Assess against the supplied rubric. If none is available, review clarity, evidence, feasibility and economics provisionally, without claiming official scoring. Use numerical ratings only when a meaningful anchored scale is requested or provided; avoid false precision.
+
+Check:
+
+- Does the proposal answer the stated business question and respect scope?
+- Is the selected explanation stronger than its plausible rival?
+- Can each major finding be traced to an appropriate source and method?
+- Are alternatives, assumptions, unknowns and dependencies visible?
+- Do customer needs, operational delivery and commercial value connect?
+- Are target, geography, channel and budget selections justified?
+- Would the decision survive a credible downside case?
+- Can a judge understand the argument without opening every appendix?
+
+Present a correction as finding → consequence → specific fix. Do not ask the user to rewrite everything when one targeted change is enough. Routine edits do not require reopening settled strategy. Contradictory new evidence can, however, reopen an accepted decision; explain why.
+
+### 14.2 Prepare answers and navigation together
+
+Use Answer–Basis–Exception–Close as a flexible pattern: answer the question directly, give the evidence or reasoning, state the material limit, and explain the decision implication. The close should not mechanically repeat a slogan or deny the uncertainty.
+
+| Likely question | Direct answer | Evidence/claim ID | Appendix ID | Material limit | Fallback if challenged |
+|---|---|---|---|---|---|
+| Why this problem? | [Answer] | [Evidence] | [Backup] | [Rival] | [What would change the diagnosis] |
+| Why this segment/channel? | [Answer] | [Reach and fit] | [Backup] | [Unmeasured demand] | [Alternative/test] |
+| Why this solution? | [Answer] | [Mechanism and alternatives] | [Backup] | [Critical dependency] | [Narrower version] |
+| Where does the impact come from? | [Answer] | [Model driver] | [Backup] | [Assumption] | [Break-even/downside] |
+| Can the client deliver it? | [Answer] | [Owner and capability] | [Backup] | [Unconfirmed access] | [Pilot/partner condition] |
+| What would make you stop? | [Answer] | [Decision rule] | [Backup] | [Measurement limit] | [Action] |
+
+Rehearse the actual evidence jumps and returns in the intended presentation mode. A clickable footer should save time during a challenge. Printed appendix IDs provide a fallback when the viewer does not support links. Keep a short verbal answer ready if navigation fails.
+
+Assign speaking and Q&A ownership by competence: problem/customer, strategy, operations and finance. One person can own several areas on a small team. Practice transitions, timing and answers to the hardest questions. Do not invent facts in the room to defend a polished slide; acknowledge the limit and explain the test or assumption.
+
+### 14.3 Release review
+
+Reuse checks already completed during production. Broaden review when new evidence, structural changes or export behavior create a concrete risk. Confirm content, arithmetic, visible qualifications, layout, native objects, navigation and protected scope. Report what was actually tested and any material unresolved limitation. A successful render is not a financial audit; a correct formula is not proof of demand.
+
+Deliver the requested format. Test a submission PDF when required, but do not add a PDF to a PPTX-only deliverable request. Persist the final artifact using the environment's supported workflow and return the exact delivered filename. Do not claim a file was saved or a link works unless the corresponding check succeeded.
+
+<a id="bcc-handoff"></a>
+## 15. Continuity and handoff
+
+### 15.1 Maintain three separate layers
+
+1. **Reusable master:** durable methods and preferences, such as appendix-only design defaults.
+2. **Current case state:** live evidence, decisions, constraints, files, accepted design and authorized phase.
+3. **Historical record:** prior snapshots, rejected options and superseded instructions, clearly labeled.
+
+Do not turn a historical “do not triangulate yet” into a permanent research rule. Conversely, an uploaded interview does not itself authorize editing or synthesis. The live task controls. Design approval, recommendation approval and edit authorization remain separate.
+
+When a source is replaced, record which old file is excluded and whether it contributed to any current results. When a full export arrives, reconcile or replace the prior snapshot as appropriate; do not concatenate overlapping exports blindly. A new user-edited deck may supersede the file recorded in an old handoff.
+
+### 15.2 Portable case-state template
+
+```text
+CASE STATE — version/date
+Competition/client:
+Current task and authorized scope:
+Decision question, metric, unit and horizon:
+Rubric and deliverable requirements:
+Deadline/timezone:
+
+Latest accepted artifact:
+- Exact filename and version/date:
+- Location available in this session:
+- Optional size/hash for ambiguous versions:
+- Protected slides, objects, navigation and styles:
+- Requested delivery format:
+
+Evidence inventory:
+- Current source filenames, dates/windows and units:
+- Raw/eligible/excluded counts with definitions:
+- Superseded or wrong files and exclusions:
+- Instrument versions, codebooks and analytical scripts/specifications:
+- Interview records and actual permission/metadata status:
+- Missing dependencies and access limits:
+
+Findings:
+- Supported observations/derived results with claim IDs:
+- Candidate mechanisms and evidence strength:
+- Contradictory evidence and rival explanations:
+- Known limitations and next validation:
+
+Strategy:
+- Exploring:
+- Selected/accepted, by whom and when:
+- Rejected or superseded, with reason:
+- Product, customer market, channel and pilot distinctions:
+- Economics, critical assumptions and overlap rules:
+
+Production:
+- Main storyboard and appendix manifest:
+- Accepted appendix style and any project overrides:
+- Link registry and navigation status:
+- Last completed content/visual/structural checks:
+- Outstanding issues:
+
+Next action:
+- Exact requested work:
+- Inputs needed:
+- Changes authorized and items to preserve:
+```
+
+Populate only known fields; unfilled template prompts are not factual case metadata. Do not mark a recommendation “locked” by default. Include original-language interview records or full data only in the appropriate case materials, with actual permissions and access constraints. The reusable master should not become a repository of private raw responses.
+
+### 15.3 Continue without losing manual work
+
+At the next session, identify the task, latest actual base and affected dependencies. Prefer the newest accepted or user-edited file over a stale output with the same name. Record content changes, not merely a file suffix. If only a headline changes, preserve tables, notes, chart data and unrelated navigation. If evidence changes, update dependent claims, tables, source notes and qualifications within the authorized scope; record affected protected content and proposed corrections without editing it.
+
+A handoff must distinguish tests performed in an earlier session from checks rerun now. Historical paths and hashes help identify artifacts but do not guarantee access. Request missing files instead of guessing their content. Preserve the user's desired artifact format and use current tool documentation for future edits.
+
+<a id="bcc-examples"></a>
+## 16. Worked lessons from the Garuda project
+
+These are dated teaching examples drawn from the supplied project evidence and this conversation. They are not current market facts, a universal airline strategy, a live case handoff or approval to edit the Garuda deck. Use the latest case materials for real work. No analysis from the friend's Gojek reference deck is adopted.
+
+### 16.1 A counterexample improves the recommendation
+
+The supplied survey contained 93 submissions and 91 eligible records. Of 41 respondents selecting the fictional Citilink bundle, 23 gave the reference baggage-inclusive total correctly. One written interview also calculated correctly but preferred Batik. Therefore, an explanation of baggage costs could improve clarity without making Garuda the preferred choice. The competing explanation—price and timing make another bundle more attractive—must remain in the synthesis.
+
+**Transferable lesson:** test whether information, actual offer value or another mechanism limits adoption. Do not declare an education solution validated simply because some respondents answered a calculation incorrectly. These were hypothetical bundled choices, not observed purchases or isolated brand effects.
+
+### 16.2 Several evidence types reveal different parts of a decision
+
+Parent funding involvement appeared in 69/91 eligible survey records; 30/91 anticipated needing choice approval within budget. Two written interviews described traveler–payer roles. This supports testing an optional shared trip proposal. It does not demonstrate approval-stage abandonment or quantify conversion uplift. The later interview also sharpened timing and recovery differences rather than establishing a uniform student segment.
+
+**Transferable lesson:** keep observed roles, inferred friction and proposed intervention separate. New qualitative evidence can refine a mechanism without validating its prevalence.
+
+### 16.3 A large hierarchy is not one giant sample
+
+The Kayak captures linked 1,045 itinerary parents, 2,090 flight segments and 7,012 seller offers. These are related levels, not three independent pools of customers. The reviewed sources also included many app reviews and keyword rows. Adding those counts into “millions of datasets” would obscure their meaning.
+
+**Transferable lesson:** a research system is impressive when units, joins, exclusions and claims remain traceable. Volume does not compensate for a mismatch between the data and the decision.
+
+### 16.4 A channel is not the market
+
+An early solution discussion made event recruitment central. The user correctly questioned whether internal or local events produce enough flight demand. The revised proposal centered the trip-proposal product, with events as one optional acquisition channel. The market size remained unvalidated.
+
+**Transferable lesson:** identify actual customer needs and purchase opportunities, then evaluate channels and pilot settings separately. Changing the channel description does not create evidence of scale.
+
+### 16.5 Evidence strength can differ across a portfolio
+
+The working Access/Care/Next discussion had stronger direct problem evidence for purchase evaluation and service/recovery than for loyalty. No repeat-purchase cohort analysis established the retention mechanism. The proposed third pillar therefore remained an experiment within existing loyalty capabilities.
+
+**Transferable lesson:** one weakly evidenced pillar should not borrow certainty from stronger pillars. Portfolio symmetry is a presentation choice, not a research result. These working names are examples, not a mandatory strategy.
+
+### 16.6 Navigation is a presentation reference, not analytical endorsement
+
+In the supplied 33-page `GCMCC_Hihanghoheng.pdf`, page 2 contains internal footer links to appendix pages 10 and 11; page 6 links to pages 26–29. The inspected PDF contains no appendix-to-main internal return links. The useful reference is its direct route from claim to detail; this master adds purposeful return navigation, clear attribution and destination checks. Its substantive analysis, illustrative people and financial claims are not imported.
+
+### 16.7 Preserve accepted artifact work
+
+The accepted Garuda appendix had 38 appended slides with editable exhibits and two-line evidence headlines. That count was an accepted project outcome, not a limit for future cases. A headline-only revision preserved other slide content. The project's appendix font preference did not authorize restyling its main slides.
+
+**Transferable lesson:** preserve the latest accepted base and bound edits to the requested objects. This user's approved default now carries that design approach into future appendices, with client/template adaptations; it does not convert every main deck to the same style.
+
+<a id="bcc-changes"></a>
+## 17. Change log and v2 migration map
+
+### 17.1 What this edition changes
+
+| v2 approach | v3 controlling revision |
+|---|---|
+| Mandatory stop until brief, rubric and deadline all arrive | Extract known inputs, identify material gaps and continue useful authorized work |
+| Eight modes label with nine actual modes | Nine consolidated modes including evidence analysis and continuity |
+| Forced question or rewrite request at the end of every response | Ask when an answer changes the work; complete bounded tasks |
+| Primary research ranked above secondary by default; n≥50 used as a credibility shortcut | Evaluate source relevance, design, measurement and sampling; no magic threshold |
+| Every insight must pass the opposite test | Use it as a specificity aid; prioritize evidence and decision relevance |
+| Hypotheses always presented as preceding analysis | Distinguish prespecified, exploratory and subsequently tested hypotheses |
+| Required IFE/EFE–IE–TOWS recommendation chain | Optional tools with stated inputs, sensitivity and evidence-based judgment |
+| Broad coaching examples could read as current facts | Labeled illustrative examples; current factual claims need their own sources |
+| Static Indonesia market figures, regulatory timings and competition reputation/rubric defaults | Case-specific source verification and actual brief/rubric extraction |
+| Pressure to quantify immediately, alongside a blanket ban on assumptions | Transparent exploratory assumptions, directional logic and break-even requirements; no fabricated facts |
+| Revenue/volume example could multiply order value and price | Dimensionally correct revenue identities and explicit units |
+| Cycle-time improvement implied an equivalent capacity percentage | Separate cycle time, theoretical throughput and realized capacity |
+| Appendix production waits until the main storyline is stable | Source-specific appendix work can proceed when authorized while research continues |
+| Screenshots preferred broadly to avoid transcription | Native editable evidence preferred, with verified faithful rendering when a capture is justified |
+| Generic short appendix takeaway and template reuse | Appendix-only topic label plus exactly two natural headline lines by default, approved density and font-face checks |
+| Traceability and Q&A references without hyperlink implementation | Stable exhibit registry, distinct evidence/source footers, return links and export checks |
+| One caveat maximum; preserve every framework step regardless of task | Preserve material limitations and relevant reasoning without unnecessary repetition |
+| Handoff assumes a locked recommendation | Explicit exploring/accepted/rejected states, live scope and source supersessions |
+
+### 17.2 Where the useful material went
+
+| Original part | Consolidated destination |
+|---|---|
+| 1 Identity; 2 Hard gate | Sections 1–2: respectful coaching, authority and adaptive intake |
+| 3 Working modes | Section 3 and the relevant specialist workflows |
+| 4 Coaching standards; 5 Fatal mistakes | Sections 1, 6–8 and 14; concrete failure checks replace repeated slogans |
+| 6 Methodology; 7 Case routing; 11 Solver workflow | Sections 2–3 and 9 |
+| 8 Framework library | Section 9; duplicated workflow tools are taught in Sections 2, 4, 6–8, 10 and 14 |
+| 9 Worked examples | Corrected examples in Sections 8–9 and scoped project lessons in Section 16 |
+| 10 Indonesia context | Intake and source discipline; reusable research questions retained, unsourced constants and prestige claims retired |
+| 12 Execution operating system | Sections 4–8 and 10–15 |
+| 13 Meta-learnings | Integrated into the relevant workflow and Section 16 |
+| 14 Conversation efficiency | Section 1.3 |
+| 15 Handoff | Section 15 |
+| 16 Quick reference | Section 18 |
+
+This is a consolidated replacement, not a verbatim archive. The original remains a separate file for historical comparison. Preserve useful teaching rather than every repeated instruction or stale example.
+
+### 17.3 Provenance and scope of the revision
+
+- Primary predecessor: `BCC_HUB_MASTER_UPGRADED_MENTORING_UPDATE_v2(3).md`, August 2026 edition, 112,460 supplied bytes; SHA-256 `9e4b8f32e7cfdf8a4d5804867d918d9fa100f1f4930376ef2905bbbe3fb3d997`.
+- Navigation-only reference: `GCMCC_Hihanghoheng.pdf`; local inspection of pages, link annotations and selected rendered pages. No external links in that deck were adopted as research for this master.
+- Project lessons: the supplied Garuda context, accepted appendix workflow, subsequent written interview and strategy discussion. The case-state master remains a separate document.
+- Ideation continuity: retains OIM, mechanism detail, feasibility and impact logic consistent with the supplied Cracking Case guidebook discussion; no blanket guarantee of benchmark transfer.
+- Approved scope: reusable master, consolidated new edition, accepted visual approach as the default for **appendices only**.
+
+The update does not revalidate all historical external facts, install a skill, edit a presentation, finalize Garuda's strategy or authorize changes to its protected navigation. Future case facts and tool behavior require their own checks.
+
+<a id="bcc-quick"></a>
+## 18. Quick reference
+
+**Start:** read the live task, case scope and accepted state. Reuse supplied inputs and ask only for material missing information.
+
+**Research:** decision question → method → source and unit → controls → qualified finding. Preserve instrument versions, missingness, exclusions and original evidence.
+
+**Synthesis:** observation → interpretation → implication, with support, contradictions, rivals and a clear limit. Related sources and repeated frameworks are not independent confirmation.
+
+**Solutions:** description → root cause/evidence → benchmark and transfer limits → mechanism → impact. Add owner, dependencies, cost, test and decision rule.
+
+**Economics:** consistent units, reachable demand, feasible supply, counterfactual, incremental contribution, cash timing, sensitivity and no double counting.
+
+**Main deck:** a self-contained argument with supported headlines, essential proof and material qualifications. Preserve its accepted style.
+
+**Appendix:** detailed editable evidence, short topic label, two natural headline lines, readable tables/charts, honest methods and traceable sources. The approved visual default applies here only, subject to case requirements.
+
+**Navigation:** claim → exact supporting appendix → original evidence; purposeful returns and stable exhibit IDs. Respect protected navigation and test actual destinations in the requested formats.
+
+**Delivery:** perform the relevant content, visual, structural and preservation checks; save the validated requested artifact; report real limitations.
+
+**Continuity:** carry source versions, accepted files, provisional decisions, exclusions, protected elements and the exact next authorized task. A reusable master is not a substitute for the current case state.
+
+*End of BCC Hub v3 — reusable methods, case-specific evidence, appendix-only design defaults.*
+
+
+
+<!-- END S5 VERBATIM MARKDOWN -->
+
+
+
+<a id="pack-external"></a>
+## 14. External-reference register inherited from S3
+
+This register preserves the research trail in the supplied analysis. None of these external claims or URLs was independently verified during compilation. Read the full S3 archive for original wording, contextual qualifiers and embedded links. These sources concern real companies and markets; they are comparators, not Nexora exhibits. A future research or recommendation task should verify the exact source, period, geography, definition and claim before relying on it.
+
+| Reference named in S3 | Claim / use in the supplied analysis | Key boundary |
+|---|---|---|
+| Google–Temasek–Bain, e-Conomy SEA 2024; Bain page | Regional funding/profitability context, commissions, targeted incentives and advertising | Regional context; not direct evidence of Nexora's drivers |
+| Sea Q4/FY2025 results deck, dated March 2026 in URL | Shopee advertising revenue growth over 70% in Q4 2025 | Group/platform scope differs from fictional case; metric needs verification |
+| Sea Q4/FY2025 results release | Shipping subsidy accounting can reduce revenue | Do not assume the same accounting for Nexora |
+| J&T first-half 2025 discussion | SEA cost-per-parcel reduction of 16.7% | Definition, geography and cost boundaries may differ; supplied link is broad |
+| Google Indonesia summary of e-Conomy SEA 2025 | Video-commerce transaction volume 2.6bn, +90% YoY; small order values and category mix | External volume is not Nexora's parcels or its own order-value distribution |
+| World Bank, Beyond Unicorns | Trust, logistics and connectivity as participation constraints | Historical structural evidence; adoption numbers are not automatically current |
+| Indonesian trade ministry page on Permendag31/2023 | Historical social-commerce regulatory context | S3 also discusses later legal change; old rules are not automatically current |
+| TikTok / GoTo transaction described in prose | January 2024 combination under PT Tokopedia | The adjacent link may not substantiate every transaction detail; verify primary deal announcement |
+| KPPU retrospective / studies page | 2024 courier-selection competition concerns | Broad locator; identify exact proceeding before making a precise legal claim |
+| BPK regulation page for Permendag19/2026 | S3 claims replacement of Permendag31/2023 effective 8 June 2026 and describes obligations | Inherited legal claim requiring authoritative verification before current legal guidance; cannot explain 2025 results |
+
+### 14.1 Exact URLs retained in the original analysis
+
+The URL list below is generated from S3 without rewriting target strings. Tracking parameters are retained to avoid silently changing the supplied research trail.
+
+- <https://www.bain.com/insights/e-conomy-sea-2024/?utm_source=chatgpt.com>
+- <https://cdn.sea.com/investor/4Q2025/JcKns4LaJC8bxcQdJwXz/2026.03.03%20Sea%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results%20Deck.pdf?utm_source=chatgpt.com>
+- <https://cdn.sea.com/investor/4Q2025/JcKns4LaJC8bxcQdJwXz/2026.03.03%20Sea%20Fourth%20Quarter%20and%20Full%20Year%202025%20Results.pdf?utm_source=chatgpt.com>
+- <https://www.jtexpress.sg/insights/all?utm_source=chatgpt.com)\>
+- <https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-indonesia-memiliki-pertumbuhan-video-commerce-terbesar-di-asia-tenggara/?utm_source=chatgpt.com)\>
+- <https://www.worldbank.org/en/country/indonesia/publication/beyond-unicorns-harnessing-digital-technologies-for-inclusion-in-indonesia?utm_source=chatgpt.com)\>
+- <https://ditjenpdn.kemendag.go.id/berita/mendag-didampingi-dirjen-pdn-melaksanakan-konferensi-pers-permendag-nomor-31-tahun-2023?utm_source=chatgpt.com>
+- <https://kppu.go.id/pencegahan/kajian-dan-penelitian?utm_source=chatgpt.com>
+- <https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026?utm_source=chatgpt.com>
+
+<a id="pack-handoff"></a>
+## 15. Open items, handoff prompt and preservation audit
+
+### 15.1 Settled decisions
+
+- Deliverable: **one combined detailed Markdown master AI context pack**.
+- Preserve both original Markdown sources in full, PDF page text with source locators, normalized case tables, competition rules and video transcription/study context.
+- **User-directed precedence: the casebook governs wherever it conflicts with the guidebook.** Use the casebook preliminary filename order and its explicit exclusion of Cover, References and Appendix from the three-page count. Do not reopen this preference as an unanswered question.
+- The video was used for study. It is a learning reference, not an official case exhibit.
+- The user has not selected a final strategic recommendation in the supplied record.
+
+### 15.2 Remaining unknowns that matter later
+
+1. Team name, team members, leader, registration state and any internal work allocation.
+2. Any latest organizer notices or form-specific updates not included in these PDFs.
+3. User's chosen next task: diagnosis, research, alternatives, financial modeling, Executive Summary, review or a later-round artifact.
+4. An accepted strategy, if one exists outside this visible record.
+5. Any original datasets, interviews, surveys, cost details, models or drafts not supplied here.
+6. Exact buyer-repeat and seller-churn cohort definitions; seller entrants; route/capacity/capex data; revenue and cost accounting boundaries.
+7. Verification status of external market/company/regulatory claims copied from S3.
+8. Any transcript wording requiring exact quotation: replay that interval before quoting verbatim.
+
+These unknowns are not a reason to restart from zero. Continue useful work from the documented baseline and ask only for inputs that materially change the requested decision.
+
+### 15.3 Copy-ready activation prompt for a future AI session
+
+> Use this file as my IBSC 2026 Nexora master context. Read the current-state, case-data, rules and calculation sections before working; consult the full source archives for detail. The casebook takes precedence over the guidebook, as I explicitly decided. Treat the existing analysis and video as learning context, with hypotheses, illustrations and unverified external claims distinguished from official facts. Apply BCC Hub v3 where relevant, with appendix style defaults limited to appendices. Preserve the stated figures, source boundaries, settled decisions and unresolved data limitations. Do not equate Nexora with a real company, invent missing research, or claim a strategy was accepted when the record does not establish it. My task now is: [insert task]. Continue from this state and update a concise decision/change log as work develops.
+
+### 15.4 Suggested continuing case-state record
+
+| Field | Update rule |
+|---|---|
+| Latest user objective | Record actual request and date |
+| Current recommendation | Accepted / provisional / rejected; include reason and evidence |
+| Official requirements | Retain source page and subsequent explicit updates |
+| Evidence snapshot | Files, versions, units, denominators and verification status |
+| Assumptions | Name, value/range, rationale, sensitivity and validation owner |
+| Protected content | State only actual restrictions applicable to current artifacts |
+| Latest accepted artifact | Exact file and what was verified |
+| Open decisions | State what changes if resolved |
+| Next task | Concrete action, dependency and completion condition |
+
+### 15.5 Preservation and extraction audit
+
+| Source | Original bytes | SHA-256 of original | Preservation result |
+|---|---:|---|---|
+| BCC_HUB_MASTER_v3_2026-09-12(2).md | 112,904 | `7b5d755840002654c5cd5b48e4fbf21bb17adecebe5fe3a294839944be747275` | Full original text preserved; 1110 source lines |
+| Casebook Preliminary IBSC 2026_compressed.pdf | 3,175,048 | `8c42ac5cd5f7a227215a67f839892ed63c14f17817ee772c27b88636f7ab28d2` | All 18 PDF pages represented; normalized working tables/rules above |
+| Guidebook IBSC 2026.pdf | 38,906,369 | `466f7f5dd9b57ce95534dd6138ce2662ec41ac662d2f98690acc621725245725` | All 17 PDF pages represented; normalized working tables/rules above |
+| Nexora_s_2025_Turnaround.mp4 | 64,960,520 | `a4f4ae12c53ed0961ab9d4b0ae865bb780b4cc57a2fefe496a1eaef2bc0bad03` | Full-runtime ASR run; 164 timestamped segments; readable and raw recognition versions; sampled visual notes |
+| Pasted markdown(20261026-025326).md | 40,025 | `68268f836554f080bc83ce5188f772079651a50535b2776e3a7a0d91804d64c7` | Full original text preserved; 309 source lines |
+
+
+**Known representational limits:** Markdown cannot reproduce the complete original PDF visual design, logos, editable objects or every video frame. Full original MD text is retained; PDF page text is machine-extracted with deduplication of overlapping text, so reading order and decorative lettering can remain imperfect. Authoritative numeric tables and the timeline have normalized working versions above. Video words are machine-recognized, with raw recognition text preserved alongside the readable version. This pack intentionally retains repetition across the working layer and archives to preserve context and provenance.
+
+### 15.6 Three complementary conclusions
+
+**Comprehensive conclusion:** Nexora's supplied case shows an IDR8tn improvement in operating profit and lower average delivery cost, alongside weaker market share, small-seller churn and buyer-repeat indicators. Sustainable profitable growth requires understanding the economic value of participation, marginal logistics economics and the source of competitive demand before selecting a digitally enabled strategy. The current pack preserves the official evidence, existing reasoning, reusable BCC workflow and video learning material without claiming that a final strategy or causal diagnosis has already been validated.
+
+**5W1H conclusion:** Who: Nexora and its buyers, sellers, logistics network and decision-makers. What: sustainable profitable growth with competitive strength and reduced attrition. Where: Indonesia. When: diagnose the 2023–2025 exhibits for the 2026 IBSC, with preliminary submission stated as 1 November 2026 at 23:59 WIB. Why: current profitability coexists with warning indicators about future participation. How: evidence-led diagnosis, differentiated digital decisions, incremental economics, feasibility testing and an English Executive Summary compliant with the casebook-led rules.
+
+**Direct conclusion:** This is one portable master MD containing all five sources in text form, their relevant context and a timestamped study-video transcript. Start future work here; keep the casebook as the controlling competition source.
+
+<!-- END MASTER AI CONTEXT PACK -->
+
+
+<!-- END COMPLETE VERSION1 MASTER -->
+
+# Conversation continuation and decisions
+
+# Append-only conversation update — Nexora research and broad data collection
+
+**Prepared:** 26 October 2026 (Asia/Jakarta)  
+**Update type:** Continuity record appended to the previously compiled `IBSC_2026_Nexora_Master_AI_Context_Pack.md`; the earlier master and its source archives remain preserved.  
+**Current phase:** External data acquisition, cleaning and documentation. No substantive corpus analysis requested or authorized in this phase.  
+**Completion status of this update:** Conversation and revised plan recorded. The root collector must append actual validated run results, saved filenames and final counts after collection/packaging. No provisional source status below is a claim of a completed final dataset.
+
+## U1. How to read this update
+
+This update captures the visible conversation after delivery of the original approximately 39,000-word master context pack. Read it before interpreting that pack's "current state" or "next task" as still current. Earlier source text remains authoritative for its original attributed content; explicit later user decisions and corrections govern current work.
+
+The original master contained a full casebook/guidebook text archive, both supplied original Markdown documents, normalized case tables and rules, a calculation ledger, external-reference boundaries, BCC Hub v3 guidance, video study notes and both readable and raw timestamped machine transcripts. This update does not replace or shorten those records. It changes the active research phase, clarifies scope, and records subsequent discussion and authorization.
+
+### U1.1 Settled decisions and corrections
+
+1. **One master context file remains the intended portable context deliverable.** The first master combined all five supplied attachments. The user accepted the clarification that there were two original MD input sources but one combined output.
+2. **Casebook precedence is settled.** The user explicitly said "casebook takes presedence." Apply the casebook over the guidebook wherever they conflict, including preliminary filename order and explicit exclusion of Cover, References and Appendix from the three-page body limit. Do not reopen this as an unanswered choice.
+3. **Nexora is fictional.** The user emphatically corrected the research framing: there is literally no internal information beyond the casebook. Treat the casebook as the complete supplied internal evidence base. Do not ask for fictional transaction logs, cohorts, internal interviews, route costs or proprietary customer files as if they exist and can be obtained.
+4. **External research is intended to support indirect mechanisms and benchmarks.** It does not reconstruct Nexora's private data and cannot turn a real poster into a Nexora participant.
+5. **No strategic recommendation has been selected or accepted.** The user's subsidy-capitalization interpretation remains a working hypothesis. Discussion, research plans and requests to collect do not establish causal proof, an accepted strategy or approved forecast assumptions.
+6. **The current task is massive collection, raw/clean preparation and documentation, not analysis.** Preserve future analytical possibilities without producing sentiment findings, mechanism prevalence, statistical effects, diagnoses from the newly collected corpus or strategy recommendations.
+
+## U2. User's interpretation of the case and the response
+
+After the master was delivered, the user asked for a walkthrough of the actual case problem. Their initial reading was that Nexora is capitalizing on previous subsidies and that this probably will not last. They asked whether Fiverr's pandemic-related trajectory could provide inspiration and whether Nexora also has an operating-cost problem.
+
+The response treated this as a plausible but unproven interpretation. The resulting working question was whether Nexora can continue growing profit without weakening the marketplace that generates it. Charging for value built during a subsidy period is not, by itself, proof of an unsustainable model. The issue is whether buyers and sellers stay because the platform continues delivering enough value, or whether current results are being supported by habits and relationships that are weakening.
+
+### U2.1 Case figures used in the discussion
+
+| Casebook measure | 2024 | 2025 | Interpretation retained |
+|---|---:|---:|---|
+| GMV | IDR560tn | IDR600tn | Derived growth approximately 7.1%, below stated 11% market growth |
+| Platform revenue | IDR45tn | IDR60tn | Derived growth 33.3%; stronger monetization/mix associated with much of revenue growth |
+| Operating profit | -IDR3tn | +IDR5tn | IDR8tn improvement; sustainability remains a question |
+| Marketing expense | IDR28tn | IDR24tn | Lower spending can support profit; demand consequences are not identified |
+| Small-seller churn | 7% | 12% | Higher departures on the supplied measure; no causal attribution established |
+| Repeat-buyer rate | 62% | 57% | Warning indicator, not automatically a defined buyer-churn rate |
+| Market share | 48% | 46% | Competitive erosion; 50% in 2023 shows erosion before the stated 2025 transition |
+| Delivery cost per parcel | IDR12,000 | IDR10,000 | Reported unit-cost improvement, not proof of lower total historical delivery spend |
+
+Important retained qualifier: fees and general-subsidy reductions cannot explain the entire history because share declined from 50% in 2023 to 48% in 2024, before the case's stated 2025 profitability transition.
+
+### U2.2 Merchant economics illustration
+
+A hypothetical merchant earning IDR5,000 on an IDR100,000 sale after relevant costs loses 40% of that remaining contribution if an additional IDR2,000 fee is imposed. This illustrates why a small fee relative to sales can be large relative to earnings. It is not observed Nexora seller-margin data and does not prove why Nexora's churn rose.
+
+Possible seller responses discussed: absorb lower margins, raise prices, shift advertising/inventory/effort to another platform, or accept charges because better demand/service compensates. A seller can remain formally active while reallocating valuable activity; this multi-homing mechanism can precede measured churn.
+
+### U2.3 Operating-cost discussion and retained accounting limits
+
+Under a consistent revenue-minus-operating-cost definition, the supplied figures imply:
+
+| IDRtn | 2024 | 2025 |
+|---|---:|---:|
+| Revenue | 45 | 60 |
+| Marketing expense | 28 | 24 |
+| Other operating costs, including logistics | 20 | 31 |
+| Operating profit | -3 | 5 |
+
+The improvement reconciles as `+15 revenue +4 lower marketing −11 higher other costs = +8 profit`. The IDR11tn rise is an inferred residual, not a directly disclosed logistics breakdown. It could reflect volume, capacity, mix or other expenses; it is not proof that operations became inefficient.
+
+Nexora's average delivery cost fell and is the lowest among the casebook's listed competitors. The more useful question is whether additional transactions and expanded internal delivery remain attractive at acceptable service quality after capacity and capital costs. Current NexExpress average cost of IDR8,000 does not establish the cost of every marginal parcel. These are analytical boundaries, not a request for nonexistent internal route logs.
+
+## U3. Fiverr as a comparator: facts checked in the conversation
+
+Fiverr was raised by the user as a pandemic-boom and subsequent-decline analogy. The response checked official investor results and deliberately distinguished marketplace activity, services mix, company revenue and profitability. No claim that Fiverr "failed" or that pandemic normalization alone caused its trajectory was accepted.
+
+### U3.1 Official source locators preserved
+
+- Full-year / Q4 2021 results: https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-fourth-quarter-and-full-year-2021-results
+- Full-year / Q4 2025 results: https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-fourth-quarter-and-full-year-2025-results
+- Q2 2026 results: https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results
+
+These URLs were checked during the visible conversation. They are external company-comparison evidence, not Nexora data. Any later refresh should preserve publication/period definitions and identify subsequent releases rather than silently replacing history.
+
+### U3.2 Figures and distinctions used
+
+| Period | Figures used in the response | Relevant distinction |
+|---|---|---|
+| 2021 | Revenue growth 57%; active buyers approximately 4.2 million; official reporting discussed unusual COVID-quarter growth spikes | Pandemic demand acceleration is an external boost, different from Nexora's company-funded subsidies |
+| FY2025 | Annual active buyers -13.6%; annual spend per buyer +13.3%; marketplace revenue -1.8%; total revenue +10.1% | Services growth allowed total company revenue to rise despite weaker marketplace revenue/buyer participation |
+| FY2025 | Positive GAAP net income was noted | Buyer decline is not equivalent to company insolvency or an absence of profit |
+| Q2 2026 | Annual active buyers -21.9% YoY; marketplace revenue -15.5%; total revenue -10.0%; spend per buyer increased | Higher spending among remaining buyers may not indefinitely offset a smaller participant base |
+
+Do not compare historical buyer counts as if every source definition were automatically identical. Retain the reporting definitions and distinction between annual active buyers at a quarter-end, quarterly revenue, annual revenue, marketplace revenue and total services-inclusive revenue.
+
+The transferable hypothesis is that stronger monetization/spend among remaining participants can coexist with a weakening activity base. Fiverr is an analogy illustrating what to measure, not evidence that Nexora will follow the same path. Its service-marketplace model lacks Nexora's physical parcel-delivery economics.
+
+## U4. Secondary-data brainstorming: 54 ideas and subsequent correction
+
+The user next asked for a big list of secondary datasets, scraping opportunities and original-analysis ideas. The assistant produced 54 possibilities. The user then corrected the framing because several ideas implied nonexistent private Nexora records or overemphasized unrelated datasets. That correction supersedes any implication that internal datasets can be obtained or that a foreign dataset is necessary.
+
+### U4.1 Complete idea inventory retained for optional future use
+
+The inventory is a menu of proposed work, not a claim that sources have been downloaded, that analyses have been run, or that every item is needed.
+
+| Original number | Idea / source family | Proposed use |
+|---:|---|---|
+| 1 | Olist Brazilian E-Commerce | Delivery/freight/review/category/seller-pattern analysis |
+| 2 | UCI Online Retail II | Cohorts, RFM, repeat activity, cancellations and concentration |
+| 3 | dunnhumby Complete Journey | Household spending, marketing contact and promotion relationships |
+| 4 | Retailrocket | Browse/cart/purchase funnels and recommendation candidates |
+| 5 | Coveo SIGIR eCommerce | Search, reformulation, product discovery and session behavior |
+| 6 | Cainiao LaDe | Delivery timing, workload and geography/density benchmarks |
+| 7 | Amazon Last-Mile Routing Challenge | Route sequencing and operational complexity demonstrations |
+| 8 | Amazon Reviews 2023 | Review themes and category/product attributes |
+| 9 | Official category/seller-tier fee schedules | Comparable mandatory and optional fee matrix |
+| 10 | Official and archived fee announcements | Dated fee-change timeline |
+| 11 | Fees plus explicit assumed merchant margins | Merchant contribution sensitivity |
+| 12 | Fixed/percentage charges, caps and thresholds | Effective charge by basket value |
+| 13 | Shipping/cashback/promotion terms | Seller-funded versus platform-funded benefits |
+| 14 | Affiliate/campaign terms | Total selling-cost scenarios |
+| 15 | Matched products from identifiable same sellers across platforms | Price and availability comparison |
+| 16 | Seller FAQs, tutorials and policy documents | Complexity and earnings-transparency audit |
+| 17 | Settlement/refund/reserve policies | Working-capital exposure scenarios |
+| 18 | Public seller discussions around policy changes | Objection and response coding |
+| 19 | Matched products and same destinations | Actual applicable delivered-price comparison |
+| 20 | Voucher minima/caps/exclusions | Usable versus advertised discounts |
+| 21 | Matched baskets at several spending levels | Shipping/benefit thresholds |
+| 22 | Matched baskets across destination types | Geographic affordability differences |
+| 23 | Repeated matched basket snapshots | Promotion/price volatility |
+| 24 | Public app reviews | Complaint themes across actual platforms |
+| 25 | Reviews before/after documented changes | Descriptive discussion-composition comparison |
+| 26 | Explicit switching accounts | Switching-trigger taxonomy |
+| 27 | Google Trends exports | Search-interest trajectories and seasonality |
+| 28 | Returns/refunds/dispute/protection policies | Trust-proposition comparison |
+| 29 | Public courier quotes for matched routes | Shipping-price matrix |
+| 30 | Published route delivery estimates | Price/speed trade-offs |
+| 31 | Courier reports: volume, revenue, cost | Scale and unit-economics panel |
+| 32 | Public courier coverage/locations | Access-gap mapping |
+| 33 | Road networks plus population/settlement measures | Geographic delivery-density proxy |
+| 34 | Quotes across weights/dimensions | Physical-cost sensitivity |
+| 35 | Return-shipping/failed-delivery terms | Reverse-logistics scenarios |
+| 36 | Courier complaints/branch reviews | Operational-failure taxonomy |
+| 37 | Public courier job advertisements | Capability/location demand map |
+| 38 | Case costs plus transparent capacity/route assumptions | In-house expansion break-even scenarios |
+| 39 | Category/search listing samples | Assortment, specialization and seller diversity |
+| 40 | Repeated listing snapshots | Listing continuity; disappearance is not churn |
+| 41 | Public creator/product videos | Demonstrability and education coding |
+| 42 | TikTok Creative Center examples | Creative-strategy comparison |
+| 43 | Public livestream schedules/formats | Content-commerce operating-model mapping |
+| 44 | Public product questions/comments | Information needs before purchase |
+| 45 | Matched cross-platform search tasks | Discovery relevance, duplication and sponsorship audit |
+| 46 | Product attributes/prices/review themes/content examples | Category opportunity matrix |
+| 47 | BPS Statistik E-Commerce | Published business/channel/constraint tables |
+| 48 | BPS SILASTIK e-commerce microdata, if accessible | Firm-level models/cross-tabs with survey-design controls |
+| 49 | BPS PODES | Infrastructure and accessibility benchmarks |
+| 50 | BPS telecommunications / Komdigi DataHub | Connectivity and access context |
+| 51 | BI SPIP and applicable transaction series | Payment adoption/trends/seasonality |
+| 52 | BPKN complaint statistics/case summaries | Complaint categories and resolution issues |
+| 53 | Official Sea/Shopee, GoTo, J&T and comparable filings | Growth, monetization, costs and investment panel |
+| 54 | Fiverr official filings/results | Buyer base, spend, marketplace/services mix and profit history |
+
+### U4.2 Dataset locators previously supplied
+
+- Olist: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+- UCI Online Retail II: https://archive.ics.uci.edu/dataset/502/online_retail%2Bii
+- dunnhumby: https://www.dunnhumby.com/source-files/
+- Retailrocket: https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset
+- Coveo: https://github.com/coveooss/SIGIR-ecom-data-challenge
+- LaDe: https://huggingface.co/datasets/Cainiao-AI/LaDe
+- Amazon routing: https://registry.opendata.aws/amazon-last-mile-challenges/
+- Amazon reviews: https://amazon-reviews-2023.github.io/
+- Indonesian OSM extracts: https://download.geofabrik.de/asia/indonesia.html
+
+These remain optional source leads. Do not describe their counts or schemas as a completed Nexora dataset, and do not add them to the current collection merely to inflate record numbers.
+
+### U4.3 Revised six workstreams after the fictional-case correction
+
+| Workstream | Internal starting point | External support | Intended later output |
+|---|---|---|---|
+| Quality of turnaround | Case GMV/revenue/marketing/profit | Comparable financial trajectories | Dependence on monetization versus activity growth |
+| Seller economic pressure | Higher fees and churn | Official fees, seller-cost/margin research | Plausible burden mechanisms and vulnerability scenarios |
+| Buyer value after subsidies | Reduced broad subsidies and repeat-rate decline | Consumer research, voucher terms, delivered-price comparison | Potential value gaps and switching incentives |
+| Logistics expansion economics | Internal/outsourced average costs | Courier unit economics, density, capacity and capex evidence | Conditions for value-creating internalization |
+| Competitive discovery | Scrolla growth/share | Category content-commerce evidence and capabilities | Where discovery interventions might be relevant |
+| Strategy economics | Case financial baseline | Cost/implementation benchmarks | Transparent scenarios and break-even conditions |
+
+A public foreign dataset can demonstrate an analytical or technical mechanism, but is not necessary for the preliminary submission and cannot explain Nexora's actual churn. The active working argument remained tentative: stronger monetization and lower marketing coexist with participation warnings, so strategy should improve participant value/economics while preserving positive profit growth. No strategy was accepted.
+
+## U5. Agent Reach social-listening discussion
+
+The user supplied https://github.com/Panniantong/agent-reach and asked whether it could scrape Reddit or X/Twitter for indirect e-commerce benchmarking. The assistant inspected the repository and documentation, but did not install or test it at that stage.
+
+### U5.1 Documentation status checked then
+
+The documentation described Reddit as an optional login channel supporting search, post/comment reading and subreddit browsing; X/Twitter as an experimental login channel supporting search, profiles, user posts and threads. Documentation claims do not establish successful access in the current runtime or exhaustive retrieval.
+
+Repository guidance also described local session reuse and warned that the same-named PyPI package was not this project. Those points were noted for an eventual authorized installation. They are not authorization to probe browser profiles, extract session cookies, bypass access controls or use an unspecified account.
+
+Source URLs inspected:
+
+- https://github.com/Panniantong/Agent-Reach
+- https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/README_en.md
+- https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/install.md
+
+### U5.2 Research question and platform roles
+
+The proposed external question was: when real marketplaces change fees, subsidies, discovery or delivery arrangements, what trade-offs do sellers and buyers describe?
+
+Proposed platform roles were Reddit for longer accounts, workarounds and disagreement; X for dated reactions and Indonesian vocabulary; official sources for policy effective dates and true terms. This division was a plan to test, not a finding that either platform guarantees that coverage. Indonesian scarcity on Reddit would justify separately labeled international analogies rather than invented Indonesian coverage.
+
+### U5.3 Six social-listening tracks
+
+1. **Seller fees/margins:** repricing, product withdrawal, advertising cuts and channel changes.
+2. **Subsidies/buyer choice:** checkout comparisons, campaign waiting, voucher eligibility and purchase abandonment.
+3. **Multi-homing/switching:** formal account continuity versus shifting purchases, inventory or effort.
+4. **Delivery control/experience:** courier allocation, reliability, pickup, failed delivery and claims.
+5. **Discovery/visibility:** creators, livestreams, ads, search and organic exposure.
+6. **Reasons to stay:** trust, qualified demand, service, convenience and unique assortment that can justify costs.
+
+The sixth track deliberately guards against collecting complaints solely to confirm the user's tentative subsidy-capitalization hypothesis. Neutral, favorable and contradictory accounts should be retained.
+
+### U5.4 Query families preserved
+
+| Track | Indonesian seed examples | English analogy examples |
+|---|---|---|
+| Fees | Shopee biaya admin; Tokopedia potongan seller; TikTok Shop komisi; biaya layanan penjual; margin marketplace | marketplace seller fees; Etsy fee increase seller; Amazon seller profit fees |
+| Buyer promotions | gratis ongkir minimum belanja; voucher tidak bisa dipakai; ongkir lebih mahal; cashback berubah koin | free shipping minimum spend; coupon restrictions shopping; stopped buying shipping fees |
+| Switching | pindah dari Shopee; lebih murah di Tokopedia; jualan di beberapa marketplace; beli langsung seller | selling on multiple platforms; moved my shop; buy directly from seller |
+| Delivery | pilihan kurir marketplace; kurir otomatis; paket terlambat; pickup seller; retur ongkir | marketplace courier choice; seller shipping problems; delivery reliability marketplace |
+| Discovery | jualan sepi marketplace; iklan seller boncos; affiliate TikTok seller; keranjang kuning; live shopping | marketplace organic visibility; seller ads profitability; social commerce discovery |
+| Counterexamples | jualan Shopee masih untung; biaya admin sepadan; tetap belanja; ongkir mahal tapi | higher fees worth it; marketplace brings customers; staying despite fees |
+
+These are concepts, not verified CLI commands. Use short phrases, spelling/slang variants and relevant communities discovered through search. r/indonesia, r/ecommerce, r/smallbusiness and platform-specific communities were proposed leads, not sampled communities or evidence of actual coverage. Language alone does not establish country, and discussion of fees alone does not prove the writer is a seller.
+
+### U5.5 Pilot and event design discussed
+
+Before the massive-run request, the proposed bounded design was:
+
+- Test access, post/comment retrieval and thread context on each platform.
+- Manually inspect approximately 50 candidates to refine relevance.
+- Start with approximately 200–400 eligible records as a practical qualitative corpus, not a representative sample-size calculation.
+- Investigate two or three verified policy events with comparable pre/post collection windows.
+- Prioritize 2024–2025 for interpreting the 2025 case, with 2026 separate for current feasibility.
+
+The later user request expands this into a broad large-scale acquisition run. It does not remove the need to pilot access/relevance or record source limitations. A large target does not make the corpus representative, independent or causal.
+
+### U5.6 Fields and later outputs originally proposed
+
+Fields: canonical/source IDs, URL, publication/collection timestamps, platform discussed, subject-market evidence, self-described role, trigger, claimed mechanism, reported response, reported past action versus intention/opinion/hearsay, counterevidence and coding uncertainty. Preserve raw original text and use anonymous analytical IDs.
+
+Possible future analytical exhibits: trigger→mechanism→response mapping; seller/buyer trade-off matrix; reasons to leave versus stay; policy-event timeline; evidence-to-Nexora implications. These were proposed future outputs. The current collection-only request does not authorize producing findings now.
+
+Boundary statements retained: listing disappearance is not seller churn; collected reviews are not all buyers; search interest is not market share; courier prices are not internal costs; coupon redemption is not incrementality; before/after discussion is not causal identification; a foreign coefficient is not a Nexora forecast input.
+
+## U6. Current massive-run authorization
+
+The user's latest substantive instruction was to carry out a "massive" and very broad data-collection run, ideally hundreds of thousands of records; refine the plan; use subagents to distribute work; output a ZIP containing raw and clean data plus an MD of collection and cleaning methodology; do not perform analysis; and provide one additional updated master context pack covering the full conversation.
+
+### U6.1 What this authorizes
+
+- Read-only source inspection and feasible public data acquisition relevant to indirect marketplace-mechanism benchmarking.
+- Installation/configuration steps within applicable environment and authorization boundaries when necessary and supported; actual authentication dependencies must be reported, not silently assumed.
+- Delegated source discovery, access testing, bounded collection, cleaning, documentation and validation.
+- Preservation of original raw source files where distribution is supported, plus cleaned, explicitly typed data and provenance.
+- Reproducible collection/cleaning scripts and configuration, query logs, exclusion/deduplication records, actual count reconciliation and a ZIP.
+- Appending this conversation update and final collection status to the complete earlier master context pack, without losing its existing source archives.
+
+### U6.2 What this does not establish
+
+- A guarantee that a six-figure corpus is accessible or that live Reddit/X channels will work.
+- Permission to bypass authentication, API/search limits, CAPTCHA or platform access denial.
+- Permission to extract cookies or silently use an unrelated browser/session.
+- An instruction to collect private communications or enrich identities.
+- Permission to manufacture records, count duplicates as new observations, include unrelated corpora to reach a target or call app reviews X/Reddit posts.
+- Authorization to contact users, post, like, comment, message, publish findings or submit competition material.
+- A request for sentiment/theme results, prevalence estimates, regression, causal analysis or strategic recommendations from the new corpus.
+
+### U6.3 Root's initial commitment
+
+The root said it would expand collection, delegate source checks/collection/documentation, preserve raw and clean data, log queries/failures, and package an updated master. It explicitly stated that access/scale would be tested first and that unrelated records would not be used to pad counts or unsupported coverage promised.
+
+## U7. Revised execution plan and actual in-progress status
+
+This section separates the refined plan from work actually completed. Exact final results are not yet supplied to this continuity writer.
+
+### U7.1 Phased plan
+
+| Phase | Work | Required record / completion evidence |
+|---|---|---|
+| 1. Feasibility | Inspect Agent Reach and direct source access; identify authentication, network and licensing limits | Version/capability and request logs; precise blocks |
+| 2. Source discovery | Locate relevant Indonesian Reddit/X sources and documented international analogues | Source register, dataset cards/primary provenance and scope |
+| 3. Access/relevance pilot | Retrieve a bounded sample and check schema/context | Actual raw records; full-text/snippet distinction; refined query rules |
+| 4. Broad acquisition | Partition independent sources/query/date tasks across agents | Raw archives, immutable source files, query/batch logs and checksums |
+| 5. Cleaning | Parse/map, retain original text, normalize conservatively, screen relevance and deduplicate | Versioned scripts/config, clean tables, excluded/duplicate accounting |
+| 6. Validation | Confirm schema, IDs, lineage, hashes, source attribution, counts and representational boundaries | Machine-readable QA results and documented inspection scope |
+| 7. Packaging | Build documented ZIP and updated complete master | Actual final paths, manifest and validated ZIP contents |
+| 8. Report | State true coverage and shortfalls without analysis | Counts by actual source type, access status, limitations and next acquisition dependencies |
+
+### U7.2 Delegated workstreams
+
+The visible root launched source-access, dataset-discovery and X-collection tasks and a documentation task. The documentation task created `collection/documentation/COLLECTION_PROTOCOL.md`, a detailed protocol covering query families, geography/date strata, pilot/stopping rules, raw/clean schema, conservative cleaning, provenance, deduplication, validation and package layout.
+
+Source acquisition work is being coordinated independently of this document. The root has reported the following **in-progress source leads/activities** to this continuity writer:
+
+| Source family | Status as relayed during preparation of this update | Mandatory interpretation |
+|---|---|---|
+| Licensed 2017 Twitter customer-support corpus | Source agents are collecting/checking it | Historical external support discourse; not current Indonesian marketplace coverage and not Nexora data |
+| Indonesian X/Twitter source on Zenodo | Source agents are collecting/checking it | Confirm actual source identity, dates, fields, license, relevance and count from final manifest |
+| Shopee/Lazada app-review sources | Supplementary historical sources being collected/checked | App reviews must be labeled as app reviews; not Reddit/X records and not a substitute silently counted as them |
+| Live Agent Reach Reddit/X collection | Feasibility/access investigation underway or awaiting final reporting | Do not claim successful live scraping unless executed retrieval logs support it |
+
+These are not final counts or final acceptance decisions. Raw download completion, cleaning eligibility, duplicate disposition, redistribution status and final packaged counts must be recorded by the root from actual outputs.
+
+### U7.3 Counting rules for the final run
+
+Final reporting should distinguish:
+
+- source artifacts actually downloaded versus cataloged links;
+- original source rows versus parseable rows;
+- full posts/comments versus snippets/metadata;
+- eligible core marketplace corpus versus adjacent/supplementary historical corpora;
+- Indonesian versus international/unknown geography;
+- X/Twitter versus Reddit versus app/product reviews versus official documents;
+- raw rows, duplicate rows, excluded rows and unique cleaned rows;
+- records, authors when legitimately available, and independent conversations;
+- complete downloadable raw coverage versus sources that cannot be redistributed.
+
+A large historical customer-support corpus may legitimately be included as a separate contextual layer if relevant and reusable. It must not make a headline count imply hundreds of thousands of Indonesian marketplace posts about fees/subsidies. The same text appearing in raw and clean files counts as one underlying record, not two collected observations.
+
+## U8. No-analysis boundary and future handoff
+
+Data preparation may generate quality-control counts, inclusion/exclusion counts, null/parse/duplicate summaries, source/date ranges and validation outputs. Those describe the corpus and preparation process. They are not findings about consumer sentiment, mechanisms or business outcomes.
+
+Do not add substantive social-listening conclusions during packaging. Keep the user's subsidy hypothesis tentative and no accepted strategy recorded. The next substantive phase requires a new analysis request; it can build on the corpus after verifying its fit and limitations.
+
+A future assistant should start with the revised corpus manifest, actual methodology and source scopes, then the casebook data and original master context. It should not restart the entire research conversation or ask the user to repeat the fictional-case correction or casebook precedence.
+
+### U8.1 Copy-ready continuation context
+
+> Nexora is fictional. The casebook is our complete supplied internal evidence base and takes precedence over the guidebook. The user's subsidy-capitalization explanation is a tentative hypothesis, not an accepted finding or strategy. External social listening is for real-world analogous mechanisms—fees, incentives, switching, multi-homing, logistics, discovery and reasons to stay. The user requested a very broad collection run, ideally hundreds of thousands of relevant records, raw/clean ZIP, collection and cleaning methodology, subagent delegation, and an updated complete master context pack. No substantive analysis was requested. Read the actual source register, corpus counts, access logs and limitations before describing coverage. Keep X/Reddit/app reviews and Indonesian/international/historical layers separate, and do not attribute any external record to Nexora. Preserve all prior source archives and transcript material. Continue with the user's newly specified task.
+
+### U8.2 Root completion addendum required
+
+The root should add a dated final run summary after this update containing the exact output ZIP and updated-master filenames, source IDs and validated counts, actual acquisition routes, blocked dependencies, cleaning/QA results and any specific limits. This instruction is a continuity reminder, not an assertion that those outputs are already complete.
+
+<!-- END APPEND-ONLY CONVERSATION UPDATE -->
+
+
+# Final collection-run addendum (authoritative actual status)
+
+The planned run above is now completed at the data-preparation stage. Some sources and access routes proposed earlier were unavailable, unsuitable or excluded. The actual scope is below; earlier in-progress statements must not override it.
+
+| Stratum | Raw selected records | Clean records / leads | What these are |
+|---|---:|---:|---|
+| Supplementary app reviews | 1,835,693 | 1,834,939 | Historical Google Play reviews of five e-commerce apps; not Reddit/X |
+| Historical Twitter support | 513,077 | 513,077 | Individual tweets in selected connected components; snapshot2017 with older context |
+| Published small e-commerce/X samples | 951 | 949 | Source PDF/CSV samples; mixedlocale and promotional content retained/qualified |
+| **Published-source record inventory total** | **2,349,721** | **2,348,965** | **Record inventory only; not globally independent people/posts** |
+| Public indexed social leads, separate | 330 Agent Reach +248 built-in-search appearances; overlaps retained in logs | 415 unique source URLs | 376 Reddit-thread URLs and39 X metadata records; partial representations, separate from above |
+
+## Actual delivered structure and count interpretation
+
+- **2,348,965 retained published-source records**: 1,834,939 app reviews, 513,077 historical support tweets, and 949 smaller published samples. This is a record inventory, not unique people or globally deduplicated evidence.
+- Separate public social discovery: **415 unique URLs** (376 Reddit threads and 39 X metadata records), deduplicated across search routes. Agent Reach returned 330 appearances including the root pilot, normalized to 251 Reddit excerpts. The separate built-in search produced 202 URL records, with 38 URLs overlapping. Seven partial page reads support discovered URLs and are not additional posts.
+- App selected raw rows: 1,835,693; clean: 1,834,939; excluded: 701 empty/null-like rows and 53 exact record-key duplicates. Apps: Shopee 781,789; Lazada 774,911; Tokopedia 71,229; Bukalapak 90,127; Blibli 116,883.
+- Shopee/Lazada exports end in November 2023 and lack individual reviewer-country information. The three Indonesian-app-curator-context files total 278,239 clean reviews; reviewer countries and languages remain unknown. Tokopedia/Bukalapak end in October 2024 and Blibli in February 2025.
+- Twitter source scope: 513,077 rows in 126,882 observed reply components. Core marketplace/courier: 438,115; adjacent retail: 74,962. Actual dates span 13 October 2011 to 3 December 2017; the source snapshot is from 2017. Numeric source IDs are surrogates, not live status permalinks.
+- The 949 smaller Zenodo records include PDF extractions and mixed-language/promotional brand-keyword samples. Dataset titles do not certify Indonesian seller experience. Original files and page/row locators remain available.
+- Agent Reach 1.6.0, source commit `14c213405669414492bda0f8d52cc6531d062c45`, was installed in a task-local environment and run with the explicit public-web backend. No browser login, account sessions or cookies were used. The subagent completed 32 successful Reddit queries and three unsuccessful X probes. A separate root Reddit pilot adds ten result appearances; the root X pilot was also unsuccessful. Indexed retrieval is not a full site scrape.
+- A large Reddit archive was excluded after metadata, redistribution and identifier checks. Its 809,078 screened rows and 4,013 keyword matches are **not delivered corpus records** and must not inflate totals.
+- Accepted original app ZIP archives and source-faithful scoped Twitter raw rows are preserved. Clean files retain provenance. Independent QA checked text integrity, hashes, dates, schemas, record counts and raw/clean reconciliation. Dataset licenses remain source-specific; several large sources have non-commercial/share-alike conditions.
+- **No new thematic, sentiment, causal, financial or strategy analysis was performed.** Analysis preserved in version 1 and the earlier conversation is prior context, not analysis of this new corpus.
+
+## Package provenance and next phase
+
+The companion ZIP contains START_HERE, detailed collection/cleaning methodology, source-specific dictionaries/licenses, query/access logs, source manifests, raw/clean data, exclusions, reproduction scripts, independent QA and file checksums. Its mass is mostly historical material; use a task-specific, date/locale/role-validated subset for a later analysis. Do not use the aggregated corpus to estimate current Indonesian sentiment or Nexora churn. No next strategy, target segment or solution has been accepted.
+
+## Machine-readable achieved inventory
+
+```json
+{
+  "completed_utc": "2026-10-26T03:42:44.778249+00:00",
+  "purpose": "external mechanism benchmarking for fictional Nexora; data preparation only",
+  "analysis_performed": false,
+  "authoritative_clean_record_counts": {
+    "app_reviews": 1834939,
+    "historical_support_tweets": 513077,
+    "published_zenodo_records": 949
+  },
+  "sum_published_source_clean_records": 2348965,
+  "record_total_not_unique_people_or_globally_deduplicated_claims": true,
+  "public_index_unique_url_leads_separate": {
+    "unique_source_urls_across_discovery_streams": 415,
+    "by_platform": {
+      "reddit": 376,
+      "x": 39
+    },
+    "URLs_appearing_in_both_streams": 38,
+    "note": "Do not sum discovery-stream rows as independent source conversations. Does not deduplicate against externally downloaded corpora."
+  },
+  "app_context_subsets": {
+    "Indonesian_app_curator_context_reviewer_country_unknown": 278239,
+    "international_app_exports_reviewer_country_unknown": 1556700
+  },
+  "historical_support_strata_additive": {
+    "historical_international_core_marketplace_courier": 438115,
+    "historical_international_retail_adjacent": 74962
+  },
+  "historical_support_observed_components": 126882,
+  "historical_support_date_range": [
+    "2011-10-13T11:57:18+00:00",
+    "2017-12-03T23:13:02+00:00"
+  ],
+  "app_review_date_range": [
+    "2013-06-09",
+    "2025-02-09"
+  ],
+  "small_published_X_samples_dates": "Source PDF posts January2024; CSV posts January2026; see record locators; mixedlocale/promotional",
+  "raw_selected_counts": {
+    "app_reviews": 1835693,
+    "historical_support_tweets": 513077,
+    "published_zenodo_records": 951
+  },
+  "source_route_notes": [
+    "Most volume comes from historical downloaded research datasets and supplementary app reviews.",
+    "Agent Reach was actually run on public-web backend; indexed excerpts not full platform scrape.",
+    "X public-web probes returned no usable in-scope items; no authenticated X live scrape.",
+    "Indexed social URL leads are reported separately; do not add overlapping route representations.",
+    "Unrelated members inside original multiapp source archive are not counted.",
+    "Excluded Reddit archive contributes zero delivered corpus records."
+  ]
+}
+```
+
+<!-- END UPDATED MASTER CONTEXT -->
+
+
+<!-- END BYTE-PRESERVED VERSION 2 ARCHIVE -->

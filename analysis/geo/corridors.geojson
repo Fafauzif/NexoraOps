@@ -1,0 +1,481 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.873,
+            -6.243
+          ],
+          [
+            106.793,
+            -6.176
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_00",
+        "from_node": "CAW",
+        "to_node": "TOM",
+        "network_length_km": 16.0,
+        "name": "Cawang\u2013Tomang",
+        "provenance": "historical observation; current distance uncertain",
+        "source_url": "https://bphn.go.id/data/documents/81kp038.pdf",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.793,
+            -6.176
+          ],
+          [
+            106.794,
+            -6.119
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_01",
+        "from_node": "TOM",
+        "to_node": "PLU",
+        "network_length_km": 7.5,
+        "name": "Tomang\u2013Pluit",
+        "provenance": "derived 23.5 minus historical16; assumption of consistent alignment",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.873,
+            -6.243
+          ],
+          [
+            106.794,
+            -6.119
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_02",
+        "from_node": "CAW",
+        "to_node": "PLU",
+        "network_length_km": 27.05,
+        "name": "Eastern inner ring via Tanjung Priok",
+        "provenance": "external corridor length",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.793,
+            -6.176
+          ],
+          [
+            106.761,
+            -6.19
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_03",
+        "from_node": "TOM",
+        "to_node": "KJ",
+        "network_length_km": 3.0,
+        "name": "Jakarta\u2013Tangerang east subsection",
+        "provenance": "ASSUMPTION",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.761,
+            -6.19
+          ],
+          [
+            106.56,
+            -6.238
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_04",
+        "from_node": "KJ",
+        "to_node": "BIT",
+        "network_length_km": 30.0,
+        "name": "Jakarta\u2013Tangerang west subsection",
+        "provenance": "derived 33 minus assumed3; terminal anchor approximate",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.761,
+            -6.19
+          ],
+          [
+            106.764,
+            -6.242
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_05",
+        "from_node": "KJ",
+        "to_node": "ULU",
+        "network_length_km": 7.87,
+        "name": "JORR W2 North",
+        "provenance": "external corridor length",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.764,
+            -6.242
+          ],
+          [
+            106.737,
+            -6.263
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_06",
+        "from_node": "ULU",
+        "to_node": "PAR",
+        "network_length_km": 5.55,
+        "name": "Pondok Aren\u2013Ulujami",
+        "provenance": "external corridor length",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.764,
+            -6.242
+          ],
+          [
+            106.781,
+            -6.291
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_07",
+        "from_node": "ULU",
+        "to_node": "PPI",
+        "network_length_km": 5.0,
+        "name": "JORR southwest connector",
+        "provenance": "ASSUMPTION",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.781,
+            -6.291
+          ],
+          [
+            106.881,
+            -6.307
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_08",
+        "from_node": "PPI",
+        "to_node": "TMI",
+        "network_length_km": 14.25,
+        "name": "JORR South",
+        "provenance": "external corridor length",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.873,
+            -6.243
+          ],
+          [
+            106.881,
+            -6.307
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_09",
+        "from_node": "CAW",
+        "to_node": "TMI",
+        "network_length_km": 7.0,
+        "name": "Jagorawi northern subsection",
+        "provenance": "ASSUMPTION",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.881,
+            -6.307
+          ],
+          [
+            106.895,
+            -6.366
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_10",
+        "from_node": "TMI",
+        "to_node": "CIB",
+        "network_length_km": 8.0,
+        "name": "Jagorawi middle north",
+        "provenance": "ASSUMPTION",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.895,
+            -6.366
+          ],
+          [
+            106.897,
+            -6.433
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_11",
+        "from_node": "CIB",
+        "to_node": "CIM",
+        "network_length_km": 10.0,
+        "name": "Jagorawi middle",
+        "provenance": "ASSUMPTION",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.897,
+            -6.433
+          ],
+          [
+            106.832,
+            -6.604
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_12",
+        "from_node": "CIM",
+        "to_node": "BOG",
+        "network_length_km": 23.0,
+        "name": "Jagorawi south to Bogor corridor",
+        "provenance": "ASSUMPTION; not the full59km concession length",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.781,
+            -6.291
+          ],
+          [
+            106.814,
+            -6.293
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_13",
+        "from_node": "PPI",
+        "to_node": "ANT",
+        "network_length_km": 3.0,
+        "name": "TB Simatupang access abstraction",
+        "provenance": "ASSUMPTION",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.814,
+            -6.293
+          ],
+          [
+            106.8,
+            -6.401
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_14",
+        "from_node": "ANT",
+        "to_node": "DEP",
+        "network_length_km": 12.1,
+        "name": "Depok\u2013Antasari corridor",
+        "provenance": "external corridor length; approximate terminal anchors",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.873,
+            -6.243
+          ],
+          [
+            106.868,
+            -6.224
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_15",
+        "from_node": "CAW",
+        "to_node": "KMU",
+        "network_length_km": 4.0,
+        "name": "Cawang\u2013Kampung Melayu access abstraction",
+        "provenance": "ASSUMPTION",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.868,
+            -6.224
+          ],
+          [
+            106.991,
+            -6.252
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_id": "C_16",
+        "from_node": "KMU",
+        "to_node": "BEK",
+        "network_length_km": 15.28,
+        "name": "Bekasi\u2013Cawang\u2013Kampung Melayu corridor",
+        "provenance": "external corridor length; terminal anchor approximate",
+        "source_url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+        "geometry_status": "schematic_endpoint_line_only",
+        "access": "van_or_truck; no motorcycle toll access",
+        "direction": "two_directed_corridor_arcs; ramps/turn restrictions unresolved"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5801 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.13014704056715495,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_SOFTWARE_75_100",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.39528860649784225,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.13014704056715495,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_SOFTWARE_80_100",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.39528860649784225,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.13014704056715495,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_SOFTWARE_85_100",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.39528860649784225,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.13014704056715495,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_SOFTWARE_90_100",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.39528860649784225,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.13014704056715495,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_SOFTWARE_95_100",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.39528860649784225,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_CURRENT",
+        "name": "East Jakarta",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_CURRENT",
+        "name": "West Jakarta",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_CURRENT",
+        "name": "North Jakarta",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5,
+        "marginal_advantage_idr": 2415.5555555555566,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_CURRENT",
+        "name": "South Jakarta",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5,
+        "marginal_advantage_idr": 2409.0997150997155,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_CURRENT",
+        "name": "Tangerang corridor",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5,
+        "marginal_advantage_idr": 2057.7777777777774,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_CURRENT",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5,
+        "marginal_advantage_idr": 2879.5003367003364,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_CURRENT",
+        "name": "Depok",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_CURRENT",
+        "name": "Bogor corridor",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.4999999999999999,
+        "marginal_advantage_idr": 1213.333333333334,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_CURRENT",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5,
+        "marginal_advantage_idr": 2792.641077441078,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_RULES_75_100",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_RULES_75_100",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_RULES_75_100",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2415.5555555555566,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_RULES_75_100",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.13014704056715495,
+        "marginal_advantage_idr": 2409.0997150997155,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_RULES_75_100",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2057.7777777777774,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_RULES_75_100",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 2879.5003367003364,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_RULES_75_100",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_RULES_75_100",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1213.333333333334,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_RULES_75_100",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.39528860649784225,
+        "marginal_advantage_idr": 2792.641077441078,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_RULES_55_94",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_RULES_55_94",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_RULES_55_94",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2415.5555555555566,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_RULES_55_94",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2409.0997150997155,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_RULES_55_94",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2057.7777777777774,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_RULES_55_94",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 0.9429809986174692,
+        "marginal_advantage_idr": 2879.5003367003364,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_RULES_55_94",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_RULES_55_94",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1213.333333333334,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_RULES_55_94",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.3003454761129874,
+        "marginal_advantage_idr": 2792.641077441078,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_RULES_70_88",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_RULES_70_88",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_RULES_70_88",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2415.5555555555566,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_RULES_70_88",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2409.0997150997155,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_RULES_70_88",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2057.7777777777774,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_RULES_70_88",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.6744645730300107,
+        "marginal_advantage_idr": 2879.5003367003364,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_RULES_70_88",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3060.0,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_RULES_70_88",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1213.333333333334,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_RULES_70_88",
+        "name": "Bekasi",
+        "preferred_mode": "external",
+        "internal_fraction": 0.20540234572813254,
+        "marginal_advantage_idr": 2792.641077441078,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 0.9429809986174692,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_SOFTWARE_60_94",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.3003454761129874,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "South Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.6744645730300107,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_SOFTWARE_70_88",
+        "name": "Bekasi",
+        "preferred_mode": "external",
+        "internal_fraction": 0.20540234572813254,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.14996407211344814,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "South Jakarta",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5075002908704366,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_TARGETED_75_100",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.6801179976524069,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "North Jakarta",
+        "preferred_mode": "external",
+        "internal_fraction": 0.009740684446231189,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "South Jakarta",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.4231861657824273,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_TARGETED_75_94",
+        "name": "Bekasi",
+        "preferred_mode": "mixed",
+        "internal_fraction": 0.5680851037982781,
+        "marginal_advantage_idr": 2915.751461279462,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.848,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.268000000000001
+            ],
+            [
+              106.89800000000001,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.218
+            ],
+            [
+              106.848,
+              -6.268000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_00",
+        "policy_id": "P_LARGE_85_100",
+        "name": "East Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 180046.6794122376,
+        "population_proxy": 3085058,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.985,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.768,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.2010000000000005
+            ],
+            [
+              106.81800000000001,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.151
+            ],
+            [
+              106.768,
+              -6.2010000000000005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_01",
+        "policy_id": "P_LARGE_85_100",
+        "name": "West Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3164.1000000000004,
+        "daily_parcels": 149222.68081506962,
+        "population_proxy": 2487199,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.76899999999999,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.144
+            ],
+            [
+              106.819,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.093999999999999
+            ],
+            [
+              106.76899999999999,
+              -6.144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_02",
+        "policy_id": "P_LARGE_85_100",
+        "name": "North Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 2529.322222222223,
+        "daily_parcels": 106030.81445504124,
+        "population_proxy": 1800000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.756,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.316000000000001
+            ],
+            [
+              106.80600000000001,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.266
+            ],
+            [
+              106.756,
+              -6.316000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_03",
+        "policy_id": "P_LARGE_85_100",
+        "name": "South Jakarta",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 2522.9632193732195,
+        "daily_parcels": 134354.71207434736,
+        "population_proxy": 2219220,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.535,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.263000000000001
+            ],
+            [
+              106.58500000000001,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.213
+            ],
+            [
+              106.535,
+              -6.263000000000001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_04",
+        "policy_id": "P_LARGE_85_100",
+        "name": "Tangerang corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.06226116383432722,
+        "marginal_advantage_idr": 2191.9111111111106,
+        "daily_parcels": 110675.25984499288,
+        "population_proxy": 1970000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.71199999999999,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.288
+            ],
+            [
+              106.762,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.2379999999999995
+            ],
+            [
+              106.71199999999999,
+              -6.288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_05",
+        "policy_id": "P_LARGE_85_100",
+        "name": "South Tangerang corridor",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3001.3078316498313,
+        "daily_parcels": 82676.50647974694,
+        "population_proxy": 1430000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.995,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.77499999999999,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.426
+            ],
+            [
+              106.825,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.3759999999999994
+            ],
+            [
+              106.77499999999999,
+              -6.426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_06",
+        "policy_id": "P_LARGE_85_100",
+        "name": "Depok",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3179.1000000000004,
+        "daily_parcels": 120614.94454245495,
+        "population_proxy": 2167961,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 1.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.6290000000000004
+            ],
+            [
+              106.857,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.579
+            ],
+            [
+              106.80699999999999,
+              -6.6290000000000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_07",
+        "policy_id": "P_LARGE_85_100",
+        "name": "Bogor corridor",
+        "preferred_mode": "external",
+        "internal_fraction": 0.0,
+        "marginal_advantage_idr": 1360.1333333333332,
+        "daily_parcels": 60599.072284458685,
+        "population_proxy": 1100000,
+        "population_status": "rounded population-proxy ASSUMPTION",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.0,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.966,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.277
+            ],
+            [
+              107.016,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.226999999999999
+            ],
+            [
+              106.966,
+              -6.277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "zone_id": "Z_08",
+        "policy_id": "P_LARGE_85_100",
+        "name": "Bekasi",
+        "preferred_mode": "internal",
+        "internal_fraction": 1.0,
+        "marginal_advantage_idr": 3492.5090909090904,
+        "daily_parcels": 151669.74105055482,
+        "population_proxy": 2648300,
+        "population_status": "BPS2025 search-index table observation",
+        "max_shared_hub_pressure": 1.0,
+        "geography_status": "authored_analytical_square_not_administrative_boundary",
+        "routing_status": "coarse_corridor_only",
+        "internal_majority_fraction_of_200_worlds": 0.015,
+        "switching_simulation_policy_id": "P_RULES_70_88"
+      }
+    }
+  ]
+}

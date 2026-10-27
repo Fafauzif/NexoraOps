@@ -1,0 +1,16 @@
+{
+  "nodes": 16,
+  "corridor_edges": 17,
+  "directed_arcs": 34,
+  "weak_components": 1,
+  "zones": 9,
+  "policy_zone_features": 126,
+  "facilities": 4,
+  "matrix_entries": 36,
+  "unreachable_pairs": 0,
+  "crs": "OGC:CRS84 longitude,latitude; schematic geometry",
+  "distance_method": "Dijkstra on coarse corridor attributes; includes authored lengths, not shortest paths on observed streets",
+  "source_full_resolution_acquired": false,
+  "retained_source_layer": "No downloaded road/building source layer; official textual corridor observations retained instead",
+  "runtime_seconds": 0.30767348799963656
+}

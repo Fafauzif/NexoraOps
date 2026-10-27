@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"workspace":"#F6F7F9","panel":"#FFFFFF","border-light":"#E3E7EC","charcoal":"#202833","slate-custom":"#637080","accent-orange":"#C65317","accent-orange-hover":"#A94010","peach-light":"#FFF0E6","coral-red":"#DC2626","coral-light":"#FEE2E2",surface:"#F6F7F9","surface-container-lowest":"#FFFFFF","surface-container-low":"#F6F7F9","surface-container-high":"#E3E7EC","on-surface":"#202833","on-surface-variant":"#637080","outline":"#637080","outline-variant":"#E3E7EC","primary":"#C65317","primary-container":"#FFF0E6","on-primary":"#FFFFFF","on-primary-container":"#C65317","error":"#DC2626","error-container":"#FEE2E2","on-error-container":"#991B1B"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},fontFamily:{"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]}}}};</script></head><body class="bg-workspace font-body-md text-charcoal"><aside class="fixed left-0 top-0 h-full w-[232px] bg-panel border-r border-border-light shadow-[0_1px_4px_rgba(0,0,0,0.03)] z-50 flex flex-col justify-between py-4"><div class="flex flex-col"><div class="px-4 pb-4 flex items-center gap-2 border-b border-border-light"><div class="w-8 h-8 rounded-lg bg-accent-orange flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-white text-[20px]">hub</span></div><div class="flex flex-col"><span class="font-headline-sm text-[16px] font-bold text-charcoal leading-tight">Nexora</span><span class="font-label-sm text-[11px] text-slate-custom leading-none">NexExpress Operations</span></div></div><nav class="flex flex-col px-2 gap-1 pt-3"><div class="px-3 pt-2 pb-1 font-label-sm text-[11px] uppercase tracking-wider text-slate-custom font-semibold">Operate / Monitor</div><a class="flex items-center gap-2.5 px-3 py-2 rounded-lg text-slate-custom hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="overview" href="#"><span class="material-symbols-outlined text-[18px]">dashboard</span>Overview</a><a class="flex items-center gap-2.5 px-3 py-2 rounded-lg text-slate-custom hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="digital-twin" href="#"><span class="material-symbols-outlined text-[18px]">alt_route</span>Digital Twin</a><a aria-current="page" class="flex items-center gap-2.5 px-3 py-2 transition-colors bg-peach-light text-accent-orange font-semibold rounded-lg text-[13px]" data-path="demand-&amp;-capacity-forecast" href="#"><span class="material-symbols-outlined text-[18px] text-accent-orange">ssid_chart</span>Forecasts</a><div class="px-3 pt-4 pb-1 font-label-sm text-[11px] uppercase tracking-wider text-slate-custom font-semibold">Decide</div><a class="flex items-center gap-2.5 px-3 py-2 rounded-lg text-slate-custom hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="policy-lab" href="#"><span class="material-symbols-outlined text-[18px]">science</span>Policy Lab</a><a class="flex items-center gap-2.5 px-3 py-2 rounded-lg text-slate-custom hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="capacity-&amp;-partners" href="#"><span class="material-symbols-outlined text-[18px]">local_shipping</span>Capacity &amp; Partners</a><a class="flex items-center justify-between px-3 py-2 rounded-lg text-slate-custom hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="incidents-&amp;-actions" href="#"><div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-[18px]">warning</span><span>Incidents &amp; Actions</span></div><span class="px-1.5 py-0.5 rounded-full bg-coral-red text-white text-[10px] leading-tight font-bold">1</span></a><div class="px-3 pt-4 pb-1 font-label-sm text-[11px] uppercase tracking-wider text-slate-custom font-semibold">Evaluate</div><a class="flex items-center gap-2.5 px-3 py-2 rounded-lg text-slate-custom hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="financial-&amp;-operational-impact" href="#"><span class="material-symbols-outlined text-[18px]">analytics</span>Impact</a><a class="flex items-center gap-2.5 px-3 py-2 rounded-lg text-slate-custom hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="rollout" href="#"><span class="material-symbols-outlined text-[18px]">published_with_changes</span>Rollout</a></nav></div><div class="flex flex-col px-3 pt-3 border-t border-border-light gap-2"><a class="flex items-center gap-2.5 px-3 py-2 rounded-lg text-slate-custom hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="evidence-&amp;-assumptions" href="#"><span class="material-symbols-outlined text-[18px]">fact_check</span>Evidence &amp; Assumptions</a><div class="flex items-center justify-between px-3 py-2 rounded-lg text-slate-custom text-[13px] font-medium"><div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-[18px]">tune</span><span>Prototype Mode</span></div><div class="w-8 h-4 bg-accent-orange rounded-full flex items-center p-0.5 cursor-pointer"><div class="w-3 h-3 bg-white rounded-full shadow-sm translate-x-4 transition-transform"></div></div></div></div></aside><div class="pl-[232px]"><header class="fixed top-0 left-[232px] right-0 h-14 bg-panel border-b border-border-light shadow-[0_1px_4px_rgba(0,0,0,0.03)] z-40 flex items-center justify-between px-6"><div class="flex items-center gap-2 cursor-pointer hover:bg-workspace px-2.5 py-1.5 rounded-lg transition-colors border border-transparent hover:border-border-light"><span class="material-symbols-outlined text-[18px] text-accent-orange">location_on</span><span class="font-semibold text-[14px] text-charcoal">Greater Jakarta · Regional Network</span><span class="material-symbols-outlined text-[16px] text-slate-custom">expand_more</span></div><div class="flex items-center gap-4"><div class="flex items-center gap-2 bg-workspace border border-border-light px-2.5 py-1 rounded-lg"><span class="font-semibold text-[11px] text-accent-orange">Campaign surge</span><span class="text-border-light">|</span><span class="text-[12px] text-slate-custom">09:30 WIB · data 12s ago</span></div><span class="px-2.5 py-1 rounded-full bg-peach-light text-accent-orange border border-accent-orange/20 text-[11px] font-semibold">Prototype · simulated data</span><div class="h-4 w-[1px] bg-border-light"></div><button class="px-3 py-1 bg-workspace hover:bg-border-light/60 text-charcoal border border-border-light rounded-lg text-[12px] font-medium transition-colors">Assumptions</button><button class="p-1.5 hover:bg-workspace text-slate-custom hover:text-charcoal rounded-lg border border-border-light transition-colors"><span class="material-symbols-outlined text-[18px]">restart_alt</span></button><div class="flex items-center gap-2 pl-1"><div class="flex flex-col text-right"><span class="text-[13px] font-semibold text-charcoal leading-tight">Jev</span><span class="text-[11px] text-slate-custom leading-none">Ops Planner</span></div><div class="w-8 h-8 rounded-full bg-accent-orange flex items-center justify-center text-white"><span class="material-symbols-outlined text-[18px]">person</span></div></div></div></header><main class="w-full pt-14 bg-workspace min-h-screen px-6 py-6"><div class="max-w-[1440px] mx-auto"><div class="flex flex-col w-full">
+<!-- Top Context Header & Horizon Selector -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+<div class="flex flex-col max-w-3xl">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-custom">Passenger &amp; Parcel Demand Forecasting</span>
+<span class="w-1.5 h-1.5 rounded-full bg-accent-orange"></span>
+<span class="text-[11px] font-medium text-accent-orange">Live Horizon Sync</span>
+</div>
+<h1 class="text-[26px] font-bold text-charcoal tracking-tight">Demand &amp; capacity forecast</h1>
+<p class="text-[14px] text-slate-custom mt-1.5 leading-relaxed">
+        Within the next 90 minutes leading to <strong class="font-semibold text-charcoal">11:00 WIB dispatch cut-off</strong>, Greater Jakarta aggregate delivery volume is forecast to reach <strong class="font-semibold text-charcoal">100,000 parcels</strong>, with <span class="text-coral-red font-semibold inline-flex items-center gap-0.5"><span class="material-symbols-outlined text-[15px]">error</span>Bekasi Hub</span> experiencing an unmitigated 4,000 parcel deficit.
+      </p>
+</div>
+<!-- Horizon Pills -->
+<div class="flex items-center bg-panel border border-border-light p-1 rounded-xl shadow-sm self-start md:self-auto shrink-0">
+<span class="text-[11px] font-semibold text-slate-custom px-2 mr-1 hidden lg:inline">Horizon</span>
+<button class="px-3 py-1.5 text-slate-custom hover:text-charcoal text-[13px] font-medium rounded-lg transition-colors">15 min</button>
+<button class="px-3 py-1.5 text-slate-custom hover:text-charcoal text-[13px] font-medium rounded-lg transition-colors">30 min</button>
+<button class="px-3 py-1.5 text-slate-custom hover:text-charcoal text-[13px] font-medium rounded-lg transition-colors">60 min</button>
+<button class="px-3.5 py-1.5 bg-peach-light text-accent-orange border border-accent-orange/30 text-[13px] font-bold rounded-lg shadow-xs transition-all">90 min</button>
+<button class="px-3 py-1.5 text-slate-custom hover:text-charcoal text-[13px] font-medium rounded-lg transition-colors">Full Day</button>
+</div>
+</div>
+<!-- Headline Metrics Strip (4 Calm Cards) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+<!-- Card 1 -->
+<div class="bg-panel border border-border-light p-4 rounded-xl shadow-xs flex flex-col justify-between transition-all hover:border-slate-custom/40">
+<div class="flex items-center justify-between text-slate-custom mb-2">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-custom">Total Forecast Volume</span>
+<span class="material-symbols-outlined text-[18px] text-accent-orange">inventory_2</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-[26px] font-bold text-charcoal">100,000</span>
+<span class="text-[12px] text-slate-custom">parcels</span>
+</div>
+<div class="flex items-center gap-1.5 mt-2 pt-2 bg-workspace border-t border-border-light -mx-4 -mb-4 px-4 py-2 rounded-b-xl">
+<span class="material-symbols-outlined text-accent-orange text-[15px]">trending_up</span>
+<span class="text-[12px] text-accent-orange font-semibold">+18%</span>
+<span class="text-[12px] text-slate-custom truncate">campaign surge vs baseline</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-panel border border-border-light p-4 rounded-xl shadow-xs flex flex-col justify-between transition-all hover:border-slate-custom/40">
+<div class="flex items-center justify-between text-slate-custom mb-2">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-custom">Internal Linehaul Load</span>
+<span class="material-symbols-outlined text-[18px] text-slate-custom">local_shipping</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-[26px] font-bold text-charcoal">65,000</span>
+<span class="text-[12px] text-slate-custom">parcels</span>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-workspace border-t border-border-light -mx-4 -mb-4 px-4 py-2 rounded-b-xl">
+<span class="text-[12px] text-slate-custom">Fleet Utilisation</span>
+<div class="flex items-center gap-2">
+<div class="w-16 bg-border-light h-1.5 rounded-full overflow-hidden">
+<div class="bg-charcoal h-full rounded-full" style="width: 91%;"></div>
+</div>
+<span class="text-[12px] font-semibold text-charcoal">91%</span>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-panel border border-border-light p-4 rounded-xl shadow-xs flex flex-col justify-between transition-all hover:border-slate-custom/40">
+<div class="flex items-center justify-between text-slate-custom mb-2">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-custom">3PL Overflow Buffer</span>
+<span class="material-symbols-outlined text-[18px] text-slate-custom">handshake</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-[26px] font-bold text-charcoal">35,000</span>
+<span class="text-[12px] text-slate-custom">parcels</span>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-workspace border-t border-border-light -mx-4 -mb-4 px-4 py-2 rounded-b-xl">
+<span class="text-[12px] text-slate-custom">Contract limit: 42,000</span>
+<span class="text-[11px] px-2 py-0.5 rounded bg-peach-light text-accent-orange font-semibold border border-accent-orange/20">83% alloc</span>
+</div>
+</div>
+<!-- Card 4 (Alert Metric) -->
+<div class="bg-panel border border-coral-red/30 p-4 rounded-xl shadow-xs flex flex-col justify-between transition-all hover:border-coral-red/60 relative overflow-hidden">
+<div class="flex items-center justify-between text-slate-custom mb-2">
+<span class="text-[11px] font-bold uppercase tracking-wider text-coral-red flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">warning</span>At-Risk Volume
+        </span>
+<span class="px-1.5 py-0.5 bg-coral-red text-white rounded font-bold text-[10px]">CRITICAL</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-[26px] font-bold text-coral-red">4,000</span>
+<span class="text-[12px] text-slate-custom">parcels</span>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 bg-coral-light/50 border-t border-coral-red/20 -mx-4 -mb-4 px-4 py-2 rounded-b-xl text-coral-red">
+<span class="text-[12px] font-semibold truncate text-coral-red">Bekasi sorting bottleneck</span>
+<span class="text-[12px] font-semibold underline cursor-pointer text-coral-red">View node</span>
+</div>
+</div>
+</div>
+<!-- Two-Column Main Analytical Area -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+<!-- Left Column -->
+<div class="lg:col-span-8 flex flex-col gap-6">
+<!-- Primary Forecast Visual Card -->
+<div class="bg-panel border border-border-light p-6 rounded-xl shadow-xs">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 mb-2 border-b border-border-light">
+<div>
+<h2 class="text-[18px] font-bold text-charcoal">Parcel Intake &amp; Linehaul Capacity</h2>
+<p class="text-[13px] text-slate-custom">Cumulative network volume with P10–P90 uncertainty corridor (07:00 – 12:00 WIB)</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1 text-slate-custom text-[12px] bg-workspace border border-border-light px-2.5 py-1 rounded-lg">
+<span class="material-symbols-outlined text-[15px] text-accent-orange">analytics</span> NexEngine v3.4
+            </span>
+<button class="p-1.5 text-slate-custom hover:text-charcoal hover:bg-workspace border border-border-light rounded-lg transition-colors" title="Export Chart Data">
+<span class="material-symbols-outlined text-[18px]">download</span>
+</button>
+</div>
+</div>
+<!-- Interactive Legend -->
+<div class="flex flex-wrap items-center gap-x-5 gap-y-2 py-2 px-3 mb-4 bg-workspace border border-border-light rounded-lg text-[12px]">
+<div class="flex items-center gap-1.5">
+<span class="w-3.5 h-0.5 bg-charcoal rounded-full"></span>
+<span class="font-medium text-charcoal">Measured intake</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3.5 h-0.5 bg-accent-orange rounded-full"></span>
+<span class="font-bold text-accent-orange">Forecast intake (median)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3.5 h-2 bg-[#FFF0E6] border border-accent-orange/30 rounded-xs"></span>
+<span class="font-medium text-slate-custom">P10–P90 Confidence band</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3.5 h-0.5 border-b-2 border-dashed border-slate-custom"></span>
+<span class="font-medium text-slate-custom">Effective sort capacity (96k cap)</span>
+</div>
+</div>
+<!-- SVG Line Forecast Chart -->
+<div class="w-full relative overflow-hidden bg-panel pt-2 select-none">
+<svg class="w-full h-auto overflow-visible text-[11px]" viewbox="0 0 740 320">
+<defs>
+<!-- Gradient for P10-P90 corridor: subtle pale peach / warm tint -->
+<lineargradient id="pBandGradient" x1="0%" x2="0%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#C65317" stop-opacity="0.18"></stop>
+<stop offset="100%" stop-color="#FFF0E6" stop-opacity="0.30"></stop>
+</lineargradient>
+<!-- Linear gradient for deficit gap area -->
+<lineargradient id="deficitGradient" x1="0%" x2="0%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#DC2626" stop-opacity="0.22"></stop>
+<stop offset="100%" stop-color="#DC2626" stop-opacity="0.04"></stop>
+</lineargradient>
+</defs>
+<!-- Horizontal Grid lines & Y-axis labels -->
+<g opacity="0.8">
+<line stroke="#E3E7EC" stroke-dasharray="3,3" stroke-width="1" x1="55" x2="710" y1="35" y2="35"></line>
+<text fill="#637080" font-size="11" text-anchor="end" x="48" y="39">120k</text>
+<line stroke="#E3E7EC" stroke-dasharray="3,3" stroke-width="1" x1="55" x2="710" y1="85" y2="85"></line>
+<text fill="#637080" font-size="11" text-anchor="end" x="48" y="89">100k</text>
+<line stroke="#E3E7EC" stroke-dasharray="3,3" stroke-width="1" x1="55" x2="710" y1="135" y2="135"></line>
+<text fill="#637080" font-size="11" text-anchor="end" x="48" y="139">80k</text>
+<line stroke="#E3E7EC" stroke-dasharray="3,3" stroke-width="1" x1="55" x2="710" y1="185" y2="185"></line>
+<text fill="#637080" font-size="11" text-anchor="end" x="48" y="189">60k</text>
+<line stroke="#E3E7EC" stroke-dasharray="3,3" stroke-width="1" x1="55" x2="710" y1="235" y2="235"></line>
+<text fill="#637080" font-size="11" text-anchor="end" x="48" y="239">40k</text>
+<line stroke="#E3E7EC" stroke-width="1.5" x1="55" x2="710" y1="280" y2="280"></line>
+<text fill="#637080" font-size="11" text-anchor="end" x="48" y="284">20k</text>
+</g>
+<!-- Deficit Gap Polygon Area between 10:15 and 11:00 (forecast 100k vs cap 96k) -->
+<polygon fill="url(#deficitGradient)" points="535,97 615,85 700,78 700,97 615,97 535,97"></polygon>
+<!-- P10-P90 Confidence corridor band starting at Now (x=380) -->
+<polygon fill="url(#pBandGradient)" points="
+              380,185 
+              450,150 
+              530,118 
+              615,75 
+              700,68 
+              700,98 
+              615,100 
+              530,136 
+              450,168 
+              380,185
+            "></polygon>
+<!-- Capacity ceiling: Dotted/dashed line in slate #637080, stepping down with bottleneck -->
+<path d="M 55,75 L 380,75 C 420,75 450,97 490,97 L 710,97" fill="none" stroke="#637080" stroke-dasharray="5,4" stroke-width="2"></path>
+<text fill="#637080" font-size="10" font-weight="600" text-anchor="end" x="705" y="112">96,000 Cap (Bekasi bottleneck)</text>
+<!-- Measured Cumulative Line (Charcoal #202833 solid line from 07:00 to 09:30) -->
+<path d="M 55,275 C 130,270 210,245 285,225 C 330,210 355,198 380,185" fill="none" stroke="#202833" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Forecast Cumulative Line (Burnt orange #C65317 curve from 09:30 to 12:00) -->
+<path d="M 380,185 C 450,158 520,126 615,85 C 660,78 685,74 710,72" fill="none" stroke="#C65317" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Now Indicator Vertical Divider line (09:30 WIB) -->
+<line stroke="#C65317" stroke-dasharray="4,2" stroke-width="1.5" x1="380" x2="380" y1="20" y2="280"></line>
+<!-- Now Anchor Tag in Burnt orange -->
+<g transform="translate(380, 18)">
+<rect fill="#C65317" height="20" rx="4" width="84" x="-42" y="-14"></rect>
+<text fill="#FFFFFF" font-size="10" font-weight="700" text-anchor="middle" x="0" y="0">NOW 09:30</text>
+</g>
+<!-- Measured Node Dot at Now -->
+<circle cx="380" cy="185" fill="#202833" r="4.5" stroke="#FFFFFF" stroke-width="2"></circle>
+<text fill="#202833" font-size="11" font-weight="700" text-anchor="end" x="370" y="180">58,400</text>
+<!-- Target 11:00 Marker Node -->
+<line stroke="#E3E7EC" stroke-dasharray="2,2" stroke-width="1" x1="615" x2="615" y1="35" y2="280"></line>
+<circle cx="615" cy="85" fill="#C65317" r="4.5" stroke="#FFFFFF" stroke-width="2"></circle>
+<text fill="#C65317" font-size="12" font-weight="700" text-anchor="middle" x="615" y="70">100,000</text>
+<!-- X-axis tick labels -->
+<g fill="#637080" font-size="11">
+<text text-anchor="middle" x="55" y="300">07:00</text>
+<text text-anchor="middle" x="160" y="300">08:00</text>
+<text text-anchor="middle" x="270" y="300">09:00</text>
+<text fill="#C65317" font-weight="700" text-anchor="middle" x="380" y="300">09:30 WIB</text>
+<text text-anchor="middle" x="495" y="300">10:00</text>
+<text fill="#202833" font-weight="700" text-anchor="middle" x="615" y="300">11:00 Cut-off</text>
+<text text-anchor="middle" x="710" y="300">12:00</text>
+</g>
+<!-- Deficit Callout Badge with coral red outline & background -->
+<g transform="translate(635, 125)">
+<rect fill="#FEE2E2" height="38" rx="6" stroke="#DC2626" stroke-width="1" width="95" x="0" y="0"></rect>
+<text fill="#991B1B" font-size="10" font-weight="700" x="8" y="16">DEFICIT GAP</text>
+<text fill="#DC2626" font-size="12" font-weight="700" x="8" y="30">-4,000 Parcels</text>
+</g>
+</svg>
+</div>
+<div class="flex items-center justify-between pt-3 mt-2 border-t border-border-light text-slate-custom text-[13px]">
+<div class="flex items-center gap-1.5 text-slate-custom">
+<span class="material-symbols-outlined text-[16px]">info</span>
+<span>Uncertainty band widens as horizon reaches 11:00 WIB dispatch cutoff.</span>
+</div>
+<span class="text-[12px] font-semibold text-accent-orange hover:underline cursor-pointer">Explore full interval table</span>
+</div>
+</div>
+<!-- Lower Card: Hub Capacity Headroom & Allocation Breakdown -->
+<div class="bg-panel border border-border-light p-6 rounded-xl shadow-xs">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+<div>
+<h2 class="text-[18px] font-bold text-charcoal">Hub Headroom Breakdown (Next 90 Min)</h2>
+<p class="text-[13px] text-slate-custom">Regional sorting facilities capacity headroom vs forecast inbound parcel load</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-full bg-peach-light text-accent-orange border border-accent-orange/20 text-[11px] font-semibold">
+              Depok Rebalance Candidate
+            </span>
+</div>
+</div>
+<!-- Headroom Data Bars -->
+<div class="flex flex-col gap-3">
+<!-- Hub 1: Jakarta Central -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-3 rounded-lg bg-workspace border border-border-light hover:border-slate-custom/30 transition-colors gap-2">
+<div class="w-48 shrink-0 flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-charcoal"></span>
+<span class="text-[13px] font-semibold text-charcoal">Jakarta Central Hub</span>
+</div>
+<div class="flex-1 max-w-md mx-2">
+<div class="flex items-center justify-between text-[12px] mb-1">
+<span class="text-slate-custom">Forecast: 38,200 / 46,400</span>
+<span class="font-semibold text-charcoal">82% Util</span>
+</div>
+<div class="w-full bg-border-light h-2 rounded-full overflow-hidden flex">
+<div class="bg-charcoal h-full rounded-full" style="width: 82%;"></div>
+</div>
+</div>
+<div class="w-32 text-right shrink-0">
+<span class="text-[12px] font-semibold text-slate-custom bg-panel border border-border-light px-2 py-0.5 rounded">+8,200 free</span>
+</div>
+</div>
+<!-- Hub 2: Depok (Prime rebalance candidate) -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-3 rounded-lg bg-peach-light/40 border border-accent-orange/30 hover:bg-peach-light/60 transition-colors gap-2">
+<div class="w-48 shrink-0 flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-accent-orange"></span>
+<span class="text-[13px] font-bold text-charcoal">Depok South Sorting</span>
+<span class="px-1.5 py-0.5 bg-accent-orange text-white rounded text-[9px] font-bold">REBALANCE</span>
+</div>
+<div class="flex-1 max-w-md mx-2">
+<div class="flex items-center justify-between text-[12px] mb-1">
+<span class="text-slate-custom">Forecast: 14,800 / 18,000</span>
+<span class="font-semibold text-accent-orange">82% Util</span>
+</div>
+<div class="w-full bg-border-light h-2 rounded-full overflow-hidden flex">
+<div class="bg-accent-orange h-full rounded-full" style="width: 82%;"></div>
+</div>
+</div>
+<div class="w-32 text-right shrink-0">
+<span class="text-[12px] font-bold text-accent-orange bg-panel border border-accent-orange/30 px-2 py-0.5 rounded">+3,200 free</span>
+</div>
+</div>
+<!-- Hub 3: Tangerang -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-3 rounded-lg bg-workspace border border-border-light hover:border-slate-custom/30 transition-colors gap-2">
+<div class="w-48 shrink-0 flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-charcoal"></span>
+<span class="text-[13px] font-semibold text-charcoal">Tangerang West Gateway</span>
+</div>
+<div class="flex-1 max-w-md mx-2">
+<div class="flex items-center justify-between text-[12px] mb-1">
+<span class="text-slate-custom">Forecast: 19,200 / 22,000</span>
+<span class="font-semibold text-charcoal">87% Util</span>
+</div>
+<div class="w-full bg-border-light h-2 rounded-full overflow-hidden flex">
+<div class="bg-charcoal h-full rounded-full" style="width: 87%;"></div>
+</div>
+</div>
+<div class="w-32 text-right shrink-0">
+<span class="text-[12px] font-semibold text-slate-custom bg-panel border border-border-light px-2 py-0.5 rounded">+2,800 free</span>
+</div>
+</div>
+<!-- Hub 4: Bogor -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-3 rounded-lg bg-workspace border border-border-light hover:border-slate-custom/30 transition-colors gap-2">
+<div class="w-48 shrink-0 flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-charcoal"></span>
+<span class="text-[13px] font-semibold text-charcoal">Bogor Foothills Depot</span>
+</div>
+<div class="flex-1 max-w-md mx-2">
+<div class="flex items-center justify-between text-[12px] mb-1">
+<span class="text-slate-custom">Forecast: 11,900 / 14,000</span>
+<span class="font-semibold text-charcoal">85% Util</span>
+</div>
+<div class="w-full bg-border-light h-2 rounded-full overflow-hidden flex">
+<div class="bg-charcoal h-full rounded-full" style="width: 85%;"></div>
+</div>
+</div>
+<div class="w-32 text-right shrink-0">
+<span class="text-[12px] font-semibold text-slate-custom bg-panel border border-border-light px-2 py-0.5 rounded">+2,100 free</span>
+</div>
+</div>
+<!-- Hub 5: Bekasi Hub (Deficit Alert) -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-3 rounded-lg bg-coral-light/30 border border-coral-red/30 hover:bg-coral-light/50 transition-colors gap-2">
+<div class="w-48 shrink-0 flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-coral-red"></span>
+<span class="text-[13px] font-bold text-charcoal">Bekasi Hub (East)</span>
+<span class="px-1.5 py-0.5 bg-coral-red text-white rounded text-[9px] font-bold">OVERFLOW</span>
+</div>
+<div class="flex-1 max-w-md mx-2">
+<div class="flex items-center justify-between text-[12px] mb-1">
+<span class="text-coral-red font-medium">Forecast: 20,000 / 16,000 Limit</span>
+<span class="font-bold text-coral-red">125% Over</span>
+</div>
+<div class="w-full bg-border-light h-2 rounded-full overflow-hidden flex">
+<div class="bg-coral-red h-full rounded-full" style="width: 100%;"></div>
+</div>
+</div>
+<div class="w-32 text-right shrink-0">
+<span class="text-[12px] font-bold text-coral-red bg-panel border border-coral-red/40 px-2 py-0.5 rounded">-4,000 DEFICIT</span>
+</div>
+</div>
+</div>
+<div class="mt-4 p-3 bg-workspace border border-border-light rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate-custom">swap_horiz</span>
+<span class="text-[13px] text-charcoal">Proposed reroute: Shift <strong>3,200 parcels</strong> from Bekasi inbound conveyor to <strong>Depok South Sorting</strong> via JORR 2 toll.</span>
+</div>
+<button class="px-3 py-1.5 bg-panel border border-border-light hover:bg-workspace text-accent-orange text-[12px] rounded-lg font-semibold shadow-xs transition-colors shrink-0">
+            Preview Shift
+          </button>
+</div>
+</div>
+</div>
+<!-- Right Column: Supporting Analytical Drivers, Validation & Policy Actions -->
+<div class="lg:col-span-4 flex flex-col gap-6">
+<!-- Panel 1: What drives the forecast -->
+<div class="bg-panel border border-border-light p-6 rounded-xl shadow-xs">
+<div class="flex items-center justify-between pb-2 mb-3 border-b border-border-light">
+<div>
+<h3 class="text-[16px] font-bold text-charcoal">What drives the forecast</h3>
+<p class="text-[12px] text-slate-custom">Exogenous signals injected this cycle</p>
+</div>
+<span class="material-symbols-outlined text-[18px] text-slate-custom">sensors</span>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Driver 1: Flash sale -->
+<div class="p-3 rounded-lg bg-workspace border border-border-light hover:border-slate-custom/30 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-accent-orange text-[17px]">bolt</span>
+<span class="text-[13px] font-semibold text-charcoal">10.10 Flash Sale Surge</span>
+</div>
+<span class="text-[11px] font-semibold px-2 py-0.5 bg-peach-light text-accent-orange rounded border border-accent-orange/20">+14% surge</span>
+</div>
+<p class="text-[12px] text-slate-custom leading-relaxed">
+              Clusters heavily focused along the Eastern Corridor (Bekasi, Cikarang &amp; Karawang industrial park drop points).
+            </p>
+</div>
+<!-- Driver 2: Weather & Traffic -->
+<div class="p-3 rounded-lg bg-workspace border border-border-light hover:border-slate-custom/30 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-slate-custom text-[17px]">rainy</span>
+<span class="text-[13px] font-semibold text-charcoal">Weather &amp; Toll Radar</span>
+</div>
+<span class="text-[11px] font-semibold px-2 py-0.5 bg-panel text-slate-custom border border-border-light rounded">Rain 10:15 WIB</span>
+</div>
+<p class="text-[12px] text-slate-custom leading-relaxed">
+              Monsoon squall forecast along East Tollway. +15 min transit delay expected for linehaul shuttles into Bekasi.
+            </p>
+</div>
+<!-- Driver 3: Warehouse cutoffs -->
+<div class="p-3 rounded-lg bg-workspace border border-border-light hover:border-slate-custom/30 transition-colors">
+<div class="flex items-center justify-between mb-1">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-charcoal text-[17px]">schedule</span>
+<span class="text-[13px] font-semibold text-charcoal">Merchant Intake Peak</span>
+</div>
+<span class="text-[11px] font-semibold px-2 py-0.5 bg-panel text-slate-custom border border-border-light rounded">Peaked 08:45</span>
+</div>
+<p class="text-[12px] text-slate-custom leading-relaxed">
+              Primary marketplace sorting injection crested 45 mins ago. Tail-end parcels arriving at regional cross-docks.
+            </p>
+</div>
+</div>
+</div>
+<!-- Panel 2: Model Calibration & Reliability -->
+<div class="bg-panel border border-border-light p-6 rounded-xl shadow-xs">
+<div class="flex items-center justify-between pb-2 mb-3 border-b border-border-light">
+<div>
+<h3 class="text-[16px] font-bold text-charcoal">Model Calibration</h3>
+<p class="text-[12px] text-slate-custom">Checked against verified dispatch telemetry</p>
+</div>
+<span class="material-symbols-outlined text-[18px] text-slate-custom">verified</span>
+</div>
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between py-2 border-b border-border-light">
+<div class="flex flex-col">
+<span class="text-[13px] font-medium text-charcoal">Volume Forecast Error (MAPE)</span>
+<span class="text-[11px] text-slate-custom">Rolling 7-day average (target ≤ 8%)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="text-[16px] font-bold text-charcoal">4.2%</span>
+<span class="material-symbols-outlined text-[18px] text-accent-orange" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-2 border-b border-border-light">
+<div class="flex flex-col">
+<span class="text-[13px] font-medium text-charcoal">Arrival Timing Precision</span>
+<span class="text-[11px] text-slate-custom">Window adherence (±10 min)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="text-[16px] font-bold text-charcoal">96.4%</span>
+<span class="material-symbols-outlined text-[18px] text-accent-orange" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-2">
+<div class="flex flex-col">
+<span class="text-[13px] font-medium text-charcoal">Ensemble Engine Status</span>
+<span class="text-[11px] text-slate-custom">NexEngine v3.4 (Stochastic)</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-workspace border border-border-light text-slate-custom text-[11px] font-semibold">
+              Simulated
+            </span>
+</div>
+</div>
+</div>
+<!-- Panel 3: Recommended Planning Action & Next Decisions (Pure white card with clear CTA) -->
+<div class="bg-panel p-6 rounded-xl shadow-xs border border-border-light">
+<div class="flex items-center gap-2 text-accent-orange mb-2">
+<span class="material-symbols-outlined text-[20px]">lightbulb</span>
+<span class="text-[11px] uppercase tracking-wider font-bold">Recommended Intervention</span>
+</div>
+<h4 class="text-[16px] font-bold text-charcoal mb-2">Resolve Bekasi Deficit Before 10:00 WIB</h4>
+<p class="text-[13px] text-slate-custom mb-4 leading-relaxed">
+          Simulate a real-time parcel diversion from Bekasi to Depok South, or trigger 3PL contractor surge fleets in Policy Lab to preserve SLA compliance.
+        </p>
+<div class="flex flex-col gap-2.5">
+<a class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-accent-orange hover:bg-accent-orange-hover text-white rounded-lg font-semibold text-[13px] transition-colors shadow-xs" data-path="policy-lab" href="#">
+<span>Compare Policies in Policy Lab</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-panel hover:bg-workspace text-charcoal rounded-lg font-medium text-[13px] transition-colors border border-border-light" data-path="incidents-&amp;-actions" href="#">
+<span>Dispatch 3PL Overflow Spillover</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Micro-interactions for horizon filter buttons
+  document.addEventListener('DOMContentLoaded', () => {
+    const horizonButtons = document.querySelectorAll('.rounded-xl button');
+    horizonButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        horizonButtons.forEach(b => {
+          b.className = 'px-3 py-1.5 text-slate-custom hover:text-charcoal text-[13px] font-medium rounded-lg transition-colors';
+        });
+        e.currentTarget.className = 'px-3.5 py-1.5 bg-peach-light text-accent-orange border border-accent-orange/30 text-[13px] font-bold rounded-lg shadow-xs transition-all';
+      });
+    });
+  });
+</script></div></main></div></body></html>

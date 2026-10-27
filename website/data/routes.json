@@ -1,0 +1,552 @@
+{
+  "schema_version": "1.0.0",
+  "lanes": [
+    {
+      "lane_id": "L_H_CAW_00",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_00",
+      "corridor_network_km": 0.0,
+      "estimated_one_way_minutes": 0.0,
+      "reachable": true,
+      "corridor_ids": [],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_CAW_01",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_01",
+      "corridor_network_km": 16.0,
+      "estimated_one_way_minutes": 32.0,
+      "reachable": true,
+      "corridor_ids": [
+        "C_00"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_CAW_02",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_02",
+      "corridor_network_km": 23.5,
+      "estimated_one_way_minutes": 47.0,
+      "reachable": true,
+      "corridor_ids": [
+        "C_00",
+        "C_01"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_CAW_03",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_03",
+      "corridor_network_km": 21.25,
+      "estimated_one_way_minutes": 42.5,
+      "reachable": true,
+      "corridor_ids": [
+        "C_09",
+        "C_08"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_CAW_04",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_04",
+      "corridor_network_km": 49.0,
+      "estimated_one_way_minutes": 98.0,
+      "reachable": true,
+      "corridor_ids": [
+        "C_00",
+        "C_03",
+        "C_04"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_CAW_05",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_05",
+      "corridor_network_km": 31.8,
+      "estimated_one_way_minutes": 63.6,
+      "reachable": true,
+      "corridor_ids": [
+        "C_09",
+        "C_08",
+        "C_07",
+        "C_06"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_CAW_06",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_06",
+      "corridor_network_km": 36.35,
+      "estimated_one_way_minutes": 72.7,
+      "reachable": true,
+      "corridor_ids": [
+        "C_09",
+        "C_08",
+        "C_13",
+        "C_14"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_CAW_07",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_07",
+      "corridor_network_km": 48.0,
+      "estimated_one_way_minutes": 96.0,
+      "reachable": true,
+      "corridor_ids": [
+        "C_09",
+        "C_10",
+        "C_11",
+        "C_12"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_CAW_08",
+      "hub_id": "H_CAW",
+      "zone_id": "Z_08",
+      "corridor_network_km": 19.28,
+      "estimated_one_way_minutes": 38.56,
+      "reachable": true,
+      "corridor_ids": [
+        "C_15",
+        "C_16"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_00",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_00",
+      "corridor_network_km": 16.0,
+      "estimated_one_way_minutes": 32.0,
+      "reachable": true,
+      "corridor_ids": [
+        "C_00"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_01",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_01",
+      "corridor_network_km": 0.0,
+      "estimated_one_way_minutes": 0.0,
+      "reachable": true,
+      "corridor_ids": [],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_02",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_02",
+      "corridor_network_km": 7.5,
+      "estimated_one_way_minutes": 15.0,
+      "reachable": true,
+      "corridor_ids": [
+        "C_01"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_03",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_03",
+      "corridor_network_km": 15.870000000000001,
+      "estimated_one_way_minutes": 31.740000000000002,
+      "reachable": true,
+      "corridor_ids": [
+        "C_03",
+        "C_05",
+        "C_07"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_04",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_04",
+      "corridor_network_km": 33.0,
+      "estimated_one_way_minutes": 66.0,
+      "reachable": true,
+      "corridor_ids": [
+        "C_03",
+        "C_04"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_05",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_05",
+      "corridor_network_km": 16.42,
+      "estimated_one_way_minutes": 32.84,
+      "reachable": true,
+      "corridor_ids": [
+        "C_03",
+        "C_05",
+        "C_06"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_06",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_06",
+      "corridor_network_km": 30.97,
+      "estimated_one_way_minutes": 61.94,
+      "reachable": true,
+      "corridor_ids": [
+        "C_03",
+        "C_05",
+        "C_07",
+        "C_13",
+        "C_14"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_07",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_07",
+      "corridor_network_km": 64.0,
+      "estimated_one_way_minutes": 128.0,
+      "reachable": true,
+      "corridor_ids": [
+        "C_00",
+        "C_09",
+        "C_10",
+        "C_11",
+        "C_12"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_TOM_08",
+      "hub_id": "H_TOM",
+      "zone_id": "Z_08",
+      "corridor_network_km": 35.28,
+      "estimated_one_way_minutes": 70.56,
+      "reachable": true,
+      "corridor_ids": [
+        "C_00",
+        "C_15",
+        "C_16"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_00",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_00",
+      "corridor_network_km": 36.35,
+      "estimated_one_way_minutes": 72.7,
+      "reachable": true,
+      "corridor_ids": [
+        "C_14",
+        "C_13",
+        "C_08",
+        "C_09"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_01",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_01",
+      "corridor_network_km": 30.970000000000002,
+      "estimated_one_way_minutes": 61.94,
+      "reachable": true,
+      "corridor_ids": [
+        "C_14",
+        "C_13",
+        "C_07",
+        "C_05",
+        "C_03"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_02",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_02",
+      "corridor_network_km": 38.47,
+      "estimated_one_way_minutes": 76.94,
+      "reachable": true,
+      "corridor_ids": [
+        "C_14",
+        "C_13",
+        "C_07",
+        "C_05",
+        "C_03",
+        "C_01"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_03",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_03",
+      "corridor_network_km": 15.1,
+      "estimated_one_way_minutes": 30.2,
+      "reachable": true,
+      "corridor_ids": [
+        "C_14",
+        "C_13"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_04",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_04",
+      "corridor_network_km": 57.97,
+      "estimated_one_way_minutes": 115.94,
+      "reachable": true,
+      "corridor_ids": [
+        "C_14",
+        "C_13",
+        "C_07",
+        "C_05",
+        "C_04"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_05",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_05",
+      "corridor_network_km": 25.650000000000002,
+      "estimated_one_way_minutes": 51.300000000000004,
+      "reachable": true,
+      "corridor_ids": [
+        "C_14",
+        "C_13",
+        "C_07",
+        "C_06"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_06",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_06",
+      "corridor_network_km": 0.0,
+      "estimated_one_way_minutes": 0.0,
+      "reachable": true,
+      "corridor_ids": [],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_07",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_07",
+      "corridor_network_km": 70.35,
+      "estimated_one_way_minutes": 140.7,
+      "reachable": true,
+      "corridor_ids": [
+        "C_14",
+        "C_13",
+        "C_08",
+        "C_10",
+        "C_11",
+        "C_12"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_DEP_08",
+      "hub_id": "H_DEP",
+      "zone_id": "Z_08",
+      "corridor_network_km": 55.63,
+      "estimated_one_way_minutes": 111.26,
+      "reachable": true,
+      "corridor_ids": [
+        "C_14",
+        "C_13",
+        "C_08",
+        "C_09",
+        "C_15",
+        "C_16"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_00",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_00",
+      "corridor_network_km": 19.28,
+      "estimated_one_way_minutes": 38.56,
+      "reachable": true,
+      "corridor_ids": [
+        "C_16",
+        "C_15"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_01",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_01",
+      "corridor_network_km": 35.28,
+      "estimated_one_way_minutes": 70.56,
+      "reachable": true,
+      "corridor_ids": [
+        "C_16",
+        "C_15",
+        "C_00"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_02",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_02",
+      "corridor_network_km": 42.78,
+      "estimated_one_way_minutes": 85.56,
+      "reachable": true,
+      "corridor_ids": [
+        "C_16",
+        "C_15",
+        "C_00",
+        "C_01"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_03",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_03",
+      "corridor_network_km": 40.53,
+      "estimated_one_way_minutes": 81.06,
+      "reachable": true,
+      "corridor_ids": [
+        "C_16",
+        "C_15",
+        "C_09",
+        "C_08"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_04",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_04",
+      "corridor_network_km": 68.28,
+      "estimated_one_way_minutes": 136.56,
+      "reachable": true,
+      "corridor_ids": [
+        "C_16",
+        "C_15",
+        "C_00",
+        "C_03",
+        "C_04"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_05",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_05",
+      "corridor_network_km": 51.08,
+      "estimated_one_way_minutes": 102.16,
+      "reachable": true,
+      "corridor_ids": [
+        "C_16",
+        "C_15",
+        "C_09",
+        "C_08",
+        "C_07",
+        "C_06"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_06",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_06",
+      "corridor_network_km": 55.63,
+      "estimated_one_way_minutes": 111.26,
+      "reachable": true,
+      "corridor_ids": [
+        "C_16",
+        "C_15",
+        "C_09",
+        "C_08",
+        "C_13",
+        "C_14"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_07",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_07",
+      "corridor_network_km": 67.28,
+      "estimated_one_way_minutes": 134.56,
+      "reachable": true,
+      "corridor_ids": [
+        "C_16",
+        "C_15",
+        "C_09",
+        "C_10",
+        "C_11",
+        "C_12"
+      ],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    },
+    {
+      "lane_id": "L_H_BEK_CAND_08",
+      "hub_id": "H_BEK_CAND",
+      "zone_id": "Z_08",
+      "corridor_network_km": 0.0,
+      "estimated_one_way_minutes": 0.0,
+      "reachable": true,
+      "corridor_ids": [],
+      "distance_status": "coarse_corridor_estimate_not_street_routing",
+      "local_access_distance_km": null
+    }
+  ]
+}

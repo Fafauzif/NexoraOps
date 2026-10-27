@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "checks": [
+    {
+      "check_id": "BASE_COST",
+      "status": "PASS",
+      "detail": "2025-equivalent delivery spend20tn with zero inflation."
+    },
+    {
+      "check_id": "BASE_SHARE",
+      "status": "PASS",
+      "detail": "National internal share50%."
+    },
+    {
+      "check_id": "BASE_UNIT_INTERNAL",
+      "status": "PASS",
+      "detail": "Weighted internal8,000; weighted external12,000 independently checked."
+    },
+    {
+      "check_id": "BASE_WEIGHTS",
+      "status": "PASS",
+      "detail": "Weights sum1; national2bn parcels."
+    },
+    {
+      "check_id": "SEED",
+      "status": "PASS",
+      "detail": "PCG64 seeded sampling exactly repeats in this NumPy version."
+    },
+    {
+      "check_id": "CONSERVE",
+      "status": "PASS",
+      "detail": "Max absolute parcel-bn discrepancy0; internal+external+deferred equals demand."
+    },
+    {
+      "check_id": "CAPACITY",
+      "status": "PASS",
+      "detail": "Max capacity excess0bn; stochastic travel/capacity respected."
+    },
+    {
+      "check_id": "ANNUAL_GROWTH_GATE",
+      "status": "PASS",
+      "detail": "Correctly reports0/133 central policies passing all annual growth tests. This PASS validates detection of a FAILED investment gate."
+    },
+    {
+      "check_id": "WEIGHT_0.45",
+      "status": "PASS",
+      "detail": "Alternative national weights recalibrated to50%/8,000/12,000."
+    },
+    {
+      "check_id": "WEIGHT_0.25",
+      "status": "PASS",
+      "detail": "Alternative national weights recalibrated to50%/8,000/12,000."
+    },
+    {
+      "check_id": "HELDOUT_REPRO",
+      "status": "PASS",
+      "detail": "10,000 recommended-candidate NPVs re-executed and matched saved array."
+    },
+    {
+      "check_id": "REGIONAL_LP",
+      "status": "PASS",
+      "detail": "All14 regional policies and4-hour incident conserve parcels and respect shared hub planning/physical capacities."
+    },
+    {
+      "check_id": "GEOJSON",
+      "status": "PASS",
+      "detail": "Valid GeoJSON structure; schematic-status labels explicit."
+    },
+    {
+      "check_id": "DETAILED_GIS",
+      "status": "PARTIAL",
+      "detail": "No full-resolution street/building/settlement extract. Coarse corridor attributes include authored distances; cannot certify street routing or detailed access restrictions."
+    },
+    {
+      "check_id": "JSON_FINITE",
+      "status": "PASS",
+      "detail": "json.dumps allow_nan=False used for every JSON/GeoJSON export; successful serialisation."
+    }
+  ],
+  "strict_growth_pass_count": 0,
+  "executed_candidates": 133,
+  "workbook_checks": "To be appended by build_workbook.mjs and verify_workbook.py"
+}

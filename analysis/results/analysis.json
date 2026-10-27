@@ -1,0 +1,2149 @@
+{
+  "screening_candidates": 133,
+  "screen_worlds": 1000,
+  "finalists": 14,
+  "heldout_worlds": 10000,
+  "screen_seed": 20261027,
+  "heldout_seed": 20261101,
+  "pilot": [
+    {
+      "n": 250,
+      "mean": 0.96685147254897,
+      "se": 0.03810204673722614
+    },
+    {
+      "n": 500,
+      "mean": 0.9357984851702353,
+      "se": 0.027104652807582716
+    },
+    {
+      "n": 1000,
+      "mean": 0.9537299422266553,
+      "se": 0.019550162906395527
+    }
+  ],
+  "recommended": {
+    "policy_id": "P_SOFTWARE_70_88",
+    "package": "software",
+    "target": 0.7,
+    "buffer": 0.88,
+    "expected_npv_tn": 0.5090185115539975,
+    "median_npv_tn": 0.4178914467245238,
+    "p10_npv_tn": -0.1605076098587704,
+    "p90_npv_tn": 1.3080715233705507,
+    "prob_positive_npv": 0.8049,
+    "npv_mcse": 0.005784104083254926,
+    "expected_y1_ebit_tn": 0.06159023777301404,
+    "expected_y5_ebit_tn": 0.3326891938830313,
+    "realised_internal_share": 0.5367857444211924,
+    "mean_planning_feasibility": 0.9988781551427648,
+    "service_violation_world_fraction": 0.0179,
+    "mean_unserved_parcels_annual": 42165.587752851374,
+    "prob_positive_growth_all_years": 0.0005,
+    "initial_capex_tn": 0.20440413618840925,
+    "mean_cost_per_parcel_y5": 11344.593178001824,
+    "risk_score_tn": 0.1742554508476135
+  },
+  "maxreturn": {
+    "policy_id": "P_SOFTWARE_75_100",
+    "package": "software",
+    "target": 0.75,
+    "buffer": 1.0,
+    "expected_npv_tn": 1.0156906813788231,
+    "median_npv_tn": 0.9410442555911729,
+    "p10_npv_tn": 0.25807868636316605,
+    "p90_npv_tn": 1.8868416951634674,
+    "prob_positive_npv": 0.978,
+    "npv_mcse": 0.006270056809345552,
+    "expected_y1_ebit_tn": 0.20751020146688928,
+    "expected_y5_ebit_tn": 0.5415080047675823,
+    "realised_internal_share": 0.5757259523226074,
+    "mean_planning_feasibility": 0.9822368020255877,
+    "service_violation_world_fraction": 0.2785,
+    "mean_unserved_parcels_annual": 3409.62435309762,
+    "prob_positive_growth_all_years": 0.0006,
+    "initial_capex_tn": 0.20440413618840925,
+    "mean_cost_per_parcel_y5": 11239.335475353271,
+    "risk_score_tn": 0.6368846838709946
+  },
+  "ranking_win_fraction": {
+    "P_SOFTWARE_75_100": 0.4637,
+    "P_SOFTWARE_80_100": 0.0,
+    "P_SOFTWARE_85_100": 0.0,
+    "P_SOFTWARE_90_100": 0.0,
+    "P_SOFTWARE_95_100": 0.0,
+    "P_CURRENT": 0.0001,
+    "P_RULES_75_100": 0.5361,
+    "P_RULES_55_94": 0.0,
+    "P_RULES_70_88": 0.0,
+    "P_SOFTWARE_60_94": 0.0,
+    "P_SOFTWARE_70_88": 0.0,
+    "P_TARGETED_75_100": 0.0001,
+    "P_TARGETED_75_94": 0.0,
+    "P_LARGE_85_100": 0.0
+  },
+  "stresses": [
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": 0.4827503431358599,
+      "y1_ebit_tn": 0.045088912907164345,
+      "y5_ebit_tn": 0.31275186452129716,
+      "service_min": 0.8293045716442912,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": 0.4827503431358599,
+      "y1_ebit_tn": 0.045088912907164345,
+      "y5_ebit_tn": 0.31275186452129716,
+      "service_min": 0.8293045716442912,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": 0.4827503431358599,
+      "y1_ebit_tn": 0.045088912907164345,
+      "y5_ebit_tn": 0.31275186452129716,
+      "service_min": 0.8293045716442912,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": 0.4827503431358599,
+      "y1_ebit_tn": 0.045088912907164345,
+      "y5_ebit_tn": 0.31275186452129716,
+      "service_min": 0.8293045716442912,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": 0.4827503431358599,
+      "y1_ebit_tn": 0.045088912907164345,
+      "y5_ebit_tn": 0.31275186452129716,
+      "service_min": 0.8293045716442912,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 0.8231666666666666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": 0.028334568928383867,
+      "y1_ebit_tn": -0.0011458668648488407,
+      "y5_ebit_tn": 0.015328152167825237,
+      "service_min": 0.8244097222222222,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": -1.2611879135613304,
+      "y1_ebit_tn": -0.314585498793153,
+      "y5_ebit_tn": -0.40148438619224436,
+      "service_min": 0.835325464382716,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": -2.9784728488897523,
+      "y1_ebit_tn": -0.7191605723163862,
+      "y5_ebit_tn": -0.9566613002890811,
+      "service_min": 0.8504703703703703,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": -0.5354333273057031,
+      "y1_ebit_tn": -0.153790179889953,
+      "y5_ebit_tn": -0.11138977376590958,
+      "service_min": 0.836441029738319,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": -2.0871669441850544,
+      "y1_ebit_tn": -0.3945250419909603,
+      "y5_ebit_tn": -0.6786667947996876,
+      "service_min": 0.8469785351396153,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": 0.9932133039458668,
+      "y1_ebit_tn": 0.06521608083855172,
+      "y5_ebit_tn": 0.8399720688739701,
+      "service_min": 0.8573351171505712,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": 0.7689714765236381,
+      "y1_ebit_tn": -0.0732124068811842,
+      "y5_ebit_tn": 0.8060390279213517,
+      "service_min": 0.8618819301812379,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CAMPAIGN_SURGE",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -1.332187466188285,
+      "y1_ebit_tn": -0.4272937968844285,
+      "y5_ebit_tn": 0.7314701604564807,
+      "service_min": 0.8630415517230248,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": 0.07802834441751366,
+      "y1_ebit_tn": -0.028401550416731848,
+      "y5_ebit_tn": 0.1223669728991949,
+      "service_min": 0.976655175,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": 0.07802834441751366,
+      "y1_ebit_tn": -0.028401550416731848,
+      "y5_ebit_tn": 0.1223669728991949,
+      "service_min": 0.976655175,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": 0.07802834441751366,
+      "y1_ebit_tn": -0.028401550416731848,
+      "y5_ebit_tn": 0.1223669728991949,
+      "service_min": 0.976655175,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": 0.07802834441751366,
+      "y1_ebit_tn": -0.028401550416731848,
+      "y5_ebit_tn": 0.1223669728991949,
+      "service_min": 0.976655175,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": 0.07802834441751366,
+      "y1_ebit_tn": -0.028401550416731848,
+      "y5_ebit_tn": 0.1223669728991949,
+      "service_min": 0.976655175,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 0.97753,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": -0.00993503230815653,
+      "y1_ebit_tn": -0.0140112613960207,
+      "y5_ebit_tn": 0.001230625305129962,
+      "service_min": 0.9771129166666667,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": -0.45890209474864396,
+      "y1_ebit_tn": -0.10307092495887403,
+      "y5_ebit_tn": -0.15015957888074283,
+      "service_min": 0.9875907860416666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": -1.7131846234611272,
+      "y1_ebit_tn": -0.40108248946555436,
+      "y5_ebit_tn": -0.5547544817551078,
+      "service_min": 0.9826199999999999,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": -0.11656663392880788,
+      "y1_ebit_tn": -0.06545315929454218,
+      "y5_ebit_tn": 0.03464020710730992,
+      "service_min": 0.9864264089308366,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": -1.1885530814591598,
+      "y1_ebit_tn": -0.19230363459391994,
+      "y5_ebit_tn": -0.3792953540025353,
+      "service_min": 0.9865624,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": 0.5970761091272083,
+      "y1_ebit_tn": -0.03324827709870133,
+      "y5_ebit_tn": 0.6910601905345796,
+      "service_min": 0.9721846,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": 0.36720093722927416,
+      "y1_ebit_tn": -0.07697516541757705,
+      "y5_ebit_tn": 0.5976944102355982,
+      "service_min": 0.9895136143875001,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_HUB_CAPACITY_LOSS",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -1.3074273392598665,
+      "y1_ebit_tn": -0.4816745132966719,
+      "y5_ebit_tn": 0.8356418090526877,
+      "service_min": 0.98613735,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": 0.4466971338641937,
+      "y1_ebit_tn": 0.08225108864629818,
+      "y5_ebit_tn": 0.27213176936595346,
+      "service_min": 0.9870417499999999,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": 0.4466971338641937,
+      "y1_ebit_tn": 0.08225108864629818,
+      "y5_ebit_tn": 0.27213176936595346,
+      "service_min": 0.9870417499999999,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": 0.4466971338641937,
+      "y1_ebit_tn": 0.08225108864629818,
+      "y5_ebit_tn": 0.27213176936595346,
+      "service_min": 0.9870417499999999,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": 0.4466971338641937,
+      "y1_ebit_tn": 0.08225108864629818,
+      "y5_ebit_tn": 0.27213176936595346,
+      "service_min": 0.9870417499999999,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": 0.4466971338641937,
+      "y1_ebit_tn": 0.08225108864629818,
+      "y5_ebit_tn": 0.27213176936595346,
+      "service_min": 0.9870417499999999,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": 0.33097374422196413,
+      "y1_ebit_tn": 0.10618412533830991,
+      "y5_ebit_tn": 0.13495667635403308,
+      "service_min": 0.9872958333333334,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": 0.3242429044489038,
+      "y1_ebit_tn": 0.09851900131149506,
+      "y5_ebit_tn": 0.13418018808210164,
+      "service_min": 0.9926839604166666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": 0.14340969051602212,
+      "y1_ebit_tn": 0.03406364742829794,
+      "y5_ebit_tn": 0.0627462400882095,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": 0.4357040940470823,
+      "y1_ebit_tn": 0.06687407703235551,
+      "y5_ebit_tn": 0.2739948099811306,
+      "service_min": 0.992537639625,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": 0.26894207560948075,
+      "y1_ebit_tn": 0.009750791585211548,
+      "y5_ebit_tn": 0.20861916938972896,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": -0.35817257011509074,
+      "y1_ebit_tn": -0.1251636043490741,
+      "y5_ebit_tn": 0.1899738742021714,
+      "service_min": 0.9972943786310821,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": -0.3373449425269579,
+      "y1_ebit_tn": -0.11776360286633077,
+      "y5_ebit_tn": 0.19371814573425997,
+      "service_min": 0.9998346069999999,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CORRIDOR_DISRUPTION",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -4.205203063937497,
+      "y1_ebit_tn": -0.6292280501018662,
+      "y5_ebit_tn": -0.6754589897430644,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": 0.2956071299886562,
+      "y1_ebit_tn": 0.03913095188390827,
+      "y5_ebit_tn": 0.20875253102872676,
+      "service_min": 0.99325,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": 0.2956071299886562,
+      "y1_ebit_tn": 0.03913095188390827,
+      "y5_ebit_tn": 0.20875253102872676,
+      "service_min": 0.99325,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": 0.2956071299886562,
+      "y1_ebit_tn": 0.03913095188390827,
+      "y5_ebit_tn": 0.20875253102872676,
+      "service_min": 0.99325,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": 0.2956071299886562,
+      "y1_ebit_tn": 0.03913095188390827,
+      "y5_ebit_tn": 0.20875253102872676,
+      "service_min": 0.99325,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": 0.2956071299886562,
+      "y1_ebit_tn": 0.03913095188390827,
+      "y5_ebit_tn": 0.20875253102872676,
+      "service_min": 0.99325,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": 0.6906840145996209,
+      "y1_ebit_tn": 0.2139397455604778,
+      "y5_ebit_tn": 0.28436463490568187,
+      "service_min": 0.99325,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": 0.4304257318137322,
+      "y1_ebit_tn": 0.12549723299619997,
+      "y5_ebit_tn": 0.1800104689206421,
+      "service_min": 0.9986932000000001,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": 0.22278032838944678,
+      "y1_ebit_tn": 0.05841908758153437,
+      "y5_ebit_tn": 0.09550637657730121,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": 0.1565435221402937,
+      "y1_ebit_tn": -0.0012283422138818847,
+      "y5_ebit_tn": 0.15025845329794535,
+      "service_min": 0.9986932000000001,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": -0.15260342241763192,
+      "y1_ebit_tn": -0.07454928075044306,
+      "y5_ebit_tn": 0.019894272700346105,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": -0.5045802869454973,
+      "y1_ebit_tn": -0.15399450136955434,
+      "y5_ebit_tn": 0.1221074658408671,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": -0.5322829682838119,
+      "y1_ebit_tn": -0.16749094301280604,
+      "y5_ebit_tn": 0.12264640774649851,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_WEAK_PRODUCTIVITY",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -3.596764432996519,
+      "y1_ebit_tn": -0.6120702449202479,
+      "y5_ebit_tn": -0.31939642267257995,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": 0.5285773875863513,
+      "y1_ebit_tn": 0.09348069861775488,
+      "y5_ebit_tn": 0.3537034784848088,
+      "service_min": 0.9940067613228918,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": 0.5285773875863513,
+      "y1_ebit_tn": 0.09348069861775488,
+      "y5_ebit_tn": 0.3537034784848088,
+      "service_min": 0.9940067613228918,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": 0.5285773875863513,
+      "y1_ebit_tn": 0.09348069861775488,
+      "y5_ebit_tn": 0.3537034784848088,
+      "service_min": 0.9940067613228918,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": 0.5285773875863513,
+      "y1_ebit_tn": 0.09348069861775488,
+      "y5_ebit_tn": 0.3537034784848088,
+      "service_min": 0.9940067613228918,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": 0.5285773875863513,
+      "y1_ebit_tn": 0.09348069861775488,
+      "y5_ebit_tn": 0.3537034784848088,
+      "service_min": 0.9940067613228918,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": 0.812046595114882,
+      "y1_ebit_tn": 0.25131224001220165,
+      "y5_ebit_tn": 0.3344098793635091,
+      "service_min": 0.9877890985343992,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": 0.5381773753268704,
+      "y1_ebit_tn": 0.15420205498365028,
+      "y5_ebit_tn": 0.22604317574424115,
+      "service_min": 0.996962068,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": 0.2842286043340768,
+      "y1_ebit_tn": 0.07143171265668705,
+      "y5_ebit_tn": 0.12295777575653588,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": 0.4420428003449005,
+      "y1_ebit_tn": 0.0446372837110346,
+      "y5_ebit_tn": 0.3260716653197007,
+      "service_min": 0.9976029811435376,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": 0.06612716602927886,
+      "y1_ebit_tn": -0.05001948242760645,
+      "y5_ebit_tn": 0.1657553111810393,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": -0.5871976311307636,
+      "y1_ebit_tn": -0.19136346874498159,
+      "y5_ebit_tn": 0.30323197201216584,
+      "service_min": 0.9996902166690919,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": -0.5972861102942377,
+      "y1_ebit_tn": -0.20886030339753617,
+      "y5_ebit_tn": 0.30678107341740696,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_IMPLEMENTATION_OVERRUN",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -5.38947277755812,
+      "y1_ebit_tn": -0.8739667638238731,
+      "y5_ebit_tn": -0.4468717267988377,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": 2.341176719704109,
+      "y1_ebit_tn": 0.5786201419313914,
+      "y5_ebit_tn": 1.0943024525366112,
+      "service_min": 0.9649406875,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": 2.341176719704109,
+      "y1_ebit_tn": 0.5786201419313914,
+      "y5_ebit_tn": 1.0943024525366112,
+      "service_min": 0.9649406875,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": 2.341176719704109,
+      "y1_ebit_tn": 0.5786201419313914,
+      "y5_ebit_tn": 1.0943024525366112,
+      "service_min": 0.9649406875,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": 2.341176719704109,
+      "y1_ebit_tn": 0.5786201419313914,
+      "y5_ebit_tn": 1.0943024525366112,
+      "service_min": 0.9649406875,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": 2.341176719704109,
+      "y1_ebit_tn": 0.5786201419313914,
+      "y5_ebit_tn": 1.0943024525366112,
+      "service_min": 0.9649406875,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": 2.197055766785276,
+      "y1_ebit_tn": 0.7447051037877982,
+      "y5_ebit_tn": 0.8816232109185762,
+      "service_min": 0.9656281250000001,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": 1.3649523596817255,
+      "y1_ebit_tn": 0.42804035684247366,
+      "y5_ebit_tn": 0.5600956144945073,
+      "service_min": 0.9926839604166666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": 0.922791915147865,
+      "y1_ebit_tn": 0.28454973339734535,
+      "y5_ebit_tn": 0.38038635892689854,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": 1.9317709735699176,
+      "y1_ebit_tn": 0.41642675419960495,
+      "y5_ebit_tn": 0.9455209546527157,
+      "service_min": 0.9861886857500001,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": 1.1257979964117053,
+      "y1_ebit_tn": 0.19192434461470811,
+      "y5_ebit_tn": 0.6035496098955995,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": 2.4451898432480927,
+      "y1_ebit_tn": 0.32212326016813936,
+      "y5_ebit_tn": 1.5424492599595052,
+      "service_min": 0.9792709138071896,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": 2.283562244373092,
+      "y1_ebit_tn": 0.1904813677502148,
+      "y5_ebit_tn": 1.5219618543887539,
+      "service_min": 0.98400262175,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_UP",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -0.34642799621768194,
+      "y1_ebit_tn": -0.4157689127352323,
+      "y5_ebit_tn": 1.3308230456916155,
+      "service_min": 0.9991040723981901,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": 0.232799813493604,
+      "y1_ebit_tn": 0.019592603926614348,
+      "y5_ebit_tn": 0.1823909831132417,
+      "service_min": 0.99499775,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": 0.232799813493604,
+      "y1_ebit_tn": 0.019592603926614348,
+      "y5_ebit_tn": 0.1823909831132417,
+      "service_min": 0.99499775,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": 0.232799813493604,
+      "y1_ebit_tn": 0.019592603926614348,
+      "y5_ebit_tn": 0.1823909831132417,
+      "service_min": 0.99499775,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": 0.232799813493604,
+      "y1_ebit_tn": 0.019592603926614348,
+      "y5_ebit_tn": 0.1823909831132417,
+      "service_min": 0.99499775,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": 0.232799813493604,
+      "y1_ebit_tn": 0.019592603926614348,
+      "y5_ebit_tn": 0.1823909831132417,
+      "service_min": 0.99499775,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": 0.1828552610162371,
+      "y1_ebit_tn": 0.05274106475112873,
+      "y5_ebit_tn": 0.07667769339229125,
+      "service_min": 0.9950958333333333,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": 0.1890738672966478,
+      "y1_ebit_tn": 0.05587987882707125,
+      "y5_ebit_tn": 0.07880453257521935,
+      "service_min": 0.9926839604166666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": 0.08208839035647748,
+      "y1_ebit_tn": 0.014719932851740794,
+      "y5_ebit_tn": 0.03762426924811635,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": 0.2355024575172509,
+      "y1_ebit_tn": 0.023656135911042785,
+      "y5_ebit_tn": 0.1817562591807919,
+      "service_min": 0.992537639625,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": 0.13612912272633954,
+      "y1_ebit_tn": -0.01781856856150952,
+      "y5_ebit_tn": 0.1487938796181551,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": -0.6655528614924064,
+      "y1_ebit_tn": -0.17509934970583668,
+      "y5_ebit_tn": 0.04192149103759593,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": -0.6722394295448842,
+      "y1_ebit_tn": -0.17452548370499837,
+      "y5_ebit_tn": 0.03905881878509479,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_CARRIER_PRICE_CUT",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -4.637570757151687,
+      "y1_ebit_tn": -0.6522680293958,
+      "y5_ebit_tn": -0.864637027694891,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": -0.5853664473992697,
+      "y1_ebit_tn": -0.17274028343395142,
+      "y5_ebit_tn": -0.09502302574954208,
+      "service_min": 0.9753580607470413,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": -0.5853664473992697,
+      "y1_ebit_tn": -0.17274028343395142,
+      "y5_ebit_tn": -0.09502302574954208,
+      "service_min": 0.9753580607470413,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": -0.5853664473992697,
+      "y1_ebit_tn": -0.17274028343395142,
+      "y5_ebit_tn": -0.09502302574954208,
+      "service_min": 0.9753580607470413,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": -0.5853664473992697,
+      "y1_ebit_tn": -0.17274028343395142,
+      "y5_ebit_tn": -0.09502302574954208,
+      "service_min": 0.9753580607470413,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": -0.5853664473992697,
+      "y1_ebit_tn": -0.17274028343395142,
+      "y5_ebit_tn": -0.09502302574954208,
+      "service_min": 0.9753580607470413,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 0.974505170998632,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": -0.019752361783962044,
+      "y1_ebit_tn": -0.024348629192348682,
+      "y5_ebit_tn": 0.0008390781274130177,
+      "service_min": 0.9758183203710581,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": -0.019784319225187166,
+      "y1_ebit_tn": -0.023646151251912585,
+      "y5_ebit_tn": 0.0005004521577163246,
+      "service_min": 0.9811780514489227,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": -0.06651425436799632,
+      "y1_ebit_tn": -0.032209438872526676,
+      "y5_ebit_tn": -0.015591129170136497,
+      "service_min": 0.9882508455614227,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": -0.5841447831061165,
+      "y1_ebit_tn": -0.17103919352771724,
+      "y5_ebit_tn": -0.09536165171923877,
+      "service_min": 0.978856292093656,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": -0.6208669806876711,
+      "y1_ebit_tn": -0.17162604963993144,
+      "y5_ebit_tn": -0.1114532330470916,
+      "service_min": 0.983546193106156,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": -1.61486755005278,
+      "y1_ebit_tn": -0.2995244359764194,
+      "y5_ebit_tn": -0.16778477126807206,
+      "service_min": 0.9815557980330416,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": -1.6284466858899298,
+      "y1_ebit_tn": -0.3018737574237954,
+      "y5_ebit_tn": -0.1686015612920298,
+      "service_min": 0.9837623756306978,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_COMBINED_DOWNSIDE",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -6.198644343275266,
+      "y1_ebit_tn": -0.8556208705474513,
+      "y5_ebit_tn": -0.8843891305023578,
+      "service_min": 0.9833818799582653,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_SOFTWARE_75_100",
+      "npv_tn": 2.12273405136917,
+      "y1_ebit_tn": 0.5188471241083453,
+      "y5_ebit_tn": 1.0014837499910798,
+      "service_min": 0.9719124166666666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_SOFTWARE_80_100",
+      "npv_tn": 2.12273405136917,
+      "y1_ebit_tn": 0.5188471241083453,
+      "y5_ebit_tn": 1.0014837499910798,
+      "service_min": 0.9719124166666666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_SOFTWARE_85_100",
+      "npv_tn": 2.12273405136917,
+      "y1_ebit_tn": 0.5188471241083453,
+      "y5_ebit_tn": 1.0014837499910798,
+      "service_min": 0.9719124166666666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_SOFTWARE_90_100",
+      "npv_tn": 2.12273405136917,
+      "y1_ebit_tn": 0.5188471241083453,
+      "y5_ebit_tn": 1.0014837499910798,
+      "service_min": 0.9719124166666666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_SOFTWARE_95_100",
+      "npv_tn": 2.12273405136917,
+      "y1_ebit_tn": 0.5188471241083453,
+      "y5_ebit_tn": 1.0014837499910798,
+      "service_min": 0.9719124166666666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_CURRENT",
+      "npv_tn": 0.0,
+      "y1_ebit_tn": 0.0,
+      "y5_ebit_tn": 0.0,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_RULES_75_100",
+      "npv_tn": 1.4267949406571208,
+      "y1_ebit_tn": 0.49249877947914256,
+      "y5_ebit_tn": 0.5693633589681397,
+      "service_min": 0.9673041666666666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_RULES_55_94",
+      "npv_tn": 1.004413104931667,
+      "y1_ebit_tn": 0.31488923059248164,
+      "y5_ebit_tn": 0.41218322459867807,
+      "service_min": 0.9926839604166666,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_RULES_70_88",
+      "npv_tn": 0.6236569510685723,
+      "y1_ebit_tn": 0.19076980539734179,
+      "y5_ebit_tn": 0.2576294729548394,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_SOFTWARE_60_94",
+      "npv_tn": 1.9345986346293653,
+      "y1_ebit_tn": 0.40054392758121204,
+      "y5_ebit_tn": 0.952852297565267,
+      "service_min": 0.9874171678333333,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_SOFTWARE_70_88",
+      "npv_tn": 1.3717850042261623,
+      "y1_ebit_tn": 0.232645408660589,
+      "y5_ebit_tn": 0.7197632656518124,
+      "service_min": 1.0,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_TARGETED_75_100",
+      "npv_tn": 1.90822576866181,
+      "y1_ebit_tn": 0.22749850350433784,
+      "y5_ebit_tn": 1.2604589941961881,
+      "service_min": 0.9894922307692308,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_TARGETED_75_94",
+      "npv_tn": 1.8332971620931924,
+      "y1_ebit_tn": 0.1493019479836895,
+      "y5_ebit_tn": 1.2630048618722396,
+      "service_min": 0.9866655107692308,
+      "growth_pass": false
+    },
+    {
+      "scenario_id": "S_UPSIDE_EXECUTION",
+      "policy_id": "P_LARGE_85_100",
+      "npv_tn": -1.188874338804054,
+      "y1_ebit_tn": -0.44648524762227726,
+      "y5_ebit_tn": 0.7403057018928312,
+      "service_min": 1.0,
+      "growth_pass": false
+    }
+  ],
+  "structural": [
+    {
+      "variant": "central",
+      "policy_id": "P_SOFTWARE_75_100",
+      "expected_npv_tn": 1.0167924031226263,
+      "p10_npv_tn": 0.24843870672753537,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_SOFTWARE_80_100",
+      "expected_npv_tn": 1.0167924031226263,
+      "p10_npv_tn": 0.24843870672753537,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_SOFTWARE_85_100",
+      "expected_npv_tn": 1.0167924031226263,
+      "p10_npv_tn": 0.24843870672753537,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_SOFTWARE_90_100",
+      "expected_npv_tn": 1.0167924031226263,
+      "p10_npv_tn": 0.24843870672753537,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_SOFTWARE_95_100",
+      "expected_npv_tn": 1.0167924031226263,
+      "p10_npv_tn": 0.24843870672753537,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_CURRENT",
+      "expected_npv_tn": 0.0,
+      "p10_npv_tn": 0.0,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_RULES_75_100",
+      "expected_npv_tn": 1.0155112142704352,
+      "p10_npv_tn": 0.21499845638495402,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_RULES_55_94",
+      "expected_npv_tn": 0.6273081016920321,
+      "p10_npv_tn": 0.13351856150813135,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_RULES_70_88",
+      "expected_npv_tn": 0.46802445017497324,
+      "p10_npv_tn": -0.2220691840652375,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_SOFTWARE_60_94",
+      "expected_npv_tn": 0.8353271442986793,
+      "p10_npv_tn": 0.1595216828740786,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_SOFTWARE_70_88",
+      "expected_npv_tn": 0.510367274234047,
+      "p10_npv_tn": -0.1655139109879987,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_TARGETED_75_100",
+      "expected_npv_tn": 0.359298478546305,
+      "p10_npv_tn": -0.3612515991595843,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_TARGETED_75_94",
+      "expected_npv_tn": 0.3327497420955882,
+      "p10_npv_tn": -0.4104471777139627,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "central",
+      "policy_id": "P_LARGE_85_100",
+      "expected_npv_tn": -3.2241081471442383,
+      "p10_npv_tn": -4.136061666433948,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_SOFTWARE_75_100",
+      "expected_npv_tn": 0.6068266927685457,
+      "p10_npv_tn": 0.08091072576773528,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_SOFTWARE_80_100",
+      "expected_npv_tn": 0.6068266927685457,
+      "p10_npv_tn": 0.08091072576773528,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_SOFTWARE_85_100",
+      "expected_npv_tn": 0.6068266927685457,
+      "p10_npv_tn": 0.08091072576773528,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_SOFTWARE_90_100",
+      "expected_npv_tn": 0.6068266927685457,
+      "p10_npv_tn": 0.08091072576773528,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_SOFTWARE_95_100",
+      "expected_npv_tn": 0.6068266927685457,
+      "p10_npv_tn": 0.08091072576773528,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_CURRENT",
+      "expected_npv_tn": 0.0,
+      "p10_npv_tn": 0.0,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_RULES_75_100",
+      "expected_npv_tn": 0.5798116730404356,
+      "p10_npv_tn": 0.11630340230655853,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_RULES_55_94",
+      "expected_npv_tn": 0.4645448578485085,
+      "p10_npv_tn": 0.09832738624967892,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_RULES_70_88",
+      "expected_npv_tn": 0.30080857268283157,
+      "p10_npv_tn": -0.11152863138699584,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_SOFTWARE_60_94",
+      "expected_npv_tn": 0.5621116231136701,
+      "p10_npv_tn": 0.06007002319865481,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_SOFTWARE_70_88",
+      "expected_npv_tn": 0.35040361387003005,
+      "p10_npv_tn": -0.1310843407691249,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_TARGETED_75_100",
+      "expected_npv_tn": -0.26415647880993104,
+      "p10_npv_tn": -0.7792129512616104,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_TARGETED_75_94",
+      "expected_npv_tn": -0.2660690809947968,
+      "p10_npv_tn": -0.7802601089686645,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "low_fixed",
+      "policy_id": "P_LARGE_85_100",
+      "expected_npv_tn": -4.174510145320062,
+      "p10_npv_tn": -5.007411224673268,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_SOFTWARE_75_100",
+      "expected_npv_tn": 1.635541971000593,
+      "p10_npv_tn": 0.6594275701277174,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_SOFTWARE_80_100",
+      "expected_npv_tn": 1.635541971000593,
+      "p10_npv_tn": 0.6594275701277174,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_SOFTWARE_85_100",
+      "expected_npv_tn": 1.635541971000593,
+      "p10_npv_tn": 0.6594275701277174,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_SOFTWARE_90_100",
+      "expected_npv_tn": 1.635541971000593,
+      "p10_npv_tn": 0.6594275701277174,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_SOFTWARE_95_100",
+      "expected_npv_tn": 1.635541971000593,
+      "p10_npv_tn": 0.6594275701277174,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_CURRENT",
+      "expected_npv_tn": 0.0,
+      "p10_npv_tn": 0.0,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_RULES_75_100",
+      "expected_npv_tn": 1.6937296841618958,
+      "p10_npv_tn": 0.6375717159007147,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_RULES_55_94",
+      "expected_npv_tn": 0.8904709361457237,
+      "p10_npv_tn": 0.3947851403642817,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_RULES_70_88",
+      "expected_npv_tn": 0.7689826310725685,
+      "p10_npv_tn": -0.15374430186806612,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_SOFTWARE_60_94",
+      "expected_npv_tn": 1.215674526266271,
+      "p10_npv_tn": 0.4057573255048498,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_SOFTWARE_70_88",
+      "expected_npv_tn": 0.7702704283580004,
+      "p10_npv_tn": -0.08393898971514803,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_TARGETED_75_100",
+      "expected_npv_tn": 1.195376259517124,
+      "p10_npv_tn": 0.30634729233783825,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_TARGETED_75_94",
+      "expected_npv_tn": 1.0704640451117338,
+      "p10_npv_tn": 0.1303735103239621,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "high_fixed",
+      "policy_id": "P_LARGE_85_100",
+      "expected_npv_tn": -2.0136739634410925,
+      "p10_npv_tn": -2.942862903516202,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_SOFTWARE_75_100",
+      "expected_npv_tn": 1.362239282592134,
+      "p10_npv_tn": 0.45562838738233874,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_SOFTWARE_80_100",
+      "expected_npv_tn": 1.362239282592134,
+      "p10_npv_tn": 0.45562838738233874,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_SOFTWARE_85_100",
+      "expected_npv_tn": 1.362239282592134,
+      "p10_npv_tn": 0.45562838738233874,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_SOFTWARE_90_100",
+      "expected_npv_tn": 1.362239282592134,
+      "p10_npv_tn": 0.45562838738233874,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_SOFTWARE_95_100",
+      "expected_npv_tn": 1.362239282592134,
+      "p10_npv_tn": 0.45562838738233874,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_CURRENT",
+      "expected_npv_tn": 0.0,
+      "p10_npv_tn": 0.0,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_RULES_75_100",
+      "expected_npv_tn": 1.325810514715522,
+      "p10_npv_tn": 0.395559116127099,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_RULES_55_94",
+      "expected_npv_tn": 0.7019874354160874,
+      "p10_npv_tn": 0.1776225167764683,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_RULES_70_88",
+      "expected_npv_tn": 0.4936041947555996,
+      "p10_npv_tn": -0.26789648004893757,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_SOFTWARE_60_94",
+      "expected_npv_tn": 0.9578829869787181,
+      "p10_npv_tn": 0.22175658656178607,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_SOFTWARE_70_88",
+      "expected_npv_tn": 0.5451562514137949,
+      "p10_npv_tn": -0.18030269430295426,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_TARGETED_75_100",
+      "expected_npv_tn": 1.1310695324738935,
+      "p10_npv_tn": 0.2208431842405105,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_TARGETED_75_94",
+      "expected_npv_tn": 0.8408217967561131,
+      "p10_npv_tn": -0.08518468075218034,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "flat_mix",
+      "policy_id": "P_LARGE_85_100",
+      "expected_npv_tn": -1.7710611268699885,
+      "p10_npv_tn": -2.823757818594473,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_SOFTWARE_75_100",
+      "expected_npv_tn": 0.8142059089271206,
+      "p10_npv_tn": 0.1301764371404785,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_SOFTWARE_80_100",
+      "expected_npv_tn": 0.8142059089271206,
+      "p10_npv_tn": 0.1301764371404785,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_SOFTWARE_85_100",
+      "expected_npv_tn": 0.8142059089271206,
+      "p10_npv_tn": 0.1301764371404785,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_SOFTWARE_90_100",
+      "expected_npv_tn": 0.8142059089271206,
+      "p10_npv_tn": 0.1301764371404785,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_SOFTWARE_95_100",
+      "expected_npv_tn": 0.8142059089271206,
+      "p10_npv_tn": 0.1301764371404785,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_CURRENT",
+      "expected_npv_tn": 0.0,
+      "p10_npv_tn": 0.0,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_RULES_75_100",
+      "expected_npv_tn": 0.8405482494534177,
+      "p10_npv_tn": 0.1329493501605283,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_RULES_55_94",
+      "expected_npv_tn": 0.581237165767765,
+      "p10_npv_tn": 0.10641517431368916,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_RULES_70_88",
+      "expected_npv_tn": 0.45038759646096665,
+      "p10_npv_tn": -0.1793655105112478,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_SOFTWARE_60_94",
+      "expected_npv_tn": 0.7454925644982265,
+      "p10_npv_tn": 0.10405456503663717,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_SOFTWARE_70_88",
+      "expected_npv_tn": 0.4840008607668038,
+      "p10_npv_tn": -0.14308500729277382,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_TARGETED_75_100",
+      "expected_npv_tn": -0.06349496889957093,
+      "p10_npv_tn": -0.6735506923562379,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_TARGETED_75_94",
+      "expected_npv_tn": -0.06366865040379967,
+      "p10_npv_tn": -0.6700689499502738,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "steep_mix",
+      "policy_id": "P_LARGE_85_100",
+      "expected_npv_tn": -4.037761456896999,
+      "p10_npv_tn": -4.930606584942037,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_SOFTWARE_75_100",
+      "expected_npv_tn": 1.6035304746516699,
+      "p10_npv_tn": 0.674369458531272,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_SOFTWARE_80_100",
+      "expected_npv_tn": 1.6035372795825635,
+      "p10_npv_tn": 0.674369458531272,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_SOFTWARE_85_100",
+      "expected_npv_tn": 1.6035372795825635,
+      "p10_npv_tn": 0.674369458531272,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_SOFTWARE_90_100",
+      "expected_npv_tn": 1.6035372795825635,
+      "p10_npv_tn": 0.674369458531272,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_SOFTWARE_95_100",
+      "expected_npv_tn": 1.6035372795825635,
+      "p10_npv_tn": 0.674369458531272,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_CURRENT",
+      "expected_npv_tn": 0.0,
+      "p10_npv_tn": 0.0,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_RULES_75_100",
+      "expected_npv_tn": 1.6400269759287645,
+      "p10_npv_tn": 0.6452607773659127,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_RULES_55_94",
+      "expected_npv_tn": 0.9129517254568857,
+      "p10_npv_tn": 0.48858170536489537,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_RULES_70_88",
+      "expected_npv_tn": 1.1238556869275045,
+      "p10_npv_tn": 0.21811833689037702,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_SOFTWARE_60_94",
+      "expected_npv_tn": 1.236059855447928,
+      "p10_npv_tn": 0.5848624137274971,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_SOFTWARE_70_88",
+      "expected_npv_tn": 1.1025607529071977,
+      "p10_npv_tn": 0.235262574690495,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_TARGETED_75_100",
+      "expected_npv_tn": 0.8075694949587137,
+      "p10_npv_tn": -0.0829738068700872,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_TARGETED_75_94",
+      "expected_npv_tn": 0.7763561963729889,
+      "p10_npv_tn": -0.13528617773530896,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "urban_heavy",
+      "policy_id": "P_LARGE_85_100",
+      "expected_npv_tn": -2.8541230274174745,
+      "p10_npv_tn": -3.863561696180082,
+      "baseline_internal_share": 0.5000000000000001
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_SOFTWARE_75_100",
+      "expected_npv_tn": 0.253203914162623,
+      "p10_npv_tn": -0.0750166167767965,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_SOFTWARE_80_100",
+      "expected_npv_tn": 0.253203914162623,
+      "p10_npv_tn": -0.0750166167767965,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_SOFTWARE_85_100",
+      "expected_npv_tn": 0.253203914162623,
+      "p10_npv_tn": -0.0750166167767965,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_SOFTWARE_90_100",
+      "expected_npv_tn": 0.253203914162623,
+      "p10_npv_tn": -0.0750166167767965,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_SOFTWARE_95_100",
+      "expected_npv_tn": 0.253203914162623,
+      "p10_npv_tn": -0.0750166167767965,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_CURRENT",
+      "expected_npv_tn": 0.0,
+      "p10_npv_tn": 0.0,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_RULES_75_100",
+      "expected_npv_tn": 0.24737993733256353,
+      "p10_npv_tn": 0.03105104315566059,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_RULES_55_94",
+      "expected_npv_tn": 0.11548112117090648,
+      "p10_npv_tn": -0.21119190514569958,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_RULES_70_88",
+      "expected_npv_tn": -0.3819116970771099,
+      "p10_npv_tn": -1.1257205495436713,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_SOFTWARE_60_94",
+      "expected_npv_tn": 0.17286426583586667,
+      "p10_npv_tn": -0.1814415122533606,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_SOFTWARE_70_88",
+      "expected_npv_tn": -0.2173020838800209,
+      "p10_npv_tn": -0.7594367086540892,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_TARGETED_75_100",
+      "expected_npv_tn": -0.41788538008725445,
+      "p10_npv_tn": -0.7601989699427291,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_TARGETED_75_94",
+      "expected_npv_tn": -0.42505782261751035,
+      "p10_npv_tn": -0.764978306057771,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "regional_heavy",
+      "policy_id": "P_LARGE_85_100",
+      "expected_npv_tn": -4.208669610101253,
+      "p10_npv_tn": -4.99662347984729,
+      "baseline_internal_share": 0.5
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_SOFTWARE_75_100",
+      "expected_npv_tn": 1.019458936928576,
+      "p10_npv_tn": 0.22535269936859875,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_SOFTWARE_80_100",
+      "expected_npv_tn": 1.019458936928576,
+      "p10_npv_tn": 0.22535269936859875,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_SOFTWARE_85_100",
+      "expected_npv_tn": 1.019458936928576,
+      "p10_npv_tn": 0.22535269936859875,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_SOFTWARE_90_100",
+      "expected_npv_tn": 1.019458936928576,
+      "p10_npv_tn": 0.22535269936859875,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_SOFTWARE_95_100",
+      "expected_npv_tn": 1.019458936928576,
+      "p10_npv_tn": 0.22535269936859875,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_CURRENT",
+      "expected_npv_tn": 0.0,
+      "p10_npv_tn": 0.0,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_RULES_75_100",
+      "expected_npv_tn": 1.0053517082725991,
+      "p10_npv_tn": 0.19211370750690457,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_RULES_55_94",
+      "expected_npv_tn": 0.6211268764861436,
+      "p10_npv_tn": 0.11998602582954525,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_RULES_70_88",
+      "expected_npv_tn": 0.4553058622832261,
+      "p10_npv_tn": -0.24601797276713705,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_SOFTWARE_60_94",
+      "expected_npv_tn": 0.8331711532048425,
+      "p10_npv_tn": 0.15076480175742707,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_SOFTWARE_70_88",
+      "expected_npv_tn": 0.5026502113867031,
+      "p10_npv_tn": -0.18156719523153242,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_TARGETED_75_100",
+      "expected_npv_tn": 0.4048562863316133,
+      "p10_npv_tn": -0.3298530482718193,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_TARGETED_75_94",
+      "expected_npv_tn": 0.34911769328356196,
+      "p10_npv_tn": -0.400273892045107,
+      "baseline_internal_share": 0.49999999999999994
+    },
+    {
+      "variant": "fixed_priority",
+      "policy_id": "P_LARGE_85_100",
+      "expected_npv_tn": -3.183886440541906,
+      "p10_npv_tn": -4.1019070012192085,
+      "baseline_internal_share": 0.49999999999999994
+    }
+  ],
+  "sensitivity": [
+    {
+      "driver": "software productivity",
+      "low": 0,
+      "high": 0.07,
+      "npv_at_low": 0.04472041577296264,
+      "npv_at_high": 1.272142598133382
+    },
+    {
+      "driver": "carrier price",
+      "low": 0.85,
+      "high": 1.15,
+      "npv_at_low": 0.22503425732766935,
+      "npv_at_high": 0.9875113383062045
+    },
+    {
+      "driver": "travel factor",
+      "low": 0.8,
+      "high": 1.5,
+      "npv_at_low": 0.7273146867335665,
+      "npv_at_high": 0.2941974291034043
+    },
+    {
+      "driver": "implementation multiplier",
+      "low": 0.9,
+      "high": 1.6,
+      "npv_at_low": 0.5970182503590693,
+      "npv_at_high": 0.4288075581352065
+    },
+    {
+      "driver": "capacity availability",
+      "low": 0.8,
+      "high": 1.05,
+      "npv_at_low": -0.49874172620475227,
+      "npv_at_high": 1.07834045035021
+    },
+    {
+      "driver": "inflation",
+      "low": 0,
+      "high": 0.06,
+      "npv_at_low": 0.5135515435962341,
+      "npv_at_high": 0.6629194110364036
+    }
+  ],
+  "horizons": [
+    {
+      "years": 3,
+      "discount_rate": 0.11,
+      "npv_tn": 0.31310859971335514,
+      "irr": 0.7622284061167747,
+      "growth_pass": false
+    },
+    {
+      "years": 3,
+      "discount_rate": 0.14,
+      "npv_tn": 0.2839040799360275,
+      "irr": 0.7622284061167747,
+      "growth_pass": false
+    },
+    {
+      "years": 3,
+      "discount_rate": 0.18,
+      "npv_tn": 0.24890826177101913,
+      "irr": 0.7622284061167747,
+      "growth_pass": false
+    },
+    {
+      "years": 5,
+      "discount_rate": 0.11,
+      "npv_tn": 0.6381555895971932,
+      "irr": 0.925542833098232,
+      "growth_pass": false
+    },
+    {
+      "years": 5,
+      "discount_rate": 0.14,
+      "npv_tn": 0.5729881514699461,
+      "irr": 0.925542833098232,
+      "growth_pass": false
+    },
+    {
+      "years": 5,
+      "discount_rate": 0.18,
+      "npv_tn": 0.4973814459983956,
+      "irr": 0.925542833098232,
+      "growth_pass": false
+    },
+    {
+      "years": 7,
+      "discount_rate": 0.11,
+      "npv_tn": 0.9565930918844411,
+      "irr": 0.9635447832185233,
+      "growth_pass": false
+    },
+    {
+      "years": 7,
+      "discount_rate": 0.14,
+      "npv_tn": 0.8408663304261103,
+      "irr": 0.9635447832185233,
+      "growth_pass": false
+    },
+    {
+      "years": 7,
+      "discount_rate": 0.18,
+      "npv_tn": 0.7116455690819224,
+      "irr": 0.9635447832185233,
+      "growth_pass": false
+    }
+  ],
+  "break_even_initial_capex_tn": 0.5927786374187498,
+  "minimum_annual_nonlogistics_ebit_increase_tn": 0.5313539134999944,
+  "risk_preferences": [
+    {
+      "risk_penalty": 0,
+      "policy_id": "P_SOFTWARE_70_88"
+    },
+    {
+      "risk_penalty": 0.25,
+      "policy_id": "P_SOFTWARE_70_88"
+    },
+    {
+      "risk_penalty": 0.5,
+      "policy_id": "P_SOFTWARE_70_88"
+    },
+    {
+      "risk_penalty": 1.0,
+      "policy_id": "P_CURRENT"
+    },
+    {
+      "absolute_service_violation_limit": 0.05,
+      "policy_id": "P_SOFTWARE_70_88"
+    },
+    {
+      "absolute_service_violation_limit": 0.1,
+      "policy_id": "P_SOFTWARE_60_94"
+    },
+    {
+      "absolute_service_violation_limit": 0.2,
+      "policy_id": "P_SOFTWARE_60_94"
+    }
+  ],
+  "runtime_seconds": 15.357498768000369
+}

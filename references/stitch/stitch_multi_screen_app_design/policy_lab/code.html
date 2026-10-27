@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        workspace: "#F6F7F9",
+        surface: "#FFFFFF",
+        borderline: "#E3E7EC",
+        charcoal: "#202833",
+        slate: "#637080",
+        brand: "#C65317",
+        "brand-hover": "#A94010",
+        peach: "#FFF0E6",
+        "peach-border": "#FED7AA",
+        "badge-bg": "#F1F4F8",
+        "badge-text": "#4A5568",
+        error: "#DC2626",
+        "error-bg": "#FEE2E2",
+        "error-border": "#FECACA"
+      },
+      borderRadius: {
+        DEFAULT: "0.25rem",
+        lg: "0.5rem",
+        xl: "0.75rem",
+        full: "9999px"
+      },
+      spacing: {
+        margin: "2rem",
+        "space-xl": "2rem",
+        gutter: "1.5rem",
+        "space-lg": "1.5rem",
+        "space-md": "1rem",
+        "space-xs": "0.25rem",
+        "space-sm": "0.5rem"
+      },
+      fontFamily: {
+        sans: ["Plus Jakarta Sans", "sans-serif"]
+      }
+    }
+  }
+};
+</script></head><body class="bg-workspace font-sans text-charcoal antialiased"><aside class="fixed left-0 top-0 h-full w-[232px] bg-surface border-r border-borderline shadow-[1px_0_4px_rgba(0,0,0,0.02)] z-50 flex flex-col justify-between py-space-md"><div class="flex flex-col"><div class="px-space-md pb-space-md flex items-center gap-space-sm border-b border-borderline"><div class="w-8 h-8 rounded-lg bg-brand flex items-center justify-center"><span class="material-symbols-outlined text-white text-[20px]">hub</span></div><div class="flex flex-col"><span class="text-[16px] font-bold text-charcoal leading-tight">Nexora</span><span class="text-[11px] font-medium text-slate leading-none">NexExpress Operations</span></div></div><nav class="flex flex-col px-space-sm gap-space-xs mt-3"><div class="px-space-sm pt-space-sm pb-space-xs text-[11px] font-bold uppercase tracking-wider text-slate">Operate / Monitor</div><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="overview" href="#"><span class="material-symbols-outlined text-[18px]">dashboard</span>Overview</a><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="digital-twin" href="#"><span class="material-symbols-outlined text-[18px]">alt_route</span>Digital Twin</a><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="demand-&amp;-capacity-forecast" href="#"><span class="material-symbols-outlined text-[18px]">ssid_chart</span>Forecasts</a><div class="px-space-sm pt-space-md pb-space-xs text-[11px] font-bold uppercase tracking-wider text-slate">Decide</div><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-1.5 transition-colors bg-peach text-brand font-semibold rounded-lg text-[13px]" data-path="policy-lab" href="#"><span class="material-symbols-outlined text-[18px] text-brand">science</span>Policy Lab</a><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="capacity-&amp;-partners" href="#"><span class="material-symbols-outlined text-[18px]">local_shipping</span>Capacity &amp; Partners</a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="incidents-&amp;-actions" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">warning</span><span>Incidents &amp; Actions</span></div><span class="px-1.5 py-0.5 rounded-full bg-error text-white text-[10px] leading-tight font-bold">1</span></a><div class="px-space-sm pt-space-md pb-space-xs text-[11px] font-bold uppercase tracking-wider text-slate">Evaluate</div><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="financial-&amp;-operational-impact" href="#"><span class="material-symbols-outlined text-[18px]">analytics</span>Impact</a><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="rollout" href="#"><span class="material-symbols-outlined text-[18px]">published_with_changes</span>Rollout</a></nav></div><div class="flex flex-col px-space-sm pt-space-md border-t border-borderline gap-space-xs"><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-slate hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="evidence-&amp;-assumptions" href="#"><span class="material-symbols-outlined text-[18px]">fact_check</span>Evidence &amp; Assumptions</a><div class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-slate"><div class="flex items-center gap-space-sm text-[13px] font-medium"><span class="material-symbols-outlined text-[18px]">tune</span><span>Prototype Mode</span></div><div class="w-7 h-4 bg-brand rounded-full flex items-center p-0.5 cursor-pointer"><div class="w-3 h-3 bg-surface rounded-full shadow-sm translate-x-3 transition-transform"></div></div></div></div></aside><div class="pl-[232px]"><header class="fixed top-0 left-[232px] right-0 h-14 bg-surface border-b border-borderline shadow-[0_1px_3px_rgba(0,0,0,0.02)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-sm cursor-pointer hover:bg-workspace px-space-sm py-1 rounded-lg transition-colors border border-transparent hover:border-borderline"><span class="material-symbols-outlined text-[18px] text-brand">location_on</span><span class="text-[14px] font-semibold text-charcoal">Greater Jakarta · Regional Network</span><span class="material-symbols-outlined text-[16px] text-slate">expand_more</span></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm bg-workspace border border-borderline px-space-sm py-1 rounded-lg"><span class="text-[11px] text-brand font-semibold">Campaign surge</span><span class="text-borderline">|</span><span class="text-[13px] text-slate">09:30 WIB · data 12s ago</span></div><span class="px-2 py-0.5 rounded-full bg-badge-bg border border-borderline text-badge-text text-[11px] font-medium">Prototype · simulated data</span><div class="h-4 w-[1px] bg-borderline"></div><button class="px-space-sm py-1 bg-surface border border-borderline hover:bg-workspace text-charcoal rounded-lg text-[12px] font-medium transition-colors">Assumptions</button><button class="p-1.5 border border-borderline hover:bg-workspace text-slate hover:text-charcoal rounded-lg transition-colors"><span class="material-symbols-outlined text-[18px]">restart_alt</span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="flex flex-col text-right"><span class="text-[12px] font-semibold text-charcoal leading-tight">Jev</span><span class="text-[11px] text-slate leading-none">Ops Planner</span></div><div class="w-8 h-8 rounded-full bg-peach border border-peach-border text-brand font-bold flex items-center justify-center"><span class="material-symbols-outlined text-brand text-[18px]">person</span></div></div></div></header><main class="w-full pt-14 bg-workspace min-h-screen px-space-lg py-space-lg"><div class="max-w-[1440px] mx-auto"><div class="flex flex-col w-full">
+<!-- Sub-header Breadcrumb & Operational Action Bar -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md mb-space-lg">
+<div class="flex flex-col gap-1 max-w-3xl">
+<div class="flex items-center gap-2">
+<span class="text-[11px] uppercase tracking-wider text-slate font-semibold">Decision Lab</span>
+<span class="text-borderline text-[11px]">/</span>
+<span class="text-[11px] uppercase tracking-wider text-brand font-bold">Stochastic Policy Optimisation</span>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-badge-bg border border-borderline text-slate text-[11px] font-medium ml-1">
+          10,000 Monte Carlo Iterations
+        </span>
+</div>
+<h1 class="text-[26px] font-bold text-charcoal tracking-tight">Policy lab</h1>
+<p class="text-[14px] text-slate leading-relaxed">
+        Evaluate internal fleet vs 3PL contractor allocation dynamics under unhedged demand surges and spot-rate volatility. Calibrated on historical Greater Jakarta fulfillment clusters.
+      </p>
+</div>
+<!-- Right Controls & Metric Filter Pills -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-sm self-start lg:self-end">
+<!-- Metric View Toggle Pills -->
+<div class="inline-flex p-1 bg-surface border border-borderline rounded-xl gap-1 shadow-sm">
+<button class="px-space-sm py-1.5 rounded-lg text-brand font-semibold text-[13px] bg-peach border border-peach-border transition-all" id="pill-contrib">
+          Expected contribution
+        </button>
+<button class="px-space-sm py-1.5 rounded-lg text-slate hover:text-charcoal font-medium text-[13px] transition-all" id="pill-p10">
+          Downside risk (P10)
+        </button>
+<button class="px-space-sm py-1.5 rounded-lg text-slate hover:text-charcoal font-medium text-[13px] transition-all" id="pill-beat">
+          Beat probability
+        </button>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="flex items-center gap-1.5 px-space-md py-2 bg-surface hover:bg-workspace border border-borderline text-charcoal font-medium text-[13px] rounded-lg shadow-sm transition-all">
+<span class="material-symbols-outlined text-[18px] text-slate">autorenew</span>
+<span>Re-run simulation</span>
+</button>
+<button class="flex items-center gap-1.5 px-space-md py-2 bg-brand hover:bg-brand-hover text-white font-medium text-[13px] rounded-lg shadow-sm transition-all">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Apply policy to network</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Headline Metric Cards Strip (4 Metrics) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-space-md mb-space-lg">
+<!-- Card 1: Selected Policy -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm flex flex-col justify-between relative overflow-hidden group">
+<div class="flex items-center justify-between mb-2">
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">Selected Policy Allocation</span>
+<span class="w-2.5 h-2.5 rounded-full bg-brand animate-pulse"></span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="text-[24px] text-charcoal font-bold">65% Internal</span>
+<span class="text-[14px] text-slate font-medium">/ 35% 3PL</span>
+</div>
+<p class="text-[13px] text-slate mt-1 flex items-center gap-1.5">
+<span class="inline-block w-2 h-2 rounded-full bg-slate"></span>
+          Campaign surge baseline default
+        </p>
+</div>
+<div class="mt-4 pt-3 bg-workspace -mx-space-lg -mb-space-lg px-space-lg pb-space-sm border-t border-borderline flex items-center justify-between text-slate">
+<span class="text-[11px] font-medium">Flex headroom buffer</span>
+<span class="text-[11px] font-bold text-brand">35% surge shield</span>
+</div>
+</div>
+<!-- Card 2: Expected Contribution -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">Expected Op Contribution</span>
+<span class="material-symbols-outlined text-brand text-[18px]">trending_up</span>
+</div>
+<div>
+<div class="flex items-baseline gap-1.5">
+<span class="text-[24px] text-charcoal font-bold">+Rp 28.0m</span>
+<span class="text-[13px] text-slate">/ day</span>
+</div>
+<p class="text-[13px] text-slate mt-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-brand">arrow_upward</span>
+<span class="text-brand font-semibold text-[11px]">+18.4%</span>
+<span>vs status quo contractor routing</span>
+</p>
+</div>
+<div class="mt-4 pt-3 bg-workspace -mx-space-lg -mb-space-lg px-space-lg pb-space-sm border-t border-borderline flex items-center justify-between text-slate">
+<span class="text-[11px] font-medium">Monthly projected delta</span>
+<span class="text-[11px] font-semibold text-charcoal">+Rp 840.0m</span>
+</div>
+</div>
+<!-- Card 3: Downside Risk P10 -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">10th Percentile Downside (P10)</span>
+<span class="material-symbols-outlined text-slate text-[18px]">shield</span>
+</div>
+<div>
+<div class="flex items-baseline gap-1.5">
+<span class="text-[24px] text-charcoal font-bold">+Rp 11.4m</span>
+<span class="text-[13px] text-slate">/ day</span>
+</div>
+<p class="text-[13px] text-slate mt-1">
+          Strictly positive downside resilience under 90% CI
+        </p>
+</div>
+<div class="mt-4 pt-3 bg-workspace -mx-space-lg -mb-space-lg px-space-lg pb-space-sm border-t border-borderline flex items-center justify-between text-slate">
+<span class="text-[11px] font-medium">P90 Tail Optimism</span>
+<span class="text-[11px] font-semibold text-charcoal">+Rp 38.2m / day</span>
+</div>
+</div>
+<!-- Card 4: Baseline Beat Rate -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">Baseline Beat Probability</span>
+<span class="material-symbols-outlined text-slate text-[18px]">query_stats</span>
+</div>
+<div>
+<div class="flex items-baseline gap-1.5">
+<span class="text-[24px] text-charcoal font-bold">94.2%</span>
+<span class="text-[13px] text-slate">confidence</span>
+</div>
+<div class="w-full bg-workspace border border-borderline h-2 rounded-full overflow-hidden mt-2">
+<div class="bg-brand h-full rounded-full" style="width: 94.2%;"></div>
+</div>
+</div>
+<div class="mt-4 pt-3 bg-workspace -mx-space-lg -mb-space-lg px-space-lg pb-space-sm border-t border-borderline flex items-center justify-between text-slate">
+<span class="text-[11px] font-medium">SLA compliance chance</span>
+<span class="text-[11px] font-semibold text-charcoal">99.1% &gt; 98.5% req</span>
+</div>
+</div>
+</div>
+<!-- Main Workstation Layout: 65% Matrix + 35% Inspector Panel -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT PANEL: Monte Carlo Heatmap Matrix (8 cols / ~66%) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm">
+<!-- Matrix Header -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between pb-space-md border-b border-borderline gap-space-sm mb-4">
+<div>
+<h2 class="text-[18px] text-charcoal font-bold flex items-center gap-2">
+<span>Stochastic Return Surface</span>
+<span class="material-symbols-outlined text-[18px] text-slate" title="Monte Carlo distribution across relative demand spikes and internal dispatch targets">info</span>
+</h2>
+<p class="text-[13px] text-slate">
+              Net operational value (Rp Millions/day) relative to 50% flat status quo baseline across 10,000 simulated iterations.
+            </p>
+</div>
+<div class="flex items-center gap-space-sm text-slate text-[11px] font-medium">
+<span class="inline-flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 rounded bg-peach border-2 border-brand"></span>
+              Selected (65% / 100%)
+            </span>
+<span class="inline-flex items-center gap-1.5 ml-2">
+<span class="w-3.5 h-3.5 rounded bg-error-bg border border-error-border"></span>
+              Capacity breach
+            </span>
+</div>
+</div>
+<!-- Heatmap Container -->
+<div class="overflow-x-auto pb-space-sm">
+<div class="min-w-[620px]">
+<!-- Table Matrix -->
+<table class="w-full text-center border-separate border-spacing-1.5">
+<thead>
+<tr>
+<th class="p-2 text-left text-[11px] text-slate font-bold uppercase tracking-wider w-24">
+                    Demand \ Share
+                  </th>
+<!-- Target Internal Delivery Share (Columns) -->
+<th class="p-2 text-[12px] text-slate font-semibold">40%</th>
+<th class="p-2 text-[12px] text-slate font-semibold">50%</th>
+<th class="p-2 text-[12px] text-slate font-semibold">60%</th>
+<th class="p-2 text-[12px] text-brand font-bold bg-peach/50 border-t border-x border-peach-border rounded-t-lg">
+                    65% <span class="text-[10px] block font-normal text-slate">Current</span>
+</th>
+<th class="p-2 text-[12px] text-slate font-semibold">70%</th>
+<th class="p-2 text-[12px] text-slate font-semibold">80%</th>
+<th class="p-2 text-[12px] text-slate font-semibold">90%</th>
+<th class="p-2 text-[12px] text-slate font-semibold">100%</th>
+</tr>
+</thead>
+<tbody class="text-[13px]">
+<!-- Row: 140% Demand -->
+<tr>
+<td class="text-left text-[11px] text-charcoal font-bold p-2 whitespace-nowrap">
+                    140% <span class="text-slate font-normal text-[11px] block">Extr. Surge</span>
+</td>
+<td class="p-2.5 rounded-lg bg-[#FAF8F5] text-charcoal font-medium border border-borderline/60">+Rp 12.2m</td>
+<td class="p-2.5 rounded-lg bg-[#F5F2EB] text-charcoal font-medium border border-borderline/60">+Rp 16.5m</td>
+<td class="p-2.5 rounded-lg bg-[#EFE9DD] text-charcoal font-medium border border-borderline/60">+Rp 22.4m</td>
+<td class="p-2.5 rounded-lg bg-[#E7DEC9] text-charcoal font-semibold border border-borderline/80">+Rp 26.8m</td>
+<td class="p-2.5 rounded-lg bg-error-bg/60 text-error font-medium border border-error-border" title="Hub sorter saturated">
+<span>-Rp 4.2m</span>
+</td>
+<td class="p-2.5 rounded-lg bg-error-bg/70 text-error font-medium border border-error-border">
+<span>-Rp 18.0m</span>
+</td>
+<td class="p-2.5 rounded-lg bg-error-bg/85 text-error font-medium border border-error-border">
+<span>-Rp 32.5m</span>
+</td>
+<td class="p-2.5 rounded-lg bg-error-bg text-error font-medium border border-error-border">
+<span>-Rp 45.1m</span>
+</td>
+</tr>
+<!-- Row: 130% Demand -->
+<tr>
+<td class="text-left text-[11px] text-charcoal font-bold p-2 whitespace-nowrap">
+                    130% <span class="text-slate font-normal text-[11px] block">High Surge</span>
+</td>
+<td class="p-2.5 rounded-lg bg-[#FAF8F5] text-charcoal font-medium border border-borderline/60">+Rp 14.1m</td>
+<td class="p-2.5 rounded-lg bg-[#F3EFE6] text-charcoal font-medium border border-borderline/60">+Rp 18.9m</td>
+<td class="p-2.5 rounded-lg bg-[#EAE2D2] text-charcoal font-medium border border-borderline/60">+Rp 25.0m</td>
+<td class="p-2.5 rounded-lg bg-[#E3D7BD] text-charcoal font-semibold border border-borderline/80">+Rp 29.4m</td>
+<td class="p-2.5 rounded-lg bg-[#EDE5D6] text-charcoal font-medium border border-borderline/60">+Rp 21.0m</td>
+<td class="p-2.5 rounded-lg bg-error-bg/70 text-error font-medium border border-error-border">
+<span>-Rp 11.2m</span>
+</td>
+<td class="p-2.5 rounded-lg bg-error-bg/80 text-error font-medium border border-error-border">
+<span>-Rp 24.0m</span>
+</td>
+<td class="p-2.5 rounded-lg bg-error-bg text-error font-medium border border-error-border">
+<span>-Rp 39.4m</span>
+</td>
+</tr>
+<!-- Row: 120% Demand -->
+<tr>
+<td class="text-left text-[11px] text-charcoal font-bold p-2 whitespace-nowrap">
+                    120% <span class="text-slate font-normal text-[11px] block">Campaign</span>
+</td>
+<td class="p-2.5 rounded-lg bg-[#FAF8F5] text-charcoal font-medium border border-borderline/60">+Rp 15.6m</td>
+<td class="p-2.5 rounded-lg bg-[#EFE9DD] text-charcoal font-medium border border-borderline/60">+Rp 20.8m</td>
+<td class="p-2.5 rounded-lg bg-[#E5DBC4] text-charcoal font-medium border border-borderline/60">+Rp 28.3m</td>
+<td class="p-2.5 rounded-lg bg-[#DFD1B4] text-charcoal font-semibold border border-borderline/80">+Rp 31.8m</td>
+<td class="p-2.5 rounded-lg bg-[#E2D5BA] text-charcoal font-semibold border border-borderline/80">+Rp 30.2m</td>
+<td class="p-2.5 rounded-lg bg-error-bg/60 text-error font-medium border border-error-border">
+<span>-Rp 6.1m</span>
+</td>
+<td class="p-2.5 rounded-lg bg-error-bg/75 text-error font-medium border border-error-border">
+<span>-Rp 19.8m</span>
+</td>
+<td class="p-2.5 rounded-lg bg-error-bg/90 text-error font-medium border border-error-border">
+<span>-Rp 31.0m</span>
+</td>
+</tr>
+<!-- Row: 110% Demand -->
+<tr>
+<td class="text-left text-[11px] text-charcoal font-bold p-2 whitespace-nowrap">
+                    110% <span class="text-slate font-normal text-[11px] block">Elevated</span>
+</td>
+<td class="p-2.5 rounded-lg bg-[#FAF8F5] text-charcoal font-medium border border-borderline/60">+Rp 16.2m</td>
+<td class="p-2.5 rounded-lg bg-[#EDE5D6] text-charcoal font-medium border border-borderline/60">+Rp 21.9m</td>
+<td class="p-2.5 rounded-lg bg-[#E3D7BD] text-charcoal font-medium border border-borderline/60">+Rp 29.5m</td>
+<td class="p-2.5 rounded-lg bg-[#DDCEAF] text-charcoal font-semibold border border-borderline/80">+Rp 32.5m</td>
+<td class="p-2.5 rounded-lg bg-[#D9C8A5] text-charcoal font-bold border border-borderline/80">+Rp 34.0m</td>
+<td class="p-2.5 rounded-lg bg-[#F0EAE0] text-charcoal font-medium border border-borderline/60">+Rp 19.4m</td>
+<td class="p-2.5 rounded-lg bg-error-bg/65 text-error font-medium border border-error-border">
+<span>-Rp 8.0m</span>
+</td>
+<td class="p-2.5 rounded-lg bg-error-bg/80 text-error font-medium border border-error-border">
+<span>-Rp 22.4m</span>
+</td>
+</tr>
+<!-- Row: 100% Demand (BASELINE) -->
+<tr class="bg-workspace/40">
+<td class="text-left text-[11px] text-brand font-bold p-2 whitespace-nowrap">
+                    100% <span class="text-brand font-semibold text-[11px] block">Baseline</span>
+</td>
+<td class="p-2.5 rounded-lg bg-[#FAF8F5] text-charcoal font-medium border border-borderline/60">+Rp 15.0m</td>
+<td class="p-2.5 rounded-lg bg-[#F1EBE0] text-charcoal font-medium border border-borderline/60">+Rp 19.8m</td>
+<td class="p-2.5 rounded-lg bg-[#E8DFCC] text-charcoal font-medium border border-borderline/60">+Rp 26.1m</td>
+<!-- ACTIVE CELL SELECTION: Pure highlight with burnt orange border and pale peach fill -->
+<td class="p-2.5 rounded-lg bg-peach border-2 border-brand text-charcoal font-bold shadow-sm scale-105 transform z-20 cursor-pointer transition-transform" title="Current Selected Network Policy">
+<div class="flex flex-col items-center">
+<span class="text-[12px] font-bold text-charcoal tracking-wide">+Rp 28.0m</span>
+<span class="text-[10px] font-bold text-brand uppercase tracking-wider">Selected</span>
+</div>
+</td>
+<td class="p-2.5 rounded-lg bg-[#DFD3BA] text-charcoal font-semibold border border-borderline/80">+Rp 30.5m</td>
+<td class="p-2.5 rounded-lg bg-[#DDCFB5] text-charcoal font-semibold border border-borderline/80">+Rp 31.2m</td>
+<td class="p-2.5 rounded-lg bg-[#EBE3D3] text-charcoal font-medium border border-borderline/60">+Rp 24.3m</td>
+<td class="p-2.5 rounded-lg bg-[#F7F4ED] text-charcoal font-medium border border-borderline/60">+Rp 15.7m</td>
+</tr>
+<!-- Row: 90% Demand -->
+<tr>
+<td class="text-left text-[11px] text-charcoal font-bold p-2 whitespace-nowrap">
+                    90% <span class="text-slate font-normal text-[11px] block">Mild Soft</span>
+</td>
+<td class="p-2.5 rounded-lg bg-[#FAF8F5] text-charcoal font-medium border border-borderline/60">+Rp 12.8m</td>
+<td class="p-2.5 rounded-lg bg-[#F5F2EC] text-charcoal font-medium border border-borderline/60">+Rp 16.9m</td>
+<td class="p-2.5 rounded-lg bg-[#EFE9DC] text-charcoal font-medium border border-borderline/60">+Rp 22.0m</td>
+<td class="p-2.5 rounded-lg bg-[#EBE2D1] text-charcoal font-semibold border border-borderline/80">+Rp 24.2m</td>
+<td class="p-2.5 rounded-lg bg-[#E7DEC9] text-charcoal font-semibold border border-borderline/80">+Rp 26.0m</td>
+<td class="p-2.5 rounded-lg bg-[#E6DDC8] text-charcoal font-medium border border-borderline/60">+Rp 26.8m</td>
+<td class="p-2.5 rounded-lg bg-[#EFE9DC] text-charcoal font-medium border border-borderline/60">+Rp 22.0m</td>
+<td class="p-2.5 rounded-lg bg-[#FAF8F5] text-charcoal font-medium border border-borderline/60">+Rp 11.4m</td>
+</tr>
+<!-- Row: 80% Demand -->
+<tr>
+<td class="text-left text-[11px] text-charcoal font-bold p-2 whitespace-nowrap">
+                    80% <span class="text-slate font-normal text-[11px] block">Lull Low</span>
+</td>
+<td class="p-2.5 rounded-lg bg-workspace text-slate font-medium border border-borderline/60">+Rp 9.5m</td>
+<td class="p-2.5 rounded-lg bg-[#FAF8F5] text-charcoal font-medium border border-borderline/60">+Rp 13.0m</td>
+<td class="p-2.5 rounded-lg bg-[#F4F1EA] text-charcoal font-medium border border-borderline/60">+Rp 17.5m</td>
+<td class="p-2.5 rounded-lg bg-[#F2EDE4] text-charcoal font-semibold border border-borderline/80">+Rp 19.1m</td>
+<td class="p-2.5 rounded-lg bg-[#EFE8DD] text-charcoal font-medium border border-borderline/60">+Rp 20.4m</td>
+<td class="p-2.5 rounded-lg bg-[#EEE6DA] text-charcoal font-medium border border-borderline/60">+Rp 21.0m</td>
+<td class="p-2.5 rounded-lg bg-[#F6F2EC] text-charcoal font-medium border border-borderline/60">+Rp 16.5m</td>
+<td class="p-2.5 rounded-lg bg-workspace text-slate font-medium border border-borderline/60">+Rp 6.8m</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Heatmap Color Bar Legend -->
+<div class="mt-space-md pt-space-md border-t border-borderline flex flex-col sm:flex-row items-center justify-between gap-space-sm">
+<div class="flex items-center gap-3 w-full sm:w-auto">
+<span class="text-[11px] font-bold text-slate uppercase tracking-wider">Value Gradient:</span>
+<div class="flex items-center gap-2 flex-1 sm:flex-initial">
+<span class="text-[11px] text-error font-semibold">-Rp 45m</span>
+<div class="h-2.5 w-32 sm:w-48 rounded-full border border-borderline bg-gradient-to-r from-error-bg via-[#FAF8F5] via-[#EAE2D2] to-[#D9C8A5]"></div>
+<span class="text-[11px] text-charcoal font-bold">+Rp 35m</span>
+</div>
+</div>
+<div class="flex items-center gap-2 text-slate text-[13px]">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span>Zero boundary baseline threshold at Rp 0.0m</span>
+</div>
+</div>
+</div>
+<!-- Supporting Summary Strip Below Matrix -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Metric Note 1 -->
+<div class="bg-surface rounded-xl p-space-md border border-borderline shadow-sm flex items-start gap-3">
+<div class="p-2 rounded-lg bg-workspace border border-borderline text-slate">
+<span class="material-symbols-outlined text-[20px]">balance</span>
+</div>
+<div>
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">Break-even Internal Ratio</span>
+<div class="text-[16px] text-charcoal font-bold mt-0.5">34.2% Fleet Share</div>
+<p class="text-[13px] text-slate mt-1">Minimum internal volume to amortize fixed terminal staffing costs.</p>
+</div>
+</div>
+<!-- Metric Note 2 -->
+<div class="bg-surface rounded-xl p-space-md border border-borderline shadow-sm flex items-start gap-3">
+<div class="p-2 rounded-lg bg-peach border border-peach-border text-brand">
+<span class="material-symbols-outlined text-[20px]">ssid_chart</span>
+</div>
+<div>
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">Optimal Peak Margin</span>
+<div class="text-[16px] text-brand font-bold mt-0.5">70% Internal Share</div>
+<p class="text-[13px] text-slate mt-1">Reaches max yield (+Rp 34.0m) at moderate 110% demand factor.</p>
+</div>
+</div>
+<!-- Boundary Constraint Callout -->
+<div class="bg-surface rounded-xl p-space-md border border-borderline shadow-sm flex items-start gap-3">
+<div class="p-2 rounded-lg bg-peach border border-peach-border text-brand">
+<span class="material-symbols-outlined text-[20px]">report</span>
+</div>
+<div>
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">Sorting Boundary</span>
+<div class="text-[16px] text-charcoal font-bold mt-0.5">&gt; 75% Capacity Cliff</div>
+<p class="text-[13px] text-slate mt-1">Internal delivery exceeding 75% breaches linehaul sorting thresholds when demand rises &gt;110%.</p>
+</div>
+</div>
+</div>
+<!-- Additional Geographic & Fleet Scenario Sensitivity (Visual Context) -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand text-[20px]">share_location</span>
+<h3 class="text-[16px] text-charcoal font-bold">Hub Corridor Sensitivity Breakdown</h3>
+</div>
+<span class="text-[12px] text-slate">Greater Jakarta Radial Routes</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md">
+<!-- Hub 1: West Jakarta & Tangerang -->
+<div class="p-space-md rounded-xl bg-workspace border border-borderline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="text-[13px] text-charcoal font-bold">Tangerang Industrial Hub</span>
+<span class="px-1.5 py-0.5 rounded bg-peach border border-peach-border text-brand text-[11px] font-bold">Optimal</span>
+</div>
+<p class="text-[13px] text-slate">Recommended: 70% Internal / 30% 3PL</p>
+</div>
+<div class="mt-3 flex items-center justify-between text-[12px] pt-2 border-t border-borderline">
+<span class="text-slate">Surge Absorption</span>
+<span class="text-charcoal font-bold">+Rp 11.2m / day</span>
+</div>
+</div>
+<!-- Hub 2: East Hub / Bekasi & Cikarang -->
+<div class="p-space-md rounded-xl bg-workspace border border-borderline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="text-[13px] text-charcoal font-bold">Bekasi &amp; Cikarang Hub</span>
+<span class="px-1.5 py-0.5 rounded bg-badge-bg border border-borderline text-badge-text text-[11px] font-semibold">Balanced</span>
+</div>
+<p class="text-[13px] text-slate">Recommended: 60% Internal / 40% 3PL</p>
+</div>
+<div class="mt-3 flex items-center justify-between text-[12px] pt-2 border-t border-borderline">
+<span class="text-slate">Surge Absorption</span>
+<span class="text-charcoal font-bold">+Rp 9.8m / day</span>
+</div>
+</div>
+<!-- Hub 3: South / Depok & Bogor -->
+<div class="p-space-md rounded-xl bg-workspace border border-borderline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="text-[13px] text-charcoal font-bold">Bogor &amp; Depok Express</span>
+<span class="px-1.5 py-0.5 rounded bg-[#FEF3C7] border border-[#FDE68A] text-[#92400E] text-[11px] font-semibold">High Volatility</span>
+</div>
+<p class="text-[13px] text-slate">Recommended: 65% Internal / 35% 3PL</p>
+</div>
+<div class="mt-3 flex items-center justify-between text-[12px] pt-2 border-t border-borderline">
+<span class="text-slate">Surge Absorption</span>
+<span class="text-charcoal font-bold">+Rp 7.0m / day</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT PANEL: Selected Policy Detail & Trade-offs (4 cols / ~34%) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Card: Outcome Distribution Chart -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">Stochastic Density</span>
+<h3 class="text-[16px] text-charcoal font-bold">Contribution Distribution</h3>
+</div>
+<span class="material-symbols-outlined text-slate text-[20px]">equalizer</span>
+</div>
+<p class="text-[13px] text-slate mb-space-md">
+          Density curves across 10,000 iterations for 65% Internal / 35% 3PL.
+        </p>
+<!-- Inline Bell Curve SVG -->
+<div class="relative w-full h-44 bg-workspace border border-borderline rounded-lg p-2 flex flex-col justify-end overflow-hidden">
+<svg class="w-full h-full text-slate overflow-visible" viewbox="0 0 400 160">
+<!-- Grid lines -->
+<line stroke="#E3E7EC" stroke-width="1" x1="40" x2="380" y1="130" y2="130"></line>
+<line stroke="#E3E7EC" stroke-dasharray="4" stroke-width="1" x1="40" x2="380" y1="80" y2="80"></line>
+<line stroke="#E3E7EC" stroke-dasharray="4" stroke-width="1" x1="40" x2="380" y1="30" y2="30"></line>
+<!-- Rp 0 Baseline Line -->
+<line stroke="#DC2626" stroke-dasharray="3 3" stroke-width="1.5" x1="75" x2="75" y1="10" y2="135"></line>
+<text fill="#DC2626" font-family="Plus Jakarta Sans" font-size="9" font-weight="600" x="78" y="24">Rp 0 Baseline</text>
+<!-- Distribution Fill Gradient in Pale Peach -->
+<defs>
+<lineargradient id="bellGrad" x1="0%" x2="0%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#FFF0E6" stop-opacity="0.9"></stop>
+<stop offset="100%" stop-color="#FFF0E6" stop-opacity="0.15"></stop>
+</lineargradient>
+</defs>
+<!-- P10-P90 Confidence Shading (90% CI) -->
+<path d="M 140 130 
+                     C 160 120, 180 85, 220 35 
+                     C 255 35, 290 80, 335 125 
+                     L 335 130 Z" fill="#C65317" fill-opacity="0.08"></path>
+<!-- Area under entire curve -->
+<path d="M 50 130 
+                     C 90 130, 130 122, 170 85 
+                     C 200 55, 215 32, 235 32 
+                     C 255 32, 275 60, 305 92 
+                     C 340 125, 365 130, 385 130
+                     L 385 130 L 50 130 Z" fill="url(#bellGrad)"></path>
+<!-- Smooth Bell Curve Line in Burnt Orange #C65317 -->
+<path d="M 50 130 
+                     C 90 130, 130 122, 170 85 
+                     C 200 55, 215 32, 235 32 
+                     C 255 32, 275 60, 305 92 
+                     C 340 125, 365 130, 385 130" fill="none" stroke="#C65317" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Mean Vertical Marker (+Rp 28.0m) -->
+<line stroke="#C65317" stroke-width="1.75" x1="235" x2="235" y1="32" y2="130"></line>
+<circle cx="235" cy="32" fill="#C65317" r="3.5"></circle>
+<!-- P10 Marker (+Rp 11.4m) in Slate #637080 -->
+<line stroke="#637080" stroke-dasharray="2 2" stroke-width="1.5" x1="140" x2="140" y1="108" y2="130"></line>
+<circle cx="140" cy="108" fill="#637080" r="2.5"></circle>
+<!-- P90 Marker (+Rp 38.2m) in Slate #637080 -->
+<line stroke="#637080" stroke-dasharray="2 2" stroke-width="1.5" x1="335" x2="335" y1="112" y2="130"></line>
+<circle cx="335" cy="112" fill="#637080" r="2.5"></circle>
+<!-- Labels inside SVG -->
+<text fill="#202833" font-family="Plus Jakarta Sans" font-size="10" font-weight="700" x="240" y="45">Mean: +Rp 28.0m</text>
+<text fill="#637080" font-family="Plus Jakarta Sans" font-size="9" x="110" y="145">P10: +Rp 11.4m</text>
+<text fill="#637080" font-family="Plus Jakarta Sans" font-size="9" x="305" y="145">P90: +Rp 38.2m</text>
+</svg>
+</div>
+<div class="mt-space-sm pt-space-sm border-t border-borderline flex items-center justify-between text-slate text-[12px]">
+<span>Confidence Interval (90%):</span>
+<span class="font-bold text-charcoal">+Rp 11.4m — +Rp 38.2m</span>
+</div>
+</div>
+<!-- Card: Financial & Cost Structure Breakdown -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm">
+<h3 class="text-[16px] text-charcoal font-bold mb-1">Cost &amp; Yield Economics</h3>
+<p class="text-[13px] text-slate mb-space-md">Per-unit logistics blend under current network density.</p>
+<!-- Cost Bar Comparison -->
+<div class="p-space-sm rounded-lg bg-workspace border border-borderline mb-space-md">
+<div class="flex items-center justify-between mb-1.5">
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate">Blended Cost per Parcel</span>
+<span class="text-[14px] font-bold text-charcoal">Rp 9,660</span>
+</div>
+<div class="flex items-center gap-1 text-[13px] text-slate">
+<span class="inline-block w-2.5 h-2.5 rounded-full bg-brand"></span>
+<span>Internal: Rp 8,400</span>
+<span class="mx-1 text-borderline">•</span>
+<span class="inline-block w-2.5 h-2.5 rounded-full bg-slate"></span>
+<span>3PL: Rp 12,000</span>
+</div>
+<!-- Segmented meter -->
+<div class="w-full h-2 rounded-full bg-borderline mt-2 flex overflow-hidden">
+<div class="bg-brand h-full" style="width: 65%;"></div>
+<div class="bg-slate h-full" style="width: 35%;"></div>
+</div>
+</div>
+<!-- Ledger Entries -->
+<div class="space-y-2.5 text-[13px]">
+<div class="flex items-center justify-between">
+<span class="text-slate">Gross Daily Savings</span>
+<span class="font-semibold text-charcoal">Rp 34.0m / day</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-slate">Added Fleet OpEx (Overtime + Fuel)</span>
+<span class="font-semibold text-error">- Rp 6.0m / day</span>
+</div>
+<div class="pt-2 border-t border-borderline flex items-center justify-between text-[13px]">
+<span class="text-charcoal font-bold">Net Contribution Delta</span>
+<span class="text-charcoal font-bold text-[15px]">+Rp 28.0m / day</span>
+</div>
+</div>
+</div>
+<!-- Card: Simulation Assumptions & Parameter Controls -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<h3 class="text-[16px] text-charcoal font-bold">Active Assumptions</h3>
+<span class="material-symbols-outlined text-[18px] text-slate">tune</span>
+</div>
+<div class="space-y-3 text-[13px]">
+<div class="p-2.5 rounded-lg bg-workspace border border-borderline flex items-center justify-between">
+<div>
+<div class="text-[13px] text-charcoal font-medium">Demand Volatility</div>
+<div class="text-[11px] text-slate">Log-Normal Distribution</div>
+</div>
+<span class="text-[13px] text-charcoal font-bold">±15%</span>
+</div>
+<div class="p-2.5 rounded-lg bg-workspace border border-borderline flex items-center justify-between">
+<div>
+<div class="text-[13px] text-charcoal font-medium">Contractor Spot Rate</div>
+<div class="text-[11px] text-slate">Gamma Shape Multiplier</div>
+</div>
+<span class="text-[13px] text-charcoal font-bold">±8%</span>
+</div>
+<div class="p-2.5 rounded-lg bg-workspace border border-borderline flex items-center justify-between">
+<div>
+<div class="text-[13px] text-charcoal font-medium">Target SLA Threshold</div>
+<div class="text-[11px] text-slate">Next-day on-time metric</div>
+</div>
+<span class="text-[13px] text-charcoal font-bold">≥ 98.5%</span>
+</div>
+</div>
+</div>
+<!-- Strategic Recommendation Callout & CTA -->
+<div class="bg-surface rounded-xl p-space-lg border border-borderline shadow-sm flex flex-col gap-space-md">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-brand text-[22px] mt-0.5">tips_and_updates</span>
+<div>
+<h4 class="text-[16px] text-charcoal font-bold">Strategic Recommendation</h4>
+<p class="text-[13px] text-slate mt-1 leading-relaxed">
+              Targeting <strong>65% internal delivery</strong> maximizes net operating contribution while preserving a <strong>35% 3PL buffer</strong> for unforecasted flash surges, avoiding expensive contractor overtime penalties.
+            </p>
+</div>
+</div>
+<div class="flex flex-col gap-2 pt-1 border-t border-borderline">
+<button class="w-full py-2.5 px-space-md bg-brand hover:bg-brand-hover text-white text-[13px] font-semibold rounded-lg shadow-sm transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">done_all</span>
+<span>Apply policy to network</span>
+</button>
+<button class="w-full py-2 px-space-md bg-surface hover:bg-workspace border border-borderline text-charcoal text-[13px] font-medium rounded-lg shadow-sm transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-slate">file_download</span>
+<span>Export scenario summary (CSV)</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // View switcher micro-interaction for metric pills
+  const pillContrib = document.getElementById('pill-contrib');
+  const pillP10 = document.getElementById('pill-p10');
+  const pillBeat = document.getElementById('pill-beat');
+
+  const allPills = [pillContrib, pillP10, pillBeat];
+
+  allPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      allPills.forEach(p => {
+        p.className = 'px-space-sm py-1.5 rounded-lg text-slate hover:text-charcoal font-medium text-[13px] transition-all';
+      });
+      pill.className = 'px-space-sm py-1.5 rounded-lg text-brand font-semibold text-[13px] bg-peach border border-peach-border transition-all';
+    });
+  });
+</script></div></main></div></body></html>

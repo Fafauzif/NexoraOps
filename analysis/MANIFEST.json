@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0.0",
+  "status": "Analysis complete within access limits; detailed GIS PARTIAL; no eligible national rollout under central annual-growth gate",
+  "main_workbook": "outputs/nexora_v1/Nexora_Logistics_Analysis.xlsx",
+  "master_pack": "Nexora_Master_Context_Pack.md",
+  "files": [
+    {
+      "path": "Nexora_Master_Context_Pack.md",
+      "size_bytes": 87437,
+      "sha256": "62e44d48f485459cd24e4e11f2b2b0e939cf3f3c519e1538bc4a0407bb6de506",
+      "role": "report / context"
+    },
+    {
+      "path": "Nexora_Methodology_and_Findings.md",
+      "size_bytes": 23488,
+      "sha256": "83917bc109a262c05fdc477426512ae31f6f3e834c54a820ad5521350899e43b",
+      "role": "report / context"
+    },
+    {
+      "path": "Nexora_Prototype_Handoff.md",
+      "size_bytes": 9046,
+      "sha256": "e21e0d9e1dfb09158395325ef98c1d12248cf70b8f542c6a19637b6668382a2b",
+      "role": "report / context"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1555,
+      "sha256": "7c2a45ecd4d7596cc53e0d21f96415e589eb3eb4b647702a0b849413c63b9915",
+      "role": "report / context"
+    },
+    {
+      "path": "code/build_workbook.mjs",
+      "size_bytes": 33148,
+      "sha256": "b8326fb9405110bb76b5920a73f8fef36b39472f04fc5ce628518e1d27d3c6f3",
+      "role": "reproducible code"
+    },
+    {
+      "path": "code/geography.py",
+      "size_bytes": 14278,
+      "sha256": "322ae51f316aa09611030406eb1fdbd723e669c9a41099b3b6079780878ff688",
+      "role": "reproducible code"
+    },
+    {
+      "path": "code/model.py",
+      "size_bytes": 22468,
+      "sha256": "eb2ae07023ff47d1a46e084ddde73cd005dd48de86cf16300578d17ad60c90c0",
+      "role": "reproducible code"
+    },
+    {
+      "path": "code/package_outputs.py",
+      "size_bytes": 3055,
+      "sha256": "f45b688f97eae85bdf7516c74c198be32ef663b315ec5e5ada45cbe84d576684",
+      "role": "reproducible code"
+    },
+    {
+      "path": "code/prepare_deliverables.py",
+      "size_bytes": 28528,
+      "sha256": "8471ee92f02d7368a44840edfc61c7cc73fdabe07f00f0ac68af3e023ae559f1",
+      "role": "reproducible code"
+    },
+    {
+      "path": "code/render_docs.py",
+      "size_bytes": 48662,
+      "sha256": "f216229ebfadd9e1767d19b66fff9d9d55d86ce16c1fff129caff2eb2d99eb31",
+      "role": "reproducible code"
+    },
+    {
+      "path": "code/retrieve_roads.py",
+      "size_bytes": 3127,
+      "sha256": "4f99d5cde478d6b27af6366fc27bad17fec15bde185ebe52702c2518f3d2614a",
+      "role": "reproducible code"
+    },
+    {
+      "path": "code/verify_workbook.py",
+      "size_bytes": 6488,
+      "sha256": "5c084e7f9a4d7cd13433aac1fa8b1c92a4b9d0031f65c97270e1f957e0002f0a",
+      "role": "reproducible code"
+    },
+    {
+      "path": "data/assumptions.json",
+      "size_bytes": 29788,
+      "sha256": "21c16f768217b7f9a627e8d5771e243c6d0e1de3a597e24aa8552a0f625943dd",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/config.json",
+      "size_bytes": 2883,
+      "sha256": "29777f968222a490e4153d40d7c0de4f31e5463335d86048ebd036b98703b4e7",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/cost_curves.json",
+      "size_bytes": 26376,
+      "sha256": "d1167109cec14d96d59c72a3849e25b7cc8fb69f0341f2ba0038aabf49f48ecd",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/heatmap.json",
+      "size_bytes": 29755,
+      "sha256": "4800c17092f969ac640fa879d65e8574e91dae027398fe6bbe807d335fbe6087",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/incidents.json",
+      "size_bytes": 6023,
+      "sha256": "c2a319a9cae4f8d2a9561c2c55d0e9d6763bbe35b1a2ab26c63405d14683f1eb",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/policies.json",
+      "size_bytes": 120166,
+      "sha256": "0a03aa860e34dbb5b4fe09172f26e75d4259ae3acedd06b36b5724a2c877adba",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/reference_fixtures.json",
+      "size_bytes": 2301,
+      "sha256": "5e7ea13a838bf580c0891cb3eb3cc68887d3abe3815d70fcd27d237f195706d4",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/regional_outcomes.json",
+      "size_bytes": 29609,
+      "sha256": "f6af8b8dbafb5d54941755100008b14c7d97f42dcf751d6e271ddb8fa5245573",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/routes.json",
+      "size_bytes": 14290,
+      "sha256": "be4d4e0a37e2c7be92e5acd4610f919159261019a62fdb97ddfe0fa3df3b05a4",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/schema.json",
+      "size_bytes": 3189,
+      "sha256": "596d330c799035c09c1459598ee255a9c7f05a95680a6039af97e00167a0e4cc",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/selected_outcomes.json",
+      "size_bytes": 112949,
+      "sha256": "778cd1a4ff0d92f966b832f37f0054615468b58b711cb4a4049488ffa1f121b7",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/sources.json",
+      "size_bytes": 8665,
+      "sha256": "2c5926c5b1884babf63f69feb4a9cee71c5e307d331aae1c975096ab2e60e599",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "data/worlds_reference.json",
+      "size_bytes": 253227,
+      "sha256": "a1e269bfefefefa8593c529660d963a11ae03ba14f260860d1da723d1fedabcd",
+      "role": "prototype JSON"
+    },
+    {
+      "path": "evidence/Incoming_Handoff.md",
+      "size_bytes": 39398,
+      "sha256": "5988b69b278a763c2088d70f0ffd73b105b4930465ae42bf613a2f07ef3c7727",
+      "role": "evidence"
+    },
+    {
+      "path": "evidence/Source_and_Acquisition_Record.md",
+      "size_bytes": 6094,
+      "sha256": "f08420963809d0f1f392bd6825c7efd97904307d5186275e748fccb0f17f7a5e",
+      "role": "evidence"
+    },
+    {
+      "path": "evidence/assumption_register.csv",
+      "size_bytes": 17984,
+      "sha256": "1c7e1fe09c192f210e6d2e05715419930569cb6f54afd53048bec1d5daf8806a",
+      "role": "evidence"
+    },
+    {
+      "path": "evidence/source_register.csv",
+      "size_bytes": 6090,
+      "sha256": "6d97fe0795190466e471771041310ce3f192172e43c74398db30b17436723d08",
+      "role": "evidence"
+    },
+    {
+      "path": "exhibits/geography_fallback.png",
+      "size_bytes": 126902,
+      "sha256": "8ebdd8d5cfdb5a682fb349736c622ccf75041989fa98f2ca570d7c40fea40a8a",
+      "role": "exhibit"
+    },
+    {
+      "path": "exhibits/policy_heatmap.png",
+      "size_bytes": 158972,
+      "sha256": "e8e9dbb8df761a49a50067ad9ae4b35f37448dcb9fda43fc5574d1ce7d26675f",
+      "role": "exhibit"
+    },
+    {
+      "path": "exhibits/policy_npv.png",
+      "size_bytes": 60958,
+      "sha256": "150c2163d6c68d5cbfc021f73dd1c0c091dc366ab1c1cb1103136f3c0c1f7518",
+      "role": "exhibit"
+    },
+    {
+      "path": "exhibits/sensitivity.png",
+      "size_bytes": 73261,
+      "sha256": "b2c989b2be1078803cf9a99cf7f707d67b42c1e2cd8e816aaee8904d8b20af78",
+      "role": "exhibit"
+    },
+    {
+      "path": "geo/corridors.geojson",
+      "size_bytes": 14322,
+      "sha256": "967cf3c192ebd6dbc344aca01f257472785dba98efce8f692843066348e6442a",
+      "role": "geographic evidence / labelled corridor fallback"
+    },
+    {
+      "path": "geo/decision_zones.geojson",
+      "size_bytes": 160592,
+      "sha256": "b751934db98e0497bf34c632d91df53458f5fbf25376b43d288c9397a1080505",
+      "role": "geographic evidence / labelled corridor fallback"
+    },
+    {
+      "path": "geo/facilities.geojson",
+      "size_bytes": 1333,
+      "sha256": "116a4b791fa1ee1dd753fba6979c2915685434c305da407959e67e9154bff0de",
+      "role": "geographic evidence / labelled corridor fallback"
+    },
+    {
+      "path": "geo/qa.json",
+      "size_bytes": 607,
+      "sha256": "f6fbec82fa8d909430cd393d637cb0921cf945651d3e89e3188fde67ab4328a6",
+      "role": "geographic evidence / labelled corridor fallback"
+    },
+    {
+      "path": "geo/routes_matrix.csv",
+      "size_bytes": 4614,
+      "sha256": "ee38a179d2fc8220b7a608627443537343f2015b9e020ff5e28f3b392d564d16",
+      "role": "geographic evidence / labelled corridor fallback"
+    },
+    {
+      "path": "outputs/nexora_v1/Nexora_Logistics_Analysis.xlsx",
+      "size_bytes": 173717,
+      "sha256": "a0b0207ae8b04ff2675937ca67b26cd417c0cbe771a647330c2c398add803665",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Assumptions.png",
+      "size_bytes": 233641,
+      "sha256": "8823226ee05f57bbed66f9ad3c9eda9843adbd31fd561039e81a7da123a7ef6c",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Audit.png",
+      "size_bytes": 257403,
+      "sha256": "8b0a7c0c07f6bd712a434bb492f15d9d0bab18f8c3b494d6beb4652420d4f68f",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Capacity.png",
+      "size_bytes": 169766,
+      "sha256": "a27ae8c873fd947c413e786de5daae5d05116008c7d421bda1520d1be7a99938",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Case_Facts.png",
+      "size_bytes": 235948,
+      "sha256": "43531f4e73e41fa3e7f3605c93cad435a283370684055e000035af022e462eb7",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Finance.png",
+      "size_bytes": 278664,
+      "sha256": "3eee54d9fa27f029970714af598b22f9dcbb899fe5fa86ed51988888c51ec548",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Finance_controls.png",
+      "size_bytes": 206881,
+      "sha256": "e46077ad2a50e2577aff75ed9b909cacb8f0ec5113adeadf4d48d3e22f8e3b69",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Geography.png",
+      "size_bytes": 197054,
+      "sha256": "b63752b13e5c7ca3ea090925358811391ba0fa87134d8e57a94426c9bb541c41",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Heatmap.png",
+      "size_bytes": 325523,
+      "sha256": "1f5d672bd1281166c064b3377931dc3452b0be717e617d238f64bb05fc5600d8",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Ops_Import.png",
+      "size_bytes": 264806,
+      "sha256": "177b84dba6c4e851eee2c81bd6b9d75c02d394a5a53e83d313ebc699a46d791d",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Policy_Lab.png",
+      "size_bytes": 268983,
+      "sha256": "a2487ce2cf78dff8c2a2c4e196f68672639bce3f0f3a06bd13981f4c05256ce1",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/ReadMe.png",
+      "size_bytes": 218062,
+      "sha256": "f3d6e509aa5bd4456aae705a2d65e90f8c0e3b970d14af911c57b661961e32eb",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Risk.png",
+      "size_bytes": 118001,
+      "sha256": "033a4ce35b315ba23a6ef9d2b180b2e55239254497613f19d43120cc786748d8",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Sources.png",
+      "size_bytes": 398373,
+      "sha256": "087da76b595c892abdcbe5274966006cf149eb210ccb5256fa0c4da090977f31",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "outputs/nexora_v1/previews/Summary.png",
+      "size_bytes": 244346,
+      "sha256": "4907f76aaf7d518d34bc659ac14228bac76b1874e90bf8db2a66d200642a8c20",
+      "role": "workbook / previews"
+    },
+    {
+      "path": "results/analysis.json",
+      "size_bytes": 64564,
+      "sha256": "a7ed35c5ceaf7bb345de68c5c011547736681d6987ba19db2ceab9aa2a177a17",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/dependencies.json",
+      "size_bytes": 221,
+      "sha256": "fe75dab431d70aabe9ff1ef6b13deb5b76a0d10fb9953e2b248d6b08b7dced3f",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/finalist_npvs.npz",
+      "size_bytes": 992205,
+      "sha256": "d27df5d60a62b9aa37775038ef052a3da61fb88a9e7b4a572011c0c552c1c71f",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/heatmap.csv",
+      "size_bytes": 10549,
+      "sha256": "a16728be34b211c507c3066b98c73ee76a52dd062dda00ca071a26e8a55c96ae",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/library_receipts.json",
+      "size_bytes": 525,
+      "sha256": "78df90239d578ba671bd100b9ba9b01d0d5501ddcd5e6fa8545eba72ec23e5c6",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/policy_comparison.csv",
+      "size_bytes": 4431,
+      "sha256": "262a0d6fb26c6bf30691c3dfe05d0707a0f88053ca0ca93fe94688a2b21e73fc",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/run.log",
+      "size_bytes": 1815,
+      "sha256": "cc4d3762014c0c46b1303df97d012144ac017a89a764b5734fb7807409d2bf23",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/validation.json",
+      "size_bytes": 2670,
+      "sha256": "77b2e54521ed9b34293dd7876b48f65e22666ca369f675e4ba20baff3a74e848",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/workbook_artifact_checks.json",
+      "size_bytes": 1385,
+      "sha256": "920dc5a229c47f5370491b213e8b4228baf1cd6efc72adaedfcb3a12f3274c99",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/workbook_build.log",
+      "size_bytes": 859,
+      "sha256": "9a676bb8440ebc898c5c730ffd6504712fdb01813bf226567ff99cf80672272e",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/workbook_inputs.json",
+      "size_bytes": 648285,
+      "sha256": "c35fdee4188252edd910f7f0910e2d5f84bc349629c08d763a78eca1a6779555",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/workbook_validation.json",
+      "size_bytes": 5901,
+      "sha256": "e38836be01468828a5d17d2572e158b3b11aaf9601c61c336fda45ab187574f2",
+      "role": "analysis / validation result"
+    },
+    {
+      "path": "results/worlds_holdout_10000.npz",
+      "size_bytes": 2505978,
+      "sha256": "c0d66b4fa8984b61d15ccad609164a305d0fc58d2f222e23f65d4586d20240bc",
+      "role": "analysis / validation result"
+    }
+  ],
+  "manifest_checksum_note": "Manifest and ZIP exclude their own hashes to avoid circular hashes. All listed file hashes are exact at packaging."
+}

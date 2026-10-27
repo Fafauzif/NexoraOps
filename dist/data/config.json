@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0.0",
+  "status": "hypothetical_planning_model",
+  "case_source": "IBSC 2026 Preliminary Casebook, Nexora case, pp. 7\u201312; PDF supplied and text checked against handoff",
+  "base_year": 2025,
+  "annual_parcels": 2000000000,
+  "group_operating_profit_idr": 5000000000000.0,
+  "gmv_idr": 600000000000000.0,
+  "revenue_idr": 60000000000000.0,
+  "marketing_idr": 24000000000000.0,
+  "weights": [
+    0.35,
+    0.3,
+    0.25,
+    0.1
+  ],
+  "baseline_internal_shares": [
+    0.8,
+    0.6,
+    0.16,
+    0.0
+  ],
+  "internal_costs": [
+    7000.0,
+    8500.0,
+    12750.0,
+    18000.0
+  ],
+  "external_costs": [
+    10000.0,
+    11000.0,
+    12000.0,
+    14600.0
+  ],
+  "capacity_bn": [
+    0.64,
+    0.43,
+    0.13,
+    0.02
+  ],
+  "packages": {
+    "current": {
+      "soft": 0.0,
+      "physical": 0.0,
+      "add": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fixed": 0.0,
+      "recurring": 0.0,
+      "transition": 0.0,
+      "ramp": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "eff": false
+    },
+    "rules": {
+      "soft": 0.0,
+      "physical": 0.0,
+      "add": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fixed": 0.0,
+      "recurring": 0.008,
+      "transition": 0.015,
+      "ramp": [
+        0.85,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "eff": false
+    },
+    "software": {
+      "soft": 0.18,
+      "physical": 0.0,
+      "add": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fixed": 0.0,
+      "recurring": 0.045,
+      "transition": 0.06,
+      "ramp": [
+        0.55,
+        0.9,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "eff": true
+    },
+    "targeted": {
+      "soft": 0.18,
+      "physical": 0.85,
+      "add": [
+        0.08,
+        0.08,
+        0.03,
+        0
+      ],
+      "fixed": 0.15,
+      "recurring": 0.0705,
+      "transition": 0.1,
+      "ramp": [
+        0.35,
+        0.8,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "eff": true
+    },
+    "large": {
+      "soft": 0.18,
+      "physical": 3.6,
+      "add": [
+        0.22,
+        0.22,
+        0.12,
+        0.04
+      ],
+      "fixed": 0.55,
+      "recurring": 0.153,
+      "transition": 0.2,
+      "ramp": [
+        0.15,
+        0.6,
+        0.9,
+        1,
+        1,
+        1,
+        1
+      ],
+      "eff": true
+    }
+  },
+  "financial": {
+    "horizon": 5,
+    "discount_rate": 0.14,
+    "tax_rate": 0.22,
+    "inflation": 0.025,
+    "nonlogistics_drift_tn": 0.0,
+    "salvage_book_recovery": 0.35
+  },
+  "controls": {
+    "target_internal_share": [
+      0.45,
+      0.95,
+      0.05
+    ],
+    "demand_axis": [
+      0.8,
+      1.4,
+      0.1
+    ],
+    "buffer": [
+      0.88,
+      1,
+      0.06
+    ]
+  },
+  "national_market_types": [
+    "dense_urban",
+    "suburban",
+    "regional",
+    "difficult"
+  ]
+}

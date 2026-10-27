@@ -1,0 +1,67 @@
+cell_id,target_share,demand_axis,package,expected_y5_ebit_tn,expected_npv_tn,realised_internal_share,service_violation_probability,feasible,reasons,worlds
+H_45_80,0.45,0.8,software,-0.2083603564970737,-0.8160123029739862,0.45892185257555806,0.0,True,[],1000
+H_45_90,0.45,0.9,software,-0.22849239650739275,-0.8717516679888699,0.4589106132346375,0.0,True,[],1000
+H_45_100,0.45,1.0,software,-0.22613015026332373,-0.8609037415507172,0.45877431522515244,0.001,True,[],1000
+H_45_110,0.45,1.1,software,-0.17716103420221788,-0.7095822511088028,0.4567730081491552,0.047,True,[],1000
+H_45_120,0.45,1.2,software,-0.19889769286008321,-0.7438478963966362,0.4461608053725718,0.31,False,"[""service_risk_above_10pct_worlds""]",1000
+H_45_140,0.45,1.4,software,-0.6385606005975676,-1.9783187876527322,0.3958004160231509,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_50_80,0.5,0.8,software,0.14726005997540523,0.11047001329813876,0.49999287215351296,0.0,True,[],1000
+H_50_90,0.5,0.9,software,0.15377277853457552,0.12606060090805396,0.4998734299091883,0.0,True,[],1000
+H_50_100,0.5,1.0,software,0.09987057146616164,-0.0003010629618159033,0.49787467552152476,0.002,True,[],1000
+H_50_110,0.5,1.1,software,0.02370651653873032,-0.17808631631359179,0.48547344066058745,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_50_120,0.5,1.2,software,-0.121434178967633,-0.541449863761683,0.45794940492826314,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_50_140,0.5,1.4,software,-0.6367542340322959,-1.9741375343610938,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_55_80,0.55,0.8,software,0.4939198767224366,0.8742068150615228,0.5409981967648976,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_55_90,0.55,0.9,software,0.45690645473727365,0.7924589790775471,0.539283933083443,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_55_100,0.55,1.0,software,0.2759782964960722,0.3857567248544014,0.5257592737069818,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_55_110,0.55,1.1,software,0.07907283195489492,-0.055750461632895924,0.4948548147464611,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_55_120,0.55,1.2,software,-0.11370829585259057,-0.5243093702951725,0.4592890170681926,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_55_140,0.55,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_60_80,0.6,0.8,software,0.7837003751067656,1.5084157798609994,0.5812601343527204,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_60_90,0.6,0.9,software,0.6337676451122459,1.176051203802933,0.5696690407940935,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_60_100,0.6,1.0,software,0.3292942227675045,0.5002051224977743,0.535718108825191,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_60_110,0.6,1.1,software,0.08515215303318383,-0.043282396488299506,0.49602219577936696,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_60_120,0.6,1.2,software,-0.11346369738758787,-0.5235875437116648,0.4593282874472319,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_60_140,0.6,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_65_80,0.65,0.8,software,0.9538967800577921,1.8806838297791255,0.6164029407671667,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_65_90,0.65,0.9,software,0.7010623885639405,1.3192787672889463,0.5835174716655595,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_65_100,0.65,1.0,software,0.3366388365831265,0.5158791367904042,0.5372464054787074,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_65_110,0.65,1.1,software,0.08539359178562296,-0.04255984951337437,0.4960647105420854,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_65_120,0.65,1.2,software,-0.11346369738758787,-0.5235875437116648,0.4593282874472319,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_65_140,0.65,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_70_80,0.7,0.8,software,1.026767856586785,2.038747436176225,0.6344983422563544,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_70_90,0.7,0.9,software,0.710526080000975,1.3411575040952646,0.5859403860982602,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_70_100,0.7,1.0,software,0.33700818552759393,0.5166960288650305,0.5373300574942571,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_70_110,0.7,1.1,software,0.08539359178562296,-0.04255984951337437,0.4960647105420854,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_70_120,0.7,1.2,software,-0.11346369738758787,-0.5235875437116648,0.4593282874472319,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_70_140,0.7,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_75_80,0.75,0.8,software,1.031381764427361,2.0494324042982957,0.6358944937853361,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_75_90,0.75,0.9,software,0.7106007557594253,1.3414188318849802,0.5859579403179502,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_75_100,0.75,1.0,software,0.33700818552759393,0.5166960288650305,0.5373300574942571,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_75_110,0.75,1.1,software,0.08539359178562296,-0.04255984951337437,0.4960647105420854,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_75_120,0.75,1.2,software,-0.11346369738758787,-0.5235875437116648,0.4593282874472319,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_75_140,0.75,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_80_80,0.8,0.8,software,1.0313995863075542,2.0495025423054987,0.635899895284311,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_80_90,0.8,0.9,software,0.7106007557594253,1.3414188318849802,0.5859579403179502,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_80_100,0.8,1.0,software,0.33700818552759393,0.5166960288650305,0.5373300574942571,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_80_110,0.8,1.1,software,0.08539359178562296,-0.04255984951337437,0.4960647105420854,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_80_120,0.8,1.2,software,-0.11346369738758787,-0.5235875437116648,0.4593282874472319,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_80_140,0.8,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_85_80,0.85,0.8,software,1.0313995863075542,2.0495025423054987,0.635899895284311,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_85_90,0.85,0.9,software,0.7106007557594253,1.3414188318849802,0.5859579403179502,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_85_100,0.85,1.0,software,0.33700818552759393,0.5166960288650305,0.5373300574942571,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_85_110,0.85,1.1,software,0.08539359178562296,-0.04255984951337437,0.4960647105420854,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_85_120,0.85,1.2,software,-0.11346369738758787,-0.5235875437116648,0.4593282874472319,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_85_140,0.85,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_90_80,0.9,0.8,software,1.0313995863075542,2.0495025423054987,0.635899895284311,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_90_90,0.9,0.9,software,0.7106007557594253,1.3414188318849802,0.5859579403179502,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_90_100,0.9,1.0,software,0.33700818552759393,0.5166960288650305,0.5373300574942571,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_90_110,0.9,1.1,software,0.08539359178562296,-0.04255984951337437,0.4960647105420854,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_90_120,0.9,1.2,software,-0.11346369738758787,-0.5235875437116648,0.4593282874472319,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_90_140,0.9,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_95_80,0.95,0.8,software,1.0313995863075542,2.0495025423054987,0.635899895284311,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_95_90,0.95,0.9,software,0.7106007557594253,1.3414188318849802,0.5859579403179502,0.001,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_95_100,0.95,1.0,software,0.33700818552759393,0.5166960288650305,0.5373300574942571,0.002,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_95_110,0.95,1.1,software,0.08539359178562296,-0.04255984951337437,0.4960647105420854,0.047,False,"[""target_not_economic_or_capacity_limited""]",1000
+H_95_120,0.95,1.2,software,-0.11346369738758787,-0.5235875437116648,0.4593282874472319,0.311,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000
+H_95_140,0.95,1.4,software,-0.6367542340322959,-1.9740712207952522,0.3960752877260843,0.956,False,"[""target_not_economic_or_capacity_limited"", ""service_risk_above_10pct_worlds""]",1000

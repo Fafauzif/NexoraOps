@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;height:16px;width:16px;border-radius:50%;background:#C65317;cursor:pointer;border:2px solid #ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.15);}input[type="range"]::-moz-range-thumb{height:16px;width:16px;border-radius:50%;background:#C65317;cursor:pointer;border:2px solid #ffffff;box-shadow:0 1px 3px rgba(0,0,0,0.15);}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"workspace":"#F6F7F9","surface-card":"#FFFFFF","border-light":"#E3E7EC","charcoal":"#202833","slate-muted":"#637080","brand-orange":"#C65317","brand-orange-hover":"#A94010","peach-light":"#FFF0E6","danger-red":"#DC2626","danger-bg":"#FEF2F2","warning-amber":"#D97706","warning-bg":"#FFFBEB","success-emerald":"#059669","success-bg":"#ECFDF5"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},fontFamily:{"body":["Plus Jakarta Sans","sans-serif"]}}}};</script></head><body class="bg-workspace font-body text-charcoal"><aside class="fixed left-0 top-0 h-full w-[232px] bg-surface-card border-r border-border-light shadow-[0_1px_4px_rgba(0,0,0,0.02)] z-50 flex flex-col justify-between py-4"><div class="flex flex-col"><div class="px-4 pb-4 flex items-center gap-2.5 border-b border-border-light"><div class="w-8 h-8 rounded-lg bg-brand-orange flex items-center justify-center text-white"><span class="material-symbols-outlined text-[20px]">hub</span></div><div class="flex flex-col"><span class="font-bold text-[16px] text-charcoal leading-tight">Nexora</span><span class="text-[11px] font-medium text-slate-muted leading-none">NexExpress Operations</span></div></div><nav class="flex flex-col px-2.5 pt-3 gap-0.5"><div class="px-2.5 pt-2 pb-1 text-[11px] font-semibold uppercase tracking-wider text-slate-muted">Operate / Monitor</div><a class="flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-slate-muted hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="overview" href="#"><span class="material-symbols-outlined text-[18px]">dashboard</span>Overview</a><a aria-current="page" class="flex items-center gap-2 px-2.5 py-1.5 transition-colors bg-peach-light text-brand-orange font-semibold rounded-lg text-[13px]" data-path="digital-twin" href="#"><span class="material-symbols-outlined text-[18px]">alt_route</span>Digital Twin</a><a class="flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-slate-muted hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="demand-&amp;-capacity-forecast" href="#"><span class="material-symbols-outlined text-[18px]">ssid_chart</span>Forecasts</a><div class="px-2.5 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-slate-muted">Decide</div><a class="flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-slate-muted hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="policy-lab" href="#"><span class="material-symbols-outlined text-[18px]">science</span>Policy Lab</a><a class="flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-slate-muted hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="capacity-&amp;-partners" href="#"><span class="material-symbols-outlined text-[18px]">local_shipping</span>Capacity &amp; Partners</a><a class="flex items-center justify-between px-2.5 py-1.5 rounded-lg text-slate-muted hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="incidents-&amp;-actions" href="#"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">warning</span><span>Incidents &amp; Actions</span></div><span class="px-1.5 py-0.5 rounded-full bg-danger-red text-white text-[10px] leading-tight font-bold">1</span></a><div class="px-2.5 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-slate-muted">Evaluate</div><a class="flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-slate-muted hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="financial-&amp;-operational-impact" href="#"><span class="material-symbols-outlined text-[18px]">analytics</span>Impact</a><a class="flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-slate-muted hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="rollout" href="#"><span class="material-symbols-outlined text-[18px]">published_with_changes</span>Rollout</a></nav></div><div class="flex flex-col px-2.5 pt-3 border-t border-border-light gap-1"><a class="flex items-center gap-2 px-2.5 py-1.5 rounded-lg text-slate-muted hover:bg-workspace hover:text-charcoal transition-colors text-[13px] font-medium" data-path="evidence-&amp;-assumptions" href="#"><span class="material-symbols-outlined text-[18px]">fact_check</span>Evidence &amp; Assumptions</a><div class="flex items-center justify-between px-2.5 py-1.5 rounded-lg text-slate-muted"><div class="flex items-center gap-2 text-[13px] font-medium"><span class="material-symbols-outlined text-[18px]">tune</span><span>Prototype Mode</span></div><div class="w-8 h-4 bg-peach-light border border-brand-orange/30 rounded-full flex items-center p-0.5 cursor-pointer"><div class="w-3 h-3 bg-brand-orange rounded-full shadow-xs translate-x-3.5 transition-transform"></div></div></div></div></aside><div class="pl-[232px]"><header class="fixed top-0 left-[232px] right-0 h-14 bg-surface-card border-b border-border-light shadow-[0_1px_4px_rgba(0,0,0,0.02)] z-40 flex items-center justify-between px-6"><div class="flex items-center gap-2 cursor-pointer hover:bg-workspace px-2.5 py-1 rounded-lg transition-colors border border-transparent hover:border-border-light"><span class="material-symbols-outlined text-[18px] text-brand-orange">location_on</span><span class="text-[14px] font-semibold text-charcoal">Greater Jakarta · Regional Network</span><span class="material-symbols-outlined text-[16px] text-slate-muted">expand_more</span></div><div class="flex items-center gap-4"><div class="flex items-center gap-2 bg-workspace px-3 py-1 rounded-lg border border-border-light"><span class="text-[11px] text-warning-amber font-semibold">Campaign surge</span><span class="text-border-light">|</span><span class="text-[13px] text-slate-muted">09:30 WIB · data 12s ago</span></div><span class="px-2.5 py-0.5 rounded-full bg-workspace text-slate-muted border border-border-light text-[11px] font-medium">Prototype · simulated data</span><div class="h-4 w-[1px] bg-border-light"></div><button class="px-3 py-1 bg-surface-card border border-border-light hover:bg-workspace text-charcoal rounded-lg text-[13px] font-medium transition-colors">Assumptions</button><button class="p-1.5 hover:bg-workspace border border-transparent hover:border-border-light text-slate-muted hover:text-charcoal rounded-lg transition-colors"><span class="material-symbols-outlined text-[18px]">restart_alt</span></button><div class="flex items-center gap-2 pl-1"><div class="flex flex-col text-right"><span class="text-[13px] font-semibold text-charcoal leading-tight">Jev</span><span class="text-[11px] text-slate-muted leading-none">Ops Planner</span></div><div class="w-8 h-8 rounded-full bg-brand-orange text-white flex items-center justify-center font-bold text-[13px]"><span class="material-symbols-outlined text-[18px]">person</span></div></div></div></header><main class="w-full pt-14 bg-workspace min-h-screen px-6 py-6"><div class="max-w-[1440px] mx-auto"><div class="flex flex-col w-full gap-5">
+<!-- Breadcrumbs & Context Header -->
+<section class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div class="flex flex-col max-w-3xl">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-muted">Greater Jakarta</span>
+<span class="text-border-light text-[11px]">•</span>
+<span class="text-[11px] font-semibold uppercase tracking-wider text-brand-orange">Regional Logistics Digital Twin</span>
+</div>
+<h1 class="text-[28px] font-bold text-charcoal tracking-tight">Digital twin</h1>
+<p class="text-[14px] text-slate-muted mt-0.5 leading-relaxed">
+        Every parcel flow, sorting speed, and hub status is computed from the regional network state model for the minute on the timeline: measured before 09:30, forecast after.
+      </p>
+</div>
+<!-- Right Controls -->
+<div class="flex items-center gap-1.5 self-start md:self-end bg-surface-card p-1 rounded-xl border border-border-light shadow-xs">
+<div class="flex items-center bg-workspace rounded-lg p-0.5 border border-border-light">
+<button class="px-3 py-1 rounded-md text-white bg-brand-orange hover:bg-brand-orange-hover font-semibold text-[13px] transition-all shadow-xs" id="btn-mode-3d">3D Twin</button>
+<button class="px-3 py-1 rounded-md text-slate-muted hover:text-charcoal font-medium text-[13px] transition-all" id="btn-mode-2d">2D Schematic</button>
+<button class="px-3 py-1 rounded-md text-slate-muted hover:text-charcoal font-medium text-[13px] transition-all" id="btn-mode-elev">Elevation</button>
+</div>
+<div class="h-5 w-[1px] bg-border-light mx-0.5"></div>
+<button class="flex items-center gap-1 px-2.5 py-1 text-slate-muted hover:text-charcoal hover:bg-workspace rounded-lg text-[13px] font-medium transition-colors">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>View controls</span>
+</button>
+<button class="p-1.5 text-slate-muted hover:text-charcoal hover:bg-workspace rounded-lg transition-colors" title="Toggle Fullscreen">
+<span class="material-symbols-outlined text-[18px]">fullscreen</span>
+</button>
+</div>
+</section>
+<!-- Headline KPI Strip -->
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- KPI 1 -->
+<div class="bg-surface-card rounded-xl p-4 border border-border-light shadow-xs flex flex-col justify-between hover:border-slate-300 transition-colors">
+<div class="flex items-center justify-between text-slate-muted mb-2">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-muted">Daily Volume</span>
+<span class="flex items-center text-brand-orange text-[11px] font-semibold bg-peach-light px-1.5 py-0.5 rounded border border-brand-orange/20">
+<span class="material-symbols-outlined text-[14px] mr-0.5">trending_up</span>Surge
+        </span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="text-[26px] font-bold text-charcoal">100,000</span>
+<span class="text-[12px] text-slate-muted font-medium">parcels</span>
+</div>
+<div class="text-[13px] text-slate-muted mt-0.5">Base: 50k · Target: 65k</div>
+</div>
+<div class="mt-3">
+<div class="w-full bg-workspace border border-border-light h-2 rounded-full overflow-hidden flex">
+<div class="bg-brand-orange h-full rounded-full" style="width: 82%;"></div>
+</div>
+<div class="flex justify-between items-center mt-1.5 text-[11px] text-slate-muted font-medium">
+<span>Capacity utilization</span>
+<span class="text-charcoal font-semibold">82%</span>
+</div>
+</div>
+</div>
+<!-- KPI 2 -->
+<div class="bg-surface-card rounded-xl p-4 border border-border-light shadow-xs flex flex-col justify-between hover:border-slate-300 transition-colors">
+<div class="flex items-center justify-between text-slate-muted mb-2">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-muted">Fleet Allocation</span>
+<span class="text-[11px] text-slate-muted font-semibold bg-workspace px-1.5 py-0.5 rounded border border-border-light">Active Split</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="text-[26px] font-bold text-charcoal">65%</span>
+<span class="text-[13px] text-brand-orange font-semibold">NexExpress</span>
+</div>
+<div class="text-[13px] text-slate-muted mt-0.5">35% 3PL partners assigned</div>
+</div>
+<div class="mt-3">
+<div class="w-full bg-workspace border border-border-light h-2 rounded-full overflow-hidden flex gap-0.5">
+<div class="bg-brand-orange h-full rounded-l-full" style="width: 65%;"></div>
+<div class="bg-slate-400 h-full rounded-r-full" style="width: 35%;"></div>
+</div>
+<div class="flex justify-between items-center mt-1.5 text-[11px] font-medium">
+<span class="text-brand-orange">Own fleet (65%)</span>
+<span class="text-slate-muted">3PL partner (35%)</span>
+</div>
+</div>
+</div>
+<!-- KPI 3 -->
+<div class="bg-surface-card rounded-xl p-4 border border-border-light shadow-xs flex flex-col justify-between hover:border-slate-300 transition-colors">
+<div class="flex items-center justify-between text-slate-muted mb-2">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-muted">Unit Delivery Cost</span>
+<span class="flex items-center text-success-emerald text-[11px] font-semibold bg-success-bg border border-success-emerald/20 px-1.5 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px] mr-0.5">south_east</span>-3.4%
+        </span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="text-[26px] font-bold text-charcoal">Rp 9,660</span>
+<span class="text-[12px] text-slate-muted">/ parcel</span>
+</div>
+<div class="text-[13px] text-slate-muted mt-0.5">-Rp 340 vs Baseline Rp 10,000</div>
+</div>
+<div class="mt-3 flex items-center justify-between pt-1 text-[11px] font-medium text-slate-muted">
+<span>Linehaul: Rp 4,210</span>
+<span>Last-mile: Rp 5,450</span>
+</div>
+</div>
+<!-- KPI 4 -->
+<div class="bg-surface-card rounded-xl p-4 border border-border-light shadow-xs flex flex-col justify-between hover:border-slate-300 transition-colors">
+<div class="flex items-center justify-between text-slate-muted mb-2">
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-muted">Operating Contribution</span>
+<span class="text-[11px] text-slate-muted font-semibold bg-workspace px-1.5 py-0.5 rounded border border-border-light">Today Run-Rate</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="text-[26px] font-bold text-charcoal">+Rp 28.0m</span>
+<span class="text-[12px] text-slate-muted font-medium">net</span>
+</div>
+<div class="text-[13px] text-slate-muted mt-0.5">+Rp 8.4m NPV annual pace</div>
+</div>
+<div class="mt-3 flex items-center gap-1.5 text-[11px] font-medium text-brand-orange">
+<span class="w-2 h-2 rounded-full bg-brand-orange animate-pulse"></span>
+<span>Pacing 14.2% above campaign baseline</span>
+</div>
+</div>
+</section>
+<!-- Two-Column Main Content -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+<!-- Column 1: Dominant Isometric Digital Twin View -->
+<div class="lg:col-span-8 flex flex-col bg-surface-card rounded-xl border border-border-light shadow-xs overflow-hidden relative">
+<!-- Scene Header & Floating Overlay Tabs -->
+<div class="p-3.5 flex flex-wrap items-center justify-between gap-2.5 bg-surface-card border-b border-border-light z-10">
+<!-- Floating Tabs -->
+<div class="flex items-center gap-1 bg-workspace p-1 rounded-lg border border-border-light">
+<button class="px-2.5 py-1 rounded-md text-white bg-brand-orange hover:bg-brand-orange-hover font-semibold text-[12px] shadow-xs transition-all">All Hubs</button>
+<button class="px-2.5 py-1 rounded-md text-slate-muted hover:text-charcoal font-medium text-[12px] transition-all">NexExpress Fleet</button>
+<button class="px-2.5 py-1 rounded-md text-slate-muted hover:text-charcoal font-medium text-[12px] transition-all">3PL Routes</button>
+<button class="flex items-center gap-1 px-2.5 py-1 rounded-md bg-danger-bg text-danger-red border border-danger-red/20 font-semibold text-[12px] transition-all">
+<span class="material-symbols-outlined text-[14px]">error</span>
+<span>Bottlenecks (1)</span>
+</button>
+</div>
+<!-- Telemetry Legend -->
+<div class="flex items-center gap-3.5 text-[12px] text-slate-muted font-medium">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-1 bg-slate-600 rounded-full"></span>
+<span>Internal Fleet</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-0.5 border-t-2 border-dashed border-brand-orange"></span>
+<span>Intervention Flow</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-danger-red ring-2 ring-danger-red/20"></span>
+<span>Overload alert</span>
+</div>
+</div>
+</div>
+<!-- Main Canvas Container (Pure white with soft grey tones & orange accents) -->
+<div class="relative w-full h-[540px] bg-white overflow-hidden select-none cursor-grab active:cursor-grabbing">
+<!-- Cartographic Grids & Elevation Contours (Subtle muted light greys #E3E7EC) -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="40" id="grid-pattern" patternunits="userSpaceOnUse" width="40">
+<path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F1F3F5" stroke-width="0.75"></path>
+<circle cx="0" cy="0" fill="#E3E7EC" r="1.2"></circle>
+</pattern>
+<!-- Flow gradients: Burnt Orange intervention routes -->
+<lineargradient id="grad-selected-orange" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#C65317" stop-opacity="0.9"></stop>
+<stop offset="100%" stop-color="#EA580C" stop-opacity="0.6"></stop>
+</lineargradient>
+</defs>
+<rect fill="url(#grid-pattern)" height="100%" width="100%"></rect>
+<!-- Subtle Topo Contours -->
+<path d="M -50 380 Q 240 260 520 310 T 960 210" fill="none" stroke="#E3E7EC" stroke-width="1.5"></path>
+<path d="M 120 540 Q 360 410 680 430 T 1100 360" fill="none" stroke="#E3E7EC" stroke-width="1.25"></path>
+<path d="M -20 180 Q 300 120 700 160 T 1050 80" fill="none" stroke="#E3E7EC" stroke-width="1.25"></path>
+<!-- Nominal Fleet Routes (Slate #637080 muted) -->
+<!-- Central to Tangerang -->
+<path d="M 390 220 Q 260 210 160 260" fill="none" stroke="#94A3B8" stroke-linecap="round" stroke-width="2.5"></path>
+<circle class="animate-ping" cx="280" cy="226" fill="#637080" r="2.5" style="animation-duration: 2.4s;"></circle>
+<!-- Central to Depok -->
+<path d="M 390 220 Q 400 310 360 380" fill="none" stroke="#94A3B8" stroke-linecap="round" stroke-width="2.5"></path>
+<circle class="animate-ping" cx="388" cy="300" fill="#637080" r="2.5" style="animation-duration: 2.8s;"></circle>
+<!-- Depok to Bogor -->
+<path d="M 360 380 Q 330 430 330 480" fill="none" stroke="#94A3B8" stroke-linecap="round" stroke-width="2"></path>
+<!-- Peripheral Tangerang to Depok -->
+<path d="M 160 260 Q 240 350 360 380" fill="none" stroke="#CBD5E1" stroke-dasharray="4,4" stroke-width="1.5"></path>
+<!-- Central to Bekasi (Selected route & intervention spillover in Burnt Orange #C65317) -->
+<path d="M 390 220 Q 490 200 610 250" fill="none" stroke="url(#grad-selected-orange)" stroke-linecap="round" stroke-width="3.5"></path>
+<path d="M 390 220 Q 520 280 610 250" fill="none" stroke="#C65317" stroke-dasharray="6,4" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Active pulse on orange intervention line -->
+<circle class="animate-pulse" cx="510" cy="265" fill="#C65317" r="3.5"></circle>
+</svg>
+<!-- Dynamic Context Badge inside Map -->
+<div class="absolute top-3.5 right-3.5 bg-surface-card/95 border border-border-light backdrop-blur-sm px-3 py-1.5 rounded-lg shadow-xs flex items-center gap-2 text-[12px] font-medium text-slate-muted">
+<span class="w-2 h-2 rounded-full bg-brand-orange animate-ping"></span>
+<span class="text-charcoal font-semibold">Simulation synced: 09:30:14 WIB</span>
+<span class="text-border-light">|</span>
+<span>Mesh Tick #1,429</span>
+</div>
+<!-- Mini Orientation Compass & Tooling -->
+<div class="absolute bottom-3.5 right-3.5 flex flex-col gap-1">
+<button class="w-8 h-8 rounded-lg bg-surface-card border border-border-light shadow-xs hover:bg-workspace flex items-center justify-center text-slate-muted hover:text-charcoal transition-colors" title="Reset Perspective">
+<span class="material-symbols-outlined text-[18px]">explore</span>
+</button>
+<button class="w-8 h-8 rounded-lg bg-surface-card border border-border-light shadow-xs hover:bg-workspace flex items-center justify-center text-slate-muted hover:text-charcoal transition-colors" title="Zoom In">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+<button class="w-8 h-8 rounded-lg bg-surface-card border border-border-light shadow-xs hover:bg-workspace flex items-center justify-center text-slate-muted hover:text-charcoal transition-colors" title="Zoom Out">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+</div>
+<!-- Hub 1: Jakarta Central Mega-Hub (Nominal Hub - Muted Slate/Emerald clean badge) -->
+<div class="absolute top-[180px] left-[340px] -translate-x-1/2 -translate-y-1/2 group cursor-pointer">
+<div class="relative flex flex-col items-center">
+<div class="bg-surface-card border border-border-light px-2.5 py-1.5 rounded-lg shadow-xs flex items-center gap-2 group-hover:border-slate-400 transition-all mb-1">
+<span class="w-2 h-2 rounded-full bg-success-emerald"></span>
+<div class="flex flex-col">
+<span class="text-[12px] text-charcoal font-semibold leading-tight">Jakarta Central Mega-Hub</span>
+<span class="text-[11px] text-slate-muted leading-tight">30,000 pkgs · 88% nominal</span>
+</div>
+</div>
+<div class="w-9 h-9 rounded-full bg-workspace border border-border-light flex items-center justify-center shadow-xs">
+<div class="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[13px]">warehouse</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Hub 2: Tangerang Hub (Nominal) -->
+<div class="absolute top-[230px] left-[130px] -translate-x-1/2 -translate-y-1/2 group cursor-pointer">
+<div class="relative flex flex-col items-center">
+<div class="bg-surface-card border border-border-light px-2.5 py-1 rounded-lg shadow-xs flex items-center gap-1.5 group-hover:border-slate-400 transition-all mb-1">
+<span class="w-1.5 h-1.5 rounded-full bg-success-emerald"></span>
+<div class="flex flex-col">
+<span class="text-[11px] text-charcoal font-semibold leading-tight">Tangerang Hub</span>
+<span class="text-[10px] text-slate-muted leading-tight">12k pkgs · 76%</span>
+</div>
+</div>
+<div class="w-7 h-7 rounded-full bg-workspace border border-border-light flex items-center justify-center shadow-xs">
+<div class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center">
+<span class="material-symbols-outlined text-[11px]">domain</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Hub 3: Depok Hub (Nominal) -->
+<div class="absolute top-[350px] left-[330px] -translate-x-1/2 -translate-y-1/2 group cursor-pointer">
+<div class="relative flex flex-col items-center">
+<div class="bg-surface-card border border-border-light px-2.5 py-1 rounded-lg shadow-xs flex items-center gap-1.5 group-hover:border-slate-400 transition-all mb-1">
+<span class="w-1.5 h-1.5 rounded-full bg-success-emerald"></span>
+<div class="flex flex-col">
+<span class="text-[11px] text-charcoal font-semibold leading-tight">Depok Hub</span>
+<span class="text-[10px] text-slate-muted leading-tight">10k pkgs · 82%</span>
+</div>
+</div>
+<div class="w-7 h-7 rounded-full bg-workspace border border-border-light flex items-center justify-center shadow-xs">
+<div class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center">
+<span class="material-symbols-outlined text-[11px]">domain</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Hub 4: Bogor Hub (Nominal) -->
+<div class="absolute top-[450px] left-[300px] -translate-x-1/2 -translate-y-1/2 group cursor-pointer">
+<div class="relative flex flex-col items-center">
+<div class="bg-surface-card border border-border-light px-2.5 py-1 rounded-lg shadow-xs flex items-center gap-1.5 group-hover:border-slate-400 transition-all mb-1">
+<span class="w-1.5 h-1.5 rounded-full bg-success-emerald"></span>
+<div class="flex flex-col">
+<span class="text-[11px] text-charcoal font-semibold leading-tight">Bogor Hub</span>
+<span class="text-[10px] text-slate-muted leading-tight">8k pkgs · 71%</span>
+</div>
+</div>
+<div class="w-7 h-7 rounded-full bg-workspace border border-border-light flex items-center justify-center shadow-xs">
+<div class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center">
+<span class="material-symbols-outlined text-[11px]">domain</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Hub 5: Bekasi Hub (SELECTED HUB & CAPACITY OVERLOAD ALERT) -->
+<div class="absolute top-[215px] left-[580px] -translate-x-1/2 -translate-y-1/2 group cursor-pointer z-20">
+<div class="relative flex flex-col items-center">
+<!-- Pulsing Warning Ring -->
+<div class="absolute -top-3 w-14 h-14 rounded-full bg-danger-red/15 animate-ping pointer-events-none"></div>
+<!-- Selected & Bottleneck Detail Badge -->
+<div class="bg-surface-card border-2 border-brand-orange px-3 py-2 rounded-xl shadow-md flex items-start gap-2.5 mb-2 transform scale-105">
+<div class="w-6 h-6 rounded-md bg-danger-bg border border-danger-red/30 text-danger-red flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">warning</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="text-[12px] text-charcoal font-bold">Bekasi Hub (HUB-BKS-02)</span>
+<span class="px-1.5 py-0.2 rounded bg-danger-red text-white text-[9px] uppercase font-bold tracking-wide">140% Overload</span>
+</div>
+<div class="text-[11px] text-danger-red font-semibold mt-0.5">14,000 inbound vs 10,000 cap</div>
+<div class="text-[10px] text-slate-muted font-medium">Sortation Line B slow · 4k shortfall</div>
+</div>
+</div>
+<!-- Selected Hub Isometric Pin (Burnt Orange highlight) -->
+<div class="w-11 h-11 rounded-full bg-peach-light border-2 border-brand-orange flex items-center justify-center shadow-sm">
+<div class="w-6 h-6 rounded-full bg-brand-orange text-white flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[15px]">fmd_bad</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Coastline Subtle Contour -->
+<div class="absolute top-0 right-0 w-80 h-32 bg-workspace/60 border-b border-l border-border-light rounded-bl-[120px] pointer-events-none flex items-center justify-center">
+<span class="text-slate-muted/50 text-[11px] font-semibold uppercase tracking-widest pl-12 -mt-8">Java Sea Coastline</span>
+</div>
+</div>
+<!-- Interactive Timeline & Playback Tray -->
+<div class="p-4 bg-surface-card border-t border-border-light flex flex-col gap-2.5 z-10">
+<div class="flex flex-wrap items-center justify-between gap-3">
+<!-- Period Selector -->
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-2 bg-workspace border border-border-light px-3 py-1.5 rounded-lg text-charcoal text-[13px]">
+<span class="material-symbols-outlined text-[16px] text-brand-orange">schedule</span>
+<span class="font-semibold text-charcoal">Morning rush</span>
+<span class="text-border-light">·</span>
+<span class="text-slate-muted font-normal">07:00 – 11:00</span>
+<span class="material-symbols-outlined text-[16px] text-slate-muted">expand_more</span>
+</div>
+<!-- Live Synchronized Time Badge -->
+<div class="flex items-center gap-2 px-3 py-1.5 bg-workspace border border-border-light rounded-lg">
+<span class="text-[11px] font-semibold text-slate-muted uppercase tracking-wider">Current Time</span>
+<span class="text-[16px] text-charcoal tracking-tight font-bold">09:30:14</span>
+<span class="text-[11px] text-slate-muted font-medium">WIB</span>
+</div>
+</div>
+<!-- Playback Controls -->
+<div class="flex items-center gap-1.5">
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-brand-orange hover:bg-brand-orange-hover text-white text-[13px] font-semibold transition-colors shadow-xs" id="timeline-play-btn">
+<span class="material-symbols-outlined text-[18px]">pause</span>
+<span>Pause</span>
+</button>
+<button class="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-workspace hover:bg-surface-card border border-border-light text-charcoal text-[13px] font-medium transition-colors">
+<span class="material-symbols-outlined text-[16px]">skip_next</span>
+<span>Next tick</span>
+</button>
+<!-- Replay Speed Switcher -->
+<div class="flex items-center bg-workspace border border-border-light rounded-lg p-0.5 ml-1">
+<button class="px-2 py-0.5 rounded text-slate-muted hover:text-charcoal text-[11px] font-medium">1×</button>
+<button class="px-2 py-0.5 rounded text-white bg-brand-orange text-[11px] font-bold shadow-xs">5×</button>
+<button class="px-2 py-0.5 rounded text-slate-muted hover:text-charcoal text-[11px] font-medium">10×</button>
+</div>
+</div>
+</div>
+<!-- Scrubber Bar Track -->
+<div class="flex flex-col gap-1 mt-1">
+<div class="relative w-full h-2.5 bg-workspace border border-border-light rounded-full overflow-visible flex items-center cursor-pointer">
+<!-- Measured Past Range (Burnt Orange) -->
+<div class="h-full bg-brand-orange rounded-l-full" style="width: 62.5%;"></div>
+<!-- Forecast Future Range -->
+<div class="h-full bg-brand-orange/20 rounded-r-full" style="width: 37.5%;"></div>
+<!-- Current Scrubber Needle -->
+<div class="absolute -top-1 w-4.5 h-4.5 bg-white rounded-full shadow-md border-2 border-brand-orange flex items-center justify-center -translate-x-1/2 transition-all" style="left: 62.5%;">
+<div class="w-1.5 h-1.5 bg-brand-orange rounded-full"></div>
+</div>
+</div>
+<!-- Time Markers -->
+<div class="flex justify-between text-[11px] font-medium text-slate-muted mt-0.5">
+<span>07:00 WIB</span>
+<span>08:00</span>
+<span class="text-brand-orange font-bold">09:30 · Measured Cut</span>
+<span>10:00 (Forecast)</span>
+<span>11:00 WIB (Cut-off)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Column 2: Right Inspector & Dispatch Interventions -->
+<div class="lg:col-span-4 flex flex-col gap-4">
+<!-- Selected Node Card: Bekasi Hub -->
+<div class="bg-surface-card rounded-xl p-4 border border-border-light shadow-xs flex flex-col gap-4">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<h2 class="text-[18px] font-bold text-charcoal">Bekasi Hub</h2>
+<span class="text-[11px] text-slate-muted bg-workspace border border-border-light px-1.5 py-0.5 rounded font-mono font-medium">HUB-BKS-02</span>
+</div>
+<span class="text-[12px] text-slate-muted mt-0.5">Eastern Linehaul Gateway</span>
+</div>
+<span class="flex items-center gap-1 px-2 py-0.5 rounded-full bg-danger-bg border border-danger-red/25 text-danger-red text-[11px] font-semibold">
+<span class="material-symbols-outlined text-[14px]">report_problem</span>
+<span>Capacity Loss</span>
+</span>
+</div>
+<!-- Issue Summary Box -->
+<div class="bg-danger-bg/50 border border-danger-red/20 rounded-lg p-3 text-[13px] text-charcoal flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-danger-red text-[12px] font-bold">
+<span class="material-symbols-outlined text-[16px]">info</span>
+<span>Bottleneck Detected</span>
+</div>
+<p class="leading-relaxed text-slate-muted text-[13px]">
+            Sorting capacity reduced from <strong class="text-charcoal font-semibold">16,000</strong> to <strong class="text-charcoal font-semibold">10,000</strong> parcels due to mechanical sortation slowdown on Line B. Current morning plan assigns <strong class="text-charcoal font-semibold">14,000</strong> parcels.
+          </p>
+</div>
+<!-- Unmitigated Shortfall Callout -->
+<div class="flex items-center justify-between p-3 bg-workspace border border-border-light rounded-lg">
+<div class="flex flex-col">
+<span class="text-[11px] font-semibold text-slate-muted uppercase tracking-wider">Unmitigated Shortfall</span>
+<span class="text-[20px] text-danger-red font-bold">4,000 parcels</span>
+</div>
+<a class="text-brand-orange hover:text-brand-orange-hover text-[12px] font-semibold flex items-center gap-0.5" href="#">
+            Review Actions
+            <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Bekasi Telemetry Metrics List -->
+<div class="flex flex-col gap-1 text-[13px]">
+<div class="flex items-center justify-between py-1.5 border-b border-border-light">
+<span class="text-slate-muted">Usable sorter throughput</span>
+<span class="font-semibold text-charcoal">10,000 parcels</span>
+</div>
+<div class="flex items-center justify-between py-1.5 border-b border-border-light">
+<span class="text-slate-muted">Inbound linehaul load</span>
+<span class="font-semibold text-danger-red">14,000 parcels (140%)</span>
+</div>
+<div class="flex items-center justify-between py-1.5 border-b border-border-light">
+<span class="text-slate-muted">Dispatch cut-off window</span>
+<span class="font-semibold text-charcoal">11:00 WIB (90 mins left)</span>
+</div>
+<div class="flex items-center justify-between py-1.5">
+<span class="text-slate-muted">Current dwell time</span>
+<span class="font-semibold text-warning-amber">38 mins (+14 min drift)</span>
+</div>
+</div>
+</div>
+<!-- Scenario Rebalance & Controls Accordion Drawer -->
+<div class="bg-surface-card rounded-xl p-4 border border-border-light shadow-xs flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-orange text-[20px]">tune</span>
+<span class="text-[16px] font-bold text-charcoal">Live Scenario Tuning</span>
+</div>
+<span class="text-[11px] font-semibold text-slate-muted bg-workspace px-2 py-0.5 rounded border border-border-light">Simulated Run</span>
+</div>
+<!-- Slider 1: Demand Surge -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center text-[13px]">
+<span class="text-charcoal font-medium">Demand Surge Volume</span>
+<span class="font-bold text-brand-orange text-[13px]">100,000 pkgs</span>
+</div>
+<input class="w-full h-1.5 bg-workspace border border-border-light rounded-lg appearance-none cursor-pointer accent-brand-orange" max="140000" min="60000" step="5000" type="range" value="100000"/>
+<div class="flex justify-between text-[11px] text-slate-muted font-medium">
+<span>60k baseline</span>
+<span>100k campaign</span>
+<span>140k peak</span>
+</div>
+</div>
+<!-- Slider 2: Target Internal Fleet Share -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center text-[13px]">
+<span class="text-charcoal font-medium">Target Internal Fleet Share</span>
+<span class="font-bold text-brand-orange text-[13px]">65% NexExpress</span>
+</div>
+<input class="w-full h-1.5 bg-workspace border border-border-light rounded-lg appearance-none cursor-pointer accent-brand-orange" max="85" min="40" step="5" type="range" value="65"/>
+<div class="flex justify-between text-[11px] text-slate-muted font-medium">
+<span>40% (Max 3PL)</span>
+<span>65% (Optimal)</span>
+<span>85% (Max Fleet)</span>
+</div>
+</div>
+<!-- Regime Selector -->
+<div class="flex flex-col gap-1.5">
+<label class="text-[11px] font-semibold text-slate-muted uppercase tracking-wider">Sortation Workshift Regime</label>
+<div class="grid grid-cols-2 gap-2">
+<button class="px-3 py-2 rounded-lg bg-peach-light text-brand-orange text-[13px] font-bold text-center border-2 border-brand-orange">
+              Existing network
+            </button>
+<button class="px-3 py-2 rounded-lg bg-workspace text-slate-muted hover:text-charcoal border border-border-light text-[13px] font-medium text-center">
+              + Add shift (OT)
+            </button>
+</div>
+</div>
+<!-- Action CTAs -->
+<div class="flex flex-col gap-2 pt-1">
+<button class="w-full py-2.5 px-4 rounded-lg bg-brand-orange hover:bg-brand-orange-hover text-white text-[13px] font-bold flex items-center justify-center gap-2 transition-colors shadow-xs">
+<span class="material-symbols-outlined text-[18px]">alt_route</span>
+<span>Simulate Local Rebalance</span>
+</button>
+<button class="w-full py-2 px-4 rounded-lg bg-workspace hover:bg-surface-card border border-border-light text-charcoal text-[13px] font-semibold flex items-center justify-center gap-1.5 transition-colors">
+<span class="material-symbols-outlined text-[18px]">science</span>
+<span>Open in Policy Lab</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple view switcher interactions
+  const btn3D = document.getElementById('btn-mode-3d');
+  const btn2D = document.getElementById('btn-mode-2d');
+  const btnElev = document.getElementById('btn-mode-elev');
+  const viewBtns = [btn3D, btn2D, btnElev];
+
+  viewBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      viewBtns.forEach(b => {
+        b.className = "px-3 py-1 rounded-md text-slate-muted hover:text-charcoal font-medium text-[13px] transition-all";
+      });
+      btn.className = "px-3 py-1 rounded-md text-white bg-brand-orange hover:bg-brand-orange-hover font-semibold text-[13px] transition-all shadow-xs";
+    });
+  });
+
+  // Timeline pause/play toggle
+  const playBtn = document.getElementById('timeline-play-btn');
+  let isPlaying = true;
+  playBtn.addEventListener('click', () => {
+    isPlaying = !isPlaying;
+    const icon = playBtn.querySelector('.material-symbols-outlined');
+    const label = playBtn.querySelector('span:not(.material-symbols-outlined)');
+    if (isPlaying) {
+      icon.textContent = 'pause';
+      label.textContent = 'Pause';
+      playBtn.className = "flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-brand-orange hover:bg-brand-orange-hover text-white text-[13px] font-semibold transition-colors shadow-xs";
+    } else {
+      icon.textContent = 'play_arrow';
+      label.textContent = 'Play';
+      playBtn.className = "flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-workspace hover:bg-surface-card border border-border-light text-charcoal text-[13px] font-medium transition-colors";
+    }
+  });
+</script></div></main></div></body></html>

@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nexora payload envelope",
+  "type": "object",
+  "required": [
+    "schema_version"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    }
+  },
+  "$defs": {
+    "policy": {
+      "type": "object",
+      "required": [
+        "policy_id",
+        "package",
+        "target",
+        "buffer",
+        "expected_npv_tn",
+        "realised_internal_share"
+      ],
+      "properties": {
+        "policy_id": {
+          "type": "string",
+          "pattern": "^P_"
+        },
+        "package": {
+          "enum": [
+            "current",
+            "rules",
+            "software",
+            "targeted",
+            "large"
+          ]
+        },
+        "target": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "buffer": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "expected_npv_tn": {
+          "type": "number"
+        },
+        "realised_internal_share": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "heatmap_cell": {
+      "type": "object",
+      "required": [
+        "cell_id",
+        "target_share",
+        "demand_axis",
+        "expected_y5_ebit_tn",
+        "realised_internal_share",
+        "feasible",
+        "reasons"
+      ],
+      "properties": {
+        "cell_id": {
+          "type": "string"
+        },
+        "target_share": {
+          "type": "number"
+        },
+        "demand_axis": {
+          "type": "number"
+        },
+        "expected_y5_ebit_tn": {
+          "type": "number"
+        },
+        "realised_internal_share": {
+          "type": "number"
+        },
+        "feasible": {
+          "type": "boolean"
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "lane": {
+      "type": "object",
+      "required": [
+        "lane_id",
+        "hub_id",
+        "zone_id",
+        "corridor_network_km",
+        "reachable",
+        "distance_status"
+      ],
+      "properties": {
+        "lane_id": {
+          "type": "string"
+        },
+        "hub_id": {
+          "type": "string"
+        },
+        "zone_id": {
+          "type": "string"
+        },
+        "corridor_network_km": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "reachable": {
+          "type": "boolean"
+        },
+        "distance_status": {
+          "type": "string"
+        },
+        "local_access_distance_km": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    }
+  },
+  "x-units": {
+    "national_volume": "billion_parcels_per_year",
+    "national_money": "IDR_trillion",
+    "regional_volume": "parcels_per_day",
+    "regional_money": "IDR_per_day",
+    "incident_volume": "parcels_per_four_hour_window",
+    "incident_money": "IDR_per_four_hour_window",
+    "coordinates": "longitude_latitude_degrees"
+  },
+  "x-null-semantics": "unknown, unreachable or unsupported; never coerce to zero"
+}

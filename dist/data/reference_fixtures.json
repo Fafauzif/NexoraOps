@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "tolerances": {
+    "parcel_bn": 1e-09,
+    "money_tn": 1e-08,
+    "ratio": 1e-08,
+    "regional_idr": 1.0
+  },
+  "fixtures": [
+    {
+      "fixture_id": "F_BASE_2025",
+      "input": {
+        "inflation": 0,
+        "demand_axis": 1,
+        "package": "current"
+      },
+      "expected": {
+        "annual_demand_bn": 2,
+        "internal_bn": 1,
+        "external_bn": 1,
+        "total_cost_tn": 20,
+        "blended_cost_idr": 10000
+      }
+    },
+    {
+      "fixture_id": "F_CENTRAL_RECOMMENDED",
+      "input": {
+        "package": "software",
+        "target": 0.7,
+        "buffer": 0.88,
+        "world": "central",
+        "discount_rate": 0.14,
+        "horizon": 5
+      },
+      "expected": {
+        "costs_tn": [
+          20.34192842374988,
+          20.699929539290697,
+          21.174747843902303,
+          21.70411653999986,
+          22.246719453499853
+        ],
+        "internal_share": [
+          0.5232837550000001,
+          0.5414802200000002,
+          0.5471620000000001,
+          0.5471620000000001,
+          0.5471620000000001
+        ],
+        "cashflows_tn": [
+          -0.1818,
+          0.08144582947509302,
+          0.2537049593532561,
+          0.29309043175619925,
+          0.30017019255010147,
+          0.21675194736385622
+        ],
+        "npv_tn": 0.5729881514699461,
+        "irr": 0.925542833098232,
+        "group_profit_tn": [
+          4.57557157625012,
+          4.2550704607093035,
+          3.7802521560976974,
+          3.250883460000141,
+          2.7195305465001467
+        ],
+        "positive_growth_all_years": false
+      }
+    },
+    {
+      "fixture_id": "F_INCIDENT",
+      "input": {
+        "scenario_id": "S_HUB_CAW_4H_LOSS"
+      },
+      "expected": {
+        "base_window_cost_idr": 3288861362.235852,
+        "actions": [
+          {
+            "action_id": "A_FREEZE",
+            "cost_idr": 3671592955.7668123,
+            "deferred_parcels": 35200.0
+          },
+          {
+            "action_id": "A_REALLOCATE",
+            "cost_idr": 3393796989.4936924,
+            "deferred_parcels": 0.0
+          },
+          {
+            "action_id": "A_EMERGENCY",
+            "cost_idr": 3393796989.493693,
+            "deferred_parcels": 0.0
+          }
+        ]
+      }
+    }
+  ]
+}

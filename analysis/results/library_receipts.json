@@ -1,0 +1,8 @@
+{
+  "workbook": "libfile_82b1b764352c81919b91160da2f65237",
+  "findings": "libfile_494ad300e0148191acf023c2652a201c",
+  "prototype_handoff": "libfile_d7d37613467881919ccf4790b50c1d5c",
+  "master_context_pack": "libfile_d29c3149f99c81918926a531c706e060",
+  "initial_archive_checkpoint": "libfile_110728a5812c819186f94be1d79c3128",
+  "final_archive": "Use the final ZIP delivered with the response; its outer artifact identity is assigned after packaging. All member hashes and the final standalone master pack are included."
+}

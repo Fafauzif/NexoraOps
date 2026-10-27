@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "id": "CASE",
+      "category": "CASE FACT",
+      "title": "IBSC 2026 Preliminary Casebook \u2014 Nexora",
+      "date": "2026",
+      "url": null,
+      "access": "Original PDF supplied; Nexora text checked against the prior case extract.",
+      "scope": "Fictional Nexora, Indonesia; pp.7\u201312",
+      "observation": "2bn parcels; 50% internal; Rp8,000/Rp12,000; Rp5tn operating profit; see full brief.",
+      "license": "User-supplied casebook; original copyright retained.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_GEOAI",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "opengeos. geoai-skills",
+      "date": "main inspected 2026-10-27; commit not retrievable",
+      "url": "https://github.com/opengeos/geoai-skills",
+      "access": "README and overture-data instructions inspected through research service; raw endpoint403; plugin NOT executed.",
+      "scope": "Claude Code plugin using geoai-py",
+      "observation": "Python3.10+, geoai-py and optional extras; mapped features before object detection.",
+      "license": "MIT for repository code.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_OVERTURE",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "Overture Maps Foundation. Transportation Guide",
+      "date": "2026-10-21.0 release shown in documentation",
+      "url": "https://docs.overturemaps.org/guides/transportation/",
+      "access": "Documentation inspected; NO Overture dataset downloaded.",
+      "scope": "Global segment/connector schema, access and direction rules",
+      "observation": "Topology uses connectors; conditional restrictions cannot be inferred from a line crossing.",
+      "license": "Dataset-specific attribution/licensing; documentation is not a data acquisition.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_BPJT",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "BPJT. Dirgahayu Kota Jakarta Ke-496, ini dia beragam jalan tol yang ada di Jakarta",
+      "date": "2023-06-22",
+      "url": "https://bpjt.pu.go.id/dirgahayu-kota-jakarta-ke-496-ini-dia-beragam-jalan-tol-yang-ada-di-jakarta/",
+      "access": "Page text inspected through research service.",
+      "scope": "Greater Jakarta toll-road concession lengths, km; NOT street geometry or traffic",
+      "observation": "Jakarta\u2013Tangerang33; CTC23.5; eastern inner ring27.05; W2 North7.87; JORR South14.25; Pondok Aren5.55; Becakayu15.28; Desari12.1.",
+      "license": "Government factual attributes attributed; original page not redistributed wholesale.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_KEPPRES",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "Republic of Indonesia. Keputusan Presiden Nomor38 Tahun1981",
+      "date": "1981-08-15",
+      "url": "https://bphn.go.id/data/documents/81kp038.pdf",
+      "access": "Research service PDF text inspected, Appendix p.3; no local PDF acquired.",
+      "scope": "Historical Cawang\u2013Tomang route,16km",
+      "observation": "Historical alignment; current equivalence is an explicit assumption.",
+      "license": "Indonesian legal text; source attributed.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_BPS_DKI",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "BPS DKI Jakarta. Population by regency/municipality,2025",
+      "date": "2025 table",
+      "url": "https://jakarta.bps.go.id/en/statistics-table/3/V1ZSbFRUY3lTbFpEYTNsVWNGcDZjek53YkhsNFFUMDkjMyMzMTAw/jumlah-penduduk--laju-pertumbuhan-penduduk--distribusi-persentase-penduduk--kepadatan-penduduk--rasio-jenis-kelamin-penduduk-menurut-kabupaten-kota-di-provinsi-dki-jakarta.html?year=2025",
+      "access": "Search-index table observations only; direct page403.",
+      "scope": "Projected resident population, persons; not customers/orders",
+      "observation": "East3,085,058; West2,487,199; South2,219,220. Used as broad catchment proxies.",
+      "license": "BPS attribution; no boundaries/raster downloaded.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_BPS_JABAR",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "BPS Jawa Barat. Population projections by sex and regency/municipality",
+      "date": "2025 table",
+      "url": "https://jabar.bps.go.id/id/statistics-table/2/OTY3IzI%3D/proyeksi-penduduk-di-provinsi-jawa-barat-menurut-jenis-kelamin-dan-kabupaten-kota.html",
+      "access": "Search-index observations only; direct page403.",
+      "scope": "Projected resident population, persons",
+      "observation": "Depok2,167,961; Bekasi city approximately2,648,300. City and regency not combined.",
+      "license": "BPS attribution.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_DJP",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "Direktorat Jenderal Pajak. Income Tax Calculation Mechanism Entity",
+      "date": "Current page retrieved2026-10-27",
+      "url": "https://www.pajak.go.id/id/node/80250",
+      "access": "Official page inspected.",
+      "scope": "Indonesia corporate income tax; company-specific relief unknown",
+      "observation": "General corporate rate22%; listed-company19% is conditional and NOT assumed.",
+      "license": "Source attributed; model tax treatment remains an assumption.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_BI",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "Bank Indonesia. BI-Rate tetap5,75%: memperkuat stabilitas, mendorong pertumbuhan ekonomi",
+      "date": "2026-10-21",
+      "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2823326.aspx",
+      "access": "Official current release verified through both research engines.",
+      "scope": "IDR policy rate and inflation target",
+      "observation": "BI-Rate5.75%; inflation target2.5\u00b11% for2026/2027. Policy rate is not project WACC.",
+      "license": "Official release attributed.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_ADB",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "Asian Development Bank. AsianBondsOnline: Indonesia Market Watch",
+      "date": "Close2026-10-23",
+      "url": "https://asianbondsonline.adb.org/indonesia/",
+      "access": "Primary market-data portal verified through both research engines.",
+      "scope": "Indonesia nominal government bond yields",
+      "observation": "5yr7.245%;10yr7.446%. Risk-premium spread to project discount rate is authored.",
+      "license": "Factual snapshot with attribution; no proprietary feed redistributed.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_JT",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "J&T Express. Reports18.5% YoY revenue growth forFY2025",
+      "date": "2026-04-01 publication; results announced2026-03-30",
+      "url": "https://www.jtexpress.sg/insights/press-jt-express-reports-18.5-yoy-growth?hs_amp=true",
+      "access": "Operator page inspected.",
+      "scope": "SEA multi-country network; own accounting and franchise scope",
+      "observation": "SEA parcel volume7.66bn, growth67.8%; cost/parcelUS$0.48. Plausibility evidence only; no Nexora coefficient imported.",
+      "license": "Operator release attributed.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_ARCGIS",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "DKI Jakarta. Peta Jalan DKI FeatureServer",
+      "date": "Metadata describes2022 base map",
+      "url": "https://gis-dpmptsp.jakarta.go.id/arcgis/rest/services/Hosted/Peta_Jalan_DKI/FeatureServer/1",
+      "access": "Metadata found in search; feature query inaccessible; cloud browser environment denied URL. NO features downloaded.",
+      "scope": "DKI road linework metadata; outside-city coverage not established",
+      "observation": "Potential official GIS source; catalogued only.",
+      "license": "Redistribution terms not verified; no source data redistributed.",
+      "retrieved": "2026-10-27"
+    },
+    {
+      "id": "SRC_OSM",
+      "category": "EXTERNAL OBSERVATION",
+      "title": "OpenStreetMap contributors. Overpass/API endpoints",
+      "date": "Attempt2026-10-27",
+      "url": "https://overpass-api.de/api/interpreter",
+      "access": "Direct API403; research-service API queries inaccessible. NO road extract acquired.",
+      "scope": "Requested Greater Jakarta bounding box and buffer",
+      "observation": "Optional retrieval/preparation script supplied; not used for headline routing.",
+      "license": "ODbL1.0 if subsequently downloaded. https://www.openstreetmap.org/copyright",
+      "retrieved": "2026-10-27"
+    }
+  ]
+}
